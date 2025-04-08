@@ -32,7 +32,9 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
-    "sphinx.ext.intersphinx"
+    "sphinx.ext.intersphinx",
+    "sphinx_copybutton",
+    "sphinx_design"
 ]
 
 intersphinx_mapping = {
@@ -45,7 +47,7 @@ intersphinx_disabled_domains = ["std"]
 templates_path = ["_templates"]
 
 # -- Options for EPUB output
-epub_show_urls = "footnote"
+# epub_show_urls = "footnote"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -56,9 +58,15 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+
 html_theme = "sphinx_rtd_theme"
-#html_theme = "renku"
+
+html_theme_options = {
+    "language_selector": False,  # Hide language dropdown
+    "version_selector": False,   # Hide version selector (if applicable)
+}
+
+pygments_style = "friendly"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
