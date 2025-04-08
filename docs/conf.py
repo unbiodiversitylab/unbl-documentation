@@ -10,15 +10,17 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
+import datetime
 # sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = "UNBL Online Documentation"
-copyright = "2023, UNDP & UNEP-WCMC"
+current_year = datetime.datetime.now().year
+copyright = f"{current_year}, UNDP & UNEP-WCMC"
 author = "UNDP and UNEP-WCMC"
 
 
@@ -30,7 +32,9 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
-    "sphinx.ext.intersphinx"
+    "sphinx.ext.intersphinx",
+    "sphinx_copybutton",
+    "sphinx_design"
 ]
 
 intersphinx_mapping = {
@@ -43,7 +47,7 @@ intersphinx_disabled_domains = ["std"]
 templates_path = ["_templates"]
 
 # -- Options for EPUB output
-epub_show_urls = "footnote"
+# epub_show_urls = "footnote"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -54,8 +58,15 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+
 html_theme = "sphinx_rtd_theme"
+
+html_theme_options = {
+    "language_selector": False,  # Hide language dropdown
+    "version_selector": False,   # Hide version selector (if applicable)
+}
+
+pygments_style = "friendly"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
