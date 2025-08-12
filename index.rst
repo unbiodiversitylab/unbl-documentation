@@ -4,9 +4,12 @@ UNBL Documentation
 
 Welcome to the UN Biodiversity Lab (UNBL) documentation. This guide will help you navigate and use the platform effectively.
 
-.. note:: 
+.. image:: /images/static/unbl-landing-page.png
+   :align: center
 
-   This documentation is continuously updated. For the latest features and updates, visit the `UNBL platform <https://unbiodiversitylab.org>`_.
+.. .. note:: 
+
+..    This documentation is continuously updated. For the latest features and updates, visit the `UNBL platform <https://unbiodiversitylab.org>`_.
 
 Getting Started
 ===============
