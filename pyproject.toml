@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unbl-documentation"
+description = "UN Biodiversity Lab Documentation"
+version = "2.0.0"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[project.urls]
+Homepage = "https://unbiodiversitylab.org"
+Documentation = "https://unbl-documentation.readthedocs.io"
+Repository = "https://github.com/UNDP-UNBL/unbl-documentation"
+Issues = "https://github.com/UNDP-UNBL/unbl-documentation/issues"

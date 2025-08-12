@@ -3,7 +3,7 @@ License
 
 Data
 
-UNBL is not the producer of the data in itself and therefore does not directly license the dataset used on this platform. We provide access to data per the conditions of use posed by the source datasets themselves. Licensing information for each layer can be found on each layer’s information page.
+UNBL is not the producer of the data it displays does not directly license the datasets used on this platform. We provide access to data subject to the conditions of use of the source datasets themselves. Licensing information for each layer can be found on each layer’s information page.
 
 Digital public good (DPG) open data - All datasets available under the “DPG” recognition are available under one of the following licenses:
 
