@@ -176,8 +176,8 @@ Community & Support
         Step-by-step guides
 
     .. grid-item-card:: 💬 Get Help
-        :link: #support
-        :link-type: ref
+        :link: docs/support
+        :link-type: doc
 
         Contact support and community
 
