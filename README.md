@@ -1,6 +1,6 @@
 # UNBL Documentation
 
-[![Placeholder for gh-pages badge](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Deploy MkDocs to GitHub Pages](https://github.com/UNDP-UNBL/unbl-documentation/actions/workflows/deploy.yml/badge.svg)](https://github.com/UNDP-UNBL/unbl-documentation/actions/workflows/deploy.yml)
 
 This repository contains the documentation for the **UN Biodiversity Lab (UNBL)**, built with Sphinx and available in multiple languages.
 
