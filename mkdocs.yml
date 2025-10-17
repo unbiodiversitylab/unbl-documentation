@@ -1,0 +1,224 @@
+site_name: UNBL Online Documentation
+site_description: User's Guide for the UN Biodiversity Lab
+site_author: UN Biodiversity Lab Team
+site_url: https://undp-unbl.github.io/unbl-documentation/
+copyright: Copyright &copy; 2025 UNDP & UNEP-WCMC
+
+# Repository
+repo_name: UNDP-UNBL/unbl-documentation
+repo_url: https://github.com/UNDP-UNBL/unbl-documentation
+edit_uri: edit/main/docs/
+
+# Theme Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Lato
+    code: Inconsolata
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  logo: assets/images/UNBL_FULL_WEBSITE.png
+  favicon: assets/images/UNBL_FULL_WEBSITE.png
+
+# Plugins
+plugins:
+  - search:
+      lang:
+        - en
+        - es
+        - fr
+        - pt
+        - ru
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+        - locale: pt
+          name: Português
+          build: true
+        - locale: ru
+          name: Русский
+          build: true        
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+  - caption:
+
+# Markdown Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 4
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
+
+# Extra CSS and JavaScript
+extra_css:
+  - assets/css/unbl-custom.css
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Extra Configuration
+extra:
+  version:
+    provider: mike
+    default: latest
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UNDP-UNBL
+      name: UNDP-UNBL on GitHub
+    - icon: fontawesome/solid/globe
+      link: https://www.unbiodiversitylab.org
+      name: UN Biodiversity Lab
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            <a href="https://github.com/UNDP-UNBL/unbl-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
+
+# Navigation Structure
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Introduction: unbl/introduction.md
+      - Registration and Login: unbl/1_register.md
+      - Managing Your Account: unbl/2_manage.md
+      - Navigating the Platform: unbl/3_navigate.md
+      - Changing Language: unbl/4_language.md
+  - Using the Map:
+      - Adjusting the Map View: unbl/5_adjust_mapview.md
+      - Managing Labels and Basemaps: unbl/6_manage_labels_and_basemaps.md
+      - Finding a Country: unbl/7_find_country.md
+      - Dynamic Metrics Overview: unbl/8_dynamic_metrics1.md
+      - Dynamic Metrics Details: unbl/9_dynamic_metrics2.md
+  - Working with Data:
+      - Finding Layers: unbl/10_find_layers.md
+      - Finding DPG Layers: unbl/11_find_dpg_layers.md
+      - Finding Layer Information: unbl/12_find_layer_info.md
+      - Customizing the Map View: unbl/13_customize_mapview.md
+      - Viewing Time Series Data: unbl/14_time_series_data.md
+      - Sharing Data: unbl/15_share_data.md
+      - Clipping and Exporting: unbl/16_clip_export.md
+      - Downloading Global Data: unbl/17_download_global_data.md
+      - Creating Maps for Reports: unbl/18_maps_for_reports.md
+      - Suggesting Data: unbl/19_suggest_data.md
+      - Private Workspaces: unbl/20_private_workspaces.md
+  - Reference:
+      - Data List: unbl/data_list.md
+      - Tutorials: unbl/tutorials.md
+      - Glossary: unbl/glossary.md
+      - Troubleshooting: unbl/troubleshooting.md
+      - Support: unbl/support.md
+  - About:
+      - Appendix: unbl/appendix.md
+      - Contributing: unbl/contributing.md
+      - Acknowledgments: unbl/acknowledgments.md
+      - License: unbl/license.md
+  
