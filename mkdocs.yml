@@ -186,39 +186,29 @@ extra:
 # Navigation Structure
 nav:
   - Home: index.md
-  - Getting Started:
-      - Introduction: unbl/introduction.md
-      - Registration and Login: unbl/1_register.md
-      - Managing Your Account: unbl/2_manage.md
-      - Navigating the Platform: unbl/3_navigate.md
-      - Changing Language: unbl/4_language.md
-  - Using the Map:
-      - Adjusting the Map View: unbl/5_adjust_mapview.md
-      - Managing Labels and Basemaps: unbl/6_manage_labels_and_basemaps.md
-      - Finding a Country: unbl/7_find_country.md
-      - Dynamic Metrics Overview: unbl/8_dynamic_metrics1.md
-      - Dynamic Metrics Details: unbl/9_dynamic_metrics2.md
-  - Working with Data:
-      - Finding Layers: unbl/10_find_layers.md
-      - Finding DPG Layers: unbl/11_find_dpg_layers.md
-      - Finding Layer Information: unbl/12_find_layer_info.md
-      - Customizing the Map View: unbl/13_customize_mapview.md
-      - Viewing Time Series Data: unbl/14_time_series_data.md
-      - Sharing Data: unbl/15_share_data.md
-      - Clipping and Exporting: unbl/16_clip_export.md
-      - Downloading Global Data: unbl/17_download_global_data.md
-      - Creating Maps for Reports: unbl/18_maps_for_reports.md
-      - Suggesting Data: unbl/19_suggest_data.md
-      - Private Workspaces: unbl/20_private_workspaces.md
-  - Reference:
-      - Data List: unbl/data_list.md
-      - Tutorials: unbl/tutorials.md
-      - Glossary: unbl/glossary.md
-      - Troubleshooting: unbl/troubleshooting.md
-      - Support: unbl/support.md
-  - About:
-      - Appendix: unbl/appendix.md
-      - Contributing: unbl/contributing.md
-      - Acknowledgments: unbl/acknowledgments.md
-      - License: unbl/license.md
+  - UNBL Public Platform: 
+      - unbl-public-platform/index.md
+      - How do I register or log-in?: unbl-public-platform/1_register.md
+      - How do I manage my account?: unbl-public-platform/2_manage.md
+      - How do I navigate between the UN Biodiversity Lab website and map app?: unbl-public-platform/3_navigate.md
+      - How do I change the language?: unbl-public-platform/4_language.md
+      - How do I adjust my map view?: unbl-public-platform/5_adjust_mapview.md
+      - How do I add/remove place labels, roads, and satellite view from the base map?: unbl-public-platform/6_manage_labels_and_basemaps.md
+      - How do I find my country?: unbl-public-platform/7_find_country.md
+      - What dynamic metrics are available for my country?: unbl-public-platform/8_dynamic_metrics1.md
+      - How do I find additional datasets for my country?: unbl-public-platform/10_find_layers.md
+      - How do I find the Digital Public Good (DPG) open datasets?: unbl-public-platform/11_find_dpg_layers.md
+      - How do I find more information about each dataset?: unbl-public-platform/12_find_layer_info.md
+      - How do I customize the dataset views?: unbl-public-platform/13_customize_mapview.md
+      - What options do I have to visualize time series datasets?: unbl-public-platform/14_time_series_data.md
+      - How do I share a dataset?: unbl-public-platform/15_share_data.md
+      - How do I clip and download datasets for my country?: unbl-public-platform/16_clip_export.md
+      - How do I download unclipped global data datasets?: unbl-public-platform/17_download_global_data.md
+      - How do I make a map for inclusion in reports and communication products?: unbl-public-platform/18_maps_for_reports.md
+      - How do I suggest more data for inclusion in the UN Biodiversity Lab?: unbl-public-platform/19_suggest_data.md
+      - What are UNBL workspaces? How do I request a UNBL workspace?: unbl-public-platform/20_private_workspaces.md
+      - What if my question wasn’t answered?: unbl-public-platform/troubleshooting.md
+  - UNBL Workspaces: unbl-workspaces/index.md
+  - ELSA Integrated Spatial Planning Tool:
+      - elsa/index.md
   
