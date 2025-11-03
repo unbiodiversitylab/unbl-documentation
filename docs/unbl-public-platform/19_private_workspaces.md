@@ -12,4 +12,4 @@ UNBL workspaces provide a secure work area where data on any scale can be added 
 
 UNBL workspaces are available to all non-commercial users. To request a workspace please navigate to the [UN Biodiversity Lab workspaces page](https://unbiodiversitylab.org/en/unbl-workspaces/) and fill out the form.
 
-You can access our user guide on UNBL workspaces [here](unbl-workspaces/index.md).
+You can access our user guide on UNBL workspaces [here](../unbl-workspaces/index.md).

@@ -45,8 +45,8 @@ To view these metrics on UN Biodiversity Lab:
 
 	![](images/en/image035.png)
 	
-4.  Click on the <img src="images/icons/info-icon.png" alt="" style="width: 1em; height: 1em; vertical-align: middle;"> icon to view dataset info. The info pages provide a brief description of the data, related paper to read, raw data to download (if freely available) and license specifications.  
+4.  Click on the ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to view dataset info. The info pages provide a brief description of the data, related paper to read, raw data to download (if freely available) and license specifications.  
 
-5.	To download summary data for the metric in .csv or .json format, click on the arrow icon ![](images/icons/download-icon.png). You can also download the data from source links on the datasets’ info pages.  
+5.	To download summary data for the metric in .csv or .json format, click on the arrow icon ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. You can also download the data from source links on the datasets’ info pages.  
 
 	![](images/en/image041.png)

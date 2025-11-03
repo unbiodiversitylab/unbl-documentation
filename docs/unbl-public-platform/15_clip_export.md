@@ -13,11 +13,13 @@ To clip a dataset to your area of interest and download:
 3.  Type the name or select the data you want to download. If the data contains layers of multiple years, select the year you want to download. You have the option of downloading clipped layers in a GeoTIFF raster format or a PNG image file format.
 
 4. Click download.
-	a) The selected data source will be clipped to the bounding box around the country.
+
+	- The selected data source will be clipped to the bounding box around the country.
 	
-	b) There is a small buffer added to the bounding box, which will slightly enlarge the area of the clipped raster. This helps to ensure that any incongruities between the national boundary used in UNBL and the official national boundary file you may wish to use do not result in loss of data. This assumes that differences are potentially small. If this is not the case, please contact us at support@unbiodiversitylab.org for assistance.
+	- There is a small buffer added to the bounding box, which will slightly enlarge the area of the clipped raster. This helps to ensure that any incongruities between the national boundary used in UNBL and the official national boundary file you may wish to use do not result in loss of data. This assumes that differences are potentially small. If this is not the case, please contact us at <support@unbiodiversitylab.org> for assistance.
 	
-	c) *Note: if you are downloading GeoTIFFs, this is raw data and will not include styling information*.
+	!!!Note
+		If you are downloading GeoTIFFs, this is raw data and will not include styling information.
 
 	![](images/en/image075.png)
 	

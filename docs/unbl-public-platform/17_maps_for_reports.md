@@ -6,13 +6,13 @@
 
 3. For inclusion in formal reports or publications, please ensure you meet mapping standards:
 
-- Maps should be clear and concise.
+	- Maps should be clear and concise.
    
-- Important text on maps should be clear and legible (e.g., cities, place names, legend items, etc.).
+	- Important text on maps should be clear and legible (e.g., cities, place names, legend items, etc.).
    
-- The map should include basic mapping elements, including: a legend of relevant data layers and scale bar.
+	- The map should include basic mapping elements, including: a legend of relevant data layers and scale bar.
    
-- The map must provide correct attribution(s) and citation(s) for the data source(s) used in its creation, either on the map itself or in a caption describing the map, e.g.:
+	- The map must provide correct attribution(s) and citation(s) for the data source(s) used in its creation, either on the map itself or in a caption describing the map, e.g.:
 
 *if within the map*:
 
