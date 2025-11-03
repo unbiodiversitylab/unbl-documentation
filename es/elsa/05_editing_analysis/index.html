@@ -1,0 +1,1849 @@
+<!DOCTYPE html><html lang="es" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="User's Guide for the UN Biodiversity Lab">
+      
+      
+        <meta name="author" content="UN Biodiversity Lab Team">
+      
+      
+        <link rel="canonical" href="https://undp-unbl.github.io/unbl-documentation/es/elsa/05_editing_analysis/">
+      
+      
+        <link rel="prev" href="../04_creating_analysis/">
+      
+      
+        <link rel="next" href="../06_running_optimization/">
+      
+      
+      <link rel="icon" href="../../../assets/images/UNBL_FULL_WEBSITE.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Editing an Analysis - UNBL Online Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CInconsolata:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Inconsolata"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/unbl-custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+    
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#edicion-de-una-ejecucion-de-analisis-elsa" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../" title="UNBL Online Documentation" class="md-header__button md-logo" aria-label="UNBL Online Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/images/UNBL_FULL_WEBSITE.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UNBL Online Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Editing an Analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../elsa/05_editing_analysis/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../fr/elsa/05_editing_analysis/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../pt/elsa/05_editing_analysis/" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../ru/elsa/05_editing_analysis/" hreflang="ru" class="md-select__link">
+              Русский
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartir" aria-label="Compartir" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UNDP-UNBL/unbl-documentation" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    UNDP-UNBL/unbl-documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../unbl-public-platform/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  UNBL Public Platform
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../unbl-workspaces/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  UNBL Workspaces
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  ELSA Integrated Spatial Planning Tool
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="UNBL Online Documentation" class="md-nav__button md-logo" aria-label="UNBL Online Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/images/UNBL_FULL_WEBSITE.png" alt="logo">
+
+    </a>
+    UNBL Online Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UNDP-UNBL/unbl-documentation" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    UNDP-UNBL/unbl-documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../unbl-public-platform/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    UNBL Public Platform
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            UNBL Public Platform
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/1_register/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I register or log-in?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/2_manage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I manage my account?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/3_navigate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I navigate between the UN Biodiversity Lab website and map app?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/4_language/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I change the language?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/5_adjust_mapview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I adjust my map view?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/6_manage_labels_and_basemaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I add/remove place labels, roads, and satellite view from the base map?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/7_find_country/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I find my country?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/8_dynamic_metrics1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What dynamic metrics are available for my country?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/9_find_layers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I find additional datasets for my country?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/10_find_dpg_layers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I find the Digital Public Good (DPG) open datasets?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/11_find_layer_info/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I find more information about each dataset?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/12_customize_mapview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I customize the dataset views?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/13_time_series_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What options do I have to visualize time series datasets?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/14_share_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I share a dataset?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/15_clip_export/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I clip and download datasets for my country?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/16_download_global_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I download unclipped global data datasets?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/17_maps_for_reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I make a map for inclusion in reports and communication products?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/18_suggest_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How do I suggest more data for inclusion in the UN Biodiversity Lab?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/19_private_workspaces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What are UNBL workspaces? How do I request a UNBL workspace?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/20_support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What if my question wasn’t answered?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-workspaces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UNBL Workspaces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    ELSA Integrated Spatial Planning Tool
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            ELSA Integrated Spatial Planning Tool
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_tool_purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tool Purpose and Key Features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_registration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Registration and Access
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_creating_analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creating a New Analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Editing an Analysis
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editing an Analysis
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#asignacion-de-un-nombre-a-una-ejecucion-de-analisis-elsa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asignación de un nombre a una ejecución de análisis ELSA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seleccion-de-funciones-de-bloqueo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selección de funciones de bloqueo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zonas-alternativas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zonas alternativas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#establecimiento-de-restricciones-basadas-en-el-area-para-las-acciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Establecimiento de restricciones basadas en el área para las acciones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacion-del-factor-de-penalizacion-por-limites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especificación del factor de penalización por límites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edicion-de-las-ponderaciones-de-las-caracteristicas-de-planificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edición de las ponderaciones de las características de planificación
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ver-capas-de-entrada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ver capas de entrada
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_running_optimization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Running the Optimization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_viewing_heatmaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Viewing Heatmaps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_downloading_results/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Downloading Results
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_analyse_synergies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Analyzing Synergies and Trade-offs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_citing_maps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Citing Maps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support and Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_annex1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Annex 1 - Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_annex2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Annex 2 - Data layers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/UNDP-UNBL/unbl-documentation/edit/main/docs/elsa/05_editing_analysis.es.md" title="Editar esta página" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"></path></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/UNDP-UNBL/unbl-documentation/raw/main/docs/elsa/05_rawing_analysis.es.md" title="Ver código fuente de esta página" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"></path></svg>
+    </a>
+  
+
+
+<h1 id="edicion-de-una-ejecucion-de-analisis-elsa">Edición de una ejecución de análisis ELSA<a class="headerlink" href="#edicion-de-una-ejecucion-de-analisis-elsa" title="Anchor link to this section for reference">¶</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Términos clave</p>
+<ul>
+<li><a href="../12_annex1/#action-zones">Zonas de acción</a></li>
+<li><a href="../12_annex1/#lock-in-features">Características de bloqueo</a></li>
+<li><a href="../12_annex1/#area-based-constraint">Restricción basado en el área</a></li>
+<li><a href="../12_annex1/#boundary-penalty-factor-bpf">Factor de penalización de los límites (BPF)</a></li>
+<li><a href="../12_annex1/#planning-feature">Característica de planificación</a></li>
+<li><a href="../12_annex1/#planning-units">Unidades de planificación</a></li>
+<li><a href="../12_annex1/#decision-support-software">Software de apoyo a la toma de decisiones</a></li>
+<li><a href="../12_annex1/#geographic-information-system-gis">Sistema de información geográfica (SIG)</a></li>
+<li><a href="../12_annex1/#restrictions">Restricciones</a></li>
+<li><a href="../12_annex1/#representation">Representación</a></li>
+<li><a href="../12_annex1/#systematic-conservation-planning-scp">Planificación Sistemática de la Conservación (PSC)</a></li>
+<li><a href="../12_annex1/#user-interface">Interfaz de usuario</a></li>
+<li><a href="../12_annex1/#weights">Ponderación</a></li>
+</ul>
+</div>
+<h2 id="asignacion-de-un-nombre-a-una-ejecucion-de-analisis-elsa">Asignación de un nombre a una ejecución de análisis ELSA<a class="headerlink" href="#asignacion-de-un-nombre-a-una-ejecucion-de-analisis-elsa" title="Anchor link to this section for reference">¶</a></h2>
+<p>Al hacer clic en «NUEVA EJECUCIÓN DE ANÁLISIS» (<a href="#fig-create-new-analysis">Figura 5</a>), podrá ver y editar un análisis provisional. En primer lugar, debe proporcionar un nombre nuevo y único para su ejecución de análisis. Aunque no hay restricciones en cuanto al nombre que se le da a cada ejecución, sugerimos que los nombres de las ejecuciones incluyan descripciones significativas, idealmente haciendo referencia a los parámetros utilizados (por ejemplo, incluir información como BPF 10 o Protección 38 %).</p>
+<h2 id="seleccion-de-funciones-de-bloqueo">Selección de funciones de bloqueo<a class="headerlink" href="#seleccion-de-funciones-de-bloqueo" title="Anchor link to this section for reference">¶</a></h2>
+<p>Puede asegurarse de que determinadas áreas se incluyan en su mapa de acción. Conceptualmente, esto se entiende más fácilmente como el bloqueo de las áreas de planificación existentes para la acción de protección en un mapa, esencialmente replicando las realidades en territorio. Esto obliga a seleccionar estas áreas dentro de la acción de protección en el mapa, y estas áreas se ven obligadas a contribuir al cumplimiento de las restricciones de protección de la zona. La cobertura nacional de áreas protegidas (%) se muestra entre paréntesis. Las configuraciones de la herramienta no se limitan únicamente a fijar las áreas protegidas existentes a la acción de protección (por ejemplo, podría ser conveniente fijar las áreas de proyectos de restauración existentes a la acción de restauración); sin embargo, por defecto, las configuraciones de la herramienta solo permiten fijar áreas protegidas.   </p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Las áreas protegidas están bloqueadas <strong>POR DEFECTO</strong></p>
+</div>
+<p>Bloqueo de áreas protegidas (<a href="#fig-lockin-options">Figura 6</a>):</p>
+<ul>
+<li>Seleccione «Bloquear áreas protegidas existentes» si desea forzar el análisis para incluir las áreas protegidas existentes dentro de la acción «Protección» en la solución.  </li>
+<li>Seleccione «No bloquear nada» si desea evaluar de forma independiente la ubicación óptima de las áreas protegidas existentes y nuevas en su país basándose en las áreas «Proteger» seleccionadas en el mapa de acciones resultante.  </li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/SP%206.png" data-desc-position="bottom"><img alt="" id="fig-lockin-options" src="../../../elsa/images/SP%206.png"></a></p>
+<figcaption>Figura 6. Funcionalidades de bloqueo</figcaption>
+</figure>
+<p>Como se ve en la <a href="#fig-lockin-options">figura 6</a> para Cuba, las áreas protegidas existentes cubren el 17,08 % del país. Por lo tanto, la selección de «Bloquear áreas protegidas existentes» requiere que al menos el 17,08 % del territorio nacional se asigne bajo la restricción de área «Proteger»..   </p>
+<h2 id="zonas-alternativas">Zonas alternativas<a class="headerlink" href="#zonas-alternativas" title="Anchor link to this section for reference">¶</a></h2>
+<p>Los usuarios no pueden definir las zonas por sí mismos, pero para algunas acciones puede haber tanto una zona predeterminada como una zona alternativa que se puede seleccionar. Por ejemplo, algunas herramientas pueden tener la opción de considerar «Solo zonas agrícolas» para la acción de gestión, o «Solo zonas forestales» para la acción de restauración, en función de las necesidades y prioridades individuales de los usuarios y los países. </p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/SP%207.png" data-desc-position="bottom"><img alt="" id="fig-alt-zone-options" src="../../../elsa/images/SP%207.png"></a></p>
+<figcaption>Figura 7. Zonas alternativas para reducir las áreas de actividad basadas en la naturaleza</figcaption>
+</figure>
+<h2 id="establecimiento-de-restricciones-basadas-en-el-area-para-las-acciones">Establecimiento de restricciones basadas en el área para las acciones<a class="headerlink" href="#establecimiento-de-restricciones-basadas-en-el-area-para-las-acciones" title="Anchor link to this section for reference">¶</a></h2>
+<p>Esta parte de la herramienta le permite establecer restricciones basadas en el área (objetivos) para la protección, restauración, gestión y/o ecologización urbana. Las restricciones de área también pueden entenderse como el porcentaje de superficie terrestre que debe asignarse a cada acción en el mapa de acciones resultante. Los valores predeterminados en cualquier herramienta ELSA se derivan de los objetivos terrestres del MMB-KM, a menos que el equipo de la UNBL los personalice para su país basándose en su Estrategia Nacional de Biodiversidad y Plan de Acción (ENBPA) u otros documentos de política nacional. </p>
+<p>Puede establecer cualquier valor superior o igual a 0,001 para los objetivos de protección, restauración, gestión y/o ecologización urbana del valor de todos los objetivos puede ser inferior o igual al 100 %, pero no debe superar el 100 %. Además, el valor máximo para cualquier restricción de área individual no puede exceder el área total de esa zona de acción. Por ejemplo, si el 80 % de un país está cubierto por una zona de protección, entonces el valor máximo que se puede asignar para la restricción basada en el área para la protección no puede exceder el 80 %. Si ingresa un número demasiado alto, recibirá un error que especifica la cantidad máxima que se puede asignar. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Nota: La ubicación y el área total de cada zona de acción definen dónde es posible llevar a cabo cada acción. Se determina en función del tipo de ecosistema y el nivel de desarrollo de un país (por ejemplo, la protección no puede llevarse a cabo en áreas con un alto índice industrial humano).</p>
+</div>
+<p>También debe tener en cuenta que, si desea bloquear las áreas protegidas existentes (el valor predeterminado), la restricción del área de protección total debe ser igual o superior a la superficie cubierta por las áreas protegidas existentes. Por ejemplo, la superficie cubierta por las áreas protegidas existentes en Kazajistán es del 17,08 %. Por lo tanto, la restricción del área de protección debe ser igual o superior al 17,08 %.  </p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/SP%208.png" data-desc-position="bottom"><img alt="" id="fig-setting-objectives" src="../../../elsa/images/SP%208.png"></a></p>
+<figcaption>Figura 8. Establecer objetivos</figcaption>
+</figure>
+<h2 id="especificacion-del-factor-de-penalizacion-por-limites">Especificación del factor de penalización por límites<a class="headerlink" href="#especificacion-del-factor-de-penalizacion-por-limites" title="Anchor link to this section for reference">¶</a></h2>
+<p>El factor de penalización por límites se utiliza para promover la cohesión espacial al priorizar las zonas de uso del suelo. La penalización por límites puede ser 0 o superior. Cuanto mayor sea el valor, más conectadas y contiguas serán las zonas de acción en el mapa. Este ajuste se basa en la idea de que, para la planificación en el mundo real, una zona más conectada suele ser más fácil de gestionar y ejecutar acciones.  </p>
+<p>Pasos:</p>
+<ol>
+<li>Para establecer la penalización por límite, comience con un número pequeño, por ejemplo, 10.  </li>
+<li>Aumente el número de forma iterativa, es decir, vuelva a ejecutar el análisis repetidamente, por un orden de magnitud (por ejemplo, 10 -&gt; 100-&gt; 1000), reduciendo la tasa de aumento a medida que se acerque a las soluciones que le llevan al nivel de agrupación deseado. Cada vez que cambie la penalización, tendrá que volver a ejecutar la optimización hasta llegar a un mapa que sea lo suficientemente contiguo como para satisfacer sus necesidades.  </li>
+</ol>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Aumentar el factor de penalización de los límites desde 0 dará lugar a tiempos de resolución más largos; en algunos casos, estos pueden ser mucho más largos.  </p>
+</div>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/SP%209.png" data-desc-position="bottom"><img alt="" id="fig-adjust-bpf" src="../../../elsa/images/SP%209.png"></a></p>
+<figcaption>Figura 9. Ajuste del factor de penalización de los límites</figcaption>
+</figure>
+<h2 id="edicion-de-las-ponderaciones-de-las-caracteristicas-de-planificacion">Edición de las ponderaciones de las características de planificación<a class="headerlink" href="#edicion-de-las-ponderaciones-de-las-caracteristicas-de-planificacion" title="Anchor link to this section for reference">¶</a></h2>
+<p>Para editar las ponderaciones de las características de planificación, haga clic en el botón «ESTABLECER PONDERACIONES DE CARACTERÍSTICAS» situado en la esquina superior derecha de la ventana emergente de ejecución del análisis.   </p>
+<p>Debe introducir una ponderación para cada característica de planificación en la lista de datos de entrada. Recomendamos una escala de 0 a 10, basada en el nivel de prioridad de cada característica de planificación y en su confianza en la precisión del conjunto de datos de su país:   </p>
+<ul>
+<li>0: no importante/excluido del análisis</li>
+<li>1,0: importancia baja/importancia inferior a la media </li>
+<li>5,0: importancia media </li>
+<li>10: máxima importancia </li>
+</ul>
+<p>Para que los usuarios puedan tomar la decisión más informada posible, se enumeran el tema (biodiversidad/cambio climático/bienestar humano), las acciones pertinentes y el objetivo político del MMB-KM sustitutivo (u otro objetivo político nacional/ENBPA pertinente) para cada característica de planificación. Puede evaluar el nivel de prioridad de cada característica de planificación y asignarle una ponderación informada decidiendo la importancia relativa de cada una de las características de planificación utilizadas para trazar los objetivos MMB-KM (u otros objetivos NBSAP/políticas nacionales relevantes definidos de otro modo por su país) en su país. Por ejemplo, si la meta 1 del MMB-KM es de especial importancia para su país, entonces se debe dar mayor peso (&gt; 3) a características de planificación como los ecosistemas intactos, los bosques de alta integridad, índice de hábitats de biodiversidad e índice de integridad de la biodiversidad. Por otra parte, si cree que los ecosistemas amenazados de su país están especialmente degradados y deben tenerse en cuenta para identificar las áreas prioritarias para la restauración de la Meta 2 del MMB-KM, puede asignar una ponderación mayor a la característica de planificación «Ecosistemas amenazados para la restauración», que cartografía específicamente estas áreas (<a href="#fig-edit-weights">Figura 10</a>).</p>
+<p>Para obtener una lista completa de los datos de entrada, así como de las Metas del MMB-KM para los que se utilizan, consulte el <a href="../13_annex2/">anexo 2</a>.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/SP%2010.png" data-desc-position="bottom"><img alt="" id="fig-edit-weights" src="../../../elsa/images/SP%2010.png"></a></p>
+<figcaption>Figura 10. Edición de ponderaciones</figcaption>
+</figure>
+<h2 id="ver-capas-de-entrada">Ver capas de entrada<a class="headerlink" href="#ver-capas-de-entrada" title="Anchor link to this section for reference">¶</a></h2>
+<p>Si desea ver las características de planificación antes de establecer las ponderaciones, tendrá que salir de la ventana emergente haciendo clic en «GUARDAR PARA MÁS TARDE» en la esquina inferior derecha. A continuación, podrá volver a su borrador de análisis guardado después de ver las características de planificación deseadas.   </p>
+<p>Para ver las características de planificación, haga clic en la opción «CAPAS DE ENTRADA» junto a la opción «ANÁLISIS EJECUTADOS» en la pestaña de herramientas de la izquierda. A continuación, puede alternar entre capas de entrada específicas para verlas en UNBL.   </p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/SP%2011.png" data-desc-position="bottom"><img alt="" src="../../../elsa/images/SP%2011.png"></a></p>
+<figcaption> Figura 11. Visualización de zonas de acción y características de planificación en el UNBL</figcaption>
+</figure>
+<p>Al hacer clic en la pestaña «CAPAS DE ENTRADA», puede ver cada capa de características de planificación de entrada individual incluida en el análisis ELSA; estas entradas están específicamente diseñadas para ayudar a identificar las áreas prioritarias para la implementación de MMB-KM, así como la implementación de la ENBPA/otras políticas nacionales, si su país lo solicita específicamente. Además, puede ver (opcionalmente) las características de bloqueo (es decir, las áreas protegidas existentes) en su país. Por último, puede ver la capa de cada zona de acción que define dónde es posible llevar a cabo cada acción en su país para el análisis.   </p>
+<p>Pasos:</p>
+<ul>
+<li>Haga clic en el botón de activación de cada zona de acción/zona bloqueada/capa de características de planificación de entrada que desee mostrar.  </li>
+<li>Vuelva a hacer clic en el botón de activación para eliminar la capa seleccionada de la vista.  </li>
+<li>Tiene la opción de ver información adicional (descripción de la capa, capas de entrada originales, fuente) para las capas actualmente activadas haciendo clic en el icono redondo «i» en la leyenda de la capa individual o junto al botón de activación de cada capa. </li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/SP%2012.png" data-desc-position="bottom"><img alt="" src="../../../elsa/images/SP%2012.png"></a></p>
+<figcaption> Figura 12. Visualización de metadatos</figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"></path></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"></path></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by <a href="https://github.com/UNDP-UNBL/unbl-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie">
+        
+          
+          <a href="../04_creating_analysis/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Creating a New Analysis">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Creating a New Analysis
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../06_running_optimization/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Running the Optimization">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Running the Optimization
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 UNDP &amp; UNEP-WCMC
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/UNDP-UNBL" target="_blank" rel="noopener" title="UNDP-UNBL on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.unbiodiversitylab.org" target="_blank" rel="noopener" title="UN Biodiversity Lab" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M351.9 280H161c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zm-191-48h190.9c-2.8-64.5-17.1-123.9-37.4-167.4-11.4-24.4-23.7-41.8-35.1-52.4C268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4m-48 0c3.5-85.6 25.6-165.1 57.9-217.3C78.7 47.3 10.9 131.2 1.5 232zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3zm111.4-48C501.9 131.2 434.1 47.3 342 14.7c32.3 52.2 54.4 131.7 57.9 217.3z"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "toc.integrate", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.action.edit", "content.action.view"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
