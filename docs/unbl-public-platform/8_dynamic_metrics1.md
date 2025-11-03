@@ -1,6 +1,6 @@
 # What dynamic metrics are available for my country/area of interest?
 
-UNBL offers at-a-glance metrics based on the best available global spatial datasets. These metrics can be used to report on the state of nature and human development for places available on the UNBL public platform and/or those that you have uploaded to your workspace (see our [workspace guide](unbl-workspaces/index.md) for more information on this). Available standard metrics include:
+UNBL offers at-a-glance metrics based on the best available global spatial datasets. These metrics can be used to report on the state of nature and human development for places available on the UNBL public platform and/or those that you have uploaded to your workspace (see our [workspace guide](../unbl-workspaces/index.md) for more information on this). Available standard metrics include:
 
 - Global Land Cover (2022)
 - Land Cover Change (1992-2022)
@@ -19,7 +19,7 @@ UN Biodiversity Lab additionally offers two headline indicators which are availa
 
 It is important to note that eight of the standard metrics can be displayed for places of any type (countries, administrative areas of any scale, geographic areas, etc.), whereas the two headline indicator metrics and the Protected Areas metric can only be displayed for places on a country scale. To learn more about the datasets underlying each of these metrics and how the metrics can be used for monitoring and reporting, please see the table below.
 
-<figure markdown="span">
+*Table 1: Information on nine standard and two headline indicator metrics offered on UNBL*
 
 | Name | What metric does this calculate? | What dataset is used to calculate this metric? | How can this be used for monitoring? |
 |------|----------------------------------|-----------------------------------------------|-------------------------------------|
@@ -35,9 +35,6 @@ It is important to note that eight of the standard metrics can be displayed for 
 | Sustainable Agriculture | Shows the country-reported data for KMGBF headline indicator 10.1 relating to progress towards productive and sustainable agriculture. | This metric displays the data supplied by each country to FAO. | Measures the land under productive and sustainable agriculture, expressed as a proportion of the country's agricultural land area through 11 sub-indicators. |
 | Sustainable Forest Management | Shows the country-reported data for KMGBF headline indicator 10.2 relating to progress towards sustainable forest management. | This metric displays the data supplied by each country to FAO. | Measures progress towards Sustainable Forest Management through five subindicators, including annual forest area change, above-ground biomass in forest, proportion of forest area within legally established protected areas, proportion of forest area with a long-term management plan, and forest area under an independently verified forest management certification scheme. |
 
-<figcaption>Table 1: Information on nine standard and two headline indicator metrics offered on UNBL</figcaption>
-</figure>
-
 To view these metrics on UN Biodiversity Lab:
 
 1.	Select a specific country or area of interest in the 'PLACES' tab.
@@ -48,7 +45,7 @@ To view these metrics on UN Biodiversity Lab:
 
 	![](images/en/image035.png)
 	
-4.  Click on the ![](images/icons/info-icon.png) icon to view dataset info. The info pages provide a brief description of the data, related paper to read, raw data to download (if freely available) and license specifications.  
+4.  Click on the <img src="images/icons/info-icon.png" alt="" style="width: 1em; height: 1em; vertical-align: middle;"> icon to view dataset info. The info pages provide a brief description of the data, related paper to read, raw data to download (if freely available) and license specifications.  
 
 5.	To download summary data for the metric in .csv or .json format, click on the arrow icon ![](images/icons/download-icon.png). You can also download the data from source links on the datasets’ info pages.  
 

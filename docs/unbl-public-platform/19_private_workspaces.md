@@ -1,9 +1,15 @@
 # What are UNBL workspaces? How do I request a workspace?
 
-![Private Workspaces](images/gifs/20_private_workspaces.gif)
+UNBL workspaces provide a secure work area where data on any scale can be added and shared with a set of specified users. They offer a secure area to collaborate on your projects and can provide a way for GIS experts to collaborate with non-technical experts using a user-friendly interface. 
 
-We recognize that national data is often higher quality and better suited to countries' needs for decision-making, monitoring, and reporting. UNBL offers free workspaces to stakeholders who need a secure area to access and use spatial data. Our workspaces can serve as a common data repository, offer a collaborative work environment, and enable you to calculate dynamic indicators for a sub-national or transboundary area of interest. These password-protected spaces enable you to control access to your data, and ensure data security through storage on UN servers.
+**Three functionalities are available through workspaces that are not available on the public platform**:
 
-We encourage users to explore how UNBL workspaces can help you to build communities of practice to transform data to action.
+1. Ability to upload places;
 
-To request a secure UNBL workspace please contact support@unbiodiversitylab.org or click on the UNBL workspaces tab on our [support page](https://www.unbiodiversitylab.org/support/) and fill out the form.
+2. Ability to add your own datasets and share privately and/or publicly;
+
+3. Ability to add our ELSA Integrated Spatial Planning Tool to run a spatial prioritization analysis for your country.
+
+UNBL workspaces are available to all non-commercial users. To request a workspace please navigate to the [UN Biodiversity Lab workspaces page](https://unbiodiversitylab.org/en/unbl-workspaces/) and fill out the form.
+
+You can access our user guide on UNBL workspaces [here](unbl-workspaces/index.md).

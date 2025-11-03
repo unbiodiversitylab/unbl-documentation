@@ -23,7 +23,7 @@ This guide covers the following questions:
 - **[How do I find more information about each dataset?](11_find_layer_info.md)**
 - **[How do I customize the dataset views?](12_customize_mapview.md)**
 - **[What options do I have to visualize time series datasets?](13_time_series_data.md)**
-- **[How do I share a dataset?](14_share_data.md)
+- **[How do I share a dataset?](14_share_data.md)**
 - **[How do I clip and export datasets?](15_clip_export.md)**
 - **[How do I download unclipped global datasets?](16_download_global_data.md)**
 - **[How do I make a map for inclusion in reports and communication products?](17_maps_for_reports.md)**
