@@ -211,4 +211,16 @@ nav:
   - UNBL Workspaces: unbl-workspaces/index.md
   - ELSA Integrated Spatial Planning Tool:
       - elsa/index.md
-  
+      - Overview: elsa/01_overview.md
+      - Tool Purpose and Key Features: elsa/02_tool_purpose.md
+      - Registration and Access: elsa/03_registration.md
+      - Creating a New Analysis: elsa/04_creating_analysis.md
+      - Editing an Analysis: elsa/05_editing_analysis.md
+      - Running the Optimization: elsa/06_running_optimization.md
+      - Viewing Heatmaps: elsa/07_viewing_heatmaps.md
+      - Downloading Results: elsa/08_downloading_results.md
+      - Analyzing Synergies and Trade-offs: elsa/09_analyse_synergies.md
+      - Citing Maps: elsa/10_citing_maps.md
+      - Support and Contact: elsa/11_support.md
+      - Annex 1 - Glossary: elsa/12_annex1.md
+      - Annex 2 - Data layers: elsa/13_annex2.md

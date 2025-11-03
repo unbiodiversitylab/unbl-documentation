@@ -1,25 +1,10 @@
-# Documentação da Ferramenta ELSA
+# Ferramenta de Planejamento Espacial Integrado ELSA
 
-Bem-vindo à documentação da Ferramenta de Planejamento Espacial Integrado ELSA (Área Essencial de Suporte à Vida).
+!!! important
+	Esta versão do idioma é gerada automaticamente por um programa de inteligência artificial. Ela será atualizada em um futuro próximo.
 
-A ferramenta ELSA é uma ferramenta gratuita, de código aberto e hospedada na nuvem que fornece às partes interessadas em todos os países uma metodologia baseada em ciência para identificar áreas prioritárias nacionais onde a proteção, restauração, gestão e reverdecimento urbano podem levar aos melhores resultados para todos os objetivos e indicadores do KMGBF.
+Este guia do usuário tem como objetivo fornecer uma visão geral clara e concisa sobre o uso da Ferramenta de Planejamento Espacial Integrado da Área Essencial de Suporte à Vida (ELSA) do Laboratório de Biodiversidade da ONU (UNBL). Esta ferramenta foi desenvolvida para apoiar os países a usar o planejamento espacial integrado para apoiar a implementação da Estrutura Global de Biodiversidade de Kunming-Montreal através de uma abordagem de Planejamento Sistemático de Conservação (SCP) apoiada pela UNBL.
 
-## Conteúdo
-
-- [Visão Geral](01_overview.md) - Visão geral da Ferramenta de Planejamento Espacial Integrado ELSA
-- [Propósito da Ferramenta e Recursos Principais](02_tool_purpose.md) - Funcionalidades principais e aplicações
-- [Registro e Acesso](03_registration.md) - Como se registrar e acessar a ferramenta
-- [Criar uma Nova Análise](04_creating_analysis.md) - Guia passo a passo para criar uma análise
-- [Editar uma Análise](05_editing_analysis.md) - Como editar e modificar sua análise
-- [Executar a Otimização](06_running_optimization.md) - Executar a otimização espacial
-- [Visualizar Mapas de Calor](07_viewing_heatmaps.md) - Compreender e visualizar mapas de calor de resultados
-- [Baixar Resultados](08_downloading_results.md) - Como baixar seus resultados
-- [Analisar Sinergias e Compensações](09_analyse_synergies.md) - Recursos de análise avançada
-- [Citar Mapas](10_citing_maps.md) - Como citar corretamente os mapas ELSA
-- [Suporte e Contato](11_support.md) - Obter ajuda e suporte
-- [Anexo 1 - Detalhes Técnicos](12_annex1.md) - Especificações técnicas
-- [Anexo 2 - Glossário](13_annex2.md) - Glossário de termos
-
-## Início Rápido
-
-Se você é novo na ferramenta ELSA, recomendamos começar com a [Visão Geral](01_overview.md) e depois prosseguir para [Registro e Acesso](03_registration.md).
+* [Capítulo 1](01_overview.md) fornece uma visão geral e recursos complementares importantes sobre o processo de mapeamento ELSA.
+* [Capítulo 2](02_tool_purpose.md) descreve as funcionalidades principais e aplicações da ferramenta ELSA.
+* [Capítulos 3](03_registration.md) - [11](11_support.md) fornecem instruções passo a passo sobre como usar a Ferramenta ELSA na UNBL.

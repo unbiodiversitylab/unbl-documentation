@@ -1,28 +1,28 @@
 # Anexo 1: Glosario
 
-## Zonas de Acción {#action-zones}
+## Zonas de acción {#action-zones}
 
-Una zona de uso de la tierra, equivalente a una acción basada en la naturaleza, que sirve para mejorar objetos de planificación específicos. Las zonas se determinan mediante restricciones que definen dónde puede o no puede ocurrir absolutamente una acción. Por ejemplo, estas restricciones duras limitan la protección a áreas intactas (por ejemplo, valores bajos de huella humana) y la protección/restauración a áreas que están moderadamente impactadas por la actividad humana, pero no totalmente dominadas por humanos (por ejemplo, valores de huella humana bajos y medios).
+Una zona de uso del suelo, equivalente a una acción basada en la naturaleza, que sirve para mejorar objetivos de planificación específicos. Las zonas se determinan mediante restricciones que definen dónde puede o no puede ocurrir una acción de manera absoluta. Por ejemplo, estas restricciones estrictas limitan la protección a áreas intactas (por ejemplo, valores bajos de huella humana) y la protección/restauración a áreas que están moderadamente afectadas por la actividad humana, pero no totalmente dominadas por los seres humanos (por ejemplo, valores bajos y medios de huella humana). 
 
-## Restricción basada en área {#area-based-constraint}
+## Restricción basado en el área {#area-based-constraint}
 
-El área máxima (expresada como un porcentaje del área total del país) que se puede asignar a una zona de acción específica (protección, restauración, gestión o revegetación urbana).
+El área máxima (expresada como porcentaje del área total del país) que se puede asignar a una acción. 
 
-## Factor de Penalización de Límites (BPF) {#boundary-penalty-factor-bpf}
+## Factor de penalización de los límites (BPF) {#boundary-penalty-factor-bpf}
 
-Las soluciones se penalizan en función del límite exterior total o el borde de las zonas. Al penalizar soluciones con una longitud de borde grande, este BPF se puede utilizar para promover la cohesión espacial o agrupamiento en las zonas de priorización espacial de áreas prioritarias para la implementación del KMGBF.
+Las soluciones se penalizan en función del límite exterior total o el borde de las zonas. Al penalizar las soluciones con una gran longitud de borde, este BPF puede utilizarse para promover la cohesión espacial o la agrupación en las zonas de priorización espacial de las áreas prioritarias para la implementación del MMB-KM. 
 
-## Software de apoyo a la decisión {#decision-support-software}
+## Software de apoyo a la toma de decisiones {#decision-support-software}
 
-Una aplicación informática que utiliza información sobre posibles acciones y las limitaciones de esas acciones para ayudar al proceso de toma de decisiones en el logro de un objetivo declarado.
+Aplicación informática que utiliza información sobre posibles acciones y las limitaciones de dichas acciones para ayudar en el proceso de toma de decisiones con el fin de alcanzar un objetivo determinado. 
 
-## Sistema de Información Geográfica (SIG) {#geographic-information-system-gis}
+## Sistema de información geográfica (SIG) {#geographic-information-system-gis}
 
-Sistema informático que consiste en hardware y software necesarios para la captura, almacenamiento, gestión, análisis y presentación de datos geográficos (espaciales).
+Sistema informático compuesto por el hardware y el software necesarios para la captura, el almacenamiento, la gestión, el análisis y la presentación de datos geográficos (espaciales). 
 
-## Características de Bloqueo {#lock-in-features}
+## Características de bloqueo {#lock-in-features}
 
-Características o áreas específicas que están bloqueadas en una solución. Típicamente, esto se referiría a áreas protegidas existentes, que están bloqueadas por defecto en la creación de un problema de SCP.
+Características o áreas específicas que están bloqueadas en una solución. Por lo general, esto se refiere a las áreas protegidas existentes, que por defecto están bloqueadas en la creación de un problema de la PSC. 
 
 ## Característica de planificación {#planning-feature}
 
@@ -30,24 +30,24 @@ Un conjunto de datos espaciales utilizado para mapear elementos espaciales de lo
 
 ## Unidades de planificación {#planning-units}
 
-Las unidades de planificación son los elementos básicos del análisis de priorización. Un área de estudio se divide en unidades de planificación que son parcelas geográficas más pequeñas de formas regulares o irregulares. Los ejemplos son cuadrados, hexágonos, parcelas catastrales y unidades hidrológicas.
+Las unidades de planificación son los elementos básicos del análisis de priorización. Un área de estudio se divide en unidades de planificación que son parcelas geográficas más pequeñas de formas regulares o irregulares. Algunos ejemplos son cuadrados, hexágonos, parcelas catastrales y unidades hidrológicas. 
 
 ## Representación {#representation}
 
-En la Planificación Sistemática de la Conservación, un sistema representativo captura la gama completa de características de planificación (especies, ecosistemas y servicios ecosistémicos) que ocurren en la región de planificación, no solo especies icónicas.
+En la planificación sistemática de la conservación, un sistema representativo captura toda la gama de características de planificación (especies, ecosistemas y servicios ecosistémicos) que se dan en la región de planificación, y no solo las especies emblemáticas. 
 
 ## Restricciones {#restrictions}
 
-Una restricción que debe cumplirse durante la optimización. Las restricciones principales son que la restricción basada en área (área de tierra dedicada a cada acción) no se exceda y que cada zona solo pueda ocurrir dentro de unidades de planificación especificadas (por ejemplo, la zona de protección solo puede ser posible en unidades de planificación que no sean cobertura agrícola o urbana).
+Una limitación que debe cumplirse durante la optimización. Las principales limitaciones son que no se supere la restricción basada en el área (área de terreno dedicada a cada acción) y que cada zona solo pueda darse dentro de unidades de planificación específicas (por ejemplo, la zona de protección solo puede ser posible en unidades de planificación que no sean de cobertura agrícola o urbana). 
 
-## Planificación Sistemática de la Conservación (SCP) {#systematic-conservation-planning-scp}
+## Planificación Sistemática de la Conservación (PSC) {#systematic-conservation-planning-scp}
 
-Un método formal para identificar áreas potenciales para la gestión de la conservación que lograrán de manera más eficiente un conjunto específico de objetivos, comúnmente alguna representación mínima de biodiversidad. El proceso implica un enfoque claro y estructurado para el establecimiento de prioridades, y ahora es la norma tanto para la conservación terrestre como marina. La efectividad de la planificación sistemática de la conservación radica en su capacidad para hacer el mejor uso de los recursos fiscales limitados para lograr objetivos de conservación y hacerlo de una manera que sea defendible, responsable y reconozca transparentemente las necesidades de diferentes usuarios de recursos.
+Método formal para identificar áreas potenciales para la gestión de la conservación que permitirán alcanzar de la manera más eficiente un conjunto específico de objetivos, normalmente una representación mínima de la biodiversidad. El proceso implica un enfoque claro y estructurado para el establecimiento de prioridades, y actualmente es la norma tanto para la conservación terrestre como marina. La eficacia de la planificación sistemática de la conservación radica en su capacidad para aprovechar al máximo los limitados recursos fiscales con el fin de alcanzar los objetivos de conservación, y hacerlo de una manera respaldada, responsable y que reconozca de forma transparente las necesidades de los diferentes usuarios de los recursos. 
 
 ## Interfaz de usuario {#user-interface}
 
-El medio por el cual las personas interactúan con una aplicación informática dada. Una Interfaz Gráfica de Usuario (GUI) presenta información de manera simple utilizando gráficos, menús e iconos.
+Medio por el cual las personas interactúan con una aplicación informática determinada. Una interfaz gráfica de usuario (GUI) presenta la información de forma sencilla mediante gráficos, menús e iconos. 
 
-## Pesos {#weights}
+## Ponderación {#weights}
 
-Los pesos permiten a los usuarios establecer prioridades relativas entre las características de planificación. Los valores típicamente van de "0" (sin importancia) a "10" (importancia extremadamente alta).
+La ponderación permite a los usuarios establecer prioridades relativas entre las diferentes características de la planificación. Los valores suelen oscilar entre «0» (sin importancia) y «10» (importancia extremadamente alta). 
