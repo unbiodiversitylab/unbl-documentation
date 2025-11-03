@@ -1,33 +1,33 @@
 # UN Biodiversity Lab (UNBL) Public Platform User Guide
 
 <p align="center">
-  <img src="images/unbl-landing-page.png" alt="" style="max-width:100%; height:auto;">
+  <img src="images/en/image001.png" alt="" style="max-width:100%; height:auto;">
 </p>
 
-## Contents
+This downloadable user guide has been developed to walk you through the key tools and functions of the UN Biodiversity Lab. If you have any further questions, please visit our [support page](https://unbiodiversitylab.org/en/support/) or contact us at support@unbiodiversitylab.org.
 
-The UN Biodiversity Lab (UNBL) supports country-led efforts to use spatial data and analytic tools to generate insight and impact for conservation and sustainable development. Our mission is three-fold: (1) to democratize access to spatial data and analytic tools as a digital public good; (2) to support decision-makers to leverage spatial data for insight, priority-setting, and implementation at the national level; and (3) to empower stakeholders to use spatial data for nationally-led monitoring and reporting.
+This guide covers the following questions:
 
-## The Platform
+## Table of Contents
 
-With over 400 of the world's best data layers on nature, climate change, and sustainable development, UNBL enables policymakers and other stakeholders to use spatial data to take action for people and planet.
+- **[How do I register or log-in?](1_register.md)**
+- **[How do I manage my account?](2_manage.md)**
+- **[How do I navigate between the UN Biodiversity Lab website and map app?](3_navigate.md)**
+- **[How do I change the language?](4_language.md)**
+- **[How do I adjust my map view?](5_adjust_mapview.md)**
+- **[How do I add/remove place labels, roads, and satellite view from the base map?](6_manage_labels_and_basemaps.md)**
+- **[How do I find my country?](7_find_country.md)**
+- **[What dynamic metrics are available for my country/area of interest?](8_dynamic_metrics1.md)**
+- **[How do I find additional datasets for my country?](9_find_layers.md)**
+- **[How do I find the Digital Public Good (DPG) open datasets?](10_find_dpg_layers.md)**
+- **[How do I find more information about each dataset?](11_find_layer_info.md)**
+- **[How do I customize the dataset views?](12_customize_mapview.md)**
+- **[What options do I have to visualize time series datasets?](13_time_series_data.md)**
+- **[How do I share a dataset?](14_share_data.md)
+- **[How do I clip and export datasets?](15_clip_export.md)**
+- **[How do I download unclipped global datasets?](16_download_global_data.md)**
+- **[How do I make a map for inclusion in reports and communication products?](17_maps_for_reports.md)**
+- **[How do I suggest more data for inclusion in the UN Biodiversity Lab?](18_suggest_data.md)**
+- **[What are UNBL workspaces? How do I request a UNBL workspace?](19_private_workspaces.md)**
+- **[What if my question wasn't answered?](20_support.md)**
 
-The platform provides the ability for users to:
-
-- Visualize core global public good datasets at the heart of decision-making on nature and sustainable development
-- Access curated collections that integrate spatial data for insight and action
-- View and download dynamic indicators of change for any country in the world
-- Create workspaces to securely upload national data for analysis alongside global data
-- Develop communities of practice that nurture data transparency and cross-sectoral collaboration
-- Draw on the expertise of UNBL partners to develop national strategies and plans
-
-UNBL is a free, open-source environment that does not require any previous GIS experience. Powered by UNEP-WCMC, UNBL works to harness emerging technologies and innovation to support state-of-the art infrastructure and user-centric design.
-
-
-## The partnership
-
-UNDP, UNEP and its specialist biodiversity centre UNEP-WCMC, and the CBD Secretariat – together with our technical partners and data providers – bring together data and users to create innovative solutions to address our planetary emergency. Through our partnership, we engage nearly 200 countries, allowing for dynamic updates to the platform based on user needs. Relationships with technical partners and data providers ensures the provision of cutting-edge tools and data to take action for nature and sustainable development. Together, we align our work to the UN Common Approach for Biodiversity and the UN Secretary General's Data Strategy, leveraging open data to create a solution-driven, user-friendly platform.
-
-## Convening partners
-
-The UNBL convening partners work in dynamic partnership to ensure all stakeholders can generate insights from spatial data to take action for nature and sustainable development.

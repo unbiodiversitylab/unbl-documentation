@@ -43,3 +43,14 @@ Include information on the map (or in the citation describing the map) on:
 **Example**
 
 > Bond, James. "Mangrove Forest Soil Organic Carbon within Vietnam's Protected Areas" [map]. Scale not given. (14 Feb 2021). Map Generated on the UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Version 2. UNDP and UNEP, 2023.
+
+
+# How do I share a data layer?
+
+![Share Data](images/gifs/15_share_data.gif)
+
+Sharing data layers is easy. To do so:
+
+1. Activate the layer(s) of interest on your map viewer.
+2. Copy the URL displayed in your browser.
+3. Share! Any data layers on our public platform will be accessible by anyone, regardless of whether they are a registered user.

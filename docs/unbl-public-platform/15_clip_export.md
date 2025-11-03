@@ -1,4 +1,4 @@
-# How do I clip and export layers?
+# How do I clip and export datasets?
 
 ![Clip and Export](images/gifs/16_clip_export.gif)
 

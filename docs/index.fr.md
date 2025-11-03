@@ -1,8 +1,8 @@
-# Bienvenue dans le Guide de l’Utilisateur du UN Biodiversity Lab
+# Bienvenue dans le Guide de l’utilisateur du UN Biodiversity Lab
 
-Ce guide a été conçu pour vous présenter les principaux outils et fonctionnalités du UN Biodiversity Lab. Cliquez sur les liens ci-dessous pour accéder aux guides visuels de notre **plateforme publique**, de nos **espaces de travail sécurisés** et de l’**outil intégré de planification spatiale ELSA**.
+Ce guide a été conçu pour vous présenter les principaux outils et fonctionnalités du UN Biodiversity Lab. Cliquez sur les liens ci-dessous pour accéder aux guides visuels de notre **plateforme publique**, de nos **espaces de travail sécurisés** et de l’**outil de planification spatiale intégrée ELSA**.
 
-Pour toute question supplémentaire, veuillez nous contacter à support@unbiodiversitylab.org.
+Si vous avez d'autres questions, veuillez nous contacter à l'adresse support@unbiodiversitylab.org.
 
 <div class="grid cards" markdown>
 
