@@ -2,7 +2,7 @@
 
 [![Deploy MkDocs to GitHub Pages](https://github.com/UNDP-UNBL/unbl-documentation/actions/workflows/deploy.yml/badge.svg)](https://github.com/UNDP-UNBL/unbl-documentation/actions/workflows/deploy.yml)
 
-This repository contains the documentation for the **UN Biodiversity Lab (UNBL)**, built with Sphinx and available in multiple languages.
+This repository contains the documentation for the **UN Biodiversity Lab (UNBL)**, built with MKDocs and available in multiple languages.
 
 ## 🚀 Quick Start
 
@@ -38,23 +38,26 @@ Visit http://127.0.0.1:8000 to view the documentation.
 ## 📁 Project Structure
 
 ```
-elsa-documentation/
+unbl-documentation/
 ├── mkdocs.yml                    # MkDocs configuration
 ├── requirements.txt              # Python dependencies
 ├── environment-mkdocs.yaml       # Conda/mamba environment
-├── .readthedocs.yaml            # ReadTheDocs configuration
 ├── docs/
 │   ├── index.md                 # Homepage
 │   ├── assets/
 │   │   └── css/
 │   │       └── unbl-custom.css  # Custom styling
-│   └── unbl/                    # UNBL Tool docs (13 pages)
+│   ├── unbl-public-platform/    # UNBL Tool docs
+│   │   ├── index.md
+│   │   ├── 1_register.md
+│   │   ├── 2_manage.md
+│   │   └── ...
+│   └── elsa/                    # ELSA Tool docs
 │       ├── index.md
 │       ├── 01_overview.md
 │       ├── 02_tool_purpose.md
 │       └── ...
-├── site/                        # Built documentation (auto-generated)
-└── locales/                     # Original translations (for reference)
+└── site/                        # Built documentation (auto-generated)
 ```
 
 ## 🌍 Multi-language Support
@@ -71,9 +74,7 @@ Language switching is available in the site header.
 ## 📝 Documentation
 
 - **[QUICKSTART.md](QUICKSTART.md)** - Get started in 5 minutes
-- **[MKDOCS_MIGRATION.md](MKDOCS_MIGRATION.md)** - Complete migration details
-- **[TODO.md](TODO.md)** - Remaining tasks and roadmap
-- **[TRANSLATION_MIGRATION.md](TRANSLATION_MIGRATION.md)** - Translation guide
+- **[CUSTOM_DOMAIN_SETUP](CUSTOM_DOMAIN_SETUP.md)** - Guidance on setting up a custom domain instead of using the default GitHub Pages URL. 
 
 ## 🎨 Features
 
@@ -85,7 +86,6 @@ Language switching is available in the site header.
 - ✅ Tabbed navigation
 - ✅ GitHub integration with edit links
 - ✅ Multi-language support
-- ✅ Free hosting on ReadTheDocs
 
 ## 🛠️ Common Tasks
 
@@ -109,16 +109,12 @@ mkdocs build
 2. Add to navigation in `mkdocs.yml`
 3. Test with `mkdocs serve`
 
+!!! tip Important!
+    Don't forget to make translated versions of  your `.md` too.
+
 ### Update Styling
 
 Edit `docs/assets/css/unbl-custom.css` for custom styles.
-
-## 📊 Build Status
-
-- **Build time:** ~8 seconds
-- **Total pages:** 72 pages in English
-- **Languages:** 5 supported
-- **Images:** 81 images preserved
 
 ## 🔧 Environment Setup
 
@@ -138,9 +134,11 @@ mamba env create -f environment-mkdocs.yaml
 
 ## 📖 Documentation Content
 
-### UNBL Tool Documentation (13 chapters)
+### UNBL Documentation
 - Overview and introduction
 - Registration and access
+
+### ELSA Tool Documentation
 - Creating and editing analyses
 - Running optimizations
 - Viewing and downloading results
@@ -153,12 +151,8 @@ mamba env create -f environment-mkdocs.yaml
 3. Test locally with `mkdocs serve`
 4. Submit a pull request
 
-## 📞 Support
-
-- **ELSA Tool Support:** support@unbiodiversitylab.org
-- **Documentation Issues:** Create issues in this repository
-- **MkDocs Help:** https://www.mkdocs.org/
-- **Material Theme:** https://squidfunk.github.io/mkdocs-material/
+!!! tip Important!
+    Don't forget to make translated versions of  your `.md` too.
 
 ## 📜 License
 
@@ -166,19 +160,9 @@ Documentation content © 2025 UNDP & UNEP-WCMC
 
 ## 🔗 Links
 
-- **Live Documentation:** [Your ReadTheDocs URL]
+- **Live Documentation:** https://undp-unbl.github.io/unbl-documentation/
 - **UN Biodiversity Lab:** https://www.unbiodiversitylab.org
-- **ELSA Tool:** https://map.unbiodiversitylab.org/earth
-- **GitHub Repository:** https://github.com/UNDP-UNBL/elsa-documentation
-
-## 🎯 Migration Status
-
-✅ **Phase 1: Complete** - All RST files converted to Markdown
-✅ **Phase 2: Complete** - MkDocs configuration and build working
-🔄 **Phase 3: In Progress** - Translation migration
-⏳ **Phase 4: Pending** - Content review and testing
-
-See [TODO.md](TODO.md) for detailed status.
+- **GitHub Repository:** https://github.com/UNDP-UNBL/unbl-documentation
 
 ## 📚 Additional Resources
 
@@ -188,7 +172,6 @@ See [TODO.md](TODO.md) for detailed status.
 - [Markdown Guide](https://www.markdownguide.org/)
 
 ### For Translators
-- [Translation Migration Guide](TRANSLATION_MIGRATION.md)
 - [mkdocs-static-i18n Plugin](https://github.com/ultrabug/mkdocs-static-i18n)
 
 ### For Content Authors

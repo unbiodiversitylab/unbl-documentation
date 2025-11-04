@@ -106,7 +106,9 @@ mkdocs gh-deploy
 ```
 docs/
 ├── index.md              # Homepage
-├── unbl/                 # UNBL docs
+├── unbl-public-platform/ # UNBL docs
+├── unbl-workspaces/      # UNBL workspaces
+├── elsa/                 # ELSA docs
 └── assets/               # CSS, images, etc.
 
 mkdocs.yml               # Configuration file
@@ -121,6 +123,9 @@ environment-mkdocs.yaml  # Conda environment
 3. If `mkdocs serve` is running, changes appear automatically
 4. Review in browser at http://127.0.0.1:8000
 5. Commit and push when satisfied
+
+!!! tip
+    Don't forget to make translated versions of  your `.md` too!
 
 ## Language Support
 
@@ -144,7 +149,7 @@ To create translations, create files with language suffix:
 
 **Solution:** Activate the environment first or use full path:
 ```bash
-/your/path/miniconda3/bin/mamba run -n elsa-mkdocs mkdocs build
+/your/path/miniconda3/bin/mamba run -n unbl-mkdocs mkdocs build
 ```
 
 ### Build warnings about missing files
@@ -167,7 +172,3 @@ mkdocs serve -a 127.0.0.1:8001
 - [MkDocs Documentation](https://www.mkdocs.org/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - [Markdown Guide](https://www.markdownguide.org/)
-
-## Need Help?
-
-Check `MKDOCS_MIGRATION.md` for detailed migration information and troubleshooting.

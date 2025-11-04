@@ -10,10 +10,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - MkDocs-based documentation system with Material theme
 - Multi-language support infrastructure (EN, ES, FR, PT, RU)
-- Complete Spanish (ES) documentation translation
-- Complete French (FR) documentation translation
-- Complete Portuguese (PT) documentation translation
-- Complete Russian (RU) documentation translation
+- **UNBL Public Platform complete multilingual documentation (84 new files)**
+  - Complete Spanish (ES) translation - 21 user guide files
+  - Complete French (FR) translation - 21 user guide files
+  - Complete Portuguese (PT) translation - 21 user guide files
+  - Complete Russian (RU) translation - 21 user guide files
+- **Translated navigation menus** - All 36 navigation items translated to 4 languages (144 translations total)
+- **Translated site headers** - Site name and description translated for all languages
+- **Translated theme toggle buttons** - Dark/light mode toggles localized for each language
+- Complete Spanish (ES) ELSA documentation translation
+- Complete French (FR) ELSA documentation translation
+- Complete Portuguese (PT) ELSA documentation translation
+- Complete Russian (RU) ELSA documentation translation
+- Translated landing pages for all major sections (index.md files)
+- Translated UNBL Workspaces placeholder pages (4 languages)
 - Modern, mobile-responsive documentation interface
 - Dark/light mode toggle for improved readability
 - Image lightbox functionality for full-size viewing
