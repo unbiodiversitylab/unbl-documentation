@@ -2,7 +2,7 @@
 
 Este guia foi desenvolvido para orientá-lo pelas principais ferramentas e funções do UN Biodiversity Lab. Clique nos links abaixo para encontrar guias visuais para nossa **plataforma pública**, **espaços de trabalho seguros** e a **Ferramenta Integrada de Planejamento Espacial ELSA**.
 
-Se tiver mais perguntas, entre em contato conosco em support@unbiodiversitylab.org.
+Se tiver mais perguntas, entre em contato conosco em <support@unbiodiversitylab.org>.
 
 <div class="grid cards" markdown>
 
