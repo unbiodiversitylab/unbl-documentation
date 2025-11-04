@@ -1,8 +1,6 @@
 # UN Biodiversity Lab (UNBL) Public Platform User Guide
 
-<p align="center">
-  <img src="images/en/image001.png" alt="" style="max-width:100%; height:auto;">
-</p>
+![](images/en/image001.png)
 
 This downloadable user guide has been developed to walk you through the key tools and functions of the UN Biodiversity Lab. If you have any further questions, please visit our [support page](https://unbiodiversitylab.org/en/support/) or contact us at support@unbiodiversitylab.org.
 

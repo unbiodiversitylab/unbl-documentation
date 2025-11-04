@@ -1,8 +1,6 @@
 # Guide de l'utilisateur de la plateforme publique du Laboratoire de la biodiversité des Nations Unies (UNBL)
 
-<p align="center">
-  <img src="images/en/image001.png" alt="" style="max-width:100%; height:auto;">
-</p>
+![](images/fr/image001.png)
 
 Ce guide de l'utilisateur téléchargeable a été développé pour vous guider à travers les outils et fonctions clés du Laboratoire de la biodiversité des Nations Unies. Si vous avez d'autres questions, veuillez consulter notre [page d'assistance](https://unbiodiversitylab.org/en/support/) ou nous contacter à support@unbiodiversitylab.org.
 
