@@ -82,15 +82,239 @@ plugins:
         - locale: es
           name: Español
           build: true
+          site_name: Documentación en Línea de UNBL
+          site_description: Guía del Usuario para el Laboratorio de Biodiversidad de las Naciones Unidas
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-7
+                  name: Cambiar a modo oscuro
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-4
+                  name: Cambiar a modo claro
+          nav_translations:
+            Home: Inicio
+            UNBL Public Platform: Plataforma Pública UNBL
+            How do I register or log-in?: ¿Cómo me registro o inicio sesión?
+            How do I manage my account?: ¿Cómo gestiono mi cuenta?
+            How do I navigate between the UN Biodiversity Lab website and map app?: ¿Cómo navego entre el sitio web del Laboratorio de Biodiversidad de las Naciones Unidas y la aplicación de mapas?
+            How do I change the language?: ¿Cómo cambio el idioma?
+            How do I adjust my map view?: ¿Cómo ajusto la vista del mapa?
+            How do I add/remove place labels, roads, and satellite view from the base map?: ¿Cómo agrego/elimino etiquetas de lugares, carreteras y vista satelital del mapa base?
+            How do I find my country?: ¿Cómo encuentro mi país?
+            What dynamic metrics are available for my country?: ¿Qué métricas dinámicas están disponibles para mi país?
+            How do I find additional datasets for my country?: ¿Cómo encuentro conjuntos de datos adicionales para mi país?
+            How do I find the Digital Public Good (DPG) open datasets?: ¿Cómo encuentro los conjuntos de datos abiertos de Bienes Públicos Digitales (DPG)?
+            How do I find more information about each dataset?: ¿Cómo encuentro más información sobre cada conjunto de datos?
+            How do I customize the dataset views?: ¿Cómo personalizo las vistas de conjuntos de datos?
+            What options do I have to visualize time series datasets?: ¿Qué opciones tengo para visualizar conjuntos de datos de series temporales?
+            How do I share a dataset?: ¿Cómo comparto un conjunto de datos?
+            How do I clip and download datasets for my country?: ¿Cómo recorto y descargo conjuntos de datos para mi país?
+            How do I download unclipped global data datasets?: ¿Cómo descargo conjuntos de datos globales sin recortar?
+            How do I make a map for inclusion in reports and communication products?: ¿Cómo hago un mapa para incluir en informes y productos de comunicación?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: ¿Cómo sugiero más datos para incluir en el Laboratorio de Biodiversidad de las Naciones Unidas?
+            What are UNBL workspaces? How do I request a UNBL workspace?: ¿Qué son los espacios de trabajo de UNBL? ¿Cómo solicito un espacio de trabajo de UNBL?
+            What if my question wasn't answered?: ¿Qué pasa si mi pregunta no fue respondida?
+            UNBL Workspaces: Espacios de Trabajo UNBL
+            ELSA Integrated Spatial Planning Tool: Herramienta de Planificación Espacial Integrada ELSA
+            Overview: Descripción General
+            Tool Purpose and Key Features: Propósito de la Herramienta y Características Clave
+            Registration and Access: Registro y Acceso
+            Creating a New Analysis: Crear un Nuevo Análisis
+            Editing an Analysis: Editar un Análisis
+            Running the Optimization: Ejecutar la Optimización
+            Viewing Heatmaps: Ver Mapas de Calor
+            Downloading Results: Descargar Resultados
+            Analyzing Synergies and Trade-offs: Analizar Sinergias y Compensaciones
+            Citing Maps: Citar Mapas
+            Support and Contact: Soporte y Contacto
+            Annex 1 - Glossary: Anexo 1 - Glosario
+            Annex 2 - Data layers: Anexo 2 - Capas de Datos
         - locale: fr
           name: Français
           build: true
+          site_name: Documentation en Ligne de l'UNBL
+          site_description: Guide de l'Utilisateur pour le Laboratoire de la Biodiversité des Nations Unies
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-7
+                  name: Passer en mode sombre
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-4
+                  name: Passer en mode clair
+          nav_translations:
+            Home: Accueil
+            UNBL Public Platform: Plateforme Publique UNBL
+            How do I register or log-in?: Comment puis-je m'inscrire ou me connecter ?
+            How do I manage my account?: Comment puis-je gérer mon compte ?
+            How do I navigate between the UN Biodiversity Lab website and map app?: Comment puis-je naviguer entre le site web du Laboratoire de la biodiversité des Nations Unies et l'application cartographique ?
+            How do I change the language?: Comment puis-je changer la langue ?
+            How do I adjust my map view?: Comment puis-je ajuster ma vue de carte ?
+            How do I add/remove place labels, roads, and satellite view from the base map?: Comment puis-je ajouter/supprimer les étiquettes de lieux, les routes et la vue satellite de la carte de base ?
+            How do I find my country?: Comment puis-je trouver mon pays ?
+            What dynamic metrics are available for my country?: Quelles métriques dynamiques sont disponibles pour mon pays ?
+            How do I find additional datasets for my country?: Comment puis-je trouver des ensembles de données supplémentaires pour mon pays ?
+            How do I find the Digital Public Good (DPG) open datasets?: Comment puis-je trouver les ensembles de données ouvertes de Bien Public Numérique (DPG) ?
+            How do I find more information about each dataset?: Comment puis-je trouver plus d'informations sur chaque ensemble de données ?
+            How do I customize the dataset views?: Comment puis-je personnaliser les vues des ensembles de données ?
+            What options do I have to visualize time series datasets?: Quelles options ai-je pour visualiser les ensembles de données de séries chronologiques ?
+            How do I share a dataset?: Comment puis-je partager un ensemble de données ?
+            How do I clip and download datasets for my country?: Comment puis-je découper et télécharger des ensembles de données pour mon pays ?
+            How do I download unclipped global data datasets?: Comment puis-je télécharger des ensembles de données mondiales non découpés ?
+            How do I make a map for inclusion in reports and communication products?: Comment puis-je créer une carte pour l'inclure dans des rapports et des produits de communication ?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Comment puis-je suggérer plus de données pour l'inclusion dans le Laboratoire de la biodiversité des Nations Unies ?
+            What are UNBL workspaces? How do I request a UNBL workspace?: Qu'est-ce que les espaces de travail UNBL ? Comment puis-je demander un espace de travail UNBL ?
+            What if my question wasn't answered?: Que faire si ma question n'a pas eu de réponse ?
+            UNBL Workspaces: Espaces de Travail UNBL
+            ELSA Integrated Spatial Planning Tool: Outil de Planification Spatiale Intégrée ELSA
+            Overview: Aperçu
+            Tool Purpose and Key Features: Objectif de l'Outil et Caractéristiques Principales
+            Registration and Access: Inscription et Accès
+            Creating a New Analysis: Créer une Nouvelle Analyse
+            Editing an Analysis: Modifier une Analyse
+            Running the Optimization: Exécuter l'Optimisation
+            Viewing Heatmaps: Visualiser les Cartes de Chaleur
+            Downloading Results: Télécharger les Résultats
+            Analyzing Synergies and Trade-offs: Analyser les Synergies et les Compromis
+            Citing Maps: Citer les Cartes
+            Support and Contact: Assistance et Contact
+            Annex 1 - Glossary: Annexe 1 - Glossaire
+            Annex 2 - Data layers: Annexe 2 - Couches de Données
         - locale: pt
           name: Português
           build: true
+          site_name: Documentação Online do UNBL
+          site_description: Guia do Usuário para o Laboratório de Biodiversidade das Nações Unidas
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-7
+                  name: Mudar para modo escuro
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-4
+                  name: Mudar para modo claro
+          nav_translations:
+            Home: Início
+            UNBL Public Platform: Plataforma Pública UNBL
+            How do I register or log-in?: Como faço para me registrar ou fazer login?
+            How do I manage my account?: Como faço para gerenciar minha conta?
+            How do I navigate between the UN Biodiversity Lab website and map app?: Como navego entre o site do Laboratório de Biodiversidade da ONU e o aplicativo de mapa?
+            How do I change the language?: Como faço para alterar o idioma?
+            How do I adjust my map view?: Como faço para ajustar a visualização do mapa?
+            How do I add/remove place labels, roads, and satellite view from the base map?: Como faço para adicionar/remover rótulos de lugares, estradas e visualização por satélite do mapa base?
+            How do I find my country?: Como encontro meu país?
+            What dynamic metrics are available for my country?: Quais métricas dinâmicas estão disponíveis para meu país?
+            How do I find additional datasets for my country?: Como encontro conjuntos de dados adicionais para meu país?
+            How do I find the Digital Public Good (DPG) open datasets?: Como encontro os conjuntos de dados abertos de Bem Público Digital (DPG)?
+            How do I find more information about each dataset?: Como encontro mais informações sobre cada conjunto de dados?
+            How do I customize the dataset views?: Como personalizo as visualizações dos conjuntos de dados?
+            What options do I have to visualize time series datasets?: Quais opções tenho para visualizar conjuntos de dados de séries temporais?
+            How do I share a dataset?: Como compartilho um conjunto de dados?
+            How do I clip and download datasets for my country?: Como recorto e baixo conjuntos de dados para meu país?
+            How do I download unclipped global data datasets?: Como faço o download de conjuntos de dados globais não recortados?
+            How do I make a map for inclusion in reports and communication products?: Como faço um mapa para inclusão em relatórios e produtos de comunicação?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Como sugiro mais dados para inclusão no Laboratório de Biodiversidade da ONU?
+            What are UNBL workspaces? How do I request a UNBL workspace?: O que são espaços de trabalho UNBL? Como solicito um espaço de trabalho UNBL?
+            What if my question wasn't answered?: E se minha pergunta não foi respondida?
+            UNBL Workspaces: Espaços de Trabalho UNBL
+            ELSA Integrated Spatial Planning Tool: Ferramenta de Planejamento Espacial Integrado ELSA
+            Overview: Visão Geral
+            Tool Purpose and Key Features: Propósito da Ferramenta e Recursos Principais
+            Registration and Access: Registro e Acesso
+            Creating a New Analysis: Criar uma Nova Análise
+            Editing an Analysis: Editar uma Análise
+            Running the Optimization: Executar a Otimização
+            Viewing Heatmaps: Visualizar Mapas de Calor
+            Downloading Results: Baixar Resultados
+            Analyzing Synergies and Trade-offs: Analisar Sinergias e Compensações
+            Citing Maps: Citar Mapas
+            Support and Contact: Suporte e Contato
+            Annex 1 - Glossary: Anexo 1 - Glossário
+            Annex 2 - Data layers: Anexo 2 - Camadas de Dados
         - locale: ru
           name: Русский
-          build: true        
+          build: true
+          site_name: Онлайн-документация UNBL
+          site_description: Руководство пользователя для Лаборатории биоразнообразия ООН
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-7
+                  name: Переключить на темный режим
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: blue
+                accent: light blue
+                toggle:
+                  icon: material/brightness-4
+                  name: Переключить на светлый режим
+          nav_translations:
+            Home: Главная
+            UNBL Public Platform: Публичная платформа UNBL
+            How do I register or log-in?: Как зарегистрироваться или войти в систему?
+            How do I manage my account?: Как управлять своей учетной записью?
+            How do I navigate between the UN Biodiversity Lab website and map app?: Как перемещаться между веб-сайтом Лаборатории биоразнообразия ООН и картографическим приложением?
+            How do I change the language?: Как изменить язык?
+            How do I adjust my map view?: Как настроить вид карты?
+            How do I add/remove place labels, roads, and satellite view from the base map?: Как добавить/удалить метки мест, дороги и спутниковый вид с базовой карты?
+            How do I find my country?: Как найти свою страну?
+            What dynamic metrics are available for my country?: Какие динамические метрики доступны для моей страны?
+            How do I find additional datasets for my country?: Как найти дополнительные наборы данных для моей страны?
+            How do I find the Digital Public Good (DPG) open datasets?: Как найти открытые наборы данных Цифрового общественного блага (DPG)?
+            How do I find more information about each dataset?: Как найти больше информации о каждом наборе данных?
+            How do I customize the dataset views?: Как настроить представления наборов данных?
+            What options do I have to visualize time series datasets?: Какие варианты у меня есть для визуализации наборов данных временных рядов?
+            How do I share a dataset?: Как поделиться набором данных?
+            How do I clip and download datasets for my country?: Как обрезать и загрузить наборы данных для моей страны?
+            How do I download unclipped global data datasets?: Как загрузить необрезанные глобальные наборы данных?
+            How do I make a map for inclusion in reports and communication products?: Как создать карту для включения в отчеты и коммуникационные материалы?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Как предложить больше данных для включения в Лабораторию биоразнообразия ООН?
+            What are UNBL workspaces? How do I request a UNBL workspace?: Что такое рабочие пространства UNBL? Как запросить рабочее пространство UNBL?
+            What if my question wasn't answered?: Что делать, если на мой вопрос не ответили?
+            UNBL Workspaces: Рабочие пространства UNBL
+            ELSA Integrated Spatial Planning Tool: Интегрированный инструмент пространственного планирования ELSA
+            Overview: Обзор
+            Tool Purpose and Key Features: Назначение инструмента и ключевые функции
+            Registration and Access: Регистрация и доступ
+            Creating a New Analysis: Создание нового анализа
+            Editing an Analysis: Редактирование анализа
+            Running the Optimization: Запуск оптимизации
+            Viewing Heatmaps: Просмотр тепловых карт
+            Downloading Results: Загрузка результатов
+            Analyzing Synergies and Trade-offs: Анализ синергии и компромиссов
+            Citing Maps: Цитирование карт
+            Support and Contact: Поддержка и контакты
+            Annex 1 - Glossary: Приложение 1 - Глоссарий
+            Annex 2 - Data layers: Приложение 2 - Слои данных        
   - glightbox:
       touchNavigation: true
       loop: false

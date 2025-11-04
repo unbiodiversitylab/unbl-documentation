@@ -2,7 +2,7 @@
 
 This user guide has been developed to walk you through the key tools and functions of the UN Biodiversity Lab. Click on the links below to find visual guides for our **public platform**, **secure workspaces** and the **ELSA Integrated Spatial Planning Tool**.
 
-If you have any further questions please contact us at support@unbiodiversitylab.org.
+If you have any further questions please contact us at <support@unbiodiversitylab.org>.
 
 <div class="grid cards" markdown>
 
