@@ -1,8 +1,6 @@
 # Guía de Usuario de la Plataforma Pública del Laboratorio de Biodiversidad de las Naciones Unidas (UNBL)
 
-<p align="center">
-  <img src="images/en/image001.png" alt="" style="max-width:100%; height:auto;">
-</p>
+![](images/es/image001.png)
 
 Esta guía de usuario descargable ha sido desarrollada para guiarlo a través de las herramientas y funciones clave del Laboratorio de Biodiversidad de las Naciones Unidas. Si tiene más preguntas, visite nuestra [página de soporte](https://unbiodiversitylab.org/en/support/) o contáctenos en support@unbiodiversitylab.org.
 
