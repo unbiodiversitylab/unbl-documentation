@@ -1,14 +1,14 @@
-# Comment naviguer entre le site web du Laboratoire de Biodiversité des Nations Unies et l'application cartographique ?
+# Comment naviguer entre le site web du UN Biodiversity Lab et l'application cartographique ?
 
-La navigation entre les deux pages est simple :
+La navigation entre les deux pages est simple.
 
-1. Pour retourner au site web du Laboratoire de Biodiversité des Nations Unies depuis l'application cartographique, cliquez sur 'MAP VIEW' dans la barre d'outils de gauche et choisissez 'HOME' en haut à droite du panneau.
+1. Pour revenir au site web du UN Biodiversity Lab à partir de l'application cartographique, cliquez sur VUE CARTE dans la barre d'outils de gauche, et cliquez sur ACCUEIL en haut à droite du panneau.
 
 	!!! Note
-		Si vous êtes inscrit sur UNBL et possédez un espace de travail, veuillez cliquer sur 'WORKSPACES' dans la barre d'outils de gauche puis sur 'HOME'.
+		Si vous êtes inscrit(e) sur le UNBL et possédez un espace de travail, veuillez cliquer sur ESPACES DE TRAVAIL dans la barre d'outils de gauche, puis sur ACCUEIL.
 
-	![](images/en/image023.png)
+	![](images/fr/image023.png)
 
-2. Pour naviguer vers l'application cartographique depuis le site web du Laboratoire de Biodiversité des Nations Unies, cliquez sur 'Launch map'.
+2. Pour accéder à l'application cartographique depuis le site web du UN Biodiversity Lab, cliquez sur « Launch map » (Lancer la carte).
 
-	![](images/en/image025.png)
+	![](images/fr/image025.png)
