@@ -12,4 +12,4 @@ For more information on the science supporting the ELSA spatial prioritization p
 
 - [Preprint: An operational framework to map Essential Life Support Areas (ELSAs) for biodiversity, climate, and sustainable development ](https://www.biorxiv.org/content/10.1101/2024.11.25.625159v1.full.pdf)
 
-- Technical Brief: Spatial Prioritization Tools Available to Support National Spatial Planning Processes (*coming soon!*)
+- [Technical Brief: Spatial Prioritization Tools Available to Support National Spatial Planning Processes](https://unbiodiversitylab.org/en/integrated-spatial-planning/)

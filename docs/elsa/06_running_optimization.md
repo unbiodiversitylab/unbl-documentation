@@ -10,7 +10,7 @@ Once you have named your analysis run, set area-based constraints, lock-in funct
 
 <figure markdown>
 ![](images/image014.png)
-<figcaption> Figure 13. Run analysis</figcaption>
+<figcaption>Figure 13. Run analysis</figcaption>
 </figure>
 
 The analysis may take between one and five minutes to run. However, if the country is large, there are many planning features being used, or a high boundary penalty factor is applied, it may take much longer. You will see a progress bar documenting the status of the analysis. We advise against running a second ELSA analysis while before the first analysis has completed. Once the progress bar has reached 100% and the analysis has been executed, you can view the result of your analysis as the most recent entry in the left tab under ‘ANALYSIS RUNS’. 

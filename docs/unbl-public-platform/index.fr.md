@@ -15,7 +15,7 @@ Ce guide répond aux questions suivantes :
 - **[Comment puis-je ajuster l'affichage de ma carte ?](5_adjust_mapview.md)**
 - **[Comment ajouter/supprimer des étiquettes de lieu, des routes, et la vue satellite de la carte de base ?](6_manage_labels_and_basemaps.md)**
 - **[Comment trouver mon pays ?](7_find_country.md)**
-- **[Quels indicateurs dynamiques sont disponibles pour mon pays/ma zone d'intérêt ?](8_dynamic_metrics.md)**
+- **[Quels indicateurs dynamiques sont disponibles pour mon pays/ma zone d'intérêt ?](8_dynamic_metrics1.md)**
 - **[Comment trouver des ensembles de données supplémentaires pour mon pays ?](9_find_layers.md)**
 - **[Comment trouver les ensembles de données ouvertes Digital Public Good (DPG) ?](10_find_dpg_layers.md)**
 - **[Comment trouver plus d'informations sur chaque ensemble de données ?](11_find_layer_info.md)**
