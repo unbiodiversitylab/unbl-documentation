@@ -1,104 +1,125 @@
-# Modifier une exécution d'analyse ELSA
+# Modification d'une analyse ELSA
 
-!!! info "Concepts Clés"
-    * [Zones d'Action](12_annex1.md#action-zones)
-    * [Caractéristiques de Verrouillage](12_annex1.md#lock-in-features)
-    * [Contrainte basée sur la zone](12_annex1.md#area-based-constraint)
-    * [Facteur de Pénalité de Frontière (BPF)](12_annex1.md#boundary-penalty-factor-bpf)
-    * [Caractéristique de planification](12_annex1.md#planning-feature)
-    * [Unités de planification](12_annex1.md#planning-units)
-    * [Logiciel d'aide à la décision](12_annex1.md#decision-support-software)
-    * [Système d'Information Géographique (SIG)](12_annex1.md#geographic-information-system-gis)
+!!! info "Concepts clés"
+    * [Zones d'action](12_annex1.md#zones-daction)
+    * [Zones de verrouillage](12_annex1.md#zones-de-verrouillage)
+    * [Contraintes de zone](12_annex1.md#contrainte-basee-sur-la-superficie)
+    * [Facteur de pénalité aux limites](12_annex1.md#facteur-de-penalite-de-limites-bpf)
+    * [Caractéristiques de planification](12_annex1.md#caracteristique-de-planification)
+    * [Unités de planification](12_annex1.md#unites-de-planification)
+    * [Logiciel d'aide à la décision](12_annex1.md#logiciel-daide-a-la-decision)
+    * [Système d'information géographique (SIG)](12_annex1.md#systeme-dinformation-geographique-sig)
     * [Restrictions](12_annex1.md#restrictions)
     * [Représentation](12_annex1.md#representation)
-    * [Planification Systématique de la Conservation (SCP)](12_annex1.md#systematic-conservation-planning-scp)
-    * [Interface utilisateur](12_annex1.md#user-interface)
-    * [Poids](12_annex1.md#weights)
+    * [Planification systématique de la conservation (PSC)](12_annex1.md#planification-systematique-de-la-conservation-psc)
+    * [Interface utilisateur](12_annex1.md#interface-utilisateur)
+    * [Pondérations](12_annex1.md#ponderations)
 
-## Nommer l'exécution d'analyse ELSA
+## Nommer une analyse ELSA
 
-En cliquant sur 'NEW ANALYSIS RUN' (Figure 5), vous pourrez visualiser et modifier une analyse provisoire. Tout d'abord, vous devez fournir un nouveau nom unique pour votre exécution d'analyse. Bien qu'il n'y ait aucune restriction sur le nom donné à chaque exécution, nous suggérons que les noms d'exécution incluent des descriptions significatives, faisant idéalement référence aux paramètres utilisés (par exemple, inclure des informations comme BPF 10 ou Protéger 38%).
+En cliquant sur « NOUVELLE ANALYSE » (Figure 5), vous pourrez afficher et modifier une analyse provisoire. Vous devez d'abord donner un nom unique à votre analyse. Bien qu'il n'y ait aucune restriction quant au nom donné à chaque analyse, nous vous suggérons d'utiliser des noms descriptifs, idéalement en référence aux paramètres utilisés (par exemple, inclure des informations telles que "BPF 10" ou "Protect 38%").
 
-## Sélectionner les fonctions de verrouillage
+## Sélection des fonctions de verrouillage
 
-Vous pouvez vous assurer que certaines zones sont incluses dans votre carte d'action. Conceptuellement, cela se comprend le plus facilement comme le verrouillage de zones de planification existantes à l'action de protection dans une carte - en substance, reproduisant les réalités sur le terrain. Cela force ces zones à être sélectionnées dans l'action de protection dans la carte, et ces zones sont obligées de contribuer à satisfaire la contrainte de zone pour la protection. La couverture nationale des aires protégées (%) est indiquée entre parenthèses. Les configurations d'outil ne se limitent pas au verrouillage des aires protégées existantes à l'action de protection (par exemple, il pourrait être souhaitable de verrouiller les zones de projet de restauration existantes à l'action de restauration) ; cependant, par défaut, les configurations d'outil ne sont actuellement configurées que pour permettre le verrouillage des aires protégées.
+Vous pouvez vous assurer que certaines zones sont incluses dans votre carte d'action. Conceptuellement, cela s'explique plus facilement comme le verrouillage des zones de planification existantes à l'action de protection sur une carte, reproduisant ainsi les réalités du terrain. Cela oblige à sélectionner ces zones dans l'action de protection sur la carte, et ces zones sont contraintes de contribuer au respect de la contrainte de superficie pour la protection. La couverture nationale des aires protégées (%) est indiquée entre parenthèses. Les configurations de l'outil ne se limitent pas à verrouiller les aires protégées existantes dans l'action de protection (par exemple, il peut être souhaitable de verrouiller les zones de projets de restauration existantes dans l'action de restauration) ; cependant, par défaut, les configurations de l'outil ne permettent actuellement que le verrouillage des aires protégées.
 
 !!! important
-    Les Aires Protégées sont verrouillées **PAR DÉFAUT**
+    Les aires protégées sont verrouillées *PAR DÉFAUT*
 
-Verrouillage des Aires Protégées ([Figure 1](#fig-lockin-options)) :
+Verrouillage des aires protégées ([Figure 6](#fig-lockin-options)) :
 
-* Sélectionnez 'Lock-in Existing Protected Areas' si vous souhaitez forcer l'analyse à inclure les Aires Protégées existantes dans l'action de 'Protection' dans la solution.
-* Sélectionnez 'Lock-in nothing' si vous souhaitez évaluer indépendamment l'emplacement optimal des Aires Protégées existantes et nouvelles dans votre pays en fonction des zones de 'Protection' sélectionnées dans la carte d'action résultante.
+- Sélectionnez « Verrouiller les aires protégées existantes » si vous souhaitez forcer l'analyse à inclure les aires protégées existantes dans l'action « Protection » de la solution.
+- Sélectionnez « Ne rien verrouiller » si vous souhaitez évaluer de manière indépendante l'emplacement optimal des aires protégées existantes et nouvelles dans votre pays en fonction des zones « Protéger » sélectionnées dans la carte d'action résultante.
 
-![Fonctionnalités de verrouillage](images/image007.png){#fig-lockin-options}
+<figure markdown>
+![](images/fr/06fr - figure 6.png){#fig-lockin-options}
+<figcaption>Figure 6. Fonctionnalités de verrouillage</figcaption>
+</figure>
 
-Comme on le voit dans la [Figure 1](#fig-lockin-options) pour Cuba, les Aires Protégées existantes couvrent 17,08% du pays. Par conséquent, la sélection de 'Lock-in Existing Protected Areas' exige qu'au moins 17,08% du territoire national soit affecté sous la contrainte de zone 'Protection'.
+Comme le montre la [Figure 6](#fig-lockin-options) pour Cuba, les aires protégées existantes couvrent 17,08% du territoire national. Par conséquent, le choix de « Verrouiller les aires protégées existantes » exige qu'au moins 17,08% du territoire national soit affecté à la contrainte « Protéger ».
 
-## Zones Alternatives
+## Zones alternatives
 
-Les utilisateurs ne peuvent pas définir eux-mêmes les zones, mais pour certaines actions, il peut y avoir à la fois une zone par défaut et une zone alternative qui peut être sélectionnée. Par exemple, certains outils peuvent avoir une option pour considérer "Zones agricoles uniquement" pour l'action de gestion, ou "Zones forestières uniquement" pour l'action de restauration, en fonction des besoins et priorités individuels des utilisateurs et des pays.
+Les utilisateurs ne peuvent pas définir eux-mêmes les zones, mais pour certaines actions, il peut y avoir à la fois une zone par défaut et une zone alternative qui peuvent être sélectionnées. Par exemple, certains outils peuvent offrir la possibilité de ne prendre en compte que les « zones agricoles » pour l'action de gestion, ou que les « zones forestières » pour l'action de restauration, en fonction des besoins et des priorités individuels des utilisateurs et des pays.
 
-![Zones alternatives pour affiner les zones d'activité basées sur la nature](images/image008.png){#fig-alt-zone-options}
+<figure markdown>
+![](images/fr/07fr - figure 7.png){#fig-alt-zone-options}
+<figcaption>Figure 7. Zones alternatives pour réduire les zones d'activité fondées sur la nature</figcaption>
+</figure>
 
-## Définir les contraintes basées sur la zone pour les actions
+## Définition de contraintes basées sur la zone pour les actions
 
-Cette partie de l'outil vous permet de définir des contraintes (objectifs) basées sur la zone pour la protection, la restauration, la gestion et/ou le verdissement urbain. Les contraintes de zone peuvent également être comprises comme le pourcentage de superficie terrestre qui devrait être attribué à chaque action dans la carte d'action résultante. Les valeurs par défaut dans un outil ELSA donné sont dérivées des objectifs terrestres du KMGBF, sauf si elles sont davantage personnalisées pour votre pays par l'équipe UNBL en fonction de votre Stratégie et Plan d'Action Nationaux pour la Biodiversité (NBSAP) ou d'autres documents de politique nationale.
+Cette partie de l'outil vous permet de définir des contraintes (cibles) basées sur la superficie pour la protection, la restauration, la gestion, et/ou le verdissement urbain. Les contraintes de zone peuvent également être comprises comme le pourcentage de la superficie terrestre qui devrait être attribué à chaque action dans la carte d'action résultante. Les valeurs par défaut dans tout outil ELSA donné sont dérivées des cibles terrestres du KMGBF, à moins qu'elles ne soient personnalisées pour votre pays par l'équipe UNBL sur la base de votre Stratégie et plan d'action nationaux pour la biodiversité (SPANB), ou d'autres documents politiques nationaux.
 
-Vous pouvez définir toute valeur supérieure ou égale à 0,001 pour les objectifs de protection, de restauration, de gestion et/ou de verdissement urbain. La somme de la valeur pour tous les objectifs peut être inférieure ou égale à 100% mais ne doit pas dépasser 100%. De plus, la valeur maximale pour toute contrainte de zone unique ne peut pas dépasser la superficie totale de cette zone d'action. Par exemple, si 80% d'un pays est couvert par une zone de protection, alors la valeur maximale qui peut être attribuée à la contrainte basée sur la zone pour la protection ne peut pas dépasser 80%. Si vous entrez un nombre trop élevé, vous recevrez une erreur spécifiant le montant maximum qui peut être alloué.
+Vous pouvez définir n'importe quelle valeur supérieure ou égale à 0,001 pour les objectifs de protection, de restauration, de gestion, et/ou de verdissement urbain. La somme des valeurs pour tous les objectifs peut être inférieure ou égale à 100%, mais ne doit pas dépasser 100%. De plus, la valeur maximale pour une contrainte de zone unique ne peut pas dépasser la superficie totale de cette zone d'action. Par exemple, si 80% d'un pays est couvert par une zone de protection, la valeur maximale pouvant être attribuée à la contrainte de protection basée sur la superficie ne peut pas dépasser 80%. Si vous entrez un nombre trop élevé, vous recevrez un message d'erreur indiquant le montant maximal pouvant être attribué.
 
 !!! note
-    Note : L'emplacement et la superficie totale de chaque zone d'action définissent où il est possible pour chaque action d'avoir lieu. Il est déterminé en fonction du type d'écosystème et du niveau de développement dans un pays (par exemple, la protection ne peut pas avoir lieu dans les zones avec un indice industriel humain élevé).
+    L'emplacement et la superficie totale de chaque zone d'action définissent les endroits où chaque action peut être mise en œuvre. Ils sont déterminés en fonction du type d'écosystème et du niveau de développement d'un pays (par exemple, la protection ne peut pas être mise en œuvre dans les zones où l'indice industriel humain est élevé).
 
-Vous devez également considérer que si vous souhaitez verrouiller les Aires Protégées existantes (par défaut), la contrainte globale de zone de protection doit être égale ou supérieure à la superficie terrestre couverte par les Aires Protégées existantes. Par exemple, la superficie terrestre couverte par les Aires Protégées existantes à Cuba est de 17,08%. Par conséquent, la contrainte de zone de protection devrait être égale ou supérieure à 17,08%.
+Vous devez également tenir compte du fait que si vous souhaitez verrouiller les aires protégées existantes (par défaut), la contrainte globale de la zone de protection doit être égale ou supérieure à la superficie couverte par les aires protégées existantes. Par exemple, la superficie couverte par les aires protégées existantes au Kazakhstan est de 17,08%. Par conséquent, la contrainte de la zone de protection doit être égale ou supérieure à 17,08%.
 
-![Définir les objectifs](images/image009.png){#fig-setting-objectives}
+<figure markdown>
+![](images/fr/08fr - figure 8.png){#fig-setting-objectives}
+<figcaption>Figure 8. Définition des objectifs</figcaption>
+</figure>
 
-## Spécifier le facteur de pénalité de frontière
+## Spécification du facteur de pénalité de limites
 
-Le facteur de pénalité de frontière est utilisé pour promouvoir la cohésion spatiale lors de la priorisation des zones d'utilisation des terres. La pénalité de frontière peut être de 0 ou plus. Plus la valeur est élevée, plus les zones d'action seront connectées et contiguës sur la carte. Cet ajustement est basé sur l'idée que, pour la planification dans le monde réel, une zone plus connectée est généralement plus facile à gérer et à exécuter des actions.
+Le facteur de pénalité de limites est utilisé pour favoriser la cohésion spatiale lors de la priorisation des zones d'utilisation des sols. La pénalité de limites peut être égale à 0 ou supérieure. Plus la valeur est élevée, plus les zones d'action seront connectées et contiguës sur la carte. Cet ajustement repose sur l'idée que, dans la réalité, une zone plus connectée est généralement plus facile à gérer et à mettre en œuvre.
 
 Étapes :
 
 1. Pour définir la pénalité de limite, commencez par un petit nombre, par exemple 10.
-2. Augmentez le nombre de manière itérative, c'est-à-dire, réexécutez l'analyse de manière répétée, par ordre de grandeur (par exemple, 10 -> 100-> 1000), en réduisant le taux d'augmentation à mesure que vous approchez de solutions qui conduisent à votre niveau de regroupement souhaité. Chaque fois que vous modifiez la pénalité, vous devrez réexécuter l'optimisation jusqu'à ce que vous arriviez à une carte suffisamment contiguë pour répondre à vos besoins.
+2. Augmentez le nombre de manière itérative, c'est-à-dire en relançant l'analyse à plusieurs reprises, par ordre de grandeur (par exemple, 10 -> 100 -> 1000), en réduisant le taux d'augmentation à mesure que vous vous approchez des solutions qui mènent au niveau de regroupement souhaité. Chaque fois que vous modifiez la pénalité, vous devrez relancer l'optimisation jusqu'à obtenir une carte suffisamment contiguë pour répondre à vos besoins.
 
 !!! attention
-    L'augmentation du facteur de pénalité de frontière à partir de 0 entraînera des temps de résolution plus longs ; dans certains cas, ceux-ci peuvent être beaucoup plus longs.
+    L'augmentation du facteur de pénalité de limite à partir de 0 entraînera des temps de résolution plus longs ; dans certains cas, ceux-ci peuvent être beaucoup plus longs.
 
-![Ajustement du facteur de pénalité de frontière](images/image010.png){#fig-adjust-bpf}
+<figure markdown>
+![](images/fr/09fr - figure 9.png){#fig-adjust-bpf}
+<figcaption>Figure 9. Ajustement du facteur de pénalité de limite</figcaption>
+</figure>
 
-## Modifier les poids des caractéristiques de planification
+## Modification des pondérations des caractéristiques de planification
 
-Pour modifier les poids des caractéristiques de planification, cliquez sur le bouton 'SET FEATURE WEIGHTS' près du coin supérieur droit de la fenêtre contextuelle d'exécution d'analyse.
+Pour modifier les pondérations des caractéristiques de planification, cliquez sur le bouton « SET FEATURE WEIGHTS » (Définir les pondérations des caractéristiques) situé dans le coin supérieur droit de la fenêtre contextuelle d'analyse.
 
-Vous devez entrer un poids pour chaque caractéristique de planification dans la liste de données d'entrée. Nous recommandons une échelle de 0 à 10 comme suit, en fonction du niveau de priorité de chaque caractéristique de planification et de votre confiance dans l'exactitude de l'ensemble de données pour votre pays :
+Vous devez saisir une pondération pour chaque caractéristique de planification dans la liste des données d'entrée. Nous recommandons une échelle de 0 à 10, comme suit, en fonction du niveau de priorité de chaque caractéristique de planification et de votre confiance dans l'exactitude de l'ensemble de données pour votre pays :
 
-* 0 - pas important / exclu de l'analyse
-* 1,0 - faible importance / importance inférieure à la moyenne
-* 5,0 - importance moyenne
-* 10 - importance extrême
+- 0 - sans importance / exclu de l'analyse
+- 1,0 - faible importance / importance inférieure à la moyenne
+- 5,0 - importance moyenne
+- 10 - importance capitale
 
-Pour permettre aux utilisateurs de prendre la décision la plus éclairée possible, le thème (biodiversité/changement climatique/bien-être humain), les actions pertinentes et l'objectif politique KMGBF proxy (ou autre objectif politique national/NBSAP pertinent) sont répertoriés pour chaque caractéristique de planification. Vous pouvez évaluer le niveau de priorité de chaque caractéristique de planification et attribuer un poids éclairé en décidant de l'importance relative de chacune des caractéristiques de planification utilisées pour cartographier les objectifs du KMGBF (ou autres objectifs politiques nationaux/NBSAP pertinents autrement définis par votre pays) dans votre pays. Par exemple, si l'Objectif 1 du KMGBF est d'une importance particulièrement élevée pour votre pays, alors les caractéristiques de planification telles que les écosystèmes intacts, les forêts de haute intégrité, l'indice d'habitat de biodiversité et l'indice d'intégrité de la biodiversité devraient recevoir un poids plus important (> 3). Alternativement, si vous pensez que les écosystèmes menacés dans votre pays sont particulièrement dégradés et devraient être considérés pour identifier les zones prioritaires pour la restauration pour l'Objectif 2 du KMGBF, alors vous pouvez donner un poids plus élevé à la caractéristique de planification 'Écosystèmes Menacés pour la Restauration' qui cartographie spécifiquement ces zones (voir [Figure 5](#fig-edit-weights)).
+Afin de permettre aux utilisateurs de prendre la décision la plus éclairée possible, le thème (biodiversité/changement climatique/bien-être humain), les actions pertinentes et l'objectif politique KMGBF proxy (ou autre objectif SPANB/politique nationale pertinent) sont répertoriés pour chaque élément de planification. Vous pouvez évaluer le niveau de priorité de chaque élément de planification et attribuer une pondération éclairée en décidant de l'importance relative de chacun des éléments de planification utilisés pour cartographier les objectifs KMGBF (ou d'autres objectifs pertinents de la SPANB/politique nationale autrement définis par votre pays) dans votre pays. Par exemple, si l'objectif 1 du KMGBF revêt une importance particulière pour votre pays, les caractéristiques de planification telles que les écosystèmes intacts, les forêts à haute intégrité, l'indice d'habitat de la biodiversité, et l'indice d'intégrité de la biodiversité devraient se voir attribuer une pondération plus élevée (> 3). À l'inverse, si vous estimez que les écosystèmes menacés de votre pays sont particulièrement dégradés, et devraient être pris en compte pour identifier les zones prioritaires à restaurer pour l'objectif 2 du KMGBF, vous pouvez accorder une pondération plus élevée à l'élément de planification « Écosystèmes menacés à restaurer », qui cartographie spécifiquement ces zones (voir [Figure 10](#fig-edit-weights)).
 
-Pour une liste complète des données d'entrée, ainsi que les objectifs KMGBF qu'elles sont utilisées pour cartographier, veuillez consulter l'[Annexe 2](13_annex2.md).
+Pour obtenir la liste complète des données d'entrée, ainsi que les cibles KMGBF pour lesquelles elles sont utilisées, veuillez consulter l'[Annexe 2](13_annex2.md).
 
-![Modifier les poids](images/image011.png){#fig-edit-weights}
+<figure markdown>
+![](images/fr/10fr - figure 10.png){#fig-edit-weights}
+<figcaption>Figure 10. Modification des pondérations</figcaption>
+</figure>
 
-## Visualiser les couches d'entrée
+## Afficher les couches d'entrée
 
-Si vous souhaitez visualiser les caractéristiques de planification avant de définir les poids, vous devrez quitter la fenêtre contextuelle en cliquant sur 'SAVE FOR LATER' dans le coin inférieur droit. Vous pouvez ensuite revenir à votre exécution d'analyse de brouillon enregistrée après avoir visualisé les caractéristiques de planification souhaitées.
+Si vous souhaitez afficher les fonctionnalités de planification avant de définir les pondérations, vous devez quitter la fenêtre contextuelle en cliquant sur « ENREGISTRER POUR PLUS TARD » dans le coin inférieur droit. Vous pouvez ensuite revenir à votre analyse préliminaire enregistrée après avoir affiché les fonctionnalités de planification souhaitées.
 
-Pour visualiser les caractéristiques de planification, cliquez sur l'option 'INPUT LAYERS' à côté de l'option 'ANALYSIS RUNS' dans l'onglet outil de gauche. Vous pouvez ensuite basculer des couches d'entrée spécifiques pour les visualiser sur UNBL.
+Pour afficher les fonctionnalités de planification, cliquez sur l'option « INPUT LAYERS » (COUCHES D'ENTRÉE) à côté de l'option « ANALYSIS RUNS » (EXÉCUTIONS D'ANALYSE) dans l'onglet d'outils de gauche. Vous pouvez ensuite basculer entre les couches d'entrée spécifiques pour les afficher dans le UNBL.
 
-![Visualisation des zones d'action et des caractéristiques de planification sur UNBL](images/image012.png)
+<figure markdown>
+![](images/fr/11fr - figure 11.png)
+<figcaption>Figure 11. Affichage des zones d'action et des fonctionnalités de planification sur le UNBL</figcaption>
+</figure>
 
-En cliquant sur l'onglet 'INPUT LAYERS', vous pouvez visualiser chaque couche de caractéristique de planification d'entrée individuelle incluse dans l'analyse ELSA ; ces entrées sont spécifiquement adaptées pour aider à identifier les zones prioritaires pour la mise en œuvre du KMGBF, ainsi que la mise en œuvre du NBSAP/autre politique nationale, si spécifiquement demandé par votre pays. Vous pouvez également visualiser les caractéristiques de verrouillage (facultatives) (à savoir, les aires protégées existantes) dans votre pays. Enfin, vous pouvez visualiser la couche pour chaque zone d'action qui définit où il est possible pour chaque action d'avoir lieu dans votre pays pour l'analyse.
+En cliquant sur l'onglet « INPUT LAYERS » (COUCHES D'ENTRÉE), vous pouvez afficher chaque couche de fonctionnalités de planification d'entrée individuelle incluse dans l'analyse ELSA ; ces entrées sont spécialement conçues pour aider à identifier les zones prioritaires pour la mise en œuvre du KMGBF, ainsi que la mise en œuvre de la SPANB/d'autres politiques nationales, si votre pays en fait la demande expresse. Vous pouvez également afficher (facultatif) les fonctionnalités verrouillées (à savoir les aires protégées existantes) dans votre pays. Enfin, vous pouvez afficher la couche correspondant à chaque zone d'action qui définit où il est possible de mener chaque action dans votre pays pour l'analyse.
 
 Étapes :
 
-* Cliquez sur le bouton de basculement pour chaque zone d'action/zone de verrouillage/couche de caractéristique de planification d'entrée que vous souhaitez afficher.
-* Cliquez à nouveau sur le bouton de basculement pour retirer la couche sélectionnée de la vue.
-* Vous avez la possibilité de visualiser des informations supplémentaires (description de la couche, couches d'entrée originales, source) pour les couches actuellement basculées en cliquant sur l'icône ronde '**i**' soit dans la légende de la couche individuelle, soit à côté du bouton de basculement pour chaque couche.
+1. Cliquez sur le bouton bascule pour chaque zone d'action/zone verrouillée/couche cartographique de planification des données que vous souhaitez afficher.
+2. Cliquez à nouveau sur le bouton pour supprimer la couche sélectionnée de l'affichage.
+3. Vous avez la possibilité d'afficher des informations supplémentaires (description de la couche, couches d'entrée d'origine, source) pour les couches actuellement activées en cliquant sur l'icône ronde « **i** » dans la légende de chaque couche ou à côté du bouton d'activation de chaque couche.
 
-![Visualisation des métadonnées](images/image013.png)
+<figure markdown>
+![](images/fr/12fr - figure 12.png)
+<figcaption>Figure 12. Affichage des métadonnées</figcaption>
+</figure>

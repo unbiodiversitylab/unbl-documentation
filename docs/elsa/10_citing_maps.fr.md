@@ -1,7 +1,7 @@
-# Citer les cartes
+# Citation des cartes
 
-Si vous souhaitez utiliser les cartes finales dérivées de l'outil dans un rapport officiel ou une publication, veuillez utiliser la citation suivante :
+Si vous souhaitez utiliser les cartes finales dérivées de l'outil dans un rapport ou une publication officielle, veuillez utiliser la citation suivante :
 
 ```
-UNDP & UNEP-WCMC 2025. Planification Spatiale Intégrée pour le KMGBF. Carte créée à l'aide de données spatiales et de l'Outil des Zones Essentielles de Soutien à la Vie du Laboratoire de la Biodiversité de l'ONU (https://map.unbiodiversitylab.org/earth), le [insérer la date avec Jour Mois Année].
+PNUD et PNUE-WCMC 2025. Planification spatiale intégrée pour la KMGBF. Carte créée à l'aide de données spatiales et de l'outil Essential Life Support Area Tool (https://map.unbiodiversitylab.org/earth) du UN Biodiversity Lab, le [insérer la date avec le jour, le mois et l'année].
 ```

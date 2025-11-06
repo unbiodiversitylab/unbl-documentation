@@ -1,3 +1,3 @@
-# Support Supplémentaire
+# Assistance supplémentaire
 
-Pour une assistance supplémentaire, veuillez contacter <support@unbiodiversitylab.org>.
+Pour obtenir de l'aide, veuillez contacter <support@unbiodiversitylab.org>.
