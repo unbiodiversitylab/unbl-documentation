@@ -1,11 +1,11 @@
 # Comment trouver mon pays ?
 
-Le Laboratoire de Biodiversité des Nations Unies peut vous aider à naviguer vers une zone d'intérêt spécifique et à accéder aux ensembles de données et aux métriques dynamiques pour cette zone. Sur notre plateforme publique, les zones d'intérêt incluent les pays, les juridictions et certaines zones transfrontalières sélectionnées. Pour rechercher une zone d'intérêt, vous pouvez soit :
+Le UN Biodiversity Lab peut vous aider à naviguer vers une zone d'intérêt spécifique et à accéder aux ensembles de données et aux mesures dynamiques pour cette zone. Sur notre plateforme publique, les zones d'intérêt comprennent les pays, les juridictions, et certaines zones transfrontalières. Pour rechercher une zone d'intérêt, vous pouvez soit :
 
-1. Cliquer sur l'icône 'PLACES', taper le nom du pays ou de la juridiction que vous souhaitez voir dans la zone de recherche, et sélectionner le résultat souhaité dans la liste des résultats de recherche.
+1. Cliquer sur l'icône ENDROITS, saisir le nom du pays ou de la juridiction qui vous intéresse dans le champ de recherche, puis sélectionner le lieu souhaité dans la liste des résultats.
 
 	**OU**
 
-2. Cliquer sur l'icône 'PLACES', cliquer pour développer la boîte de filtres, et sélectionner votre filtre d'intérêt. Vous pouvez ensuite sélectionner le lieu souhaité dans la liste des résultats de recherche.
+2. Cliquez sur l'icône ENDROITS, cliquez pour développer la boîte de filtres et sélectionnez le filtre qui vous intéresse. Vous pouvez ensuite sélectionner le lieu souhaité dans la liste des résultats de recherche.
 
-![](images/en/image033.png)
+![](images/fr/image033.png)

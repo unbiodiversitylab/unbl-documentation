@@ -1,12 +1,11 @@
-# Comment télécharger des ensembles de données mondiales non découpés ?
+# Comment télécharger des ensembles de données mondiaux non découpés ?
 
-1.	Sélectionnez l'ensemble de données d'intérêt.
+1. Sélectionnez l'ensemble de données qui vous intéresse.
 
-2.	Cliquez sur l'icône d'information de l'ensemble de données.
+2. Cliquez sur l'icône d'informations sur l'ensemble de données.
 
-3.	Cliquez sur le lien sous 'LEARN MORE' pour télécharger les données depuis leur source d'origine (si aucun lien n'est fourni, cela signifie probablement que les données ne sont pas accessibles publiquement pour le téléchargement ou que les fournisseurs de données ont renoncé aux autorisations d'inclure le lien de téléchargement dans les métadonnées de l'ensemble de données sur le Laboratoire de Biodiversité des Nations Unies).
+3. Cliquez sur le lien sous EN SAVOIR PLUS pour télécharger les données depuis leur source d'origine (si aucun lien n'est fourni, cela signifie probablement que les données ne sont pas accessibles au public ou que les fournisseurs de données ont renoncé à inclure le lien de téléchargement dans les métadonnées de l'ensemble de données sur le UN Biodiversity Lab).
 
-4.	 Si vous rencontrez des problèmes pour accéder aux données, veuillez contacter support@unbiodiversitylab.org pour obtenir un soutien supplémentaire.
+4. Si vous rencontrez des difficultés pour accéder aux données, veuillez contacter support@unbiodiversitylab.org pour obtenir de l'aide.
 
-![](images/en/image077.png)
-
+![](images/fr/image076.png)

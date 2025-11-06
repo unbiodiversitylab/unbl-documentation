@@ -1,6 +1,6 @@
 # What is the ELSA tool for?
 
-The ELSA Tool enables diverse stakeholders to collaboratively assess national priorities for the KMGBF, explore trade-offs and synergies, and develop spatial plans to support national implementation of Targets 1, 2, and 3. The ELSA Tool produces spatial prioritization maps that identify areas for protection, restoration, management, and urban greening that will have the highest impact towards achieving KMGBF Targets 1-12.  Users with a [UNBL workspace ](https://unbiodiversitylab.org/en/unbl-workspaces/) can use the ELSA Tool to execute a customized national spatial prioritization as part of a participatory spatial planning process. They can: 
+The ELSA Tool enables diverse stakeholders to collaboratively assess national priorities for the KMGBF, explore trade-offs and synergies, and develop spatial plans to support national implementation of Targets 1, 2, and 3. The ELSA Tool produces spatial prioritization maps that identify areas for protection, restoration, management, and urban greening that will have the highest impact towards achieving KMGBF Targets 1-12.  Users with a [UNBL workspace ](https://unbiodiversitylab.org/en/unbl-workspaces/) can use the ELSA Tool to execute a customized national spatial prioritization as part of a participatory spatial planning process. They can: 
 
   - Display input layers (also known as planning features)used to map KMGBF targets.
   - Create and execute new ELSA analysis runs with different stakeholder groups. Users can modify and edit ELSA analysis runs in the following ways:  
@@ -25,4 +25,7 @@ The ELSA Tool uses the *prioritizr* package in the back end as a spatial optimiz
 !!! note
     Definitions of technical terminology mentioned in the guidance can be found in [Annex 1](12_annex1.md). 
 
-![Initial interface of the ELSA Tool on UNBL](images/image001.png)
+<figure markdown>
+![](images/image001.png)
+<figcaption>Figure 1. Initial interface of the ELSA Tool on UNBL.</figcaption>
+</figure>

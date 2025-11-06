@@ -1,3 +1,3 @@
-# Que faire si ma question n'a pas trouvé de réponse ?
+# Que faire si je n'ai pas trouvé la réponse à ma question ?
 
-Pour toute question supplémentaire, n'hésitez pas à nous contacter à <support@unbiodiversitylab.org>.
+Pour toute question supplémentaire, n'hésitez pas à nous contacter à l'adresse <support@unbiodiversitylab.org>.

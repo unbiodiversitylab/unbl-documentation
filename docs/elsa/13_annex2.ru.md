@@ -1,18 +1,18 @@
 # Приложение 2: Слои данных
 
-Слои данных, используемые для проекта комплексного пространственного планирования для поддержки реализации KMGBF.
+Слои данных, используемые для проекта комплексного пространственного планирования для поддержки реализации ГПБ.
 
-!!! note
+!!! note "Примечание"
     Список слоев входных данных может отличаться между странами в зависимости от исходного разрешения входных данных -- по отношению к стране и размеру единицы планирования -- а также приоритетных политических целей.
 
-## Характеристики планирования
+## Элементы планирования
 
-Следующие таблицы подробно описывают все характеристики планирования, используемые в анализе ELSA, организованные по теме и цели KMGBF:
+Следующие таблицы подробно описывают все элементы планирования, используемые в анализе ELSA, организованные по теме и цели ГПБ:
 
-### Характеристики планирования биоразнообразия
+### Элементы планирования по биоразнообразию
 
-| Название слоя | Цель KMGBF | Источник | Просмотр карты UNBL |
-|---------------|------------|----------|---------------------|
+| Название слоя | Цель ГПБ | Источник | Просмотр карты UNBL |
+|---------------|----------|----------|---------------------|
 | Нетронутые экосистемы | Цель 1 | Beyer et al., 2020 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=ecological-intactness-index_100) |
 | Леса высокой целостности | Цель 1 | Hansen et al., 2019; Grantham et al., 2020 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=-4.2646553,-13.2191915,2&layers=forest-landscape-integrity-index_100,forest-integrity-project-forest-structural-integrity-index-fsii_100) |
 | Индекс среды обитания биоразнообразия | Цель 1 | Harwood et al., 2022 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=-4.2646553,-13.2191915,2&layers=biodiversity-habitat-index-2000-2020-v2-30s-global-time-series_100) |
@@ -29,10 +29,10 @@
 | Богатство, взвешенное по редкости | Цель 4 | UNEP-WCMC, 2020 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=rarity-weighted-richness_100) |
 | Риск пестицидов | Цель 7 | Tang et al., 2021 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=10.5455813,-1.3879024,2&layers=risk-of-pesticide-pollution-at-the-global-scale_100) |
 
-### Характеристики климатического планирования
+### Элементы планирования по климату
 
-| Название слоя | Цель KMGBF | Источник | Просмотр карты UNBL |
-|---------------|------------|----------|---------------------|
+| Название слоя | Цель ГПБ | Источник | Просмотр карты UNBL |
+|---------------|----------|----------|---------------------|
 | Климатические убежища - Индекс устойчивости биоклиматических экосистем | Цель 8 | Harwood et al., 2022 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=bioclimatic-ecosystem-resilience-index-2000-2020-v2_100) |
 | Плотность углерода биомассы | Цель 8 | García-Rangel, S. et al. В подготовке. | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=biomass-carbon-density_100) |
 | Невосстановимый углерод | Цель 8 | Noon et al., 2022 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=irrecoverable-carbon_100) |
@@ -41,10 +41,10 @@
 | Возможности смягчения засухи | Цель 11 | Carrão et al., 2016 | N/A |
 | Возможности смягчения наводнений | Цель 11 | Tellman et al., 2021; Didan & Kamel, 2015; Linke et al., 2019 | N/A |
 
-### Характеристики планирования благополучия человека
+### Элементы планирования по благополучию человека
 
-| Название слоя | Цель KMGBF | Источник | Просмотр карты UNBL |
-|---------------|------------|----------|---------------------|
+| Название слоя | Цель ГПБ | Источник | Просмотр карты UNBL |
+|---------------|----------|----------|---------------------|
 | Реализованные области обеспечения чистой водой | Цель 7 | Mulligan, 2019 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=34.2547215,29.3202932,2&layers=realised-clean-water-provision_100) |
 | Разрыв в урожайности сельского хозяйства | Цель 10 | Mueller et al., 2012 | N/A |
 | Климатический стресс сельского хозяйства | Цель 10 | Zabel et al., 2014 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=crop-suitability-change-1981-to-2100_100) |
@@ -54,13 +54,13 @@
 | Потенциальное обеспечение чистой водой | Цель 11 | Mulligan, 2019 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=potential-clean-water-provision_100) |
 | Возможности озеленения городов | Цель 12 | Karra K et al., 2021; Didan & Kamel, 2015; Tuholske et al., 2021 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=esri-sentinel-2-10-meter-land-use-land-cover_100) |
 
-## Слои закрепления и зонирования
+## Слои блокировки и зонирования
 
-### Ограничения закрепления
+### Вариант блокировки
 
 | Название слоя | Цель | Источник | Просмотр карты UNBL |
 |---------------|------|----------|---------------------|
-| Существующие охраняемые территории | Закрепление для зон охраны | UNEP-WCMC & IUCN, 2025 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=UNBL.layer.wdpa-protected-areas_100) |
+| Существующие охраняемые территории | Фиксирование для зон охраны | UNEP-WCMC & IUCN, 2025 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=UNBL.layer.wdpa-protected-areas_100) |
 
 ### Ограничения зонирования
 
