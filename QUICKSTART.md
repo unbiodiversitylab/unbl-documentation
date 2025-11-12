@@ -124,8 +124,8 @@ environment-mkdocs.yaml  # Conda environment
 4. Review in browser at http://127.0.0.1:8000
 5. Commit and push when satisfied
 
-!!! tip
-    Don't forget to make translated versions of  your `.md` too!
+!!! tip Important!
+    Don't forget to make translated versions of  your `.md` too.
 
 ## Language Support
 
