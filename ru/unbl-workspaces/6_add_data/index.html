@@ -1,0 +1,2764 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Руководство пользователя для Лаборатории биоразнообразия ООН">
+      
+      
+        <meta name="author" content="UN Biodiversity Lab Team">
+      
+      
+        <link rel="canonical" href="https://undp-unbl.github.io/unbl-documentation/ru/unbl-workspaces/6_add_data/">
+      
+      
+        <link rel="prev" href="../5_add_places/">
+      
+      
+        <link rel="next" href="../7_elsa_tool/">
+      
+      
+        
+          <link rel="alternate" href="../../../unbl-workspaces/6_add_data/" hreflang="en">
+        
+          <link rel="alternate" href="../../../es/unbl-workspaces/6_add_data/" hreflang="es">
+        
+          <link rel="alternate" href="../../../fr/unbl-workspaces/6_add_data/" hreflang="fr">
+        
+          <link rel="alternate" href="../../../pt/unbl-workspaces/6_add_data/" hreflang="pt">
+        
+          <link rel="alternate" href="./" hreflang="ru">
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/UNBL_FULL_WEBSITE.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Adding Your Own Geospatial Data to Your Workspace - Онлайн-документация UNBL</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CInconsolata:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Inconsolata"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/unbl-custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#adding-your-own-geospatial-data-to-your-workspace" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../../" title="Онлайн-документация UNBL" class="md-header__button md-logo" aria-label="Онлайн-документация UNBL" data-md-component="logo">
+      
+  <img src="../../../assets/images/UNBL_FULL_WEBSITE.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Онлайн-документация UNBL
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Adding Your Own Geospatial Data to Your Workspace
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue" aria-label="Переключить на темный режим" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Переключить на темный режим" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue" aria-label="Переключить на светлый режим" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Переключить на светлый режим" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Выберите язык">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../unbl-workspaces/6_add_data/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../es/unbl-workspaces/6_add_data/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../fr/unbl-workspaces/6_add_data/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../pt/unbl-workspaces/6_add_data/" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="ru" class="md-select__link">
+              Русский
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Поделиться" aria-label="Поделиться" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UNDP-UNBL/unbl-documentation" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    UNDP-UNBL/unbl-documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Главная
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../unbl-public-platform/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Публичная платформа UNBL
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  UNBL Secure Workspaces
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../elsa/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Интегрированный инструмент пространственного планирования ELSA
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Онлайн-документация UNBL" class="md-nav__button md-logo" aria-label="Онлайн-документация UNBL" data-md-component="logo">
+      
+  <img src="../../../assets/images/UNBL_FULL_WEBSITE.png" alt="logo">
+
+    </a>
+    Онлайн-документация UNBL
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UNDP-UNBL/unbl-documentation" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    UNDP-UNBL/unbl-documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../unbl-public-platform/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Публичная платформа UNBL
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Публичная платформа UNBL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/1_register/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как зарегистрироваться или войти в систему?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/2_manage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как управлять своей учетной записью?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/3_navigate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как перемещаться между веб-сайтом Лаборатории биоразнообразия ООН и картографическим приложением?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/4_language/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как изменить язык?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/5_adjust_mapview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как настроить вид карты?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/6_manage_labels_and_basemaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как добавить/удалить метки мест, дороги и спутниковый вид с базовой карты?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/7_find_country/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как найти свою страну?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/8_dynamic_metrics1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Какие динамические метрики доступны для моей страны?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/9_find_layers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как найти дополнительные наборы данных для моей страны?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/10_find_dpg_layers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как найти открытые наборы данных Цифрового общественного блага (DPG)?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/11_find_layer_info/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как найти больше информации о каждом наборе данных?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/12_customize_mapview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как настроить представления наборов данных?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/13_time_series_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Какие варианты у меня есть для визуализации наборов данных временных рядов?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/14_share_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как поделиться набором данных?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/15_clip_export/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как обрезать и загрузить наборы данных для моей страны?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/16_download_global_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как загрузить необрезанные глобальные наборы данных?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/17_maps_for_reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как создать карту для включения в отчеты и коммуникационные материалы?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/18_suggest_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Как предложить больше данных для включения в Лабораторию биоразнообразия ООН?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/19_private_workspaces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Что такое рабочие пространства UNBL? Как запросить рабочее пространство UNBL?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unbl-public-platform/20_support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What if my question wasn’t answered?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UNBL Secure Workspaces
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    UNBL Secure Workspaces
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics of UNBL Workspaces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_viewing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Viewing Your UNBL Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_admin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigating the Workspace Admin Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_manage_users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Managing Users in Your Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_add_places/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding Places to Your Workspace and Viewing Dynamic Metrics for Them
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding Your Own Geospatial Data to Your Workspace
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding Your Own Geospatial Data to Your Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What parameters and metadata do I fill in when creating a layer?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-upload-raster-layers-in-geotiff-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I upload raster layers in GeoTIFF format?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-configure-raster-layers-using-external-tile-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I configure raster layers using external tile services ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-configure-vector-layers-using-external-tile-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I configure vector layers using external tile services?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I publish my layer and share it with external users?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-edit-my-added-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I edit my added layers?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-create-group-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I create group layers?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7_elsa_tool/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8_support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What if my Question was not Answered?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../elsa/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Интегрированный инструмент пространственного планирования ELSA
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Интегрированный инструмент пространственного планирования ELSA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/01_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Обзор
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/02_tool_purpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Назначение инструмента и ключевые функции
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/03_registration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Регистрация и доступ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/04_creating_analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Создание нового анализа
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/05_editing_analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Редактирование анализа
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/06_running_optimization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Запуск оптимизации
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/07_viewing_heatmaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Просмотр тепловых карт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/08_downloading_results/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Загрузка результатов
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/09_analyse_synergies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Анализ синергии и компромиссов
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/10_citing_maps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Цитирование карт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/11_support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поддержка и контакты
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/12_annex1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Приложение 1 - Глоссарий
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elsa/13_annex2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Приложение 2 - Слои данных
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Навигация">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Главная
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    UNBL Secure Workspaces
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/UNDP-UNBL/unbl-documentation/edit/main/docs/unbl-workspaces/6_add_data.md" title="Редактировать страницу" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"></path></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/UNDP-UNBL/unbl-documentation/raw/main/docs/unbl-workspaces/6_add_data.md" title="Посмотреть исходный код страницы" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"></path></svg>
+    </a>
+  
+
+
+<h1 id="adding-your-own-geospatial-data-to-your-workspace">Adding Your Own Geospatial Data to Your Workspace<a class="headerlink" href="#adding-your-own-geospatial-data-to-your-workspace" title="Anchor link to this section for reference">¶</a></h1>
+<p>UNBL workspaces support the upload of geospatial raster data   in the following file format:</p>
+<ul>
+<li>GeoTIFF (Georeferenced Tagged Image File Format)</li>
+</ul>
+<p>UNBL workspaces also support the connection to external   geospatial data through any of the following external tile service providers:</p>
+<ul>
+<li>
+<p>WMS (Web Map Service)</p>
+</li>
+<li>
+<p>WMTS (Web Map Tile Service)</p>
+</li>
+<li>
+<p>XYZ Tile Service</p>
+</li>
+<li>
+<p>Mapbox</p>
+</li>
+<li>
+<p>Esri ArcGIS API Map Service </p>
+</li>
+<li>
+<p>Vector Tile Services (served as pg_tileserv or Martin)</p>
+</li>
+<li>
+<p>Google Earth Engine (GEE) - <em>coming soon!</em></p>
+</li>
+<li>
+<p>Spatiotemporal Asset Catalog (STAC) - <em>coming soon!</em></p>
+</li>
+</ul>
+<p>Geospatial data can be uploaded and/or linked to within your workspace, thereby giving all your workspace members the ability to view your data on UNBL without them needing any prior GIS experience. UNBL security ensures that datasets within your workspace are <strong>only</strong> visible to members of your workspace. However, if you want datasets within your workspace to be viewable by anyone outside of your workspace, you can enable this using a public layer URL option. Only people with access to this URL will be able to view your layer.</p>
+<p>Importantly, any datasets in your workspace can also be viewed in tandem with global datasets published on UNBL’s public platform.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The terms <em>dataset</em> and <em>layer</em> are used intermittently henceforth. A dataset refers to a collection of spatial data consisting of one or more layers. On UNBL, a single upload or configuration of geospatial data is realized through <em>‘creating a layer’</em>. Multiple layer entries can be combined and visualized on UNBL as a dataset. Single layers can also be visualized independently on UNBL.</p>
+</div>
+<h2 id="what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer">What parameters and metadata do I fill in when creating a layer?<a class="headerlink" href="#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer" title="Anchor link to this section for reference">¶</a></h2>
+<p>To begin creating a layer and fill in relevant metadata for the layer:</p>
+<ol>
+<li>
+<p>Open the ‘Home’ dropdown menu in your workspace admin interface and click on ‘Layers’.</p>
+</li>
+<li>
+<p>Click the ‘CREATE NEW LAYER’ button.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image22.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image22.png"></a></p>
+</li>
+<li>
+<p>In the new layer page, fill in the following information:</p>
+<p>a.  <em>Layer title</em>: The name of your layer. This should be concise (we recommend that it is less than 100 characters in length) and descriptive of your data.</p>
+<p>b.  <em>Layer slug</em>: A slug is a unique identifier for the layer within your workspace. You cannot have multiple layers within your workspace with the same slug. It should contain only letters, digits, and hyphens (“-”). You can use the ‘GENERATE SLUG NAME’ button to generate a unique identifier based on the supplied layer title.</p>
+<p>c.  <em>Layer category (optional)</em>: You can select one or more categories for the layer from the list of options in the dropdown menu. A wide range of socioeconomic, nature-based, and KMGBF policy-related categories are available. More than one category can be selected for the same layer. These categories correspond to the dataset category filters in the map view. Selecting a category will mean that your layer will appear in the list of filtered datasets when the corresponding dataset category filter is applied.</p>
+<p>d.  <em>Tag (optional)</em>: You can specify one or more tags for your layer. Tags correspond to the dataset tags filter in the map view. Specifying a tag for your layer will mean that the layer will appear in the list of filtered layers when the corresponding dataset tag filter is applied in the map. Unlike layer categories, tags can be any text string of your choice, making this feature useful if you need to clearly differentiate your workspace layers from public platform datasets and be able to apply more effective filters when searching for your datasets in the map view. For example, you could use a tag to identify the target in your national biodiversity strategy and action plan (NBSAP) for which the data layer is relevant.</p>
+<p>e.  <em>Layer description (optional)</em>: In the description field, you can specify the text that will appear in the layer information pop-up box. Here, you can insert the bulk of your layer metadata, such as a general description, citation for the scientific paper/dataset, external links to the scientific paper/dataset, license specifications, etc. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For individual layers that are part of a parent group layer, the layer information pop-up text will always display the description of the parent group layer and so the description field is redundant (see <a href="#how-do-i-create-group-layers">‘How do I create group layers?’</a>).</p>
+</div>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image23.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image23.png"></a></p>
+</li>
+<li>
+<p>Once you have filled in the relevant metadata to document this new layer, you now need to specify the format or geospatial webservice standard of your geospatial data and set up the layer configuration accordingly. The forthcoming sections detail how to configure your layer based on the format of your geospatial data.</p>
+</li>
+</ol>
+<h2 id="how-do-i-upload-raster-layers-in-geotiff-format">How do I upload raster layers in GeoTIFF format?<a class="headerlink" href="#how-do-i-upload-raster-layers-in-geotiff-format" title="Anchor link to this section for reference">¶</a></h2>
+<p>Currently, you can manually upload geospatial data to your 
+UNBL workspace only if it is available in a raster GeoTIFF 
+format. A raster layer constitutes a grid of cells (or pixels)
+ where each cell has a value representing information about a 
+specific topic or phenomenon. We can currently accept only 
+GeoTIFFs with one single band. If you have a GeoTIFF with more
+ than one band, split it upfront into different files. GeoTIFF
+ raster layers are added to your UNBL workspace through a 
+direct upload to a secure, GDPR-compliant UNBL GIS data 
+repository on Azure. For further information, please see our 
+overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Geospatial data in other raster and vector layer formats can be configured on UNBL through linking to an external resource. See <a href="#how-do-i-configure-raster-layers-using-external-tile-services">‘How do I configure raster layers using external tile services?’</a> and <a href="#how-do-i-configure-vector-layers-using-external-tile-services">‘How do I configure vector layers using external tile services?’</a> for available UNBL-interoperable OGC Web Service formats and guides on linking to them. </p>
+</div>
+<p>To upload a GeoTIFF file:</p>
+<ol>
+<li>
+<p>Navigate to the new layer page and fill in relevant metadata (See <a href="#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer">‘What parameters and metadata do I fill in when creating a layer?’</a>).</p>
+</li>
+<li>
+<p>In the 'Layer Config' section:</p>
+<p>a.  <em>Layer type</em>: Select ‘raster’.</p>
+<p>b.  <em>Layer provider</em>: Select ‘GeoTIFF File Upload’.</p>
+<p>c.  <em>GeoTIFF file</em>: Click the ‘Choose File’ button to upload a valid GeoTIFF raster layer from your local file system. Uploaded files should be a single-band raster and should be less than 1000MB in size. You will be notified if you select an invalid file.</p>
+<p>d.  <em>Data type</em>: Specify whether the raster contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class (for instance, Land Use Land Cover classes). Continuous datasets represent data where values can fall anywhere within a specified range of values (for instance, yearly mean temperature).</p>
+<p>e.  <em>Minimum/Maximum value</em>: If your raster contains continuous data, then you must supply the range of values in the data by specifying minimum and maximum values of the range.</p>
+<p>f.  <em>Minimum/Maximum zoom level (optional)</em>: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster file only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 19.  </p>
+<p>g.  <em>Layer styling</em>: The layer styling determines how the layer is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the values in your raster. Each layer styling entry should define the following properties: </p>
+<ul>
+<li>
+<p><em>Value</em> - the pixel value in the data to define the styling for. </p>
+</li>
+<li>
+<p><em>Name</em> – the name of the styling entry in the layer legend on the map.</p>
+</li>
+<li>
+<p><em>Color</em> – the color of pixels with the specified value on the map. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value. Optionally, you can set the opacity of the color in a range from 0 to 100%.  </p>
+</li>
+</ul>
+<p>You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/hide.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/hide.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image24.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image24.png"></a></p>
+</li>
+<li>
+<p>Once all metadata and parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to upload your GeoTIFF file to your workspace. The file will be stored in a safe and dedicated private repository on Azure. This may take a few seconds depending on the size of the file and the speed of your upload internet broadband, so after clicking the button you should wait until you are redirected to the edit layer page. See <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users">‘How do I publish my layer and share it with external users?’</a> and <a href="#how-do-i-edit-my-added-layers">‘How do I edit my added layers?’</a> for next steps.</p>
+</li>
+</ol>
+<h2 id="how-do-i-configure-raster-layers-using-external-tile-services">How do I configure raster layers using external tile services ?<a class="headerlink" href="#how-do-i-configure-raster-layers-using-external-tile-services" title="Anchor link to this section for reference">¶</a></h2>
+<p>UNBL supports the configuration of raster image layers to your workspace by linking to external tile service providers. To add geospatial data to your workspace using this method:</p>
+<ol>
+<li>
+<p>Navigate to the new layer page and fill in relevant metadata (See <a href="#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer">‘What parameters and metadata do I fill in when creating a layer?’</a>). </p>
+</li>
+<li>
+<p>In the 'Layer Config' section:</p>
+<p>a.  <em>Layer type</em>: Select ‘raster’.</p>
+<p>b.  <em>Layer provider</em>: Select ‘External Tile Service (WMS, WMTS, etc.)’.</p>
+<p>c.  <em>Tiles URL</em>: Here, you can connect to an external tile service that uses the Web Map Service (WMS), Web Map Tile Service (WMTS), or XYZ Tile Service protocols. To configure layers using these providers, you must supply a valid tile URL, which must contain either the placeholders <code>{z}{x}{y}</code> or the placeholder <code>{bbox-epsg-3857}</code>. </p>
+<p>For example, the sample WMS URL below will <strong>not</strong> work:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>https://wms.server.net/mapserv?request=getmap&amp;service=wms&amp;BBOX=-90,-180,90,360&amp;crs=EPSG:4326&amp;format=image/jpeg&amp;layers=layer_latest&amp;width=1200&amp;height=600
+</span></code></pre></div>
+<p>as it contains an incorrect bounding box (BBOX) parameter format. The URL can be adjusted by changing the <code>BBOX</code> parameter to match the placeholder, as well as the coordinate reference system parameter (<code>crs</code>) to reflect the Web Mercator coordinate system (EPSG: 3857). A configurable URL would be:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>https://wms.server.net/mapserv?request=getmap&amp;service=wms&amp;BBOX={bbox-epsg-3857}&amp;crs=EPSG:3857&amp;format=image/jpeg&amp;layers=layer_latest&amp;width=1200&amp;height=600
+</span></code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">The following placeholders were adjusted to enable UNBL configuration:</p>
+<ul>
+<li><code>-90,-180,90,360</code> changed to <code>{bbox-epsg-3857}</code></li>
+<li><code>EPSG:4326</code> changed to <code>EPSG:3857</code></li>
+</ul>
+</div>
+<p>d.  <em>Data type</em>: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.</p>
+<p>e.  <em>Minimum/Maximum zoom level (optional)</em>: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 19.</p>
+<p>f.  <em>Layer styling</em>: The layer styling determines how the legend for the raster image is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the values in the raster image. Each layer styling entry should define the following properties: </p>
+<ul>
+<li>
+<p><em>Name</em> – the name of the styling entry in the layer legend on the map.</p>
+</li>
+<li>
+<p><em>Color</em> – the color associated with the specified name in the layer legend. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value.</p>
+</li>
+</ul>
+<p>You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/hide.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/hide.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon next to the styling entry. For categorical raster images, the legend layer styling entries should represent the values of each category/class within the raster data source. For continuous raster images, legend styling entries should represent the range of values visualized in the raster image. You can specify any points along the range of values between the minimum and maximum values - a gradient of colors between each of these values will be generated.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image25.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image25.png"></a></p>
+</li>
+<li>
+<p>Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your raster image to your workspace. See <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users">‘How do I publish my layer and share it with external users?’</a> and <a href="#how-do-i-edit-my-added-layers">‘How do I edit my added layers?’</a> for next steps.</p>
+</li>
+</ol>
+<h2 id="how-do-i-configure-vector-layers-using-external-tile-services">How do I configure vector layers using external tile services?<a class="headerlink" href="#how-do-i-configure-vector-layers-using-external-tile-services" title="Anchor link to this section for reference">¶</a></h2>
+<p>UNBL supports the configuration of vector tile layers to your workspace by linking to external tile service providers. Vector layers are discrete geometric shapes, such as points and polygons. To add geospatial data to your workspace using this method:</p>
+<ol>
+<li>
+<p>Navigate to the layer edit page and fill in relevant metadata (See <a href="#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer">‘What parameters and metadata do I fill in when creating a layer?’</a>). </p>
+</li>
+<li>
+<p>In the 'Layer Config' section (all fields are mandatory unless specified otherwise):</p>
+<p>a.  <em>Layer type</em>: Select ‘vector’.</p>
+<p>b.  <em>Layer provider</em>: Select ‘External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)’.</p>
+<p>c.  <em>Tiles URL</em>: Here, you can connect to an external vector tile service provider that hosts your geospatial data, such as Mapbox, Esri, pg_tileserv, Martin, and others. To configure layers using these providers, you must supply a valid tile URL, which must contain either the placeholders <code>{z}{x}{y}</code> or the placeholder <code>{bbox-epsg-3857}</code>. For example, a configurable layer URL for a forest cover dataset hosted on Martin looks like this:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>https://example-tileserv.org/martin/forest_cover/{z}/{x}/{y}
+</span></code></pre></div>
+<p>d.  <em>Data type</em>: Specify whether the vector tiles contain ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories. Continuous datasets represent data where values can fall anywhere within a specified range of values. While vector tiles can store multiple data attributes, you can only choose one data attribute for layer legend styling on UNBL. You should specify the data type based on the provisional layer legend of your added layer on UNBL. </p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image26.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image26.png"></a></p>
+</li>
+<li>
+<p>The  ‘Render layers’ section specifies the data attributes from the vector data source that should be displayed on the map. In this section:</p>
+<p>a.  <em>Source layer</em>: Specify the name of the dataset which you are hosting on the vector tile server. For example, the source layer for the example URL from step 2c is <code>forest_cover</code>. Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/info.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation on source layer referencing.</p>
+<p>b.  <em>Type</em>: Specify the geometry type your dataset represents. Available options are <em>fill, line, symbol, circle, heatmap</em> and <em>fill-extrusion</em>. In the majority of cases, the geometry type will be <em>fill</em> (polygons with a color fill ramp). Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/info.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation on geometry type options.</p>
+<p>c.  <em>Paint (optional)</em>: Here, you can specify the layer styling for your dataset on UNBL using a .json style configuration . Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/info.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation for configuring layer styling. For the most common geometry types of type <em>fill</em>, the paint configuration follows a set template. For configuring layer styling for categorical datasets, use the following template:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>{
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>"fill-opacity": 0.9,
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>"fill-color": [
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>"match",
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>[ "get", "forest_cover_2023" ],
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>"Mixed forest",
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>"#7c549e",
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>"Mangrove forest",
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>"#e5bcf6",
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>"Plantation forest",
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>"#add911",
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>"#ffffff"], 
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>"fill-outline-color": [ 
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>"match", 
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>[ "get", " forest_cover_2023" ], 
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>"Mixed forest",
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>"#7c549e",
+</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>"Mangrove forest",
+</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>"#e5bcf6",
+</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>"Plantation forest",
+</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>"#add911",
+</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>"#ffffff" ]
+</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>}
+</span></code></pre></div>
+<p>The same template, in text format below, highlights strings which are configurable variables and need to be changed based on your layer styling:</p>
+<p>{
+"fill-opacity": <mark>0.9</mark>,
+"fill-color": [
+"match",
+[ "get", <mark>"forest_cover_2023"</mark>],
+<mark>"Mixed forest",
+"#7c549e",
+"Mangrove forest",
+"#e5bcf6",
+"Plantation forest",
+"#add911",
+"#ffffff"</mark>], 
+"fill-outline-color": [ 
+"match", 
+["get", <mark>"forest_cover_2023"</mark>], 
+<mark>"Mixed forest",
+"#7c549e",
+"Mangrove forest",
+"#e5bcf6",
+"Plantation forest",
+"#add911",
+"#ffffff"</mark>]
+}</p>
+<p>where:</p>
+<ul>
+<li>
+<p><code>fill-opacity</code> sets the opacity of the polygon fill, from 0 (fully transparent) to 1 (fully opaque).</p>
+</li>
+<li>
+<p><code>fill-color</code> specifies the data attribute which will be used to style the polygon fill, as well as the styling itself (in this instance, it is the <code>forest_cover_2023</code> attribute of the <code>forest_cover</code> example source dataset mentioned earlier, and <code>match</code> specifies styling for discrete categories for this data attribute). Each next configurable text string pair specifies a discrete category of your data attribute and the color you want to paint that specific category (in Hex code format), respectively.</p>
+</li>
+<li>
+<p><code>fill-outline-color</code> functions the same as <code>fill-color</code>, but specifies the color of the linear boundary of the polygon instead of the inner polygon fill. This way, you can specify a different color boundary for polygons compared to the color of their inner fill (note that this is not the case for the above example). Importantly, you can specify a <code>“#ffffff”</code> string at the end of the last hex code string for either of the fill properties to signify that any data categories which are not explicitly listed in the fill styling property should be transparent.</p>
+</li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>If you do not include the <code>“#ffffff”</code> string for transparent styling for non-included data categories, your vector tiles will fail to visualize if you fail to exhaustively specify styling for <strong>all</strong> data categories that are present in your data attribute in the fill styling property. However, you do not have to specify inclusive transparent styling if you specify a filter to exclude selected data categories in your data attribute from consideration for layer styling (step 3d).</p>
+</div>
+<p>For configuring layer styling for continuous datasets, use the following template:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>{
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>"fill-opacity": 0.9,
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>"fill-color": [
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>"interpolate",
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>[ "linear" ],
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>[ "get", "canopy_height_2023" ],
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>0, 
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>"#f5ebd5", 
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>5, 
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>"#eef5c9", 
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>10, 
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>"#dbe6a1", 
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>20, 
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>"#c5e897", 
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>30, 
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>"#9fe04a", 
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>50, 
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>"#689c24", 
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>75, 
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>"#518510", 
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>100, 
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a>"#305207" ], 
+</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>"fill-outline-color": [
+</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a>"interpolate",
+</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a>[ "linear" ],
+</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a>[ "get", "canopy_height_2023" ],
+</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a>0, 
+</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a>"#f5ebd5", 
+</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a>5, 
+</span><span id="__span-4-30"><a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a>"#eef5c9", 
+</span><span id="__span-4-31"><a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a>10, 
+</span><span id="__span-4-32"><a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a>"#dbe6a1", 
+</span><span id="__span-4-33"><a id="__codelineno-4-33" name="__codelineno-4-33" href="#__codelineno-4-33"></a>20, 
+</span><span id="__span-4-34"><a id="__codelineno-4-34" name="__codelineno-4-34" href="#__codelineno-4-34"></a>"#c5e897", 
+</span><span id="__span-4-35"><a id="__codelineno-4-35" name="__codelineno-4-35" href="#__codelineno-4-35"></a>30, 
+</span><span id="__span-4-36"><a id="__codelineno-4-36" name="__codelineno-4-36" href="#__codelineno-4-36"></a>"#9fe04a", 
+</span><span id="__span-4-37"><a id="__codelineno-4-37" name="__codelineno-4-37" href="#__codelineno-4-37"></a>50, 
+</span><span id="__span-4-38"><a id="__codelineno-4-38" name="__codelineno-4-38" href="#__codelineno-4-38"></a>"#689c24", 
+</span><span id="__span-4-39"><a id="__codelineno-4-39" name="__codelineno-4-39" href="#__codelineno-4-39"></a>75, 
+</span><span id="__span-4-40"><a id="__codelineno-4-40" name="__codelineno-4-40" href="#__codelineno-4-40"></a>"#518510", 
+</span><span id="__span-4-41"><a id="__codelineno-4-41" name="__codelineno-4-41" href="#__codelineno-4-41"></a>100, 
+</span><span id="__span-4-42"><a id="__codelineno-4-42" name="__codelineno-4-42" href="#__codelineno-4-42"></a>"#305207" ]
+</span><span id="__span-4-43"><a id="__codelineno-4-43" name="__codelineno-4-43" href="#__codelineno-4-43"></a>}
+</span></code></pre></div>
+<p>The same template, in text format below, highlights strings which are configurable variables and need to be changed based on your layer styling:</p>
+<p>{
+"fill-opacity": <mark>0.9</mark>,
+"fill-color": [
+"interpolate",
+[ "linear" ],
+[ "get", <mark>"canopy_height_2023"</mark> ],
+<mark>0, 
+"#f5ebd5", 
+5, 
+"#eef5c9", 
+10, 
+"#dbe6a1", 
+20, 
+"#c5e897", 
+30, 
+"#9fe04a", 
+50, 
+"#689c24", 
+75, 
+"#518510", 
+100, 
+"#305207"</mark> ], 
+"fill-outline-color": [
+"interpolate",
+[ "linear" ],
+[ "get", <mark>"canopy_height_2023"</mark> ],
+<mark>0, 
+"#f5ebd5", 
+5, 
+"#eef5c9", 
+10, 
+"#dbe6a1", 
+20, 
+"#c5e897", 
+30, 
+"#9fe04a", 
+50, 
+"#689c24", 
+75, 
+"#518510", 
+100, 
+"#305207"</mark> ]
+}</p>
+<p>where:</p>
+<ul>
+<li>
+<p><code>fill-opacity</code> sets the opacity of the polygon fill, from 0 (fully transparent) to 1 (fully opaque). </p>
+</li>
+<li>
+<p><code>fill-color</code> specifies the data attribute which will be used to style the polygon fill, as well as the styling itself (in this instance, it is the <code>canopy_height_2023</code> attribute of the <code>forest_cover</code> example source dataset mentioned earlier, and <code>interpolate</code> specifies styling for a continuous range of values for this data attribute). Each next configurable variable pair specifies a number that falls within the range of values in your data attribute and a text string with the color you want to paint that specific value (in Hex code format), respectively. To build a continuous color scheme for your data attribute, start by styling the minimum value and work upwards in reasonable intervals, based on the spread of your data, to reach the maximum value. Any values falling between a specified interval will be styled using a graduated color that is darker than the smaller value specified color, and lighter than the larger value specified color in the specified interval.  </p>
+</li>
+<li>
+<p><code>fill-outline-color</code> functions the same as <code>fill-color</code>, but specifies the color of the linear boundary of the polygon instead of the inner polygon fill. This way, you can specify a different color boundary for polygons compared to the color of their inner fill (note that this is not the case for the above example).</p>
+</li>
+</ul>
+<p>d.  <em>Filter (optional)</em>: You can optionally specify a subset of data categories, or specific range of values, which should be used for styling the map. Any data categories or range of values falling outside of the specified filter will not be considered in the layer styling. Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/info.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation for configuring filter options. As an example, if you wanted to filter out the “Mixed forest” category from the <code>forest_cover_2023</code> data attribute, you would use the following template:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>["!=", ["get", "forest_cover_2023"], "Mixed forest"]
+</span></code></pre></div>
+<p>where <code>!=</code> specifies a conditional exclusion expression.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image27.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image27.png"></a></p>
+<p>e.  <em>ADD LAYER CONFIG (optional)</em>: In some cases, you may wish to configure styling for more than one data attribute in your vector dataset. By clicking on this button, you can specify further styling expressions. Note that any data attributes, data categories or value ranges that overlap between styling expressions or are contained within the same polygons in your data and are not filtered out accordingly, will lead to a confusing layer visualization. </p>
+</li>
+<li>
+<p>The 'Interaction config' section specifies the data attributes in the vector dataset that should be displayed in the popup when clicking on the vector layer's polygons on the map. Click on ‘ADD ADDITIONAL OPTION’ to specify a data attribute that should be displayed in the popup. This is an optional section – it can be left blank if unneeded. For each Interaction config entry:</p>
+<p>a.  <em>Column</em>: The name of the data attribute which will be displayed (case sensitive). For example, for the <code>forest_cover</code> source layer, the data attribute could be <code>forest_cover_2023</code> or <code>canopy_height_2023</code>.</p>
+<p>b.  <em>Type</em>: Choose <em>string</em>, <em>date</em> or <em>number</em> type, depending on the format of your data attribute.</p>
+<p>c.  <em>Format (optional)</em>: If your data attribute is of <em>date</em> or <em>number</em> type, you can specify the formatting here (e.g. <code>dd/mm/yyyy</code> for date).</p>
+<p>d.  <em>Property (optional)</em>: Here, you can specify the label of the data attribute displayed in the popup table.</p>
+<p>e.  <em>Prefix (optional)</em>: You can specify a prefix that will be displayed in front of the data attribute’s value/category.
+Note that this will be displayed after the property label.</p>
+<p>f.  <em>Suffix (optional)</em>: You can specify a suffix that will be displayed after the data attribute’s value/category (e.g. units).</p>
+<p>g.  Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/delete.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/delete.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon to remove an Interaction config entry.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image28.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image28.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image29.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image29.png"></a></p>
+</li>
+<li>
+<p>Specify the zoom levels for your vector tiles. The default zoom level range is set to 0 to 20. You can optionally specify the zoom levels for the layer if the vector tiles are only viewable at a smaller/larger resolution. Note that UNBL supports a maximum zoom level of 20 for vector tiles. </p>
+</li>
+<li>
+<p>Specify the legend styling for your vector tile layer in the 'Legend Config' section. In this section (all fields are mandatory unless specified otherwise):</p>
+<p>a.  By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the data categories/range of values in your vector tile layer. Each layer styling entry should define the following properties: </p>
+<ul>
+<li>
+<p><em>Name</em> – the name of the styling entry in the layer legend on the map.</p>
+</li>
+<li>
+<p><em>Color</em> – the color associated with the specified name in the layer legend. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value.</p>
+</li>
+</ul>
+<p>You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/hide.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/hide.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon next to the styling entry. For categorical data, the legend layer styling entries should represent the discrete categories and their associated color styling which you specified in the 'Render layers' section. For continuous data, legend styling entries should represent the range of values and their associated color gradient which you specified in the 'Render layers' section.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image30.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image30.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image31.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image31.png"></a></p>
+</li>
+<li>
+<p>Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your vector tile layer to your workspace. See <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users">‘How do I publish my layer and share it with external users?’</a> and <a href="#how-do-i-edit-my-added-layers">‘How do I edit my added layers?’</a> for next steps.</p>
+</li>
+</ol>
+<h2 id="how-do-i-publish-my-layer-and-share-it-with-external-users">How do I publish my layer and share it with external users?<a class="headerlink" href="#how-do-i-publish-my-layer-and-share-it-with-external-users" title="Anchor link to this section for reference">¶</a></h2>
+<p>To make any of your added layers discoverable and viewable to all users of your workspace (see <a href="../2_viewing/#how-do-i-view-datasets-within-my-workspace">‘How do I view datasets within my workspace?’</a>, as well as optionally make your layer viewable to users outside of your workspace, undertake the following steps:</p>
+<ol>
+<li>
+<p>Navigate to the edit layer page for your layer of choice. Upon adding a layer to your workspace, you will be automatically taken to this page. Alternatively, click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/edit.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/edit.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> button in the layer list available after navigating to the ‘Layers’ page in your admin interface.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image32.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image32.png"></a></p>
+</li>
+<li>
+<p>For your dataset to be accessible in the UNBL map view, you must publish the dataset by clicking the ‘Published’ toggle button. Unpublished datasets remain in the admin interface until you are ready to publish them to the UNBL map view. </p>
+</li>
+<li>
+<p>If your dataset is published, a toggle button will appear with an option to ‘Allow external access via link’. This is an optional toggle that, if enabled, makes your layer accessible to anyone with the map view URL, even users outside your workspace. To share your layer URL, copy the link that appears or click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/copy.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/copy.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon to copy the link automatically to your clipboard.</p>
+</li>
+<li>
+<p>Click on the ‘Primary’ toggle button to mark your layer as a standalone layer and make it discoverable in the ‘DATASETS’ search bar on UNBL. For your workspace layers to be discoverable and viewable on UNBL, you should always publish and mark them as primary. The only exception to publishing a layer and not marking it as primary is when you are creating group layers (See <a href="#how-do-i-create-group-layers">‘How do I create group layers?’</a>).</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image33.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image33.png"></a></p>
+</li>
+</ol>
+<h2 id="how-do-i-edit-my-added-layers">How do I edit my added layers?<a class="headerlink" href="#how-do-i-edit-my-added-layers" title="Anchor link to this section for reference">¶</a></h2>
+<p>You may want to go back and edit your added layers to change any of the associated metadata, test if your layer is visualizing on UNBL,  and edit your layer configuration accordingly if your layer is not visualizing. To do this:</p>
+<ol>
+<li>
+<p>Navigate to the edit layer page for your layer of choice. Upon adding a layer to your workspace, you will be automatically taken to this page. Alternatively, click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/icons/edit.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/icons/edit.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> button in the layer list available after navigating to the ‘Layers’ page in your admin interface.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image32.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image32.png"></a></p>
+</li>
+<li>
+<p>To test if your layer is visualizing properly in the UNBL map view, click on the ‘TEST LAYER’ button in the bottom right corner of the edit layer page. A green tick will appear inside the button if the layer has been correctly uploaded and/or configured. Otherwise, a red cross will appear with an error message diagnosing the problem.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image34.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image34.png"></a></p>
+</li>
+<li>
+<p>If you want to navigate directly to your layer in the UNBL map view, click on the ‘VIEW ON MAP’ button. If you want to delete your layer from your workspace, click on the ‘DELETE LAYER’ button.</p>
+</li>
+<li>
+<p>Click on the ‘EDIT’ button for any of the layer metadata/configuration sections to edit information and parameters for that section.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image35.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image35.png"></a></p>
+</li>
+</ol>
+<h2 id="how-do-i-create-group-layers">How do I create group layers?<a class="headerlink" href="#how-do-i-create-group-layers" title="Anchor link to this section for reference">¶</a></h2>
+<p>Any layers that you add to your UNBL workspace can be grouped together to organize multi-year or multi-categorical data. Each year or category is akin to an individual raster band. Group layers are created in a new, separate layer (termed <em>parent layer</em> on UNBL) to the component layers. For example, a land cover raster spanning three years would require four layers to be made: each year as its own layer, as well as a fourth parent layer they will all be accessible from. In this case, each individual year/category layer must be published and <strong>not</strong> marked as primary to be discoverable in the map view exclusively through a group layer. The group/parent layer is an additional display layer with a fixed layer configuration which references all individual year/category layers. It is published and marked as primary. When the group layer is viewed on UNBL, a single layer legend appears from which you can select any one of your included component layers to be visualized in the map view.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If individual year/category layers which you are linking through a group layer are also marked as primary, in addition to being published, these layers will be discoverable as individual entries in the ‘DATASETS’ search bar, thereby duplicating entries with the published group layer.</p>
+</div>
+<p>To set up a group layer:</p>
+<ol>
+<li>
+<p>Publish all component layers to be included in the group layer, and do <strong>not</strong> mark them as primary. The public URL feature works in the same way as for standalone layers (see <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users">‘How do I publish my layer and share it with external users?’</a>).</p>
+</li>
+<li>
+<p>Create a separate layer using the ‘CREATE NEW LAYER’ button in the ‘Layers’ page of the admin interface for your workspace. This will be your designated group layer.</p>
+</li>
+<li>
+<p>Enter a layer title, layer slug, layer category, search tag, and a layer description which is representative of the dataset represented by your collection of grouped individual layers. Note that the layer description for component layers is redundant – you only need to fill in the layer description for the group layer which contains your component layers. For more information on filling in metadata for layers, see <a href="#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer">‘What parameters and metadata do I fill in when creating a layer?’</a>.</p>
+</li>
+<li>
+<p><em>Layer type</em>: Select ‘group’.</p>
+</li>
+<li>
+<p><em>Grouped layers</em>: From the dropdown menu, select all component layers which you want to include in your group layer. Available layers for inclusion are all added layers in your workspace.</p>
+</li>
+<li>
+<p><em>Layer selector</em>: From the dropdown menu, select either ‘Dropdown’ or ‘Radio Button’. These options influence how the layer selector UI appears in the layer legend of the group layer on UNBL. The dropdown option is recommended for group layers with more than three component layers. The radio button option is recommended for group layers with three or less component layers, or when group layers represent the same data with different styling. </p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image36.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image36.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../unbl-workspaces/images/en/image37.png" data-desc-position="bottom"><img alt="" src="../../../unbl-workspaces/images/en/image37.png"></a></p>
+</li>
+<li>
+<p>Click the ‘SAVE AND VIEW DETAILS BUTTON’ to add the group layer to your workspace. </p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"></path></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"></path></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by <a href="https://github.com/UNDP-UNBL/unbl-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Нижний колонтитул">
+        
+          
+          <a href="../5_add_places/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Adding Places to Your Workspace and Viewing Dynamic Metrics for Them">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Назад
+              </span>
+              <div class="md-ellipsis">
+                Adding Places to Your Workspace and Viewing Dynamic Metrics for Them
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../7_elsa_tool/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Вперед
+              </span>
+              <div class="md-ellipsis">
+                Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 UNDP &amp; UNEP-WCMC
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/UNDP-UNBL" target="_blank" rel="noopener" title="UNDP-UNBL on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.unbiodiversitylab.org" target="_blank" rel="noopener" title="UN Biodiversity Lab" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M351.9 280H161c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zm-191-48h190.9c-2.8-64.5-17.1-123.9-37.4-167.4-11.4-24.4-23.7-41.8-35.1-52.4C268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4m-48 0c3.5-85.6 25.6-165.1 57.9-217.3C78.7 47.3 10.9 131.2 1.5 232zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3zm111.4-48C501.9 131.2 434.1 47.3 342 14.7c32.3 52.2 54.4 131.7 57.9 217.3z"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "toc.integrate", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.action.edit", "content.action.view"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
