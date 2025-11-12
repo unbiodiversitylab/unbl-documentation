@@ -432,7 +432,16 @@ nav:
       - How do I suggest more data for inclusion in the UN Biodiversity Lab?: unbl-public-platform/18_suggest_data.md
       - What are UNBL workspaces? How do I request a UNBL workspace?: unbl-public-platform/19_private_workspaces.md
       - What if my question wasn’t answered?: unbl-public-platform/20_support.md
-  - UNBL Workspaces: unbl-workspaces/index.md
+  - UNBL Secure Workspaces:
+      - unbl-workspaces/index.md
+      - Basics of UNBL Workspaces: unbl-workspaces/1_basics.md
+      - Viewing Your UNBL Workspace: unbl-workspaces/2_viewing.md
+      - Navigating the Workspace Admin Interface: unbl-workspaces/3_admin.md
+      - Managing Users in Your Workspace: unbl-workspaces/4_manage_users.md
+      - Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: unbl-workspaces/5_add_places.md
+      - Adding Your Own Geospatial Data to Your Workspace: unbl-workspaces/6_add_data.md
+      - Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: unbl-workspaces/7_elsa_tool.md
+      - What if my Question was not Answered?: unbl-workspaces/8_support.md 
   - ELSA Integrated Spatial Planning Tool:
       - elsa/index.md
       - Overview: elsa/01_overview.md

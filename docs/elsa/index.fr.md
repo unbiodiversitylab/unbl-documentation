@@ -1,10 +1,7 @@
-# Outil de Planification Spatiale Intégrée ELSA
+# Outil d'aménagement du territoire intégré ELSA sur le UN Biodiversity Lab - Guide d'utilisation
 
-!!! important
-	Cette version linguistique est générée automatiquement par un programme d'intelligence artificielle. Elle sera mise à jour dans un avenir proche.
+Ce guide de l'utilisateur vise à fournir un aperçu clair et concis de l'utilisation de l'outil d'aménagement du territoire intégré ELSA (Essential Life Support Area) du UN Biodiversity Lab (UNBL). Cet outil a été développé pour aider les pays à utiliser l'aménagement du territoire intégrée afin de soutenir la mise en œuvre du Cadre mondial de la biodiversité de Kunming-Montréal grâce à une approche de planification systématique de la conservation (PSC) soutenue par le UNBL.
 
-Ce guide de l'utilisateur vise à fournir un aperçu clair et concis de l'utilisation de l'Outil de Planification Spatiale Intégrée des Zones Essentielles de Soutien à la Vie (ELSA) du Laboratoire de la Biodiversité de l'ONU (UNBL). Cet outil a été développé pour aider les pays à utiliser la planification spatiale intégrée pour soutenir la mise en œuvre du Cadre mondial de la biodiversité de Kunming-Montréal grâce à une approche de Planification Systématique de la Conservation (SCP) soutenue par l'UNBL.
-
-* [Chapitre 1](01_overview.md) fournit un aperçu et des ressources supplémentaires clés sur le processus de cartographie ELSA.
-* [Chapitre 2](02_tool_purpose.md) décrit les fonctionnalités clés et les applications de l'outil ELSA.
-* [Chapitres 3](03_registration.md) - [11](11_support.md) fournissent des instructions étape par étape sur la façon d'utiliser l'outil ELSA sur UNBL.
+* [Le chapitre 1](01_overview.md) présente une vue d'ensemble du processus de cartographie ELSA et les principales ressources complémentaires.
+* [Le chapitre 2](02_tool_purpose.md) décrit les principales fonctionnalités et applications de l'outil ELSA.
+* [Les chapitres 3](03_registration.md) à [11](11_support.md) fournissent des instructions étape par étape sur la manière d'utiliser l'outil ELSA sur le site du UNBL.

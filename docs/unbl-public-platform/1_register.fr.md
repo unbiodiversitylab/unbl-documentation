@@ -1,26 +1,26 @@
-# Comment s'inscrire ou se connecter ?
+# Comment m'inscrire ou me connecter ?
 
-Avant de commencer à explorer les cartes, inscrivez-vous au Laboratoire de Biodiversité des Nations Unies.
+Avant de commencer à explorer les cartes, inscrivez-vous au UN Biodiversity Lab.
 
-1. Cliquez sur la page 'Launch map' du site web du [Laboratoire de Biodiversité des Nations Unies](https://unbiodiversitylab.org/).
+1. Cliquez sur la page « Lancer la carte » du site web du [UN Biodiversity Lab](https://unbiodiversitylab.org/).
 
-	![](images/en/image003.png)
+	![](images/fr/image003.png)
 
-2. Une fois chargée, sélectionnez l'icône de compte dans le coin supérieur droit et choisissez 'sign in'. Dans la page chargée, choisissez ensuite 'sign up'. Entrez votre email, définissez votre mot de passe, votre nom, votre pays, votre institution/organisation et le type d'organisation pour vous inscrire.
+2. Une fois la page chargée, cliquez sur l'icône du compte dans le coin supérieur droit et choisissez « Se connecter ». Sur la page chargée, choisissez ensuite « S'inscrire ». Entrez votre adresse e-mail, définissez votre mot de passe, votre nom, votre pays, votre institution/organisation, et le type d'organisation pour vous inscrire.
 
-	![](images/en/image005.png)
+	![](images/fr/image005.png)
 
-	![](images/en/image007.png)
+	![](images/fr/image007.png)
 
-3. Vous recevrez un email dans quelques minutes. Suivez les instructions dans cet email pour vérifier votre compte.
+3. Vous recevrez un e-mail en quelques minutes. Suivez les instructions contenues dans cet e-mail pour vérifier votre compte.
 
-	![](images/en/image009.png)
+	![](images/fr/image009.png)
 
-4. Une fois votre compte vérifié, vous pouvez vous connecter en utilisant votre adresse email et votre mot de passe chaque fois que vous accédez à la plateforme.
+4. Une fois votre compte vérifié, vous pouvez vous connecter à l'aide de votre adresse e-mail et de votre mot de passe, et ce à chaque fois que vous accédez à la plateforme.
 
-	![](images/en/image011.png)
+	![](images/fr/image011.png)
 
-5. Vous pouvez vous déconnecter à tout moment en cliquant sur votre icône utilisateur et en sélectionnant 'Sign Out'.
+5. Vous pouvez vous déconnecter à tout moment en cliquant sur l'icône utilisateur et en sélectionnant « Se déconnecter ».
 
-	![](images/en/image013.png)
-	![](images/en/image015.png)
+	![](images/fr/image013.png)
+	![](images/fr/image015.png)

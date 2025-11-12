@@ -12,4 +12,4 @@ Para obtener más información sobre la ciencia que respalda el proceso de prior
 
 - [Preimpresión: Marco operativo para cartografiar las zonas esenciales para la vida (ELSA) para la biodiversidad, el clima y el desarrollo sostenible](https://www.biorxiv.org/content/10.1101/2024.11.25.625159v1.full.pdf)
 
-- Resumen técnico: Herramientas de priorización espacial disponibles para apoyar los procesos nacionales de planificación espacial (*¡próximamente!*)
+- [Resumen técnico: Herramientas de priorización espacial disponibles para apoyar los procesos nacionales de planificación espacial](https://unbiodiversitylab.org/es/integrated-spatial-planning/)
