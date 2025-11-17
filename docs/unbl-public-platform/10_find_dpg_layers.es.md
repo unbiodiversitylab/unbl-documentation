@@ -1,22 +1,19 @@
-# ¿Cómo encuentro las capas de datos abiertos de Bienes Públicos Digitales (DPG)?
+# ¿Cómo puedo encontrar los conjuntos de datos abiertos de Digital Public Good (DPG)?
 
-El Laboratorio de Biodiversidad de las Naciones Unidas está certificado como una plataforma de Bien Público Digital (DPG) por la Alianza de Bienes Públicos Digitales. Proporciona formas novedosas para que los responsables de la formulación de políticas interactúen con datos espaciales de alta calidad. Puede ver los conjuntos de datos espaciales reconocidos como datos abiertos de DPG a escala mundial o dentro de un área de interés.
+El UN Biodiversity Lab está certificado como plataforma de bienes públicos digitales (DPG) por la Alianza de Bienes Públicos Digitales. Ofrece a los responsables políticos nuevas formas de interactuar con datos espaciales de alta calidad. Puede ver los conjuntos de datos espaciales reconocidos como datos abiertos DPG a escala mundial o dentro de un área de interés.
 
-1.	Haga clic en el icono de la pestaña 'CONJUNTOS DE DATOS'.
+1. Haga clic en el icono «CONJUNTOS DE DATOS».
 
-2.	Haga clic para expandir los filtros.
+2. Haga clic para expandir los filtros.
 
-3.	En los filtros, haga clic para expandir las etiquetas de conjuntos de datos. Luego, seleccione "Datos Abiertos DPG".
+3. En los filtros, haga clic para ampliar las etiquetas del conjunto de datos. A continuación, seleccione «Datos abiertos DPG».
 
-	![](images/en/image051.png)
+	![](images/es/SP 24.png)
+	
+4. Contraiga la lista «FILTROS» y vea la lista de datos abiertos DPG en UNBL.
 
-4.	Contraiga la lista 'FILTROS' y vea la lista de Datos Abiertos DPG en UNBL.
+5. Haga clic en el botón de activación situado a la derecha del nombre del conjunto de datos para cargar el conjunto de datos de interés en el mapa.
 
-5.	Haga clic en el botón de alternancia a la derecha del nombre del conjunto de datos para cargar el conjunto de datos de interés en el mapa.
+6. Haga clic de nuevo en el botón de activación o haga clic en el icono X de la leyenda para eliminar este conjunto de datos.
 
-6.	Haga clic en el botón de alternancia nuevamente o haga clic en el icono **X** en la leyenda del conjunto de datos para eliminar este conjunto de datos.
-
-	![](images/en/image053.png)
-
-
-
+	![](images/es/SP 25.png)

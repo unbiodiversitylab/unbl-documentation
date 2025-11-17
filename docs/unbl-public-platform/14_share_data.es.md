@@ -1,11 +1,9 @@
-# ¿Cómo comparto un conjunto de datos?
+# ¿Cómo puedo compartir un conjunto de datos?
 
-Compartir conjuntos de datos que están disponibles en la plataforma pública es fácil. Para hacerlo:
+Compartir conjuntos de datos disponibles en la plataforma pública es muy sencillo.
 
-1.	Active el/los conjunto(s) de datos de interés en su vista de mapa.
+1. Active los conjuntos de datos que le interesen en su visor de mapas.
 
-2.	Copie la URL que se muestra en su navegador.
+2. Copie la URL que se muestra en su navegador.
 
-3.	¡Comparta! Cualquier conjunto de datos en nuestra plataforma pública será accesible para cualquier persona, independientemente de si es un usuario registrado.
-
-
+3. ¡Comparta! Cualquier conjunto de datos de nuestra plataforma pública será accesible para cualquier persona, independientemente de si es un usuario registrado o no.
