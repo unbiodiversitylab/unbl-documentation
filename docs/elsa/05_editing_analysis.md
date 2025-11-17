@@ -58,6 +58,8 @@ This part of the tool allows you to set area-based constraints (targets) for pro
 	| Restore | Target 2 | Reverse |
 	| Manage | Target 10 | Reduce |
 	| Urban Greening | Target 12 | N/A |
+	
+	The actions referenced here are the functional equivalent of actions of the LDN response hierarchy supported under UNCCD. ‘Protect’ is the equivalent of ‘avoid’ land degradation, ‘manage’ is the equivalent of ‘reduce’ land degradation, and ‘restore’ is the equivalent of ‘reverse’ land degradation. In summary, this equates “Protect–Manage–Restore” with ”Avoid–Reduce–Reverse”, ensuring alignment across global biodiversity frameworks. For more information on each KMGBF Target, please see the [CBD website](https://www.cbd.int/gbf/targets). For more information on the LDN response hierarchy, see the [UNCCD website](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
 You can set any value greater than or equal to 0.001 for protection, restoration, management, and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%. Additionally, the maximum value for any single area constraint cannot exceed the total area of that action zone. For example, if 80% of a country is covered by a protect zone, then the maximum value that can be assigned for the area-based constraint for protection cannot exceed 80%. If you enter a number that is too high, you will receive an error specifying the maximum amount that can be allocated.  
 
