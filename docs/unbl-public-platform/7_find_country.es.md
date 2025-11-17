@@ -1,12 +1,11 @@
-# ¿Cómo encuentro mi país?
+# ¿Cómo puedo encontrar mi país?
 
-El Laboratorio de Biodiversidad de las Naciones Unidas puede ayudarlo a navegar a un área específica de interés y acceder a conjuntos de datos y métricas dinámicas para esta área. En nuestra plataforma pública, las áreas de interés incluyen países, jurisdicciones y áreas transfronterizas seleccionadas. Para buscar un área de interés, puede:
+El UN Biodiversity Lab puede ayudarle a navegar hasta una zona específica de interés y acceder a conjuntos de datos y métricas dinámicas de dicha zona. En nuestra plataforma pública, las zonas de interés incluyen países, jurisdicciones y áreas transfronterizas seleccionadas. Para buscar un área de interés, puede:
 
-1. Hacer clic en el icono 'LUGARES', escribir el nombre del país o jurisdicción que desea ver en el cuadro de búsqueda y seleccionar el resultado deseado en la lista de resultados de búsqueda.
+1. Haga clic en el icono «LUGARES», escriba el nombre del país o jurisdicción que le interese en el cuadro de búsqueda y seleccione el lugar deseado de la lista de resultados de búsqueda.
 
 	**O**
 
-2. Hacer clic en el icono 'LUGARES', hacer clic para expandir el cuadro de filtros y seleccionar su filtro de interés. Luego puede seleccionar el lugar deseado de la lista de resultados de búsqueda.
+2. Haga clic en el icono «LUGARES»; luego haga clic para expandir el cuadro de filtros y seleccionar el filtro que le interese. A continuación, puede seleccionar el lugar deseado en la lista de resultados de búsqueda.
 
-![](images/en/image033.png)
-
+![](images/es/SP 17.png)

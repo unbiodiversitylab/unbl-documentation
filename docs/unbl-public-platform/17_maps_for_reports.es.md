@@ -1,41 +1,43 @@
-# ¿Cómo hago un mapa para incluir en informes y productos de comunicación?
+# ¿Cómo puedo crear un mapa para incluirlo en informes y productos de comunicación?
 
-1. Personalice la vista de los conjuntos de datos que seleccionó, según lo desee.
+1. Personalice la visualización de los conjuntos de datos seleccionados según desee.
 
-2. Use la función de captura de pantalla en su computadora para capturar el mapa.
+2. Utilice la función de captura de pantalla de su ordenador para capturar el mapa.
 
-3. Para su inclusión en informes formales o publicaciones, asegúrese de cumplir con los estándares de mapeo:
+3. Para incluirlo en informes o publicaciones formales, asegúrese de cumplir con los estándares cartográficos:
 
 	- Los mapas deben ser claros y concisos.
+   
+	- El texto importante de los mapas debe ser claro y legible (por ejemplo, ciudades, nombres de lugares, elementos de la leyenda, etc.).
+   
+	- El mapa debe incluir elementos cartográficos básicos, entre ellos: una leyenda de los conjuntos de datos pertinentes y una barra de escala.
+   
+	- El mapa debe proporcionar las atribuciones y citas correctas de las fuentes de datos utilizadas en su creación, ya sea en el propio mapa o como nota al pie del mapa que lo describa, por ejemplo:
 
-	- El texto importante en los mapas debe ser claro y legible (por ejemplo, ciudades, nombres de lugares, elementos de leyenda, etc.).
+*Ejemplo (si se incluye en el mapa)*:
 
-	- El mapa debe incluir elementos de mapeo básicos, incluyendo: una leyenda de capas de datos relevantes y barra de escala.
+> Fuentes: Sanderman, et al., 2018; PNUMA-WCMC y UICN, 2021.
 
-	- El mapa debe proporcionar la(s) atribución(es) y cita(s) correcta(s) para la(s) fuente(s) de datos utilizada(s) en su creación, ya sea en el mapa mismo o en un pie de foto que describa el mapa, por ejemplo:
+*Ejemplo (si se incluye como nota al pie del mapa)*:
 
-*si dentro del mapa*:
+> La figura 2 muestra el carbono orgánico estimado presente en los suelos de los manglares (de Sanderman, et al., 2018) dentro de las áreas protegidas de Vietnam (PNUMA-CMCM y UICN, 2021).
 
-> Fuentes: Sanderman, et al., (2018); UNEP-WCMC e IUCN, (2021).
+**Asegúrese también de incluir las citas completas de los conjuntos de datos utilizados en la sección de referencias del documento, por ejemplo:**
 
-*si en un pie de foto*:
+> Sanderman, J. et al. (2018) «A global map of mangrove forest soil carbon at 30 m spatial resolution», Environmental Research Letters, 13(5), p. 055002. doi: 10.1088/1748-9326/aabe1c.
 
-> La Figura 2 muestra el carbono orgánico del suelo estimado presente en manglares (de Sanderman, et al., (2018)) dentro de áreas protegidas en Vietnam (UNEP-WCMC e IUCN, (2021)).
+> PNUMA-WCMC y UICN (2021), Protected Planet: The World Database on Protected Areas (WDPA) [En línea], 02/2021, Cambridge, Reino Unido: PNUMA-WCMC y UICN. Disponible en: www.protectedplanet.net.
 
-**Asegúrese también de incluir citas completas para los conjuntos de datos utilizados en la sección de referencias/bibliografía del documento, por ejemplo:**
+- Incluya información en el mapa (o en la cita que describe el mapa) sobre: quién creó el mapa; la fecha en que se produjo el mapa en el UN Biodiversity Lab; y una nota que indique que el mapa se creó utilizando UN Biodiversity Lab.
 
-> Sanderman, J. et al. (2018) 'A global map of mangrove forest soil carbon at 30 m spatial resolution', Environmental Research Letters, 13(5), p. 055002. doi: 10.1088/1748-9326/aabe1c.
+**Ejemplo:**
 
-> UNEP-WCMC e IUCN (2021), Protected Planet: The World Database on Protected Areas (WDPA) [En línea], 02/2021, Cambridge, UK: UNEP-WCMC e IUCN Disponible en: www.protectedplanet.net.
+> Creado por James Bond utilizando el UN Biodiversity Lab (www.unbiodiversitylab.org) el 14 de febrero de 2021.
 
-- Incluya información en el mapa (o en la cita que describe el mapa) sobre: quién creó el mapa; la fecha en que se produjo el mapa en el Laboratorio de Biodiversidad de las Naciones Unidas; y una nota indicando que el mapa se creó usando el Laboratorio de Biodiversidad de las Naciones Unidas, por ejemplo:
+- Por último, asegúrese de incluir también una cita del mapa en la sección de referencias del documento. Recomendamos este formato:
 
-> Creado por James Bond usando el Laboratorio de Biodiversidad de las Naciones Unidas (www.unbiodiversitylab.org) el 14 de febrero de 2021.
+> Autor. «Título del mapa» [formato]. Escala. (Fecha de producción). Mapa generado en el UN Biodiversity Lab [web]. Versión 2. PNUD y PNUMA, [año].
 
-- Finalmente, asegúrese de incluir también una cita para el mapa en la sección de referencias del documento. Recomendamos este formato:
+**Ejemplo:**
 
-> Autor. "Título del mapa" [formato]. Escala. (Fecha de Producción). Mapa Generado en el Laboratorio de Biodiversidad de las Naciones Unidas [web]. Versión 2. PNUD y PNUMA, [año].
-
-**Ejemplo**
-
-> Bond, James. "Carbono Orgánico del Suelo del Bosque de Manglares dentro de las Áreas Protegidas de Vietnam" [mapa]. Escala no proporcionada. (14 Feb 2021). Mapa Generado en el Laboratorio de Biodiversidad de las Naciones Unidas (www.unbiodiversitylab.org) [web]. Versión 2. PNUD y PNUMA, 2023.
+> Bond, James. «Mangrove Forest Soil Organic Carbon within Vietnam's Protected Areas» [mapa]. Escala no especificada. (14 de febrero de 2021). Mapa generado en el UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Versión 2. PNUD y PNUMA, 2021.

@@ -4,7 +4,9 @@
 
 Esta guía del usuario descargable se ha elaborado para guiarle a través de las herramientas y funciones clave del UN Biodiversity Lab. Si tiene alguna pregunta adicional, visite nuestra [página de soporte](https://unbiodiversitylab.org/es/support/) o póngase en contacto con nosotros al correo <support@unbiodiversitylab.org>.
 
-## Contenido
+Esta guía aborda las siguientes preguntas:
+
+## Índice
 
 - **[¿Cómo me registro o inicio sesión?](1_register.md)**
 - **[¿Cómo gestiono mi cuenta?](2_manage.md)**

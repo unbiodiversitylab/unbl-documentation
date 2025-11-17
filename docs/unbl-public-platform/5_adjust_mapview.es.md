@@ -1,14 +1,13 @@
-# ¿Cómo ajusto la vista del mapa?
+# ¿Cómo puedo ajustar la vista del mapa?
 
-Hay varias funciones que pueden ayudarlo a navegar por la pantalla del mapa. Estas incluyen:
+Hay varias funciones que pueden ayudarle a navegar por la pantalla del mapa. Entre ellas se incluyen:
 
-1. *Mover mapa*: Use su mouse para hacer clic y arrastrar la porción del mapa que desea ver hacia el centro de la pantalla.
+1. *Mover el mapa:* utilice el cursor para arrastrar la parte del mapa que desea ver al centro de la pantalla.
 
-2. *Acercar/alejar:* Haga clic en los iconos +/- en la parte inferior derecha del mapa o use la rueda de desplazamiento de su mouse.
+2. *Acercar/alejar:* haga clic en los iconos +/- situados en la parte inferior derecha del mapa.
 
-3. *Centrar lugar:* Haga clic en el botón de centrar lugar encima de +/-. Si ha seleccionado un lugar en la barra de menú izquierda, esto volverá a centrar el mapa sobre el lugar seleccionado.
+3. *Centrar lugar:* haga clic en el botón «centrar lugar» situado encima del +/-. Si ha seleccionado un lugar en la barra de menú de la izquierda, esto volverá a centrar el mapa sobre el lugar seleccionado.
 
-4. *Ocultar barra de menú izquierda:* Haga clic en la flecha en la parte superior del menú izquierdo para contraer el panel de conjuntos de datos y obtener una vista de mapa más grande. Haga clic nuevamente para expandir el panel.
+4. *Ocultar la barra de menú de la izquierda:* haga clic en la flecha situada en la parte superior del menú de la izquierda para ocultar el panel del conjunto de datos y obtener una vista más amplia del mapa. Vuelva a hacer clic para expandir el panel.
 
-![](images/en/image029.png)
-
+![](images/es/SP 15.png)
