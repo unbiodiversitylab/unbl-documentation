@@ -49,7 +49,17 @@ Les utilisateurs ne peuvent pas définir eux-mêmes les zones, mais pour certain
 
 ## Définition de contraintes basées sur la zone pour les actions
 
-Cette partie de l'outil vous permet de définir des contraintes (cibles) basées sur la superficie pour la protection, la restauration, la gestion, et/ou le verdissement urbain. Les contraintes de zone peuvent également être comprises comme le pourcentage de la superficie terrestre qui devrait être attribué à chaque action dans la carte d'action résultante. Les valeurs par défaut dans tout outil ELSA donné sont dérivées des cibles terrestres du KMGBF, à moins qu'elles ne soient personnalisées pour votre pays par l'équipe UNBL sur la base de votre Stratégie et plan d'action nationaux pour la biodiversité (SPANB), ou d'autres documents politiques nationaux.
+Cette partie de l'outil vous permet de définir des contraintes (cibles) basées sur la superficie pour la protection, la restauration, la gestion et/ou le verdissement urbain. Les contraintes territoriales peuvent également être comprises comme le pourcentage de superficie qui devrait être attribué à chaque action dans la carte d'action qui en résulte. Les valeurs par défaut dans tout outil ELSA sont dérivées des cibles terrestres du KMGBF, à moins qu'elles ne soient personnalisées pour votre pays par l'équipe UNBL sur la base de votre Stratégie et plan d'action nationaux pour la biodiversité (SPANB) ou d'autres documents politiques nationaux.
+
+!!! Attention "Veuillez noter les différents types d'actions disponibles dans l'outil ELSA et les politiques qui leur sont associées :"
+	| Action par défaut | Cible KMGBF | Hiérarchie des réponses LDN de la CNULCD |
+	|----------------|--------------|------------------------------|
+	| Protéger | Cible 3 | Eviter |
+	| Restaurer | Cible 2 | Inverser |
+	| Gérer | Cible 10 | Réduire |
+	| Verdissement urbain | Cible 12 | N/A |
+
+	Les mesures mentionnées ici sont l'équivalent fonctionnel des mesures de la hiérarchie des réponses LDN soutenues par la CNULCD. « Protéger » équivaut à « éviter » la dégradation des terres, « gérer » équivaut à « réduire » la dégradation des terres et « restaurer » équivaut à « inverser » la dégradation des terres. En résumé, cela équivaut à « Protéger-Gérer-Restaurer » avec « Éviter-Réduire-Inverser », garantissant ainsi l'alignement entre les cadres mondiaux en matière de biodiversité. Pour plus d'informations sur chaque objectif du KMGBF, veuillez consulter le [site web de la CDB](https://www.cbd.int/gbf/targets). Pour plus d'informations sur la hiérarchie des mesures LDN, consultez le [site web de la CNULCD](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
 Vous pouvez définir n'importe quelle valeur supérieure ou égale à 0,001 pour les objectifs de protection, de restauration, de gestion, et/ou de verdissement urbain. La somme des valeurs pour tous les objectifs peut être inférieure ou égale à 100%, mais ne doit pas dépasser 100%. De plus, la valeur maximale pour une contrainte de zone unique ne peut pas dépasser la superficie totale de cette zone d'action. Par exemple, si 80% d'un pays est couvert par une zone de protection, la valeur maximale pouvant être attribuée à la contrainte de protection basée sur la superficie ne peut pas dépasser 80%. Si vous entrez un nombre trop élevé, vous recevrez un message d'erreur indiquant le montant maximal pouvant être attribué.
 
