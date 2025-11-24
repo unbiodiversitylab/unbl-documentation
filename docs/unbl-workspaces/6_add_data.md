@@ -10,6 +10,10 @@ UNBL workspaces also support the connection to external   geospatial data throug
 
 - WMTS (Web Map Tile Service)
 
+- Google Earth Engine (GEE)
+
+- Spatiotemporal Asset Catalog (STAC)
+
 - XYZ Tile Service
 
 - Mapbox
@@ -17,10 +21,6 @@ UNBL workspaces also support the connection to external   geospatial data throug
 - Esri ArcGIS API Map Service 
  
 - Vector Tile Services (served as pg_tileserv or Martin)
-  
-- Google Earth Engine (GEE) - *coming soon!*
-
-- Spatiotemporal Asset Catalog (STAC) - *coming soon!*
 
 Geospatial data can be uploaded and/or linked to within your workspace, thereby giving all your workspace members the ability to view your data on UNBL without them needing any prior GIS experience. UNBL security ensures that datasets within your workspace are **only** visible to members of your workspace. However, if you want datasets within your workspace to be viewable by anyone outside of your workspace, you can enable this using a public layer URL option. Only people with access to this URL will be able to view your layer.
 
@@ -92,7 +92,7 @@ To upload a GeoTIFF file:
 	
 	e.	*Minimum/Maximum value*: If your raster contains continuous data, then you must supply the range of values in the data by specifying minimum and maximum values of the range.
 	
-	f.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster file only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 19.  
+	f.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster file only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.  
 	
 	g.	*Layer styling*: The layer styling determines how the layer is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the values in your raster. Each layer styling entry should define the following properties: 
 	
@@ -100,7 +100,7 @@ To upload a GeoTIFF file:
 	
 	- *Name* – the name of the styling entry in the layer legend on the map.
 	
-	- *Color* – the color of pixels with the specified value on the map. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value. Optionally, you can set the opacity of the color in a range from 0 to 100%.  
+	- *Color* – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
 		
 	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated.
 	
@@ -108,7 +108,7 @@ To upload a GeoTIFF file:
 	
 3.	Once all metadata and parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to upload your GeoTIFF file to your workspace. The file will be stored in a safe and dedicated private repository on Azure. This may take a few seconds depending on the size of the file and the speed of your upload internet broadband, so after clicking the button you should wait until you are redirected to the edit layer page. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
 
-## How do I configure raster layers using external tile services ?
+## How do I configure raster layers using WMS/WMTS external tile services ?
 
 UNBL supports the configuration of raster image layers to your workspace by linking to external tile service providers. To add geospatial data to your workspace using this method:
 
@@ -140,7 +140,7 @@ UNBL supports the configuration of raster image layers to your workspace by link
 
 	d.	*Data type*: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.
 	
-	e.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 19.
+	e.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.
 	
 	f.	*Layer styling*: The layer styling determines how the legend for the raster image is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the values in the raster image. Each layer styling entry should define the following properties: 
 	
@@ -153,6 +153,99 @@ UNBL supports the configuration of raster image layers to your workspace by link
 	![](images/en/image25.png)
 	
 3. Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your raster image to your workspace. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
+
+## How do I configure raster layers using Google Earth Engine (GEE)? 
+
+If you want to display GEE assets in your UNBL workspace from your own account or a public account, then you can do so by configuring a GEE single-band raster asset. Currently, we do not support configuration of multi-band rasters or vector data from GEE. To configure GEE single-band raster assets:
+
+1. If you are configuring an asset from your personal Cloud Project, ensure that the ‘Anyone can read’ box is checked for this asset.
+
+	![](images/en/draft2-image1.png)
+	
+	![](images/en/draft2-image2.png)
+	
+2. Navigate to the new layer page in the UNBL admin interface and fill in relevant metadata (See [‘What parameters and metadata do I fill in when creating a layer?’](#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer)).
+
+3. In the *Layer Config* section:
+
+	a.	*Layer type*: Select ‘raster’.
+
+	b.	*Layer provider*: Select ‘Google Earth Engine’.
+	
+	c.	*Asset Path*: Copy and paste the image ID of your GEE asset Any image ID can be configured on UNBL, provided that it is a single raster band image. It can be an image ID of your personal GEE Cloud Project, or any other shared GEE Cloud Project or publicly available GEE dataset, such as one from the public catalogue [awesome-gee-community-catalog](https://gee-community-catalog.org/), which provides access to over 4,000 public GEE assets. 
+	
+	![](images/en/draft2-image3.png)
+	
+	d.	*Data type*: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.
+
+	e.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.
+	
+	![](images/en/draft2-image4.png)
+	
+	f.	*Layer styling*: The layer styling determines how the legend for the GEE asset is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries (also known as *classes* or *thresholds*) to match the values in the raster image. Each layer styling entry should define the following properties:
+
+	- *Value* - the pixel value in the data to define the styling for.
+
+	- *Name* – the name of the class or range in the layer legend on the map.
+	
+	- *Color* – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
+	
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The example layer styling below creates a continuous color palette for carbon stock concentration.
+	
+	![](images/en/draft2-image5.png)
+	
+	![](images/en/draft2-image6.png)
+	
+	For categorical raster layers, each specified pixel value maps to exactly one discrete class or category. The example layer styling below creates a discrete color palette that maps land cover classes.
+	
+	![](images/en/draft2-image7.png)
+	
+	g.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step f. While layer styling determines the style of the layer legend, the SLD will determine the style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous color scheme for carbon stock concentration would look like this:
+	
+	```
+	
+	<RasterSymbolizer>
+	<ColorMap type="ramp" extended="false">
+		<ColorMapEntry color="#FFF1B8" quantity="1"/>
+		<ColorMapEntry color="#E2C98F" quantity="10"/>
+		<ColorMapEntry color="#B58A5A" quantity="50"/>
+		<ColorMapEntry color="#6E4A28" quantity="200"/>
+		<ColorMapEntry color="#1C130C" quantity="590"/>
+	</ColorMap>
+	</RasterSymbolizer>
+
+	```
+
+	For the categorical land cover land use raster, the SLD configuration would look like this:
+
+	```
+	
+	<RasterSymbolizer>
+	<ColorMap type="values" extended="false">
+		<ColorMapEntry color="#FFFFFF" quantity="1"/>
+		<ColorMapEntry color="#1A5BAB" quantity="2"/>
+		<ColorMapEntry color="#358221" quantity="3"/>
+		<ColorMapEntry color="#A7D282" quantity="4"/>
+		<ColorMapEntry color="#87D19E" quantity="5"/>
+		<ColorMapEntry color="#FFDB5C" quantity="6"/>
+		<ColorMapEntry color="#EECFA8" quantity="7"/>
+		<ColorMapEntry color="#ED022A" quantity="8"/>
+		<ColorMapEntry color="#EDE9E4" quantity="9"/>
+	</ColorMap>
+	</RasterSymbolizer>
+
+
+	```
+	
+	Where each ColorMapEntry color and associated pixel quantity row matches exactly to a layer styling entry row from step f.
+	
+	![](images/en/draft2-image8.png)
+	
+4. Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your raster image to your workspace. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
+
+## How do I configure raster layers using Spatiotemporal Asset Catalog (STAC)?
+
+The STAC configuration feature is currently in testing and is subject to future updates. If you want to configure a new layer coming from an external STAC Catalogue in your UNBL workspace, please contact us at <support@unbiodiversitylab.org> so that we can understand the use case for this feature. 
 
 ## How do I configure vector layers using external tile services?
 
@@ -429,6 +522,9 @@ You may want to go back and edit your added layers to change any of the associat
 	![](images/en/image32.png)
 	
 2.	To test if your layer is visualizing properly in the UNBL map view, click on the ‘TEST LAYER’ button in the bottom right corner of the edit layer page. A green tick will appear inside the button if the layer has been correctly uploaded and/or configured. Otherwise, a red cross will appear with an error message diagnosing the problem.
+
+	!!!Note
+		If you are uploading a regional dataset (non-global extent), it is possible that the test may report a failure even if the layer is working, as the test may request sample tiles that fall outside of your dataset’s areal extent. It is best practice to double check the test layer diagnosis by verifying manually whether your layer is visualizing in the UNBL map view.
 
 	![](images/en/image34.png)
 	
