@@ -1449,10 +1449,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-do-i-configure-raster-layers-using-external-tile-services" class="md-nav__link">
+  <a href="#how-do-i-configure-raster-layers-using-wmswmts-external-tile-services" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How do I configure raster layers using external tile services ?
+        How do I configure raster layers using WMS/WMTS external tile services ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-configure-raster-layers-using-google-earth-engine-gee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I configure raster layers using Google Earth Engine (GEE)?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-configure-raster-layers-using-spatiotemporal-asset-catalog-stac" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I configure raster layers using Spatiotemporal Asset Catalog (STAC)?
       
     </span>
   </a>
@@ -2136,6 +2158,12 @@
 <p>WMTS (Web Map Tile Service)</p>
 </li>
 <li>
+<p>Google Earth Engine (GEE)</p>
+</li>
+<li>
+<p>Spatiotemporal Asset Catalog (STAC)</p>
+</li>
+<li>
 <p>XYZ Tile Service</p>
 </li>
 <li>
@@ -2146,12 +2174,6 @@
 </li>
 <li>
 <p>Vector Tile Services (served as pg_tileserv or Martin)</p>
-</li>
-<li>
-<p>Google Earth Engine (GEE) - <em>coming soon!</em></p>
-</li>
-<li>
-<p>Spatiotemporal Asset Catalog (STAC) - <em>coming soon!</em></p>
 </li>
 </ul>
 <p>Geospatial data can be uploaded and/or linked to within your workspace, thereby giving all your workspace members the ability to view your data on UNBL without them needing any prior GIS experience. UNBL security ensures that datasets within your workspace are <strong>only</strong> visible to members of your workspace. However, if you want datasets within your workspace to be viewable by anyone outside of your workspace, you can enable this using a public layer URL option. Only people with access to this URL will be able to view your layer.</p>
@@ -2215,7 +2237,7 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 <p>c.  <em>GeoTIFF file</em>: Click the ‘Choose File’ button to upload a valid GeoTIFF raster layer from your local file system. Uploaded files should be a single-band raster and should be less than 1000MB in size. You will be notified if you select an invalid file.</p>
 <p>d.  <em>Data type</em>: Specify whether the raster contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class (for instance, Land Use Land Cover classes). Continuous datasets represent data where values can fall anywhere within a specified range of values (for instance, yearly mean temperature).</p>
 <p>e.  <em>Minimum/Maximum value</em>: If your raster contains continuous data, then you must supply the range of values in the data by specifying minimum and maximum values of the range.</p>
-<p>f.  <em>Minimum/Maximum zoom level (optional)</em>: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster file only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 19.  </p>
+<p>f.  <em>Minimum/Maximum zoom level (optional)</em>: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster file only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.  </p>
 <p>g.  <em>Layer styling</em>: The layer styling determines how the layer is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the values in your raster. Each layer styling entry should define the following properties: </p>
 <ul>
 <li>
@@ -2225,7 +2247,7 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 <p><em>Name</em> – the name of the styling entry in the layer legend on the map.</p>
 </li>
 <li>
-<p><em>Color</em> – the color of pixels with the specified value on the map. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value. Optionally, you can set the opacity of the color in a range from 0 to 100%.  </p>
+<p><em>Color</em> – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.</p>
 </li>
 </ul>
 <p>You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/icons/hide.png" data-desc-position="bottom"><img alt="" src="../images/icons/hide.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated.</p>
@@ -2235,7 +2257,7 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 <p>Once all metadata and parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to upload your GeoTIFF file to your workspace. The file will be stored in a safe and dedicated private repository on Azure. This may take a few seconds depending on the size of the file and the speed of your upload internet broadband, so after clicking the button you should wait until you are redirected to the edit layer page. See <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users">‘How do I publish my layer and share it with external users?’</a> and <a href="#how-do-i-edit-my-added-layers">‘How do I edit my added layers?’</a> for next steps.</p>
 </li>
 </ol>
-<h2 id="how-do-i-configure-raster-layers-using-external-tile-services">How do I configure raster layers using external tile services ?<a class="headerlink" href="#how-do-i-configure-raster-layers-using-external-tile-services" title="Anchor link to this section for reference">¶</a></h2>
+<h2 id="how-do-i-configure-raster-layers-using-wmswmts-external-tile-services">How do I configure raster layers using WMS/WMTS external tile services ?<a class="headerlink" href="#how-do-i-configure-raster-layers-using-wmswmts-external-tile-services" title="Anchor link to this section for reference">¶</a></h2>
 <p>UNBL supports the configuration of raster image layers to your workspace by linking to external tile service providers. To add geospatial data to your workspace using this method:</p>
 <ol>
 <li>
@@ -2260,7 +2282,7 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 </ul>
 </div>
 <p>d.  <em>Data type</em>: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.</p>
-<p>e.  <em>Minimum/Maximum zoom level (optional)</em>: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 19.</p>
+<p>e.  <em>Minimum/Maximum zoom level (optional)</em>: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.</p>
 <p>f.  <em>Layer styling</em>: The layer styling determines how the legend for the raster image is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the values in the raster image. Each layer styling entry should define the following properties: </p>
 <ul>
 <li>
@@ -2277,6 +2299,78 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 <p>Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your raster image to your workspace. See <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users">‘How do I publish my layer and share it with external users?’</a> and <a href="#how-do-i-edit-my-added-layers">‘How do I edit my added layers?’</a> for next steps.</p>
 </li>
 </ol>
+<h2 id="how-do-i-configure-raster-layers-using-google-earth-engine-gee">How do I configure raster layers using Google Earth Engine (GEE)?<a class="headerlink" href="#how-do-i-configure-raster-layers-using-google-earth-engine-gee" title="Anchor link to this section for reference">¶</a></h2>
+<p>If you want to display GEE assets in your UNBL workspace from your own account or a public account, then you can do so by configuring a GEE single-band raster asset. Currently, we do not support configuration of multi-band rasters or vector data from GEE. To configure GEE single-band raster assets:</p>
+<ol>
+<li>
+<p>If you are configuring an asset from your personal Cloud Project, ensure that the ‘Anyone can read’ box is checked for this asset.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image1.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image1.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image2.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image2.png"></a></p>
+</li>
+<li>
+<p>Navigate to the new layer page in the UNBL admin interface and fill in relevant metadata (See <a href="#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer">‘What parameters and metadata do I fill in when creating a layer?’</a>).</p>
+</li>
+<li>
+<p>In the <em>Layer Config</em> section:</p>
+<p>a.  <em>Layer type</em>: Select ‘raster’.</p>
+<p>b.  <em>Layer provider</em>: Select ‘Google Earth Engine’.</p>
+<p>c.  <em>Asset Path</em>: Copy and paste the image ID of your GEE asset Any image ID can be configured on UNBL, provided that it is a single raster band image. It can be an image ID of your personal GEE Cloud Project, or any other shared GEE Cloud Project or publicly available GEE dataset, such as one from the public catalogue <a href="https://gee-community-catalog.org/">awesome-gee-community-catalog</a>, which provides access to over 4,000 public GEE assets. </p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image3.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image3.png"></a></p>
+<p>d.  <em>Data type</em>: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.</p>
+<p>e.  <em>Minimum/Maximum zoom level (optional)</em>: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image4.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image4.png"></a></p>
+<p>f.  <em>Layer styling</em>: The layer styling determines how the legend for the GEE asset is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries (also known as <em>classes</em> or <em>thresholds</em>) to match the values in the raster image. Each layer styling entry should define the following properties:</p>
+<ul>
+<li>
+<p><em>Value</em> - the pixel value in the data to define the styling for.</p>
+</li>
+<li>
+<p><em>Name</em> – the name of the class or range in the layer legend on the map.</p>
+</li>
+<li>
+<p><em>Color</em> – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.</p>
+</li>
+</ul>
+<p>You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/icons/hide.png" data-desc-position="bottom"><img alt="" src="../images/icons/hide.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The example layer styling below creates a continuous color palette for carbon stock concentration.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image5.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image5.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image6.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image6.png"></a></p>
+<p>For categorical raster layers, each specified pixel value maps to exactly one discrete class or category. The example layer styling below creates a discrete color palette that maps land cover classes.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image7.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image7.png"></a></p>
+<p>g.  <em>Styled Layer Description (SLD)</em>: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the <em>Layer styling</em> in step f. While layer styling determines the style of the layer legend, the SLD will determine the style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous color scheme for carbon stock concentration would look like this:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>&lt;RasterSymbolizer&gt;
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>&lt;ColorMap type="ramp" extended="false"&gt;
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    &lt;ColorMapEntry color="#FFF1B8" quantity="1"/&gt;
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    &lt;ColorMapEntry color="#E2C98F" quantity="10"/&gt;
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    &lt;ColorMapEntry color="#B58A5A" quantity="50"/&gt;
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    &lt;ColorMapEntry color="#6E4A28" quantity="200"/&gt;
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    &lt;ColorMapEntry color="#1C130C" quantity="590"/&gt;
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>&lt;/ColorMap&gt;
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>&lt;/RasterSymbolizer&gt;
+</span></code></pre></div>
+<p>For the categorical land cover land use raster, the SLD configuration would look like this:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>&lt;RasterSymbolizer&gt;
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>&lt;ColorMap type="values" extended="false"&gt;
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    &lt;ColorMapEntry color="#FFFFFF" quantity="1"/&gt;
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    &lt;ColorMapEntry color="#1A5BAB" quantity="2"/&gt;
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    &lt;ColorMapEntry color="#358221" quantity="3"/&gt;
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    &lt;ColorMapEntry color="#A7D282" quantity="4"/&gt;
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    &lt;ColorMapEntry color="#87D19E" quantity="5"/&gt;
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    &lt;ColorMapEntry color="#FFDB5C" quantity="6"/&gt;
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    &lt;ColorMapEntry color="#EECFA8" quantity="7"/&gt;
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    &lt;ColorMapEntry color="#ED022A" quantity="8"/&gt;
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    &lt;ColorMapEntry color="#EDE9E4" quantity="9"/&gt;
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>&lt;/ColorMap&gt;
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>&lt;/RasterSymbolizer&gt;
+</span></code></pre></div>
+<p>Where each ColorMapEntry color and associated pixel quantity row matches exactly to a layer styling entry row from step f.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/draft2-image8.png" data-desc-position="bottom"><img alt="" src="../images/en/draft2-image8.png"></a></p>
+</li>
+<li>
+<p>Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your raster image to your workspace. See <a href="#how-do-i-publish-my-layer-and-share-it-with-external-users">‘How do I publish my layer and share it with external users?’</a> and <a href="#how-do-i-edit-my-added-layers">‘How do I edit my added layers?’</a> for next steps.</p>
+</li>
+</ol>
+<h2 id="how-do-i-configure-raster-layers-using-spatiotemporal-asset-catalog-stac">How do I configure raster layers using Spatiotemporal Asset Catalog (STAC)?<a class="headerlink" href="#how-do-i-configure-raster-layers-using-spatiotemporal-asset-catalog-stac" title="Anchor link to this section for reference">¶</a></h2>
+<p>The STAC configuration feature is currently in testing and is subject to future updates. If you want to configure a new layer coming from an external STAC Catalogue in your UNBL workspace, please contact us at <a href="mailto:support@unbiodiversitylab.org">support@unbiodiversitylab.org</a> so that we can understand the use case for this feature. </p>
 <h2 id="how-do-i-configure-vector-layers-using-external-tile-services">How do I configure vector layers using external tile services?<a class="headerlink" href="#how-do-i-configure-vector-layers-using-external-tile-services" title="Anchor link to this section for reference">¶</a></h2>
 <p>UNBL supports the configuration of vector tile layers to your workspace by linking to external tile service providers. Vector layers are discrete geometric shapes, such as points and polygons. To add geospatial data to your workspace using this method:</p>
 <ol>
@@ -2288,7 +2382,7 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 <p>a.  <em>Layer type</em>: Select ‘vector’.</p>
 <p>b.  <em>Layer provider</em>: Select ‘External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)’.</p>
 <p>c.  <em>Tiles URL</em>: Here, you can connect to an external vector tile service provider that hosts your geospatial data, such as Mapbox, Esri, pg_tileserv, Martin, and others. To configure layers using these providers, you must supply a valid tile URL, which must contain either the placeholders <code>{z}{x}{y}</code> or the placeholder <code>{bbox-epsg-3857}</code>. For example, a configurable layer URL for a forest cover dataset hosted on Martin looks like this:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>https://example-tileserv.org/martin/forest_cover/{z}/{x}/{y}
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>https://example-tileserv.org/martin/forest_cover/{z}/{x}/{y}
 </span></code></pre></div>
 <p>d.  <em>Data type</em>: Specify whether the vector tiles contain ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories. Continuous datasets represent data where values can fall anywhere within a specified range of values. While vector tiles can store multiple data attributes, you can only choose one data attribute for layer legend styling on UNBL. You should specify the data type based on the provisional layer legend of your added layer on UNBL. </p>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/image26.png" data-desc-position="bottom"><img alt="" src="../images/en/image26.png"></a></p>
@@ -2298,29 +2392,29 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 <p>a.  <em>Source layer</em>: Specify the name of the dataset which you are hosting on the vector tile server. For example, the source layer for the example URL from step 2c is <code>forest_cover</code>. Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/icons/info.png" data-desc-position="bottom"><img alt="" src="../images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation on source layer referencing.</p>
 <p>b.  <em>Type</em>: Specify the geometry type your dataset represents. Available options are <em>fill, line, symbol, circle, heatmap</em> and <em>fill-extrusion</em>. In the majority of cases, the geometry type will be <em>fill</em> (polygons with a color fill ramp). Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/icons/info.png" data-desc-position="bottom"><img alt="" src="../images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation on geometry type options.</p>
 <p>c.  <em>Paint (optional)</em>: Here, you can specify the layer styling for your dataset on UNBL using a .json style configuration . Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/icons/info.png" data-desc-position="bottom"><img alt="" src="../images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation for configuring layer styling. For the most common geometry types of type <em>fill</em>, the paint configuration follows a set template. For configuring layer styling for categorical datasets, use the following template:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>{
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>"fill-opacity": 0.9,
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>"fill-color": [
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>"match",
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>[ "get", "forest_cover_2023" ],
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>"Mixed forest",
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>"#7c549e",
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>"Mangrove forest",
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>"#e5bcf6",
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>"Plantation forest",
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>"#add911",
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>"#ffffff"], 
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>"fill-outline-color": [ 
-</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>"match", 
-</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>[ "get", " forest_cover_2023" ], 
-</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>"Mixed forest",
-</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>"#7c549e",
-</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>"Mangrove forest",
-</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>"#e5bcf6",
-</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>"Plantation forest",
-</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>"#add911",
-</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>"#ffffff" ]
-</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>}
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>{
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>"fill-opacity": 0.9,
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>"fill-color": [
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>"match",
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>[ "get", "forest_cover_2023" ],
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>"Mixed forest",
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>"#7c549e",
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>"Mangrove forest",
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>"#e5bcf6",
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>"Plantation forest",
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>"#add911",
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>"#ffffff"], 
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>"fill-outline-color": [ 
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>"match", 
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a>[ "get", " forest_cover_2023" ], 
+</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a>"Mixed forest",
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a>"#7c549e",
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a>"Mangrove forest",
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a>"#e5bcf6",
+</span><span id="__span-5-20"><a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a>"Plantation forest",
+</span><span id="__span-5-21"><a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a>"#add911",
+</span><span id="__span-5-22"><a id="__codelineno-5-22" name="__codelineno-5-22" href="#__codelineno-5-22"></a>"#ffffff" ]
+</span><span id="__span-5-23"><a id="__codelineno-5-23" name="__codelineno-5-23" href="#__codelineno-5-23"></a>}
 </span></code></pre></div>
 <p>The same template, in text format below, highlights strings which are configurable variables and need to be changed based on your layer styling:</p>
 <p>{
@@ -2363,49 +2457,49 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 <p>If you do not include the <code>“#ffffff”</code> string for transparent styling for non-included data categories, your vector tiles will fail to visualize if you fail to exhaustively specify styling for <strong>all</strong> data categories that are present in your data attribute in the fill styling property. However, you do not have to specify inclusive transparent styling if you specify a filter to exclude selected data categories in your data attribute from consideration for layer styling (step 3d).</p>
 </div>
 <p>For configuring layer styling for continuous datasets, use the following template:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>{
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>"fill-opacity": 0.9,
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>"fill-color": [
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>"interpolate",
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>[ "linear" ],
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>[ "get", "canopy_height_2023" ],
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>0, 
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>"#f5ebd5", 
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>5, 
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>"#eef5c9", 
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>10, 
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>"#dbe6a1", 
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>20, 
-</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>"#c5e897", 
-</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>30, 
-</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>"#9fe04a", 
-</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>50, 
-</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>"#689c24", 
-</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>75, 
-</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>"#518510", 
-</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>100, 
-</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a>"#305207" ], 
-</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>"fill-outline-color": [
-</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a>"interpolate",
-</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a>[ "linear" ],
-</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a>[ "get", "canopy_height_2023" ],
-</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a>0, 
-</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a>"#f5ebd5", 
-</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a>5, 
-</span><span id="__span-4-30"><a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a>"#eef5c9", 
-</span><span id="__span-4-31"><a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a>10, 
-</span><span id="__span-4-32"><a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a>"#dbe6a1", 
-</span><span id="__span-4-33"><a id="__codelineno-4-33" name="__codelineno-4-33" href="#__codelineno-4-33"></a>20, 
-</span><span id="__span-4-34"><a id="__codelineno-4-34" name="__codelineno-4-34" href="#__codelineno-4-34"></a>"#c5e897", 
-</span><span id="__span-4-35"><a id="__codelineno-4-35" name="__codelineno-4-35" href="#__codelineno-4-35"></a>30, 
-</span><span id="__span-4-36"><a id="__codelineno-4-36" name="__codelineno-4-36" href="#__codelineno-4-36"></a>"#9fe04a", 
-</span><span id="__span-4-37"><a id="__codelineno-4-37" name="__codelineno-4-37" href="#__codelineno-4-37"></a>50, 
-</span><span id="__span-4-38"><a id="__codelineno-4-38" name="__codelineno-4-38" href="#__codelineno-4-38"></a>"#689c24", 
-</span><span id="__span-4-39"><a id="__codelineno-4-39" name="__codelineno-4-39" href="#__codelineno-4-39"></a>75, 
-</span><span id="__span-4-40"><a id="__codelineno-4-40" name="__codelineno-4-40" href="#__codelineno-4-40"></a>"#518510", 
-</span><span id="__span-4-41"><a id="__codelineno-4-41" name="__codelineno-4-41" href="#__codelineno-4-41"></a>100, 
-</span><span id="__span-4-42"><a id="__codelineno-4-42" name="__codelineno-4-42" href="#__codelineno-4-42"></a>"#305207" ]
-</span><span id="__span-4-43"><a id="__codelineno-4-43" name="__codelineno-4-43" href="#__codelineno-4-43"></a>}
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>{
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>"fill-opacity": 0.9,
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>"fill-color": [
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>"interpolate",
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>[ "linear" ],
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>[ "get", "canopy_height_2023" ],
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>0, 
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>"#f5ebd5", 
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>5, 
+</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>"#eef5c9", 
+</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>10, 
+</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>"#dbe6a1", 
+</span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>20, 
+</span><span id="__span-6-14"><a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>"#c5e897", 
+</span><span id="__span-6-15"><a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>30, 
+</span><span id="__span-6-16"><a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>"#9fe04a", 
+</span><span id="__span-6-17"><a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>50, 
+</span><span id="__span-6-18"><a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a>"#689c24", 
+</span><span id="__span-6-19"><a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a>75, 
+</span><span id="__span-6-20"><a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a>"#518510", 
+</span><span id="__span-6-21"><a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a>100, 
+</span><span id="__span-6-22"><a id="__codelineno-6-22" name="__codelineno-6-22" href="#__codelineno-6-22"></a>"#305207" ], 
+</span><span id="__span-6-23"><a id="__codelineno-6-23" name="__codelineno-6-23" href="#__codelineno-6-23"></a>"fill-outline-color": [
+</span><span id="__span-6-24"><a id="__codelineno-6-24" name="__codelineno-6-24" href="#__codelineno-6-24"></a>"interpolate",
+</span><span id="__span-6-25"><a id="__codelineno-6-25" name="__codelineno-6-25" href="#__codelineno-6-25"></a>[ "linear" ],
+</span><span id="__span-6-26"><a id="__codelineno-6-26" name="__codelineno-6-26" href="#__codelineno-6-26"></a>[ "get", "canopy_height_2023" ],
+</span><span id="__span-6-27"><a id="__codelineno-6-27" name="__codelineno-6-27" href="#__codelineno-6-27"></a>0, 
+</span><span id="__span-6-28"><a id="__codelineno-6-28" name="__codelineno-6-28" href="#__codelineno-6-28"></a>"#f5ebd5", 
+</span><span id="__span-6-29"><a id="__codelineno-6-29" name="__codelineno-6-29" href="#__codelineno-6-29"></a>5, 
+</span><span id="__span-6-30"><a id="__codelineno-6-30" name="__codelineno-6-30" href="#__codelineno-6-30"></a>"#eef5c9", 
+</span><span id="__span-6-31"><a id="__codelineno-6-31" name="__codelineno-6-31" href="#__codelineno-6-31"></a>10, 
+</span><span id="__span-6-32"><a id="__codelineno-6-32" name="__codelineno-6-32" href="#__codelineno-6-32"></a>"#dbe6a1", 
+</span><span id="__span-6-33"><a id="__codelineno-6-33" name="__codelineno-6-33" href="#__codelineno-6-33"></a>20, 
+</span><span id="__span-6-34"><a id="__codelineno-6-34" name="__codelineno-6-34" href="#__codelineno-6-34"></a>"#c5e897", 
+</span><span id="__span-6-35"><a id="__codelineno-6-35" name="__codelineno-6-35" href="#__codelineno-6-35"></a>30, 
+</span><span id="__span-6-36"><a id="__codelineno-6-36" name="__codelineno-6-36" href="#__codelineno-6-36"></a>"#9fe04a", 
+</span><span id="__span-6-37"><a id="__codelineno-6-37" name="__codelineno-6-37" href="#__codelineno-6-37"></a>50, 
+</span><span id="__span-6-38"><a id="__codelineno-6-38" name="__codelineno-6-38" href="#__codelineno-6-38"></a>"#689c24", 
+</span><span id="__span-6-39"><a id="__codelineno-6-39" name="__codelineno-6-39" href="#__codelineno-6-39"></a>75, 
+</span><span id="__span-6-40"><a id="__codelineno-6-40" name="__codelineno-6-40" href="#__codelineno-6-40"></a>"#518510", 
+</span><span id="__span-6-41"><a id="__codelineno-6-41" name="__codelineno-6-41" href="#__codelineno-6-41"></a>100, 
+</span><span id="__span-6-42"><a id="__codelineno-6-42" name="__codelineno-6-42" href="#__codelineno-6-42"></a>"#305207" ]
+</span><span id="__span-6-43"><a id="__codelineno-6-43" name="__codelineno-6-43" href="#__codelineno-6-43"></a>}
 </span></code></pre></div>
 <p>The same template, in text format below, highlights strings which are configurable variables and need to be changed based on your layer styling:</p>
 <p>{
@@ -2464,7 +2558,7 @@ overview sheet on data security <em>(coming soon - bear with us!)</em>.</p>
 </li>
 </ul>
 <p>d.  <em>Filter (optional)</em>: You can optionally specify a subset of data categories, or specific range of values, which should be used for styling the map. Any data categories or range of values falling outside of the specified filter will not be considered in the layer styling. Click on the <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/icons/info.png" data-desc-position="bottom"><img alt="" src="../images/icons/info.png" style="display: inline; width: 1em; height: 2em; width: 2em;"></a> icon for this property to view detailed documentation for configuring filter options. As an example, if you wanted to filter out the “Mixed forest” category from the <code>forest_cover_2023</code> data attribute, you would use the following template:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>["!=", ["get", "forest_cover_2023"], "Mixed forest"]
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>["!=", ["get", "forest_cover_2023"], "Mixed forest"]
 </span></code></pre></div>
 <p>where <code>!=</code> specifies a conditional exclusion expression.</p>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/image27.png" data-desc-position="bottom"><img alt="" src="../images/en/image27.png"></a></p>
@@ -2532,6 +2626,10 @@ Note that this will be displayed after the property label.</p>
 </li>
 <li>
 <p>To test if your layer is visualizing properly in the UNBL map view, click on the ‘TEST LAYER’ button in the bottom right corner of the edit layer page. A green tick will appear inside the button if the layer has been correctly uploaded and/or configured. Otherwise, a red cross will appear with an error message diagnosing the problem.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are uploading a regional dataset (non-global extent), it is possible that the test may report a failure even if the layer is working, as the test may request sample tiles that fall outside of your dataset’s areal extent. It is best practice to double check the test layer diagnosis by verifying manually whether your layer is visualizing in the UNBL map view.</p>
+</div>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/en/image34.png" data-desc-position="bottom"><img alt="" src="../images/en/image34.png"></a></p>
 </li>
 <li>
