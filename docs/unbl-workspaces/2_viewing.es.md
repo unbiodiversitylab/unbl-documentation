@@ -15,7 +15,7 @@ Si es un usuario registrado al que se le ha otorgado acceso a uno o múltiples e
 
 4.	Desalterne los espacios de trabajo que no desea ver. También puede desalternar el espacio de trabajo *UNBL* en la parte superior de la lista, lo que le permitirá ver solo los activos exclusivos de su(s) espacio(s) de trabajo seguro(s) UNBL y filtrar todos los activos en la plataforma pública UNBL. Tenga en cuenta que desalternar el espacio de trabajo *UNBL* eliminará el acceso a todas las capas globales públicas y métricas del panel de control para todas las áreas, incluidas las áreas en su espacio de trabajo seguro.
 
-![](images/en/image2.png)
+![](images/es/2.png)
 
 ## ¿Cómo visualizo lugares dentro de mi espacio de trabajo UNBL?
 
@@ -35,7 +35,7 @@ Para buscar un lugar, puede:
 !!!Note
 	Los lugares se filtran por tipo *Country* por defecto al abrir la vista del mapa UNBL. Si su lugar es de una categoría diferente, como *Protected Area* o *Cross-Boundary Area* y no de tipo *Country*, entonces necesita hacer clic en el botón 'CLEAR' para borrar todos los filtros, o expandir el menú desplegable 'FILTERS' y desmarcar la casilla de país y seleccionar su filtro de interés para encontrar su lugar.
 
-![](images/en/image3.png)
+![](images/es/3.png)
 
 ## ¿Cómo descargo un conjunto de datos para mi área de interés?
 
@@ -47,7 +47,7 @@ Para recortar un conjunto de datos a su área de interés y descargar:
 
 2.	Haga clic en el icono ![](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} a la derecha del nombre del lugar y haga clic en 'Clip and Export Layers'.
 
-	![](images/en/image4.png)
+	![](images/es/4.png)
 
 3.	Escriba el nombre o seleccione el conjunto de datos que desea descargar. Si los datos contienen capas que cubren múltiples años/categorías, seleccione el año/categoría que desea descargar. Tiene la opción de descargar capas recortadas en formato ráster GeoTIFF o formato de archivo de imagen PNG.
 
@@ -59,7 +59,7 @@ Para recortar un conjunto de datos a su área de interés y descargar:
 
 	c.	*Nota*: en caso de descargar GeoTIFFs, estos son datos sin procesar y no incluirán información de estilo.
 
-	![](images/en/image5.png)
+	![](images/es/5.png)
 
 5.	Los datos GeoTIFF descargados pueden abrirse en cualquier software SIG para análisis adicional.
 
@@ -93,4 +93,4 @@ Para buscar conjuntos de datos disponibles:
 !!!Note
 	Si tiene el espacio de trabajo *UNBL* y su propio espacio de trabajo activados, su búsqueda tendrá que ser específica para encontrar conjuntos de datos que cargó en su propio espacio de trabajo que no son parte de la plataforma pública. La forma más fácil de hacer esto es crear una etiqueta reconocible para su capa agregada – vea el paso 2d en ['¿Qué parámetros y metadatos debo completar al crear una capa?'](6_add_data.es.md#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)
 
-![](images/en/image6.png)
+![](images/es/6.png)

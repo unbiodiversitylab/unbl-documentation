@@ -1,6 +1,6 @@
 # Guía del usuario de espacios de trabajo seguros del UN Biodiversity Lab (UNBL)
 
-![](images/en/image1.png)
+![](images/es/1.jpg)
 
 Esta guía explica cómo aprovechar todas las funcionalidades disponibles en su espacio de trabajo seguro en la plataforma UN Biodiversity Lab (UNBL). Si tiene más preguntas, por favor contáctenos en <support@unbiodiversitylab.org>.
 

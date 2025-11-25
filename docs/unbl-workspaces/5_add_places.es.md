@@ -10,7 +10,7 @@ Para agregar un nuevo lugar:
 
 2.	Haga clic en el botón 'CREATE NEW PLACE'.
 
-	![](images/en/image11.png)
+	![](images/es/11.png)
 
 3.	En la página 'New place' que aparece, complete la siguiente información:
 
@@ -24,13 +24,13 @@ Para agregar un nuevo lugar:
 
 	e.	Si toda la información ingresada es válida, el botón 'SAVE AND VIEW DETAILS' se iluminará en azul. Haga clic en este botón para cargar su lugar a UNBL.
 
-	![](images/en/image12.png)
+	![](images/es/12.png)
 
 4.	Una vez que guarde su nuevo lugar, será llevado a la página de edición del lugar. Para que su lugar sea descubrible y visible en la vista del mapa, debe publicar el lugar haciendo clic en el botón de alternancia 'Published'. Los lugares no publicados permanecen en la interfaz de administración hasta que esté listo para publicarlos en la vista del mapa UNBL.
 
 5.	Para hacer de este un lugar destacado para su espacio de trabajo, haga clic en el botón de alternancia 'Featured'. Esto actuará como un marcador para que el lugar aparezca en la parte superior de la lista en la pestaña 'Places' cada vez que no se seleccione una ubicación.
 
-	![](images/en/image13.png)
+	![](images/es/13.png)
 
 ## ¿Cómo edito lugares?
 
@@ -40,15 +40,15 @@ También puede hacer ediciones a lugares existentes y ver su lugar en un mapa ba
 
 2.	Seleccione el lugar que le interesa de la lista de lugares haciendo clic en el icono ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en el lado más a la izquierda de la entrada del lugar.
 
-	![](images/en/image14.png)
+	![](images/es/14.png)
 
 3.	Haga clic en el botón 'VIEW AND UPLOAD SHAPE' cerca de la esquina superior derecha de la ventana del mapa base para ver información geoespacial básica sobre su lugar – incluyendo coordenadas del cuadro delimitador (extensión), área del lugar en hectáreas y las coordenadas del punto de origen – y cargar cualquier nueva versión del lugar que pueda tener en el futuro.
 
-	![](images/en/image15.png)
+	![](images/es/15.png)
 
 4.	Use el botón 'Choose File' para cargar nuevos archivos para su lugar actualizado. Haga clic en 'UPDATE SHAPE' para guardar sus cambios. También puede descargar su versión actual de este lugar a su computadora local como un GeoJSON haciendo clic en el botón 'Download GeoJSON' (debajo de la vista del mapa).
 
-	![](images/en/image16.png)
+	![](images/es/16.png)
 
 ## ¿Cómo muestro métricas para mis lugares agregados?
 
@@ -56,7 +56,7 @@ Las métricas dinámicas se vuelven automáticamente disponibles para su lugar t
 
 1.	Navegue a la vista del mapa UNBL haciendo clic en el nombre de su espacio de trabajo en la interfaz de administración del espacio de trabajo en la esquina superior izquierda, y luego haga clic en 'Map View'.
 
-	![](images/en/image17.png)
+	![](images/es/17.png)
 
 2.	En la pestaña 'PLACES', busque y seleccione un lugar cargado en su espacio de trabajo UNBL.
 
@@ -68,16 +68,16 @@ Las métricas dinámicas se vuelven automáticamente disponibles para su lugar t
 	!!!Note
 		Las métricas de indicadores principales y la métrica de Protected Area solo están disponibles para lugares de tipo *Country* con un código de país M49 especificado.
 
-	![](images/en/image18.png)
+	![](images/es/18.png)
 
 4.	Haga clic en el botón de alternancia junto a cualquier métrica específica si desea ver este conjunto de datos en el mapa. Haga clic en el botón de alternancia de nuevo o en el icono ![](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la leyenda de la capa para eliminar este conjunto de datos de la vista del mapa. También puede hacer clic en el icono de flecha hacia arriba para ocultar la métrica de la vista en la pestaña de métricas disponibles, y viceversa.
 
-	![](images/en/image19.png)
+	![](images/es/19.png)
 
 5.	Haga clic en el icono ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en el widget de métricas o en la leyenda de la capa (si tiene un conjunto de datos alternado) para ver la información de la capa. Las páginas de información proporcionan una breve descripción de los datos, artículos relacionados para leer, datos sin procesar para descargar (si están disponibles gratuitamente) y especificaciones de licencia.
 
-	![](images/en/image20.png)
+	![](images/es/20.png)
 
 6.	Para descargar datos de resumen para la métrica en formato .csv o .json, haga clic en el icono ![](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Luego puede elegir si descargar datos de resumen a su directorio local en formato de valores separados por comas o formato .json. También puede descargar los datos desde enlaces de fuente en las páginas de información de la capa.
 
-	![](images/en/image21.png)
+	![](images/es/21.png)

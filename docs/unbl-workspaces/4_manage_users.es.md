@@ -27,7 +27,7 @@ Para agregar usuarios a su espacio de trabajo:
 	!!!Note
 		El usuario ya debe estar registrado en la plataforma UNBL para ser agregado a su espacio de trabajo. Si la dirección de correo electrónico del usuario no está vinculada a una cuenta registrada en UNBL, recibirá un mensaje de error.
 
-![](images/en/image9.png)
+![](images/es/9.png)
 
 ## ¿Cómo edito o elimino usuarios existentes?
 
@@ -41,4 +41,4 @@ Para eliminar o editar usuarios existentes:
 
 3.	Para eliminar al usuario, haga clic en 'Remove user' en el menú desplegable.
 
-![](images/en/image10.png)
+![](images/es/10.png)

@@ -37,7 +37,7 @@ Para comenzar a crear una capa y completar los metadatos relevantes para la capa
 
 2.	Haga clic en el botón 'CREATE NEW LAYER'.
 
-	![](images/en/image22.png)
+	![](images/es/22.png)
 
 3.	En la página de nueva capa, complete la siguiente información:
 
@@ -54,7 +54,7 @@ Para comenzar a crear una capa y completar los metadatos relevantes para la capa
 	!!!Note
 		Para capas individuales que son parte de una capa de grupo principal, el texto emergente de información de la capa siempre mostrará la descripción de la capa de grupo principal y por lo tanto el campo de descripción es redundante (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
 
-	![](images/en/image23.png)
+	![](images/es/23.png)
 
 4.	Una vez que haya completado los metadatos relevantes para documentar esta nueva capa, ahora necesita especificar el formato o estándar de servicio web geoespacial de sus datos geoespaciales y configurar la capa en consecuencia. Las siguientes secciones detallan cómo configurar su capa basándose en el formato de sus datos geoespaciales.
 
@@ -93,7 +93,7 @@ Para cargar un archivo GeoTIFF:
 
 	También puede opcionalmente elegir si la etiqueta de nombre de una entrada de estilo está oculta en la leyenda de la capa en el mapa haciendo clic en el icono ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} junto a la entrada de estilo. Para capas categóricas, las entradas de valor de estilo de capa deben mapear a los valores de cada categoría/clase dentro de la fuente de datos ráster. Para capas continuas, las entradas de valor de estilo de capa deben mapear al rango de valores dentro de su archivo ráster que desea renderizar en el mapa. Puede especificar cualquier punto a lo largo del rango de valores entre los valores mínimo y máximo -- se generará un degradado de colores entre cada uno de estos valores.
 
-	![](images/en/image24.png)
+	![](images/es/24.png)
 
 3.	Una vez que todos los metadatos y parámetros han sido especificados, el botón 'SAVE AND VIEW DETAILS' se iluminará en azul, siempre que toda la información ingresada sea válida. Haga clic en este botón para cargar su archivo GeoTIFF a su espacio de trabajo. El archivo se almacenará en un repositorio privado seguro y dedicado en Azure. Esto puede tomar algunos segundos dependiendo del tamaño del archivo y la velocidad de su conexión de banda ancha de internet, así que después de hacer clic en el botón debe esperar hasta ser redirigido a la página de edición de capa. Vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos) y ['¿Cómo edito mis capas agregadas?'](#como-edito-mis-capas-agregadas) para los siguientes pasos.
 
@@ -139,7 +139,7 @@ UNBL soporta la configuración de capas de imagen ráster a su espacio de trabaj
 
 	También puede opcionalmente elegir si la etiqueta de nombre de una entrada de estilo está oculta en la leyenda de la capa en el mapa haciendo clic en el icono ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} junto a la entrada de estilo. Para imágenes ráster categóricas, las entradas de estilo de leyenda de capa deben representar los valores de cada categoría/clase dentro de la fuente de datos ráster. Para imágenes ráster continuas, las entradas de estilo de leyenda deben representar el rango de valores visualizados en la imagen ráster. Puede especificar cualquier punto a lo largo del rango de valores entre los valores mínimo y máximo - se generará un degradado de colores entre cada uno de estos valores.
 
-	![](images/en/image25.png)
+	![](images/es/25.png)
 
 3. Una vez que todos los metadatos y propiedades de configuración han sido especificados, el botón 'SAVE AND VIEW DETAILS' se iluminará en azul, siempre que toda la información ingresada sea válida. Haga clic en este botón para configurar su imagen ráster a su espacio de trabajo. Vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos) y ['¿Cómo edito mis capas agregadas?'](#como-edito-mis-capas-agregadas) para los siguientes pasos.
 
@@ -149,9 +149,9 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 1. Si está configurando un activo desde su proyecto Cloud personal, asegúrese de que la casilla 'Anyone can read' esté marcada para este activo.
 
-	![](images/en/draft2-image1.png)
+	![](images/es/26.png)
 
-	![](images/en/draft2-image2.png)
+	![](images/es/27.png)
 
 2. Navegue a la página de nueva capa en la interfaz de administración UNBL y complete los metadatos relevantes (Vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)).
 
@@ -163,13 +163,13 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	c.	*Asset Path*: Copie y pegue el ID de imagen de su activo GEE. Cualquier ID de imagen puede configurarse en UNBL, siempre que sea una imagen ráster de banda única. Puede ser un ID de imagen de su proyecto Cloud GEE personal, o cualquier otro proyecto Cloud GEE compartido o conjunto de datos GEE disponible públicamente, como uno del catálogo público [awesome-gee-community-catalog](https://gee-community-catalog.org/), que proporciona acceso a más de 4,000 activos GEE públicos.
 
-	![](images/en/draft2-image3.png)
+	![](images/es/28.png)
 
 	d.	*Data type*: Especifique si la imagen ráster contiene datos 'categorical' o 'continuous'. Los datos categóricos representan clases o categorías discretas donde cada valor de píxel representa un tipo o clase distinto. Los conjuntos de datos continuos representan datos donde los valores pueden caer en cualquier lugar dentro de un rango de valores especificado.
 
 	e.	*Minimum/Maximum zoom level (opcional)*: El rango de nivel de zoom predeterminado está configurado de 0 a 14. Opcionalmente puede especificar los niveles de zoom para la capa si la imagen ráster solo contiene datos en ciertos niveles de zoom. Note que UNBL soporta un nivel de zoom máximo de 14.
 
-	![](images/en/draft2-image4.png)
+	![](images/es/29.png)
 
 	f.	*Layer styling*: El estilo de capa determina cómo se muestra la leyenda del activo GEE en el mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa (también conocidas como *clases* o *umbrales*) para coincidir con los valores en la imagen ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
 
@@ -181,13 +181,13 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	También puede opcionalmente elegir si la etiqueta de nombre de una entrada de estilo está oculta en la leyenda de la capa en el mapa haciendo clic en el icono ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} junto a la entrada de estilo. Para capas categóricas, las entradas de valor de estilo de capa deben mapear a los valores de cada categoría/clase dentro de la fuente de datos ráster. Para capas continuas, las entradas de valor de estilo de capa deben mapear al rango de valores dentro de su archivo ráster que desea renderizar en el mapa. Puede especificar cualquier punto a lo largo del rango de valores entre los valores mínimo y máximo -- se generará un degradado de colores entre cada uno de estos valores. Es importante notar que los valores de píxel mínimo y máximo, y por lo tanto el rango de valores, pueden derivarse directamente viendo la pestaña 'BANDS' en el cuadro de información 'Asset details' de su activo en GEE. El ejemplo de estilo de capa a continuación crea una paleta de colores continua para la concentración de stock de carbono.
 
-	![](images/en/draft2-image5.png)
+	![](images/es/30.png)
 
-	![](images/en/draft2-image6.png)
+	![](images/es/31.png)
 
 	Para capas ráster categóricas, cada valor de píxel especificado mapea exactamente a una clase o categoría discreta. El ejemplo de estilo de capa a continuación crea una paleta de colores discreta que mapea clases de cobertura de suelo.
 
-	![](images/en/draft2-image7.png)
+	![](images/es/32.png)
 
 	g.	*Styled Layer Description (SLD)*: Haga clic en el botón 'GENERATE GEE SLD' para generar automáticamente un SLD para configurar el estilo de su activo GEE en UNBL, basado en los parámetros que estableció para el *Layer styling* en el paso f. Mientras que el estilo de capa determina el estilo de la leyenda de la capa, el SLD determinará el estilo de los píxeles reales en sus datos. Basándose en los ejemplos proporcionados en el paso f, la configuración SLD para un esquema de color continuo para la concentración de stock de carbono se vería así:
 
@@ -228,7 +228,7 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	Donde cada color ColorMapEntry y cantidad de píxel asociada coincide exactamente con una fila de entrada de estilo de capa del paso f.
 
-	![](images/en/draft2-image8.png)
+	![](images/es/33.png)
 
 4. Una vez que todos los metadatos y propiedades de configuración han sido especificados, el botón 'SAVE AND VIEW DETAILS' se iluminará en azul, siempre que toda la información ingresada sea válida. Haga clic en este botón para configurar su imagen ráster a su espacio de trabajo. Vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos) y ['¿Cómo edito mis capas agregadas?'](#como-edito-mis-capas-agregadas) para los siguientes pasos.
 
@@ -257,7 +257,7 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 	d.	*Data type*: Especifique si las teselas vectoriales contienen datos 'categorical' o 'continuous'. Los datos categóricos representan clases o categorías discretas. Los conjuntos de datos continuos representan datos donde los valores pueden caer en cualquier lugar dentro de un rango de valores especificado. Aunque las teselas vectoriales pueden almacenar múltiples atributos de datos, solo puede elegir un atributo de datos para el estilo de leyenda de capa en UNBL. Debe especificar el tipo de datos basándose en la leyenda provisional de capa de su capa agregada en UNBL.
 
-	![](images/en/image26.png)
+	![](images/es/34.png)
 
 3.	La sección 'Render layers' especifica los atributos de datos de la fuente de datos vectoriales que deben mostrarse en el mapa. En esta sección:
 
@@ -443,7 +443,7 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 	donde `!=` especifica una expresión de exclusión condicional.
 
-	![](images/en/image27.png)
+	![](images/es/35.png)
 
 	e.	*ADD LAYER CONFIG (opcional)*: En algunos casos, puede desear configurar el estilo para más de un atributo de datos en su conjunto de datos vectorial. Haciendo clic en este botón, puede especificar más expresiones de estilo. Note que cualquier atributo de datos, categoría de datos o rango de valores que se superponga entre expresiones de estilo o esté contenido dentro de los mismos polígonos en sus datos y no se filtre en consecuencia, llevará a una visualización de capa confusa.
 
@@ -464,9 +464,9 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 	g.	Haga clic en el icono ![](images/icons/delete.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para eliminar una entrada de Interaction config.
 
-	![](images/en/image28.png)
+	![](images/es/36.png)
 
-	![](images/en/image29.png)
+	![](images/es/37.png)
 
 5.	Especifique los niveles de zoom para sus teselas vectoriales. El rango de nivel de zoom predeterminado está configurado de 0 a 20. Opcionalmente puede especificar los niveles de zoom para la capa si las teselas vectoriales solo son visibles a una resolución más pequeña/más grande. Note que UNBL soporta un nivel de zoom máximo de 20 para teselas vectoriales.
 
@@ -480,9 +480,9 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 	También puede opcionalmente elegir si la etiqueta de nombre de una entrada de estilo está oculta en la leyenda de la capa en el mapa haciendo clic en el icono ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} junto a la entrada de estilo. Para datos categóricos, las entradas de estilo de leyenda de capa deben representar las categorías discretas y su estilo de color asociado que especificó en la sección 'Render layers'. Para datos continuos, las entradas de estilo de leyenda deben representar el rango de valores y su degradado de color asociado que especificó en la sección 'Render layers'.
 
-	![](images/en/image30.png)
+	![](images/es/38.png)
 
-	![](images/en/image31.png)
+	![](images/es/39.png)
 
 7.	Una vez que todos los metadatos y propiedades de configuración han sido especificados, el botón 'SAVE AND VIEW DETAILS' se iluminará en azul, siempre que toda la información ingresada sea válida. Haga clic en este botón para configurar su capa de teselas vectoriales a su espacio de trabajo. Vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos) y ['¿Cómo edito mis capas agregadas?'](#como-edito-mis-capas-agregadas) para los siguientes pasos.
 
@@ -492,7 +492,7 @@ Para hacer cualquiera de sus capas agregadas descubrible y visible para todos lo
 
 1.	Navegue a la página de edición de capa para la capa de su elección. Al agregar una capa a su espacio de trabajo, será automáticamente llevado a esta página. Alternativamente, haga clic en el botón ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la lista de capas disponible después de navegar a la página 'Layers' en su interfaz de administración.
 
-	![](images/en/image32.png)
+	![](images/es/40.png)
 
 2.	Para que su conjunto de datos sea accesible en la vista del mapa UNBL, debe publicar el conjunto de datos haciendo clic en el botón de alternancia 'Published'. Los conjuntos de datos no publicados permanecen en la interfaz de administración hasta que esté listo para publicarlos en la vista del mapa UNBL.
 
@@ -500,7 +500,7 @@ Para hacer cualquiera de sus capas agregadas descubrible y visible para todos lo
 
 4.	Haga clic en el botón de alternancia 'Primary' para marcar su capa como una capa independiente y hacerla descubrible en la barra de búsqueda 'DATASETS' en UNBL. Para que las capas de su espacio de trabajo sean descubribles y visibles en UNBL, siempre debe publicarlas y marcarlas como primarias. La única excepción para publicar una capa y no marcarla como primaria es cuando está creando capas agrupadas (Vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
 
-	![](images/en/image33.png)
+	![](images/es/41.png)
 
 ## ¿Cómo edito mis capas agregadas?
 
@@ -508,20 +508,20 @@ Puede que desee regresar y editar sus capas agregadas para cambiar cualquiera de
 
 1.	Navegue a la página de edición de capa para la capa de su elección. Al agregar una capa a su espacio de trabajo, será automáticamente llevado a esta página. Alternativamente, haga clic en el botón ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la lista de capas disponible después de navegar a la página 'Layers' en su interfaz de administración.
 
-	![](images/en/image32.png)
+	![](images/es/42.png)
 
 2.	Para probar si su capa se visualiza correctamente en la vista del mapa UNBL, haga clic en el botón 'TEST LAYER' en la esquina inferior derecha de la página de edición de capa. Aparecerá una marca verde dentro del botón si la capa ha sido correctamente cargada y/o configurada. De lo contrario, aparecerá una cruz roja con un mensaje de error diagnosticando el problema.
 
 	!!!Note
 		Si está cargando un conjunto de datos regional (extensión no global), es posible que la prueba reporte una falla incluso si la capa está funcionando, ya que la prueba puede solicitar teselas de muestra que caigan fuera de la extensión areal de su conjunto de datos. La mejor práctica es verificar el diagnóstico de prueba de capa verificando manualmente si su capa se visualiza en la vista del mapa UNBL.
 
-	![](images/en/image34.png)
+	![](images/es/43.png)
 
 3.	Si desea navegar directamente a su capa en la vista del mapa UNBL, haga clic en el botón 'VIEW ON MAP'. Si desea eliminar su capa de su espacio de trabajo, haga clic en el botón 'DELETE LAYER'.
 
 4.	Haga clic en el botón 'EDIT' para cualquiera de las secciones de metadatos/configuración de capa para editar información y parámetros de esa sección.
 
-	![](images/en/image35.png)
+	![](images/es/44.png)
 
 ## ¿Cómo creo capas agrupadas?
 
@@ -544,8 +544,8 @@ Para configurar una capa agrupada:
 
 6.	*Layer selector*: Del menú desplegable, seleccione ya sea 'Dropdown' o 'Radio Button'. Estas opciones influyen en cómo aparece la interfaz de usuario del selector de capa en la leyenda de la capa agrupada en UNBL. La opción dropdown se recomienda para capas agrupadas con más de tres capas componentes. La opción radio button se recomienda para capas agrupadas con tres o menos capas componentes, o cuando las capas agrupadas representan los mismos datos con diferente estilo.
 
-	![](images/en/image36.png)
+	![](images/es/45.png)
 
-	![](images/en/image37.png)
+	![](images/es/46.png)
 
 7.	Haga clic en el botón 'SAVE AND VIEW DETAILS' para agregar la capa agrupada a su espacio de trabajo.
