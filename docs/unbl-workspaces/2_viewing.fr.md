@@ -19,21 +19,21 @@ Si vous êtes un utilisateur enregistré ayant obtenu l'accès à un ou plusieur
 
 ## Comment visualiser les lieux dans mon espace de travail UNBL ?
 
-Une fois que votre/vos espace(s) de travail préféré(s) est/sont sélectionné(s), vous pouvez utiliser l'onglet « PLACES » pour rechercher et sélectionner un lieu, ainsi que pour visualiser ses métriques dynamiques associées. Les lieux sont également appelés *zones d'intérêt* ou *emplacements*. Seuls les lieux ajoutés dans vos espaces de travail activés seront disponibles. Si vous avez votre espace de travail ainsi que l'espace de travail UNBL sélectionnés, alors tous les lieux de la plateforme publique seront disponibles aux côtés des lieux personnalisés que vous avez ajoutés à votre propre espace de travail.
+Une fois que votre/vos espace(s) de travail préféré(s) est/sont sélectionné(s), vous pouvez utiliser l'onglet « LIEUX » pour rechercher et sélectionner un lieu, ainsi que pour visualiser ses métriques dynamiques associées. Les lieux sont également appelés *zones d'intérêt* ou *emplacements*. Seuls les lieux ajoutés dans vos espaces de travail activés seront disponibles. Si vous avez votre espace de travail ainsi que l'espace de travail UNBL sélectionnés, alors tous les lieux de la plateforme publique seront disponibles aux côtés des lieux personnalisés que vous avez ajoutés à votre propre espace de travail.
 
 !!!Note
 	Vous devez d'abord ajouter des lieux à votre espace de travail sécurisé pour pouvoir les visualiser sur UNBL. Voir [« Comment ajouter des lieux ? »](5_add_places.fr.md#comment-ajouter-des-lieux)
 
 Pour rechercher un lieu, vous pouvez soit :
 
-1.	Cliquer sur le bouton « PLACES », taper le nom du pays ou de la juridiction que vous souhaitez visualiser dans la barre de recherche, et sélectionner le résultat souhaité dans la liste des résultats de recherche.
+1.	Cliquer sur le bouton « LIEUX », taper le nom du pays ou de la juridiction que vous souhaitez visualiser dans la barre de recherche, et sélectionner le résultat souhaité dans la liste des résultats de recherche.
 
 	**OU**
 
-2.	Cliquer sur le bouton « PLACES », cliquer pour développer la boîte de filtres, et sélectionner votre filtre d'intérêt. Vous pouvez ensuite sélectionner le lieu souhaité dans la liste des résultats de recherche.
+2.	Cliquer sur le bouton « LIEUX », cliquer pour développer la boîte de filtres, et sélectionner votre filtre d'intérêt. Vous pouvez ensuite sélectionner le lieu souhaité dans la liste des résultats de recherche.
 
 !!!Note
-	Les lieux sont filtrés par type *Country* par défaut lors de l'ouverture de la vue cartographique UNBL. Si votre lieu est d'une catégorie différente, comme une *Protected Area* ou *Cross-Boundary Area* et non de type *Country*, vous devez cliquer sur le bouton « CLEAR » pour effacer tous les filtres, ou développer le menu déroulant « FILTERS » et décocher la case pays et sélectionner votre filtre d'intérêt pour trouver votre lieu.
+	Les lieux sont filtrés par type *Country* par défaut lors de l'ouverture de la vue cartographique du UNBL. Si votre lieu est d'une catégorie différente, comme une *Protected Area* ou *Cross-Boundary Area* et non de type *Country*, vous devez cliquer sur le bouton « CLEAR » pour effacer tous les filtres, ou développer le menu déroulant « FILTRES » et décocher la case pays et sélectionner votre filtre d'intérêt pour trouver votre lieu.
 
 ![](images/en/image3.png)
 
@@ -43,7 +43,7 @@ Vous pouvez découper des jeux de données sélectionnés de la plateforme publi
 
 Pour découper un jeu de données selon votre zone d'intérêt et le télécharger :
 
-1.	Cliquez sur le bouton « PLACES » et sélectionnez votre lieu d'intérêt.
+1.	Cliquez sur le bouton « LIEUX » et sélectionnez votre lieu d'intérêt.
 
 2.	Cliquez sur l'icône ![](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à droite du nom du lieu et cliquez sur « Clip and Export Layers ».
 
@@ -51,7 +51,7 @@ Pour découper un jeu de données selon votre zone d'intérêt et le télécharg
 
 3.	Tapez le nom ou sélectionnez le jeu de données que vous souhaitez télécharger. Si les données contiennent des couches couvrant plusieurs années/catégories, sélectionnez l'année/catégorie que vous souhaitez télécharger. Vous avez la possibilité de télécharger des couches découpées au format raster GeoTIFF ou au format de fichier image PNG.
 
-4.	Cliquez sur « DOWNLOAD ».
+4.	Cliquez sur « TELECHARGER ».
 
 	a.	La couche sélectionnée sera découpée selon la boîte englobante de la zone d'intérêt.
 
@@ -72,7 +72,7 @@ Votre espace de travail UNBL vous offre la possibilité de visualiser toutes les
 
 Pour rechercher les jeux de données disponibles :
 
-1.	Cliquez sur le bouton « DATASETS ». Les couches de données des espaces de travail que vous avez sélectionnés rempliront cet onglet automatiquement.
+1.	Cliquez sur le bouton « JEUX DE DONNEES ». Les couches de données des espaces de travail que vous avez sélectionnés rempliront cet onglet automatiquement.
 
 2.	Pour rechercher un jeu de données, vous pouvez soit :
 
@@ -80,15 +80,15 @@ Pour rechercher les jeux de données disponibles :
 
 	**OU**
 
-	b.	Cliquer pour développer la boîte « FILTERS » et sélectionner votre filtre d'intérêt. Vous pouvez ensuite sélectionner le résultat souhaité dans la liste des résultats de recherche.
+	b.	Cliquer pour développer la boîte « FILTRES » et sélectionner votre filtre d'intérêt. Vous pouvez ensuite sélectionner le résultat souhaité dans la liste des résultats de recherche.
 
 	**OU**
 
 	c.	Cliquer pour développer le menu déroulant « Dataset tags » et sélectionner votre étiquette d'intérêt. Vous pouvez ensuite sélectionner le résultat souhaité dans la liste des résultats de recherche.
 
-3.	Cliquez sur le bouton bascule à droite du nom du jeu de données pour charger ce jeu de données dans la vue cartographique.
+3.	Cliquer sur le bouton bascule à droite du nom du jeu de données pour charger ce jeu de données dans la vue cartographique.
 
-4.	Cliquez à nouveau sur le bouton bascule ou cliquez sur l'icône ![](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données.
+4.	Cliquer à nouveau sur le bouton bascule ou cliquez sur l'icône ![](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données.
 
 !!!Note
 	Si vous avez l'espace de travail *UNBL* et votre propre espace de travail activés, votre recherche devra être spécifique pour trouver les jeux de données que vous avez téléchargés dans votre propre espace de travail qui ne font pas partie de la plateforme publique. La façon la plus simple de le faire est de créer une étiquette reconnaissable pour votre couche ajoutée – voir l'étape 2d dans [« Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ? »](6_add_data.fr.md#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche)
