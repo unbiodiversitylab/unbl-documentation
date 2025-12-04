@@ -1,11 +1,11 @@
-# Guide de l'utilisateur des espaces de travail sécurisés du UN Biodiversity Lab (UNBL)
+# Guide de l'utilisateur des espaces de travail sécurisés UN Biodiversity Lab (UNBL)
 
 ![](images/en/image1.png)
 
 Ce guide explique comment profiter de toutes les fonctionnalités disponibles dans votre espace de travail sécurisé sur la plateforme UN Biodiversity Lab (UNBL). Si vous avez d'autres questions, veuillez nous contacter à <support@unbiodiversitylab.org>.
 
 !!!Note
-	Les termes *jeu de données* et *couche* sont utilisés de manière interchangeable dans ce guide. Un jeu de données fait référence à une collection de données spatiales composée d'une ou plusieurs couches. Sur UNBL, un téléchargement unique ou une configuration de données géospatiales se réalise en *« créant une couche »*. Plusieurs entrées de couches peuvent être combinées et visualisées sur UNBL comme un jeu de données. Les couches individuelles peuvent également être visualisées indépendamment sur UNBL.
+	Les termes *jeu de données* et *couche* sont utilisés de manière interchangeable dans ce guide. Un jeu de données fait référence à une collection de données spatiales composée d'une ou plusieurs couches. Sur le UNBL, un téléchargement unique ou une configuration de données géospatiales se réalise en *« créant une couche »*. Plusieurs entrées de couches peuvent être combinées et visualisées sur UNBL comme un jeu de données. Les couches individuelles peuvent également être visualisées indépendamment sur le UNBL.
 
 ## Table des matières
 
