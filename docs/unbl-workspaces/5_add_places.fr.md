@@ -14,13 +14,13 @@ Pour ajouter un nouveau lieu :
 
 3.	Dans la page « Nouveau lieu » qui apparaît, remplissez les informations suivantes :
 
-	a.	*Title* : Insérez le nom du lieu. Nous recommandons de les garder courts et clairs. Actuellement, aucun caractère spécial n'est autorisé.
+	a.	*Titre* : Insérez le nom du lieu. Nous recommandons de les garder courts et clairs. Actuellement, aucun caractère spécial n'est autorisé.
 
-	b.	*Place type* : Sélectionnez la classe appropriée dans le menu déroulant. Cela sera utile pour filtrer vos recherches ultérieurement. Vous pouvez choisir parmi *Biome or Ecosystem, Community and Indigenous Area, Country, Cross-Boundary Area, Other Jurisdiction, Protected Area, Species Range* ou *Study Area*.
+	b.	*Type de lieu* : Sélectionnez la classe appropriée dans le menu déroulant. Cela sera utile pour filtrer vos recherches ultérieurement. Vous pouvez choisir parmi *Biome ou écosystème, communauté et zone autochtone, pays, zone transfrontalière, autre juridiction, aire protégée, aire de répartition des espèces* ou *aire d'étude*.
 
 	c.	*Slug* : Insérez un identifiant unique pour le lieu qui contient uniquement des lettres minuscules, des chiffres et des tirets. Les espaces ne peuvent pas être utilisés. Cela identifiera de manière unique votre lieu parmi tous les autres dans le système UNBL. Nous recommandons d'utiliser le bouton « GENERER UN SLUG » pour vous aider à générer un slug approprié.
 
-	d.	*Place shape* : Téléchargez un fichier polygone (ou multipolygone) pour définir votre lieu. Les formats pris en charge sont GeoJSON (.geojson, .geojsonl), les fichiers Google Earth (.kml, .kmz) ou les fichiers de formes ESRI (.zip contenant les fichiers .shp, .dbf, .shx, .prj). Si vous utilisez un GeoJSON, la taille du fichier ne doit pas dépasser 6 Mo. Le système permet des téléchargements jusqu'à 6 Mo, mais nous recommandons fortement d'utiliser des fichiers de 2 Mo maximum pour un rendu et des calculs de métriques optimaux. Si vous utilisez des fichiers Google Earth ou des fichiers de formes ESRI, assurez-vous que le système de référence des coordonnées est WGS-84, également connu sous le nom d'EPSG : 4326.
+	d.	*Forme du lieu* : Téléchargez un fichier polygone (ou multipolygone) pour définir votre lieu. Les formats pris en charge sont GeoJSON (.geojson, .geojsonl), les fichiers Google Earth (.kml, .kmz) ou les fichiers de formes ESRI (.zip contenant les fichiers .shp, .dbf, .shx, .prj). Si vous utilisez un GeoJSON, la taille du fichier ne doit pas dépasser 6 Mo. Le système permet des téléchargements jusqu'à 6 Mo, mais nous recommandons fortement d'utiliser des fichiers de 2 Mo maximum pour un rendu et des calculs de métriques optimaux. Si vous utilisez des fichiers Google Earth ou des fichiers de formes ESRI, assurez-vous que le système de référence des coordonnées est WGS-84, également connu sous le nom d'EPSG : 4326.
 
 	e.	Si toutes les informations saisies sont valides, le bouton « SAUVEGARDER ET VOIR LES DETAILS » s'allumera en bleu. Cliquez sur ce bouton pour télécharger votre lieu sur le UNBL.
 
@@ -28,7 +28,7 @@ Pour ajouter un nouveau lieu :
 
 4.	Une fois votre nouveau lieu enregistré, vous serez amené à la page de modification du lieu. Pour que votre lieu soit découvrable et visible dans la vue cartographique, vous devez publier le lieu en cliquant sur le bouton bascule « Publié ». Les lieux non publiés restent dans l'interface d'administration jusqu'à ce que vous soyez prêt à les publier dans la vue cartographique du UNBL.
 
-5.	Pour faire de ce lieu un lieu en vedette pour votre espace de travail, cliquez sur le bouton bascule « Featured ». Cela agira comme un signet afin que le lieu apparaisse en haut de la liste dans l'onglet « Lieux » chaque fois qu'un emplacement n'est pas sélectionné.
+5.	Pour faire de ce lieu un lieu en vedette pour votre espace de travail, cliquez sur le bouton bascule « Mis en avant ». Cela agira comme un signet afin que le lieu apparaisse en haut de la liste dans l'onglet « Lieux » chaque fois qu'un emplacement n'est pas sélectionné.
 
 	![](images/en/image13.png)
 
@@ -54,19 +54,19 @@ Vous pouvez également apporter des modifications aux lieux existants et visuali
 
 Les métriques dynamiques deviennent automatiquement disponibles pour votre lieu dès que vous le téléchargez sur le UNBL. Pour afficher les métriques dynamiques pour les lieux dans votre espace de travail UNBL :
 
-1.	Naviguez vers la vue cartographique du UNBL en cliquant sur le nom de votre espace de travail dans l'interface d'administration de l'espace de travail dans le coin supérieur gauche, puis cliquez sur « Map View ».
+1.	Naviguez vers la vue cartographique du UNBL en cliquant sur le nom de votre espace de travail dans l'interface d'administration de l'espace de travail dans le coin supérieur gauche, puis cliquez sur « Vue carte ».
 
 	![](images/en/image17.png)
 
 2.	Dans l'onglet « LIEUX », recherchez et sélectionnez un lieu téléchargé dans votre espace de travail UNBL.
 
 	!!!Note
-		Les lieux sont filtrés par type *Country* par défaut lors de l'ouverture de la vue cartographique UNBL. Si votre lieu est d'une catégorie différente, comme une aire protégée ou une zone transfrontalière et non de type *Country*, vous devez cliquer sur le bouton « EFFACER » pour effacer tous les filtres, ou développer le menu déroulant « FILTRES » et décocher la case pays et sélectionner votre filtre d'intérêt pour trouver votre lieu.
+		Les lieux sont filtrés par type *pays* par défaut lors de l'ouverture de la vue cartographique UNBL. Si votre lieu est d'une catégorie différente, comme une aire protégée ou une zone transfrontalière et non de type *pays*, vous devez cliquer sur le bouton « EFFACER » pour effacer tous les filtres, ou développer le menu déroulant « FILTRES » et décocher la case pays et sélectionner votre filtre d'intérêt pour trouver votre lieu.
 
 3.	Lors de la sélection d'un lieu, les métriques dynamiques seront automatiquement affichées dans le panneau de gauche. Choisissez entre une liste des neuf métriques dynamiques standard ou deux métriques d'indicateurs phares en cliquant sur le bouton « METRIQUES » ou « INDICATEURS PRINCIPAUX ».
 
 	!!!Note
-		Les métriques d'indicateurs principaux et la métrique Protected Area ne sont disponibles que pour les lieux de type *Country* avec un code de pays M49 spécifié.
+		Les métriques d'indicateurs principaux et la métrique Aires Protégées ne sont disponibles que pour les lieux de type *pays* avec un code de pays M49 spécifié.
 
 	![](images/en/image18.png)
 
