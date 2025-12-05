@@ -4,13 +4,13 @@
 
 Les rôles et permissions sont utilisés pour définir ce que les utilisateurs individuels peuvent faire au sein d'un espace de travail. Chaque espace de travail peut inclure des utilisateurs avec les rôles et permissions suivants :
 
-●	*Owners* - le créateur de l'espace de travail. Actuellement, seule l'équipe UNBL du PNUD et du PNUE-WCMC peut créer des espaces de travail UNBL et attribuer un propriétaire. Les propriétaires ont la capacité d'ajouter tous types d'utilisateurs, de gérer les ressources de l'espace de travail (lieux et jeux de données) via l'interface d'administration, et de visualiser toutes les ressources de l'espace de travail dans la vue cartographique.
+●	*Propriétaires* - le créateur de l'espace de travail. Actuellement, seule l'équipe UNBL du PNUD et du PNUE-WCMC peut créer des espaces de travail UNBL et attribuer un propriétaire. Les propriétaires ont la capacité d'ajouter tous types d'utilisateurs, de gérer les ressources de l'espace de travail (lieux et jeux de données) via l'interface d'administration, et de visualiser toutes les ressources de l'espace de travail dans la vue cartographique.
 
-●	*Admins* - peuvent ajouter et gérer les utilisateurs, attribuer des rôles aux utilisateurs en tant qu'éditeurs et visualiseurs, gérer les ressources de l'espace de travail via l'interface d'administration, et visualiser toutes les ressources de l'espace de travail dans la vue cartographique.
+●	*Administrateurs* - peuvent ajouter et gérer les utilisateurs, attribuer des rôles aux utilisateurs en tant qu'éditeurs et visualiseurs, gérer les ressources de l'espace de travail via l'interface d'administration, et visualiser toutes les ressources de l'espace de travail dans la vue cartographique.
 
-●	*Editors* - peuvent gérer les ressources de l'espace de travail via l'interface d'administration et visualiser toutes les ressources de l'espace de travail dans la vue cartographique, mais ne peuvent pas ajouter et gérer les utilisateurs. Un niveau modéré d'expérience SIG existante peut être utile pour les éditeurs, administrateurs et propriétaires qui souhaitent télécharger, configurer et modifier des lieux et des jeux de données.
+●	*Editeurs* - peuvent gérer les ressources de l'espace de travail via l'interface d'administration et visualiser toutes les ressources de l'espace de travail dans la vue cartographique, mais ne peuvent pas ajouter et gérer les utilisateurs. Un niveau modéré d'expérience SIG existante peut être utile pour les éditeurs, administrateurs et propriétaires qui souhaitent télécharger, configurer et modifier des lieux et des jeux de données.
 
-●	*Viewers* - peuvent visualiser toutes les ressources de l'espace de travail dans la vue cartographique. Les visualiseurs n'ont pas accès à l'interface d'administration.
+●	*Lecteur* - peuvent visualiser toutes les ressources de l'espace de travail dans la vue cartographique. Les visualiseurs n'ont pas accès à l'interface d'administration.
 
 ## Comment ajouter de nouveaux utilisateurs ?
 
