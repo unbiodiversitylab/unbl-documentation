@@ -15,3 +15,15 @@ img {
   max-width: 50%;
   height: auto;
 }
+
+/* Custom header color */
+[data-md-color-primary=custom] {
+  --md-primary-fg-color: #0099a1;
+  --md-primary-fg-color--light: #0099a1;
+  --md-primary-fg-color--dark: #0099a1;
+}
+
+/* Custom footer color */
+.md-footer {
+  background-color: #0099a1 !important;
+}

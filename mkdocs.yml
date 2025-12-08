@@ -1,5 +1,5 @@
 site_name: UNBL Online Documentation
-site_description: User's Guide for the UN Biodiversity Lab
+site_description: User's Guide to the UN Biodiversity Lab
 site_author: UN Biodiversity Lab Team
 site_url: https://undp-unbl.github.io/unbl-documentation/
 copyright: Copyright &copy; 2025 UNDP & UNEP-WCMC
@@ -17,7 +17,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: custom
       accent: light blue
       toggle:
         icon: material/brightness-7
@@ -25,7 +25,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
+      primary: custom
       accent: light blue
       toggle:
         icon: material/brightness-4
@@ -57,8 +57,8 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
-  logo: assets/images/UNBL_FULL_WEBSITE.png
-  favicon: assets/images/UNBL_FULL_WEBSITE.png
+  logo: # assets/images/UNBL_FULL_WEBSITE.png
+  favicon: # assets/images/UNBL_FULL_WEBSITE.png
 
 # Plugins
 plugins:
@@ -88,14 +88,14 @@ plugins:
             palette:
               - media: "(prefers-color-scheme: light)"
                 scheme: default
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-7
                   name: Cambiar a modo oscuro
               - media: "(prefers-color-scheme: dark)"
                 scheme: slate
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-4
@@ -147,14 +147,14 @@ plugins:
             palette:
               - media: "(prefers-color-scheme: light)"
                 scheme: default
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-7
                   name: Passer en mode sombre
               - media: "(prefers-color-scheme: dark)"
                 scheme: slate
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-4
@@ -206,14 +206,14 @@ plugins:
             palette:
               - media: "(prefers-color-scheme: light)"
                 scheme: default
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-7
                   name: Mudar para modo escuro
               - media: "(prefers-color-scheme: dark)"
                 scheme: slate
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-4
@@ -265,14 +265,14 @@ plugins:
             palette:
               - media: "(prefers-color-scheme: light)"
                 scheme: default
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-7
                   name: Переключить на темный режим
               - media: "(prefers-color-scheme: dark)"
                 scheme: slate
-                primary: blue
+                primary: custom
                 accent: light blue
                 toggle:
                   icon: material/brightness-4
