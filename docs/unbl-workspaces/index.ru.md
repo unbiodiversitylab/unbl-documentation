@@ -25,9 +25,9 @@
 	- **[Как мне добавить новых пользователей?](4_manage_users.ru.md#kak-dobavit-novyx-polzovatelej)**
 	- **[Как мне редактировать или удалять существующих пользователей?](4_manage_users.ru.md#kak-redaktirovat-ili-udalyat-sushhestvuyushhix-polzovatelej)**
 - **[Добавление мест в ваше рабочее пространство и просмотр динамических показателей](5_add_places.ru.md)**
-	- **[Как добавить места?](5_add_places.ru.md#kak-dobavit-mesta)**
-	- **[Как редактировать места?](5_add_places.ru.md#kak-redaktirovat-mesta)**
-	- **[Как отображать метрики для моих добавленных мест?](5_add_places.ru.md#kak-otobrazhat-metriki-dlya-moix-dobavlennyx-mest)**
+	- **[Как мне добавить места?](5_add_places.ru.md#kak-dobavit-mesta)**
+	- **[Как мне редактировать места?](5_add_places.ru.md#kak-redaktirovat-mesta)**
+	- **[Как мне отображать показатели для моих добавленных мест?](5_add_places.ru.md#kak-otobrazhat-metriki-dlya-moix-dobavlennyx-mest)**
 - **[Добавление собственных геопространственных данных в ваше рабочее пространство](6_add_data.ru.md)**
 	- **[Какие параметры и метаданные я заполняю при создании слоя?](6_add_data.ru.md#kakie-parametry-i-metadannye-ya-zapolnyayu-pri-sozdanii-sloya)**
 	- **[Как загрузить растровые слои в формате GeoTIFF?](6_add_data.ru.md#kak-zagruzit-rastrovye-sloi-v-formate-geotiff)**
@@ -36,5 +36,5 @@
 	- **[Как опубликовать мой слой и поделиться им с внешними пользователями?](6_add_data.ru.md#kak-opublikovat-moj-sloj-i-podelitsya-im-s-vneshnimi-polzovatelyami)**
 	- **[Как редактировать мои добавленные слои?](6_add_data.ru.md#kak-redaktirovat-moi-dobavlennye-sloi)**
 	- **[Как создавать групповые слои?](6_add_data.ru.md#kak-sozdavat-gruppovye-sloi)**
-- **[Доступ к интегрированному инструменту пространственного планирования ELSA в вашем рабочем пространстве](7_elsa_tool.ru.md)**
-- **[Что делать, если мой вопрос не был рассмотрен?](8_support.ru.md)**
+- **[Доступ к инструменту интегрированного пространственного планирования ELSA в вашем рабочем пространстве](7_elsa_tool.ru.md)**
+- **[Что делать, если я не нашел ответ на свой вопрос?](8_support.ru.md)**

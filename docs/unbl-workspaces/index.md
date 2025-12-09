@@ -31,6 +31,8 @@ This guide explains how to take advantage of all available features in your secu
 - **[Adding Your Own Geospatial Data to Your Workspace](6_add_data.md)**
 	- **[What parameters and metadata do I fill in when creating a layer?](6_add_data.md#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer)**
 	- **[How do I upload raster layers in GeoTIFF format?](6_add_data.md#how-do-i-upload-raster-layers-in-geotiff-format)**
+	- **[How do I configure raster layers using Google Earth Engine (GEE)?](6_add_data.md#how-do-i-configure-raster-layers-using-google-earth-engine-gee)**
+	- **[How do I configure raster layers using Spatiotemporal Asset Catalog (STAC)?](6_add_data.md#how-do-i-configure-raster-layers-using-spatiotemporal-asset-catalog-stac**
 	- **[How do I configure raster layers using external tile services?](6_add_data.md#how-do-i-configure-raster-layers-using-external-tile-services)**
 	- **[How do I configure vector layers using external tile services?](6_add_data.md#how-do-i-configure-vector-layers-using-external-tile-services)**
 	- **[How do I publish my layer and share it with external users?](6_add_data.md#how-do-i-publish-my-layer-and-share-it-with-external-users)**
