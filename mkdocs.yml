@@ -122,8 +122,16 @@ plugins:
             How do I make a map for inclusion in reports and communication products?: ¿Cómo hago un mapa para incluir en informes y productos de comunicación?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: ¿Cómo sugiero más datos para incluir en el Laboratorio de Biodiversidad de las Naciones Unidas?
             What are UNBL workspaces? How do I request a UNBL workspace?: ¿Qué son los espacios de trabajo de UNBL? ¿Cómo solicito un espacio de trabajo de UNBL?
-            What if my question wasn't answered?: ¿Qué pasa si mi pregunta no fue respondida?
-            UNBL Workspaces: Espacios de Trabajo UNBL
+            What if my question wasn’t answered?: ¿Qué pasa si mi pregunta no fue respondida?
+            UNBL Secure Workspaces: Espacios de Trabajo Seguros UNBL
+            Basics of UNBL Workspaces: Conceptos Básicos de los Espacios de Trabajo UNBL
+            Viewing Your UNBL Workspace: Visualización de su Espacio de Trabajo UNBL
+            Navigating the Workspace Admin Interface: Navegación de la Interfaz de Administración del Espacio de Trabajo
+            Managing Users in Your Workspace: Gestión de Usuarios en su Espacio de Trabajo
+            Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Agregar Lugares a su Espacio de Trabajo y Ver Métricas Dinámicas para Ellos
+            Adding Your Own Geospatial Data to Your Workspace: Agregar sus Propios Datos Geoespaciales a su Espacio de Trabajo
+            Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acceso a la Herramienta de Planificación Espacial Integrada ELSA en su Espacio de Trabajo
+            What if my Question was not Answered?: ¿Qué pasa si mi Pregunta no fue Respondida?
             ELSA Integrated Spatial Planning Tool: Herramienta de Planificación Espacial Integrada ELSA
             Overview: Descripción General
             Tool Purpose and Key Features: Propósito de la Herramienta y Características Clave
@@ -181,8 +189,16 @@ plugins:
             How do I make a map for inclusion in reports and communication products?: Comment puis-je créer une carte pour l'inclure dans des rapports et des produits de communication ?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: Comment puis-je suggérer plus de données pour l'inclusion dans le Laboratoire de la biodiversité des Nations Unies ?
             What are UNBL workspaces? How do I request a UNBL workspace?: Qu'est-ce que les espaces de travail UNBL ? Comment puis-je demander un espace de travail UNBL ?
-            What if my question wasn't answered?: Que faire si ma question n'a pas eu de réponse ?
-            UNBL Workspaces: Espaces de Travail UNBL
+            What if my question wasn’t answered?: Que faire si ma question n'a pas eu de réponse ?
+            UNBL Secure Workspaces: Espaces de Travail Sécurisés UNBL
+            Basics of UNBL Workspaces: Principes de Base des Espaces de Travail UNBL
+            Viewing Your UNBL Workspace: Visualisation de votre Espace de Travail UNBL
+            Navigating the Workspace Admin Interface: Navigation dans l'Interface d'Administration de l'Espace de Travail
+            Managing Users in Your Workspace: Gestion des Utilisateurs dans votre Espace de Travail
+            Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Ajout de Lieux à votre Espace de Travail et Visualisation des Métriques Dynamiques pour Eux
+            Adding Your Own Geospatial Data to Your Workspace: Ajout de vos Propres Données Géospatiales à votre Espace de Travail
+            Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Accès à l'Outil de Planification Spatiale Intégrée ELSA dans votre Espace de Travail
+            What if my Question was not Answered?: Que faire si ma Question n'a pas eu de Réponse ?
             ELSA Integrated Spatial Planning Tool: Outil de Planification Spatiale Intégrée ELSA
             Overview: Aperçu
             Tool Purpose and Key Features: Objectif de l'Outil et Caractéristiques Principales
@@ -240,8 +256,16 @@ plugins:
             How do I make a map for inclusion in reports and communication products?: Como faço um mapa para inclusão em relatórios e produtos de comunicação?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: Como sugiro mais dados para inclusão no Laboratório de Biodiversidade da ONU?
             What are UNBL workspaces? How do I request a UNBL workspace?: O que são espaços de trabalho UNBL? Como solicito um espaço de trabalho UNBL?
-            What if my question wasn't answered?: E se minha pergunta não foi respondida?
-            UNBL Workspaces: Espaços de Trabalho UNBL
+            What if my question wasn’t answered?: E se minha pergunta não foi respondida?
+            UNBL Secure Workspaces: Espaços de Trabalho Seguros UNBL
+            Basics of UNBL Workspaces: Fundamentos dos Espaços de Trabalho UNBL
+            Viewing Your UNBL Workspace: Visualização do seu Espaço de Trabalho UNBL
+            Navigating the Workspace Admin Interface: Navegação da Interface de Administração do Espaço de Trabalho
+            Managing Users in Your Workspace: Gerenciamento de Usuários no seu Espaço de Trabalho
+            Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Adição de Locais ao seu Espaço de Trabalho e Visualização de Métricas Dinâmicas para Eles
+            Adding Your Own Geospatial Data to Your Workspace: Adição de seus Próprios Dados Geoespaciais ao seu Espaço de Trabalho
+            Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acesso à Ferramenta de Planejamento Espacial Integrado ELSA no seu Espaço de Trabalho
+            What if my Question was not Answered?: E se minha Pergunta não foi Respondida?
             ELSA Integrated Spatial Planning Tool: Ferramenta de Planejamento Espacial Integrado ELSA
             Overview: Visão Geral
             Tool Purpose and Key Features: Propósito da Ferramenta e Recursos Principais
@@ -278,38 +302,46 @@ plugins:
                   icon: material/brightness-4
                   name: Переключить на светлый режим
           nav_translations:
-            Home: Главная
+            Home: Главная страница
             UNBL Public Platform: Публичная платформа UNBL
-            How do I register or log-in?: Как зарегистрироваться или войти в систему?
-            How do I manage my account?: Как управлять своей учетной записью?
-            How do I navigate between the UN Biodiversity Lab website and map app?: Как перемещаться между веб-сайтом Лаборатории биоразнообразия ООН и картографическим приложением?
-            How do I change the language?: Как изменить язык?
-            How do I adjust my map view?: Как настроить вид карты?
-            How do I add/remove place labels, roads, and satellite view from the base map?: Как добавить/удалить метки мест, дороги и спутниковый вид с базовой карты?
-            How do I find my country?: Как найти свою страну?
-            What dynamic metrics are available for my country?: Какие динамические метрики доступны для моей страны?
-            How do I find additional datasets for my country?: Как найти дополнительные наборы данных для моей страны?
-            How do I find the Digital Public Good (DPG) open datasets?: Как найти открытые наборы данных Цифрового общественного блага (DPG)?
-            How do I find more information about each dataset?: Как найти больше информации о каждом наборе данных?
-            How do I customize the dataset views?: Как настроить представления наборов данных?
-            What options do I have to visualize time series datasets?: Какие варианты у меня есть для визуализации наборов данных временных рядов?
-            How do I share a dataset?: Как поделиться набором данных?
-            How do I clip and download datasets for my country?: Как обрезать и загрузить наборы данных для моей страны?
-            How do I download unclipped global data datasets?: Как загрузить необрезанные глобальные наборы данных?
-            How do I make a map for inclusion in reports and communication products?: Как создать карту для включения в отчеты и коммуникационные материалы?
-            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Как предложить больше данных для включения в Лабораторию биоразнообразия ООН?
-            What are UNBL workspaces? How do I request a UNBL workspace?: Что такое рабочие пространства UNBL? Как запросить рабочее пространство UNBL?
-            What if my question wasn't answered?: Что делать, если на мой вопрос не ответили?
-            UNBL Workspaces: Рабочие пространства UNBL
-            ELSA Integrated Spatial Planning Tool: Интегрированный инструмент пространственного планирования ELSA
+            How do I register or log-in?: Как мне зарегистрироваться или войти в систему?
+            How do I manage my account?: Как мне управлять своим аккаунтом?
+            How do I navigate between the UN Biodiversity Lab website and map app?: Как мне переходить между веб-сайтом Лаборатория ООН по биоразнообразию и картографическим приложением
+            How do I change the language?: Как мне изменить язык?
+            How do I adjust my map view?: Как мне маневрировать просмотром карты?
+            How do I add/remove place labels, roads, and satellite view from the base map?: Как мне добавить/удалить метки мест, дороги и спутниковый вид в базовой карте?
+            How do I find my country?: Как мне найти свою страну?
+            What dynamic metrics are available for my country?: Какие динамические показатели доступны для моей страны/области, представляющею интерес?
+            How do I find additional datasets for my country?: Как мне найти дополнительные наборы данных для моей страны?
+            How do I find the Digital Public Good (DPG) open datasets?: Как мне найти открытые наборы данных Digital Public Good (DPG)?
+            How do I find more information about each dataset?: Как мне найти дополнительную информацию о каждом наборе данных?
+            How do I customize the dataset views?: Как мне настроить просмотр наборов данных?
+            What options do I have to visualize time series datasets?: Какие у меня возможности для визуализации наборов данных, охватывающих непрерывный период времени?
+            How do I share a dataset?: Как мне поделиться набором данных?
+            How do I clip and download datasets for my country?: Как мне вырезать и экспортировать наборы данных?
+            How do I download unclipped global data datasets?: Как мне загрузить необрезанные глобальные наборы данных?
+            How do I make a map for inclusion in reports and communication products?: Как мне создать карту для включения в отчеты и коммуникационные продукты?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Как мне предложить дополнительные данные для включения в Лабораторию ООН по биоразнообразию?
+            What are UNBL workspaces? How do I request a UNBL workspace?: Что такое рабочие пространство на UNBL? Как мне запросить рабочее пространство UNBL?
+            What if my question wasn’t answered?: Что делать, если я не нашел ответ на свой вопрос?
+            UNBL Secure Workspaces: Защищенные Рабочие Пространства UNBL
+            Basics of UNBL Workspaces: Основы рабочих пространств UNBL
+            Viewing Your UNBL Workspace: Просмотр вашего рабочего пространства UNBL
+            Navigating the Workspace Admin Interface: Навигация по административному интерфейсу рабочего пространства
+            Managing Users in Your Workspace: Управление пользователями в вашем рабочем пространстве
+            Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Добавление мест в ваше рабочее пространство и просмотр динамических показателей для них
+            Adding Your Own Geospatial Data to Your Workspace: Добавление собственных геопространственных данных в ваше рабочее пространство
+            Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Доступ к инструменту интегрированного пространственного планирования ELSA в вашем рабочем пространстве
+            What if my Question was not Answered?: Что делать, если я не нашел ответ на свой вопрос?
+            ELSA Integrated Spatial Planning Tool: Инструмент интегрированного пространственного планирования ELSA
             Overview: Обзор
-            Tool Purpose and Key Features: Назначение инструмента и ключевые функции
-            Registration and Access: Регистрация и доступ
-            Creating a New Analysis: Создание нового анализа
-            Editing an Analysis: Редактирование анализа
+            Tool Purpose and Key Features: Для чего предназначен инструмент ELSA
+            Registration and Access: Регистрация на UNBL и запрос доступа к рабочему пространству с конфигурацией инструмента ELSA
+            Creating a New Analysis: Создание нового анализа ELSA
+            Editing an Analysis: Редактирование анализа ELSA
             Running the Optimization: Запуск оптимизации
             Viewing Heatmaps: Просмотр тепловых карт
-            Downloading Results: Загрузка результатов
+            Downloading Results: Скачивание результатов
             Analyzing Synergies and Trade-offs: Анализ синергии и компромиссов
             Citing Maps: Цитирование карт
             Support and Contact: Поддержка и контакты
