@@ -31,9 +31,9 @@
 - **[Добавление собственных геопространственных данных в ваше рабочее пространство](6_add_data.ru.md)**
 	- **[Какие параметры и метаданные мне заполнять при создании слоя?](6_add_data.ru.md#kakie-parametry-i-metadannye-ya-zapolnyayu-pri-sozdanii-sloya)**
 	- **[Как загрузить растровые слои в формате GeoTIFF?](6_add_data.ru.md#kak-zagruzit-rastrovye-sloi-v-formate-geotiff)**
+	- **[Как настроить растровые слои с использованием внешних тайловых сервисов WMS/WMTS?](6_add_data.ru.md#kak-nastroit-raster-wms-wmts)**
 	- **[Как настроить растровые слои с использованием Google Earth Engine (GEE)?](6_add_data.ru.md#kak-nastroit-google-earth-engine)**
 	- **[Как настроить растровые слои с использованием Spatiotemporal Asset Catalog (STAC)?](6_add_data.ru.md#kak-nastroit-stac)**
-	- **[Как настроить растровые слои с использованием внешних тайловых сервисов?](6_add_data.ru.md#kak-nastroit-rastrovye-sloi-s-ispolzovaniem-vneshnix-tajlovyx-servisov)**
 	- **[Как настроить векторные слои с использованием внешних тайловых сервисов?](6_add_data.ru.md#kak-nastroit-vektornye-sloi-s-ispolzovaniem-vneshnix-tajlovyx-servisov)**
 	- **[Как мне опубликовать мой слой и поделиться им с внешними пользователями?](6_add_data.ru.md#kak-opublikovat-moj-sloj-i-podelitsya-im-s-vneshnimi-polzovatelyami)**
 	- **[Как мне редактировать мои добавленные слои?](6_add_data.ru.md#kak-redaktirovat-moi-dobavlennye-sloi)**
