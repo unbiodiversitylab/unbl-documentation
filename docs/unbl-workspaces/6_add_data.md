@@ -74,7 +74,7 @@ overview sheet on data security *(coming soon - bear with us!)*.
   
 
 !!!Note
-	Geospatial data in other raster and vector layer formats can be configured on UNBL through linking to an external resource. See [‘How do I configure raster layers using external tile services?’](#how-do-i-configure-raster-layers-using-external-tile-services) and [‘How do I configure vector layers using external tile services?’](#how-do-i-configure-vector-layers-using-external-tile-services) for available UNBL-interoperable OGC Web Service formats and guides on linking to them. 
+	Geospatial data in other raster and vector layer formats can be configured on UNBL through linking to an external resource. See [‘How do I configure raster layers using external tile services?’](#how-do-i-configure-raster-layers-using-wmswmts-external-tile-services) and [‘How do I configure vector layers using external tile services?’](#how-do-i-configure-vector-layers-using-external-tile-services) for available UNBL-interoperable OGC Web Service formats and guides on linking to them. 
 
 To upload a GeoTIFF file:
 

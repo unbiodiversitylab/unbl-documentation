@@ -15,7 +15,7 @@ Se é um utilizador registado a quem foi concedido acesso a um ou múltiplos esp
 
 4.	Desalterne os espaços de trabalho que não deseja ver. Também pode desalternar o espaço de trabalho *UNBL* no topo da lista, o que lhe permitirá ver apenas os recursos exclusivos do(s) seu(s) espaço(s) de trabalho seguro(s) UNBL e filtrar todos os recursos na plataforma pública UNBL. Por favor note que desalternar o espaço de trabalho *UNBL* removerá o acesso a todas as camadas globais públicas e métricas do painel de controlo para todas as áreas, incluindo áreas no seu espaço de trabalho seguro.
 
-![](images/en/image2.png)
+![](images/pt/02pt.png)
 
 ## Como visualizo lugares no meu espaço de trabalho UNBL?
 
@@ -35,7 +35,7 @@ Para pesquisar um lugar, pode:
 !!!Note
 	Os lugares são filtrados por tipo *Country* por defeito ao abrir a vista do mapa UNBL. Se o seu lugar for de uma categoria diferente, como *Protected Area* ou *Cross-Boundary Area* e não tipo *Country*, então precisa de clicar no botão 'CLEAR' para limpar todos os filtros, ou expandir o menu suspenso 'FILTERS' e desmarcar a caixa de país e selecionar o seu filtro de interesse para encontrar o seu lugar.
 
-![](images/en/image3.png)
+![](images/pt/03pt.png)
 
 ## Como descarrego um conjunto de dados para a minha área de interesse?
 
@@ -47,7 +47,7 @@ Para recortar um conjunto de dados para a sua área de interesse e descarregar:
 
 2.	Clique no ícone ![](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à direita do nome do lugar e clique em 'Clip and Export Layers'.
 
-	![](images/en/image4.png)
+	![](images/pt/04pt.png)
 
 3.	Escreva o nome ou selecione o conjunto de dados que deseja descarregar. Se os dados contêm camadas cobrindo múltiplos anos/categorias, selecione o ano/categoria que deseja descarregar. Tem a opção de descarregar camadas recortadas em formato raster GeoTIFF ou formato de ficheiro de imagem PNG.
 
@@ -59,7 +59,7 @@ Para recortar um conjunto de dados para a sua área de interesse e descarregar:
 
 	c.	*Nota*: no caso de descarregar GeoTIFFs, estes são dados brutos e não incluirão informação de estilo.
 
-	![](images/en/image5.png)
+	![](images/pt/05pt.png)
 
 5.	Os dados GeoTIFF descarregados podem ser abertos em qualquer software SIG para análise adicional.
 
@@ -93,4 +93,4 @@ Para pesquisar conjuntos de dados disponíveis:
 !!!Note
 	Se tiver o espaço de trabalho *UNBL* e o seu próprio espaço de trabalho ativados, a sua pesquisa terá de ser específica para encontrar conjuntos de dados que carregou no seu próprio espaço de trabalho que não fazem parte da plataforma pública. A forma mais fácil de fazer isto é criar uma etiqueta reconhecível para a sua camada adicionada – veja o passo 2d em ['Que parâmetros e metadados preencho ao criar uma camada?'](6_add_data.pt.md#que-parametros-e-metadados-preencho-ao-criar-uma-camada)
 
-![](images/en/image6.png)
+![](images/pt/06pt.png)

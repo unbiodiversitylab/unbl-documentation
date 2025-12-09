@@ -37,7 +37,7 @@ Para começar a criar uma camada e preencher os metadados relevantes para a cama
 
 2.	Clique no botão 'CREATE NEW LAYER'.
 
-	![](images/en/image22.png)
+	![](images/pt/22pt.png)
 
 3.	Na página da nova camada, preencha a seguinte informação:
 
@@ -54,7 +54,7 @@ Para começar a criar uma camada e preencher os metadados relevantes para a cama
 	!!!Note
 		Para camadas individuais que fazem parte de uma camada de grupo principal, o texto pop-up de informação da camada mostrará sempre a descrição da camada de grupo principal e portanto o campo de descrição é redundante (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
 
-	![](images/en/image23.png)
+	![](images/pt/23pt.png)
 
 4.	Uma vez que tenha preenchido os metadados relevantes para documentar esta nova camada, agora precisa de especificar o formato ou padrão de serviço web geoespacial dos seus dados geoespaciais e configurar a camada em conformidade. As secções seguintes detalham como configurar a sua camada com base no formato dos seus dados geoespaciais.
 
@@ -93,7 +93,7 @@ Para carregar um ficheiro GeoTIFF:
 
 	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores.
 
-	![](images/en/image24.png)
+	![](images/pt/24pt.png)
 
 3.	Uma vez que todos os metadados e parâmetros tenham sido especificados, o botão 'SAVE AND VIEW DETAILS' acenderá em azul, desde que toda a informação introduzida seja válida. Clique neste botão para carregar o seu ficheiro GeoTIFF para o seu espaço de trabalho. O ficheiro será armazenado num repositório privado seguro e dedicado no Azure. Isto pode levar alguns segundos dependendo do tamanho do ficheiro e da velocidade da sua ligação de banda larga à internet, portanto após clicar no botão deve esperar até ser redirecionado para a página de edição da camada. Veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos) e ['Como edito as minhas camadas adicionadas?'](#como-edito-as-minhas-camadas-adicionadas) para os próximos passos.
 
@@ -139,7 +139,7 @@ O UNBL suporta a configuração de camadas de imagem raster para o seu espaço d
 
 	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para imagens raster categóricas, as entradas de estilo de legenda de camada devem representar os valores de cada categoria/classe dentro da fonte de dados raster. Para imagens raster contínuas, as entradas de estilo de legenda devem representar a gama de valores visualizados na imagem raster. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo - será gerado um gradiente de cores entre cada um destes valores.
 
-	![](images/en/image25.png)
+	![](images/pt/25pt.png)
 
 3. Uma vez que todos os metadados e propriedades de configuração tenham sido especificados, o botão 'SAVE AND VIEW DETAILS' acenderá em azul, desde que toda a informação introduzida seja válida. Clique neste botão para configurar a sua imagem raster no seu espaço de trabalho. Veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos) e ['Como edito as minhas camadas adicionadas?'](#como-edito-as-minhas-camadas-adicionadas) para os próximos passos.
 
@@ -149,9 +149,9 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 1. Se estiver a configurar um recurso do seu projeto Cloud pessoal, assegure-se de que a caixa 'Anyone can read' está marcada para este recurso.
 
-	![](images/en/draft2-image1.png)
+	![](images/pt/26pt.png)
 
-	![](images/en/draft2-image2.png)
+	![](images/pt/27pt.png)
 
 2. Navegue até à página da nova camada na interface de administração UNBL e preencha os metadados relevantes (Veja ['Que parâmetros e metadados preencho ao criar uma camada?'](#que-parametros-e-metadados-preencho-ao-criar-uma-camada)).
 
@@ -163,13 +163,13 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	c.	*Asset Path*: Copie e cole o ID da imagem do seu recurso GEE. Qualquer ID de imagem pode ser configurado no UNBL, desde que seja uma imagem raster de banda única. Pode ser um ID de imagem do seu projeto Cloud GEE pessoal, ou qualquer outro projeto Cloud GEE partilhado ou conjunto de dados GEE disponível publicamente, como um do catálogo público [awesome-gee-community-catalog](https://gee-community-catalog.org/), que fornece acesso a mais de 4.000 recursos GEE públicos.
 
-	![](images/en/draft2-image3.png)
+	![](images/pt/28pt.png)
 
 	d.	*Data type*: Especifique se a imagem raster contém dados 'categorical' ou 'continuous'. Os dados categóricos representam classes ou categorias discretas onde cada valor de pixel representa um tipo ou classe distinto. Os conjuntos de dados contínuos representam dados onde os valores podem cair em qualquer lugar dentro de uma gama de valores especificada.
 
 	e.	*Minimum/Maximum zoom level (opcional)*: A gama de nível de zoom por defeito está definida de 0 a 14. Pode opcionalmente especificar os níveis de zoom para a camada se a imagem raster apenas contém dados em certos níveis de zoom. Note que o UNBL suporta um nível de zoom máximo de 14.
 
-	![](images/en/draft2-image4.png)
+	![](images/pt/29pt.png)
 
 	f.	*Layer styling*: O estilo da camada determina como a legenda do recurso GEE é exibida no mapa. Clicando em 'ADD ADDITIONAL STYLING' pode especificar qualquer número de entradas de estilo de camada (também conhecidas como *classes* ou *limiares*) para corresponder aos valores na imagem raster. Cada entrada de estilo de camada deve definir as seguintes propriedades:
 
@@ -181,13 +181,13 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores. É importante notar que os valores de pixel mínimo e máximo, e portanto a gama de valores, podem ser derivados diretamente visualizando o separador 'BANDS' na caixa de informação 'Asset details' do seu recurso no GEE. O exemplo de estilo de camada abaixo cria uma paleta de cores contínua para concentração de stock de carbono.
 
-	![](images/en/draft2-image5.png)
+	![](images/pt/30pt.png)
 
-	![](images/en/draft2-image6.png)
+	![](images/pt/31pt.png)
 
 	Para camadas raster categóricas, cada valor de pixel especificado mapeia para exatamente uma classe ou categoria discreta. O exemplo de estilo de camada abaixo cria uma paleta de cores discreta que mapeia classes de cobertura do solo.
 
-	![](images/en/draft2-image7.png)
+	![](images/pt/32pt.png)
 
 	g.	*Styled Layer Description (SLD)*: Clique no botão 'GENERATE GEE SLD' para gerar automaticamente um SLD para configurar o estilo do seu recurso GEE no UNBL, com base nos parâmetros que definiu para o *Layer styling* no passo f. Enquanto o estilo da camada determina o estilo da legenda da camada, o SLD determinará o estilo dos pixels reais nos seus dados. Com base nos exemplos fornecidos no passo f, a configuração SLD para um esquema de cores contínuo para concentração de stock de carbono seria assim:
 
@@ -228,7 +228,7 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	Onde cada cor ColorMapEntry e quantidade de pixel associada corresponde exatamente a uma linha de entrada de estilo de camada do passo f.
 
-	![](images/en/draft2-image8.png)
+	![](images/pt/33pt.png)
 
 4. Uma vez que todos os metadados e propriedades de configuração tenham sido especificados, o botão 'SAVE AND VIEW DETAILS' acenderá em azul, desde que toda a informação introduzida seja válida. Clique neste botão para configurar a sua imagem raster no seu espaço de trabalho. Veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos) e ['Como edito as minhas camadas adicionadas?'](#como-edito-as-minhas-camadas-adicionadas) para os próximos passos.
 
@@ -257,7 +257,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	d.	*Data type*: Especifique se os tiles vetoriais contêm dados 'categorical' ou 'continuous'. Os dados categóricos representam classes ou categorias discretas. Os conjuntos de dados contínuos representam dados onde os valores podem cair em qualquer lugar dentro de uma gama de valores especificada. Enquanto os tiles vetoriais podem armazenar múltiplos atributos de dados, só pode escolher um atributo de dados para estilo de legenda de camada no UNBL. Deve especificar o tipo de dados com base na legenda provisória de camada da sua camada adicionada no UNBL.
 
-	![](images/en/image26.png)
+	![](images/pt/34pt.png)
 
 3.	A secção 'Render layers' especifica os atributos de dados da fonte de dados vetoriais que devem ser exibidos no mapa. Nesta secção:
 
@@ -303,7 +303,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	onde `!=` especifica uma expressão de exclusão condicional.
 
-	![](images/en/image27.png)
+	![](images/pt/35pt.png)
 
 	e.	*ADD LAYER CONFIG (opcional)*: Em alguns casos, pode desejar configurar estilo para mais de um atributo de dados no seu conjunto de dados vetorial. Clicando neste botão, pode especificar mais expressões de estilo. Note que quaisquer atributos de dados, categorias de dados ou gamas de valores que se sobreponham entre expressões de estilo ou estejam contidos nos mesmos polígonos nos seus dados e não sejam filtrados em conformidade, levarão a uma visualização de camada confusa.
 
@@ -324,9 +324,9 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	g.	Clique no ícone ![](images/icons/delete.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para remover uma entrada de Interaction config.
 
-	![](images/en/image28.png)
+	![](images/pt/36pt.png)
 
-	![](images/en/image29.png)
+	![](images/pt/37pt.png)
 
 5.	Especifique os níveis de zoom para os seus tiles vetoriais. A gama de nível de zoom por defeito está definida de 0 a 20. Pode opcionalmente especificar os níveis de zoom para a camada se os tiles vetoriais apenas forem visíveis numa resolução menor/maior. Note que o UNBL suporta um nível de zoom máximo de 20 para tiles vetoriais.
 
@@ -340,9 +340,9 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para dados categóricos, as entradas de estilo de legenda de camada devem representar as categorias discretas e o seu estilo de cor associado que especificou na secção 'Render layers'. Para dados contínuos, as entradas de estilo de legenda devem representar a gama de valores e o seu gradiente de cor associado que especificou na secção 'Render layers'.
 
-	![](images/en/image30.png)
+	![](images/pt/38pt.png)
 
-	![](images/en/image31.png)
+	![](images/pt/39pt.png)
 
 7.	Uma vez que todos os metadados e propriedades de configuração tenham sido especificados, o botão 'SAVE AND VIEW DETAILS' acenderá em azul, desde que toda a informação introduzida seja válida. Clique neste botão para configurar a sua camada de tiles vetoriais no seu espaço de trabalho. Veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos) e ['Como edito as minhas camadas adicionadas?'](#como-edito-as-minhas-camadas-adicionadas) para os próximos passos.
 
@@ -352,7 +352,7 @@ Para tornar qualquer uma das suas camadas adicionadas descobrível e visível pa
 
 1.	Navegue até à página de edição de camada para a camada da sua escolha. Ao adicionar uma camada ao seu espaço de trabalho, será automaticamente levado para esta página. Alternativamente, clique no botão ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} na lista de camadas disponível após navegar até à página 'Layers' na sua interface de administração.
 
-	![](images/en/image32.png)
+	![](images/pt/40pt.png)
 
 2.	Para que o seu conjunto de dados seja acessível na vista do mapa UNBL, deve publicar o conjunto de dados clicando no botão de alternância 'Published'. Os conjuntos de dados não publicados permanecem na interface de administração até que esteja pronto para publicá-los na vista do mapa UNBL.
 
@@ -360,7 +360,7 @@ Para tornar qualquer uma das suas camadas adicionadas descobrível e visível pa
 
 4.	Clique no botão de alternância 'Primary' para marcar a sua camada como uma camada autónoma e torná-la descobrível na barra de pesquisa 'DATASETS' no UNBL. Para que as camadas do seu espaço de trabalho sejam descobríveis e visíveis no UNBL, deve sempre publicá-las e marcá-las como primárias. A única exceção para publicar uma camada e não marcá-la como primária é quando está a criar camadas agrupadas (Veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
 
-	![](images/en/image33.png)
+	![](images/pt/41pt.png)
 
 ## Como edito as minhas camadas adicionadas?
 
@@ -368,20 +368,20 @@ Pode querer voltar e editar as suas camadas adicionadas para alterar qualquer um
 
 1.	Navegue até à página de edição de camada para a camada da sua escolha. Ao adicionar uma camada ao seu espaço de trabalho, será automaticamente levado para esta página. Alternativamente, clique no botão ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} na lista de camadas disponível após navegar até à página 'Layers' na sua interface de administração.
 
-	![](images/en/image32.png)
+	![](images/pt/42pt.png)
 
 2.	Para testar se a sua camada está a visualizar corretamente na vista do mapa UNBL, clique no botão 'TEST LAYER' no canto inferior direito da página de edição de camada. Um visto verde aparecerá dentro do botão se a camada foi corretamente carregada e/ou configurada. Caso contrário, uma cruz vermelha aparecerá com uma mensagem de erro diagnosticando o problema.
 
 	!!!Note
 		Se estiver a carregar um conjunto de dados regional (extensão não global), é possível que o teste reporte uma falha mesmo se a camada estiver a funcionar, pois o teste pode solicitar tiles de amostra que caem fora da extensão areal do seu conjunto de dados. A melhor prática é verificar duas vezes o diagnóstico do teste de camada verificando manualmente se a sua camada está a visualizar na vista do mapa UNBL.
 
-	![](images/en/image34.png)
+	![](images/pt/43pt.png)
 
 3.	Se quiser navegar diretamente para a sua camada na vista do mapa UNBL, clique no botão 'VIEW ON MAP'. Se quiser eliminar a sua camada do seu espaço de trabalho, clique no botão 'DELETE LAYER'.
 
 4.	Clique no botão 'EDIT' para qualquer uma das secções de metadados/configuração de camada para editar informação e parâmetros para essa secção.
 
-	![](images/en/image35.png)
+	![](images/pt/44pt.png)
 
 ## Como crio camadas agrupadas?
 
@@ -404,8 +404,8 @@ Para configurar uma camada agrupada:
 
 6.	*Layer selector*: Do menu suspenso, selecione ou 'Dropdown' ou 'Radio Button'. Estas opções influenciam como a UI do seletor de camada aparece na legenda da camada agrupada no UNBL. A opção dropdown é recomendada para camadas agrupadas com mais de três camadas componentes. A opção radio button é recomendada para camadas agrupadas com três ou menos camadas componentes, ou quando as camadas agrupadas representam os mesmos dados com estilo diferente.
 
-	![](images/en/image36.png)
+	![](images/pt/45pt.png)
 
-	![](images/en/image37.png)
+	![](images/pt/46pt.png)
 
 7.	Clique no botão 'SAVE AND VIEW DETAILS' para adicionar a camada agrupada ao seu espaço de trabalho.

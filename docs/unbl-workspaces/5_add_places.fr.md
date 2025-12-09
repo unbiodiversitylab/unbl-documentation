@@ -10,7 +10,7 @@ Pour ajouter un nouveau lieu :
 
 2.	Cliquez sur le bouton « CREATE NEW PLACE ».
 
-	![](images/en/image11.png)
+	![](images/fr/11fr.png)
 
 3.	Dans la page « New place » qui apparaît, remplissez les informations suivantes :
 
@@ -24,13 +24,13 @@ Pour ajouter un nouveau lieu :
 
 	e.	Si toutes les informations saisies sont valides, le bouton « SAVE AND VIEW DETAILS » s'allumera en bleu. Cliquez sur ce bouton pour télécharger votre lieu sur UNBL.
 
-	![](images/en/image12.png)
+	![](images/fr/12fr.png)
 
 4.	Une fois votre nouveau lieu enregistré, vous serez amené à la page de modification du lieu. Pour que votre lieu soit découvrable et visible dans la vue cartographique, vous devez publier le lieu en cliquant sur le bouton bascule « Published ». Les lieux non publiés restent dans l'interface d'administration jusqu'à ce que vous soyez prêt à les publier dans la vue cartographique UNBL.
 
 5.	Pour faire de ce lieu un lieu en vedette pour votre espace de travail, cliquez sur le bouton bascule « Featured ». Cela agira comme un signet afin que le lieu apparaisse en haut de la liste dans l'onglet « Places » chaque fois qu'un emplacement n'est pas sélectionné.
 
-	![](images/en/image13.png)
+	![](images/fr/13fr.png)
 
 ## Comment modifier des lieux ?
 
@@ -40,15 +40,15 @@ Vous pouvez également apporter des modifications aux lieux existants et visuali
 
 2.	Sélectionnez le lieu qui vous intéresse dans la liste des lieux en cliquant sur l'icône ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} sur le côté le plus à gauche de l'entrée du lieu.
 
-	![](images/en/image14.png)
+	![](images/fr/14fr.png)
 
 3.	Cliquez sur le bouton « VIEW AND UPLOAD SHAPE » près du coin supérieur droit de la fenêtre du fond de carte pour voir quelques informations géospatiales de base sur votre lieu – y compris les coordonnées de la boîte englobante (étendue), la superficie du lieu en hectares et les coordonnées du point d'origine – et télécharger toute nouvelle version du lieu que vous pourriez avoir à l'avenir.
 
-	![](images/en/image15.png)
+	![](images/fr/15fr.png)
 
 4.	Utilisez le bouton « Choose File » pour télécharger de nouveaux fichiers pour votre lieu mis à jour. Cliquez sur « UPDATE SHAPE » pour enregistrer vos modifications. Vous pouvez également télécharger votre version actuelle de ce lieu sur votre ordinateur local en tant que GeoJSON en cliquant sur le bouton « Download GeoJSON » (sous la vue cartographique).
 
-	![](images/en/image16.png)
+	![](images/fr/16fr.png)
 
 ## Comment afficher les métriques pour mes lieux ajoutés ?
 
@@ -56,7 +56,7 @@ Les métriques dynamiques deviennent automatiquement disponibles pour votre lieu
 
 1.	Naviguez vers la vue cartographique UNBL en cliquant sur le nom de votre espace de travail dans l'interface d'administration de l'espace de travail dans le coin supérieur gauche, puis cliquez sur « Map View ».
 
-	![](images/en/image17.png)
+	![](images/fr/17fr.png)
 
 2.	Dans l'onglet « PLACES », recherchez et sélectionnez un lieu téléchargé dans votre espace de travail UNBL.
 
@@ -68,16 +68,16 @@ Les métriques dynamiques deviennent automatiquement disponibles pour votre lieu
 	!!!Note
 		Les métriques d'indicateurs phares et la métrique Protected Area ne sont disponibles que pour les lieux de type *Country* avec un code de pays M49 spécifié.
 
-	![](images/en/image18.png)
+	![](images/fr/18fr.png)
 
 4.	Cliquez sur le bouton bascule à côté de n'importe quelle métrique spécifique si vous souhaitez visualiser ce jeu de données sur la carte. Cliquez à nouveau sur le bouton bascule ou sur l'icône ![](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données de la vue cartographique. Vous pouvez également cliquer sur l'icône de flèche vers le haut pour masquer la métrique de la vue dans l'onglet des métriques disponibles, et vice versa.
 
-	![](images/en/image19.png)
+	![](images/fr/19fr.png)
 
 5.	Cliquez sur l'icône ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans le widget de métrique ou dans la légende de la couche (si vous avez un jeu de données activé) pour visualiser les informations de la couche. Les pages d'information fournissent une brève description des données, les articles scientifiques connexes à lire, les données brutes à télécharger (si disponibles gratuitement) et les spécifications de licence.
 
-	![](images/en/image20.png)
+	![](images/fr/20fr.png)
 
 6.	Pour télécharger les données récapitulatives de la métrique au format .csv ou .json, cliquez sur l'icône ![](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Vous pouvez ensuite choisir de télécharger les données récapitulatives dans votre répertoire local au format valeurs séparées par des virgules ou au format .json. Vous pouvez également télécharger les données à partir des liens sources dans les pages d'information de la couche.
 
-	![](images/en/image21.png)
+	![](images/fr/21fr.png)

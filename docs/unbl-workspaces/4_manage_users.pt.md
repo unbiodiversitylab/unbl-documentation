@@ -27,7 +27,7 @@ Para adicionar utilizadores ao seu espaço de trabalho:
 	!!!Note
 		O utilizador já deve estar registado na plataforma UNBL para ser adicionado ao seu espaço de trabalho. Se o endereço de email do utilizador não estiver ligado a uma conta registada no UNBL, receberá uma mensagem de erro.
 
-![](images/en/image9.png)
+![](images/pt/09pt.png)
 
 ## Como edito ou elimino utilizadores existentes?
 
@@ -41,4 +41,4 @@ Para eliminar ou editar utilizadores existentes:
 
 3.	Para eliminar o utilizador, clique em 'Remove user' no menu suspenso.
 
-![](images/en/image10.png)
+![](images/pt/10pt.png)
