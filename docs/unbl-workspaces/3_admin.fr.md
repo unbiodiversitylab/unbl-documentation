@@ -12,7 +12,7 @@ Pour ajouter et gérer les utilisateurs, les lieux et les jeux de données dans 
 
 >https://map.unbiodiversitylab.org/admin/[NOMSLUGDEVOTREESPACEDETRAVAIL]
 
-![](images/en/image7.png)
+![](images/fr/07fr.png)
 
 ## Quels composants sont disponibles dans l'interface d'administration ?
 
@@ -27,4 +27,4 @@ Pour accéder aux différents composants :
 
 2.	Sélectionnez le composant que vous souhaitez visualiser. Plus d'informations sur chaque composant sont fournies dans les sections ultérieures de ce guide de l'utilisateur.
 
-![](images/en/image8.png)
+![](images/fr/08fr.png)

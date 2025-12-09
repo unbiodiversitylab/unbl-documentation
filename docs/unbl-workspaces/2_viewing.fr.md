@@ -15,7 +15,7 @@ Si vous êtes un utilisateur enregistré ayant obtenu l'accès à un ou plusieur
 
 4.	Désactivez les espaces de travail que vous ne souhaitez pas visualiser. Vous pouvez également désactiver l'espace de travail *UNBL* en haut de la liste, ce qui vous permettra de voir uniquement les ressources exclusives à votre/vos espace(s) de travail sécurisé(s) UNBL et de filtrer toutes les ressources de la plateforme publique UNBL. Veuillez noter que la désactivation de l'espace de travail *UNBL* supprimera l'accès à toutes les couches globales publiques et aux métriques du tableau de bord pour toutes les zones, y compris les zones de votre espace de travail sécurisé.
 
-![](images/en/image2.png)
+![](images/fr/02fr.png)
 
 ## Comment visualiser les lieux dans mon espace de travail UNBL ?
 
@@ -35,7 +35,7 @@ Pour rechercher un lieu, vous pouvez soit :
 !!!Note
 	Les lieux sont filtrés par type *Country* par défaut lors de l'ouverture de la vue cartographique UNBL. Si votre lieu est d'une catégorie différente, comme une *Protected Area* ou *Cross-Boundary Area* et non de type *Country*, vous devez cliquer sur le bouton « CLEAR » pour effacer tous les filtres, ou développer le menu déroulant « FILTERS » et décocher la case pays et sélectionner votre filtre d'intérêt pour trouver votre lieu.
 
-![](images/en/image3.png)
+![](images/fr/03fr.png)
 
 ## Comment télécharger un jeu de données pour ma zone d'intérêt ?
 
@@ -47,7 +47,7 @@ Pour découper un jeu de données selon votre zone d'intérêt et le télécharg
 
 2.	Cliquez sur l'icône ![](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à droite du nom du lieu et cliquez sur « Clip and Export Layers ».
 
-	![](images/en/image4.png)
+	![](images/fr/04fr.png)
 
 3.	Tapez le nom ou sélectionnez le jeu de données que vous souhaitez télécharger. Si les données contiennent des couches couvrant plusieurs années/catégories, sélectionnez l'année/catégorie que vous souhaitez télécharger. Vous avez la possibilité de télécharger des couches découpées au format raster GeoTIFF ou au format de fichier image PNG.
 
@@ -59,7 +59,7 @@ Pour découper un jeu de données selon votre zone d'intérêt et le télécharg
 
 	c.	*Note* : en cas de téléchargement de GeoTIFFs, ce sont des données brutes qui n'incluront pas les informations de style.
 
-	![](images/en/image5.png)
+	![](images/fr/05fr.png)
 
 5.	Les données GeoTIFF téléchargées peuvent être ouvertes dans n'importe quel logiciel SIG pour une analyse plus approfondie.
 
@@ -93,4 +93,4 @@ Pour rechercher les jeux de données disponibles :
 !!!Note
 	Si vous avez l'espace de travail *UNBL* et votre propre espace de travail activés, votre recherche devra être spécifique pour trouver les jeux de données que vous avez téléchargés dans votre propre espace de travail qui ne font pas partie de la plateforme publique. La façon la plus simple de le faire est de créer une étiquette reconnaissable pour votre couche ajoutée – voir l'étape 2d dans [« Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ? »](6_add_data.fr.md#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche)
 
-![](images/en/image6.png)
+![](images/fr/06fr.png)

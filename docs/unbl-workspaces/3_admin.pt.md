@@ -12,7 +12,7 @@ Para adicionar e gerir utilizadores, lugares e conjuntos de dados no seu espaço
 
 >https://map.unbiodiversitylab.org/admin/[NOMEDOSLUGDOSEUESPACO]
 
-![](images/en/image7.png)
+![](images/pt/07pt.png)
 
 ## Que componentes estão disponíveis na interface de administração?
 
@@ -27,4 +27,4 @@ Para aceder aos vários componentes:
 
 2.	Selecione o componente que deseja ver. Mais informação sobre cada componente é fornecida em secções posteriores deste guia do utilizador.
 
-![](images/en/image8.png)
+![](images/pt/08pt.png)
