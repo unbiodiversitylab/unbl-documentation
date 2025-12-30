@@ -49,7 +49,15 @@ Los usuarios no pueden definir las zonas por sí mismos, pero para algunas accio
 
 ## Establecimiento de restricciones basadas en el área para las acciones
 
-Esta parte de la herramienta le permite establecer restricciones basadas en el área (objetivos) para la protección, restauración, gestión y/o ecologización urbana. Las restricciones de área también pueden entenderse como el porcentaje de superficie terrestre que debe asignarse a cada acción en el mapa de acciones resultante. Los valores predeterminados en cualquier herramienta ELSA se derivan de los objetivos terrestres del MMB-KM, a menos que el equipo de la UNBL los personalice para su país basándose en su Estrategia Nacional de Biodiversidad y Plan de Acción (ENBPA) u otros documentos de política nacional. 
+Esta parte de la herramienta le permite establecer restricciones basadas en área (metas) para protección, restauración, manejo y/o reverdecimiento urbano. Las restricciones de área también pueden entenderse como el porcentaje del área terrestre que debe asignarse a cada acción en el mapa de acciones resultante. Los valores predeterminados en cualquier herramienta ELSA se derivan de las metas terrestres del KMGBF, a menos que se personalicen adicionalmente para su país por el equipo de UNBL con base en su Estrategia y Plan de Acción Nacional sobre Biodiversidad (NBSAP) u otros documentos de política nacional. 
+
+!!! Adevertencia "Tenga en cuenta los diferentes tipos de acciones disponibles en la herramienta ELSA y sus políticas asociadas:"
+| Acción por defecto | Meta del KMGBF | Jerarquía de respuesta LDN de la UNCCD |
+|-------------------|---------------|----------------------------------------|
+| Proteger | Meta 3 | Evitar |
+| Restaurar | Meta 2 | Revertir |
+| Manejar | Meta 10 | Reducir |
+| Reverdecimiento urbano | Meta 12 | N/A |
 
 Puede establecer cualquier valor superior o igual a 0,001 para los objetivos de protección, restauración, gestión y/o ecologización urbana del valor de todos los objetivos puede ser inferior o igual al 100 %, pero no debe superar el 100 %. Además, el valor máximo para cualquier restricción de área individual no puede exceder el área total de esa zona de acción. Por ejemplo, si el 80 % de un país está cubierto por una zona de protección, entonces el valor máximo que se puede asignar para la restricción basada en el área para la protección no puede exceder el 80 %. Si ingresa un número demasiado alto, recibirá un error que especifica la cantidad máxima que se puede asignar. 
 
