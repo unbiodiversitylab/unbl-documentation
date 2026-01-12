@@ -1,6 +1,6 @@
 # Adding Your Own Geospatial Data to Your Workspace
 
-UNBL workspaces support the upload of geospatial raster data   in the following file format:
+UNBL workspaces support the upload of geospatial raster data in the following file format:
 
 - GeoTIFF (Georeferenced Tagged Image File Format)
 
@@ -70,7 +70,7 @@ GeoTIFFs with one single band. If you have a GeoTIFF with more
  raster layers are added to your UNBL workspace through a 
 direct upload to a secure, GDPR-compliant UNBL GIS data 
 repository on Azure. For further information, please see our 
-overview sheet on data security *(coming soon - bear with us!)*.
+[overview sheet on data security](data_security.md).
   
 
 !!!Note
