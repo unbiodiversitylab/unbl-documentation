@@ -22,7 +22,7 @@ UNBL workspaces also support the connection to external   geospatial data throug
  
 - Vector Tile Services (served as pg_tileserv or Martin)
 
-Geospatial data can be uploaded and/or linked to within your workspace, thereby giving all your workspace members the ability to view your data on UNBL without them needing any prior GIS experience. UNBL security ensures that datasets within your workspace are **only** visible to members of your workspace. However, if you want datasets within your workspace to be viewable by anyone outside of your workspace, you can enable this using a public layer URL option. Only people with access to this URL will be able to view your layer.
+Geospatial data can be uploaded and/or linked to within your workspace, thereby giving all your workspace members the ability to view your data on UNBL without them needing any prior GIS experience. UNBL security ensures that datasets within your workspace are **only** visible to members of your workspace. However, if you want datasets within your workspace to be viewable by anyone outside of your workspace, you can enable this using a public layer URL option. Only people with access to this URL will be able to view your layer. For further details around data privacy, please see our [overview sheet on data security](data_security.md).
 
 Importantly, any datasets in your workspace can also be viewed in tandem with global datasets published on UNBL’s public platform.
 

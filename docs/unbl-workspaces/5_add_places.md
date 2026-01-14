@@ -2,7 +2,7 @@
 
 ## How do I add places?
 
-Adding a new place to your workspace provides you with the ability to utilize all functionalities of UNBL for any area of interest (protected area, subnational administrative level, transboundary area, indigenous community boundary, etc.). Once the place has been added to your UNBL workspace, you will be able to: (1) display dynamic metrics for this area of interest (as zonal statistics); and (2) clip any raster layer published on the UNBL public platform (with an open-access license) to this area of interest and then download it as a GeoTIFF file for further work in a desktop GIS software. Adding a place involves uploading a vector file (polygon or multipolygon) to UNBL.
+Adding a new place to your workspace provides you with the ability to utilize all functionalities of UNBL for any area of interest (protected area, subnational administrative level, transboundary area, indigenous community boundary, etc.). Once the place has been added to your UNBL workspace, you will be able to: (1) display dynamic metrics for this area of interest (as zonal statistics); and (2) clip any raster layer published on the UNBL public platform (with an open-access license) to this area of interest and then download it as a GeoTIFF file for further work in a desktop GIS software. Adding a place involves uploading a vector file (polygon or multipolygon) to UNBL. For further details around privacy of uploaded data, please see our [overview sheet on data security](data_security.md).
 
 To add a new place:
 
