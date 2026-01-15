@@ -51,13 +51,15 @@ Los usuarios no pueden definir las zonas por sí mismos, pero para algunas accio
 
 Esta parte de la herramienta le permite establecer restricciones basadas en área (metas) para protección, restauración, manejo y/o reverdecimiento urbano. Las restricciones de área también pueden entenderse como el porcentaje del área terrestre que debe asignarse a cada acción en el mapa de acciones resultante. Los valores predeterminados en cualquier herramienta ELSA se derivan de las metas terrestres del KMGBF, a menos que se personalicen adicionalmente para su país por el equipo de UNBL con base en su Estrategia y Plan de Acción Nacional sobre Biodiversidad (NBSAP) u otros documentos de política nacional. 
 
-!!! Adevertencia "Tenga en cuenta los diferentes tipos de acciones disponibles en la herramienta ELSA y sus políticas asociadas:"
-| Acción por defecto | Meta del KMGBF | Jerarquía de respuesta LDN de la UNCCD |
-|-------------------|---------------|----------------------------------------|
-| Proteger | Meta 3 | Evitar |
-| Restaurar | Meta 2 | Revertir |
-| Manejar | Meta 10 | Reducir |
-| Reverdecimiento urbano | Meta 12 | N/A |
+!!! warning "Tenga en cuenta los diferentes tipos de acciones disponibles en la herramienta ELSA y sus políticas asociadas:"
+	| Acción por defecto | Meta del KMGBF | Jerarquía de respuesta LDN de la UNCCD |
+	|-------------------|---------------|----------------------------------------|
+	| Proteger | Meta 3 | Evitar |
+	| Restaurar | Meta 2 | Revertir |
+	| Manejar | Meta 10 | Reducir |
+	| Reverdecimiento urbano | Meta 12 | N/A |
+	
+	Las acciones a las que se hace referencia aquí son el equivalente funcional de las acciones de la jerarquía de respuesta LDN respaldada por la UNCCD. ‘Proteger’ es el equivalente de ‘evitar’ la degradación de la tierra, ‘manejar’ es el equivalente de ‘reducir’ la degradación de la tierra, y ‘restaurar’ es el equivalente de ‘revertir’ la degradación de la tierra. En resumen, esto equipara “Proteger-Gestionar-Restaurar” con “Evitar-Reducir-Revertir”, garantizando la alineación entre los marcos globales de biodiversidad. Para obtener más información sobre cada objetivo del KMGBF, consulte el [sitio web del CDB](https://www.cbd.int/gbf/targets). Para obtener más información sobre la jerarquía de respuestas LDN, consulte el [sitio web de la CNULD](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
 Puede establecer cualquier valor superior o igual a 0,001 para los objetivos de protección, restauración, gestión y/o ecologización urbana del valor de todos los objetivos puede ser inferior o igual al 100 %, pero no debe superar el 100 %. Además, el valor máximo para cualquier restricción de área individual no puede exceder el área total de esa zona de acción. Por ejemplo, si el 80 % de un país está cubierto por una zona de protección, entonces el valor máximo que se puede asignar para la restricción basada en el área para la protección no puede exceder el 80 %. Si ingresa un número demasiado alto, recibirá un error que especifica la cantidad máxima que se puede asignar. 
 
@@ -65,8 +67,6 @@ Puede establecer cualquier valor superior o igual a 0,001 para los objetivos de 
     Nota: La ubicación y el área total de cada zona de acción definen dónde es posible llevar a cabo cada acción. Se determina en función del tipo de ecosistema y el nivel de desarrollo de un país (por ejemplo, la protección no puede llevarse a cabo en áreas con un alto índice industrial humano).
 
 También debe tener en cuenta que, si desea bloquear las áreas protegidas existentes (el valor predeterminado), la restricción del área de protección total debe ser igual o superior a la superficie cubierta por las áreas protegidas existentes. Por ejemplo, la superficie cubierta por las áreas protegidas existentes en Kazajistán es del 17,08 %. Por lo tanto, la restricción del área de protección debe ser igual o superior al 17,08 %.  
-
-Las acciones a las que se hace referencia aquí son el equivalente funcional de las acciones de la jerarquía de respuesta LDN respaldada por la UNCCD. ‘Proteger’ es el equivalente de ‘evitar’ la degradación de la tierra, ‘manejar’ es el equivalente de ‘reducir’ la degradación de la tierra, y ‘restaurar’ es el equivalente de ‘revertir’ la degradación de la tierra. En resumen, esto equipara “Proteger-Gestionar-Restaurar” con “Evitar-Reducir-Revertir”, garantizando la alineación entre los marcos globales de biodiversidad. Para obtener más información sobre cada objetivo del KMGBF, consulte el [sitio web del CDB](https://www.cbd.int/gbf/targets). Para obtener más información sobre la jerarquía de respuestas LDN, consulte el [sitio web de la CNULD](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
 <figure markdown>
 ![](images/SP 8.png){#fig-setting-objectives}
