@@ -4,7 +4,7 @@
 
 Pour ajouter et gérer les utilisateurs, les lieux et les jeux de données dans votre espace de travail, vous devez accéder à l'interface d'administration de votre espace de travail. Pour ce faire :
 
-1.	Cliquez sur le bouton « WORKSPACES » dans le coin supérieur gauche.
+1.	Cliquez sur le bouton « ESPACES DE TRAVAIL » dans le coin supérieur gauche.
 
 2.	Sélectionnez le bouton « ADMIN » associé à l'espace de travail de votre choix.
 
@@ -16,7 +16,7 @@ Pour ajouter et gérer les utilisateurs, les lieux et les jeux de données dans 
 
 ## Quels composants sont disponibles dans l'interface d'administration ?
 
-Vous pouvez naviguer dans l'interface d'administration en utilisant le menu déroulant dans la section supérieure du panneau de gauche. Selon votre rôle dans l'espace de travail, vous pouvez gérer les *Users*, *Places*, *Layers*, *Widgets* et *Dashboards*.
+Vous pouvez naviguer dans l'interface d'administration en utilisant le menu déroulant dans la section supérieure du panneau de gauche. Selon votre rôle dans l'espace de travail, vous pouvez gérer les *utilisateurs*, *lieux*, *couches*, *Widgets* et *tableaux de bord*.
 
 !!!Note
 	Les fonctionnalités Widget et Dashboard sont en cours de développement et ne sont pas disponibles pour le moment.

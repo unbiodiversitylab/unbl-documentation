@@ -26,7 +26,7 @@ Los datos geoespaciales pueden cargarse y/o vincularse dentro de su espacio de t
 
 Es importante destacar que cualquier conjunto de datos en su espacio de trabajo también puede visualizarse junto con los conjuntos de datos globales publicados en la plataforma pública de UNBL.
 
-!!!Note
+!!!Nota:
 	Los términos *conjunto de datos* y *capa* se utilizan de manera intercambiable en adelante. Un conjunto de datos se refiere a una colección de datos espaciales que consta de una o más capas. En UNBL, una carga única o configuración de datos geoespaciales se realiza mediante *'crear una capa'*. Múltiples entradas de capas pueden combinarse y visualizarse en UNBL como un conjunto de datos. Las capas individuales también pueden visualizarse independientemente en UNBL.
 
 ## ¿Qué parámetros y metadatos debo completar al crear una capa?
@@ -35,23 +35,23 @@ Para comenzar a crear una capa y completar los metadatos relevantes para la capa
 
 1.	Abra el menú desplegable 'Home' en la interfaz de administración de su espacio de trabajo y haga clic en 'Layers'.
 
-2.	Haga clic en el botón 'CREATE NEW LAYER'.
+2.	Haga clic en el botón 'CREAR NUEVA CAPA'.
 
 	![](images/es/22.png)
 
 3.	En la página de nueva capa, complete la siguiente información:
 
-	a.	*Layer title*: El nombre de su capa. Esto debe ser conciso (recomendamos que sea de menos de 100 caracteres) y descriptivo de sus datos.
+	a.	*Título de la capa*: El nombre de su capa. Esto debe ser conciso (recomendamos que sea de menos de 100 caracteres) y descriptivo de sus datos.
 
-	b.	*Layer slug*: Un slug es un identificador único para la capa dentro de su espacio de trabajo. No puede tener múltiples capas dentro de su espacio de trabajo con el mismo slug. Debe contener solo letras, dígitos y guiones ("-"). Puede usar el botón 'GENERATE SLUG NAME' para generar un identificador único basado en el título de capa proporcionado.
+	b.	*Capa slug*: Un slug es un identificador único para la capa dentro de su espacio de trabajo. No puede tener múltiples capas dentro de su espacio de trabajo con el mismo slug. Debe contener solo letras, dígitos y guiones ("-"). Puede usar el botón 'GENERATE SLUG NAME' para generar un identificador único basado en el título de capa proporcionado.
 
-	c.	*Layer category (opcional)*: Puede seleccionar una o más categorías para la capa de la lista de opciones en el menú desplegable. Una amplia gama de categorías socioeconómicas, basadas en la naturaleza y relacionadas con políticas del KMGBF están disponibles. Se puede seleccionar más de una categoría para la misma capa. Estas categorías corresponden a los filtros de categoría de conjunto de datos en la vista del mapa. Seleccionar una categoría significará que su capa aparecerá en la lista de conjuntos de datos filtrados cuando se aplique el filtro de categoría de conjunto de datos correspondiente.
+	c.	*Categoria de capa (opcional)*: Puede seleccionar una o más categorías para la capa de la lista de opciones en el menú desplegable. Una amplia gama de categorías socioeconómicas, basadas en la naturaleza y relacionadas con políticas del KMGBF están disponibles. Se puede seleccionar más de una categoría para la misma capa. Estas categorías corresponden a los filtros de categoría de conjunto de datos en la vista del mapa. Seleccionar una categoría significará que su capa aparecerá en la lista de conjuntos de datos filtrados cuando se aplique el filtro de categoría de conjunto de datos correspondiente.
 
-	d.	*Tag (opcional)*: Puede especificar una o más etiquetas para su capa. Las etiquetas corresponden al filtro de etiquetas de conjunto de datos en la vista del mapa. Especificar una etiqueta para su capa significará que la capa aparecerá en la lista de capas filtradas cuando se aplique el filtro de etiqueta de conjunto de datos correspondiente en el mapa. A diferencia de las categorías de capa, las etiquetas pueden ser cualquier cadena de texto de su elección, lo que hace que esta característica sea útil si necesita diferenciar claramente las capas de su espacio de trabajo de los conjuntos de datos de la plataforma pública y poder aplicar filtros más efectivos al buscar sus conjuntos de datos en la vista del mapa. Por ejemplo, podría usar una etiqueta para identificar la meta en su estrategia y plan de acción nacional para la biodiversidad (EPANB) para la cual la capa de datos es relevante.
+	d.	*Buscar etiquetas (opcional)*: Puede especificar una o más etiquetas para su capa. Las etiquetas corresponden al filtro de etiquetas de conjunto de datos en la vista del mapa. Especificar una etiqueta para su capa significará que la capa aparecerá en la lista de capas filtradas cuando se aplique el filtro de etiqueta de conjunto de datos correspondiente en el mapa. A diferencia de las categorías de capa, las etiquetas pueden ser cualquier cadena de texto de su elección, lo que hace que esta característica sea útil si necesita diferenciar claramente las capas de su espacio de trabajo de los conjuntos de datos de la plataforma pública y poder aplicar filtros más efectivos al buscar sus conjuntos de datos en la vista del mapa. Por ejemplo, podría usar una etiqueta para identificar la meta en su estrategia y plan de acción nacional para la biodiversidad (EPANB) para la cual la capa de datos es relevante.
 
-	e.	*Layer description (opcional)*: En el campo de descripción, puede especificar el texto que aparecerá en el cuadro emergente de información de la capa. Aquí, puede insertar la mayor parte de los metadatos de su capa, como una descripción general, cita del artículo científico/conjunto de datos, enlaces externos al artículo científico/conjunto de datos, especificaciones de licencia, etc.
+	e.	*Descripción (opcional)*: En el campo de descripción, puede especificar el texto que aparecerá en el cuadro emergente de información de la capa. Aquí, puede insertar la mayor parte de los metadatos de su capa, como una descripción general, cita del artículo científico/conjunto de datos, enlaces externos al artículo científico/conjunto de datos, especificaciones de licencia, etc.
 
-	!!!Note
+	!!!Nota:
 		Para capas individuales que son parte de una capa de grupo principal, el texto emergente de información de la capa siempre mostrará la descripción de la capa de grupo principal y por lo tanto el campo de descripción es redundante (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
 
 	![](images/es/23.png)
@@ -62,18 +62,18 @@ Para comenzar a crear una capa y completar los metadatos relevantes para la capa
 
 Actualmente, puede cargar manualmente datos geoespaciales a su espacio de trabajo UNBL solo si están disponibles en formato ráster GeoTIFF. Una capa ráster constituye una cuadrícula de celdas (o píxeles) donde cada celda tiene un valor que representa información sobre un tema o fenómeno específico. Actualmente solo podemos aceptar GeoTIFFs con una sola banda. Si tiene un GeoTIFF con más de una banda, divídalo previamente en diferentes archivos. Las capas ráster GeoTIFF se agregan a su espacio de trabajo UNBL mediante una carga directa a un repositorio de datos SIG UNBL seguro y compatible con GDPR en Azure. Para obtener más información sobre la privacidad de los datos, consulte nuestra [hoja informativa sobre seguridad de los datos](data_security.es.md).
 
-!!!Note
+!!!Nota:
 	Los datos geoespaciales en otros formatos de capas ráster y vectoriales pueden configurarse en UNBL vinculándose a un recurso externo. Vea ['¿Cómo configuro capas ráster usando servicios de teselas externos?'](#como-configuro-capas-raster-usando-servicios-de-teselas-externos-wmswmts) y ['¿Cómo configuro capas vectoriales usando servicios de teselas externos?'](#como-configuro-capas-vectoriales-usando-servicios-de-teselas-externos) para formatos de servicios Web OGC interoperables con UNBL y guías para vincularse a ellos.
 
 Para cargar un archivo GeoTIFF:
 
 1.	Navegue a la página de nueva capa y complete los metadatos relevantes (Vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)).
 
-2.	En la sección 'Layer Config':
+2.	En la sección 'Configuración de capa':
 
-	a.	*Layer type*: Seleccione 'raster'.
+	a.	*Tipo de capa*: Seleccione 'raster'.
 
-	b.	*Layer provider*: Seleccione 'GeoTIFF File Upload'.
+	b.	*Proveedero de capa*: Seleccione 'GeoTIFF File Upload'.
 
 	c.	*GeoTIFF file*: Haga clic en el botón 'Choose File' para cargar una capa ráster GeoTIFF válida desde su sistema de archivos local. Los archivos cargados deben ser un ráster de banda única y deben ser de menos de 1000MB de tamaño. Se le notificará si selecciona un archivo inválido.
 
@@ -81,13 +81,13 @@ Para cargar un archivo GeoTIFF:
 
 	e.	*Minimum/Maximum value*: Si su ráster contiene datos continuos, entonces debe proporcionar el rango de valores en los datos especificando valores mínimo y máximo del rango.
 
-	f.	*Minimum/Maximum zoom level (opcional)*: El rango de nivel de zoom predeterminado está configurado de 0 a 14. Opcionalmente puede especificar los niveles de zoom para la capa si el archivo ráster solo contiene datos en ciertos niveles de zoom. Note que UNBL soporta un nivel de zoom máximo de 14.
+	f.	*Minimum/Maximum Niveles de Zoom (opcional)*: El rango de nivel de zoom predeterminado está configurado de 0 a 14. Opcionalmente puede especificar los niveles de zoom para la capa si el archivo ráster solo contiene datos en ciertos niveles de zoom. Note que UNBL soporta un nivel de zoom máximo de 14.
 
-	g.	*Layer styling*: El estilo de capa determina cómo se muestra la capa en el mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa para coincidir con los valores en su ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
+	g.	*Estilo de capa*: El estilo de capa determina cómo se muestra la capa en el mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa para coincidir con los valores en su ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
 
-	- *Value* - el valor de píxel en los datos para el cual definir el estilo.
+	- *Valor* - el valor de píxel en los datos para el cual definir el estilo.
 
-	- *Name* – el nombre de la entrada de estilo en la leyenda de la capa en el mapa.
+	- *Nombre* – el nombre de la entrada de estilo en la leyenda de la capa en el mapa.
 
 	- *Color* – el color de los píxeles con el valor especificado en el mapa. Puede definir un color a través del selector de color manual, o ingresando un valor RGBA o hexadecimal. Opcionalmente, puede establecer la opacidad del color en un rango de 0 a 100%, donde 0% es completamente transparente y 100% es completamente opaco.
 
@@ -95,7 +95,7 @@ Para cargar un archivo GeoTIFF:
 
 	![](images/es/24.png)
 
-3.	Una vez que todos los metadatos y parámetros han sido especificados, el botón 'SAVE AND VIEW DETAILS' se iluminará en azul, siempre que toda la información ingresada sea válida. Haga clic en este botón para cargar su archivo GeoTIFF a su espacio de trabajo. El archivo se almacenará en un repositorio privado seguro y dedicado en Azure. Esto puede tomar algunos segundos dependiendo del tamaño del archivo y la velocidad de su conexión de banda ancha de internet, así que después de hacer clic en el botón debe esperar hasta ser redirigido a la página de edición de capa. Vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos) y ['¿Cómo edito mis capas agregadas?'](#como-edito-mis-capas-agregadas) para los siguientes pasos.
+3.	Una vez que todos los metadatos y parámetros han sido especificados, el botón 'GUARDAR Y VER DETALLES' se iluminará en azul, siempre que toda la información ingresada sea válida. Haga clic en este botón para cargar su archivo GeoTIFF a su espacio de trabajo. El archivo se almacenará en un repositorio privado seguro y dedicado en Azure. Esto puede tomar algunos segundos dependiendo del tamaño del archivo y la velocidad de su conexión de banda ancha de internet, así que después de hacer clic en el botón debe esperar hasta ser redirigido a la página de edición de capa. Vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos) y ['¿Cómo edito mis capas agregadas?'](#como-edito-mis-capas-agregadas) para los siguientes pasos.
 
 ## ¿Cómo configuro capas ráster usando servicios de teselas externos WMS/WMTS?
 
@@ -103,11 +103,11 @@ UNBL soporta la configuración de capas de imagen ráster a su espacio de trabaj
 
 1.	Navegue a la página de nueva capa y complete los metadatos relevantes (Vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)).
 
-2.	En la sección 'Layer Config':
+2.	En la sección 'Configuración de capa':
 
-	a.	*Layer type*: Seleccione 'raster'.
+	a.	*Tipo de capa*: Seleccione 'raster'.
 
-	b.	*Layer provider*: Seleccione 'External Tile Service (WMS, WMTS, etc.)'.
+	b.	*Proveedero de capa*: Seleccione 'External Tile Service (WMS, WMTS, etc.)'.
 
 	c.	*Tiles URL*: Aquí, puede conectarse a un servicio de teselas externo que utilice los protocolos Web Map Service (WMS), Web Map Tile Service (WMTS) o XYZ Tile Service. Para configurar capas usando estos proveedores, debe proporcionar una URL de tesela válida, que debe contener ya sea los marcadores de posición `{z}{x}{y}` o el marcador de posición `{bbox-epsg-3857}`.
 
@@ -123,7 +123,7 @@ UNBL soporta la configuración de capas de imagen ráster a su espacio de trabaj
 	https://wms.server.net/mapserv?request=getmap&service=wms&BBOX={bbox-epsg-3857}&crs=EPSG:3857&format=image/jpeg&layers=layer_latest&width=1200&height=600
 	```
 
-	!!!Note "Los siguientes marcadores de posición fueron ajustados para permitir la configuración de UNBL:"
+	!!!Nota "Los siguientes marcadores de posición fueron ajustados para permitir la configuración de UNBL:"
 		- `-90,-180,90,360` cambiado a `{bbox-epsg-3857}`
 		- `EPSG:4326` cambiado a `EPSG:3857`
 
@@ -131,9 +131,9 @@ UNBL soporta la configuración de capas de imagen ráster a su espacio de trabaj
 
 	e.	*Minimum/Maximum zoom level (opcional)*: El rango de nivel de zoom predeterminado está configurado de 0 a 14. Opcionalmente puede especificar los niveles de zoom para la capa si la imagen ráster solo contiene datos en ciertos niveles de zoom. Note que UNBL soporta un nivel de zoom máximo de 14.
 
-	f.	*Layer styling*: El estilo de capa determina cómo se muestra la leyenda de la imagen ráster en el mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa para coincidir con los valores en la imagen ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
+	f.	*Estilo de capa*: El estilo de capa determina cómo se muestra la leyenda de la imagen ráster en el mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa para coincidir con los valores en la imagen ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
 
-	- *Name* – el nombre de la entrada de estilo en la leyenda de la capa en el mapa.
+	- *Nombre* – el nombre de la entrada de estilo en la leyenda de la capa en el mapa.
 
 	- *Color* – el color asociado con el nombre especificado en la leyenda de la capa. Puede seleccionar un color usando el selector de color, o especificando un valor de código de color RGBA o Hex.
 
@@ -155,11 +155,11 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 2. Navegue a la página de nueva capa en la interfaz de administración UNBL y complete los metadatos relevantes (Vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)).
 
-3. En la sección *Layer Config*:
+3. En la sección *COnfiguraciónde capa*:
 
-	a.	*Layer type*: Seleccione 'raster'.
+	a.	*Tipo de capa*: Seleccione 'raster'.
 
-	b.	*Layer provider*: Seleccione 'Google Earth Engine'.
+	b.	*Proveedero de capa*: Seleccione 'Google Earth Engine'.
 
 	c.	*Asset Path*: Copie y pegue el ID de imagen de su activo GEE. Cualquier ID de imagen puede configurarse en UNBL, siempre que sea una imagen ráster de banda única. Puede ser un ID de imagen de su proyecto Cloud GEE personal, o cualquier otro proyecto Cloud GEE compartido o conjunto de datos GEE disponible públicamente, como uno del catálogo público [awesome-gee-community-catalog](https://gee-community-catalog.org/), que proporciona acceso a más de 4,000 activos GEE públicos.
 
@@ -171,11 +171,11 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	![](images/es/29.png)
 
-	f.	*Layer styling*: El estilo de capa determina cómo se muestra la leyenda del activo GEE en el mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa (también conocidas como *clases* o *umbrales*) para coincidir con los valores en la imagen ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
+	f.	*Estilo de capa*: El estilo de capa determina cómo se muestra la leyenda del activo GEE en el mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa (también conocidas como *clases* o *umbrales*) para coincidir con los valores en la imagen ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
 
-	- *Value* - el valor de píxel en los datos para el cual definir el estilo.
+	- *Valor* - el valor de píxel en los datos para el cual definir el estilo.
 
-	- *Name* – el nombre de la clase o rango en la leyenda de la capa en el mapa.
+	- *Nombre* – el nombre de la clase o rango en la leyenda de la capa en el mapa.
 
 	- *Color* – el color de los píxeles con el valor especificado en el mapa. Puede definir un color a través del selector de color manual, o ingresando un valor RGBA o hexadecimal. Opcionalmente, puede establecer la opacidad del color en un rango de 0 a 100%, donde 0% es completamente transparente y 100% es completamente opaco.
 
@@ -242,11 +242,11 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 1.	Navegue a la página de edición de capa y complete los metadatos relevantes (Vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)).
 
-2. En la sección 'Layer Config' (todos los campos son obligatorios a menos que se especifique lo contrario):
+2. En la sección 'Configuración de capa' (todos los campos son obligatorios a menos que se especifique lo contrario):
 
-	a.	*Layer type*: Seleccione 'vector'.
+	a.	*Tipo de capa*: Seleccione 'vector'.
 
-	b.	*Layer provider*: Seleccione 'External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)'.
+	b.	*Proveedero de capa*: Seleccione 'External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)'.
 
 	c.	*Tiles URL*: Aquí, puede conectarse a un proveedor de servicios de teselas vectoriales externo que aloje sus datos geoespaciales, como Mapbox, Esri, pg_tileserv, Martin y otros. Para configurar capas usando estos proveedores, debe proporcionar una URL de tesela válida, que debe contener ya sea los marcadores de posición `{z}{x}{y}` o el marcador de posición `{bbox-epsg-3857}`. Por ejemplo, una URL de capa configurable para un conjunto de datos de cobertura forestal alojado en Martin se ve así:
 
@@ -255,7 +255,7 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 	https://example-tileserv.org/martin/forest_cover/{z}/{x}/{y}
 	```
 
-	d.	*Data type*: Especifique si las teselas vectoriales contienen datos 'categorical' o 'continuous'. Los datos categóricos representan clases o categorías discretas. Los conjuntos de datos continuos representan datos donde los valores pueden caer en cualquier lugar dentro de un rango de valores especificado. Aunque las teselas vectoriales pueden almacenar múltiples atributos de datos, solo puede elegir un atributo de datos para el estilo de leyenda de capa en UNBL. Debe especificar el tipo de datos basándose en la leyenda provisional de capa de su capa agregada en UNBL.
+	d.	*Tipo de dato*: Especifique si las teselas vectoriales contienen datos 'categorical' o 'continuous'. Los datos categóricos representan clases o categorías discretas. Los conjuntos de datos continuos representan datos donde los valores pueden caer en cualquier lugar dentro de un rango de valores especificado. Aunque las teselas vectoriales pueden almacenar múltiples atributos de datos, solo puede elegir un atributo de datos para el estilo de leyenda de capa en UNBL. Debe especificar el tipo de datos basándose en la leyenda provisional de capa de su capa agregada en UNBL.
 
 	![](images/es/34.png)
 
@@ -490,15 +490,15 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 Para hacer cualquiera de sus capas agregadas descubrible y visible para todos los usuarios de su espacio de trabajo (vea ['¿Cómo visualizo conjuntos de datos dentro de mi espacio de trabajo?'](2_viewing.es.md#como-visualizo-conjuntos-de-datos-dentro-de-mi-espacio-de-trabajo)), así como opcionalmente hacer su capa visible para usuarios fuera de su espacio de trabajo, realice los siguientes pasos:
 
-1.	Navegue a la página de edición de capa para la capa de su elección. Al agregar una capa a su espacio de trabajo, será automáticamente llevado a esta página. Alternativamente, haga clic en el botón ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la lista de capas disponible después de navegar a la página 'Layers' en su interfaz de administración.
+1.	Navegue a la página de edición de capa para la capa de su elección. Al agregar una capa a su espacio de trabajo, será automáticamente llevado a esta página. Alternativamente, haga clic en el botón ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la lista de capas disponible después de navegar a la página 'Capas' en su interfaz de administración.
 
 	![](images/es/40.png)
 
-2.	Para que su conjunto de datos sea accesible en la vista del mapa UNBL, debe publicar el conjunto de datos haciendo clic en el botón de alternancia 'Published'. Los conjuntos de datos no publicados permanecen en la interfaz de administración hasta que esté listo para publicarlos en la vista del mapa UNBL.
+2.	Para que su conjunto de datos sea accesible en la vista del mapa UNBL, debe publicar el conjunto de datos haciendo clic en el botón de de activación 'Publicado'. Los conjuntos de datos no publicados permanecen en la interfaz de administración hasta que esté listo para publicarlos en la vista del mapa UNBL.
 
-3.	Si su conjunto de datos está publicado, aparecerá un botón de alternancia con una opción para 'Allow external access via link'. Esta es una alternancia opcional que, si se habilita, hace su capa accesible para cualquiera con la URL de la vista del mapa, incluso usuarios fuera de su espacio de trabajo. Para compartir la URL de su capa, copie el enlace que aparece o haga clic en el icono ![](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para copiar el enlace automáticamente a su portapapeles.
+3.	Si su conjunto de datos está publicado, aparecerá un botón de activación con una opción para 'Allow external access via link'. Esta es una alternancia opcional que, si se habilita, hace su capa accesible para cualquiera con la URL de la vista del mapa, incluso usuarios fuera de su espacio de trabajo. Para compartir la URL de su capa, copie el enlace que aparece o haga clic en el icono ![](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para copiar el enlace automáticamente a su portapapeles.
 
-4.	Haga clic en el botón de alternancia 'Primary' para marcar su capa como una capa independiente y hacerla descubrible en la barra de búsqueda 'DATASETS' en UNBL. Para que las capas de su espacio de trabajo sean descubribles y visibles en UNBL, siempre debe publicarlas y marcarlas como primarias. La única excepción para publicar una capa y no marcarla como primaria es cuando está creando capas agrupadas (Vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
+4.	Haga clic en el botón de activación 'Primario' para marcar su capa como una capa independiente y hacerla descubrible en la barra de búsqueda 'DATASETS' en UNBL. Para que las capas de su espacio de trabajo sean descubribles y visibles en UNBL, siempre debe publicarlas y marcarlas como primarias. La única excepción para publicar una capa y no marcarla como primaria es cuando está creando capas agrupadas (Vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
 
 	![](images/es/41.png)
 
@@ -512,14 +512,14 @@ Puede que desee regresar y editar sus capas agregadas para cambiar cualquiera de
 
 2.	Para probar si su capa se visualiza correctamente en la vista del mapa UNBL, haga clic en el botón 'TEST LAYER' en la esquina inferior derecha de la página de edición de capa. Aparecerá una marca verde dentro del botón si la capa ha sido correctamente cargada y/o configurada. De lo contrario, aparecerá una cruz roja con un mensaje de error diagnosticando el problema.
 
-	!!!Note
+	!!!Nota
 		Si está cargando un conjunto de datos regional (extensión no global), es posible que la prueba reporte una falla incluso si la capa está funcionando, ya que la prueba puede solicitar teselas de muestra que caigan fuera de la extensión areal de su conjunto de datos. La mejor práctica es verificar el diagnóstico de prueba de capa verificando manualmente si su capa se visualiza en la vista del mapa UNBL.
 
 	![](images/es/43.png)
 
-3.	Si desea navegar directamente a su capa en la vista del mapa UNBL, haga clic en el botón 'VIEW ON MAP'. Si desea eliminar su capa de su espacio de trabajo, haga clic en el botón 'DELETE LAYER'.
+3.	Si desea navegar directamente a su capa en la vista del mapa UNBL, haga clic en el botón 'VIEW ON MAP'. Si desea eliminar su capa de su espacio de trabajo, haga clic en el botón 'ELIMINAR CAPA'.
 
-4.	Haga clic en el botón 'EDIT' para cualquiera de las secciones de metadatos/configuración de capa para editar información y parámetros de esa sección.
+4.	Haga clic en el botón 'EDITAR' para cualquiera de las secciones de metadatos/configuración de capa para editar información y parámetros de esa sección.
 
 	![](images/es/44.png)
 
@@ -527,20 +527,20 @@ Puede que desee regresar y editar sus capas agregadas para cambiar cualquiera de
 
 Cualquier capa que agregue a su espacio de trabajo UNBL puede agruparse junto para organizar datos multi-año o multi-categoría. Cada año o categoría es similar a una banda ráster individual. Las capas agrupadas se crean en una nueva capa separada (denominada *capa principal* en UNBL) de las capas componentes. Por ejemplo, un ráster de cobertura de suelo que abarca tres años requeriría cuatro capas a crear: cada año como su propia capa, así como una cuarta capa principal desde la cual todas serán accesibles. En este caso, cada capa individual de año/categoría debe publicarse y **no** marcarse como primaria para ser descubrible en la vista del mapa exclusivamente a través de una capa agrupada. La capa agrupada/principal es una capa de visualización adicional con una configuración de capa fija que referencia todas las capas individuales de años/categorías. Se publica y se marca como primaria. Cuando la capa agrupada se visualiza en UNBL, aparece una única leyenda de capa desde la cual puede seleccionar cualquiera de sus capas componentes incluidas para visualizarse en la vista del mapa.
 
-!!!Note
+!!!Nota
 	Si las capas individuales de años/categorías que está vinculando a través de una capa agrupada también están marcadas como primarias, además de estar publicadas, estas capas serán descubribles como entradas individuales en la barra de búsqueda 'DATASETS', duplicando así las entradas con la capa agrupada publicada.
 
 Para configurar una capa agrupada:
 
 1.	Publique todas las capas componentes a incluir en la capa agrupada, y **no** las marque como primarias. La función de URL pública funciona de la misma manera que para las capas independientes (vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos)).
 
-2.	Cree una capa separada usando el botón 'CREATE NEW LAYER' en la página 'Layers' de la interfaz de administración de su espacio de trabajo. Esta será su capa agrupada designada.
+2.	Cree una capa separada usando el botón 'CREAR NUEVA CAPA' en la página 'Capas' de la interfaz de administración de su espacio de trabajo. Esta será su capa agrupada designada.
 
 3.	Ingrese un título de capa, slug de capa, categoría de capa, etiqueta de búsqueda y una descripción de capa que sea representativa del conjunto de datos representado por su colección de capas individuales agrupadas. Note que la descripción de capa para las capas componentes es redundante – solo necesita completar la descripción de capa para la capa agrupada que contiene sus capas componentes. Para más información sobre cómo completar metadatos para capas, vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa).
 
-4.	*Layer type*: Seleccione 'group'.
+4.	*Tipo de capa*: Seleccione 'group'.
 
-5.	*Grouped layers*: Del menú desplegable, seleccione todas las capas componentes que desea incluir en su capa agrupada. Las capas disponibles para inclusión son todas las capas agregadas en su espacio de trabajo.
+5.	*Capas agrupadas*: Del menú desplegable, seleccione todas las capas componentes que desea incluir en su capa agrupada. Las capas disponibles para inclusión son todas las capas agregadas en su espacio de trabajo.
 
 6.	*Layer selector*: Del menú desplegable, seleccione ya sea 'Dropdown' o 'Radio Button'. Estas opciones influyen en cómo aparece la interfaz de usuario del selector de capa en la leyenda de la capa agrupada en UNBL. La opción dropdown se recomienda para capas agrupadas con más de tres capas componentes. La opción radio button se recomienda para capas agrupadas con tres o menos capas componentes, o cuando las capas agrupadas representan los mismos datos con diferente estilo.
 
@@ -548,4 +548,4 @@ Para configurar una capa agrupada:
 
 	![](images/es/46.png)
 
-7.	Haga clic en el botón 'SAVE AND VIEW DETAILS' para agregar la capa agrupada a su espacio de trabajo.
+7.	Haga clic en el botón 'GUARDAR Y VER DETALLES' para agregar la capa agrupada a su espacio de trabajo.
