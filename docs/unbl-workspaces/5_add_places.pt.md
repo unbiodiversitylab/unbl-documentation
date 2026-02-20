@@ -2,7 +2,8 @@
 
 ## Como adiciono lugares?
 
-Adicionar um novo lugar ao seu espaço de trabalho proporciona-lhe a capacidade de utilizar todas as funcionalidades do UNBL para qualquer área de interesse (área protegida, nível administrativo subnacional, área transfronteiriça, limite de comunidade indígena, etc.). Uma vez que o lugar tenha sido adicionado ao seu espaço de trabalho UNBL, poderá: (1) exibir métricas dinâmicas para esta área de interesse (como estatísticas zonais); e (2) recortar qualquer camada raster publicada na plataforma pública UNBL (com uma licença de acesso aberto) para esta área de interesse e depois descarregá-la como um ficheiro GeoTIFF para trabalho adicional num software SIG de desktop. Adicionar um lugar envolve carregar um ficheiro vetorial (polígono ou multipolígono) para o UNBL.
+Adicionar um novo lugar ao seu espaço de trabalho proporciona-lhe a capacidade de utilizar todas as funcionalidades do UNBL para qualquer área de interesse (área protegida, nível administrativo subnacional, área transfronteiriça, limite de comunidade indígena, etc.). Uma vez que o lugar tenha sido adicionado ao seu espaço de trabalho UNBL, poderá: (1) exibir métricas dinâmicas para esta área de interesse (como estatísticas zonais); e (2) recortar qualquer camada raster publicada na plataforma pública UNBL (com uma licença de acesso aberto) para esta área de interesse e depois descarregá-la como um ficheiro GeoTIFF para trabalho adicional num software SIG de desktop. Adicionar um lugar envolve carregar um ficheiro vetorial (polígono ou multipolígono) para o UNBL. Para obter mais informações sobre a confidencialidade dos dados transferidos, consulte a nossa [ficha informativa sobre segurança de dados](data_security.pt.md).
+
 
 Para adicionar um novo lugar:
 
