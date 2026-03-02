@@ -2,6 +2,21 @@
 
 Antes de empezar a explorar los mapas, regístrese en el UN Biodiversity Lab.
 
+
+<details class="unbl-video">
+  <summary>🎬 ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/qF3HaZ4F3PE"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Haga clic en la página «Iniciar mapa» del sitio web del [UN Biodiversity Lab](https://unbiodiversitylab.org/es/).
 
 	![](images/es/SP 2.jpg)
