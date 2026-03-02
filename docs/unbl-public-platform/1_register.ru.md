@@ -4,7 +4,7 @@
 
 
 <details class="unbl-video">
-  <summary>🎬 Предпочитаете видео? Нажмите сюда!</summary>
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
 
   <div class="video-wrapper">
     <iframe

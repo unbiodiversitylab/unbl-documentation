@@ -4,7 +4,7 @@ Antes de começar a explorar os mapas, registre-se no Laboratório de Biodiversi
 
 
 <details class="unbl-video">
-  <summary>🎬 Prefere vídeo? Clique aqui!</summary>
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
 
   <div class="video-wrapper">
     <iframe

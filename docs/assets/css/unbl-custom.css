@@ -46,47 +46,54 @@ img {
 /* Make it look like a clickable furled row */
 details.unbl-video {
   margin: 1rem 0;
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 10px;
-  background: var(--md-default-bg-color);
+  border: none;
+  border-radius: 14px;
   overflow: hidden;
 }
 
 /* The clickable header row */
 details.unbl-video > summary {
   cursor: pointer;
-  padding: 0.85rem 1rem;
+  padding: 1rem 1.25rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  list-style: none;            /* removes default marker in some browsers */
+  list-style: none;
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: center;        /* ✅ vertically center content */
+  justify-content: space-between;
+  background-color: #0099a1;  /* ✅ your custom teal */
+  color: white;
+  border-radius: 14px;
 }
 
-/* Remove the default disclosure triangle/marker (Chrome/Safari) */
+/* Remove default marker */
 details.unbl-video > summary::-webkit-details-marker {
   display: none;
 }
 
-/* Add a right chevron like your screenshot */
-details.unbl-video > summary::after {
-  content: "›";
-  margin-left: auto;
-  font-size: 1.25rem;
-  line-height: 1;
-  transform: rotate(0deg);
-  transition: transform 150ms ease;
-  opacity: 0.7;
+/* Remove any theme icon injection */
+details.unbl-video > summary::before {
+  content: none !important;
+  display: none !important;
 }
 
-/* Rotate chevron when opened */
+/* Chevron arrow on right */
+details.unbl-video > summary::after {
+  content: "›";
+  font-size: 1.6rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  opacity: 0.9;
+}
+
+/* Rotate arrow when open */
 details.unbl-video[open] > summary::after {
   transform: rotate(90deg);
 }
 
-/* Inner padding when expanded */
-details.unbl-video[open] > .video-wrapper {
-  margin: 0 1rem 1rem 1rem;
+/* Video container spacing when expanded */
+details.unbl-video[open] .video-wrapper {
+  margin: 1rem 0;
 }
 
 /* Remove Material icon from custom video details block */
@@ -103,6 +110,6 @@ details.unbl-video > summary {
 
 /* Increase font size for the video toggle header */
 details.unbl-video > summary {
-  font-size: 1.05rem;   /* try 1.1rem if you want larger */
-  font-weight: 600;     /* slightly stronger */
+  font-size: 1rem;   /* try 1.1rem if you want larger */
+  font-weight: 400;     /* slightly stronger */
 }

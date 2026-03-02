@@ -4,7 +4,7 @@ Before you begin exploring the maps, register for the UN Biodiversity Lab.
 
 
 <details class="unbl-video">
-  <summary>🎬 Prefer video? Click here!</summary>
+  <summary>▶️ Prefer video? Click here!</summary>
 
   <div class="video-wrapper">
     <iframe
