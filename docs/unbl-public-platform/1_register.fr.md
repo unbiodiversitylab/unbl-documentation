@@ -4,7 +4,7 @@ Avant de commencer à explorer les cartes, inscrivez-vous au UN Biodiversity Lab
 
 
 <details class="unbl-video">
-  <summary>▶️ Préférez-vous la video ? Cliquez ici !</summary>
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
 
   <div class="video-wrapper">
     <iframe
