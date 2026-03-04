@@ -4,6 +4,20 @@
 
 !!! Note
 	в данном руководстве и на сайте UNBL мы упоминаем как наборы данных, так и слои данных. Каждый набор данных может содержать один или несколько слоев данных.
+	
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/1M9Y09MC3ag"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 1.	Перейдите к интересующей вас области, если хотите. Вы также можете остаться на глобальном уровне просмотра.
  

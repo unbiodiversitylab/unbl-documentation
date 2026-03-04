@@ -37,6 +37,20 @@ O Laboratório de Biodiversidade da ONU oferece adicionalmente dois indicadores 
 
 Para visualizar essas métricas no Laboratório de Biodiversidade da ONU:
 
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/_QaLrIBDx34"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Selecione um país específico ou área de interesse na aba 'LOCAIS'.
 
 2.	Revise as métricas no painel esquerdo. Escolha entre uma lista das nove métricas dinâmicas ou dois indicadores principais clicando no botão 'MÉTRICAS' ou 'INDICADORES PRINCIPAIS'. Observe que as métricas de indicadores principais e a métrica padrão de Áreas Protegidas só podem ser exibidas para locais do tipo país.

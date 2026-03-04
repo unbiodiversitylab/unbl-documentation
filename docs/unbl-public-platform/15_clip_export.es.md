@@ -2,6 +2,20 @@
 
 Los usuarios registrados en el UN Biodiversity Lab pueden recortar conjuntos de datos ráster a un área de interés y descargarlos para utilizarlos en un software SIG de escritorio. Esta función permite a los usuarios acceder a los datos subyacentes, evitando el ancho de banda y el almacenamiento necesarios para descargar y trabajar con un conjunto de datos global.
 
+<details class="unbl-video">
+  <summary>▶️ ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/FQQag2Gd6rU"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Para recortar un conjunto de datos a su área de interés y descargarlo:
 
 1. Haga clic en el botón «LUGARES» y seleccione los lugares de su interés.

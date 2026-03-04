@@ -1,5 +1,19 @@
 # ¿Cómo puedo ajustar la vista del mapa?
 
+<details class="unbl-video">
+  <summary>▶️ ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/QAIn4p6bRxw"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Hay varias funciones que pueden ayudarle a navegar por la pantalla del mapa. Entre ellas se incluyen:
 
 1. *Mover el mapa:* utilice el cursor para arrastrar la parte del mapa que desea ver al centro de la pantalla.

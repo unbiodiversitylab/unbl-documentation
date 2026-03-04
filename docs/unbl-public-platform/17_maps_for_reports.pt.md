@@ -1,5 +1,19 @@
 # Como faço para criar um mapa para inclusão em relatórios e produtos de comunicação?
 
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/mvhp18xqzB8"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Personalize a visualização dos conjuntos de dados que você selecionou, conforme desejado.
 
 2. Use a função de captura de tela do seu computador para capturar o mapa.

@@ -1,5 +1,19 @@
 # Como faço para ajustar a visualização do mapa?
 
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/l0HyoPQmEsE"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Existem vários recursos que podem ajudá-lo a navegar pela tela do mapa. Estes incluem:
 
 1. *Mover mapa*: Use o mouse para clicar e arrastar a parte do mapa que você gostaria de ver para o meio da tela.

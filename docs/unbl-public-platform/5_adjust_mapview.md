@@ -1,5 +1,19 @@
 # How do I adjust my map view?
 
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/D9j7CA73CuM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 There are several features that can assist you to navigate the map screen. These include:
 
 1. *Move map*: Use your mouse to click and drag the portion of the map you would like to view into the middle of the screen.

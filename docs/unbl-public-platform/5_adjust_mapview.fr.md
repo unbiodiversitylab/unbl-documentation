@@ -1,5 +1,19 @@
 # Comment puis-je ajuster l'affichage de ma carte ?
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Ghzweq8PUAY"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Plusieurs fonctionnalités peuvent vous aider à naviguer sur l'écran de la carte. Il s'agit notamment des suivantes :
 
 1. *Déplacer la carte :* utilisez votre souris pour faire glisser la partie de la carte que vous souhaitez afficher au centre de l'écran.

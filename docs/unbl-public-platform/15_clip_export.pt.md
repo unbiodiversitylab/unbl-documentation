@@ -2,6 +2,20 @@
 
 Usuários registrados no Laboratório de Biodiversidade da ONU podem recortar conjuntos de dados raster para uma área de interesse e baixá-los para uso em um software de SIG de desktop. Esta função permite que os usuários acessem os dados subjacentes enquanto evitam a largura de banda e o armazenamento necessários para baixar e trabalhar com um conjunto de dados global.
 
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/QWW4Dm1ssBg"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Para recortar um conjunto de dados para sua área de interesse e baixar:
 
 1.	Clique no botão 'LOCAIS' e selecione seus locais de interesse.

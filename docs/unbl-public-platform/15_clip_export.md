@@ -1,6 +1,20 @@
 # How do I clip and export datasets?
 
-Registered users on UN Biodiversity Lab are able to clip raster datasets to an area of interest and download them for use in a desktop GIS software. This function allows users to access the underlying data while avoiding the bandwidth and storage required to download and work with a global dataset. 
+Registered users on UN Biodiversity Lab are able to clip raster datasets to an area of interest and download them for use in a desktop GIS software. This function allows users to access the underlying data while avoiding the bandwidth and storage required to download and work with a global dataset.
+
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Ec1JfnYVFoY"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details> 
 
 To clip a dataset to your area of interest and download:
 

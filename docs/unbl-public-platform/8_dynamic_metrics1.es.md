@@ -37,6 +37,20 @@ Es importante señalar que ocho de las métricas estándar pueden mostrarse para
 
 Para ver estas métricas en el UN Biodiversity Lab:
 
+<details class="unbl-video">
+  <summary>▶️ ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Au3zBW-ZJSs"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Seleccione un país o área de interés específicos en la pestaña «LUGARES».
 
 2. Revise las métricas en el panel izquierdo. Elija entre una lista de las nueve métricas dinámicas o dos métricas de indicadores de cabecera haciendo clic en el botón «MÉTRICAS» o «INDICADORES PRINCIPALES». Tenga en cuenta que las métricas de indicadores principales y la métrica estándar de Áreas Protegidas solo se pueden mostrar para lugares de tipo país.

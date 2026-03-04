@@ -4,6 +4,20 @@ Os dados no Laboratório de Biodiversidade da ONU incluem os melhores conjuntos 
 
 !!! Note
 	Referimo-nos tanto a conjuntos de dados quanto a camadas de dados neste guia e no UNBL. Cada conjunto de dados pode ter uma ou múltiplas camadas de dados dentro dele.
+	
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/5ulltlITEnw"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 1.	Navegue até sua área de interesse, se preferir. Você também pode permanecer na visualização global.
 

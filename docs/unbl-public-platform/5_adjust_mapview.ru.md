@@ -1,5 +1,19 @@
 # Как мне маневрировать просмотром карты?
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/-cF37k_uytU"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Существует несколько функций, которые могут помочь вам в навигации по экрану карты. К ним относятся:
 
 1. *Перемещение карты*: нажиманием и держанием мыши перетащите часть карты, которую хотите просмотреть, в центр экрана.

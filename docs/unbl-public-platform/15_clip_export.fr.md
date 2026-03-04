@@ -2,6 +2,20 @@
 
 Les utilisateurs enregistrés sur le UN Biodiversity Lab peuvent découper des ensembles de données raster pour les limiter à une zone qui les intéresse et les télécharger afin de les utiliser dans un logiciel SIG de bureau. Cette fonction permet aux utilisateurs d'accéder aux données sous-jacentes tout en évitant la bande passante et le stockage nécessaires pour télécharger et travailler avec un ensemble de données mondial.
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/NEkbImR--_4"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Pour découper un ensemble de données correspondant à la zone qui vous intéresse et le télécharger :
 
 1. Cliquez sur le bouton ENDROITS et sélectionnez les lieux qui vous intéressent.

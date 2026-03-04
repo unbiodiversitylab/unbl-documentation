@@ -1,5 +1,19 @@
 # Comment créer une carte à inclure dans des rapports et des produits de communication ?
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/YdH91F4I8z4"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Personnalisez l'affichage des ensembles de données que vous avez sélectionnés, selon vos besoins.
 
 2. Utilisez la fonction de capture d'écran de votre ordinateur pour enregistrer la carte.
