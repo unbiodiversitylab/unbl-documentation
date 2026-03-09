@@ -55,12 +55,12 @@ Repository URLs:
 Follow these steps each time you work on translations, regardless of which repo you're editing.
 
 ```
-  ┌─────────┐     ┌──────────┐     ┌──────────┐     ┌────────┐     ┌──────────┐     ┌──────────┐
+  ┌──────────┐     ┌──────────┐     ┌──────────┐     ┌────────┐     ┌──────────┐     ┌──────────┐
   │  1. Pull │     │2. Create │     │3. Find   │     │4. Edit │     │5. Commit │     │ 6. Open  │
   │  latest  │────>│  branch  │────>│  what    │────>│  and   │────>│  and     │────>│  Pull    │
   │  changes │     │          │     │  needs   │     │  save  │     │  sync    │     │  Request │
-  └─────────┘     └──────────┘     │  work    │     └────────┘     └──────────┘     └──────────┘
-                                   └──────────┘
+  └──────────┘     └──────────┘     │  work    │     └────────┘     └──────────┘     └──────────┘
+                                    └──────────┘
 ```
 
 ### Before You Start
@@ -74,7 +74,7 @@ Always pull the latest changes before editing:
 ┌─────────────────────────────────────────────────────────┐
 │  VS Code bottom status bar                              │
 │                                                         │
-│  main ↻  ← Click here to sync                          │
+│  main ↻  ← Click here to sync                           │
 │  ↑                                                      │
 │  Current branch                                         │
 └─────────────────────────────────────────────────────────┘
@@ -131,7 +131,7 @@ You'll see the branch name change in the bottom-left corner:
 │ 🔍│  Message (e.g., "Updated French             │
 │ ⑃ │  translations for ELSA docs")               │
 │ ↑ │  ┌──────────────────────────────────────┐   │
-│   │  │          ✓ Commit                     │   │
+│   │  │          ✓ Commit                    │   │
 │ S │  └──────────────────────────────────────┘   │
 │ o │                                             │
 │ u │  Changes (2)                                │
@@ -226,19 +226,19 @@ docs/
 Expand a section folder in the left sidebar and look for missing language files:
 
 ```
-┌─ EXPLORER ──────────────────────────────────────┐
-│  ▼ docs/elsa/                                   │
-│      01_overview.md            ← English         │
-│      01_overview.es.md         ← Spanish    ✓    │
-│      01_overview.fr.md         ← French     ✓    │
-│      01_overview.pt.md         ← Portuguese ✓    │
-│      01_overview.ru.md         ← Russian    ✓    │
-│      02_tool_purpose.md        ← English         │
-│      02_tool_purpose.es.md     ← Spanish    ✓    │
+┌─ EXPLORER ────────────────────────────────────────────┐
+│  ▼ docs/elsa/                                         │
+│      01_overview.md            ← English              │
+│      01_overview.es.md         ← Spanish    ✓         │
+│      01_overview.fr.md         ← French     ✓         │
+│      01_overview.pt.md         ← Portuguese ✓         │
+│      01_overview.ru.md         ← Russian    ✓         │
+│      02_tool_purpose.md        ← English              │
+│      02_tool_purpose.es.md     ← Spanish    ✓         │
 │      (no .fr.md file!)         ← French     ✗ MISSING │
-│      02_tool_purpose.pt.md     ← Portuguese ✓    │
-│      02_tool_purpose.ru.md     ← Russian    ✓    │
-└─────────────────────────────────────────────────┘
+│      02_tool_purpose.pt.md     ← Portuguese ✓         │
+│      02_tool_purpose.ru.md     ← Russian    ✓         │
+└───────────────────────────────────────────────────────┘
          In this example, the French translation
          for 02_tool_purpose is missing.
 ```
@@ -337,10 +337,10 @@ This lists only English source files (excluding already-translated `.es.md`, `.f
 
 ```
    Step 1                    Step 2                    Step 3
-┌──────────────┐        ┌──────────────┐        ┌──────────────────┐
-│ 01_overview.md│  Copy  │ 01_overview   │Rename │ 01_overview.fr.md │
-│   (English)  │ -----> │  copy.md     │ ----->│    (French)       │
-└──────────────┘        └──────────────┘        └──────────────────┘
+┌───────────────┐        ┌──────────────┐        ┌───────────────────┐
+│ 01_overview.md│  Copy  │ 01_overview  │Rename  │ 01_overview.fr.md │
+│   (English)   │ -----> │  copy.md     │ -----> │    (French)       │
+└───────────────┘        └──────────────┘        └───────────────────┘
                                                         │
                                                         ▼
                                                   Step 4: Open and
@@ -543,7 +543,7 @@ This generates `.missing.json` files showing exactly which keys need translation
 ```
 ┌─ SEARCH ────────────────────────────────────────┐
 │  Search: [ "TODO"                          ]    │
-│  Files:  [ translations/fr/               ]    │
+│  Files:  [ translations/fr/               ]     │
 │──────────────────────────────────────────────── │
 │                                                 │
 │  translations/fr/translation.json               │
@@ -646,7 +646,7 @@ Your language should show fewer (or zero) missing entries.
 ┌─ SOURCE CONTROL ────────────────────────────────┐
 │                                                 │
 │  Changes (1)                                    │
-│    M  01_overview.fr.md      [+] [↩]           │
+│    M  01_overview.fr.md      [+] [↩]            │
 │                                    ↑            │
 │                         Click ↩ to discard      │
 │                         all changes to this     │
@@ -681,9 +681,9 @@ This happens when you and someone else edited the same lines. VS Code will highl
 │ ┃ "welcome": "Bienvenue dans notre plateforme"       │  ← Their version
 │  >>>>>>> main (Incoming Change)                      │
 │                                                      │
-│  ┌──────────────┐ ┌────────────────┐ ┌───────────┐  │
-│  │Accept Current│ │Accept Incoming │ │Accept Both│  │
-│  └──────────────┘ └────────────────┘ └───────────┘  │
+│  ┌──────────────┐ ┌────────────────┐ ┌───────────┐   │
+│  │Accept Current│ │Accept Incoming │ │Accept Both│   │
+│  └──────────────┘ └────────────────┘ └───────────┘   │
 │                                                      │
 └──────────────────────────────────────────────────────┘
 ```
