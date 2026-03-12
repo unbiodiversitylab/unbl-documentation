@@ -36,5 +36,6 @@ Ce guide explique comment profiter de toutes les fonctionnalités disponibles da
 	- **[Comment publier ma couche et la partager avec des utilisateurs externes ?](6_add_data.fr.md#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes)**
 	- **[Comment modifier mes couches ajoutées ?](6_add_data.fr.md#comment-modifier-mes-couches-ajoutees)**
 	- **[Comment créer des couches groupées ?](6_add_data.fr.md#comment-creer-des-couches-groupees)**
-- **[Accéder à l'outil de planification spatiale intégrée ELSA dans votre espace de travail](7_elsa_tool.fr.md)**
-- **[Et si ma question n'a pas reçu de réponse ?](8_support.fr.md)**
+- **[Ajouter vos propres métriques personnalisées à votre espace de travail](7_custom_metrics.fr.md)**
+- **[Accéder à l'outil de planification spatiale intégrée ELSA dans votre espace de travail](8_elsa_tool.fr.md)**
+- **[Et si ma question n'a pas reçu de réponse ?](9_support.fr.md)**
