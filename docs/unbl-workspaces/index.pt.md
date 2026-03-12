@@ -36,5 +36,6 @@ Este guia explica como tirar proveito de todas as funcionalidades disponíveis n
 	- **[Como publico a minha camada e partilho-a com utilizadores externos?](6_add_data.pt.md#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos)**
 	- **[Como edito as minhas camadas adicionadas?](6_add_data.pt.md#como-edito-as-minhas-camadas-adicionadas)**
 	- **[Como crio camadas agrupadas?](6_add_data.pt.md#como-crio-camadas-agrupadas)**
-- **[Aceder à ferramenta de planeamento espacial integrado ELSA no seu espaço de trabalho](7_elsa_tool.pt.md)**
-- **[E se a minha pergunta não foi respondida?](8_support.pt.md)**
+- **[Adicionar as Suas Próprias Métricas Personalizadas ao Seu Espaço de Trabalho](7_custom_metrics.pt.md)**
+- **[Aceder à ferramenta de planeamento espacial integrado ELSA no seu espaço de trabalho](8_elsa_tool.pt.md)**
+- **[E se a minha pergunta não foi respondida?](9_support.pt.md)**

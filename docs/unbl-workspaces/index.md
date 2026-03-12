@@ -33,10 +33,11 @@ This guide explains how to take advantage of all available features in your secu
 	- **[How do I upload raster layers in GeoTIFF format?](6_add_data.md#how-do-i-upload-raster-layers-in-geotiff-format)**
 	- **[How do I configure raster layers using WMS/WMTS external tile services?](6_add_data.md#how-do-i-configure-raster-layers-using-wmswmts-external-tile-services)**
 	- **[How do I configure raster layers using Google Earth Engine (GEE)?](6_add_data.md#how-do-i-configure-raster-layers-using-google-earth-engine-gee)**
-	- **[How do I configure raster layers using Spatiotemporal Asset Catalog (STAC)?](6_add_data.md#how-do-i-configure-raster-layers-using-spatiotemporal-asset-catalog-stac**
+	- **[How do I configure raster layers using Spatiotemporal Asset Catalog (STAC)?](6_add_data.md#how-do-i-configure-raster-layers-using-spatiotemporal-asset-catalog-stac)**
 	- **[How do I configure vector layers using external tile services?](6_add_data.md#how-do-i-configure-vector-layers-using-external-tile-services)**
 	- **[How do I publish my layer and share it with external users?](6_add_data.md#how-do-i-publish-my-layer-and-share-it-with-external-users)**
 	- **[How do I edit my added layers?](6_add_data.md#how-do-i-edit-my-added-layers)**
 	- **[How do I create group layers?](6_add_data.md#how-do-i-create-group-layers)**
-- **[Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace](7_elsa_tool.md)**
-- **[What if my Question was not Answered?](8_support.md)**
+- **[Adding Your Own Custom Metrics to Your Workspace](7_custom_metrics.md)**
+- **[Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace](8_elsa_tool.md)**
+- **[What if my Question was not Answered?](9_support.md)**

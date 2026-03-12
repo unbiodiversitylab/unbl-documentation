@@ -130,6 +130,7 @@ plugins:
             Managing Users in Your Workspace: Gestión de Usuarios en su Espacio de Trabajo
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Agregar Lugares a su Espacio de Trabajo y Ver Métricas Dinámicas para Ellos
             Adding Your Own Geospatial Data to Your Workspace: Agregar sus Propios Datos Geoespaciales a su Espacio de Trabajo
+            Adding Your Own Custom Metrics to Your Workspace: Añadir tus propias métricas personalizadas a tu espacio de trabajo
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acceso a la Herramienta de Planificación Espacial Integrada ELSA en su Espacio de Trabajo
             What if my Question was not Answered?: ¿Qué pasa si mi Pregunta no fue Respondida?
             ELSA Integrated Spatial Planning Tool: Herramienta de Planificación Espacial Integrada ELSA
@@ -197,6 +198,7 @@ plugins:
             Managing Users in Your Workspace: Gestion des Utilisateurs dans votre Espace de Travail
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Ajout de Lieux à votre Espace de Travail et Visualisation des Métriques Dynamiques pour Eux
             Adding Your Own Geospatial Data to Your Workspace: Ajout de vos Propres Données Géospatiales à votre Espace de Travail
+            Adding Your Own Custom Metrics to Your Workspace: Ajouter vos propres métriques personnalisées à votre espace de travail
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Accès à l'Outil de Planification Spatiale Intégrée ELSA dans votre Espace de Travail
             What if my Question was not Answered?: Que faire si ma Question n'a pas eu de Réponse ?
             ELSA Integrated Spatial Planning Tool: Outil de Planification Spatiale Intégrée ELSA
@@ -264,6 +266,7 @@ plugins:
             Managing Users in Your Workspace: Gerenciamento de Usuários no seu Espaço de Trabalho
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Adição de Locais ao seu Espaço de Trabalho e Visualização de Métricas Dinâmicas para Eles
             Adding Your Own Geospatial Data to Your Workspace: Adição de seus Próprios Dados Geoespaciais ao seu Espaço de Trabalho
+            Adding Your Own Custom Metrics to Your Workspace: Adicionar as Suas Próprias Métricas Personalizadas ao Seu Espaço de Trabalho
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acesso à Ferramenta de Planejamento Espacial Integrado ELSA no seu Espaço de Trabalho
             What if my Question was not Answered?: E se minha Pergunta não foi Respondida?
             ELSA Integrated Spatial Planning Tool: Ferramenta de Planejamento Espacial Integrado ELSA
@@ -331,6 +334,7 @@ plugins:
             Managing Users in Your Workspace: Управление пользователями в вашем рабочем пространстве
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Добавление мест в ваше рабочее пространство и просмотр динамических показателей для них
             Adding Your Own Geospatial Data to Your Workspace: Добавление собственных геопространственных данных в ваше рабочее пространство
+            Adding Your Own Custom Metrics to Your Workspace: Добавление собственных пользовательских показателей в ваше рабочее пространство 
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Доступ к инструменту интегрированного пространственного планирования ELSA в вашем рабочем пространстве
             What if my Question was not Answered?: Что делать, если я не нашел ответ на свой вопрос?
             ELSA Integrated Spatial Planning Tool: Инструмент интегрированного пространственного планирования ELSA
@@ -472,8 +476,9 @@ nav:
       - Managing Users in Your Workspace: unbl-workspaces/4_manage_users.md
       - Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: unbl-workspaces/5_add_places.md
       - Adding Your Own Geospatial Data to Your Workspace: unbl-workspaces/6_add_data.md
-      - Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: unbl-workspaces/7_elsa_tool.md
-      - What if my Question was not Answered?: unbl-workspaces/8_support.md 
+      - Adding Your Own Custom Metrics to Your Workspace: unbl-workspaces/7_custom_metrics.md 
+      - Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: unbl-workspaces/8_elsa_tool.md
+      - What if my Question was not Answered?: unbl-workspaces/9_support.md 
   - ELSA Integrated Spatial Planning Tool:
       - elsa/index.md
       - Overview: elsa/01_overview.md
