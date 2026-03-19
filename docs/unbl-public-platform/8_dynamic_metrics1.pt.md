@@ -39,14 +39,14 @@ Para visualizar essas métricas no Laboratório de Biodiversidade da ONU:
 
 1.	Selecione um país específico ou área de interesse na aba 'LOCAIS'.
 
-2.	Revise as métricas no painel esquerdo. Escolha entre uma lista das nove métricas dinâmicas ou dois indicadores principais clicando no botão 'MÉTRICAS' ou 'INDICADORES PRINCIPAIS'. Observe que as métricas de indicadores principais e a métrica padrão de Áreas Protegidas só podem ser exibidas para locais do tipo país.
+2.	Revise as métricas no painel esquerdo. Escolha entre uma lista das nove métricas dinâmicas ou duas métricas de indicadores principais, selecionando a opção «METRICS» ou «HEADLINE INDICATORS» no painel de controlo apresentado. Observe que as métricas de indicadores principais e a métrica padrão de Áreas Protegidas só podem ser exibidas para locais do tipo país.
 
 3.	Clique no botão de alternância ao lado de qualquer métrica específica se você quiser visualizar este conjunto de dados no mapa. Clique no botão de alternância novamente ou no ícone de remover conjunto de dados na legenda para limpar a tela.
 
-	![](images/en/image035.png)
+	![](images/pt/image035.png)
 
 4.  Clique no ícone ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para visualizar informações do conjunto de dados. As páginas de informações fornecem uma breve descrição dos dados, artigo relacionado para leitura, dados brutos para download (se disponíveis gratuitamente) e especificações de licença.
 
-5.	Para baixar dados resumidos da métrica em formato .csv ou .json, clique no ícone de seta ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Você também pode baixar os dados dos links de origem nas páginas de informações dos conjuntos de dados.
+5.	Para baixar dados resumidos da métrica em formato .csv, .tsv ou .json, clique no ícone de seta ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Você também pode baixar os dados dos links de origem nas páginas de informações dos conjuntos de dados.
 
-	![](images/en/image041.png)
+	![](images/pt/image041.png)

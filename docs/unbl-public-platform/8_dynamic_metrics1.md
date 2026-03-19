@@ -39,7 +39,7 @@ To view these metrics on UN Biodiversity Lab:
 
 1.	Select a specific country or area of interest in the 'PLACES' tab.
 
-2.	Review the metrics in the left panel. Choose between a list of the nine dynamic metrics or two headline indicator metrics by clicking on either the 'METRICS' or 'HEADLINE INDICATORS' button. Note that headline indicator metrics and the Protected Areas standard metric can only be displayed for country-type places.
+2.	Review the metrics in the left panel. Choose between a list of the nine dynamic metrics or two headline indicator metrics by choosing either the 'METRICS' or 'HEADLINE INDICATORS' option from the displayed dashboard. Note that headline indicator metrics and the Protected Areas standard metric can only be displayed for country-type places.
 
 3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the remove dataset icon on the legend to clear the screen. 
 
@@ -47,6 +47,6 @@ To view these metrics on UN Biodiversity Lab:
 	
 4.  Click on the ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to view dataset info. The info pages provide a brief description of the data, related paper to read, raw data to download (if freely available) and license specifications.  
 
-5.	To download summary data for the metric in .csv or .json format, click on the arrow icon ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. You can also download the data from source links on the datasets’ info pages.  
+5.	To download summary data for the metric in .csv, .tsv or .json format, click on the arrow icon ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. You can also download the data from source links on the datasets’ info pages.  
 
 	![](images/en/image041.png)
