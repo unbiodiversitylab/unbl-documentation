@@ -7,7 +7,7 @@ Once registered on the UN Biodiversity Lab, you will be able to manage your acco
 
   <div class="video-wrapper">
     <iframe
-      src="https://www.youtube-nocookie.com/embed/2K337Y_wu_g"
+      src="https://www.youtube-nocookie.com/embed/uGrZXKlEK64"
       title="UNBL tutorial"
       frameborder="0"
       allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
