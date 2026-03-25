@@ -6,6 +6,20 @@
 
 -  Cкачать файл с границами интересующего вас района в формате GeoJSON для использования в настольном ГИС-программном обеспечении. 
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/V3TljHWPyAM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details> 
+
 Для этого:
 
 1.	Нажмите кнопку «МЕСТА» и выберите интересующие вас места.

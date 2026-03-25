@@ -4,17 +4,17 @@ Para registrarse en el UNBL y solicitar acceso a un espacio de trabajo y a la he
 
 1. Haga clic en el botón «Iniciar mapa» en el sitio web [UN Biodiversity Lab](https://unbiodiversitylab.org/es/) para acceder a la aplicación de datos.  
 
-<figure markdown>
-![](images/SP 2.jpg)
-<figcaption>Figura 2. Página de inicio del UNBL</figcaption>
-</figure>
+	<figure markdown>
+	![](images/SP 2.jpg)
+	<figcaption>Figura 2. Página de inicio del UNBL</figcaption>
+	</figure>
 
 2. Una vez que se haya cargado, seleccione el icono de la cuenta en la esquina superior derecha y elija «registrarse». Introduzca su correo electrónico, nombre, país e institución (opcional) y establezca su contraseña para registrarse.  
 
-<figure markdown>
-![](images/SP 3-2.png)
-<figcaption>Figura 3. Ventana de registro</figcaption>
-</figure>
+	<figure markdown>
+	![](images/SP 3-2.png)
+	<figcaption>Figura 3. Ventana de registro</figcaption>
+	</figure>
 
 3. Recibirá un correo electrónico en unos minutos. Siga las instrucciones de este correo electrónico para verificar su cuenta.  
 4. Una vez verificada su cuenta, podrá iniciar sesión con su dirección de correo electrónico y contraseña cada vez que acceda a la plataforma.  

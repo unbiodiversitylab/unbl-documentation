@@ -2,6 +2,20 @@
 
 Le UN Biodiversity Lab est certifié comme plateforme Digital Public Good (DPG) par la Digital Public Goods Alliance. Il offre aux décideurs politiques de nouveaux moyens d'interagir avec des données spatiales de haute qualité. Vous pouvez consulter les ensembles de données spatiales reconnus comme données ouvertes DPG à l'échelle mondiale ou dans une zone qui vous intéresse.
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/SYXxeKbJWGo"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Cliquez sur l'icône DATASETS.
 
 2. Cliquez pour développer les filtres.

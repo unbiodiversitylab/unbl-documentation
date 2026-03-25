@@ -4,11 +4,11 @@ Para se registrar na UNBL e solicitar acesso a um espaço de trabalho e à Ferra
 
 1. Clique no botão 'Launch map' no site do Laboratório de Biodiversidade da ONU para acessar o aplicativo de dados.
 
-![Página inicial da UNBL](images/image002.png)
+	![Página inicial da UNBL](images/image002.png)
 
 2. Depois que carregar, selecione o ícone de conta no canto superior direito e escolha 'sign up'. Insira seu e-mail, nome, país e instituição (opcional) e defina sua senha para se registrar.
 
-![Janela de registro](images/image004.png)
+	![Janela de registro](images/image004.png)
 
 3. Você receberá um e-mail em alguns minutos. Siga as instruções neste e-mail para verificar sua conta.
 4. Depois que sua conta for verificada, você pode fazer login usando seu endereço de e-mail e senha cada vez que acessar a plataforma.

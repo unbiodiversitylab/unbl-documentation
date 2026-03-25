@@ -1,10 +1,24 @@
 # ¿Cómo puedo recortar y exportar conjuntos de datos?
 
-Los usuarios registrados en el UN Biodiversity Lab pueden:
+Para recortar un conjunto de datos a su área de interés y descargarlo:
 
 - Recortar conjuntos de datos ráster a un área de interés y descargarlos para utilizarlos en un software SIG de escritorio--esta función permite a los usuarios acceder a los datos subyacentes, evitando el ancho de banda y el almacenamiento necesarios para descargar y trabajar con un conjunto de datos global;
 
 - Descarga el archivo de límites de una zona de interés en formato GeoJSON para utilizarlo en un programa de SIG de escritorio. 
+
+<details class="unbl-video">
+  <summary>▶️ ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/FQQag2Gd6rU"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 Para ello:
 

@@ -4,6 +4,20 @@ Los datos del UN Biodiversity Lab incluyen los mejores conjuntos de datos global
 
 !!! Note
 	En esta guía y en el UNBL nos referimos tanto a conjuntos de datos como a capas de datos. Cada conjunto de datos puede tener una o varias capas de datos en su interior.
+	
+<details class="unbl-video">
+  <summary>▶️ ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/6SoN68uswHM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 1. Navegue hasta su área de interés, si lo prefiere. También puede permanecer en la vista global.
 

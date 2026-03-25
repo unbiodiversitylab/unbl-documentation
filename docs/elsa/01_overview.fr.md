@@ -6,7 +6,7 @@ Cet outil gratuit, open source, et hébergé dans le cloud, fournit aux parties 
 
 Pour plus d'informations sur les données scientifiques qui sous-tendent le processus de hiérarchisation spatiale ELSA visant à exploiter les observations terrestres pour répondre aux priorités nationales, consultez les ressources suivantes :
 
-- Manuel [sur l'aménagement du territoire intégré](https://www.undp.org/publications/integrated-spatial-planning-workbook)
+- [Manuel sur l'aménagement du territoire intégré](https://www.undp.org/publications/integrated-spatial-planning-workbook)
 
 - [Cours à rythme libre sur l'aménagement du territoire intégré](https://www.learningfornature.org/fr/courses/integrated-spatial-planning-2/)
 

@@ -2,6 +2,20 @@
 
 После регистрации в UNBL вы сможете управлять своим аккаунтом, в том числе редактировать свое имя пользователя, адрес электронной почты, пароль, страну и учреждение. Вы также сможете просматривать и редактировать рабочие пространства, к которым вы принадлежите. 
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/J6ELfe56lwk"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 **Чтобы управлять своим аккаунтом:**
 
 1. Нажмите на значок аккаунта с вашими инициалами в правом верхнем углу, затем нажмите на «Личный кабинет».

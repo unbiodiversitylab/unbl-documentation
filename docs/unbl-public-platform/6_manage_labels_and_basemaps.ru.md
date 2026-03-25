@@ -1,5 +1,19 @@
 # Как мне добавить/удалить метки мест, дороги и спутниковый вид в базовой карте?
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/kpHRsr34-kk"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Существует несколько вариантов настройки базовой карты. Они доступны под значком «ЭЛЕМЕНТЫ УПРАВЛЕНИЯ КАРТОЙ» в правом нижнем углу и включают:
 
 1. *Метки*: метки показывают названия мест, включая страны, штаты, города и представительные достопримечательности. Нажмите на переключатель, чтобы активировать метки, и нажмите еще раз, чтобы скрыть их. 

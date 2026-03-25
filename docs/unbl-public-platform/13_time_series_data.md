@@ -2,6 +2,20 @@
 
 UN Biodiversity Lab provides you with access to datasets that show change over time. Some time series datasets are visualized over multiple years with animation, others can be visualized by specific year via the dropdown menu, and some are a combination of both with the ability to visualize animations of particular years that can be chosen from the dropdown menu. 
 
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/nF75mFOsLng"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.  Select the "Time series" tag in the filters tab to filter for datasets which are available as time series.
 
 2.	Select the dataset of interest. 

@@ -2,6 +2,21 @@
 
 Прежде чем начать изучать карты, зарегистрируйте аккаунт на Лаборатории ООН по биоразнообразию.
 
+
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/uAMYH7MvtVM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Кликните на кнопку «Запустить карту» на странице [Лаборатории ООН по биоразнообразию.](https://unbiodiversitylab.org/).
 
 	![](images/ru/image003.png)

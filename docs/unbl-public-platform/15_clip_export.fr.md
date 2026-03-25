@@ -1,10 +1,24 @@
 # Comment découper et exporter des ensembles de données ?
 
-Les utilisateurs enregistrés sur le UN Biodiversity Lab peuvent:
+Pour découper un ensemble de données correspondant à la zone qui vous intéresse et le télécharger :
 
 - Découper des ensembles de données raster pour les limiter à une zone qui les intéresse et les télécharger afin de les utiliser dans un logiciel SIG de bureau -- cette fonction permet aux utilisateurs d'accéder aux données sous-jacentes tout en évitant la bande passante et le stockage nécessaires pour télécharger et travailler avec un ensemble de données mondial.
 
 - Téléchargez le fichier de limites d'une zone d'intérêt au format GeoJSON pour l'utiliser dans un logiciel SIG de bureau. 
+
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/NEkbImR--_4"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 Pour ce faire :
 

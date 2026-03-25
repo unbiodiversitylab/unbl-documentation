@@ -37,6 +37,20 @@ It is important to note that eight of the standard metrics can be displayed for 
 
 To view these metrics on UN Biodiversity Lab:
 
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/7vWRyw-Hbu0"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Select a specific country or area of interest in the 'PLACES' tab.
 
 2.	Review the metrics in the left panel. Choose between a list of the nine dynamic metrics or two headline indicator metrics by choosing either the 'METRICS' or 'HEADLINE INDICATORS' option from the displayed dashboard. Note that headline indicator metrics and the Protected Areas standard metric can only be displayed for country-type places.

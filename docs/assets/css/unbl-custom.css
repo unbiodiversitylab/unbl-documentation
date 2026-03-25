@@ -27,3 +27,89 @@ img {
 .md-footer {
   background-color: #0099a1 !important;
 }
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Make it look like a clickable furled row */
+details.unbl-video {
+  margin: 1rem 0;
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* The clickable header row */
+details.unbl-video > summary {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  align-items: center;        /* ✅ vertically center content */
+  justify-content: space-between;
+  background-color: #0099a1;  /* ✅ your custom teal */
+  color: white;
+  border-radius: 14px;
+}
+
+/* Remove default marker */
+details.unbl-video > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Remove any theme icon injection */
+details.unbl-video > summary::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* Chevron arrow on right */
+details.unbl-video > summary::after {
+  content: "›";
+  font-size: 1.6rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  opacity: 0.9;
+}
+
+/* Rotate arrow when open */
+details.unbl-video[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+/* Video container spacing when expanded */
+details.unbl-video[open] .video-wrapper {
+  margin: 1rem 0;
+}
+
+/* Remove Material icon from custom video details block */
+details.unbl-video > summary::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* Also neutralize any mask icon that might be applied */
+details.unbl-video > summary {
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+
+/* Increase font size for the video toggle header */
+details.unbl-video > summary {
+  font-size: 1rem;   /* try 1.1rem if you want larger */
+  font-weight: 400;     /* slightly stronger */
+}

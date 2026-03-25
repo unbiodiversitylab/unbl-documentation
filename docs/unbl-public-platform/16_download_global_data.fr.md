@@ -1,5 +1,19 @@
 # Comment télécharger des ensembles de données mondiaux non découpés ?
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/QjSaiBIJRic"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Sélectionnez l'ensemble de données qui vous intéresse.
 
 2. Cliquez sur l'icône d'informations sur l'ensemble de données.

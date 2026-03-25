@@ -37,6 +37,20 @@ Il est important de noter que huit des indicateurs standard peuvent être affich
 
 Pour consulter ces indicateurs sur le UN Biodiversity Lab :
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/-ch9D70XHtM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Sélectionnez un pays ou une zone d'intérêt spécifique dans l'onglet ENDROITS.
 
 2. Consultez les indicateurs dans le panneau de gauche. Choisissez entre une liste de neuf indicateurs dynamiques ou deux indicateurs principaux en sélectionnant l'option METRICS ou HEADLINE INDICATORS dans le tableau de bord affiché. Notez que les indicateurs principaux et l'indicateur standard des aires protégées ne peuvent être affichés que pour les lieux de type pays.

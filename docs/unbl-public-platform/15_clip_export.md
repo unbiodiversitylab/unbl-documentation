@@ -6,6 +6,20 @@ Registered users on UN Biodiversity Lab are able to:
 
 - Download the boundary file of an area of interest as a GeoJSON for use in a desktop GIS software. 
 
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Ec1JfnYVFoY"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details> 
+
 To do this:
 
 1.	Click on the 'PLACES' button and select your places of interest.
