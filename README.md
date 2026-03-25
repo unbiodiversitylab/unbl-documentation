@@ -74,7 +74,8 @@ Language switching is available in the site header.
 ## 📝 Documentation
 
 - **[QUICKSTART.md](QUICKSTART.md)** - Get started in 5 minutes
-- **[CUSTOM_DOMAIN_SETUP](CUSTOM_DOMAIN_SETUP.md)** - Guidance on setting up a custom domain instead of using the default GitHub Pages URL. 
+- **[CUSTOM_DOMAIN_SETUP](CUSTOM_DOMAIN_SETUP.md)** - Guidance on setting up a custom domain instead of using the default GitHub Pages URL
+- **[TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md)** - Guide for translators working across UNBL repos
 
 ## 🎨 Features
 
@@ -172,6 +173,7 @@ Documentation content © 2025 UNDP & UNEP-WCMC
 - [Markdown Guide](https://www.markdownguide.org/)
 
 ### For Translators
+- [Translation Contributor Guide](TRANSLATION_GUIDE.md) - Step-by-step guide for translating across all UNBL repos
 - [mkdocs-static-i18n Plugin](https://github.com/ultrabug/mkdocs-static-i18n)
 
 ### For Content Authors

@@ -1,6 +1,10 @@
 # Como faço para recortar e exportar conjuntos de dados?
 
-Usuários registrados no Laboratório de Biodiversidade da ONU podem recortar conjuntos de dados raster para uma área de interesse e baixá-los para uso em um software de SIG de desktop. Esta função permite que os usuários acessem os dados subjacentes enquanto evitam a largura de banda e o armazenamento necessários para baixar e trabalhar com um conjunto de dados global.
+Para recortar um conjunto de dados para sua área de interesse e baixar:
+
+- Recortar conjuntos de dados raster a uma área de interesse e descarregá-los para utilização num software SIG de secretária — esta função permite aos utilizadores aceder aos dados subjacentes, evitando ao mesmo tempo a largura de banda e o espaço de armazenamento necessários para descarregar e trabalhar com um conjunto de dados global;
+
+- Descarregue o ficheiro de limites de uma área de interesse no formato GeoJSON para utilização num software SIG para computador. 
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>
@@ -16,13 +20,13 @@ Usuários registrados no Laboratório de Biodiversidade da ONU podem recortar co
   </div>
 </details>
 
-Para recortar um conjunto de dados para sua área de interesse e baixar:
+To do this:
 
 1.	Clique no botão 'LOCAIS' e selecione seus locais de interesse.
 
-2.	Clique no ícone **…** à direita do nome do país e clique em 'Recortar e Exportar Camadas'.
+2.	Clique no ícone ![](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} à direita do nome do país e clique em «Descarregar GeoJSON» para descarregar o ficheiro de limites da sua área de interesse, ou clique em «Recortar e exportar camadas» se pretender recortar e descarregar um conjunto de dados específico. Se escolher a última opção, siga os passos adicionais 3 a 6 descritos abaixo.
 
-	![](images/en/image073.png)
+	![](images/pt/image073.png)
 
 3.  Digite o nome ou selecione os dados que você deseja baixar. Se os dados contiverem camadas de múltiplos anos, selecione o ano que você deseja baixar. Você tem a opção de baixar camadas recortadas em formato raster GeoTIFF ou em formato de arquivo de imagem PNG.
 

@@ -1,6 +1,10 @@
 # How do I clip and export datasets?
 
-Registered users on UN Biodiversity Lab are able to clip raster datasets to an area of interest and download them for use in a desktop GIS software. This function allows users to access the underlying data while avoiding the bandwidth and storage required to download and work with a global dataset.
+Registered users on UN Biodiversity Lab are able to:
+
+- Clip raster datasets to an area of interest and download them for use in a desktop GIS software--this function allows users to access the underlying data while avoiding the bandwidth and storage required to download and work with a global dataset;
+
+- Download the boundary file of an area of interest as a GeoJSON for use in a desktop GIS software. 
 
 <details class="unbl-video">
   <summary>▶️ Prefer video? Click here!</summary>
@@ -16,11 +20,11 @@ Registered users on UN Biodiversity Lab are able to clip raster datasets to an a
   </div>
 </details> 
 
-To clip a dataset to your area of interest and download:
+To do this:
 
 1.	Click on the 'PLACES' button and select your places of interest.
 
-2.	Click on the **…** icon to the right of the country’s name and click on 'Clip and Export Layers'. 
+2.	Click on the ![](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} icon to the right of the country’s name and click on 'Download GeoJSON' to download the boundary file for your area of interest, or click on 'Clip and Export Layers' if you want to clip and download a specific dataset. If picking the latter option, follow the additional steps 3 - 6 outlined below.
 
 	![](images/en/image073.png)
 

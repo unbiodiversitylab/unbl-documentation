@@ -42,6 +42,7 @@ This document explains what each configuration file is for and whether you need 
 - **`CUSTOM_DOMAIN_SETUP.md`** - Custom domain instructions
 - **`DEPLOYMENT_SUMMARY.md`** - Deployment overview
 - **`TODO.md`** - Task tracking
+- **`TRANSLATION_GUIDE.md`** - Translation contributor guide (covers all 3 UNBL repos)
 - **`FILE_PURPOSES.md`** - This file
 
 ## 🗂️ Supporting Directories
