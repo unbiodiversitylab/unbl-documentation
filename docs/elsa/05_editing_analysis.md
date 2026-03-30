@@ -101,7 +101,7 @@ You should enter a weight for each planning feature in the input data list. We r
 *  5.0 - medium importance 
 *  10 - utmost importance  
 
-To allow users to make the most informed decision possible, the theme (biodiversity/climate change/human well-being), relevant actions, and proxy KMGBF policy target (or other relevant NBSAP/national policy target) are listed for each planning feature. You can evaluate the priority level of each planning feature and assign an informed weight by deciding on the relative importance of each of the planning features used to map KMGBF targets (or other relevant NBSAP/national policy targets otherwise defined by their country) in your country. For example, if KMGBF Target 1 is of especially high importance for your country, then planning features such as intact ecosystems, high integrity forests, biodiversity habitat index and biodiversity intactness index should be given greater weight (> 3). Alternatively, if you believe threatened ecosystems in your country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then you can give a higher weight to the ‘Threatened Ecosystems for Restoration’ planning feature which specifically maps these areas (see [Figure 10](#fig-edit-weights)). 
+To allow users to make the most informed decision possible, the theme (biodiversity/climate change/human well-being), relevant actions, and proxy KMGBF policy target (or other relevant NBSAP/national policy target) are listed for each planning feature. You can evaluate the priority level of each planning feature and assign an informed weight by deciding on the relative importance of each of the planning features used to map KMGBF targets (or other relevant NBSAP/national policy targets otherwise defined by their country) in your country. For example, if KMGBF Target 1 is of especially high importance for your country, then planning features such as the biodiversity habitat index and biodiversity intactness index should be given greater weight (> 3). Alternatively, if you believe threatened ecosystems in your country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then you can give a higher weight to the ‘Threatened Ecosystems for Restoration’ planning feature which specifically maps these areas. 
 
 For a full list of input data, as well as which KMGBF targets they are used to map, please see [Annex 2](13_annex2.md).
 
@@ -112,18 +112,20 @@ For a full list of input data, as well as which KMGBF targets they are used to m
 
 ## View input layers
 
-If you want to view planning features before setting weights, you will have to exit the pop-up window by clicking ‘SAVE FOR LATER’ in the bottom-right corner. You can then come back to your saved draft analysis run after viewing the desired planning features. 
+If you want to view planning features before setting weights, you can either:
 
-To view planning features, click on the ‘INPUT LAYERS’ option next to the ‘ANALYSIS RUNS’ option in the left tool tab. You can then toggle specific input layers to view them on UNBL. 
+- Minimize and drag the pop-up window, and select the layers you want to view by clicking on the toggle button in the *View on Map* column
+
+- Exit the pop-up window by clicking ‘SAVE FOR LATER’ in the bottom-right corner (you can come back to your saved draft analysis run after viewing the desired planning features), then click on the ‘INPUT LAYERS’ option next to the ‘ANALYSIS RUNS’ option in the left tool tab. Click on the toggle button to view specific layers.
 
 <figure markdown>
 ![](images/image012.png)
 <figcaption> Figure 11. Viewing action zones and planning features on UNBL</figcaption>
 </figure>
 
-By clicking on the ‘INPUT LAYERS’ tab, you can view each individual input planning feature layer included in the ELSA analysis; these inputs are specifically tailored to help identify priority areas for KMGBF implementation, as well as NBSAP/other national policy implementation, if specifically requested by your country. You can additionally view (optional) lock-in features (namely, existing protected areas) in your country. Finally, you can view the layer for each action zone that defines where it is possible for each action to take place in your country for the analysis.
+Each individual input planning feature layer included in the ELSA analysis is specifically tailored to help identify priority areas for KMGBF implementation, as well as NBSAP/other national policy implementation, if specifically requested by your country. If viewing layers through the 'INPUT LAYERS' list in the left tool tab, you can additionally view (optional) lock-in features (namely, existing protected areas) in your country, as well as the layer for each action zone that defines where it is possible for each action to take place in your country for the analysis.
 
-Steps: 
+In sum: 
 
 * Click the toggle button for each action zone/lock-in zone/input planning feature layer you want to display.
 * Click the toggle button again to remove the selected layer from the view.  
@@ -131,5 +133,5 @@ Steps:
 
 <figure markdown>
 ![](images/image013.png)
-<figcaption> Figure 12. Viewing metadata</figcaption>
+<figcaption>Figure 12. Viewing metadata</figcaption>
 </figure>
