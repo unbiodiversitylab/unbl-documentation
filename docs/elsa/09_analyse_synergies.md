@@ -3,7 +3,7 @@
 One outcome of the ELSA analysis is to identify synergies among actions for KMGBF Targets that span biodiversity, climate change and human well-being. The analysis measures the outcome of each planning feature with a representation score to show where planning for all KMGBF targets simultaneously might have led to specific planning features being represented at a lower level than other features. Where, in the thematic maps: 
 
 $$
-\text{Representation score} = \frac{\text{Representation in prioritization map}}{\text{Maximum representation}}
+\text{Representation score} = \frac{\text{Representation in ELSA action map}}{\text{Maximum representation}}
 $$   
 
 After running an analysis, you can view the results and evaluate whether the parameters selected led to an acceptable representation for each of the planning features. 
