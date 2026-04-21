@@ -3,7 +3,7 @@
 !!! info "Key Concepts"
     * [Action Zones](12_annex1.md#action-zones)
     * [Lock-in Features](12_annex1.md#lock-in-features)
-    * [Area-based constraint](12_annex1.md#area-based-constraint)
+    * [Area-based target](12_annex1.md#area-based-target)
     * [Boundary Penalty Factor (BPF)](12_annex1.md#boundary-penalty-factor-bpf)
     * [Planning feature](12_annex1.md#planning-feature)
     * [Planning units](12_annex1.md#planning-units)
@@ -21,7 +21,7 @@ Upon clicking ‘NEW ANALYSIS RUN’ ([Figure 5](#fig-create-new-analysis)), you
 
 ## Selecting lock-in functions
 
-You can ensure certain areas are included in your action map. Conceptually this is most easily understood as locking in existing planning areas to the protect action in a map – in essence replicating on the ground realities. This forces these areas to be selected within the protect action in the map, and these areas are forced to contribute to meeting the area constraint for protection. The national protected area coverage (%) is shown in parentheses. Tool configurations are not only limited to locking in existing protected areas to the protect action (for example, it might be desirable to lock-in existing restoration project areas to the restore action); however, by default tool configurations are currently only configured to allow lock-in of protected areas.    
+You can ensure certain areas are included in your action map. Conceptually this is most easily understood as locking in existing planning areas to the protect action in a map – in essence replicating on the ground realities. This forces these areas to be selected within the protect action in the map, and these areas are forced to contribute to meeting the area-based target for protection. The national protected area coverage (%) is shown in parentheses. Tool configurations are not only limited to locking in existing protected areas to the protect action (for example, it might be desirable to lock-in existing restoration project areas to the restore action); however, by default tool configurations are currently only configured to allow lock-in of protected areas.    
 
 !!! important
     Protected Areas are locked-in **BY DEFAULT**
@@ -36,7 +36,7 @@ Lock-in of Protected Areas ([Figure 6](#fig-lockin-options)):
 <figcaption> Figure 6. Lock-in functionalities</figcaption>
 </figure>
 
-As seen in [Figure 6](#fig-lockin-options) for Cuba, existing Protected Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in Existing Protected Areas’ requires that at least 17.08% of the national territory be assigned under the ‘Protect’ area constraint. 
+As seen in [Figure 6](#fig-lockin-options) for Cuba, existing Protected Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in Existing Protected Areas’ requires that at least 17.08% of the national territory be assigned under the ‘Protect’ area-based target. 
 
 ## Alternative Zones
 
@@ -47,9 +47,9 @@ Users cannot define zones themselves, but for some actions, there may be both a 
 <figcaption> Figure 7. Alternative zones for narrowing down nature-based activity areas</figcaption>
 </figure>
 
-## Setting area-based constraints for actions
+## Setting area-based targets for actions
 
-This part of the tool allows you to set area-based constraints (targets) for protection, restoration, management and/or urban greening. Area constraints can also be understood as the percentage of land area that should be given to each action in the resulting action map. The default values in any given ELSA Tool are derived from terrestrial targets in the KMGBF, unless further customized for your country by the UNBL team based on your National Biodiversity Strategy and Action Plan (NBSAP) or other national policy documents.
+This part of the tool allows you to set area-based targets (targets) for protection, restoration, management and/or urban greening. Area-based targets can also be understood as the percentage of land area that should be given to each action in the resulting action map. The default values in any given ELSA Tool are derived from terrestrial targets in the KMGBF, unless further customized for your country by the UNBL team based on your National Biodiversity Strategy and Action Plan (NBSAP) or other national policy documents.
 
 !!! warning "Note the different types of actions available in the ELSA Tool and their associated policies:"
 	| Default Action | KMGBF Target | UNCCD LDN response hierarchy |
@@ -61,12 +61,12 @@ This part of the tool allows you to set area-based constraints (targets) for pro
 	
 	The actions referenced here are the functional equivalent of actions of the LDN response hierarchy supported under UNCCD. ‘Protect’ is the equivalent of ‘avoid’ land degradation, ‘manage’ is the equivalent of ‘reduce’ land degradation, and ‘restore’ is the equivalent of ‘reverse’ land degradation. In summary, this equates “Protect–Manage–Restore” with ”Avoid–Reduce–Reverse”, ensuring alignment across global biodiversity frameworks. For more information on each KMGBF Target, please see the [CBD website](https://www.cbd.int/gbf/targets). For more information on the LDN response hierarchy, see the [UNCCD website](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
-You can set any value greater than or equal to 0.001 for protection, restoration, management, and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%. Additionally, the maximum value for any single area constraint cannot exceed the total area of that action zone. For example, if 80% of a country is covered by a protect zone, then the maximum value that can be assigned for the area-based constraint for protection cannot exceed 80%. If you enter a number that is too high, you will receive an error specifying the maximum amount that can be allocated.  
+You can set any value greater than or equal to 0.001 for protection, restoration, management, and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%. Additionally, the maximum value for any single area-based target cannot exceed the total area of that action zone. For example, if 80% of a country is covered by a protect zone, then the maximum value that can be assigned for the area-based target for protection cannot exceed 80%. If you enter a number that is too high, you will receive an error specifying the maximum amount that can be allocated.  
 
 !!! note
     Note: The location and total area of each action zone defines where it is possible for each action to take place. It is determined based on ecosystem type and level of development in a country (e.g., protection cannot take place in areas with a high human industrial index).  
 
-You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area constraint must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area constraint should be equal to or greater than 17.08%.
+You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area-based target must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area-based target should be equal to or greater than 17.08%.
 
 <figure markdown>
 ![](images/image009.png){#fig-setting-objectives}

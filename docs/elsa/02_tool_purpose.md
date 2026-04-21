@@ -14,7 +14,7 @@ The ELSA Tool enables diverse stakeholders to collaboratively assess national pr
 
 The ELSA Tool **cannot** be used to: 
 
-  - Add additional data layers for inclusion either as planning features or as zoning constraints.  
+  - Add additional data layers for inclusion either as planning features or as zoning targets. 
   - Directly replace input layers with other input layers.  
   - Add additional lock-in features. 
 
