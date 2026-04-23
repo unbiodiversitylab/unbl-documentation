@@ -2,7 +2,7 @@
 
 ## How do I add places?
 
-Adding a new place to your workspace provides you with the ability to utilize all functionalities of UNBL for any area of interest (protected area, subnational administrative level, transboundary area, indigenous community boundary, etc.). Once the place has been added to your UNBL workspace, you will be able to: (1) display dynamic metrics for this area of interest (as zonal statistics); and (2) clip any raster layer published on the UNBL public platform (with an open-access license) to this area of interest and then download it as a GeoTIFF file for further work in a desktop GIS software. Adding a place involves uploading a vector file (polygon or multipolygon) to UNBL. For further details around privacy of uploaded data, please see our [overview sheet on data security](data_security.md).
+Adding a new place to your workspace provides you with the ability to utilize all functionalities of UNBL for any area of interest (protected area, subnational administrative level, transboundary area, indigenous community boundary, etc.). Once the place has been added to your UNBL workspace, you will be able to: (1) display UNBL's standard dynamic metrics for this area of interest; (2) display your own custom metrics (as zonal statistics) for this area of interest; and (3) clip any raster layer published on the UNBL public platform (with an open-access license) to this area of interest and then download it as a GeoTIFF file for further work in a desktop GIS software. Adding a place involves uploading a vector file (polygon or multipolygon) to UNBL. For further details around privacy of uploaded data, please see our [overview sheet on data security](data_security.md).
 
 To add a new place:
 
@@ -17,6 +17,9 @@ To add a new place:
 	a.	*Title*: Insert place name. We recommend keeping these short and clear. Currently, no special characters are allowed. 
 	
 	b.	*Place type*: Select the appropriate class from the dropdown menu. This will be helpful for filtering your searches later. You can choose from *Biome or Ecosystem, Community and Indigenous Area, Country, Cross-Boundary Area, Other Jurisdiction, Protected Area, Species Range,* or *Study Area*.
+	
+	!!!Note
+		Choosing the *Country* type will prompt you to optionally enter an ISO3/M49 country code for your country. This will allow dynamic metrics and headline indicators that are only available for country-level places to be displayed for your area of interest.
 	
 	c.	*Slug*: Insert a unique identifier for the place that contains only lowercase letters, numbers, and hyphens. No spaces can be used. This will uniquely identify your place from all others within the UNBL system. We recommend using the ‘GENERATE A SLUG NAME’ button to help you generate an appropriate slug. 
 	
@@ -52,7 +55,7 @@ You can also make edits to existing places and view your place on  a basemap to 
 
 ## How do I display metrics for my added places?  
 
-Dynamic metrics become automatically available for your place as soon as you upload it onto UNBL. To display dynamic metrics for places within your UNBL workspace:
+UNBL's standard dynamic metrics become automatically available for your place as soon as you upload it onto UNBL. To display dynamic metrics for places within your UNBL workspace:
 
 1.	Navigate to the UNBL map view by clicking on your workspace name in the workspace admin interface in the top-left corner, and then click on ‘Map View’. 
 
