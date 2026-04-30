@@ -12,13 +12,13 @@ UNBL workspaces also support the connection to external   geospatial data throug
 
 - Google Earth Engine (GEE)
 
-- Spatiotemporal Asset Catalog (STAC)
+- Spatiotemporal Asset Catalog (STAC) *(not ready yet - coming soon!)*
 
 - XYZ Tile Service
 
 - Mapbox
 
-- Esri ArcGIS API Map Service 
+- Esri ArcGIS API Map Service through WMS, WMTS, or vector tile service
  
 - Vector Tile Services (served as pg_tileserv or Martin)
 
@@ -49,14 +49,14 @@ To begin creating a layer and fill in relevant metadata for the layer:
 	
 	d.	*Tag (optional)*: You can specify one or more tags for your layer. Tags correspond to the dataset tags filter in the map view. Specifying a tag for your layer will mean that the layer will appear in the list of filtered layers when the corresponding dataset tag filter is applied in the map. Unlike layer categories, tags can be any text string of your choice, making this feature useful if you need to clearly differentiate your workspace layers from public platform datasets and be able to apply more effective filters when searching for your datasets in the map view. For example, you could use a tag to identify the target in your national biodiversity strategy and action plan (NBSAP) for which the data layer is relevant.
 	
-	e.	*Layer description (optional)*: In the description field, you can specify the text that will appear in the layer information pop-up box. Here, you can insert the bulk of your layer metadata, such as a general description, citation for the scientific paper/dataset, external links to the scientific paper/dataset, license specifications, etc. 
+	e.	*Layer description (optional)*: In the description field, you can specify the text that will appear in the layer information pop-up box. Here, you can insert the bulk of your layer metadata, such as a general description, citation for the scientific paper/dataset, external links to the scientific paper/dataset, license specifications, etc. There is an additional 'METADATA' parameter which permits you to fill in concrete data parameters such as the resolution, data version, dataset date and publication date. The 'PREVIEW' parameter allows you to preview how the layer information pop-up box will look like on UNBL.
 	
 	!!!Note
 		For individual layers that are part of a parent group layer, the layer information pop-up text will always display the description of the parent group layer and so the description field is redundant (see [‘How do I create group layers?’](#how-do-i-create-group-layers)).
 
 	![](images/en/image23.png)
 	
-4.	Once you have filled in the relevant metadata to document this new layer, you now need to specify the format or geospatial webservice standard of your geospatial data and set up the layer configuration accordingly. The forthcoming sections detail how to configure your layer based on the format of your geospatial data.
+4.	Once you have filled in the relevant metadata to document this new layer, you now need to specify the format or geospatial web service standard of your geospatial data and set up the layer configuration accordingly. The forthcoming sections detail how to configure your layer based on the format of your geospatial data.
 
 ## How do I upload raster layers in GeoTIFF format?
 
@@ -142,7 +142,7 @@ UNBL supports the configuration of raster image layers to your workspace by link
 	
 	e.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.
 	
-	f.	*Layer styling*: The layer styling determines how the legend for the raster image is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries to match the values in the raster image. Each layer styling entry should define the following properties: 
+	f.	*Legend Config*: The legend styling determines how the legend for the raster image is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of legend styling entries to match the color scheme used in the raster image. Each legend styling entry should define the following properties: 
 	
 	- *Name* – the name of the styling entry in the layer legend on the map.
 	
@@ -170,9 +170,9 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 
 	a.	*Layer type*: Select ‘raster’.
 
-	b.	*Layer provider*: Select ‘Google Earth Engine’.
+	b.	*Layer provider*: Select ‘Google earth engine’.
 	
-	c.	*Asset Path*: Copy and paste the image ID of your GEE asset Any image ID can be configured on UNBL, provided that it is a single raster band image. It can be an image ID of your personal GEE Cloud Project, or any other shared GEE Cloud Project or publicly available GEE dataset, such as one from the public catalogue [awesome-gee-community-catalog](https://gee-community-catalog.org/), which provides access to over 4,000 public GEE assets. 
+	c.	*Asset Path*: Copy and paste the image ID of your GEE asset. Any image ID can be configured on UNBL, provided that it is a single raster band image. It can be an image ID of your personal GEE Cloud Project, or any other shared GEE Cloud Project or publicly available GEE dataset, such as one from the public catalogue [awesome-gee-community-catalog](https://gee-community-catalog.org/), which provides access to over 4,000 public GEE assets. 
 	
 	![](images/en/draft2-image3.png)
 	
@@ -182,7 +182,7 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 	
 	![](images/en/draft2-image4.png)
 	
-	f.	*Layer styling*: The layer styling determines how the legend for the GEE asset is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries (also known as *classes* or *thresholds*) to match the values in the raster image. Each layer styling entry should define the following properties:
+	f.	*Layer styling*: The layer styling determines how the legend for the GEE asset is displayed on the map, and it is also used to generate the Styled Layer Description (SLD) which influences the styling of the GEE asset in the map view. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries (also known as *classes* or *thresholds*) to match the values in the raster image. Each layer styling entry should define the following properties:
 
 	- *Value* - the pixel value in the data to define the styling for.
 
@@ -200,7 +200,7 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 	
 	![](images/en/draft2-image7.png)
 	
-	g.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step f. While layer styling determines the style of the layer legend, the SLD will determine the style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous color scheme for carbon stock concentration would look like this:
+	g.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step f. While layer styling determines the style of the layer legend, the SLD will determine the color style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous color scheme for carbon stock concentration would look like this:
 	
 	```
 	
@@ -524,7 +524,7 @@ You may want to go back and edit your added layers to change any of the associat
 2.	To test if your layer is visualizing properly in the UNBL map view, click on the ‘TEST LAYER’ button in the bottom right corner of the edit layer page. A green tick will appear inside the button if the layer has been correctly uploaded and/or configured. Otherwise, a red cross will appear with an error message diagnosing the problem.
 
 	!!!Note
-		If you are uploading a regional dataset (non-global extent), it is possible that the test may report a failure even if the layer is working, as the test may request sample tiles that fall outside of your dataset’s areal extent. It is best practice to double check the test layer diagnosis by verifying manually whether your layer is visualizing in the UNBL map view.
+		If you are uploading a regional dataset (non-global extent), it is possible that the test may report a failure even if the layer is working, as the test may request sample tiles that fall outside of your dataset’s areal extent. Alternatively, the test may report a positive result solely due to a valid external layer URL, even if the layer is failing to visualize in the map view due to an incorrect layer styling configuration. Therefore, it is always best practice to double check the test layer diagnosis by verifying manually whether your layer is visualizing in the UNBL map view.
 
 	![](images/en/image34.png)
 	
@@ -536,24 +536,24 @@ You may want to go back and edit your added layers to change any of the associat
 	
 ## How do I create group layers?
 
-Any layers that you add to your UNBL workspace can be grouped together to organize multi-year or multi-categorical data. Each year or category is akin to an individual raster band. Group layers are created in a new, separate layer (termed *parent layer* on UNBL) to the component layers. For example, a land cover raster spanning three years would require four layers to be made: each year as its own layer, as well as a fourth parent layer they will all be accessible from. In this case, each individual year/category layer must be published and **not** marked as primary to be discoverable in the map view exclusively through a group layer. The group/parent layer is an additional display layer with a fixed layer configuration which references all individual year/category layers. It is published and marked as primary. When the group layer is viewed on UNBL, a single layer legend appears from which you can select any one of your included component layers to be visualized in the map view.
+Any layers that you add to your UNBL workspace can be grouped together to organize multi-year or multi-categorical data. Each year or category is akin to an individual raster band. Group layers are created in a new, separate layer (termed *parent layer* on UNBL) to the component layers (termed *child layers* on UNBL). For example, a land cover raster spanning three years would require four layers to be made: each year as its own child layer, as well as a fourth parent layer they will all be accessible from. In this case, each individual child layer must be published and **not** marked as primary to be discoverable in the map view exclusively through a group layer. The group/parent layer is an additional display layer with a fixed layer configuration which references all child layers. It is published and marked as primary. When the group layer is viewed on UNBL, a single layer legend appears from which you can select any one of your included child layers to be visualized in the map view.
 
 !!!Note
-	If individual year/category layers which you are linking through a group layer are also marked as primary, in addition to being published, these layers will be discoverable as individual entries in the ‘DATASETS’ search bar, thereby duplicating entries with the published group layer.
+	If child layers which you are linking through a group layer are also marked as primary, in addition to being published, these layers will be discoverable as individual entries in the ‘DATASETS’ search bar, thereby duplicating entries with the published group layer.
 
 To set up a group layer:
 
-1.	Publish all component layers to be included in the group layer, and do **not** mark them as primary. The public URL feature works in the same way as for standalone layers (see [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users)).
+1.	Publish all child layers to be included in the group layer, and do **not** mark them as primary. The public URL feature works in the same way as for standalone layers (see [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users)).
 
 2.	Create a separate layer using the ‘CREATE NEW LAYER’ button in the ‘Layers’ page of the admin interface for your workspace. This will be your designated group layer.
 
-3.	Enter a layer title, layer slug, layer category, search tag, and a layer description which is representative of the dataset represented by your collection of grouped individual layers. Note that the layer description for component layers is redundant – you only need to fill in the layer description for the group layer which contains your component layers. For more information on filling in metadata for layers, see [‘What parameters and metadata do I fill in when creating a layer?’](#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer).
+3.	Enter a layer title, layer slug, layer category, search tag, and a layer description which is representative of the dataset represented by your collection of child layers. Note that the layer description for child layers is redundant – you only need to fill in the layer description for the group layer which contains your child layers. For more information on filling in metadata for layers, see [‘What parameters and metadata do I fill in when creating a layer?’](#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer).
  
 4.	*Layer type*: Select ‘group’.
 
-5.	*Grouped layers*: From the dropdown menu, select all component layers which you want to include in your group layer. Available layers for inclusion are all added layers in your workspace.
+5.	*Grouped layers*: From the dropdown menu, select all child layers which you want to include in your group layer. Available layers for inclusion are all added layers in your workspace.
 
-6.	*Layer selector*: From the dropdown menu, select either ‘Dropdown’ or ‘Radio Button’. These options influence how the layer selector UI appears in the layer legend of the group layer on UNBL. The dropdown option is recommended for group layers with more than three component layers. The radio button option is recommended for group layers with three or less component layers, or when group layers represent the same data with different styling. 
+6.	*Layer selector*: From the dropdown menu, select either ‘Dropdown’ or ‘Radio Button’. These options influence how the layer selector UI appears in the layer legend of the group layer on UNBL. The dropdown option is recommended for group layers with more than three child layers. The radio button option is recommended for group layers with three or less child layers, or when group layers represent the same data with different styling. 
 
 	![](images/en/image36.png)
 	
