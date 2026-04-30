@@ -16,7 +16,7 @@ To add a new place:
 
 	a.	*Title*: Insert place name. We recommend keeping these short and clear. Currently, no special characters are allowed. 
 	
-	b.	*Place type*: Select the appropriate class from the dropdown menu. This will be helpful for filtering your searches later. You can choose from *Biome or Ecosystem, Community and Indigenous Area, Country, Cross-Boundary Area, Other Jurisdiction, Protected Area, Species Range,* or *Study Area*.
+	b.	*Place type*: Select the appropriate class from the dropdown menu. This will be helpful for filtering your searches later. You can choose from *Biome or Ecosystem, Community and Indigenous Area, Country, Cross-Boundary Area, Marine, Other Jurisdiction, Protected Area, Species Range,* or *Study Area*.
 	
 	!!!Note
 		Choosing the *Country* type will prompt you to optionally enter an ISO3/M49 country code for your country. This will allow dynamic metrics and headline indicators that are only available for country-level places to be displayed for your area of interest.
@@ -29,9 +29,7 @@ To add a new place:
 	
 	![](images/en/image12.png)
 	
-4.	Once you save your new place, you will be brought to the place’s edit page. For your place to be discoverable and viewable in the map view, you must publish the place by clicking the ‘Published’ toggle button. Unpublished places remain in the admin interface until you are ready to publish them to the UNBL map view.  
- 
-5.	To make this a featured place for your workspace, click the ‘Featured’ toggle button. This will act as a bookmark so that the place appears at the top of the list in the ‘Places’ tab anytime a location is not selected. 
+4.	Once you save your new place, you will be brought to the place’s edit page. For your place to be discoverable and viewable in the map view, you must publish the place by clicking the ‘Published’ toggle button. Unpublished places remain in the admin interface until you are ready to publish them to the UNBL map view.
 
 	![](images/en/image13.png)
 
@@ -57,31 +55,37 @@ You can also make edits to existing places and view your place on  a basemap to 
 
 UNBL's standard dynamic metrics become automatically available for your place as soon as you upload it onto UNBL. To display dynamic metrics for places within your UNBL workspace:
 
-1.	Navigate to the UNBL map view by clicking on your workspace name in the workspace admin interface in the top-left corner, and then click on ‘Map View’. 
+1.	a) Click on the 'VIEW ON MAP' button at the bottom of the place edit page. 
+
+	![](images/en/image16_5_new.png)
+	
+	**OR**
+	
+	b) Navigate to the UNBL map view by clicking on your workspace name in the workspace admin interface in the top-left corner, and then click on ‘Map View’. 
 
 	![](images/en/image17.png)
 	
-2.	In the ‘PLACES’ tab, search for and select a place uploaded to your UNBL workspace.    
+	In the ‘PLACES’ tab, search for and select a place uploaded to your UNBL workspace.    
 
 	!!!Note
 		Places are filtered by *Country* type by default upon opening the UNBL map view.  If your place is of a different category, such as a Protected Area or Cross-Boundary Area and not *Country* type, then you need to click on the ‘CLEAR’ button to clear all filters, or expand the ‘FILTERS’ dropdown menu and uncheck the country box and select your filter of interest to find your place.
 
-3.	Upon selecting a place, dynamic metrics will automatically be displayed for it in the left panel. Choose between a list of the nine standard dynamic metrics or two headline indicator metrics by clicking on either the ‘METRICS’ or ‘HEADLINE INDICATORS’ button. 
+2.	Upon selecting a place, dynamic metrics will automatically be displayed for it in the left panel. Choose between a list of the nine standard dynamic metrics or two headline indicators by clicking on either the ‘METRICS’ or ‘HEADLINE INDICATORS’ button. 
 
 	!!!Note
-		Headline indicator metrics and the Protected Area metric are only available for *Country* type  places with a specified M49 country code.  
+		Headline indicator metrics and the Protected Area metric are only available for *Country* type places with a specified ISO3/M49 country code. Places that are not *Country* types will therefore not have an option to choose headline indicators. 
 		
 	![](images/en/image18.png)
 	
-4.	Click on the toggle button next to any specific metric  if you want to view this dataset on the map. Click on the toggle button again or the ![](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
+3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the ![](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
 
 	![](images/en/image19.png)
 	
-5.	Click on the ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and license specifications.
+4.	Click on the ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and license specifications.
 
 	![](images/en/image20.png)
 	
-6.	To download summary data for the metric in .csv or .json format, click on the ![](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, or .json format. You can also download the data from source links in the layer info pages.  
+5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, table-separated value, or .json format. You can also download the data from source links in the layer info pages.  
 
 	![](images/en/image21.png)
 	
