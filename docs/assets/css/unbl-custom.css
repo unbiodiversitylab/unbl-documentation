@@ -7,6 +7,15 @@
   width: auto;
 }
 
+/* Center text in table cells */
+.md-typeset table td:first-child {
+  vertical-align: middle;
+}
+
+.md-typeset table th {
+  text-align: center;
+}
+
 /* Center all images */
 img {
   display: block;
