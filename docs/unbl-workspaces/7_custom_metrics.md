@@ -1,6 +1,6 @@
 # Adding Your Own Custom Metrics to Your Workspace
 
-The UNBL public platform currently offers nine dynamic metrics by default (see [‘What dynamic metrics are available for my country?’](../unbl-public-platform/8_dynamic_metrics1.md)).
+The UNBL public platform currently offers eleven dynamic metrics by default (see [‘What dynamic metrics are available for my country?’](../unbl-public-platform/8_dynamic_metrics1.md)).
 
 UNBL workspaces provide users with the ability to configure their own custom metrics to run on-the-fly calculations and display zonal statistics for users' own areas of interest, derived from their own uploaded geospatial data layers.
 

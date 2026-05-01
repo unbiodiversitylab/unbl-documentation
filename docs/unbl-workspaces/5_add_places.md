@@ -70,7 +70,7 @@ UNBL's standard dynamic metrics become automatically available for your place as
 	!!!Note
 		Places are filtered by *Country* type by default upon opening the UNBL map view.  If your place is of a different category, such as a Protected Area or Cross-Boundary Area and not *Country* type, then you need to click on the ‘CLEAR’ button to clear all filters, or expand the ‘FILTERS’ dropdown menu and uncheck the country box and select your filter of interest to find your place.
 
-2.	Upon selecting a place, dynamic metrics will automatically be displayed for it in the left panel. Choose between a list of the nine standard dynamic metrics or two headline indicators by clicking on either the ‘METRICS’ or ‘HEADLINE INDICATORS’ button. 
+2.	Upon selecting a place, dynamic metrics will automatically be displayed for it in the left panel. Choose between a list of the ten standard dynamic metrics, marine metric, or two headline indicators by clicking on either the ‘Metrics’, 'Marine metrics', or ‘Headline indicators’ button. 
 
 	!!!Note
 		Headline indicator metrics and the Protected Area metric are only available for *Country* type places with a specified ISO3/M49 country code. Places that are not *Country* types will therefore not have an option to choose headline indicators. 
