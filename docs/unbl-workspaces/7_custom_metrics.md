@@ -88,23 +88,114 @@ Once the custom metric has been configured, it is necessary to create a widget f
 	
 	e) *Widget Chart*: This determines what chart type will be used to visualize the metric statistics for your place. The table below gives an outline of the chart types that are available based on the widget type, which is automatically detected based on whether a) the GeoTIFF layer shows categorical data (discrete classes) or continuous data (range of numerical values), and b) whether a single layer has been chosen for the metric, or multiple layers (time series metric).
 	
-	<div style="display: flex; justify-content: center; font-size: 2rem;">
-
-	| | **Continuous data** | **Categorical data** |
-	|---|---|---|
-	| **Single layer** | Histogram<br>![](images/en/image4-metrics.png){ width="500" style="display:inline-block"} | Pie chart<br>![](images/en/image5-metrics.png){ width="300" style="display:inline-block"}<br>Bar chart<br>![](images/en/image6-metrics.png){ width="300" style="display:inline-block"} |
-	| **Time series** | Line graph<br>![](images/en/image7-metrics.png){ width="300" style="display:inline-block"}<br>Area chart<br>![](images/en/image8-metrics.png){ width="300" style="display:inline-block"} | Area chart<br>![](images/en/image9-metrics.png){ width="500" style="display:inline-block"} |
-	
+	<div style="display: flex; justify-content: center;">
+	<table style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="min-width: 200px; border: 1px solid #ccc;"></th>
+        <th style="text-align: center; font-size: 1.0rem; white-space: nowrap; border: 1px solid #ccc;"><strong>Continuous data</strong></th>
+        <th style="text-align: center; font-size: 1.0rem; white-space: nowrap; border: 1px solid #ccc;"><strong>Categorical data</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Single layer</strong></td>
+        <td style="text-align: center; border: 1px solid #ccc;">Histogram<br>![](images/en/image4-metrics.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Pie chart<br>![](images/en/image5-metrics.png){ width="250" style="display:inline-block"}<br>Bar chart<br>![](images/en/image6-metrics.png){ width="250" style="display:inline-block"}</td>
+      </tr>
+      <tr>
+        <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Time series</strong></td>
+        <td style="text-align: center; border: 1px solid #ccc;">Line graph<br>![](images/en/image7-metrics.png){ width="250" style="display:inline-block"}<br>Area chart<br>![](images/en/image8-metrics.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Area chart<br>![](images/en/image9-metrics.png){ width="350" style="display:inline-block"}</td>
+      </tr>
+    </tbody>
+	</table>
 	</div>
 
-f)	Widget summary: Create a summary of the results that will be displayed by the widget. Use the available summary fields to assist you in creating a summary. For example, a descriptive summary for the Human Modification Index metric could be:
+	f)	*Widget summary (optional)*: This creates a summary of key metric statistics that will be displayed by the widget. The list of available summary fields provides parameters that can be used within the summary text. An example of a widget summary for a time series metric using three layers showing the Human Modification Index over three time periods is shown below.
+	
+	![](images/en/image10-metrics.png)
+	
+	When this metric and its associated widget are active on UNBL, the summary fields in the text are automatically populated with the necessary parameters, as seen below.
+	
+	![](images/en/image11-metrics.png)
 
-“In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022.”
+	Alternatively, the widget summary for a single Human Modification Index layer metric would employ the following summary fields:
 
-This field is optional, so it does not need to be filled in.
-g)	X-Axis Label: Create a label for the X-axis of the histogram. This should be the name of the data being shown. In this case, the name of the dataset is “Human Modification Index”. This field is optional, so it does not need to be filled in. 
-h)	X-Axis Unit: Define the units of the data being shown. The Human Modification Index is a relative index, so computed values do not have units. This field is optional, so it can be left blank. 
-i)	The ‘SAVE AND VIEW DETAILS’ button should light up in blue, indicating that you have filled in all relevant fields. Click on this button to save your widget.
+	- {location}: the current place name
+	- {areaKm2}: the mapped area in square kilometers
+	- {mean}: the mean value as a raw number
+	
+	The widget summary would therefore look something like:
+	
+		“In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022.”
+		
+	![](images/en/image12-metrics.png)
+
+	Note that this field is optional, so it does not need to be filled in.
+	
+	g)	*X-Axis Label (optional)*: For metric types with histogram, line graph, or area graph charts, it is possible to specify a label for the x-axis. The label should be of the data variable being shown. This field is optional, so it does not need to be filled in.
+	
+	h)	*X-Axis Unit (optional)*: For metric types with histogram, line graph, or area graph charts, it is possible to specify the units of the data variable. This field is optional, so it can be left blank. 
+	
+	i)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to create the widget.
+	
+	![](images/en/image13-metrics.png)
+	
+4. In the edit widget page that appears, toggle the 'Published' button on to publish the widget.
+
+## Step 5: Create a dashboard
+
+A dashboard acts as the user interface which displays the metric and associated widget in the UNBL map view when selecting a place to view metrics for. It is important to note that users can create as many metrics and widgets as they want, but they can all be placed within the same dashboard. Therefore, it is necessary to create only one dashboard for all metrics which a user may want to configure. If your workspace does not already contain a dashboard, follow these steps to create one:
+
+1.	Click on the ‘Home’ button in the admin page for your workspace to expand the dropdown menu. Select ‘Dashboards’.
+
+2.	Click on the ‘CREATE NEW DASHBOARD’ button that appears.
+
+	![](images/en/image14-metrics.png)
+	
+3. In the new dashboard page, fill in the following information:
+
+	a)	*Title*: The dashboard should have a name that clearly defines a thematic group for the custom metrics that are linked to the dashboard. For example, a dashboard can contain all custom metrics defined by a particular user, and therefore be called "Custom metrics by *user x*". Alternatively, a dashboard can contain metrics that are meant to be viewed for a specific place, for example, "Custom metrics for *country x*". 
+	
+	b)	*Dashboard slug*: A slug is a unique identifier for the dashboard within your workspace. You cannot have multiple dashboards within your workspace with the same slug. It should contain only letters, digits, and hyphens (“-”). You can use the ‘GENERATE SLUG NAME’ button to generate a unique identifier based on the supplied dashboard title.
+	
+	c)	*Dashboard description*: You can provide a brief description for the group of metrics here. For example, “This dashboard contains custom metrics defined by *user x*.” This field is optional, so it does not need to be filled in. 
+	
+	d)	*Included Widgets*: Choose the widget(s) to include in this dashboard.
+	
+	e)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to create the dashboard.
+	
+	![](images/en/image15-metrics.png)
+	
+4. In the edit dashboard page that appears, toggle the 'Published' button on to publish the dashboard.
+
+!!!note
+	If you already have an existing dashboard, and want to add newly configured widgets to it, you can edit your existing dashboard and add included widgets by clicking on the pen icon for the dashboard in the list of dashboard entries that appear in the admin page after choosing 'Dashboards' from the drop-down menu.
+
+## Viewing dashboards and widgets
+
+To view your custom metrics:
+
+1. In the UNBL map view, make sure your workspace is toggled on.
+
+	![](images/en/image16-metrics.png)
+	
+2. Select the place you want to view custom metrics for from the 'PLACES' tab. 
+
+	![](images/en/image17-metrics.png)
+	
+3. If you have the UNBL public platform workspace and/or other workspaces active alongside your own workspace, you may have to select the dashboard which contains your custom metrics to view them. In this case, a drop-down menu will appear with a list of dashboards and the associated workspaces of each dashboard. Select your dashboard from the drop-down menu.
+
+	!!!note
+		If the custom metrics in your dashboard do not overlap with the activated place, your dashboard will not appear in the drop-down menu.
+
+	![](images/en/image18-metrics.png)
+	
+4. You can now view the custom metrics you set up for your chosen GeoTIFF layer and place. All functionalities of UNBL's default dynamic metrics are available for your custom metrics, including toggling the associated layer, viewing information, and downloading metric data in .csv, .tsv, and .json format.
+
+	![](images/en/image19-metrics.png)
+
 
 	
 
