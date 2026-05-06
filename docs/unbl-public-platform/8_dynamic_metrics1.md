@@ -19,7 +19,7 @@ UN Biodiversity Lab additionally offers two headline indicators which are availa
 - Sustainable Agriculture (Headline Indicator 10.1)
 - Sustainable Forest Management (Headline Indicator 10.2)
 
-It is important to note that eight of the standard metrics can be displayed for places of any type (countries, administrative areas of any scale, geographic areas, etc.), whereas the two headline indicators, Protected Areas, and the Protected Connected Index metric can only be displayed for places that are **countries**. Additionally, the coastal eutrophication metric can only be viewed for coastal areas and marine places. To learn more about the datasets underlying each of these metrics and how the metrics can be used for monitoring and reporting, please see the table below.
+It is important to note that eight of the standard metrics can be displayed for places of any type (countries, administrative areas of any scale, geographic areas, etc.), whereas the two headline indicators, Protected Areas, and the Protected Connected Index metric can only be displayed for places that are **countries**. Additionally, the coastal eutrophication metric is only calculated for places that are **marine**. This metric can be viewed for marine places, as well as countries with a coastline that have associated marine places. To learn more about the datasets underlying each of these metrics and how the metrics can be used for monitoring and reporting, please see the table below.
 
 *Table 1: Information on eleven standard metrics and two headline indicators offered on UNBL*
 
