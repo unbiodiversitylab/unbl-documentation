@@ -44,7 +44,7 @@ Open VS Code, then for each repo you need to work on:
 
 Repository URLs:
 
-- **Documentation:** `https://github.com/UNDP-UNBL/unbl-documentation.git`
+- **Documentation:** `https://github.com/unbiodiversitylab/unbl-documentation.git`
 - **ELSA:** `https://github.com/UNDP-UNBL/unbl-elsa.git`
 - **Frontend:** `https://github.com/UNDP-UNBL/unbl-frontend.git`
 
@@ -171,7 +171,7 @@ You'll see the branch name change in the bottom-left corner:
 
 ## Translating: unbl-documentation (MkDocs Site)
 
-This repo contains the user-facing help documentation at [undp-unbl.github.io/unbl-documentation](https://undp-unbl.github.io/unbl-documentation/). Translations use a **file suffix** convention — each language gets its own copy of the Markdown file.
+This repo contains the user-facing help documentation at [unbiodiversitylab.github.io/unbl-documentation](https://unbiodiversitylab.github.io/unbl-documentation/). Translations use a **file suffix** convention — each language gets its own copy of the Markdown file.
 
 ### How It Works
 

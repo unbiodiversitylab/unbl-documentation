@@ -1,6 +1,6 @@
 # UNBL Documentation
 
-[![Deploy MkDocs to GitHub Pages](https://github.com/UNDP-UNBL/unbl-documentation/actions/workflows/deploy.yml/badge.svg)](https://github.com/UNDP-UNBL/unbl-documentation/actions/workflows/deploy.yml)
+[![Deploy MkDocs to GitHub Pages](https://github.com/unbiodiversitylab/unbl-documentation/actions/workflows/deploy.yml/badge.svg)](https://github.com/unbiodiversitylab/unbl-documentation/actions/workflows/deploy.yml)
 
 This repository contains the documentation for the **UN Biodiversity Lab (UNBL)**, built with MKDocs and available in multiple languages.
 
@@ -161,9 +161,9 @@ Documentation content © 2025 UNDP & UNEP-WCMC
 
 ## 🔗 Links
 
-- **Live Documentation:** https://undp-unbl.github.io/unbl-documentation/
+- **Live Documentation:** https://unbiodiversitylab.github.io/unbl-documentation/
 - **UN Biodiversity Lab:** https://www.unbiodiversitylab.org
-- **GitHub Repository:** https://github.com/UNDP-UNBL/unbl-documentation
+- **GitHub Repository:** https://github.com/unbiodiversitylab/unbl-documentation
 
 ## 📚 Additional Resources
 

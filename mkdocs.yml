@@ -1,12 +1,12 @@
 site_name: UNBL Online Documentation
 site_description: User's Guide to the UN Biodiversity Lab
 site_author: UN Biodiversity Lab Team
-site_url: https://undp-unbl.github.io/unbl-documentation/
+site_url: https://unbiodiversitylab.github.io/unbl-documentation/
 copyright: Copyright &copy; 2026 UNDP & UNEP-WCMC
 
 # Repository
-repo_name: UNDP-UNBL/unbl-documentation
-repo_url: https://github.com/UNDP-UNBL/unbl-documentation
+repo_name: unbiodiversitylab/unbl-documentation
+repo_url: https://github.com/unbiodiversitylab/unbl-documentation
 edit_uri: edit/main/docs/
 
 # Theme Configuration
@@ -423,8 +423,8 @@ extra:
     default: latest
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/UNDP-UNBL
-      name: UNDP-UNBL on GitHub
+      link: https://github.com/unbiodiversitylab
+      name: unbiodiversitylab on GitHub
     - icon: fontawesome/solid/globe
       link: https://www.unbiodiversitylab.org
       name: UN Biodiversity Lab
@@ -442,7 +442,7 @@ extra:
           data: 0
           note: >-
             Thanks for your feedback! Help us improve this page by
-            <a href="https://github.com/UNDP-UNBL/unbl-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
+            <a href="https://github.com/unbiodiversitylab/unbl-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
 
 # Navigation Structure
 nav:
