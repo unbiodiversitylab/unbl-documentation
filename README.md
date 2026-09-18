@@ -143,7 +143,7 @@ mamba env create -f environment-mkdocs.yaml
 - Creating and editing analyses
 - Running optimizations
 - Viewing and downloading results
-- Support and annexes
+- Support and annexes (glossary, data layers, data layer change log)
 
 ## 🤝 Contributing
 

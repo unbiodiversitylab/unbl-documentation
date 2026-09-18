@@ -4,4 +4,5 @@ El objetivo de esta guía del usuario es ofrecer una visión general clara y con
 
 * [El capítulo 1](01_overview.md) proporciona una descripción general y recursos complementarios clave sobre el proceso de mapeo ELSA.
 * [El capítulo 2](02_tool_purpose.md) describe las funcionalidades clave y aplicaciones de la herramienta ELSA.
-* Los [capítulos 3](03_registration.md) a [11](11_support.md) proporcionan instrucciones paso a paso sobre cómo utilizar la herramienta ELSA en el UNBL.  
+* Los [capítulos 3](03_registration.md) a [11](11_support.md) proporcionan instrucciones paso a paso sobre cómo utilizar la herramienta ELSA en el UNBL.
+* Los [anexos 1](12_annex1.md) a [3](14_annex3.md) proporcionan un glosario, la lista de capas de datos predeterminadas y un registro de los cambios en esas capas de datos.

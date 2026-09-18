@@ -5,3 +5,4 @@ Ce guide de l'utilisateur vise à fournir un aperçu clair et concis de l'utilis
 * [Le chapitre 1](01_overview.md) présente une vue d'ensemble du processus de cartographie ELSA et les principales ressources complémentaires.
 * [Le chapitre 2](02_tool_purpose.md) décrit les principales fonctionnalités et applications de l'outil ELSA.
 * [Les chapitres 3](03_registration.md) à [11](11_support.md) fournissent des instructions étape par étape sur la manière d'utiliser l'outil ELSA sur le site du UNBL.
+* [Les annexes 1](12_annex1.md) à [3](14_annex3.md) fournissent un glossaire, la liste des couches de données par défaut et un journal des modifications apportées à ces couches de données.
