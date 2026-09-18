@@ -147,6 +147,7 @@ plugins:
             Support and Contact: Soporte y Contacto
             Annex 1 - Glossary: Anexo 1 - Glosario
             Annex 2 - Data layers: Anexo 2 - Capas de Datos
+            Annex 3 - Data Layer Change Log: Anexo 3 - Registro de Cambios de las Capas de Datos
         - locale: fr
           name: Français
           build: true
@@ -215,6 +216,7 @@ plugins:
             Support and Contact: Assistance et Contact
             Annex 1 - Glossary: Annexe 1 - Glossaire
             Annex 2 - Data layers: Annexe 2 - Couches de Données
+            Annex 3 - Data Layer Change Log: Annexe 3 - Journal des Modifications des Couches de Données
         - locale: pt
           name: Português
           build: true
@@ -283,6 +285,7 @@ plugins:
             Support and Contact: Suporte e Contato
             Annex 1 - Glossary: Anexo 1 - Glossário
             Annex 2 - Data layers: Anexo 2 - Camadas de Dados
+            Annex 3 - Data Layer Change Log: Anexo 3 - Registro de Alterações das Camadas de Dados
         - locale: ru
           name: Русский
           build: true
@@ -350,7 +353,8 @@ plugins:
             Citing Maps: Цитирование карт
             Support and Contact: Поддержка и контакты
             Annex 1 - Glossary: Приложение 1 - Глоссарий
-            Annex 2 - Data layers: Приложение 2 - Слои данных        
+            Annex 2 - Data layers: Приложение 2 - Слои данных
+            Annex 3 - Data Layer Change Log: Приложение 3 - Журнал изменений слоев данных
   - glightbox:
       touchNavigation: true
       loop: false
@@ -497,3 +501,4 @@ nav:
       - Support and Contact: elsa/11_support.md
       - Annex 1 - Glossary: elsa/12_annex1.md
       - Annex 2 - Data layers: elsa/13_annex2.md
+      - Annex 3 - Data Layer Change Log: elsa/14_annex3.md

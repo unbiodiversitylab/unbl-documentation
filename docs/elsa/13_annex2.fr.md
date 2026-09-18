@@ -2,6 +2,8 @@
 
 Couches de données utilisées pour le projet de planification spatiale intégrée afin de soutenir la mise en œuvre du KMGBF.
 
+Les modifications apportées au fil du temps à ces couches de données par défaut sont recensées dans l'[Annexe 3 - Journal des modifications des couches de données](14_annex3.md).
+
 !!! note
     La liste des couches de données d'entrée peut varier d'un pays à l'autre en fonction de la résolution native des données d'entrée (par rapport à la taille du pays et de l'unité de planification) ainsi que des objectifs politiques prioritaires.
 
