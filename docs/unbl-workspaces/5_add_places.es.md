@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 # Agregar lugares a su espacio de trabajo y visualizar métricas dinámicas
@@ -28,6 +28,15 @@ Para agregar un nuevo lugar:
 	c.	*Slug*: Inserte un identificador único para el lugar que contenga solo letras minúsculas, números y guiones. No se pueden usar espacios. Esto identificará de manera única su lugar de todos los demás dentro del sistema UNBL. Recomendamos usar el botón 'GENERA UN NOMBRE DEL SLUG' para ayudarle a generar un slug apropiado.
 
 	d.	*Archivo de forma*: Cargue un archivo de polígono (o multipolígono) para definir su lugar. Los formatos soportados son GeoJSON (.geojson, .geojsonl), archivos de Google Earth (.kml, .kmz) o Shapefiles de ESRI (.zip que contenga archivos .shp, .dbf, .shx, .prj). Si usa un GeoJSON, el tamaño del archivo no debe ser mayor de 6MB. El sistema permite cargas de hasta 6MB, pero recomendamos encarecidamente usar archivos de no más de 2MB para un renderizado óptimo y cálculos de métricas. Si usa archivos de Google Earth o Shapefiles de ESRI, asegúrese de que el sistema de referencia de coordenadas sea WGS-84, también conocido como EPSG: 4326.
+
+	En lugar de cargar un archivo, puede dibujar el lugar directamente en el mapa. Seleccione la pestaña *Dibujar en el mapa* (*Draw on Map*), haga clic en el botón de edición y, a continuación, haga clic en el mapa para agregar los vértices de su polígono. Puede:
+
+	- dibujar varios polígonos, o polígonos con huecos;
+	- mover un vértice arrastrándolo, o agregar un vértice haciendo clic cerca de uno existente;
+	- eliminar un polígono y deshacer sus cambios recientes;
+	- cambiar el nombre de una forma haciendo doble clic en su nombre, escribiendo el nuevo nombre y presionando Intro.
+
+	Mientras dibuja, puede usar los controles del mapa para cambiar al mapa base satelital y mostrar etiquetas, carreteras o el globo 3D, lo que facilita trazar costas, ríos y otros elementos. También puede usar la pestaña *Dibujar en el mapa* en la página de edición de un lugar para cambiar la forma de un lugar existente.
 
 	e.	Si toda la información ingresada es válida, el botón 'GUARDAR Y VER DETALLES' se iluminará en azul. Haga clic en este botón para cargar su lugar a UNBL.
 

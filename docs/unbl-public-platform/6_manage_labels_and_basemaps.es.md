@@ -22,4 +22,6 @@ Hay varias opciones para personalizar el mapa base. Están disponibles en el ico
 
 3. *Fondo del mapa:* Ofrecemos opciones en escala de grises y vista satelital para el fondo del mapa. Haga clic en el botón para activar el fondo que desee.
 
+4. *Globo 3D:* Active *Globo 3D*, en la parte superior del menú «CONTROLES DE MAPA», para ver el mapa como un globo tridimensional en lugar de un mapa plano. Desactívelo para volver al mapa plano. Su elección se guarda en el enlace del mapa, de modo que las personas con las que comparta el enlace verán la misma vista.
+
 ![Mapa base satelital con las opciones de «CONTROLES DE MAPA» resaltadas: escala de grises, satélite, etiquetas y carreteras](images/manage-labels-and-basemaps-01.png)

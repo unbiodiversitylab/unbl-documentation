@@ -22,5 +22,7 @@ Existem várias opções para personalizar o mapa base. Estas estão disponívei
 
 3. *Fundo do mapa*: Oferecemos opções de fundo em escala de cinzentos e de satélite para o mapa. Clique no botão de alternância para ativar o fundo da sua escolha.
 
+4. *Globo 3D*: Ative a opção *Globo 3D*, no topo do menu 'CONTROLOS DO MAPA', para ver o mapa como um globo tridimensional em vez de um mapa plano. Desative-o para voltar ao mapa plano. A sua escolha fica guardada no link do mapa, por isso as pessoas com quem partilhar o link veem a mesma vista.
+
 ![Mapa base de satélite com as opções de 'CONTROLOS DO MAPA' destacadas: escala de cinzentos, satélite, etiquetas e estradas](images/manage-labels-and-basemaps-01.png)
 

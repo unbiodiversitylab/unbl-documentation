@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 
@@ -57,7 +57,7 @@ Para começar a criar uma camada e preencher os metadados relevantes para a cama
 	e.	*Layer description (opcional)*: No campo de descrição, pode especificar o texto que aparecerá na caixa pop-up de informação da camada. Aqui, pode inserir a maior parte dos metadados da sua camada, como uma descrição geral, citação do artigo científico/conjunto de dados, links externos para o artigo científico/conjunto de dados, especificações de licença, etc. Existe um parâmetro adicional 'METADATA' que lhe permite preencher parâmetros concretos dos dados, como a resolução, a versão dos dados, a data do conjunto de dados e a data de publicação. O parâmetro 'PREVIEW' permite-lhe pré-visualizar o aspeto que a caixa pop-up de informação da camada terá no UNBL.
 
 	!!! note
-		Para camadas individuais que fazem parte de uma camada de grupo principal, o texto pop-up de informação da camada mostrará sempre a descrição da camada de grupo principal e portanto o campo de descrição é redundante (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
+		Para camadas que fazem parte de uma camada agrupada, o pop-up de informação da camada mostra primeiro a descrição da camada agrupada, seguida da descrição própria da camada. Utilize a descrição da camada agrupada para a informação que se aplica a todas as suas camadas, e a descrição própria da camada apenas para o que é específico dessa camada (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
 
 	![Página de nova camada com título, slug, categorias, etiquetas de pesquisa e pré-visualização da descrição preenchidos](images/add-data-02.png)
 
@@ -503,7 +503,7 @@ Para tornar qualquer uma das suas camadas adicionadas descobrível e visível pa
 
 3.	Se o seu conjunto de dados estiver publicado, aparecerá um botão de alternância com uma opção para 'Allow external access via link'. Esta é uma alternância opcional que, se ativada, torna a sua camada acessível a qualquer pessoa com o URL da vista do mapa, mesmo utilizadores fora do seu espaço de trabalho. Para partilhar o URL da sua camada, copie o link que aparece ou clique no ícone ![Copiar](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para copiar automaticamente o link para a sua área de transferência.
 
-4.	Clique no botão de alternância 'Primary' para marcar a sua camada como uma camada autónoma e torná-la descobrível na barra de pesquisa 'DATASETS' no UNBL. Para que as camadas do seu espaço de trabalho sejam descobríveis e visíveis no UNBL, deve sempre publicá-las e marcá-las como primárias. A única exceção para publicar uma camada e não marcá-la como primária é quando está a criar camadas agrupadas (Veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
+4.	Não precisa de marcar as camadas como primárias: o UNBL faz isto automaticamente. Uma camada que não faz parte de uma camada agrupada é primária, pelo que aparece como uma entrada própria na barra de pesquisa 'DATASETS' no UNBL. Uma camada que faz parte de uma camada agrupada não é primária, e é encontrada através da sua camada agrupada (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)). A lista de camadas na sua interface de administração mostra o estado 'Primary' de cada camada apenas a título informativo.
 
 	![Página de edição de camada com os botões de alternância Published, Allow external access via link e Primary destacados](images/add-data-20.png)
 
@@ -530,18 +530,18 @@ Pode querer voltar e editar as suas camadas adicionadas para alterar qualquer um
 
 ## Como crio camadas agrupadas?
 
-Quaisquer camadas que adicione ao seu espaço de trabalho UNBL podem ser agrupadas juntas para organizar dados multi-ano ou multi-categoria. Cada ano ou categoria é semelhante a uma banda raster individual. As camadas agrupadas são criadas numa nova camada separada (denominada *camada principal* no UNBL) das camadas componentes (denominadas *camadas filhas* no UNBL). Por exemplo, um raster de cobertura do solo que abrange três anos exigiria que fossem criadas quatro camadas: cada ano como a sua própria camada filha, bem como uma quarta camada principal a partir da qual todas serão acessíveis. Neste caso, cada camada filha deve ser publicada e **não** marcada como primária para ser descobrível na vista do mapa exclusivamente através de uma camada agrupada. A camada agrupada/principal é uma camada de exibição adicional com uma configuração de camada fixa que referencia todas as camadas filhas. É publicada e marcada como primária. Quando a camada agrupada é vista no UNBL, aparece uma única legenda de camada a partir da qual pode selecionar qualquer uma das camadas filhas incluídas para ser visualizada na vista do mapa.
+Quaisquer camadas que adicione ao seu espaço de trabalho UNBL podem ser agrupadas juntas para organizar dados multi-ano ou multi-categoria. Cada ano ou categoria é semelhante a uma banda raster individual. As camadas agrupadas são criadas numa nova camada separada (denominada *camada principal* no UNBL) das camadas componentes (denominadas *camadas filhas* no UNBL). Por exemplo, um raster de cobertura do solo que abrange três anos exigiria que fossem criadas quatro camadas: cada ano como a sua própria camada filha, bem como uma quarta camada principal a partir da qual todas serão acessíveis. Neste caso, cada camada filha deve ser publicada. Como pertencem a uma camada agrupada, o UNBL trata automaticamente as camadas filhas como não primárias, pelo que são encontradas na vista do mapa através da camada agrupada e não como entradas separadas. A camada agrupada/principal é uma camada de exibição adicional com uma configuração de camada fixa que referencia todas as camadas filhas. Também tem de ser publicada. Quando a camada agrupada é vista no UNBL, aparece uma única legenda de camada a partir da qual pode selecionar qualquer uma das camadas filhas incluídas para ser visualizada na vista do mapa.
 
 !!! note
-	Se as camadas filhas que está a ligar através de uma camada agrupada também estiverem marcadas como primárias, além de estarem publicadas, estas camadas serão descobríveis como entradas individuais na barra de pesquisa 'DATASETS', duplicando assim entradas com a camada agrupada publicada.
+	**As camadas filhas herdam os metadados da sua camada agrupada.** Na vista do mapa, a informação de uma camada filha mostra primeiro a descrição da camada agrupada, seguida da descrição própria da camada filha. Todos os outros campos de metadados (fontes, citação, licença, aviso legal, links para saber mais, links de descarga, resolução, versão dos dados, data de início, data de fim e data de publicação) utilizam o valor próprio da camada filha, se o tiver, e caso contrário o valor da camada agrupada. Assim, preencha a informação partilhada uma única vez, na camada agrupada, e acrescente a uma camada filha apenas o que lhe é específico. Um campo deixado em branco, incluindo uma data com todas as partes apagadas, conta como não definido, e a camada filha assume então o valor da camada agrupada.
 
 Para configurar uma camada agrupada:
 
-1.	Publique todas as camadas filhas a incluir na camada agrupada, e **não** as marque como primárias. A funcionalidade de URL pública funciona da mesma forma que para camadas autónomas (veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos)).
+1.	Publique todas as camadas filhas a incluir na camada agrupada. A funcionalidade de URL pública funciona da mesma forma que para camadas autónomas (veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos)).
 
 2.	Crie uma camada separada usando o botão 'CREATE NEW LAYER' na página 'Layers' da interface de administração do seu espaço de trabalho. Esta será a sua camada agrupada designada.
 
-3.	Introduza um título de camada, slug de camada, categoria de camada, etiqueta de pesquisa e uma descrição de camada que seja representativa do conjunto de dados representado pela sua coleção de camadas filhas. Note que a descrição de camada para camadas filhas é redundante – só precisa de preencher a descrição de camada para a camada agrupada que contém as suas camadas filhas. Para mais informação sobre preenchimento de metadados para camadas, veja ['Que parâmetros e metadados preencho ao criar uma camada?'](#que-parametros-e-metadados-preencho-ao-criar-uma-camada).
+3.	Introduza um título de camada, slug de camada, categoria de camada, etiqueta de pesquisa e uma descrição de camada que seja representativa do conjunto de dados representado pela sua coleção de camadas filhas. A descrição, as fontes, a citação e os outros metadados da camada agrupada são mostrados para todas as suas camadas filhas (veja a nota acima), por isso preencha aqui tudo o que se aplica a toda a coleção. Para mais informação sobre preenchimento de metadados para camadas, veja ['Que parâmetros e metadados preencho ao criar uma camada?'](#que-parametros-e-metadados-preencho-ao-criar-uma-camada).
 
 4.	*Layer type*: Selecione 'group'.
 

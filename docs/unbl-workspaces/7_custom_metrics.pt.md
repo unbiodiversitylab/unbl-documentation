@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 
@@ -218,3 +218,6 @@ Para visualizar as suas métricas personalizadas:
 4. Pode agora visualizar as métricas personalizadas que configurou para a camada GeoTIFF e o lugar escolhidos. Todas as funcionalidades das métricas dinâmicas padrão do UNBL estão disponíveis para as suas métricas personalizadas, incluindo ativar a camada associada, ver informações e descarregar os dados das métricas nos formatos .csv, .tsv e .json.
 
 	![Histograma de métrica personalizada para o Butão ao lado da sua camada Human Modification Index no mapa](images/custom-metrics-20.png)
+
+	!!! note
+		**As métricas personalizadas só são calculadas quando as solicita.** Da primeira vez que uma métrica personalizada é mostrada para um lugar, o respetivo widget indica *This metric has not been calculated for this place yet.* Clique no botão **Calculate metric** para iniciar o cálculo. Enquanto decorre, o widget mostra *Calculating metric...* com uma barra de progresso. Se o cálculo falhar, o widget mostra *Metric calculation failed*; se não for possível enviar o pedido, aparece *Something went wrong* junto ao botão e pode tentar novamente. As métricas dinâmicas padrão da plataforma pública do UNBL não são afetadas e são calculadas automaticamente.
