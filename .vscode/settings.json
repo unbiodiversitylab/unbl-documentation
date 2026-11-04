@@ -5,6 +5,9 @@
     "editor.wordWrap": "on",
     "files.trimTrailingWhitespace": false
   },
+  "files.exclude": {
+    "site": true
+  },
   "search.exclude": {
     "site/**": true
   },
