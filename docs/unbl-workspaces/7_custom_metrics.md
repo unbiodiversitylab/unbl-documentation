@@ -186,7 +186,7 @@ A dashboard acts as the user interface which displays the metric and associated 
 	
 4. In the edit dashboard page that appears, toggle the 'Published' button on to publish the dashboard.
 
-!!!note
+!!! note
 	If you already have an existing dashboard, and want to add newly configured widgets to it, you can edit your existing dashboard and add included widgets by clicking on the pen icon for the dashboard in the list of dashboard entries that appear in the admin page after choosing 'Dashboards' from the drop-down menu.
 
 ## Viewing dashboards and widgets
@@ -203,7 +203,7 @@ To view your custom metrics:
 	
 3. If you have the UNBL public platform workspace and/or other workspaces active alongside your own workspace, you may have to select the dashboard which contains your custom metrics to view them. In this case, a drop-down menu will appear with a list of dashboards and the associated workspaces of each dashboard. Select your dashboard from the drop-down menu.
 
-	!!!note
+	!!! note
 		If the custom metrics in your dashboard do not overlap with the activated place, your dashboard will not appear in the drop-down menu.
 
 	![](images/custom-metrics-19.png){style="width:400px !important" }

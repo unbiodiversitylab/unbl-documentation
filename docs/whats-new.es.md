@@ -1,0 +1,34 @@
+---
+source_rev: 0eebbe015e6098367baf364a9a48cd1b9a0720dd
+translation_status: machine
+---
+
+# Novedades
+
+Cambios recientes en esta guía del usuario. Si tiene preguntas, escríbanos a <support@unbiodiversitylab.org>.
+
+!!! note
+    Algunas de estas actualizaciones están disponibles por ahora solo en inglés; su traducción está en curso.
+
+## Noviembre de 2026
+
+- **Videos tutoriales** en la mayoría de las páginas de la [guía de la Plataforma Pública UNBL](unbl-public-platform/index.md). Abra el recuadro de video al principio de la página.
+- **Nuevas métricas** descritas en [¿Qué métricas dinámicas están disponibles para mi país?](unbl-public-platform/8_dynamic_metrics1.md): Protected Connected Index, Coastal Eutrophication y una métrica marina. Los resúmenes de las métricas ahora también pueden descargarse en formato `.tsv`.
+- [¿Cómo puedo recortar y exportar conjuntos de datos?](unbl-public-platform/15_clip_export.md) explica ahora cómo descargar los límites de un país en formato GeoJSON.
+- **Guía de ELSA**: las «restricciones basadas en áreas» pasan a llamarse **metas basadas en áreas**, con capturas de pantalla actualizadas y cómo minimizar la ventana de análisis. Consulte [Editar un Análisis](elsa/05_editing_analysis.md).
+- **Guía de espacios de trabajo**: capítulos 1 a 6 actualizados, incluidos [agregar lugares](unbl-workspaces/5_add_places.md) y [agregar sus propios datos](unbl-workspaces/6_add_data.md).
+- La [hoja informativa sobre el almacenamiento de datos](unbl-workspaces/data_security.md) aparece ahora en el menú de espacios de trabajo.
+- Cada página indica la fecha de su última actualización, y puede pasar el cursor sobre siglas como ELSA o KMGBF para ver su significado.
+
+## Junio de 2026
+
+- Nueva sección: [Añadir tus propias métricas personalizadas a tu espacio de trabajo](unbl-workspaces/7_custom_metrics.md).
+
+## Enero de 2026
+
+- Nueva [hoja informativa sobre cómo se almacenan los datos nacionales añadidos a los espacios de trabajo](unbl-workspaces/data_security.md), en los cinco idiomas.
+
+## Noviembre de 2025
+
+- La guía de ELSA explica ahora cómo los mapas de acción de ELSA apoyan la jerarquía de respuesta de Neutralidad de la Degradación de las Tierras (LDN) de la UNCCD. Consulte [Propósito de la Herramienta y Características Clave](elsa/02_tool_purpose.md).
+- Nueva [guía de los Espacios de Trabajo Seguros UNBL](unbl-workspaces/index.md).

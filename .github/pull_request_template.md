@@ -18,3 +18,4 @@
 - [ ] New pages are in the `nav` and in `nav_translations` for every language
 - [ ] New images have alt text, no spaces in file names, and are under 1 MB
 - [ ] Screenshots still match the current UNBL interface
+- [ ] Reader-visible change? Added to **What's new** in all languages

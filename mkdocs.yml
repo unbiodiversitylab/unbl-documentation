@@ -53,6 +53,7 @@ theme:
     - content.tabs.link
     - content.action.edit
     - content.action.view
+    - content.tooltips
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -102,6 +103,7 @@ plugins:
                   name: Cambiar a modo claro
           nav_translations:
             Home: Inicio
+            What's new: Novedades
             UNBL Public Platform: Plataforma Pública UNBL
             How do I register or log-in?: ¿Cómo me registro o inicio sesión?
             How do I manage my account?: ¿Cómo gestiono mi cuenta?
@@ -130,6 +132,7 @@ plugins:
             Managing Users in Your Workspace: Gestión de Usuarios en su Espacio de Trabajo
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Agregar Lugares a su Espacio de Trabajo y Ver Métricas Dinámicas para Ellos
             Adding Your Own Geospatial Data to Your Workspace: Agregar sus Propios Datos Geoespaciales a su Espacio de Trabajo
+            "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Hoja informativa: Almacenamiento de datos nacionales añadidos a espacios de trabajo en UN Biodiversity Lab"
             Adding Your Own Custom Metrics to Your Workspace: Añadir tus propias métricas personalizadas a tu espacio de trabajo
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acceso a la Herramienta de Planificación Espacial Integrada ELSA en su Espacio de Trabajo
             What if my Question was not Answered?: ¿Qué pasa si mi Pregunta no fue Respondida?
@@ -170,6 +173,7 @@ plugins:
                   name: Passer en mode clair
           nav_translations:
             Home: Accueil
+            What's new: Nouveautés
             UNBL Public Platform: Plateforme Publique UNBL
             How do I register or log-in?: Comment puis-je m'inscrire ou me connecter ?
             How do I manage my account?: Comment puis-je gérer mon compte ?
@@ -198,6 +202,7 @@ plugins:
             Managing Users in Your Workspace: Gestion des Utilisateurs dans votre Espace de Travail
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Ajout de Lieux à votre Espace de Travail et Visualisation des Métriques Dynamiques pour Eux
             Adding Your Own Geospatial Data to Your Workspace: Ajout de vos Propres Données Géospatiales à votre Espace de Travail
+            "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Fiche d'information : Stockage des données nationales ajoutées aux espaces de travail sur UN Biodiversity Lab"
             Adding Your Own Custom Metrics to Your Workspace: Ajouter vos propres métriques personnalisées à votre espace de travail
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Accès à l'Outil de Planification Spatiale Intégrée ELSA dans votre Espace de Travail
             What if my Question was not Answered?: Que faire si ma Question n'a pas eu de Réponse ?
@@ -238,6 +243,7 @@ plugins:
                   name: Mudar para modo claro
           nav_translations:
             Home: Início
+            What's new: Novidades
             UNBL Public Platform: Plataforma Pública UNBL
             How do I register or log-in?: Como faço para me registrar ou fazer login?
             How do I manage my account?: Como faço para gerenciar minha conta?
@@ -266,6 +272,7 @@ plugins:
             Managing Users in Your Workspace: Gerenciamento de Usuários no seu Espaço de Trabalho
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Adição de Locais ao seu Espaço de Trabalho e Visualização de Métricas Dinâmicas para Eles
             Adding Your Own Geospatial Data to Your Workspace: Adição de seus Próprios Dados Geoespaciais ao seu Espaço de Trabalho
+            "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Folha informativa: Armazenamento de dados nacionais adicionados a espaços de trabalho no UN Biodiversity Lab"
             Adding Your Own Custom Metrics to Your Workspace: Adicionar as Suas Próprias Métricas Personalizadas ao Seu Espaço de Trabalho
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acesso à Ferramenta de Planejamento Espacial Integrado ELSA no seu Espaço de Trabalho
             What if my Question was not Answered?: E se minha Pergunta não foi Respondida?
@@ -306,6 +313,7 @@ plugins:
                   name: Переключить на светлый режим
           nav_translations:
             Home: Главная страница
+            What's new: Что нового
             UNBL Public Platform: Публичная платформа UNBL
             How do I register or log-in?: Как мне зарегистрироваться или войти в систему?
             How do I manage my account?: Как мне управлять своим аккаунтом?
@@ -334,6 +342,7 @@ plugins:
             Managing Users in Your Workspace: Управление пользователями в вашем рабочем пространстве
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Добавление мест в ваше рабочее пространство и просмотр динамических показателей для них
             Adding Your Own Geospatial Data to Your Workspace: Добавление собственных геопространственных данных в ваше рабочее пространство
+            "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Обзорный документ: Хранение национальных данных, добавленных в рабочие пространства Лаборатории ООН по биоразнообразию"
             Adding Your Own Custom Metrics to Your Workspace: Добавление собственных пользовательских показателей в ваше рабочее пространство 
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Доступ к инструменту интегрированного пространственного планирования ELSA в вашем рабочем пространстве
             What if my Question was not Answered?: Что делать, если я не нашел ответ на свой вопрос?
@@ -351,6 +360,10 @@ plugins:
             Support and Contact: Поддержка и контакты
             Annex 1 - Glossary: Приложение 1 - Глоссарий
             Annex 2 - Data layers: Приложение 2 - Слои данных        
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: false
+      fallback_to_build_date: true
   - glightbox:
       touchNavigation: true
       loop: false
@@ -365,6 +378,10 @@ plugins:
       auto_caption: false
       caption_position: bottom
   - caption:
+
+# Appends includes/abbreviations[.<lang>].md to each page so acronyms get tooltips
+hooks:
+  - hooks/abbreviations.py
 
 # Markdown Extensions
 markdown_extensions:
@@ -431,6 +448,7 @@ extra:
 # Navigation Structure
 nav:
   - Home: index.md
+  - What's new: whats-new.md
   - UNBL Public Platform: 
       - unbl-public-platform/index.md
       - How do I register or log-in?: unbl-public-platform/1_register.md
@@ -461,6 +479,7 @@ nav:
       - Managing Users in Your Workspace: unbl-workspaces/4_manage_users.md
       - Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: unbl-workspaces/5_add_places.md
       - Adding Your Own Geospatial Data to Your Workspace: unbl-workspaces/6_add_data.md
+      - "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": unbl-workspaces/data_security.md
       - Adding Your Own Custom Metrics to Your Workspace: unbl-workspaces/7_custom_metrics.md 
       - Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: unbl-workspaces/8_elsa_tool.md
       - What if my Question was not Answered?: unbl-workspaces/9_support.md 

@@ -73,6 +73,13 @@ Every page exists as `name.md` (English) plus `name.es.md`, `name.fr.md`, `name.
 - Internal links are relative to the `.md` file (`../unbl-workspaces/5_add_places.md#anchor`).
   MkDocs resolves the right language automatically.
 - Contact address: `support@unbiodiversitylab.org`.
+- **Acronyms** get hover tooltips from `includes/abbreviations.md` and
+  `includes/abbreviations.<lang>.md` (appended to every page by `hooks/abbreviations.py`).
+  When a page introduces a new acronym, add it to all five files, using the expansion
+  the translated pages already use (check the glossary).
+- **What's new** (`docs/whats-new*.md`): when a change matters to readers (new page,
+  new feature documented, changed steps), add a dated bullet at the top in all five
+  languages. Typo fixes don't go there.
 
 ## Images
 
