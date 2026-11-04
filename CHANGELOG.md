@@ -11,6 +11,8 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
 ## [Unreleased]
 
 ### Translations
+- Russian brought up to date with English (all 2026 H1 changes), as machine drafts
+  awaiting native review.
 - Spanish and Portuguese brought up to date with English (all 2026 H1 changes), as
   machine drafts awaiting native review. Spanish button labels fixed (#42).
 - Portuguese standardised on European Portuguese (#42); Brazilian Portuguese proposed
