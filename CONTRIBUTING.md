@@ -154,7 +154,8 @@ native speaker reviews them.
 
 **Errors** (fail CI): a missing translation file, a nav title without a translation, a
 nav entry to a missing page, a broken internal link or image, an image without alt text,
-an image file name with spaces, a newly added image over 1 MB.
+an image file name with spaces, a newly added image over 1 MB, a translated product name
+("UN Biodiversity Lab" and "ELSA" always stay in English).
 **Warnings** (never fail): older images over budget, pages not in the nav, admonition
 typos, English changed without its translations, translations whose screenshots differ
 from English, unused images.
