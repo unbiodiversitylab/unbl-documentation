@@ -259,12 +259,12 @@ def check_page(report: Report, md: Path, langs: list[str]):
             continue
 
         for alt, target in IMG_MD.findall(line):
-            check_image_ref(report, md, n, target.strip(), alt)
+            check_image_ref(report, md, n, target.strip(), alt, langs)
         for tag in IMG_HTML.findall(line):
             src = re.search(r"src=[\"']([^\"']+)", tag)
             alt = re.search(r"alt=[\"']([^\"']*)", tag)
             if src:
-                check_image_ref(report, md, n, src.group(1), alt.group(1) if alt else "")
+                check_image_ref(report, md, n, src.group(1), alt.group(1) if alt else "", langs)
 
         for target in LINK_MD.findall(line):
             if target.startswith(("http://", "https://", "mailto:")):
@@ -277,10 +277,15 @@ def check_page(report: Report, md: Path, langs: list[str]):
             report.warn("admonition-syntax", "write '!!! note' with a space after '!!!'", rel(md), n)
 
 
-def check_image_ref(report: Report, md: Path, n: int, target: str, alt: str):
+def check_image_ref(report: Report, md: Path, n: int, target: str, alt: str, langs=()):
     if target.startswith(("http://", "https://", "data:")):
         return
     path = target.split("#", 1)[0].replace("%20", " ")
+    loc = localized_lang(Path(path), langs)
+    if loc and "-extra-" not in path:
+        report.warn("localized-image-ref",
+                    f"reference the English file name ({localized_base(Path(path), loc).name}); "
+                    f"the {loc} site picks the .{loc} version automatically", rel(md), n)
     if not alt.strip():
         report.warn("alt-text-missing", f"image has no alt text: {path}", rel(md), n)
     if " " in path:
@@ -289,15 +294,94 @@ def check_image_ref(report: Report, md: Path, n: int, target: str, alt: str):
         report.error("broken-image", f"image not found: {path}", rel(md), n)
 
 
-def check_image_sizes(report: Report, files):
+def check_image_sizes(report: Report, files, new_files=frozenset()):
+    """Oversized images: an error for newly added files, a warning for old ones."""
     for f in files:
         if f.suffix.lower() in IMAGE_EXTS and f.exists():
             size = f.stat().st_size
             budget = GIF_BUDGET if f.suffix.lower() == ".gif" else IMAGE_BUDGET
             if size > budget:
-                report.warn("image-too-large",
-                            f"{size / 1e6:.1f} MB (budget {budget / 1e6:.0f} MB); compress it "
-                            "or convert GIFs to video", rel(f))
+                msg = (f"{size / 1e6:.1f} MB (budget {budget / 1e6:.0f} MB); crop it, keep it "
+                       "under ~1600 px wide, or save it as PNG with fewer colours")
+                if f in new_files:
+                    report.error("image-too-large", msg, rel(f))
+                else:
+                    report.warn("image-too-large", msg, rel(f))
+
+
+def localized_lang(path: Path, langs) -> str | None:
+    """'fr' for name.fr.png, else None."""
+    parts = path.name.split(".")
+    return parts[-2] if len(parts) >= 3 and parts[-2] in langs else None
+
+
+def localized_base(path: Path, lang: str) -> Path:
+    return path.with_name(path.name.replace(f".{lang}.", ".", 1))
+
+
+def image_refs(md: Path, include_icons=True) -> list[str]:
+    out = []
+    in_fence = False
+    for line in md.read_text(encoding="utf-8").splitlines():
+        if line.lstrip().startswith(("```", "~~~")):
+            in_fence = not in_fence
+        if in_fence:
+            continue
+        for _, target in IMG_MD.findall(line):
+            target = target.strip()
+            if target.startswith(("http://", "https://", "data:")):
+                continue
+            if include_icons or "/icons/" not in target:
+                out.append(target)
+        for tag in IMG_HTML.findall(line):
+            src = re.search(r"src=[\"']([^\"']+)", tag)
+            if src and not src.group(1).startswith(("http://", "https://", "data:")):
+                out.append(src.group(1))
+    return out
+
+
+def check_image_files(report: Report, langs, scope=None):
+    """Unused images and translated screenshots without an English original."""
+    used = set()
+    for md in DOCS.rglob("*.md"):
+        for target in image_refs(md):
+            used.add((md.parent / target.split("#", 1)[0].replace("%20", " ")).resolve())
+    cfg_text = (ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+    for f in sorted(DOCS.rglob("*")):
+        if not f.is_file() or f.suffix.lower() not in IMAGE_EXTS or "images" not in f.parts:
+            continue
+        if scope is not None and f not in scope:
+            continue
+        if "icons" in f.parts or f.relative_to(DOCS).as_posix() in cfg_text:
+            continue
+        lang = localized_lang(f, langs)
+        if lang and "-extra-" not in f.name:
+            base = localized_base(f, lang)
+            if not base.exists():
+                report.warn("localized-image-orphan",
+                            f"translated screenshot has no English original ({base.name})", rel(f))
+            elif base.resolve() not in used:
+                report.warn("image-unused", "not used by any page", rel(f))
+        elif f.resolve() not in used:
+            report.warn("image-unused", "not used by any page", rel(f))
+
+
+def check_translation_images(report: Report, langs, pages):
+    """Translations should show the same screenshots as English."""
+    for en in pages:
+        if lang_of(en, langs) or not en.exists() or DOCS not in en.parents:
+            continue
+        en_refs = image_refs(en, include_icons=False)
+        for lang in langs:
+            tr = translation_of(en, lang)
+            if not tr.exists():
+                continue
+            tr_refs = [r for r in image_refs(tr, include_icons=False) if "-extra-" not in r]
+            if tr_refs != en_refs:
+                missing = [r for r in en_refs if r not in tr_refs]
+                detail = f"; missing: {', '.join(missing[:3])}" if missing else ""
+                report.warn("image-refs-differ",
+                            f"{lang} page shows different screenshots from English{detail}", rel(tr))
 
 
 def check_translation_sync(report: Report, changed: set[Path], langs: list[str]):
@@ -480,13 +564,23 @@ def main(argv=None) -> int:
         changed = changed_files(args.changed)
         pages = [f for f in changed if f.suffix == ".md" and DOCS in f.parents and f.exists()]
         images = [f for f in changed if DOCS in f.parents]
+        added = git("diff", "--name-only", "-z", "--diff-filter=A", f"{args.changed}...HEAD") or ""
+        added += git("ls-files", "--others", "--exclude-standard", "-z") or ""
+        new_files = {ROOT / n for n in added.split("\0") if n}
         check_translation_sync(report, changed, langs)
+        scope = set(images)
+        en_pages = {source_of(p, langs) for p in pages}
     else:
         pages = sorted(DOCS.rglob("*.md"))
         images = sorted(p for p in DOCS.rglob("*") if p.is_file())
+        new_files = frozenset()
+        scope = None
+        en_pages = pages
     for md in pages:
         check_page(report, md, langs)
-    check_image_sizes(report, images)
+    check_image_sizes(report, images, new_files)
+    check_image_files(report, langs, scope)
+    check_translation_images(report, langs, sorted(en_pages))
 
     print_report(report, args.verbose)
     return 1 if report.errors else 0

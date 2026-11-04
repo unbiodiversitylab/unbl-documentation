@@ -71,9 +71,10 @@ native speaker reviews them.
   numbered step, UI labels exactly as on screen ('CREATE NEW METRIC').
 - Page structure: one `#` title (it must match the title in the site menu), then `##`
   sections. Use `!!! note` / `!!! tip` / `!!! warning` boxes sparingly.
-- **Screenshots** go in `docs/<section>/images/en/`. Use lowercase names with hyphens,
-  no spaces, crop to the relevant area, and keep each under 1 MB. **Every image needs alt
-  text**: `![The Metrics page with the CREATE NEW METRIC button](images/en/metrics-create.png)`.
+- **Screenshots** go in `docs/<section>/images/`, named after the page and position:
+  `custom-metrics-03.png`. Use lowercase names with hyphens, no spaces, crop to the
+  relevant area, and keep each under 1 MB. **Every image needs alt text**:
+  `![The Metrics page with the CREATE NEW METRIC button](images/custom-metrics-03.png)`.
 - **A new page** also needs a line in the `nav:` section of `mkdocs.yml`, and a
   translated title under `nav_translations` for each language. `/add-page` does all of
   this, or ask a maintainer.
@@ -91,8 +92,10 @@ native speaker reviews them.
 - **Keep structure identical** to English: headings, lists, boxes (`!!! note` stays in
   English), figure IDs like `{#fig-create-new-analysis}`, link targets and anchors.
   Translate the text, link text, alt text and captions.
-- **Images**: use `images/<lang>/` if a translated screenshot exists, otherwise keep the
-  `images/en/` path.
+- **Images**: keep the image path exactly as in English. To provide a screenshot in
+  your language, save it next to the English one with your language code added:
+  `custom-metrics-03.png` → `custom-metrics-03.fr.png`. Your language's site then shows
+  it automatically; without it, readers see the English screenshot.
 - **Front matter**: translated pages may start with:
   ```yaml
   ---

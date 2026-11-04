@@ -15,7 +15,7 @@ Do not edit files. Use Bash only for read-only git commands (`git diff`, `git lo
 3. Check, section by section:
    - **Fidelity**: meaning preserved; nothing omitted, added or reordered; numbers, limits, percentages and units unchanged.
    - **Terminology**: glossary terms used and `avoid` wordings not used. Product names (UN Biodiversity Lab, UNBL, ELSA) untranslated. UI labels kept as in the interface, with a bracketed translation where the page convention does so. Consistent with other pages in the same language.
-   - **Structure**: the same heading levels and count, list items, admonitions (keyword in English, e.g. `!!! note`), figures, figure IDs, anchors and link targets as English. Image paths point to an existing file (translated folder if available, otherwise `en/`).
+   - **Structure**: the same heading levels and count, list items, admonitions (keyword in English, e.g. `!!! note`), figures, figure IDs, anchors and link targets as English. Image paths are identical to English (the site serves the `.<lang>.png` variant automatically; a page must never reference `.<lang>.png` directly).
    - **Language quality**: grammar, natural phrasing, formal register, correct typography (French non-breaking space before `: ; ? !` and « » quotes; Spanish ¿ ¡; Russian «ёлочки» quotes where the page already uses them).
 4. Don't flag stylistic preferences where the existing translation is correct and consistent.
 

@@ -31,6 +31,8 @@ Arguments: `$ARGUMENTS` (section such as `unbl-workspaces`, `unbl-public-platfor
 - Add `<English title>: <translated title>` to `nav_translations` in **each** of the `es`, `fr`, `pt`, `ru` locale blocks. The translated title must match that language's H1. Watch YAML quoting: quote titles containing `: ` or starting with special characters.
 - If the page links from a section `index.md`, update the index in all 5 languages too.
 
+Screenshots for the new page go in `docs/<section>/images/` as `<page-slug>-01.png`, `-02.png`… (see CLAUDE.md, "Images"); translations reference the same names.
+
 ## 5. Verify
 
 ```bash

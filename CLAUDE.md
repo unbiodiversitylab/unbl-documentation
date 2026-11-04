@@ -21,7 +21,7 @@ docs/
   unbl-public-platform/  N_name.md   "How do I...?" guide to the public map app
   unbl-workspaces/       N_name.md   guide to secure workspaces (admins)
   elsa/                  NN_name.md  ELSA spatial planning tool
-  <section>/images/<lang>/           screenshots (see "Images")
+  <section>/images/                  screenshots: name.png + name.fr.png etc. (see "Images")
   assets/css/unbl-custom.css         the only custom CSS
   wordpress-site/notify-parent.js    deep-linking for the WordPress embed. Do not remove.
 mkdocs.yml        config, nav, and nav_translations for every language
@@ -52,8 +52,8 @@ Every page exists as `name.md` (English) plus `name.es.md`, `name.fr.md`, `name.
 - Use `i18n/glossary.yml`. Product names (UN Biodiversity Lab, UNBL, ELSA) are never
   translated. UI labels in capitals stay in English with a translation in brackets.
 - Keep identical between languages: heading levels, figure IDs (`{#fig-...}`), anchors,
-  admonition keywords (`!!! note`), link targets, image file names (only the
-  `images/<lang>/` folder may differ).
+  admonition keywords (`!!! note`), link targets, and **image references** (every
+  language references the English file name; see "Images").
 
 ## Markdown conventions
 
@@ -63,7 +63,7 @@ Every page exists as `name.md` (English) plus `name.es.md`, `name.fr.md`, `name.
 - Figures with captions (ELSA style):
   ```markdown
   <figure markdown>
-  ![Create new analysis dialog](images/fr/05fr-create-analysis.png){#fig-create-new-analysis}
+  ![Create new analysis dialog](images/creating-analysis-05.png){#fig-create-new-analysis}
   <figcaption>Figure 5. Creating a new analysis</figcaption>
   </figure>
   ```
@@ -76,11 +76,26 @@ Every page exists as `name.md` (English) plus `name.es.md`, `name.fr.md`, `name.
 
 ## Images
 
-- Put new screenshots in `docs/<section>/images/<lang>/`. Use lowercase file names
-  with hyphens and **no spaces**.
-- If there's no translated screenshot, the translated page points at the `en/` image.
-- Keep images under **1 MB** (GIFs under 5 MB). Use cropped PNGs, not full-screen
-  captures. Don't add new GIFs; prefer a short sequence of screenshots.
+Screenshots use mkdocs-static-i18n **localized assets**:
+
+```
+docs/elsa/images/creating-analysis-05.png      English (and the fallback)
+docs/elsa/images/creating-analysis-05.fr.png   French version, if one exists
+```
+
+- **Every language's page references the English name** (`images/creating-analysis-05.png`).
+  The French site automatically serves `creating-analysis-05.fr.png` if it exists, and
+  the English image otherwise. Never write `.fr.png` into a page.
+- Names are `<page-slug>-<NN>.png`: the page file name without its number prefix,
+  hyphenated, plus a two-digit position. For a new screenshot in the middle of a page,
+  use the next free number (or a descriptive suffix such as `creating-analysis-05b.png`)
+  rather than renumbering existing files.
+- Lowercase, hyphens, **no spaces**, PNG. The translated file must have exactly the same
+  name and extension as the English one, plus `.<lang>`.
+- Keep each image under **1 MB** and no wider than about 1600 px: crop to the relevant
+  area, not full-screen captures. No GIFs. Tutorial videos are embedded from YouTube
+  (see the `unbl-video` blocks on public platform pages).
+- Shared icons live in `images/icons/` and aren't localized.
 
 ## Checking your work
 
