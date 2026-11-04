@@ -35,10 +35,22 @@ jobs:
       - name: Build site (strict)
         run: mkdocs build --strict
 
+      - name: Upload built site for preview
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-preview
+          path: site
+          retention-days: 14
+
       - name: Translation drift summary
         if: always()
         run: |
           {
+            echo "## Preview this PR"
+            echo "Download **site-preview** under *Artifacts* at the bottom of this page and unzip it."
+            echo "In the unzipped folder run \`python -m http.server\`, then open http://localhost:8000"
+            echo "(opening the HTML files directly won't follow links between pages)."
+            echo
             echo "## Translation status"
             echo "Informational only; this never fails the check."
             echo '```'
