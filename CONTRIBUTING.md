@@ -21,6 +21,9 @@ installing the tools, branches and pull requests step by step, with pictures.
 3. **Each PR is checked automatically.** A "Check documentation" status appears on the
    PR. A red cross means something is broken (a missing translation file, a broken link
    or image); click **Details** to see what. Yellow warnings are information only.
+   To see the PR's pages as readers will, open the check's **Details** → *Summary*,
+   download **site-preview**, unzip it, run `python -m http.server` in that folder and
+   visit http://localhost:8000.
 4. **Words matter.** Use [`i18n/glossary.yml`](i18n/glossary.yml) for terminology in
    every language. Product names (UN Biodiversity Lab, UNBL, ELSA) are never translated.
 
