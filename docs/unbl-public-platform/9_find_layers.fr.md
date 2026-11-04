@@ -2,7 +2,7 @@
 
 Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de données mondiaux disponibles liés à la nature et au bien-être humain, allant de la biodiversité aux services écosystémiques, en passant par les données socio-économiques. Nous incluons également des ensembles de données régionaux lorsque cela est recommandé par les utilisateurs du UN Biodiversity Lab. Vous pouvez consulter les ensembles de données du UN Biodiversity Lab pour la biodiversité à l'échelle mondiale ou dans une zone qui vous intéresse.
 
-!!! Note
+!!! note
 	Nous faisons référence à la fois aux ensembles de données et aux couches de données dans ce guide et sur le UNBL. Chaque ensemble de données peut contenir une ou plusieurs couches de données.
 	
 <details class="unbl-video">

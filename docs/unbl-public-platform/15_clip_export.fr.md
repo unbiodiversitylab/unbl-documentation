@@ -36,7 +36,7 @@ Pour ce faire :
 
 	- Une petite marge est ajoutée au cadre de sélection, ce qui agrandit légèrement la zone du raster découpé. Cela permet d'éviter toute perte de données en cas d'incohérences entre les frontières nationales utilisées dans le UNBL et le fichier officiel des frontières nationales que vous souhaitez utiliser. Cela suppose que les différences sont potentiellement minimes. Si ce n'est pas le cas, veuillez nous contacter à l'adresse support@unbiodiversitylab.org pour obtenir de l'aide.
 
-	!!! Note
+	!!! note
 		Si vous téléchargez des fichiers GeoTIFF, il s'agit de données brutes qui ne contiennent pas d'informations de style.
 
 	![Panneau de découpage et d'exportation avec la sélection de couche, le format PNG ou GeoTIFF et Télécharger mis en évidence](images/clip-export-02.png)

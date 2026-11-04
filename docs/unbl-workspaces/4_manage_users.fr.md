@@ -24,7 +24,7 @@ Pour ajouter des utilisateurs à votre espace de travail :
 
 3.	Entrez l'adresse e-mail de l'utilisateur dans la barre « Email de l'utilisateur » et attribuez-lui un ou plusieurs rôles d'utilisateur dans le menu déroulant adjacent. Plusieurs adresses e-mail peuvent être ajoutées en même temps ; cependant, elles seront toutes attribuées au même rôle d'utilisateur sélectionné. Cliquez sur « AJOUTER UN UTILISATEUR ». Les noms sont automatiquement générés à partir de l'adresse e-mail de l'utilisateur.
 
-	!!!Note
+	!!! note
 		L'utilisateur doit déjà être enregistré sur la plateforme UNBL pour être ajouté à votre espace de travail. Si l'adresse e-mail de l'utilisateur n'est pas liée à un compte enregistré sur UNBL, vous recevrez un message d'erreur.
 
 ![Page « Utilisateurs » avec le champ d'adresse e-mail, le menu des rôles sur Viewer et le bouton « AJOUTER UN UTILISATEUR »](images/manage-users-01.png)

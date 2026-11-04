@@ -4,7 +4,7 @@
 
 Esta guía explica cómo aprovechar todas las funcionalidades disponibles en su espacio de trabajo seguro en la plataforma UN Biodiversity Lab (UNBL). Si tiene más preguntas, por favor contáctenos en <support@unbiodiversitylab.org>.
 
-!!!Note
+!!! note
 	Los términos *conjunto de datos* y *capa* se utilizan de manera intercambiable a lo largo de esta guía. Un conjunto de datos se refiere a una colección de datos espaciales que consta de una o más capas. En UNBL, una carga única o configuración de datos geoespaciales se realiza mediante *'crear una capa'*. Múltiples entradas de capas pueden combinarse y visualizarse en UNBL como un conjunto de datos. Las capas individuales también pueden visualizarse independientemente en UNBL.
 
 ## Tabla de contenidos

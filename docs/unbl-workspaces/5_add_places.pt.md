@@ -23,7 +23,7 @@ Para adicionar um novo lugar:
 
 	b.	*Place type*: Selecione a classe apropriada do menu suspenso. Isto será útil para filtrar as suas pesquisas mais tarde. Pode escolher entre *Biome or Ecosystem, Community and Indigenous Area, Country, Cross-Boundary Area, Marine, Other Jurisdiction, Protected Area, Species Range* ou *Study Area*.
 
-	!!!Note
+	!!! note
 		Ao escolher o tipo *Country*, ser-lhe-á pedido que introduza, opcionalmente, um código de país ISO3/M49 para o seu país. Isto permitirá que as métricas dinâmicas e os indicadores principais disponíveis apenas para lugares ao nível de país sejam exibidos para a sua área de interesse.
 
 	c.	*Slug*: Insira um identificador único para o lugar que contenha apenas letras minúsculas, números e hífens. Não podem ser usados espaços. Isto identificará de forma única o seu lugar de todos os outros dentro do sistema UNBL. Recomendamos usar o botão 'GENERATE A SLUG NAME' para o ajudar a gerar um slug apropriado.
@@ -72,12 +72,12 @@ As métricas dinâmicas padrão do UNBL tornam-se automaticamente disponíveis p
 
 	No separador 'PLACES', pesquise e selecione um lugar carregado no seu espaço de trabalho UNBL.
 
-	!!!Note
+	!!! note
 		Os lugares são filtrados por tipo *Country* por defeito ao abrir a vista do mapa UNBL. Se o seu lugar for de uma categoria diferente, como Protected Area ou Cross-Boundary Area e não tipo *Country*, então precisa de clicar no botão 'CLEAR' para limpar todos os filtros, ou expandir o menu suspenso 'FILTERS' e desmarcar a caixa de país e selecionar o seu filtro de interesse para encontrar o seu lugar.
 
 2.	Ao selecionar um lugar, as métricas dinâmicas serão automaticamente exibidas no painel esquerdo. Escolha entre uma lista das dez métricas dinâmicas padrão, a métrica marinha ou dois indicadores principais clicando no botão 'Metrics', 'Marine metrics' ou 'Headline indicators'.
 
-	!!!Note
+	!!! note
 		As métricas de indicadores principais e a métrica Protected Area apenas estão disponíveis para lugares de tipo *Country* com um código de país ISO3/M49 especificado. Os lugares que não sejam do tipo *Country* não terão, portanto, a opção de escolher indicadores principais.
 
 	![Painel do lugar Albânia com o menu 'Dashboard' aberto: 'METRICS' ou 'HEADLINE INDICATORS'](images/add-places-09.png)

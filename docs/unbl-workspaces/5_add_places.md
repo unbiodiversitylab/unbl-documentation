@@ -2,7 +2,7 @@
 
 ## How do I add places?
 
-Adding a new place to your workspace provides you with the ability to utilize all functionalities of UNBL for any area of interest (protected area, subnational administrative level, transboundary area, indigenous community boundary, etc.). Once the place has been added to your UNBL workspace, you will be able to: (1) display UNBL's standard dynamic metrics for this area of interest; (2) display your own custom metrics (as zonal statistics) for this area of interest; and (3) clip any raster layer published on the UNBL public platform (with an open-access license) to this area of interest and then download it as a GeoTIFF file for further work in a desktop GIS software. Adding a place involves uploading a vector file (polygon or multipolygon) to UNBL. For further details around privacy of uploaded data, please see our [overview sheet on data security](data_security.md).
+Adding a new place to your workspace provides you with the ability to utilize all functionalities of UNBL for any area of interest (protected area, subnational administrative level, transboundary area, indigenous community boundary, etc.). Once the place has been added to your UNBL workspace, you will be able to: (1) display UNBL's standard dynamic metrics for this area of interest; (2) display your own custom metrics (as zonal statistics) for this area of interest; and (3) clip any raster layer published on the UNBL public platform (with an open-access licence) to this area of interest and then download it as a GeoTIFF file for further work in a desktop GIS software. Adding a place involves uploading a vector file (polygon or multipolygon) to UNBL. For further details around privacy of uploaded data, please see our [overview sheet on data security](data_security.md).
 
 To add a new place:
 
@@ -18,7 +18,7 @@ To add a new place:
 	
 	b.	*Place type*: Select the appropriate class from the dropdown menu. This will be helpful for filtering your searches later. You can choose from *Biome or Ecosystem, Community and Indigenous Area, Country, Cross-Boundary Area, Marine, Other Jurisdiction, Protected Area, Species Range,* or *Study Area*.
 	
-	!!!Note
+	!!! note
 		Choosing the *Country* type will prompt you to optionally enter an ISO3/M49 country code for your country. This will allow dynamic metrics and headline indicators that are only available for country-level places to be displayed for your area of interest.
 	
 	c.	*Slug*: Insert a unique identifier for the place that contains only lowercase letters, numbers, and hyphens. No spaces can be used. This will uniquely identify your place from all others within the UNBL system. We recommend using the ‘GENERATE A SLUG NAME’ button to help you generate an appropriate slug. 
@@ -67,12 +67,12 @@ UNBL's standard dynamic metrics become automatically available for your place as
 	
 	In the ‘PLACES’ tab, search for and select a place uploaded to your UNBL workspace.    
 
-	!!!Note
+	!!! note
 		Places are filtered by *Country* type by default upon opening the UNBL map view.  If your place is of a different category, such as a Protected Area or Cross-Boundary Area and not *Country* type, then you need to click on the ‘CLEAR’ button to clear all filters, or expand the ‘FILTERS’ dropdown menu and uncheck the country box and select your filter of interest to find your place.
 
 2.	Upon selecting a place, dynamic metrics will automatically be displayed for it in the left panel. Choose between a list of the ten standard dynamic metrics, marine metric, or two headline indicators by clicking on either the ‘Metrics’, 'Marine metrics', or ‘Headline indicators’ button. 
 
-	!!!Note
+	!!! note
 		Headline indicator metrics and the Protected Area metric are only available for *Country* type places with a specified ISO3/M49 country code. Places that are not *Country* types will therefore not have an option to choose headline indicators. 
 		
 	![Place panel for Albania with the 'Dashboard' menu open: Metrics or Headline Indicators](images/add-places-09.png)
@@ -81,7 +81,7 @@ UNBL's standard dynamic metrics become automatically available for your place as
 
 	![Global Land Cover toggle, collapse arrow and legend close icon highlighted, layer on map](images/add-places-10.png)
 	
-4.	Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and license specifications.
+4.	Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and licence specifications.
 
 	![Info icon of the Global Land Cover metric highlighted, opening its layer info window](images/add-places-11.png)
 	

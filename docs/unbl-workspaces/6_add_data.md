@@ -26,7 +26,7 @@ Geospatial data can be uploaded and/or linked to within your workspace, thereby 
 
 Importantly, any datasets in your workspace can also be viewed in tandem with global datasets published on UNBL’s public platform.
 
-!!!Note
+!!! note
 	The terms *dataset* and *layer* are used intermittently henceforth. A dataset refers to a collection of spatial data consisting of one or more layers. On UNBL, a single upload or configuration of geospatial data is realized through *‘creating a layer’*. Multiple layer entries can be combined and visualized on UNBL as a dataset. Single layers can also be visualized independently on UNBL.
 
 ## What parameters and metadata do I fill in when creating a layer?
@@ -49,9 +49,9 @@ To begin creating a layer and fill in relevant metadata for the layer:
 	
 	d.	*Tag (optional)*: You can specify one or more tags for your layer. Tags correspond to the dataset tags filter in the map view. Specifying a tag for your layer will mean that the layer will appear in the list of filtered layers when the corresponding dataset tag filter is applied in the map. Unlike layer categories, tags can be any text string of your choice, making this feature useful if you need to clearly differentiate your workspace layers from public platform datasets and be able to apply more effective filters when searching for your datasets in the map view. For example, you could use a tag to identify the target in your national biodiversity strategy and action plan (NBSAP) for which the data layer is relevant.
 	
-	e.	*Layer description (optional)*: In the description field, you can specify the text that will appear in the layer information pop-up box. Here, you can insert the bulk of your layer metadata, such as a general description, citation for the scientific paper/dataset, external links to the scientific paper/dataset, license specifications, etc. There is an additional 'METADATA' parameter which permits you to fill in concrete data parameters such as the resolution, data version, dataset date and publication date. The 'PREVIEW' parameter allows you to preview how the layer information pop-up box will look like on UNBL.
+	e.	*Layer description (optional)*: In the description field, you can specify the text that will appear in the layer information pop-up box. Here, you can insert the bulk of your layer metadata, such as a general description, citation for the scientific paper/dataset, external links to the scientific paper/dataset, licence specifications, etc. There is an additional 'METADATA' parameter which permits you to fill in concrete data parameters such as the resolution, data version, dataset date and publication date. The 'PREVIEW' parameter allows you to preview how the layer information pop-up box will look like on UNBL.
 	
-	!!!Note
+	!!! note
 		For individual layers that are part of a parent group layer, the layer information pop-up text will always display the description of the parent group layer and so the description field is redundant (see [‘How do I create group layers?’](#how-do-i-create-group-layers)).
 
 	![New layer page with title, slug, categories, search tags and description preview filled in](images/add-data-02.png)
@@ -73,7 +73,7 @@ repository on Azure. For further information, please see our
 [overview sheet on data security](data_security.md).
   
 
-!!!Note
+!!! note
 	Geospatial data in other raster and vector layer formats can be configured on UNBL through linking to an external resource. See [‘How do I configure raster layers using external tile services?’](#how-do-i-configure-raster-layers-using-wmswmts-external-tile-services) and [‘How do I configure vector layers using external tile services?’](#how-do-i-configure-vector-layers-using-external-tile-services) for available UNBL-interoperable OGC Web Service formats and guides on linking to them. 
 
 To upload a GeoTIFF file:
@@ -100,9 +100,9 @@ To upload a GeoTIFF file:
 	
 	- *Name* – the name of the styling entry in the layer legend on the map.
 	
-	- *Color* – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
+	- *Color* – the colour of pixels with the specified value on the map. You can define a colour through the manual colour picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the colour in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
 		
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colours between each of these values will be generated.
 	
 	![Layer configuration for a GeoTIFF File Upload with three categorical layer styling entries](images/add-data-03.png)
 	
@@ -134,7 +134,7 @@ UNBL supports the configuration of raster image layers to your workspace by link
 	https://wms.server.net/mapserv?request=getmap&service=wms&BBOX={bbox-epsg-3857}&crs=EPSG:3857&format=image/jpeg&layers=layer_latest&width=1200&height=600
 	```
 	
-	!!!Note "The following placeholders were adjusted to enable UNBL configuration:"
+	!!! note "The following placeholders were adjusted to enable UNBL configuration:"
 		- `-90,-180,90,360` changed to `{bbox-epsg-3857}`
 		- `EPSG:4326` changed to `EPSG:3857`
 
@@ -142,13 +142,13 @@ UNBL supports the configuration of raster image layers to your workspace by link
 	
 	e.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.
 	
-	f.	*Legend Config*: The legend styling determines how the legend for the raster image is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of legend styling entries to match the color scheme used in the raster image. Each legend styling entry should define the following properties: 
+	f.	*Legend Config*: The legend styling determines how the legend for the raster image is displayed on the map. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of legend styling entries to match the colour scheme used in the raster image. Each legend styling entry should define the following properties: 
 	
 	- *Name* – the name of the styling entry in the layer legend on the map.
 	
-	- *Color* – the color associated with the specified name in the layer legend. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value.
+	- *Color* – the colour associated with the specified name in the layer legend. You can select a colour by using the colour picker, or by specifying a RGBA or Hex colour code value.
 	
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical raster images, the legend layer styling entries should represent the values of each category/class within the raster data source. For continuous raster images, legend styling entries should represent the range of values visualized in the raster image. You can specify any points along the range of values between the minimum and maximum values - a gradient of colors between each of these values will be generated.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical raster images, the legend layer styling entries should represent the values of each category/class within the raster data source. For continuous raster images, legend styling entries should represent the range of values visualized in the raster image. You can specify any points along the range of values between the minimum and maximum values - a gradient of colours between each of these values will be generated.
 	
 	![Layer configuration for an external tile service with tiles URL and legend entries](images/add-data-04.png)
 	
@@ -188,19 +188,19 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 
 	- *Name* – the name of the class or range in the layer legend on the map.
 	
-	- *Color* – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
+	- *Color* – the colour of pixels with the specified value on the map. You can define a colour through the manual colour picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the colour in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
 	
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The example layer styling below creates a continuous color palette for carbon stock concentration.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colours between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The example layer styling below creates a continuous colour palette for carbon stock concentration.
 	
 	![BANDS tab of the Google Earth Engine asset details with Min and Max values highlighted](images/add-data-09.png)
 	
 	![Continuous layer styling entries for carbon stock values from 1 to 590 kg/m²](images/add-data-10.png)
 	
-	For categorical raster layers, each specified pixel value maps to exactly one discrete class or category. The example layer styling below creates a discrete color palette that maps land cover classes.
+	For categorical raster layers, each specified pixel value maps to exactly one discrete class or category. The example layer styling below creates a discrete colour palette that maps land cover classes.
 	
-	![Categorical layer styling entries mapping nine land cover classes to colors](images/add-data-11.png)
+	![Categorical layer styling entries mapping nine land cover classes to colours](images/add-data-11.png)
 	
-	g.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step f. While layer styling determines the style of the layer legend, the SLD will determine the color style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous color scheme for carbon stock concentration would look like this:
+	g.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step f. While layer styling determines the style of the layer legend, the SLD will determine the colour style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous colour scheme for carbon stock concentration would look like this:
 	
 	```
 	
@@ -237,7 +237,7 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 
 	```
 	
-	Where each ColorMapEntry color and associated pixel quantity row matches exactly to a layer styling entry row from step f.
+	Where each ColorMapEntry colour and associated pixel quantity row matches exactly to a layer styling entry row from step f.
 	
 	![Layer styling entries with the GENERATE GEE SLD button and the generated SLD code below](images/add-data-12.png)
 	
@@ -274,7 +274,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 
 	a.	*Source layer*: Specify the name of the dataset which you are hosting on the vector tile server. For example, the source layer for the example URL from step 2c is `forest_cover`. Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation on source layer referencing.
 	
-	b.	*Type*: Specify the geometry type your dataset represents. Available options are *fill, line, symbol, circle, heatmap* and *fill-extrusion*. In the majority of cases, the geometry type will be *fill* (polygons with a color fill ramp). Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation on geometry type options.
+	b.	*Type*: Specify the geometry type your dataset represents. Available options are *fill, line, symbol, circle, heatmap* and *fill-extrusion*. In the majority of cases, the geometry type will be *fill* (polygons with a colour fill ramp). Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation on geometry type options.
 	
 	c.	*Paint (optional)*: Here, you can specify the layer styling for your dataset on UNBL using a .json style configuration . Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation for configuring layer styling. For the most common geometry types of type *fill*, the paint configuration follows a set template. For configuring layer styling for categorical datasets, use the following template:
 	
@@ -309,7 +309,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	{
 	"fill-opacity": ==0.9==,
-    "fill-color": [
+    "fill-colour": [
     "match",
     [ "get", =="forest_cover_2023"==],
     =="Mixed forest",
@@ -319,7 +319,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
     "Plantation forest",
     "#add911",
     "#ffffff"==], 
-    "fill-outline-color": [ 
+    "fill-outline-colour": [ 
     "match", 
     ["get", =="forest_cover_2023"==], 
     =="Mixed forest",
@@ -335,11 +335,11 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	- `fill-opacity` sets the opacity of the polygon fill, from 0 (fully transparent) to 1 (fully opaque).
 	
-	- `fill-color` specifies the data attribute which will be used to style the polygon fill, as well as the styling itself (in this instance, it is the `forest_cover_2023` attribute of the `forest_cover` example source dataset mentioned earlier, and `match` specifies styling for discrete categories for this data attribute). Each next configurable text string pair specifies a discrete category of your data attribute and the color you want to paint that specific category (in Hex code format), respectively.
+	- `fill-color` specifies the data attribute which will be used to style the polygon fill, as well as the styling itself (in this instance, it is the `forest_cover_2023` attribute of the `forest_cover` example source dataset mentioned earlier, and `match` specifies styling for discrete categories for this data attribute). Each next configurable text string pair specifies a discrete category of your data attribute and the colour you want to paint that specific category (in Hex code format), respectively.
 
-	- `fill-outline-color` functions the same as `fill-color`, but specifies the color of the linear boundary of the polygon instead of the inner polygon fill. This way, you can specify a different color boundary for polygons compared to the color of their inner fill (note that this is not the case for the above example). Importantly, you can specify a `“#ffffff”` string at the end of the last hex code string for either of the fill properties to signify that any data categories which are not explicitly listed in the fill styling property should be transparent.
+	- `fill-outline-color` functions the same as `fill-color`, but specifies the colour of the linear boundary of the polygon instead of the inner polygon fill. This way, you can specify a different colour boundary for polygons compared to the colour of their inner fill (note that this is not the case for the above example). Importantly, you can specify a `“#ffffff”` string at the end of the last hex code string for either of the fill properties to signify that any data categories which are not explicitly listed in the fill styling property should be transparent.
 
-	!!!Important
+	!!! important
 		If you do not include the `“#ffffff”` string for transparent styling for non-included data categories, your vector tiles will fail to visualize if you fail to exhaustively specify styling for **all** data categories that are present in your data attribute in the fill styling property. However, you do not have to specify inclusive transparent styling if you specify a filter to exclude selected data categories in your data attribute from consideration for layer styling (step 3d).
 		
 	For configuring layer styling for continuous datasets, use the following template:
@@ -395,7 +395,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	{
     "fill-opacity": ==0.9==,
-    "fill-color": [
+    "fill-colour": [
     "interpolate",
 	[ "linear" ],
     [ "get", =="canopy_height_2023"== ],
@@ -415,7 +415,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	"#518510", 
 	100, 
 	"#305207"== ], 
-    "fill-outline-color": [
+    "fill-outline-colour": [
     "interpolate",
 	[ "linear" ],
     [ "get", =="canopy_height_2023"== ],
@@ -441,9 +441,9 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	- `fill-opacity` sets the opacity of the polygon fill, from 0 (fully transparent) to 1 (fully opaque). 
 	
-	- `fill-color` specifies the data attribute which will be used to style the polygon fill, as well as the styling itself (in this instance, it is the `canopy_height_2023` attribute of the `forest_cover` example source dataset mentioned earlier, and `interpolate` specifies styling for a continuous range of values for this data attribute). Each next configurable variable pair specifies a number that falls within the range of values in your data attribute and a text string with the color you want to paint that specific value (in Hex code format), respectively. To build a continuous color scheme for your data attribute, start by styling the minimum value and work upwards in reasonable intervals, based on the spread of your data, to reach the maximum value. Any values falling between a specified interval will be styled using a graduated color that is darker than the smaller value specified color, and lighter than the larger value specified color in the specified interval.  
+	- `fill-color` specifies the data attribute which will be used to style the polygon fill, as well as the styling itself (in this instance, it is the `canopy_height_2023` attribute of the `forest_cover` example source dataset mentioned earlier, and `interpolate` specifies styling for a continuous range of values for this data attribute). Each next configurable variable pair specifies a number that falls within the range of values in your data attribute and a text string with the colour you want to paint that specific value (in Hex code format), respectively. To build a continuous colour scheme for your data attribute, start by styling the minimum value and work upwards in reasonable intervals, based on the spread of your data, to reach the maximum value. Any values falling between a specified interval will be styled using a graduated colour that is darker than the smaller value specified colour, and lighter than the larger value specified colour in the specified interval.  
 	
-	- `fill-outline-color` functions the same as `fill-color`, but specifies the color of the linear boundary of the polygon instead of the inner polygon fill. This way, you can specify a different color boundary for polygons compared to the color of their inner fill (note that this is not the case for the above example).
+	- `fill-outline-color` functions the same as `fill-color`, but specifies the colour of the linear boundary of the polygon instead of the inner polygon fill. This way, you can specify a different colour boundary for polygons compared to the colour of their inner fill (note that this is not the case for the above example).
 	
 	d.	*Filter (optional)*: You can optionally specify a subset of data categories, or specific range of values, which should be used for styling the map. Any data categories or range of values falling outside of the specified filter will not be considered in the layer styling. Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation for configuring filter options. As an example, if you wanted to filter out the “Mixed forest” category from the `forest_cover_2023` data attribute, you would use the following template:
 	
@@ -487,9 +487,9 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 
 	- *Name* – the name of the styling entry in the layer legend on the map.
 
-	- *Color* – the color associated with the specified name in the layer legend. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value.
+	- *Color* – the colour associated with the specified name in the layer legend. You can select a colour by using the colour picker, or by specifying a RGBA or Hex colour code value.
 
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical data, the legend layer styling entries should represent the discrete categories and their associated color styling which you specified in the 'Render layers' section. For continuous data, legend styling entries should represent the range of values and their associated color gradient which you specified in the 'Render layers' section.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical data, the legend layer styling entries should represent the discrete categories and their associated colour styling which you specified in the 'Render layers' section. For continuous data, legend styling entries should represent the range of values and their associated colour gradient which you specified in the 'Render layers' section.
 	
 	![Vector layer zoom levels and legend config with three forest categories](images/add-data-17.png)
 	
@@ -523,7 +523,7 @@ You may want to go back and edit your added layers to change any of the associat
 	
 2.	To test if your layer is visualizing properly in the UNBL map view, click on the ‘TEST LAYER’ button in the bottom right corner of the edit layer page. A green tick will appear inside the button if the layer has been correctly uploaded and/or configured. Otherwise, a red cross will appear with an error message diagnosing the problem.
 
-	!!!Note
+	!!! note
 		If you are uploading a regional dataset (non-global extent), it is possible that the test may report a failure even if the layer is working, as the test may request sample tiles that fall outside of your dataset’s areal extent. Alternatively, the test may report a positive result solely due to a valid external layer URL, even if the layer is failing to visualize in the map view due to an incorrect layer styling configuration. Therefore, it is always best practice to double check the test layer diagnosis by verifying manually whether your layer is visualizing in the UNBL map view.
 
 	![Edit layer page with arrow pointing to TEST LAYER button showing a green tick](images/add-data-22.png)
@@ -538,7 +538,7 @@ You may want to go back and edit your added layers to change any of the associat
 
 Any layers that you add to your UNBL workspace can be grouped together to organize multi-year or multi-categorical data. Each year or category is akin to an individual raster band. Group layers are created in a new, separate layer (termed *parent layer* on UNBL) to the component layers (termed *child layers* on UNBL). For example, a land cover raster spanning three years would require four layers to be made: each year as its own child layer, as well as a fourth parent layer they will all be accessible from. In this case, each individual child layer must be published and **not** marked as primary to be discoverable in the map view exclusively through a group layer. The group/parent layer is an additional display layer with a fixed layer configuration which references all child layers. It is published and marked as primary. When the group layer is viewed on UNBL, a single layer legend appears from which you can select any one of your included child layers to be visualized in the map view.
 
-!!!Note
+!!! note
 	If child layers which you are linking through a group layer are also marked as primary, in addition to being published, these layers will be discoverable as individual entries in the ‘DATASETS’ search bar, thereby duplicating entries with the published group layer.
 
 To set up a group layer:

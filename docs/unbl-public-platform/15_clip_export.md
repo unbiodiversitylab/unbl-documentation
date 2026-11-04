@@ -36,7 +36,7 @@ To do this:
 	
 	- There is a small buffer added to the bounding box, which will slightly enlarge the area of the clipped raster. This helps to ensure that any incongruities between the national boundary used in UNBL and the official national boundary file you may wish to use do not result in loss of data. This assumes that differences are potentially small. If this is not the case, please contact us at <support@unbiodiversitylab.org> for assistance.
 	
-	!!!Note
+	!!! note
 		If you are downloading GeoTIFFs, this is raw data and will not include styling information.
 
 	![Clip and export panel with layer selection, PNG or GeoTIFF format and DOWNLOAD highlighted](images/clip-export-02.png)

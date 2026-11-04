@@ -18,7 +18,7 @@ Navegar entre as duas páginas é simples:
 
 1. Para regressar ao sítio Web do Laboratório de Biodiversidade da ONU a partir da aplicação de mapas, clique em 'VISUALIZAÇÃO DO MAPA' na barra de ferramentas do lado esquerdo e escolha 'INÍCIO' no canto superior direito do painel.
 
-	!!! Note
+	!!! note
 		Se estiver registado no UNBL e possuir um espaço de trabalho, clique em 'ESPAÇOS DE TRABALHO' na barra de ferramentas do lado esquerdo e, em seguida, em 'INÍCIO'.
 
 	![Menu 'VISUALIZAÇÃO DO MAPA' aberto sobre o mapa com 'INÍCIO' destacado](images/navigate-01.png)

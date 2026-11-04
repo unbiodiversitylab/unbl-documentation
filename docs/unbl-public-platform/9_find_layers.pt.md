@@ -2,7 +2,7 @@
 
 Os dados no Laboratório de Biodiversidade da ONU incluem os melhores conjuntos de dados globais disponíveis relacionados com a natureza e o bem-estar humano, variando de biodiversidade a serviços dos ecossistemas, a dados socioeconómicos. Também incluímos conjuntos de dados regionais quando recomendado pelos utilizadores do Laboratório de Biodiversidade da ONU. Pode visualizar conjuntos de dados no Laboratório de Biodiversidade da ONU globalmente ou dentro de uma área de interesse.
 
-!!! Note
+!!! note
 	Referimo-nos tanto a conjuntos de dados quanto a camadas de dados neste guia e no UNBL. Cada conjunto de dados pode ter uma ou múltiplas camadas de dados dentro dele.
 	
 <details class="unbl-video">

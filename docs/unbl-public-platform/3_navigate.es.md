@@ -18,7 +18,7 @@ Navegar entre las dos páginas es muy sencillo.
 
 1. Para volver al sitio web del UN Biodiversity Lab desde la aplicación de mapas, haga clic en «VISTA DEL MAPA» en la barra de herramientas de la izquierda y seleccione «INICIO» en la parte superior derecha del panel.
 
-	!!! Note
+	!!! note
 		Si está registrado en el UNBL y tiene un espacio de trabajo, haga clic en «ESPACIOS DE TRABAJO» en la barra de herramientas de la izquierda y, a continuación, en «INICIO».
 
 	![Menú «VISTA DEL MAPA» abierto sobre el mapa con «INICIO» resaltado](images/navigate-01.png)

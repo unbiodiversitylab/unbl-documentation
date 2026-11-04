@@ -22,7 +22,7 @@ Para agregar un nuevo lugar:
 
 	b.	*Tipo de lugar*: Seleccione la clase apropiada del menú desplegable. Esto será útil para filtrar sus búsquedas más tarde. Puede elegir entre *Biome or Ecosystem, Community and Indigenous Area, Country, Cross-Boundary Area, Marine, Other Jurisdiction, Protected Area, Species Range* o *Study Area*.
 
-	!!!Note
+	!!! note
 		Al elegir el tipo *Country*, se le pedirá que introduzca, de forma opcional, un código de país ISO3/M49 para su país. Esto permitirá mostrar para su área de interés las métricas dinámicas y los indicadores principales que solo están disponibles para lugares a nivel de país.
 
 	c.	*Slug*: Inserte un identificador único para el lugar que contenga solo letras minúsculas, números y guiones. No se pueden usar espacios. Esto identificará de manera única su lugar de todos los demás dentro del sistema UNBL. Recomendamos usar el botón 'GENERA UN NOMBRE DEL SLUG' para ayudarle a generar un slug apropiado.
@@ -71,12 +71,12 @@ Las métricas dinámicas estándar de UNBL se vuelven automáticamente disponibl
 
 	En la pestaña 'LUGARES', busque y seleccione un lugar cargado en su espacio de trabajo UNBL.
 
-	!!!Note
+	!!! note
 		Los lugares se filtran por tipo *País* por defecto al abrir la vista del mapa UNBL. Si su lugar es de una categoría diferente, como Protected Area o Área transfronteriza y no de tipo *País*, entonces necesita hacer clic en el botón 'BORRAR' para quitar todos los filtros, o expandir el menú desplegable 'FILTERS' y desmarcar la casilla de país y seleccionar su filtro de interés para encontrar su lugar.
 
 2.	Al seleccionar un lugar, las métricas dinámicas se mostrarán automáticamente en el panel izquierdo. Elija entre una lista de las diez métricas dinámicas estándar, la métrica marina o dos indicadores principales haciendo clic en el botón 'Metrics' (Métricas), 'Marine metrics' (Métricas marinas) o 'Headline indicators' (Indicadores principales).
 
-	!!!Note
+	!!! note
 		Las métricas de indicadores principales y la métrica de Protected Area solo están disponibles para lugares de tipo *País* con un código de país ISO3/M49 especificado. Por lo tanto, los lugares que no son de tipo *País* no tendrán la opción de elegir indicadores principales.
 
 	![Panel del lugar Albania con el menú 'Dashboard' abierto: 'METRICS' o 'HEADLINE INDICATORS'](images/add-places-09.png)

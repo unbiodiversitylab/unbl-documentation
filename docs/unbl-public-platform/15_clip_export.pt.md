@@ -41,7 +41,7 @@ Para o fazer:
 
 	- É adicionada uma pequena margem (buffer) à caixa delimitadora, que alarga ligeiramente a área do raster recortado. Isto ajuda a garantir que eventuais incongruências entre o limite nacional utilizado no UNBL e o ficheiro oficial de limites nacionais que pretenda utilizar não resultem em perda de dados. Pressupõe-se que as diferenças sejam potencialmente pequenas. Se não for o caso, contacte-nos através de <support@unbiodiversitylab.org> para obter assistência.
 
-	!!!Note
+	!!! note
 		Se estiver a descarregar GeoTIFFs, estes são dados brutos e não incluem informações de estilo.
 
 	![Painel de recorte e exportação com a seleção de camada, o formato PNG ou GeoTIFF e 'descarregar' destacados](images/clip-export-02.png)

@@ -30,7 +30,7 @@ Los datos geoespaciales pueden cargarse y/o vincularse dentro de su espacio de t
 
 Es importante destacar que cualquier conjunto de datos en su espacio de trabajo también puede visualizarse junto con los conjuntos de datos globales publicados en la plataforma pública de UNBL.
 
-!!!Note
+!!! note
 	Los términos *conjunto de datos* y *capa* se utilizan de manera intercambiable en adelante. Un conjunto de datos se refiere a una colección de datos espaciales que consta de una o más capas. En UNBL, una carga única o configuración de datos geoespaciales se realiza mediante *'crear una capa'*. Múltiples entradas de capas pueden combinarse y visualizarse en UNBL como un conjunto de datos. Las capas individuales también pueden visualizarse independientemente en UNBL.
 
 ## ¿Qué parámetros y metadatos debo completar al crear una capa?
@@ -55,7 +55,7 @@ Para comenzar a crear una capa y completar los metadatos relevantes para la capa
 
 	e.	*Descripción (opcional)*: En el campo de descripción, puede especificar el texto que aparecerá en el cuadro emergente de información de la capa. Aquí, puede insertar la mayor parte de los metadatos de su capa, como una descripción general, cita del artículo científico/conjunto de datos, enlaces externos al artículo científico/conjunto de datos, especificaciones de licencia, etc. Existe además un parámetro 'METADATA' (METADATOS) que le permite completar parámetros concretos de los datos, como la resolución, la versión de los datos, la fecha del conjunto de datos y la fecha de publicación. El parámetro 'PREVIEW' (VISTA PREVIA) le permite previsualizar cómo se verá el cuadro emergente de información de la capa en UNBL.
 
-	!!!Note
+	!!! note
 		Para capas individuales que son parte de una capa de grupo principal, el texto emergente de información de la capa siempre mostrará la descripción de la capa de grupo principal y por lo tanto el campo de descripción es redundante (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
 
 	![Página de nueva capa con título, slug, categorías, etiquetas de búsqueda y vista previa de la descripción completados](images/add-data-02.png)
@@ -66,7 +66,7 @@ Para comenzar a crear una capa y completar los metadatos relevantes para la capa
 
 Actualmente, puede cargar manualmente datos geoespaciales a su espacio de trabajo UNBL solo si están disponibles en formato ráster GeoTIFF. Una capa ráster constituye una cuadrícula de celdas (o píxeles) donde cada celda tiene un valor que representa información sobre un tema o fenómeno específico. Actualmente solo podemos aceptar GeoTIFFs con una sola banda. Si tiene un GeoTIFF con más de una banda, divídalo previamente en diferentes archivos. Las capas ráster GeoTIFF se agregan a su espacio de trabajo UNBL mediante una carga directa a un repositorio de datos SIG UNBL seguro y compatible con GDPR en Azure. Para obtener más información sobre la privacidad de los datos, consulte nuestra [hoja informativa sobre seguridad de los datos](data_security.es.md).
 
-!!!Note
+!!! note
 	Los datos geoespaciales en otros formatos de capas ráster y vectoriales pueden configurarse en UNBL vinculándose a un recurso externo. Vea ['¿Cómo configuro capas ráster usando servicios de teselas externos?'](#como-configuro-capas-raster-usando-servicios-de-teselas-externos-wmswmts) y ['¿Cómo configuro capas vectoriales usando servicios de teselas externos?'](#como-configuro-capas-vectoriales-usando-servicios-de-teselas-externos) para formatos de servicios Web OGC interoperables con UNBL y guías para vincularse a ellos.
 
 Para cargar un archivo GeoTIFF:
@@ -127,7 +127,7 @@ UNBL soporta la configuración de capas de imagen ráster a su espacio de trabaj
 	https://wms.server.net/mapserv?request=getmap&service=wms&BBOX={bbox-epsg-3857}&crs=EPSG:3857&format=image/jpeg&layers=layer_latest&width=1200&height=600
 	```
 
-	!!!Note "Los siguientes marcadores de posición fueron ajustados para permitir la configuración de UNBL:"
+	!!! note "Los siguientes marcadores de posición fueron ajustados para permitir la configuración de UNBL:"
 		- `-90,-180,90,360` cambiado a `{bbox-epsg-3857}`
 		- `EPSG:4326` cambiado a `EPSG:3857`
 
@@ -332,7 +332,7 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 	- `fill-outline-color` funciona igual que `fill-color`, pero especifica el color del límite lineal del polígono en lugar del relleno interior del polígono. De esta manera, puede especificar un color de límite diferente para los polígonos en comparación con el color de su relleno interior (note que este no es el caso del ejemplo anterior). Importante, puede especificar una cadena `"#ffffff"` al final de la última cadena de código hex para cualquiera de las propiedades de relleno para significar que cualquier categoría de datos que no esté explícitamente listada en la propiedad de estilo de relleno debe ser transparente.
 
-	!!!Important
+	!!! important
 		Si no incluye la cadena `"#ffffff"` para estilo transparente para categorías de datos no incluidas, sus teselas vectoriales no se visualizarán si omite especificar exhaustivamente el estilo para **todas** las categorías de datos que están presentes en su atributo de datos en la propiedad de estilo de relleno. Sin embargo, no tiene que especificar un estilo transparente inclusivo si especifica un filtro para excluir categorías de datos seleccionadas en su atributo de datos de la consideración para el estilo de capa (paso 3d).
 
 	Para configurar el estilo de capa para conjuntos de datos continuos, use la siguiente plantilla:
@@ -516,7 +516,7 @@ Puede que desee regresar y editar sus capas agregadas para cambiar cualquiera de
 
 2.	Para probar si su capa se visualiza correctamente en la vista del mapa UNBL, haga clic en el botón 'TEST LAYER' en la esquina inferior derecha de la página de edición de capa. Aparecerá una marca verde dentro del botón si la capa ha sido correctamente cargada y/o configurada. De lo contrario, aparecerá una cruz roja con un mensaje de error diagnosticando el problema.
 
-	!!!Note
+	!!! note
 		Si está cargando un conjunto de datos regional (extensión no global), es posible que la prueba reporte una falla incluso si la capa está funcionando, ya que la prueba puede solicitar teselas de muestra que caigan fuera de la extensión areal de su conjunto de datos. Por otro lado, la prueba puede dar un resultado positivo únicamente porque la URL externa de la capa es válida, aunque la capa no se visualice en la vista del mapa debido a una configuración incorrecta del estilo de capa. Por lo tanto, siempre es una buena práctica verificar el diagnóstico de prueba de capa verificando manualmente si su capa se visualiza en la vista del mapa UNBL.
 
 	![Página de edición de capa con una flecha que señala el botón TEST LAYER con una marca verde](images/add-data-22.png)
@@ -531,7 +531,7 @@ Puede que desee regresar y editar sus capas agregadas para cambiar cualquiera de
 
 Cualquier capa que agregue a su espacio de trabajo UNBL puede agruparse junto para organizar datos multi-año o multi-categoría. Cada año o categoría es similar a una banda ráster individual. Las capas agrupadas se crean en una nueva capa separada (denominada *capa principal* en UNBL) de las capas componentes (denominadas *capas secundarias* en UNBL). Por ejemplo, un ráster de cobertura de suelo que abarca tres años requeriría cuatro capas a crear: cada año como su propia capa secundaria, así como una cuarta capa principal desde la cual todas serán accesibles. En este caso, cada capa secundaria debe publicarse y **no** marcarse como primaria para ser descubrible en la vista del mapa exclusivamente a través de una capa agrupada. La capa agrupada/principal es una capa de visualización adicional con una configuración de capa fija que referencia todas las capas secundarias. Se publica y se marca como primaria. Cuando la capa agrupada se visualiza en UNBL, aparece una única leyenda de capa desde la cual puede seleccionar cualquiera de sus capas secundarias incluidas para visualizarse en la vista del mapa.
 
-!!!Note
+!!! note
 	Si las capas secundarias que está vinculando a través de una capa agrupada también están marcadas como primarias, además de estar publicadas, estas capas serán descubribles como entradas individuales en la barra de búsqueda 'DATASETS', duplicando así las entradas con la capa agrupada publicada.
 
 Para configurar una capa agrupada:

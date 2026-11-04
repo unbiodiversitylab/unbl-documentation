@@ -24,7 +24,7 @@ To add users to your workspace:
 
 3.	Enter the user’s email address in the ‘User email’ bar and assign them to one or more user roles in the adjacent user role dropdown menu. Multiple email addresses can be added at the same time; however, they will all be assigned the same selected user role. Click ‘ADD USERS’. Names are automatically generated from the user’s email address. 
 
-	!!!Note
+	!!! note
 		The user must already be registered on the UNBL platform to be added to your workspace. If the user’s email address is not tied to a registered account on UNBL, you will get an error message.
 
 !['Users' page with email field, role dropdown set to Viewer and 'ADD USERS' button](images/manage-users-01.png)

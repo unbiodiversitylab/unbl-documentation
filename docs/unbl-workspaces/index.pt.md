@@ -9,7 +9,7 @@ translation_status: machine
 
 Este guia explica como tirar proveito de todas as funcionalidades disponíveis no seu espaço de trabalho seguro na plataforma UN Biodiversity Lab (UNBL). Se tiver mais perguntas, por favor contacte-nos em <support@unbiodiversitylab.org>.
 
-!!!Note
+!!! note
 	Os termos *conjunto de dados* e *camada* são usados de forma intercambiável ao longo deste guia. Um conjunto de dados refere-se a uma coleção de dados espaciais composta por uma ou mais camadas. No UNBL, um único carregamento ou configuração de dados geoespaciais é realizado através de *'criar uma camada'*. Múltiplas entradas de camadas podem ser combinadas e visualizadas no UNBL como um conjunto de dados. Camadas individuais também podem ser visualizadas independentemente no UNBL.
 
 ## Índice

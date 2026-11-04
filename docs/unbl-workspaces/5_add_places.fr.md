@@ -60,12 +60,12 @@ Les métriques dynamiques deviennent automatiquement disponibles pour votre lieu
 
 2.	Dans l'onglet « LIEUX », recherchez et sélectionnez un lieu téléchargé dans votre espace de travail UNBL.
 
-	!!!Note
+	!!! note
 		Les lieux sont filtrés par type *pays* par défaut lors de l'ouverture de la vue cartographique UNBL. Si votre lieu est d'une catégorie différente, comme une aire protégée ou une zone transfrontalière et non de type *pays*, vous devez cliquer sur le bouton « EFFACER » pour effacer tous les filtres, ou développer le menu déroulant « FILTRES » et décocher la case pays et sélectionner votre filtre d'intérêt pour trouver votre lieu.
 
 3.	Lors de la sélection d'un lieu, les métriques dynamiques seront automatiquement affichées dans le panneau de gauche. Choisissez entre une liste des neuf métriques dynamiques standard ou deux métriques d'indicateurs phares en cliquant sur le bouton « METRIQUES » ou « INDICATEURS PRINCIPAUX ».
 
-	!!!Note
+	!!! note
 		Les métriques d'indicateurs principaux et la métrique Aires Protégées ne sont disponibles que pour les lieux de type *pays* avec un code de pays M49 spécifié.
 
 	![Panneau du lieu Albanie avec le menu « Dashboard » ouvert : « METRIQUES » ou « INDICATEURS PRINCIPAUX »](images/add-places-09.png)

@@ -40,7 +40,7 @@ Para ello:
 	
 	- Se añade un pequeño margen al cuadro delimitador, lo que ampliará ligeramente el área recortada. Esto ayuda a garantizar que cualquier incongruencia entre la frontera nacional utilizada en UNBL y el archivo oficial de fronteras nacionales que desee utilizar no provoque la pérdida de datos. Se parte de la base de que las diferencias son potencialmente pequeñas. Si no es así, póngase en contacto con nosotros en <support@unbiodiversitylab.org> para obtener ayuda.
 	
-	!!!Note
+	!!! note
 		Si descarga GeoTIFFs, se trata de datos sin procesar y no incluirán información de estilo.
 
 	![Panel de recorte y exportación con la selección de capa, el formato PNG o GeoTIFF y «Descargar» resaltados](images/clip-export-02.png)

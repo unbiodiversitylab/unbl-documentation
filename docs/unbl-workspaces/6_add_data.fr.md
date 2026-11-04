@@ -26,7 +26,7 @@ Les données géospatiales peuvent être téléchargées et/ou liées dans votre
 
 Il est important de noter que tous les jeux de données de votre espace de travail peuvent également être visualisés en parallèle avec les jeux de données globaux publiés sur la plateforme publique du UNBL.
 
-!!!Note
+!!! note
 	Les termes *jeu de données* et *couche* sont utilisés de manière interchangeable ci-après. Un jeu de données fait référence à une collection de données spatiales composée d'une ou plusieurs couches. Sur le UNBL, un téléchargement unique ou une configuration de données géospatiales se réalise en *« créant une couche »*. Plusieurs entrées de couches peuvent être combinées et visualisées sur UNBL comme un jeu de données. Les couches individuelles peuvent également être visualisées indépendamment sur le UNBL.
 
 ## Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ?
@@ -51,7 +51,7 @@ Pour commencer à créer une couche et remplir les métadonnées pertinentes pou
 
 	e.	*Description de la couche (optionnel)* : Dans le champ de description, vous pouvez spécifier le texte qui apparaîtra dans la boîte pop-up d'information de la couche. Ici, vous pouvez insérer l'essentiel de vos métadonnées de couche, comme une description générale, la citation de l'article scientifique/jeu de données, des liens externes vers l'article scientifique/jeu de données, les spécifications de licence, etc.
 
-	!!!Note
+	!!! note
 		Pour les couches individuelles qui font partie d'une couche de groupe parent, le texte pop-up d'information de la couche affichera toujours la description de la couche de groupe parent et donc le champ de description est redondant (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)).
 
 	![Page de nouvelle couche avec titre, slug, catégories, mots-clés de recherche et aperçu de la description renseignés](images/add-data-02.png)
@@ -62,7 +62,7 @@ Pour commencer à créer une couche et remplir les métadonnées pertinentes pou
 
 Actuellement, vous pouvez télécharger manuellement des données géospatiales dans votre espace de travail UNBL uniquement si elles sont disponibles au format raster GeoTIFF. Une couche raster constitue une grille de cellules (ou pixels) où chaque cellule a une valeur représentant des informations sur un sujet ou phénomène spécifique. Nous ne pouvons actuellement accepter que des GeoTIFFs avec une seule bande. Si vous avez un GeoTIFF avec plus d'une bande, divisez-le au préalable en différents fichiers. Les couches raster GeoTIFF sont ajoutées à votre espace de travail UNBL par un téléchargement direct vers un dépôt de données SIG UNBL sécurisé et conforme au RGPD sur Azure. Pour plus d'informations sur la confidentialité des données, veuillez consulter notre [fiche d'information sur la sécurité des données](data_security.fr.md).
 
-!!!Note
+!!! note
 	Les données géospatiales dans d'autres formats de couches raster et vectorielles peuvent être configurées sur le UNBL en se connectant à une ressource externe. Voir [« Comment configurer des couches raster en utilisant des services de tuiles externes ? »](#comment-configurer-des-couches-raster-en-utilisant-des-services-de-tuiles-externes-wmswmts) et [« Comment configurer des couches vectorielles en utilisant des services de tuiles externes ? »](#comment-configurer-des-couches-vectorielles-en-utilisant-des-services-de-tuiles-externes) pour les formats de services Web OGC interopérables avec le UNBL et les guides pour s'y connecter.
 
 Pour télécharger un fichier GeoTIFF :
@@ -123,7 +123,7 @@ Le UNBL prend en charge la configuration de couches d'images raster dans votre e
 	https://wms.server.net/mapserv?request=getmap&service=wms&BBOX={bbox-epsg-3857}&crs=EPSG:3857&format=image/jpeg&layers=layer_latest&width=1200&height=600
 	```
 
-	!!!Note "Les espaces réservés suivants ont été ajustés pour permettre la configuration du UNBL :"
+	!!! note "Les espaces réservés suivants ont été ajustés pour permettre la configuration du UNBL :"
 		- `-90,-180,90,360` changé en `{bbox-epsg-3857}`
 		- `EPSG:4326` changé en `EPSG:3857`
 
@@ -328,7 +328,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	- `couleur-contour-remplissage` fonctionne de la même manière que `couleur de remplissage`, mais spécifie la couleur de la limite linéaire du polygone au lieu du remplissage intérieur du polygone. De cette façon, vous pouvez spécifier une limite de couleur différente pour les polygones par rapport à la couleur de leur remplissage intérieur (notez que ce n'est pas le cas pour l'exemple ci-dessus). Important, vous pouvez spécifier une chaîne `"#ffffff"` à la fin de la dernière chaîne de code hex pour l'une ou l'autre des propriétés de remplissage pour signifier que toutes les catégories de données qui ne sont pas explicitement listées dans la propriété de style de remplissage doivent être transparentes.
 
-	!!!Important
+	!!! important
 		Si vous n'incluez pas la chaîne `"#ffffff"` pour le style transparent pour les catégories de données non incluses, vos tuiles vectorielles ne parviendront pas à se visualiser si vous omettez de spécifier exhaustivement le style pour **toutes** les catégories de données présentes dans votre attribut de données dans la propriété de style de remplissage. Cependant, vous n'êtes pas obligé de spécifier un style transparent inclusif si vous spécifiez un filtre pour exclure les catégories de données sélectionnées dans votre attribut de données de la considération pour le style de couche (étape 3d).
 
 	Pour configurer le style de couche pour les jeux de données continus, utilisez le modèle suivant :
@@ -512,7 +512,7 @@ Vous pouvez vouloir revenir et modifier vos couches ajoutées pour changer l'une
 
 2.	Pour tester si votre couche se visualise correctement dans la vue cartographique UNBL, cliquez sur le bouton « COUCHE TEST » dans le coin inférieur droit de la page de modification de couche. Une coche verte apparaîtra à l'intérieur du bouton si la couche a été correctement téléchargée et/ou configurée. Sinon, une croix rouge apparaîtra avec un message d'erreur diagnostiquant le problème.
 
-	!!!Note
+	!!! note
 		Si vous téléchargez un jeu de données régional (étendue non globale), il est possible que le test puisse signaler un échec même si la couche fonctionne, car le test peut demander des tuiles d'échantillon qui tombent en dehors de l'étendue spatiale de votre jeu de données. La meilleure pratique est de double-vérifier le diagnostic du test de couche en vérifiant manuellement si votre couche se visualise dans la vue cartographique du UNBL.
 
 	![Page de modification de couche avec une flèche pointant vers le bouton COUCHE TEST affichant une coche verte](images/add-data-22.png)
@@ -527,7 +527,7 @@ Vous pouvez vouloir revenir et modifier vos couches ajoutées pour changer l'une
 
 Toutes les couches que vous ajoutez à votre espace de travail UNBL peuvent être regroupées ensemble pour organiser des données multi-années ou multi-catégories. Chaque année ou catégorie est similaire à une bande raster individuelle. Les couches groupées sont créées dans une nouvelle couche séparée (appelée *couche parent* sur le UNBL) des couches composantes. Par exemple, un raster d'occupation du sol couvrant trois années nécessiterait quatre couches à créer : chaque année comme sa propre couche, ainsi qu'une quatrième couche parent à partir de laquelle elles seront toutes accessibles. Dans ce cas, chaque couche individuelle d'année/catégorie doit être publiée et **non** marquée comme primaire pour être découvrable dans la vue cartographique exclusivement via une couche groupée. La couche groupée/parent est une couche d'affichage supplémentaire avec une configuration de couche fixe qui référence toutes les couches individuelles d'années/catégories. Elle est publiée et marquée comme primaire. Lorsque la couche groupée est visualisée sur le UNBL, une seule légende de couche apparaît à partir de laquelle vous pouvez sélectionner l'une de vos couches composantes incluses pour être visualisée dans la vue cartographique.
 
-!!!Note
+!!! note
 	Si les couches individuelles d'années/catégories que vous liez via une couche groupée sont également marquées comme primaires, en plus d'être publiées, ces couches seront découvrables comme entrées individuelles dans la barre de recherche « JEUX DE DONNEES », dupliquant ainsi les entrées avec la couche groupée publiée.
 
 Pour configurer une couche groupée :

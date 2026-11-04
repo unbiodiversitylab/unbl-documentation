@@ -91,7 +91,7 @@ Data related to the datasets created by the geospatial data hosted on the follow
 
 **Basics of uploading a ‘place’ to a secure workspace on UNBL**
 
-UNBL secure workspaces enable users to upload places in a secure environment. Adding a new place provides users with the ability to utilize all functionalities of UNBL for a subnational, national, or transboundary area of interest. Once the place has been added to a UNBL workspace, users are able to: (1) display dynamic metrics for this location; and (2) clip any raster layer from the UNBL public platform (only data with an open-access license) to this location and download it for further work in a desktop GIS software. Adding a place involves uploading a vector file to UNBL. 
+UNBL secure workspaces enable users to upload places in a secure environment. Adding a new place provides users with the ability to utilize all functionalities of UNBL for a subnational, national, or transboundary area of interest. Once the place has been added to a UNBL workspace, users are able to: (1) display dynamic metrics for this location; and (2) clip any raster layer from the UNBL public platform (only data with an open-access licence) to this location and download it for further work in a desktop GIS software. Adding a place involves uploading a vector file to UNBL. 
 
 UNBL workspaces support the upload of places using the following file types: GeoJSON (.geojson), GeoJSON Lines (.geojsonl), Google Earth files (.kml, .kmz), or ESRI Shapefiles (.zip containing .shp, .dbf, .shx, .prj files). 
 

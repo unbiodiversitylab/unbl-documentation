@@ -2,7 +2,7 @@
 
 Los datos del UN Biodiversity Lab incluyen los mejores conjuntos de datos globales disponibles relacionados con la naturaleza y el bienestar humano, que abarcan desde la biodiversidad hasta los servicios ecosistémicos, pasando por datos socioeconómicos. También incluimos conjuntos de datos regionales cuando así lo recomiendan los usuarios del UN Biodiversity Lab. Puede ver los conjuntos de datos del UN Biodiversity Lab a nivel mundial o dentro de un área de interés.
 
-!!! Note
+!!! note
 	En esta guía y en el UNBL nos referimos tanto a conjuntos de datos como a capas de datos. Cada conjunto de datos puede tener una o varias capas de datos en su interior.
 	
 <details class="unbl-video">
