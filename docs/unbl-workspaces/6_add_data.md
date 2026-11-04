@@ -309,7 +309,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	{
 	"fill-opacity": ==0.9==,
-    "fill-colour": [
+    "fill-color": [
     "match",
     [ "get", =="forest_cover_2023"==],
     =="Mixed forest",
@@ -319,7 +319,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
     "Plantation forest",
     "#add911",
     "#ffffff"==], 
-    "fill-outline-colour": [ 
+    "fill-outline-color": [ 
     "match", 
     ["get", =="forest_cover_2023"==], 
     =="Mixed forest",
@@ -395,7 +395,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	{
     "fill-opacity": ==0.9==,
-    "fill-colour": [
+    "fill-color": [
     "interpolate",
 	[ "linear" ],
     [ "get", =="canopy_height_2023"== ],
@@ -415,7 +415,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	"#518510", 
 	100, 
 	"#305207"== ], 
-    "fill-outline-colour": [
+    "fill-outline-color": [
     "interpolate",
 	[ "linear" ],
     [ "get", =="canopy_height_2023"== ],
