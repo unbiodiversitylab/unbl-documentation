@@ -79,7 +79,12 @@ native speaker reviews them.
   this, or ask a maintainer.
 - After changing English, either update the translations in the same PR or list them as
   pending in the PR description, so the translators know.
-- Add a line to [CHANGELOG.md](CHANGELOG.md) for notable changes.
+- Add a line to [CHANGELOG.md](CHANGELOG.md) for notable changes, and a reader-facing
+  bullet to the **What's new** page (`docs/whats-new.md` and its translations) when
+  readers would want to know: a new page, a newly documented feature, changed steps.
+- Acronyms show a tooltip with their meaning. To add one, add a line to
+  `includes/abbreviations.md` (and the `.es/.fr/.pt/.ru` versions):
+  `*[NBSAP]: National Biodiversity Strategy and Action Plan`.
 
 ---
 

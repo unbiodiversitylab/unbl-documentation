@@ -188,7 +188,7 @@ Un panel de control actúa como la interfaz de usuario que muestra la métrica y
 
 4. En la página de edición de panel de control que aparece, active el botón «Published» para publicar el panel de control.
 
-!!!note
+!!! note
 	Si ya tiene un panel de control existente y desea añadirle widgets recién configurados, puede editar su panel de control existente y añadir widgets incluidos haciendo clic en el icono de lápiz del panel de control en la lista de entradas de panel de control que aparecen en la página de administración después de elegir «Dashboards» en el menú desplegable.
 
 ## Visualización de paneles de control y widgets
@@ -205,7 +205,7 @@ Para ver sus métricas personalizadas:
 
 3. Si tiene la plataforma pública de UNBL y/u otros espacios de trabajo activos junto con su propio espacio de trabajo, puede que tenga que seleccionar el panel de control que contiene sus métricas personalizadas para verlas. En este caso, aparecerá un menú desplegable con una lista de paneles de control y los espacios de trabajo asociados de cada panel de control. Seleccione su panel de control del menú desplegable.
 
-	!!!note
+	!!! note
 		Si las métricas personalizadas en su panel de control no se superponen con el lugar activado, su panel de control no aparecerá en el menú desplegable.
 
 	![](images/en/image18-metrics.png){style="width:400px !important" }

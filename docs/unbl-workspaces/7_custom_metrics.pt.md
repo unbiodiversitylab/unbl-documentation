@@ -188,7 +188,7 @@ Um painel de controle atua como a interface do usuário que exibe a métrica e o
 
 4. Na página de edição de painel de controle que aparece, ative o botão «Published» para publicar o painel de controle.
 
-!!!note
+!!! note
 	Se você já possui um painel de controle existente e deseja adicionar widgets recém-configurados a ele, você pode editar seu painel de controle existente e adicionar widgets incluídos clicando no ícone de caneta do painel de controle na lista de entradas de painel de controle que aparecem na página de administração após escolher «Dashboards» no menu suspenso.
 
 ## Visualização de painéis de controle e widgets
@@ -205,7 +205,7 @@ Para visualizar suas métricas personalizadas:
 
 3. Se você tiver a plataforma pública do UNBL e/ou outros espaços de trabalho ativos junto com seu próprio espaço de trabalho, pode ser necessário selecionar o painel de controle que contém suas métricas personalizadas para visualizá-las. Nesse caso, um menu suspenso aparecerá com uma lista de painéis de controle e os espaços de trabalho associados de cada painel de controle. Selecione seu painel de controle no menu suspenso.
 
-	!!!note
+	!!! note
 		Se as métricas personalizadas no seu painel de controle não se sobrepõem ao lugar ativado, seu painel de controle não aparecerá no menu suspenso.
 
 	![](images/en/image18-metrics.png){style="width:400px !important" }

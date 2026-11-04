@@ -188,7 +188,7 @@ Un tableau de bord est l'interface utilisateur qui affiche la métrique et le wi
 
 4. Dans la page de modification de tableau de bord qui apparaît, activez le bouton « Published » pour publier le tableau de bord.
 
-!!!note
+!!! note
 	Si vous disposez déjà d'un tableau de bord et souhaitez y ajouter des widgets nouvellement configurés, vous pouvez modifier votre tableau de bord existant et ajouter des widgets inclus en cliquant sur l'icône de crayon du tableau de bord dans la liste des entrées de tableau de bord qui apparaissent dans la page d'administration après avoir choisi « Dashboards » dans le menu déroulant.
 
 ## Consultation des tableaux de bord et des widgets
@@ -205,7 +205,7 @@ Pour consulter vos métriques personnalisées :
 
 3. Si la plateforme publique UNBL et/ou d'autres espaces de travail sont actifs en même temps que votre propre espace de travail, vous devrez peut-être sélectionner le tableau de bord contenant vos métriques personnalisées. Dans ce cas, un menu déroulant apparaîtra avec une liste de tableaux de bord et les espaces de travail associés de chaque tableau de bord. Sélectionnez votre tableau de bord dans le menu déroulant.
 
-	!!!note
+	!!! note
 		Si les métriques personnalisées de votre tableau de bord ne chevauchent pas le lieu activé, votre tableau de bord n'apparaîtra pas dans le menu déroulant.
 
 	![](images/en/image18-metrics.png){style="width:400px !important" }

@@ -18,5 +18,5 @@ If you have any further questions please contact us at <support@unbiodiversityla
   <img src="assets/images/UNBL_FULL_WEBSITE.png" alt="UN Biodiversity Lab" style="height: 100px;">
   <img src="assets/images/cbd-logo-en-green-web.png" alt="Convention on Biological Diversity" style="height: 100px;">
   <img src="assets/images/un_environment_logo.png" alt="UN Environment Programme" style="height: 100px;">
-  <img src="assets/images/UNDP-Logo-Blue-Large.png" alt="UN Development Programme - World Conservation Monitoring Centre" style="height: 140px;">
+  <img src="assets/images/UNDP-Logo-Blue-Large.png" alt="UN Development Programme" style="height: 140px;">
 </div>
