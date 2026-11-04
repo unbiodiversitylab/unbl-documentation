@@ -1,12 +1,12 @@
 site_name: UNBL Online Documentation
 site_description: User's Guide to the UN Biodiversity Lab
 site_author: UN Biodiversity Lab Team
-site_url: https://undp-unbl.github.io/unbl-documentation/
+site_url: https://unbiodiversitylab.github.io/unbl-documentation/
 copyright: Copyright &copy; 2026 UNDP & UNEP-WCMC
 
 # Repository
-repo_name: UNDP-UNBL/unbl-documentation
-repo_url: https://github.com/UNDP-UNBL/unbl-documentation
+repo_name: unbiodiversitylab/unbl-documentation
+repo_url: https://github.com/unbiodiversitylab/unbl-documentation
 edit_uri: edit/main/docs/
 
 # Theme Configuration
@@ -57,8 +57,8 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
-  logo: # assets/images/UNBL_FULL_WEBSITE.png
-  favicon: # assets/images/UNBL_FULL_WEBSITE.png
+  logo: assets/images/UNBL_FULL_WEBSITE.png
+  favicon: assets/images/unbl_favicon.ico
 
 # Plugins
 plugins:
@@ -105,7 +105,7 @@ plugins:
             UNBL Public Platform: Plataforma Pública UNBL
             How do I register or log-in?: ¿Cómo me registro o inicio sesión?
             How do I manage my account?: ¿Cómo gestiono mi cuenta?
-            How do I navigate between the UN Biodiversity Lab website and map app?: ¿Cómo navego entre el sitio web del Laboratorio de Biodiversidad de las Naciones Unidas y la aplicación de mapas?
+            How do I navigate between the UN Biodiversity Lab website and map app?: ¿Cómo navego entre el sitio web del UN Biodiversity Lab y la aplicación de mapas?
             How do I change the language?: ¿Cómo cambio el idioma?
             How do I adjust my map view?: ¿Cómo ajusto la vista del mapa?
             How do I add/remove place labels, roads, and satellite view from the base map?: ¿Cómo agrego/elimino etiquetas de lugares, carreteras y vista satelital del mapa base?
@@ -173,7 +173,7 @@ plugins:
             UNBL Public Platform: Plateforme Publique UNBL
             How do I register or log-in?: Comment puis-je m'inscrire ou me connecter ?
             How do I manage my account?: Comment puis-je gérer mon compte ?
-            How do I navigate between the UN Biodiversity Lab website and map app?: Comment puis-je naviguer entre le site web du Laboratoire de la biodiversité des Nations Unies et l'application cartographique ?
+            How do I navigate between the UN Biodiversity Lab website and map app?: Comment puis-je naviguer entre le site web du UN Biodiversity Lab et l'application cartographique ?
             How do I change the language?: Comment puis-je changer la langue ?
             How do I adjust my map view?: Comment puis-je ajuster ma vue de carte ?
             How do I add/remove place labels, roads, and satellite view from the base map?: Comment puis-je ajouter/supprimer les étiquettes de lieux, les routes et la vue satellite de la carte de base ?
@@ -241,7 +241,7 @@ plugins:
             UNBL Public Platform: Plataforma Pública UNBL
             How do I register or log-in?: Como faço para me registrar ou fazer login?
             How do I manage my account?: Como faço para gerenciar minha conta?
-            How do I navigate between the UN Biodiversity Lab website and map app?: Como navego entre o site do Laboratório de Biodiversidade da ONU e o aplicativo de mapa?
+            How do I navigate between the UN Biodiversity Lab website and map app?: Como navego entre o site do UN Biodiversity Lab e o aplicativo de mapa?
             How do I change the language?: Como faço para alterar o idioma?
             How do I adjust my map view?: Como faço para ajustar a visualização do mapa?
             How do I add/remove place labels, roads, and satellite view from the base map?: Como faço para adicionar/remover rótulos de lugares, estradas e visualização por satélite do mapa base?
@@ -412,8 +412,11 @@ extra_css:
   - assets/css/unbl-custom.css
 
 extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # NOTE: polyfill.io was removed — the domain was sold and began serving
+  # malicious code (supply-chain attack). MathJax 3 works without it in
+  # modern browsers. Do not re-add polyfill.io / cdn.polyfill.io.
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - wordpress-site/notify-parent.js
 
 # Extra Configuration
 extra:
@@ -422,8 +425,8 @@ extra:
     default: latest
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/UNDP-UNBL
-      name: UNDP-UNBL on GitHub
+      link: https://github.com/unbiodiversitylab
+      name: unbiodiversitylab on GitHub
     - icon: fontawesome/solid/globe
       link: https://www.unbiodiversitylab.org
       name: UN Biodiversity Lab
@@ -441,7 +444,7 @@ extra:
           data: 0
           note: >-
             Thanks for your feedback! Help us improve this page by
-            <a href="https://github.com/UNDP-UNBL/unbl-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
+            <a href="https://github.com/unbiodiversitylab/unbl-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
 
 # Navigation Structure
 nav:
