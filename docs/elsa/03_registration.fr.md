@@ -24,5 +24,5 @@ Pour vous inscrire sur le UNBL et demander l'accès à un espace de travail et �
 
 <figure markdown>
 ![Flèches menant de « ESPACES DE TRAVAIL » à l'onglet « ANALYSES » puis à la flèche d'une configuration d'outil](images/registration-03.png)
-<figcaption>Figure 4. Accès à la configuration de l'outil ELSA pour la démonstration GBF - Cuba</figcaption>
+<figcaption>Figure 4. Accès à la configuration de l'outil ELSA pour Moore – Ghana</figcaption>
 </figure>
