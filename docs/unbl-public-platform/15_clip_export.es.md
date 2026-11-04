@@ -28,7 +28,7 @@ Para ello:
 
 1. Haga clic en el botón «LUGARES» y seleccione los lugares de su interés.
 
-2. Haga clic en el icono ![Más opciones (tres puntos)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} situado a la derecha del nombre del país y seleccione «Descargar GeoJSON» para descargar el archivo de límites de la zona que le interese, o haga clic en «Recortar y exportar capas» si desea recortar y descargar un conjunto de datos específico. Si elige la segunda opción, siga los pasos adicionales 3 a 6 que se describen a continuación.
+2. Haga clic en el icono ![Más opciones (tres puntos)](images/icons/ellipsis-icon.png){style="display: inline; height: 1em; width: 2em;"} situado a la derecha del nombre del país y seleccione «Descargar GeoJSON» para descargar el archivo de límites de la zona que le interese, o haga clic en «Recortar y exportar capas» si desea recortar y descargar un conjunto de datos específico. Si elige la segunda opción, siga los pasos adicionales 3 a 6 que se describen a continuación.
 
 	![Menú del lugar Colombia abierto, con «Recortar y exportar capas» y «Descargar GeoJSON»](images/clip-export-01.png)
 

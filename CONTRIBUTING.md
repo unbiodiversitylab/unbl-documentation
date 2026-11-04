@@ -32,6 +32,7 @@ installing the tools, branches and pull requests step by step, with pictures.
 ```bash
 pip install -r requirements.txt      # once (or: mamba env create -f environment-mkdocs.yaml)
 mkdocs serve                         # open http://127.0.0.1:8000; reloads as you edit
+mkdocs build                         # writes the site to site/ (hidden in VS Code, not committed)
 python scripts/check_docs.py         # the same checks the PR runs
 ```
 

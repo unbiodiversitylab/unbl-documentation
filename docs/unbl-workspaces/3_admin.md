@@ -24,7 +24,7 @@ To access the various components:
 
 2.	Select the component you would like to view. More information on each component is provided in later sections of this user guide.
 
-![Admin interface 'Home' dropdown open, listing Users, Places, Layers, Widgets and Dashboards](images/admin-02.png)
+![Admin interface 'Home' dropdown open, listing Users, Places, Layers, Metrics, Widgets and Dashboards](images/admin-02.png)
 
 
 

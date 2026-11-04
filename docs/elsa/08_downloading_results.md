@@ -6,7 +6,7 @@ Similar to the heatmaps, users can zoom in to specific areas using the UNBL inte
 
 <figure markdown>
 ![ELSA Action layer over satellite imagery, with legend for the four action colours](images/downloading-results-01.png)
-<figcaption>Figure 17. Action map showing priority areas for protection and restoration around Havana</figcaption>
+<figcaption>Figure 17. Action map showing priority areas for protection, management, restoration and urban greening around Havana</figcaption>
 </figure>
 
 Users can also download resulting action maps and heatmaps in raster format for external use in desktop GIS software. 
@@ -15,3 +15,5 @@ Users can also download resulting action maps and heatmaps in raster format for 
 ![Analysis run menu with the ELSA Action and heatmap download options highlighted](images/downloading-results-02.png)
 <figcaption>Figure 18. Download resulting analysis maps</figcaption>
 </figure>
+
+The same menu also offers **'Download ELSA log'**. The log is a file with the messages produced by the ELSA tool and by the Gurobi optimization solver while your analysis ran. It is useful for troubleshooting: if an analysis fails, takes unusually long, or produces results that look unexpected, check the log for warnings or errors, and attach it when you contact <support@unbiodiversitylab.org>.

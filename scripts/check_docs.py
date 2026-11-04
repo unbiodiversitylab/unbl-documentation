@@ -427,7 +427,10 @@ def check_translation_sync(report: Report, changed: set[Path], langs: list[str])
 # Drift report
 # --------------------------------------------------------------------------- #
 def ignored_revs() -> set[str]:
-    """Mechanical commits listed in .git-blame-ignore-revs (skipped by drift)."""
+    """Mechanical commits listed in .git-blame-ignore-revs (skipped by drift).
+
+    Merge commits are skipped too (git log/rev-list --no-merges): they only
+    combine changes that already exist in other commits."""
     path = ROOT / ".git-blame-ignore-revs"
     if not path.exists():
         return set()
@@ -437,7 +440,7 @@ def ignored_revs() -> set[str]:
 
 def last_content_change(path: str, ignore: set[str]) -> str | None:
     """Unix time of the newest commit touching `path` that isn't mechanical."""
-    for line in (git("log", "--format=%H %ct", "--", path) or "").splitlines():
+    for line in (git("log", "--no-merges", "--format=%H %ct", "--", path) or "").splitlines():
         sha, ts = line.split()
         if sha not in ignore:
             return ts
@@ -460,7 +463,7 @@ def drift(langs: list[str], only: str | None):
             status = fm.get("translation_status", "")
             rev = fm.get("source_rev")
             if rev:
-                revs = git("rev-list", f"{rev}..HEAD", "--", rel(en))
+                revs = git("rev-list", "--no-merges", f"{rev}..HEAD", "--", rel(en))
                 count = None if revs is None else str(len([r for r in revs.split() if r not in ignore]))
                 if count is None:
                     rows.append((lang, rel(tr), "UNKNOWN", f"source_rev {rev} not in history"))

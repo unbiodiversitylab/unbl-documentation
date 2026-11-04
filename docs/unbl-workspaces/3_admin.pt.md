@@ -29,4 +29,4 @@ Para aceder aos vários componentes:
 
 2.	Selecione o componente que deseja ver. Mais informação sobre cada componente é fornecida em secções posteriores deste guia do utilizador.
 
-![Menu suspenso 'Home' da interface de administração aberto, com Users, Places, Layers, Widgets e Dashboards](images/admin-02.png)
+![Menu pendente 'Início' da interface de administração aberto, com Usuários, Locais, Camadas, Métricas, Widgets e Painéis](images/admin-02.png)

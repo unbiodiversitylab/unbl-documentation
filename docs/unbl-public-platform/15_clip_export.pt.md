@@ -29,7 +29,7 @@ Para o fazer:
 
 1.	Clique no botão 'LOCAIS' e selecione os seus locais de interesse.
 
-2.	Clique no ícone ![Mais opções (três pontos)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} à direita do nome do país e clique em «Descarregar GeoJSON» para descarregar o ficheiro de limites da sua área de interesse, ou clique em «Recortar e exportar camadas» se pretender recortar e descarregar um conjunto de dados específico. Se escolher a última opção, siga os passos adicionais 3 a 6 descritos abaixo.
+2.	Clique no ícone ![Mais opções (três pontos)](images/icons/ellipsis-icon.png){style="display: inline; height: 1em; width: 2em;"} à direita do nome do país e clique em «Descarregar GeoJSON» para descarregar o ficheiro de limites da sua área de interesse, ou clique em «Recortar e exportar camadas» se pretender recortar e descarregar um conjunto de dados específico. Se escolher a última opção, siga os passos adicionais 3 a 6 descritos abaixo.
 
 	![Menu do local Colômbia aberto, com 'Recortar e exportar camadas' e 'Descarregar GeoJSON'](images/clip-export-01.png)
 

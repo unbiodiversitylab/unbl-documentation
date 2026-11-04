@@ -16,7 +16,7 @@
 
 1. Personalice la visualización de los conjuntos de datos seleccionados según desee.
 
-2. Utilice la función de captura de pantalla de su ordenador para capturar el mapa.
+2. Utilice la función de captura de pantalla de su computadora para capturar el mapa.
 
 3. Para incluirlo en informes o publicaciones formales, asegúrese de cumplir con los estándares cartográficos:
 
