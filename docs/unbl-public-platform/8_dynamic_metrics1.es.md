@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 5ed7ccbfaec1d9b364807a23018b1bcd7ed4b57f
 translation_status: machine
 ---
 # ¿Qué métricas dinámicas hay disponibles para mi país/área de interés?

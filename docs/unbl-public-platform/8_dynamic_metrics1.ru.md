@@ -1,5 +1,5 @@
 ---
-source_rev: 32703d85315c4077915c939567d70b846cce3b64
+source_rev: 5ed7ccbfaec1d9b364807a23018b1bcd7ed4b57f
 translation_status: machine
 ---
 # Какие динамические показатели доступны для моей страны/области, представляющею интерес?

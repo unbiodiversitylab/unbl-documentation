@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: a842418188c88ab3655e804d33fd90baba8dcab6
 translation_status: machine
 ---
 # Visualizar e descarregar mapas de ação ELSA
