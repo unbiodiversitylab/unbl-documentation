@@ -14,3 +14,5 @@ aff1229bf0b06f55644fd7348b54f39558afb8bb
 32703d85315c4077915c939567d70b846cce3b64
 # Restore fill-color property names broken by the spelling change (#45)
 b214a72256cdc9907832faed56f907c8c0605315
+# English heading fixes and section-link fixes already mirrored in translations (#44)
+c9ae46c100d3525b29d9c2c5b45cd26ac3a7018b
