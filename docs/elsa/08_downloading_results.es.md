@@ -1,5 +1,5 @@
 ---
-source_rev: 6dd6a238cfb7fb6644015819c60137efc5c95969
+source_rev: 97b978c288b8768df861b32836c7f5ac05d8f274
 translation_status: machine
 ---
 # Visualización y descarga de mapas de acción  
