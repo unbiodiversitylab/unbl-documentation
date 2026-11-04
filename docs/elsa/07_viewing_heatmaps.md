@@ -1,6 +1,6 @@
 # Viewing heatmaps
 
-Upon executing an ELSA analysis, you will be able to view results by clicking on the vertical three dots next to the analysis entry in the left tab and clicking on the ‘View’ button. In the drop-down menu of the legend that appears on the map, you can choose between viewing the final action map or heatmap layers. We suggest that you view the heatmaps first. 
+Upon executing an ELSA analysis, you will be able to view results by clicking on the toggle button in the left tab. In the drop-down menu of the legend that appears on the map, you can choose between viewing the final action map or heatmap layers. We suggest that you view the heatmaps first. 
 
 <figure markdown>
 ![](images/image016.png){#fig-viewing-hm}

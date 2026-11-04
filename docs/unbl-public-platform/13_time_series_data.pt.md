@@ -2,6 +2,20 @@
 
 O Laboratório de Biodiversidade da ONU fornece acesso a conjuntos de dados que mostram mudanças ao longo do tempo. Alguns conjuntos de dados de séries temporais são visualizados ao longo de múltiplos anos com animação, outros podem ser visualizados por ano específico via menu suspenso, e alguns são uma combinação de ambos, com a capacidade de visualizar animações de anos específicos que podem ser escolhidos no menu suspenso.
 
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Dz-nwotouBM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.  Selecione a tag "Séries temporais" na aba de filtros para filtrar conjuntos de dados que estão disponíveis como séries temporais.
 
 2.	Selecione o conjunto de dados de interesse.

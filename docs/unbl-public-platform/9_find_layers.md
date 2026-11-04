@@ -4,6 +4,20 @@ Data on UN Biodiversity Lab include the best available global datasets related t
 
 !!! Note
 	We refer to both datasets and data layers in this guide and on UNBL. Each dataset may have one or multiple data layers within it.
+	
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/jvyZ8K_lbBE"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 1.	Navigate to your area of interest, if preferred. You can also stay on the global view. 
 

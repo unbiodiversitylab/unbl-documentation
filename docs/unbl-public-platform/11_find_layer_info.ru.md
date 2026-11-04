@@ -1,5 +1,19 @@
 # Как мне найти дополнительную информацию о каждом наборе данных?
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/0tIOAFuJNCY"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Выберите набор данных и загрузите его на карту.
 
 2.	В левом нижнем углу окна просмотра карты будет отображаться легенда с названиями и символами всех наборов данных, которые в данный момент включены на карте.  Нажмите на значок ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} чтобы просмотреть информацию о наборе данных. Также можно нажать на тот же значок ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} рядом с переключателем для каждого набора данных на вкладке поиска наборов данных. Информация содержит описание набора данных, организацию, источник, ссылки на научный отчет и ссылки для скачивания данных. 

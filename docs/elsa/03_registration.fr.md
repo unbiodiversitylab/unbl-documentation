@@ -4,17 +4,17 @@ Pour vous inscrire sur le UNBL et demander l'accès à un espace de travail et �
 
 1. Cliquez sur le bouton « Lancer la carte » sur le site web [du UN Biodiversity Lab](https://unbiodiversitylab.org/en/) pour accéder à l'application de données.
 
-<figure markdown>
-![](images/fr/02fr - figure 2.png)
-<figcaption>Figure 2. Page d'accueil du UNBL</figcaption>
-</figure>
+	<figure markdown>
+	![](images/fr/02fr - figure 2.png)
+	<figcaption>Figure 2. Page d'accueil du UNBL</figcaption>
+	</figure>
 
 2. Une fois la page chargée, cliquez sur l'icône du compte dans le coin supérieur droit et choisissez « S'inscrire ». Entrez votre adresse e-mail, votre nom, votre pays et votre institution (facultatif), puis définissez votre mot de passe pour vous inscrire.
 
-<figure markdown>
-![](images/fr/03 - 02fr - figure 3.png)
-<figcaption>Figure 3. Fenêtre d'inscription</figcaption>
-</figure>
+	<figure markdown>
+	![](images/fr/03 - 02fr - figure 3.png)
+	<figcaption>Figure 3. Fenêtre d'inscription</figcaption>
+	</figure>
 
 3. Vous recevrez un e-mail en quelques minutes. Suivez les instructions contenues dans cet e-mail pour vérifier votre compte.
 4. Une fois votre compte vérifié, vous pouvez vous connecter à l'aide de votre adresse e-mail et de votre mot de passe, et ce à chaque fois que vous accédez à la plateforme.

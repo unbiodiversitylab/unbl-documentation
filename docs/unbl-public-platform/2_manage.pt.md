@@ -2,6 +2,20 @@
 
 Uma vez registrado no Laboratório de Biodiversidade da ONU, você poderá gerenciar sua conta, incluindo editar seu nome de usuário, e-mail, senha, país e instituição. Você também poderá visualizar e editar os espaços de trabalho aos quais pertence.
 
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/U4lV4CLoTTQ"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 **Para gerenciar sua conta:**
 
 1. Clique no ícone da conta com suas iniciais no canto superior direito e, em seguida, clique em 'Perfil'.

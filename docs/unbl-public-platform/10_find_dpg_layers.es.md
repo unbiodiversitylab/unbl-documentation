@@ -2,6 +2,20 @@
 
 El UN Biodiversity Lab está certificado como plataforma de bienes públicos digitales (DPG) por la Alianza de Bienes Públicos Digitales. Ofrece a los responsables políticos nuevas formas de interactuar con datos espaciales de alta calidad. Puede ver los conjuntos de datos espaciales reconocidos como datos abiertos DPG a escala mundial o dentro de un área de interés.
 
+<details class="unbl-video">
+  <summary>▶️ ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/T0geknp-Jz8"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Haga clic en el icono «CONJUNTOS DE DATOS».
 
 2. Haga clic para expandir los filtros.

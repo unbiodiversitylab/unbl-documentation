@@ -2,6 +2,20 @@
 
 Le UN Biodiversity Lab vous donne accès à des ensembles de données qui montrent les changements au fil du temps. Certains ensembles de données chronologiques sont visualisés sur plusieurs années à l'aide d'animations, d'autres peuvent être visualisés par année spécifique via le menu déroulant, et certains sont une combinaison des deux, avec la possibilité de visualiser des animations d'années particulières qui peuvent être choisies dans le menu déroulant.
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/zVPFZWJeVOQ"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Pour visualiser les ensembles de données chronologiques :
 
 1. Sélectionnez le tag « Time Series » dans l'onglet Filtres pour filtrer les ensembles de données disponibles sous forme de séries chronologiques.

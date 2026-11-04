@@ -1,5 +1,19 @@
 # Как мне загрузить необрезанные глобальные наборы данных?
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Lc5j4j3rsoE"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Выберите интересующий вас набор данных.
 
 2.	Нажмите на значок информации о наборе данных.
