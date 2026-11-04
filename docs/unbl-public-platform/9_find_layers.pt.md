@@ -31,17 +31,17 @@ Os dados no Laboratório de Biodiversidade da ONU incluem os melhores conjuntos 
 
     b) Clique para expandir os filtros para visualizar e selecionar as categorias de conjuntos de dados de seu interesse. Em seguida, você pode selecionar o conjunto de dados desejado na lista de resultados da pesquisa.
 
-	![](images/en/image043.png)
+	![](images/find-layers-01.png)
 
 	**OU**
 
 	c) Clique para expandir as tags de conjuntos de dados e selecione sua tag de interesse. Em seguida, você pode selecionar o conjunto de dados desejado na lista.
 
-	![](images/en/image045.png)
-	![](images/en/image047.png)
+	![](images/find-layers-02.png)
+	![](images/find-layers-03.png)
 
 4.	Clique no botão de alternância à direita do nome do conjunto de dados para carregar este conjunto de dados no mapa.
 
 5.	Clique no botão de alternância novamente ou clique no ícone **X** na legenda do conjunto de dados para remover este conjunto de dados.
 
-	![](images/en/image049.png)
+	![](images/find-layers-04.png)

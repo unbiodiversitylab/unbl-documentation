@@ -3,7 +3,7 @@
 Upon executing an ELSA analysis, you will be able to view results by clicking on the toggle button in the left tab. In the drop-down menu of the legend that appears on the map, you can choose between viewing the final action map or heatmap layers. We suggest that you view the heatmaps first. 
 
 <figure markdown>
-![](images/image016.png){#fig-viewing-hm}
+![](images/viewing-heatmaps-01.png){#fig-viewing-hm}
 <figcaption> Figure 15. Viewing heatmap layers</figcaption>
 </figure>
 
@@ -15,6 +15,6 @@ By evaluating heatmaps, data experts can view the aggregated user-weighted plann
     To toggle satellite imagery and roads, users should click on the ‘MAP CONTROLS’ button on the bottom-right of the UNBL data app. Users can then click on the eye icon in the legend box to hide the heatmap and view satellite imagery, or the opacity button to the left of the eye icon to reduce the opacity of the heatmap and see underlying satellite imagery and the heatmap at the same time.  
 
 <figure markdown>
-![](images/image017.png){#fig-eval-hm}
+![](images/viewing-heatmaps-02.png){#fig-eval-hm}
 <figcaption> Figure 16. Evaluating heatmaps</figcaption>
 </figure>

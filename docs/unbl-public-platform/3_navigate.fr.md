@@ -21,8 +21,8 @@ La navigation entre les deux pages est simple.
 	!!! Note
 		Si vous êtes inscrit(e) sur le UNBL et possédez un espace de travail, veuillez cliquer sur ESPACES DE TRAVAIL dans la barre d'outils de gauche, puis sur ACCUEIL.
 
-	![](images/fr/image023.png)
+	![](images/navigate-01.png)
 
 2. Pour accéder à l'application cartographique depuis le site web du UN Biodiversity Lab, cliquez sur « Launch map » (Lancer la carte).
 
-	![](images/fr/image025.png)
+	![](images/navigate-02.png)

@@ -31,7 +31,7 @@ Bloqueio de Áreas Protegidas ([Figura 1](#fig-lockin-options)):
 * Selecione 'Lock-in Existing Protected Areas' se desejar forçar a análise a incluir Áreas Protegidas existentes dentro da ação de 'Proteção' na solução.
 * Selecione 'Lock-in nothing' se desejar avaliar independentemente a localização ideal de Áreas Protegidas existentes e novas em seu país com base nas áreas de 'Proteção' selecionadas no mapa de ação resultante.
 
-![Funcionalidades de bloqueio](images/image007.png){#fig-lockin-options}
+![Funcionalidades de bloqueio](images/editing-analysis-01.png){#fig-lockin-options}
 
 Como visto na [Figura 1](#fig-lockin-options) para Cuba, as Áreas Protegidas existentes cobrem 17,08% do país. Portanto, a seleção de 'Lock-in Existing Protected Areas' requer que pelo menos 17,08% do território nacional seja atribuído sob a restrição de área de 'Proteção'.
 
@@ -39,7 +39,7 @@ Como visto na [Figura 1](#fig-lockin-options) para Cuba, as Áreas Protegidas ex
 
 Os usuários não podem definir zonas por si mesmos, mas para algumas ações, pode haver uma zona padrão e uma zona alternativa que pode ser selecionada. Por exemplo, algumas ferramentas podem ter uma opção para considerar "Apenas áreas agrícolas" para a ação de gestão, ou "Apenas áreas florestais" para a ação de restauração, com base nas necessidades e prioridades individuais de usuários e países.
 
-![Zonas alternativas para restringir áreas de atividade baseadas na natureza](images/image008.png){#fig-alt-zone-options}
+![Zonas alternativas para restringir áreas de atividade baseadas na natureza](images/editing-analysis-02.png){#fig-alt-zone-options}
 
 ## Definir restrições baseadas em área para ações
 
@@ -52,7 +52,7 @@ Você pode definir qualquer valor maior ou igual a 0,001 para objetivos de prote
 
 Você também deve considerar que se deseja bloquear Áreas Protegidas existentes (o padrão), a restrição geral de área de proteção deve ser igual ou maior que a área de terra coberta por Áreas Protegidas existentes. Por exemplo, a área de terra coberta por Áreas Protegidas existentes em Cuba é de 17,08%. Portanto, a restrição de área de proteção deve ser igual ou maior que 17,08%.
 
-![Definir objetivos](images/image009.png){#fig-setting-objectives}
+![Definir objetivos](images/editing-analysis-03.png){#fig-setting-objectives}
 
 ## Especificar o fator de penalidade de fronteira
 
@@ -66,7 +66,7 @@ Passos:
 !!! attention
     Aumentar o fator de penalidade de fronteira de 0 resultará em tempos de resolução mais longos; em alguns casos, estes podem ser muito mais longos.
 
-![Ajuste do fator de penalidade de fronteira](images/image010.png){#fig-adjust-bpf}
+![Ajuste do fator de penalidade de fronteira](images/editing-analysis-04.png){#fig-adjust-bpf}
 
 ## Editar os pesos das características de planejamento
 
@@ -83,7 +83,7 @@ Para permitir que os usuários tomem a decisão mais informada possível, o tema
 
 Para uma lista completa de dados de entrada, bem como quais metas do KMGBF são usadas para mapear, consulte o [Anexo 2](13_annex2.md).
 
-![Editar pesos](images/image011.png){#fig-edit-weights}
+![Editar pesos](images/editing-analysis-05.png){#fig-edit-weights}
 
 ## Visualizar camadas de entrada
 
@@ -91,7 +91,7 @@ Se você deseja visualizar características de planejamento antes de definir pes
 
 Para visualizar características de planejamento, clique na opção 'INPUT LAYERS' ao lado da opção 'ANALYSIS RUNS' na aba de ferramentas à esquerda. Você pode então alternar camadas de entrada específicas para visualizá-las na UNBL.
 
-![Visualizar zonas de ação e características de planejamento na UNBL](images/image012.png)
+![Visualizar zonas de ação e características de planejamento na UNBL](images/editing-analysis-06.png)
 
 Ao clicar na aba 'INPUT LAYERS', você pode visualizar cada camada individual de característica de planejamento de entrada incluída na análise ELSA; essas entradas são especificamente adaptadas para ajudar a identificar áreas prioritárias para a implementação do KMGBF, bem como implementação de NBSAP/outra política nacional, se especificamente solicitado pelo seu país. Você pode adicionalmente visualizar características de bloqueio (opcionais) (ou seja, áreas protegidas existentes) em seu país. Finalmente, você pode visualizar a camada para cada zona de ação que define onde é possível que cada ação ocorra em seu país para a análise.
 
@@ -101,4 +101,4 @@ Passos:
 * Clique no botão de alternância novamente para remover a camada selecionada da visualização.
 * Você tem a opção de visualizar informações adicionais (descrição da camada, camadas de entrada originais, fonte) para camadas atualmente alternadas clicando no ícone redondo '**i**' na legenda da camada individual ou ao lado do botão de alternância para cada camada.
 
-![Visualizar metadados](images/image013.png)
+![Visualizar metadados](images/editing-analysis-07.png)

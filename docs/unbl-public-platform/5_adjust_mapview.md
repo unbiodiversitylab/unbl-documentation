@@ -24,4 +24,4 @@ There are several features that can assist you to navigate the map screen. These
 
 4. *Hide left menu bar:* Click on the arrow at the top of the left menu to collapse the dataset panel for a larger map view. Click again to expand the panel.
 
-![](images/en/image029.png)
+![](images/adjust-mapview-01.png)

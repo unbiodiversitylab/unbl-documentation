@@ -10,7 +10,7 @@ To add a new place:
  
 2.	Click the ‘CREATE NEW PLACE’ button. 
 
-	![](images/en/image11.png)
+	![](images/add-places-01.png)
 	
 3.	In the ‘New place’ page that appears, fill in the following information: 
 
@@ -27,11 +27,11 @@ To add a new place:
 	
 	e.	If all the information entered is valid, the ‘SAVE AND VIEW DETAILS’ button will light up in blue. Click this button to upload your place to UNBL.
 	
-	![](images/en/image12.png)
+	![](images/add-places-02.png)
 	
 4.	Once you save your new place, you will be brought to the place’s edit page. For your place to be discoverable and viewable in the map view, you must publish the place by clicking the ‘Published’ toggle button. Unpublished places remain in the admin interface until you are ready to publish them to the UNBL map view.
 
-	![](images/en/image13.png)
+	![](images/add-places-03.png)
 
 ## How do I edit places? 
 
@@ -41,15 +41,15 @@ You can also make edits to existing places and view your place on  a basemap to 
 
 2.	Select the place you are interested in from the place list by clicking on the ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon on the left-most side of the place entry.
 
-	![](images/en/image14.png)
+	![](images/add-places-04.png)
 	
 3.	Click on the ‘VIEW AND UPLOAD SHAPE’ button near the top-right corner of the basemap window to see some basic geospatial information about your place – including bounding box (extent) coordinates, area of the place in hectares, and the origin point coordinates - and upload any new versions of the place you may have in the future. 
 
-	![](images/en/image15.png)
+	![](images/add-places-05.png)
 	
 4.	Use the ‘Choose File’ button to upload new files for your updated place. Click on ‘UPDATE SHAPE’ to save your changes. You can also download your current version of this place to your local computer as a GeoJSON by clicking on the ‘Download GeoJSON’ button (below the map view).
 
-	![](images/en/image16.png)
+	![](images/add-places-06.png)
 
 ## How do I display metrics for my added places?  
 
@@ -57,13 +57,13 @@ UNBL's standard dynamic metrics become automatically available for your place as
 
 1.	a) Click on the 'VIEW ON MAP' button at the bottom of the place edit page. 
 
-	![](images/en/image16_5_new.png)
+	![](images/add-places-07.png)
 	
 	**OR**
 	
 	b) Navigate to the UNBL map view by clicking on your workspace name in the workspace admin interface in the top-left corner, and then click on ‘Map View’. 
 
-	![](images/en/image17.png)
+	![](images/add-places-08.png)
 	
 	In the ‘PLACES’ tab, search for and select a place uploaded to your UNBL workspace.    
 
@@ -75,19 +75,19 @@ UNBL's standard dynamic metrics become automatically available for your place as
 	!!!Note
 		Headline indicator metrics and the Protected Area metric are only available for *Country* type places with a specified ISO3/M49 country code. Places that are not *Country* types will therefore not have an option to choose headline indicators. 
 		
-	![](images/en/image18.png)
+	![](images/add-places-09.png)
 	
 3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the ![](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
 
-	![](images/en/image19.png)
+	![](images/add-places-10.png)
 	
 4.	Click on the ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and license specifications.
 
-	![](images/en/image20.png)
+	![](images/add-places-11.png)
 	
 5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, table-separated value, or .json format. You can also download the data from source links in the layer info pages.  
 
-	![](images/en/image21.png)
+	![](images/add-places-12.png)
 	
 
 

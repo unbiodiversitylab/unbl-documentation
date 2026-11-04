@@ -22,4 +22,4 @@ Al seleccionar varios conjuntos de datos, puede personalizar el mapa ajustando s
 
 3. Para ocultar temporalmente un conjunto de datos en el mapa, haga clic en el ![](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icono. Para volver a hacerlo visible, haga clic en el ![](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icono.
 
-![](images/es/SP 27.png)
+![](images/customize-mapview-01.png)

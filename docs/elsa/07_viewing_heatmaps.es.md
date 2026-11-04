@@ -3,7 +3,7 @@
 Al ejecutar un análisis ELSA, podrá ver los resultados haciendo clic en los tres puntos verticales situados junto a la entrada del análisis en la pestaña izquierda y haciendo clic en el botón «Ver». En el menú desplegable de la leyenda que aparece en el mapa, puede elegir entre ver el mapa de acciones final o las capas del mapa de calor. Le sugerimos que vea primero los mapas de calor.   
 
 <figure markdown>
-![](images/SP 15.png){#fig-viewing-hm}
+![](images/viewing-heatmaps-01.png){#fig-viewing-hm}
 <figcaption> Figura 15. Ver capas de mapa de calor</figcaption>
 </figure>
 
@@ -15,6 +15,6 @@ Al evaluar los mapas de calor, los expertos en datos pueden ver los datos agrega
     Para alternar entre las imágenes satelitales y las carreteras, los usuarios deben hacer clic en el botón «CONTROLES DE MAPA» en la parte inferior derecha de la pantalla. A continuación, los usuarios pueden hacer clic en el icono del ojo en el cuadro de leyenda para ocultar el mapa de calor y ver las imágenes satelitales, o en el botón de opacidad a la izquierda del icono del ojo para reducir la opacidad del mapa de calor y ver las imágenes satelitales subyacentes y el mapa de calor al mismo tiempo.  
 
 <figure markdown>
-![](images/SP 16.png){#fig-eval-hm}
+![](images/viewing-heatmaps-02.png){#fig-eval-hm}
 <figcaption> Figura 16. Evaluar mapas de calor</figcaption>
 </figure>

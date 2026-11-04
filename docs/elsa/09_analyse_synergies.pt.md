@@ -10,10 +10,10 @@ Após executar uma análise, você pode visualizar os resultados e avaliar se os
 
 Você pode revisar a representação de características de planejamento clicando no ícone '**i**' na legenda da camada da execução de análise alternada. Isso exibirá uma janela de informações de teste com a área total de terra alocada para cada ação baseada na natureza na análise, bem como uma tabela mostrando o peso, a representação geral e a representação individual para cada ação baseada na natureza para cada característica de planejamento.
 
-![Caixa de informações de representação de características.](images/image020.png)
+![Caixa de informações de representação de características.](images/analyse-synergies-01.png)
 
 Você pode alternativamente salvar essas mesmas informações em seu computador local clicando no botão de três pontos verticais ao lado da entrada da sua execução de análise e então clicando em 'Download CSV' ou 'Download JSON', dependendo do formato que você deseja. Você pode adicionalmente clicar em 'Download Excel summary' para baixar uma planilha de informações de teste mais abrangente que mostra descrições de dados e metadados para cada característica de planejamento, descrições de metas políticas usadas para a análise e recursos de análise ELSA junto com as pontuações de representação.
 
-![Baixar tabelas de resumo de representação de características.](images/image021.png)
+![Baixar tabelas de resumo de representação de características.](images/analyse-synergies-02.png)
 
 Você pode avaliar pontuações de representação para características de planejamento de sua escolha e iterativamente duplicar e executar execuções de análise adicionais com pesos aumentados/diminuídos para características de planejamento dependendo se você deseja aumentar/diminuir sua representação no mapa ELSA final.

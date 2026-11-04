@@ -12,7 +12,7 @@
 
 >https://map.unbiodiversitylab.org/admin/[SLUG-ВАШЕГО-РАБОЧЕГО-ПРОСТРАНСТВА]
 
-![](images/ru/07ru.png)
+![](images/admin-01.png)
 
 ## Какие компоненты доступны в административном интерфейсе? {#kakie-komponenty-dostupny-v-interfejse-administrirovaniya}
 
@@ -27,4 +27,4 @@
 
 2.	Выберите компонент, который вы хотите просмотреть. Дополнительная информация о каждом компоненте предоставлена в последующих разделах данного руководства пользователя.
 
-![](images/ru/08ru.png)
+![](images/admin-02.png)

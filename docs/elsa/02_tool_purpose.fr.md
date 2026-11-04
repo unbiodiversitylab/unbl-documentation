@@ -28,6 +28,6 @@ L'outil ELSA utilise le package *prioritizr* en arrière-plan comme outil d'opti
     Les définitions de la terminologie technique mentionnée dans ce guide se trouvent dans l'[Annexe 1](12_annex1.md).
 
 <figure markdown>
-![](images/fr/01fr - figure 1.png)
+![](images/tool-purpose-01.png)
 <figcaption>Figure 1. Interface initiale de l'outil ELSA sur le UNBL</figcaption>
 </figure>

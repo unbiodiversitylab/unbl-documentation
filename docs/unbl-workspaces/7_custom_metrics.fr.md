@@ -44,7 +44,7 @@ La création d'une métrique consiste à choisir les couches GeoTIFF de l'espace
 
 2.	Cliquez sur le bouton « CREATE NEW METRIC » qui apparaît.
 
-	![](images/en/image1-metrics.png)
+	![](images/custom-metrics-01.png)
 
 3.	Dans la page de nouvelle métrique, renseignez les informations suivantes :
 
@@ -60,7 +60,7 @@ La création d'une métrique consiste à choisir les couches GeoTIFF de l'espace
 
 	f)	Une fois tous les paramètres spécifiés, le bouton « SAVE AND VIEW DETAILS » s'affichera en bleu, à condition que toutes les informations saisies soient valides. Cliquez sur ce bouton pour configurer la métrique dans votre espace de travail.
 
-	![](images/en/image2-metrics.png)
+	![](images/custom-metrics-02.png)
 
 4. Dans la page de modification de métrique qui apparaît, activez le bouton « Published » pour publier la métrique.
 
@@ -72,7 +72,7 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
 
 2.	Cliquez sur le bouton « CREATE NEW WIDGET » qui apparaît.
 
-	![](images/en/image3-metrics.png)
+	![](images/custom-metrics-03.png)
 
 3. Dans la page de nouveau widget, renseignez les informations suivantes :
 
@@ -100,13 +100,13 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
     <tbody>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Couche unique</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Histogramme<br>![](images/en/image4-metrics.png){ width="350" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Diagramme circulaire<br>![](images/en/image5-metrics.png){ width="250" style="display:inline-block"}<br>Diagramme en barres<br>![](images/en/image6-metrics.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Histogramme<br>![](images/custom-metrics-04.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Diagramme circulaire<br>![](images/custom-metrics-05.png){ width="250" style="display:inline-block"}<br>Diagramme en barres<br>![](images/custom-metrics-06.png){ width="250" style="display:inline-block"}</td>
       </tr>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Série temporelle</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Graphique linéaire<br>![](images/en/image7-metrics.png){ width="250" style="display:inline-block"}<br>Graphique en aires<br>![](images/en/image8-metrics.png){ width="250" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Graphique en aires<br>![](images/en/image9-metrics.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Graphique linéaire<br>![](images/custom-metrics-07.png){ width="250" style="display:inline-block"}<br>Graphique en aires<br>![](images/custom-metrics-08.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Graphique en aires<br>![](images/custom-metrics-09.png){ width="350" style="display:inline-block"}</td>
       </tr>
     </tbody>
 	</table>
@@ -122,11 +122,11 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
 
 	f)i)	*Widget summary (optional)* : Crée un résumé des statistiques clés de la métrique qui sera affiché par le widget. La liste des champs de résumé disponibles fournit des paramètres pouvant être utilisés dans le texte du résumé. Un exemple de résumé de widget pour une métrique de série temporelle utilisant trois couches montrant l'Indice de modification humaine sur trois périodes est présenté ci-dessous.
 
-	![](images/en/image10-metrics.png)
+	![](images/custom-metrics-10.png)
 
 	Lorsque cette métrique et son widget associé sont actifs sur UNBL, les champs de résumé dans le texte sont automatiquement remplis avec les paramètres nécessaires, comme illustré ci-dessous.
 
-	![](images/en/image11-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-11.png){style="width:550px !important" }
 
 	Par ailleurs, le résumé du widget pour une métrique à couche unique de l'Indice de modification humaine utiliserait les champs de résumé suivants :
 
@@ -138,7 +138,7 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
 
 		"In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022."
 
-	![](images/en/image12-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-12.png){style="width:550px !important" }
 
 	f)ii) Pour les métriques créées à l'aide d'une couche catégorielle, une option de basculement supplémentaire est disponible, appelée *Use layer categories*.
 
@@ -150,7 +150,7 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
 
 	- *Values* : Numéro(s) unique(s) dans la couche de données sous-jacente désignant la catégorie configurée. L'utilisateur peut spécifier plusieurs numéros pour la même catégorie.
 
-	![](images/en/image12_5-metrics.png)
+	![](images/custom-metrics-13.png)
 
 	g)	*X-Axis Label (optional)* : Pour les types de métriques avec histogramme, graphique linéaire ou graphique en aires, il est possible de spécifier un libellé pour l'axe X. Le libellé doit correspondre à la variable de données affichée. Ce champ est optionnel.
 
@@ -158,7 +158,7 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
 
 	i)	Une fois tous les paramètres spécifiés, le bouton « SAVE AND VIEW DETAILS » s'affichera en bleu, à condition que toutes les informations saisies soient valides. Cliquez sur ce bouton pour créer le widget.
 
-	![](images/en/image13-metrics.png)
+	![](images/custom-metrics-14.png)
 
 4. Dans la page de modification de widget qui apparaît, activez le bouton « Published » pour publier le widget.
 
@@ -170,7 +170,7 @@ Un tableau de bord est l'interface utilisateur qui affiche la métrique et le wi
 
 2.	Cliquez sur le bouton « CREATE NEW DASHBOARD » qui apparaît.
 
-	![](images/en/image14-metrics.png)
+	![](images/custom-metrics-15.png)
 
 3. Dans la page de nouveau tableau de bord, renseignez les informations suivantes :
 
@@ -184,7 +184,7 @@ Un tableau de bord est l'interface utilisateur qui affiche la métrique et le wi
 
 	e)	Une fois tous les paramètres spécifiés, le bouton « SAVE AND VIEW DETAILS » s'affichera en bleu, à condition que toutes les informations saisies soient valides. Cliquez sur ce bouton pour créer le tableau de bord.
 
-	![](images/en/image15-metrics.png)
+	![](images/custom-metrics-16.png)
 
 4. Dans la page de modification de tableau de bord qui apparaît, activez le bouton « Published » pour publier le tableau de bord.
 
@@ -197,19 +197,19 @@ Pour consulter vos métriques personnalisées :
 
 1. Dans la vue cartographique UNBL, assurez-vous que votre espace de travail est activé.
 
-	![](images/en/image16-metrics.png){style="width:600px !important" }
+	![](images/custom-metrics-17.png){style="width:600px !important" }
 
 2. Sélectionnez le lieu pour lequel vous souhaitez consulter des métriques personnalisées dans l'onglet « PLACES ».
 
-	![](images/en/image17-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-18.png){style="width:400px !important" }
 
 3. Si la plateforme publique UNBL et/ou d'autres espaces de travail sont actifs en même temps que votre propre espace de travail, vous devrez peut-être sélectionner le tableau de bord contenant vos métriques personnalisées. Dans ce cas, un menu déroulant apparaîtra avec une liste de tableaux de bord et les espaces de travail associés de chaque tableau de bord. Sélectionnez votre tableau de bord dans le menu déroulant.
 
 	!!!note
 		Si les métriques personnalisées de votre tableau de bord ne chevauchent pas le lieu activé, votre tableau de bord n'apparaîtra pas dans le menu déroulant.
 
-	![](images/en/image18-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-19.png){style="width:400px !important" }
 
 4. Vous pouvez maintenant consulter les métriques personnalisées que vous avez configurées pour votre couche GeoTIFF et votre lieu choisis. Toutes les fonctionnalités des métriques dynamiques par défaut d'UNBL sont disponibles pour vos métriques personnalisées, notamment le basculement de la couche associée, la consultation d'informations et le téléchargement de données de métriques aux formats .csv, .tsv et .json.
 
-	![](images/en/image19-metrics.png)
+	![](images/custom-metrics-20.png)

@@ -57,10 +57,10 @@ Para visualizar essas métricas no Laboratório de Biodiversidade da ONU:
 
 3.	Clique no botão de alternância ao lado de qualquer métrica específica se você quiser visualizar este conjunto de dados no mapa. Clique no botão de alternância novamente ou no ícone de remover conjunto de dados na legenda para limpar a tela.
 
-	![](images/pt/image035.png)
+	![](images/dynamic-metrics1-01.png)
 
 4.  Clique no ícone ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para visualizar informações do conjunto de dados. As páginas de informações fornecem uma breve descrição dos dados, artigo relacionado para leitura, dados brutos para download (se disponíveis gratuitamente) e especificações de licença.
 
 5.	Para baixar dados resumidos da métrica em formato .csv, .tsv ou .json, clique no ícone de seta ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Você também pode baixar os dados dos links de origem nas páginas de informações dos conjuntos de dados.
 
-	![](images/pt/image041.png)
+	![](images/dynamic-metrics1-02.png)

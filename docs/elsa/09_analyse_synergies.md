@@ -11,14 +11,14 @@ After running an analysis, you can view the results and evaluate whether the par
 You can review planning feature representation by clicking the ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend of the toggled analysis run. This will display a test information window with the total land area allocated to each nature-based action in the analysis, as well as a table showing the weight, overall representation and individual representation for each nature-based action for each planning feature. 
 
 <figure markdown>
-![](images/image020.png)
+![](images/analyse-synergies-01.png)
 <figcaption>Figure 19. Feature representation info box</figcaption>
 </figure>
 
 You can alternatively save this same information to your local computer by clicking on the ![](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em; transform: rotate(90deg);"} button next to the entry of your analysis run and then clicking on ‘Download CSV’ or ‘Download JSON’, depending on the format you desire. You can additionally click on ‘Download Excel summary’ to download a more comprehensive test information sheet which shows data descriptions and metadata for each planning feature, descriptions of policy targets used for the analysis, and ELSA analysis resources alongside the representation scores.  
 
 <figure markdown>
-![](images/image021.png)
+![](images/analyse-synergies-02.png)
 <figcaption>Figure 20. Download feature representation summary tables</figcaption>
 </figure>
 

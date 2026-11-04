@@ -22,7 +22,7 @@ O Laboratório de Biodiversidade da ONU é certificado como uma plataforma de Be
 
 3.	Nos filtros, clique para expandir as tags de conjuntos de dados. Em seguida, selecione "DPG Open Data".
 
-	![](images/en/image051.png)
+	![](images/find-dpg-layers-01.png)
 
 4.	Recolha a lista de 'FILTROS' e visualize a lista de Dados Abertos DPG no UNBL.
 
@@ -30,7 +30,7 @@ O Laboratório de Biodiversidade da ONU é certificado como uma plataforma de Be
 
 6.	Clique no botão de alternância novamente ou clique no ícone **X** na legenda do conjunto de dados para remover este conjunto de dados.
 
-	![](images/en/image053.png)
+	![](images/find-dpg-layers-02.png)
 
 
 

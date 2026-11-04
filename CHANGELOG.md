@@ -10,6 +10,16 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
 
 ## [Unreleased]
 
+### Site and tooling
+- Screenshots moved to one folder per section with localized names
+  (`creating-analysis-05.png` + `creating-analysis-05.fr.png`); every language now uses
+  the same image references and falls back to English automatically.
+- Deleted 18 unused GIFs and other unreferenced images; compressed, resized (max
+  1600 px) and palette-reduced screenshots. Built site 396 MB → 84 MB; no screenshot
+  over 1 MB.
+- `check_docs.py` checks the image convention, flags unused images, and fails PRs that
+  add images over 1 MB.
+
 ### Content
 - 2026 H1 English updates (#34): embedded tutorial videos on every public platform page
   (all five languages); new Protected Connected Index, Coastal Eutrophication and marine

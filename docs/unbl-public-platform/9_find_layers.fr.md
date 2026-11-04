@@ -31,17 +31,17 @@ Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de donn�
 
 	b) Cliquez pour développer les filtres afin d'afficher et de sélectionner les catégories de jeux de données qui vous intéressent. Vous pouvez ensuite sélectionner le jeu de données souhaité dans la liste des résultats de recherche.
 
-	![](images/fr/image043.png)
+	![](images/find-layers-01.png)
 
 	**OU**
 
 	c) Cliquez pour développer les balises des ensembles de données et sélectionnez la balise qui vous intéresse. Vous pouvez ensuite sélectionner l'ensemble de données souhaité dans la liste.
 
-	![](images/fr/image045.png)
-	![](images/fr/image047.png)
+	![](images/find-layers-02.png)
+	![](images/find-layers-03.png)
 
 4. Cliquez sur le bouton à bascule situé à droite du nom de l'ensemble de données pour charger cet ensemble de données sur la carte.
 
 5. Cliquez à nouveau sur le bouton bascule, ou cliquez sur l'icône X dans les informations sur l'ensemble de données pour supprimer cet ensemble de données.
 
-	![](images/fr/image049.png)
+	![](images/find-layers-04.png)

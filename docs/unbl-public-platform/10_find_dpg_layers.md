@@ -22,7 +22,7 @@ The UN Biodiversity Lab is certified as a Digital Public Good (DPG) platform by 
 
 3.	In filters, click to expand the dataset tags. Then, select “DPG Open Data”.
 
-	![](images/en/image051.png)
+	![](images/find-dpg-layers-01.png)
 	
 4.	Collapse the 'FILTERS' list and view the list of DPG Open Data on UNBL.
 
@@ -30,7 +30,7 @@ The UN Biodiversity Lab is certified as a Digital Public Good (DPG) platform by 
 
 6.	Click the toggle button again or click the **X** icon in the dataset legend to remove this dataset.
 
-	![](images/en/image053.png)
+	![](images/find-dpg-layers-02.png)
 
 
 

@@ -21,7 +21,7 @@ Arguments: `$ARGUMENTS`. The first is the English page (`docs/.../name.md`). Opt
 
 - **Update only what changed** unless `--full` was given or the page is new. Translators may have hand-polished the other text, so leave it alone.
 - Keep the structure identical to English: the same headings at the same levels, the same lists, admonitions, figures, figure IDs, anchors and link targets.
-- Image paths: if `docs/<section>/images/<lang>/` has a matching translated screenshot, use it. Otherwise keep the `images/en/...` path. Translate alt text and figure captions.
+- Image paths: keep them **exactly as in English** (e.g. `images/creating-analysis-05.png`). The site serves `creating-analysis-05.<lang>.png` automatically if it exists. Never write a `.<lang>.png` path into a page. Translate alt text and figure captions.
 - Links: keep the target unchanged and translate the link text.
 - UI labels: keep them as they appear in the interface, in capitals, with a translation in brackets the first time on the page, as existing pages do.
 - Formal register. Follow the existing wording in neighbouring pages of the same language over your own preferences; consistency matters more than elegance.

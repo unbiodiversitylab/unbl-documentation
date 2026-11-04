@@ -1,6 +1,6 @@
 # UN Biodiversity Lab (UNBL) - Guide d'utilisation de la plateforme publique
 
-![](images/fr/image001.png)
+![](images/index-01.png)
 
 Ce guide d'utilisation téléchargeable a été conçu pour vous présenter les principaux outils et fonctions du UN Biodiversity Lab. Si vous avez d'autres questions, veuillez consulter notre [page d'assistance](https://www.unbiodiversitylab.org/support/) ou nous contacter à l'adresse support@unbiodiversitylab.org.
 

@@ -22,4 +22,4 @@
 
 3. Чтобы временно скрыть набор данных на карте, нажмите на значок ![](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Чтобы сделать его видимым снова, нажмите на значок ![](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}.
 
-![](images/ru/image066.png)
+![](images/customize-mapview-01.png)

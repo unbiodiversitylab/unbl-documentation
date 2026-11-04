@@ -5,13 +5,13 @@ Après avoir effectué une analyse ELSA, vous pouvez afficher la carte d'action 
 Comme pour les heatmaps, les utilisateurs peuvent zoomer sur des zones spécifiques à l'aide de l'interface UNBL et basculer entre les images satellite et les autres couches disponibles dans l'espace de travail/la plateforme publique UNBL afin d'évaluer les résultats finaux.
 
 <figure markdown>
-![](images/fr/17fr - figure 17.png)
+![](images/downloading-results-01.png)
 <figcaption>Figure 17. Carte d'action ELSA indiquant les zones prioritaires pour la protection et la restauration autour de La Havane</figcaption>
 </figure>
 
 Les utilisateurs peuvent également télécharger les cartes d'action et les heatmaps obtenues au format raster pour les utiliser dans un logiciel SIG externe.
 
 <figure markdown>
-![](images/fr/18fr - figure 18.png)
+![](images/downloading-results-02.png)
 <figcaption>Figure 18. Téléchargement des cartes d'analyse obtenues</figcaption>
 </figure>

@@ -22,4 +22,4 @@ Lorsque vous sélectionnez plusieurs ensembles de données, vous pouvez personna
 
 3. Pour masquer temporairement un ensemble de données sur la carte, cliquez sur l'icône ![](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} (Masquer l'ensemble de données). Pour le rendre à nouveau visible, cliquez sur l'icône ![](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} (Afficher l'ensemble de données).
 
-![](images/fr/image066.png)
+![](images/customize-mapview-01.png)

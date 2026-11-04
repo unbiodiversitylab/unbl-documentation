@@ -44,7 +44,7 @@ Criar uma métrica envolve escolher quais camadas GeoTIFF no espaço de trabalho
 
 2.	Clique no botão «CREATE NEW METRIC» que aparece.
 
-	![](images/en/image1-metrics.png)
+	![](images/custom-metrics-01.png)
 
 3.	Na página de nova métrica, preencha as seguintes informações:
 
@@ -60,7 +60,7 @@ Criar uma métrica envolve escolher quais camadas GeoTIFF no espaço de trabalho
 
 	f)	Depois que todos os parâmetros forem especificados, o botão «SAVE AND VIEW DETAILS» ficará azul, desde que todas as informações inseridas sejam válidas. Clique neste botão para configurar a métrica no seu espaço de trabalho.
 
-	![](images/en/image2-metrics.png)
+	![](images/custom-metrics-02.png)
 
 4. Na página de edição de métrica que aparece, ative o botão «Published» para publicar a métrica.
 
@@ -72,7 +72,7 @@ Depois que a métrica personalizada foi configurada, é necessário criar um wid
 
 2.	Clique no botão «CREATE NEW WIDGET» que aparece.
 
-	![](images/en/image3-metrics.png)
+	![](images/custom-metrics-03.png)
 
 3. Na página de novo widget, preencha as seguintes informações:
 
@@ -100,13 +100,13 @@ Depois que a métrica personalizada foi configurada, é necessário criar um wid
     <tbody>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Camada única</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Histograma<br>![](images/en/image4-metrics.png){ width="350" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Gráfico de pizza<br>![](images/en/image5-metrics.png){ width="250" style="display:inline-block"}<br>Gráfico de barras<br>![](images/en/image6-metrics.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Histograma<br>![](images/custom-metrics-04.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Gráfico de pizza<br>![](images/custom-metrics-05.png){ width="250" style="display:inline-block"}<br>Gráfico de barras<br>![](images/custom-metrics-06.png){ width="250" style="display:inline-block"}</td>
       </tr>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Série temporal</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Gráfico de linhas<br>![](images/en/image7-metrics.png){ width="250" style="display:inline-block"}<br>Gráfico de área<br>![](images/en/image8-metrics.png){ width="250" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Gráfico de área<br>![](images/en/image9-metrics.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Gráfico de linhas<br>![](images/custom-metrics-07.png){ width="250" style="display:inline-block"}<br>Gráfico de área<br>![](images/custom-metrics-08.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Gráfico de área<br>![](images/custom-metrics-09.png){ width="350" style="display:inline-block"}</td>
       </tr>
     </tbody>
 	</table>
@@ -122,11 +122,11 @@ Depois que a métrica personalizada foi configurada, é necessário criar um wid
 
 	f)i)	*Widget summary (optional)*: Cria um resumo das principais estatísticas de métricas que serão exibidas pelo widget. A lista de campos de resumo disponíveis fornece parâmetros que podem ser usados dentro do texto do resumo. Um exemplo de resumo de widget para uma métrica de série temporal usando três camadas mostrando o Índice de Modificação Humana em três períodos de tempo é mostrado abaixo.
 
-	![](images/en/image10-metrics.png)
+	![](images/custom-metrics-10.png)
 
 	Quando esta métrica e seu widget associado estão ativos no UNBL, os campos de resumo no texto são automaticamente preenchidos com os parâmetros necessários, como visto abaixo.
 
-	![](images/en/image11-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-11.png){style="width:550px !important" }
 
 	Alternativamente, o resumo do widget para uma métrica de camada única do Índice de Modificação Humana empregaria os seguintes campos de resumo:
 
@@ -138,7 +138,7 @@ Depois que a métrica personalizada foi configurada, é necessário criar um wid
 
 		"In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022."
 
-	![](images/en/image12-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-12.png){style="width:550px !important" }
 
 	f)ii) Para métricas criadas usando uma camada categórica, uma opção de alternância adicional está disponível chamada *Use layer categories*.
 
@@ -150,7 +150,7 @@ Depois que a métrica personalizada foi configurada, é necessário criar um wid
 
 	- *Values*: Número(s) único(s) na camada de dados subjacente que denotam a categoria configurada. O usuário pode especificar mais de um número para a mesma categoria.
 
-	![](images/en/image12_5-metrics.png)
+	![](images/custom-metrics-13.png)
 
 	g)	*X-Axis Label (optional)*: Para tipos de métricas com histograma, gráfico de linhas ou gráfico de área, é possível especificar um rótulo para o eixo X. O rótulo deve ser o da variável de dados sendo mostrada. Este campo é opcional.
 
@@ -158,7 +158,7 @@ Depois que a métrica personalizada foi configurada, é necessário criar um wid
 
 	i)	Depois que todos os parâmetros forem especificados, o botão «SAVE AND VIEW DETAILS» ficará azul, desde que todas as informações inseridas sejam válidas. Clique neste botão para criar o widget.
 
-	![](images/en/image13-metrics.png)
+	![](images/custom-metrics-14.png)
 
 4. Na página de edição de widget que aparece, ative o botão «Published» para publicar o widget.
 
@@ -170,7 +170,7 @@ Um painel de controle atua como a interface do usuário que exibe a métrica e o
 
 2.	Clique no botão «CREATE NEW DASHBOARD» que aparece.
 
-	![](images/en/image14-metrics.png)
+	![](images/custom-metrics-15.png)
 
 3. Na página de novo painel de controle, preencha as seguintes informações:
 
@@ -184,7 +184,7 @@ Um painel de controle atua como a interface do usuário que exibe a métrica e o
 
 	e)	Depois que todos os parâmetros forem especificados, o botão «SAVE AND VIEW DETAILS» ficará azul, desde que todas as informações inseridas sejam válidas. Clique neste botão para criar o painel de controle.
 
-	![](images/en/image15-metrics.png)
+	![](images/custom-metrics-16.png)
 
 4. Na página de edição de painel de controle que aparece, ative o botão «Published» para publicar o painel de controle.
 
@@ -197,19 +197,19 @@ Para visualizar suas métricas personalizadas:
 
 1. Na visualização do mapa UNBL, certifique-se de que seu espaço de trabalho esteja ativado.
 
-	![](images/en/image16-metrics.png){style="width:600px !important" }
+	![](images/custom-metrics-17.png){style="width:600px !important" }
 
 2. Selecione o lugar para o qual você deseja visualizar métricas personalizadas na aba «PLACES».
 
-	![](images/en/image17-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-18.png){style="width:400px !important" }
 
 3. Se você tiver a plataforma pública do UNBL e/ou outros espaços de trabalho ativos junto com seu próprio espaço de trabalho, pode ser necessário selecionar o painel de controle que contém suas métricas personalizadas para visualizá-las. Nesse caso, um menu suspenso aparecerá com uma lista de painéis de controle e os espaços de trabalho associados de cada painel de controle. Selecione seu painel de controle no menu suspenso.
 
 	!!!note
 		Se as métricas personalizadas no seu painel de controle não se sobrepõem ao lugar ativado, seu painel de controle não aparecerá no menu suspenso.
 
-	![](images/en/image18-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-19.png){style="width:400px !important" }
 
 4. Agora você pode visualizar as métricas personalizadas que configurou para sua camada GeoTIFF e lugar escolhidos. Todas as funcionalidades das métricas dinâmicas padrão do UNBL estão disponíveis para suas métricas personalizadas, incluindo a ativação da camada associada, visualização de informações e download de dados de métricas nos formatos .csv, .tsv e .json.
 
-	![](images/en/image19-metrics.png)
+	![](images/custom-metrics-20.png)

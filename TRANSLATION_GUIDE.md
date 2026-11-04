@@ -200,23 +200,19 @@ docs/
 │   ├── 01_overview.es.md             # Spanish
 │   ├── 01_overview.fr.md             # French
 │   ├── images/
-│   │   ├── en/                       # English screenshots
-│   │   ├── es/                       # Spanish screenshots
-│   │   ├── fr/                       # French screenshots
+│   │   ├── creating-analysis-05.png      # English screenshot (and fallback)
+│   │   ├── creating-analysis-05.es.png   # Spanish version of the same screenshot
+│   │   ├── creating-analysis-05.fr.png   # French version
 │   │   └── ...
+│   │   └── icons/                        # shared icons
 ├── unbl-public-platform/             # UNBL Platform documentation
 │   ├── 1_register.md
 │   ├── 1_register.es.md
 │   └── images/
-│       ├── en/
-│       ├── es/
-│       └── ...
 └── unbl-workspaces/                  # Workspaces documentation
     ├── 1_basics.md
     ├── 1_basics.es.md
     └── images/
-        ├── en/
-        └── ...
 ```
 
 ### Finding What Needs Translation
@@ -384,21 +380,25 @@ When translating a Markdown file, keep the following exactly as they are:
   ```markdown
   [Texte traduit](https://same-url.com)
   ```
-- **Image references** — update the path to point to your language's images if they exist:
+- **Image references** — keep the path exactly as in English; translate only the alt text:
   ```markdown
-  ![Description traduite](images/fr/screenshot.png)
+  ![Description traduite](images/creating-analysis-05.png)
   ```
-  If no language-specific image exists, keep the English path (`images/en/...`)
+  The site picks your language's version of the screenshot automatically (see below).
 - **Markdown formatting** — bold `**text**`, italic `*text*`, lists, tables, code blocks
 
 ### Image Translations
 
 Screenshots that contain visible text should ideally have language-specific versions:
 
-- Images are stored in `docs/<section>/images/<language>/`
-- If a screenshot in your language already exists, reference it (e.g., `images/fr/screenshot.png`)
-- If no translated screenshot exists, use the English version (`images/en/screenshot.png`) — it's better than a broken image
-- If you create new screenshots, place them in the correct language folder
+- Screenshots are stored in `docs/<section>/images/`. The English file is, for example,
+  `creating-analysis-05.png`.
+- A translated screenshot sits **next to it**, with the language code added before the
+  extension: `creating-analysis-05.fr.png`. Same name, same `.png` extension.
+- Pages in every language reference the English name. The site shows your language's
+  version when it exists, and the English screenshot when it doesn't, so nothing breaks.
+- To add or replace a translated screenshot, just add or replace the `.<lang>.png` file;
+  you don't need to edit the page.
 
 ### Navigation Translations
 

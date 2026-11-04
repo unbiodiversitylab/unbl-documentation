@@ -23,12 +23,12 @@ O Laboratório de Biodiversidade da ONU fornece acesso a conjuntos de dados que 
 
 	a)	*Apenas animação*: Clique no ícone de reprodução à esquerda para ver a animação das mudanças ao longo deste período de tempo. Selecione um tempo específico (ano, mês ou data) que você deseja mostrar no mapa clicando diretamente na barra da linha do tempo. Para visualizar um intervalo de tempo personalizado, selecione um tempo específico diretamente na barra da linha do tempo e, em seguida, clique no ícone de reprodução para ver as mudanças ao longo deste período de tempo.
 
-	![](images/en/image069.png)
+	![](images/time-series-data-01.png)
 
 	**OU**
 
 	b)	*Menu suspenso*: Selecione um ano específico que você deseja mostrar no mapa escolhendo-o nas camadas disponíveis no menu suspenso na legenda. Apenas uma camada de período de tempo único pode ser visualizada usando esta opção.
 
-	![](images/en/image071.png)
+	![](images/time-series-data-02.png)
 
 
