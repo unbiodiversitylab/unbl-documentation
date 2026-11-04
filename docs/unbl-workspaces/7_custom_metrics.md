@@ -212,11 +212,5 @@ To view your custom metrics:
 
 	![Custom metric histogram for Bhutan beside its Human Modification Index layer on the map](images/custom-metrics-20.png)
 
-
-	
-
-
-
-
-
-
+	!!! note
+		**Custom metrics are calculated only when you ask for them.** The first time a custom metric is shown for a place, its widget says *This metric has not been calculated for this place yet.* Click the **Calculate metric** button to start the calculation. While it runs, the widget shows *Calculating metric...* with a progress bar. If the calculation fails, the widget shows *Metric calculation failed*; if the request could not be sent, *Something went wrong* appears next to the button and you can try again. The standard dynamic metrics of the UNBL public platform are not affected and are calculated automatically.

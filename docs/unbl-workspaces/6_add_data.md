@@ -52,7 +52,7 @@ To begin creating a layer and fill in relevant metadata for the layer:
 	e.	*Layer description (optional)*: In the description field, you can specify the text that will appear in the layer information pop-up box. Here, you can insert the bulk of your layer metadata, such as a general description, citation for the scientific paper/dataset, external links to the scientific paper/dataset, licence specifications, etc. There is an additional 'METADATA' parameter which permits you to fill in concrete data parameters such as the resolution, data version, dataset date and publication date. The 'PREVIEW' parameter allows you to preview how the layer information pop-up box will look like on UNBL.
 	
 	!!! note
-		For individual layers that are part of a parent group layer, the layer information pop-up text will always display the description of the parent group layer and so the description field is redundant (see [‘How do I create group layers?’](#how-do-i-create-group-layers)).
+		For layers that are part of a group layer, the layer information pop-up shows the group layer's description first, followed by the layer's own description. Use the group layer's description for information that applies to all of its layers, and the layer's own description only for what is specific to that layer (see [‘How do I create group layers?’](#how-do-i-create-group-layers)).
 
 	![New layer page with title, slug, categories, search tags and description preview filled in](images/add-data-02.png)
 	
@@ -509,7 +509,7 @@ To make any of your added layers discoverable and viewable to all users of your 
   
 3.	If your dataset is published, a toggle button will appear with an option to ‘Allow external access via link’. This is an optional toggle that, if enabled, makes your layer accessible to anyone with the map view URL, even users outside your workspace. To share your layer URL, copy the link that appears or click on the ![Copy](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to copy the link automatically to your clipboard.
 
-4.	Click on the ‘Primary’ toggle button to mark your layer as a standalone layer and make it discoverable in the ‘DATASETS’ search bar on UNBL. For your workspace layers to be discoverable and viewable on UNBL, you should always publish and mark them as primary. The only exception to publishing a layer and not marking it as primary is when you are creating group layers (See [‘How do I create group layers?’](#how-do-i-create-group-layers)).
+4.	You don't need to mark layers as primary: UNBL does this automatically. A layer that is not part of a group layer is primary, so it appears as its own entry in the ‘DATASETS’ search bar on UNBL. A layer that is part of a group layer is not primary, and is found through its group layer instead (see [‘How do I create group layers?’](#how-do-i-create-group-layers)). The layer list in your admin interface shows each layer's ‘Primary’ status for information only.
 
 	![Edit layer page with the Published, Allow external access via link and Primary toggles highlighted](images/add-data-20.png)
 	
@@ -536,18 +536,18 @@ You may want to go back and edit your added layers to change any of the associat
 	
 ## How do I create group layers?
 
-Any layers that you add to your UNBL workspace can be grouped together to organize multi-year or multi-categorical data. Each year or category is akin to an individual raster band. Group layers are created in a new, separate layer (termed *parent layer* on UNBL) to the component layers (termed *child layers* on UNBL). For example, a land cover raster spanning three years would require four layers to be made: each year as its own child layer, as well as a fourth parent layer they will all be accessible from. In this case, each individual child layer must be published and **not** marked as primary to be discoverable in the map view exclusively through a group layer. The group/parent layer is an additional display layer with a fixed layer configuration which references all child layers. It is published and marked as primary. When the group layer is viewed on UNBL, a single layer legend appears from which you can select any one of your included child layers to be visualized in the map view.
+Any layers that you add to your UNBL workspace can be grouped together to organize multi-year or multi-categorical data. Each year or category is akin to an individual raster band. Group layers are created in a new, separate layer (termed *parent layer* on UNBL) to the component layers (termed *child layers* on UNBL). For example, a land cover raster spanning three years would require four layers to be made: each year as its own child layer, as well as a fourth parent layer they will all be accessible from. In this case, each child layer must be published. Because they belong to a group layer, UNBL automatically treats the child layers as not primary, so they are found in the map view through the group layer rather than as separate entries. The group/parent layer is an additional display layer with a fixed layer configuration which references all child layers. It must also be published. When the group layer is viewed on UNBL, a single layer legend appears from which you can select any one of your included child layers to be visualized in the map view.
 
 !!! note
-	If child layers which you are linking through a group layer are also marked as primary, in addition to being published, these layers will be discoverable as individual entries in the ‘DATASETS’ search bar, thereby duplicating entries with the published group layer.
+	**Child layers inherit metadata from their group layer.** In the map view, a child layer's information shows the group layer's description first, followed by the child layer's own description. All other metadata fields (sources, citation, licence, disclaimer, read more links, download links, resolution, data version, start date, end date and publication date) use the child layer's own value if it has one, and otherwise the group layer's value. So fill in shared information once, on the group layer, and add to a child layer only what is specific to it. A field left blank, including a date with every part cleared, counts as not set, and the child layer then takes the group layer's value.
 
 To set up a group layer:
 
-1.	Publish all child layers to be included in the group layer, and do **not** mark them as primary. The public URL feature works in the same way as for standalone layers (see [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users)).
+1.	Publish all child layers to be included in the group layer. The public URL feature works in the same way as for standalone layers (see [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users)).
 
 2.	Create a separate layer using the ‘CREATE NEW LAYER’ button in the ‘Layers’ page of the admin interface for your workspace. This will be your designated group layer.
 
-3.	Enter a layer title, layer slug, layer category, search tag, and a layer description which is representative of the dataset represented by your collection of child layers. Note that the layer description for child layers is redundant – you only need to fill in the layer description for the group layer which contains your child layers. For more information on filling in metadata for layers, see [‘What parameters and metadata do I fill in when creating a layer?’](#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer).
+3.	Enter a layer title, layer slug, layer category, search tag, and a layer description which is representative of the dataset represented by your collection of child layers. The group layer's description, sources, citation and other metadata are shown for all of its child layers (see the note above), so fill in here everything that applies to the whole collection. For more information on filling in metadata for layers, see [‘What parameters and metadata do I fill in when creating a layer?’](#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer).
  
 4.	*Layer type*: Select ‘group’.
 
@@ -559,7 +559,7 @@ To set up a group layer:
 	
 	![Group layer legend on the map with a dropdown layer selector](images/add-data-25.png)
 	
-7.	Click the ‘SAVE AND VIEW DETAILS BUTTON’ to add the group layer to your workspace. 
+7.	Click the ‘SAVE AND VIEW DETAILS’ button to add the group layer to your workspace. 
 
 
 

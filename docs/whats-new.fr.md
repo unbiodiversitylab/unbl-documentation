@@ -12,6 +12,10 @@ Modifications récentes de ce guide de l'utilisateur. Pour toute question, écri
 
 ## Novembre 2026
 
+- **Couches de groupe** (espaces de travail) : le paramètre « Primary » est désormais automatique, et les couches d'un groupe affichent la description du groupe et héritent de ses sources, citation et autres informations. Voir [Ajout de vos propres données géospatiales](unbl-workspaces/6_add_data.md).
+- **Dessiner sur la carte** : dessinez la limite d'un lieu directement sur la carte au lieu de téléverser un fichier. Voir [Ajout de lieux à votre espace de travail](unbl-workspaces/5_add_places.md).
+- Vue **globe 3D** dans les contrôles de la carte. Voir [Comment ajouter/supprimer les étiquettes de lieux, les routes et la vue satellite ?](unbl-public-platform/6_manage_labels_and_basemaps.md)
+- Les **métriques personnalisées** des espaces de travail sont désormais calculées lorsque vous cliquez sur **Calculate metric**. Voir [Ajouter vos propres métriques personnalisées](unbl-workspaces/7_custom_metrics.md).
 - **Tutoriels vidéo** sur la plupart des pages du [guide de la Plateforme Publique UNBL](unbl-public-platform/index.md). Ouvrez l'encadré vidéo en haut de la page.
 - **Nouvelles métriques** décrites dans [Quelles métriques dynamiques sont disponibles pour mon pays ?](unbl-public-platform/8_dynamic_metrics1.md) : Protected Connected Index, Coastal Eutrophication et une métrique marine. Les résumés des métriques peuvent désormais aussi être téléchargés au format `.tsv`.
 - [Comment découper et exporter des ensembles de données ?](unbl-public-platform/15_clip_export.md) explique désormais comment télécharger les limites d'un pays au format GeoJSON.

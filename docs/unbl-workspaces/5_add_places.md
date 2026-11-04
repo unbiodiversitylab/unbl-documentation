@@ -23,7 +23,16 @@ To add a new place:
 	
 	c.	*Slug*: Insert a unique identifier for the place that contains only lowercase letters, numbers, and hyphens. No spaces can be used. This will uniquely identify your place from all others within the UNBL system. We recommend using the ‘GENERATE A SLUG NAME’ button to help you generate an appropriate slug. 
 	
-	d.	*Place shape*: Upload a polygon (or multipolygon) file to define your place  . Supported formats are GeoJSON (.geojson, .geojsonl), Google Earth files (.kml, .kmz), or ESRI Shapefiles (.zip containing .shp, .dbf, .shx, .prj files). If using a GeoJSON, the file size must not be larger than 6MB. The system allows for uploads up to 6MB, but we strongly recommend using files no more than 2MB for optimal rendering and metrics calculations. If using Google Earth files or ESRI Shapefiles, ensure the coordinate reference system is WGS-84, also known as EPSG: 4326.   
+	d.	*Place shape*: Upload a polygon (or multipolygon) file to define your place  . Supported formats are GeoJSON (.geojson, .geojsonl), Google Earth files (.kml, .kmz), or ESRI Shapefiles (.zip containing .shp, .dbf, .shx, .prj files). If using a GeoJSON, the file size must not be larger than 6MB. The system allows for uploads up to 6MB, but we strongly recommend using files no more than 2MB for optimal rendering and metrics calculations. If using Google Earth files or ESRI Shapefiles, ensure the coordinate reference system is WGS-84, also known as EPSG: 4326.
+
+	Instead of uploading a file, you can draw the place directly on the map. Select the *Draw on Map* tab, click the edit button, then click on the map to add the corners of your polygon. You can:
+
+	- draw several polygons, or polygons with holes;
+	- move a corner by dragging it, or add a corner by clicking near an existing one;
+	- delete a polygon, and undo your recent changes;
+	- rename a shape by double-clicking its name, typing the new name and pressing Enter.
+
+	While drawing, you can use the map controls to switch to the satellite base map and to show labels, roads or the 3D globe, which makes it easier to trace coastlines, rivers and other features. You can also use the *Draw on Map* tab on a place's edit page to change the shape of an existing place.
 	
 	e.	If all the information entered is valid, the ‘SAVE AND VIEW DETAILS’ button will light up in blue. Click this button to upload your place to UNBL.
 	
