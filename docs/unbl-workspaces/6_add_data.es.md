@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 # Agregar sus propios datos geoespaciales a su espacio de trabajo
@@ -56,7 +56,7 @@ Para comenzar a crear una capa y completar los metadatos relevantes para la capa
 	e.	*Descripción (opcional)*: En el campo de descripción, puede especificar el texto que aparecerá en el cuadro emergente de información de la capa. Aquí, puede insertar la mayor parte de los metadatos de su capa, como una descripción general, cita del artículo científico/conjunto de datos, enlaces externos al artículo científico/conjunto de datos, especificaciones de licencia, etc. Existe además un parámetro 'METADATA' (METADATOS) que le permite completar parámetros concretos de los datos, como la resolución, la versión de los datos, la fecha del conjunto de datos y la fecha de publicación. El parámetro 'PREVIEW' (VISTA PREVIA) le permite previsualizar cómo se verá el cuadro emergente de información de la capa en UNBL.
 
 	!!! note
-		Para capas individuales que son parte de una capa de grupo principal, el texto emergente de información de la capa siempre mostrará la descripción de la capa de grupo principal y por lo tanto el campo de descripción es redundante (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
+		Para las capas que forman parte de una capa agrupada, el cuadro emergente de información de la capa muestra primero la descripción de la capa agrupada y, a continuación, la descripción propia de la capa. Use la descripción de la capa agrupada para la información que se aplica a todas sus capas, y la descripción propia de la capa solo para lo que es específico de esa capa (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
 
 	![Página de nueva capa con título, slug, categorías, etiquetas de búsqueda y vista previa de la descripción completados](images/add-data-02.png)
 
@@ -502,7 +502,7 @@ Para hacer cualquiera de sus capas agregadas descubrible y visible para todos lo
 
 3.	Si su conjunto de datos está publicado, aparecerá un botón de activación con una opción para 'Allow external access via link'. Esta es una alternancia opcional que, si se habilita, hace su capa accesible para cualquiera con la URL de la vista del mapa, incluso usuarios fuera de su espacio de trabajo. Para compartir la URL de su capa, copie el enlace que aparece o haga clic en el icono ![Copiar](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para copiar el enlace automáticamente a su portapapeles.
 
-4.	Haga clic en el botón de activación 'Primario' para marcar su capa como una capa independiente y hacerla descubrible en la barra de búsqueda 'DATASETS' en UNBL. Para que las capas de su espacio de trabajo sean descubribles y visibles en UNBL, siempre debe publicarlas y marcarlas como primarias. La única excepción para publicar una capa y no marcarla como primaria es cuando está creando capas agrupadas (Vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
+4.	No necesita marcar las capas como primarias: UNBL lo hace automáticamente. Una capa que no forma parte de una capa agrupada es primaria, por lo que aparece como una entrada propia en la barra de búsqueda 'DATASETS' en UNBL. Una capa que forma parte de una capa agrupada no es primaria y se encuentra a través de su capa agrupada (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)). La lista de capas de su interfaz de administración muestra el estado 'Primario' de cada capa solo a título informativo.
 
 	![Página de edición de capa con los interruptores Publicado, Allow external access via link y Primario resaltados](images/add-data-20.png)
 
@@ -529,18 +529,18 @@ Puede que desee regresar y editar sus capas agregadas para cambiar cualquiera de
 
 ## ¿Cómo creo capas agrupadas?
 
-Cualquier capa que agregue a su espacio de trabajo UNBL puede agruparse junto para organizar datos multi-año o multi-categoría. Cada año o categoría es similar a una banda ráster individual. Las capas agrupadas se crean en una nueva capa separada (denominada *capa principal* en UNBL) de las capas componentes (denominadas *capas secundarias* en UNBL). Por ejemplo, un ráster de cobertura de suelo que abarca tres años requeriría cuatro capas a crear: cada año como su propia capa secundaria, así como una cuarta capa principal desde la cual todas serán accesibles. En este caso, cada capa secundaria debe publicarse y **no** marcarse como primaria para ser descubrible en la vista del mapa exclusivamente a través de una capa agrupada. La capa agrupada/principal es una capa de visualización adicional con una configuración de capa fija que referencia todas las capas secundarias. Se publica y se marca como primaria. Cuando la capa agrupada se visualiza en UNBL, aparece una única leyenda de capa desde la cual puede seleccionar cualquiera de sus capas secundarias incluidas para visualizarse en la vista del mapa.
+Cualquier capa que agregue a su espacio de trabajo UNBL puede agruparse junto para organizar datos multi-año o multi-categoría. Cada año o categoría es similar a una banda ráster individual. Las capas agrupadas se crean en una nueva capa separada (denominada *capa principal* en UNBL) de las capas componentes (denominadas *capas secundarias* en UNBL). Por ejemplo, un ráster de cobertura de suelo que abarca tres años requeriría cuatro capas a crear: cada año como su propia capa secundaria, así como una cuarta capa principal desde la cual todas serán accesibles. En este caso, cada capa secundaria debe publicarse. Como pertenecen a una capa agrupada, UNBL trata automáticamente las capas secundarias como no primarias, de modo que en la vista del mapa se encuentran a través de la capa agrupada y no como entradas separadas. La capa agrupada/principal es una capa de visualización adicional con una configuración de capa fija que referencia todas las capas secundarias. También debe publicarse. Cuando la capa agrupada se visualiza en UNBL, aparece una única leyenda de capa desde la cual puede seleccionar cualquiera de sus capas secundarias incluidas para visualizarse en la vista del mapa.
 
 !!! note
-	Si las capas secundarias que está vinculando a través de una capa agrupada también están marcadas como primarias, además de estar publicadas, estas capas serán descubribles como entradas individuales en la barra de búsqueda 'DATASETS', duplicando así las entradas con la capa agrupada publicada.
+	**Las capas secundarias heredan los metadatos de su capa agrupada.** En la vista del mapa, la información de una capa secundaria muestra primero la descripción de la capa agrupada y, a continuación, la descripción propia de la capa secundaria. Todos los demás campos de metadatos (fuentes, cita, licencia, descargo de responsabilidad, enlaces para leer más, enlaces de descarga, resolución, versión de los datos, fecha de inicio, fecha de finalización y fecha de publicación) usan el valor propio de la capa secundaria si lo tiene y, en caso contrario, el valor de la capa agrupada. Por lo tanto, complete la información compartida una sola vez, en la capa agrupada, y agregue a cada capa secundaria solo lo que le es específico. Un campo vacío, incluida una fecha con todas sus partes borradas, se considera no definido, y la capa secundaria toma entonces el valor de la capa agrupada.
 
 Para configurar una capa agrupada:
 
-1.	Publique todas las capas secundarias a incluir en la capa agrupada, y **no** las marque como primarias. La función de URL pública funciona de la misma manera que para las capas independientes (vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos)).
+1.	Publique todas las capas secundarias a incluir en la capa agrupada. La función de URL pública funciona de la misma manera que para las capas independientes (vea ['¿Cómo publico mi capa y la comparto con usuarios externos?'](#como-publico-mi-capa-y-la-comparto-con-usuarios-externos)).
 
 2.	Cree una capa separada usando el botón 'CREAR NUEVA CAPA' en la página 'Capas' de la interfaz de administración de su espacio de trabajo. Esta será su capa agrupada designada.
 
-3.	Ingrese un título de capa, slug de capa, categoría de capa, etiqueta de búsqueda y una descripción de capa que sea representativa del conjunto de datos representado por su colección de capas secundarias. Note que la descripción de capa para las capas secundarias es redundante – solo necesita completar la descripción de capa para la capa agrupada que contiene sus capas secundarias. Para más información sobre cómo completar metadatos para capas, vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa).
+3.	Ingrese un título de capa, slug de capa, categoría de capa, etiqueta de búsqueda y una descripción de capa que sea representativa del conjunto de datos representado por su colección de capas secundarias. La descripción, las fuentes, la cita y los demás metadatos de la capa agrupada se muestran para todas sus capas secundarias (vea la nota anterior), así que complete aquí todo lo que se aplica a la colección completa. Para más información sobre cómo completar metadatos para capas, vea ['¿Qué parámetros y metadatos debo completar al crear una capa?'](#que-parametros-y-metadatos-debo-completar-al-crear-una-capa).
 
 4.	*Tipo de capa*: Seleccione 'group'.
 

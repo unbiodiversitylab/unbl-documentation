@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 
@@ -29,6 +29,15 @@ Para adicionar um novo lugar:
 	c.	*Slug*: Insira um identificador único para o lugar que contenha apenas letras minúsculas, números e hífens. Não podem ser usados espaços. Isto identificará de forma única o seu lugar de todos os outros dentro do sistema UNBL. Recomendamos usar o botão 'GENERATE A SLUG NAME' para o ajudar a gerar um slug apropriado.
 
 	d.	*Place shape*: Carregue um ficheiro de polígono (ou multipolígono) para definir o seu lugar. Os formatos suportados são GeoJSON (.geojson, .geojsonl), ficheiros Google Earth (.kml, .kmz) ou ESRI Shapefiles (.zip contendo ficheiros .shp, .dbf, .shx, .prj). Se usar um GeoJSON, o tamanho do ficheiro não deve ser maior que 6MB. O sistema permite carregamentos até 6MB, mas recomendamos fortemente usar ficheiros não maiores que 2MB para renderização ótima e cálculos de métricas. Se usar ficheiros Google Earth ou ESRI Shapefiles, assegure-se de que o sistema de referência de coordenadas é WGS-84, também conhecido como EPSG: 4326.
+
+	Em vez de carregar um ficheiro, pode desenhar o lugar diretamente no mapa. Selecione o separador *Draw on Map*, clique no botão de edição e, em seguida, clique no mapa para adicionar os vértices do seu polígono. Pode:
+
+	- desenhar vários polígonos, ou polígonos com buracos;
+	- mover um vértice arrastando-o, ou adicionar um vértice clicando perto de um já existente;
+	- eliminar um polígono e anular as suas alterações recentes;
+	- mudar o nome de uma forma clicando duas vezes no nome, escrevendo o novo nome e premindo Enter.
+
+	Durante o desenho, pode utilizar os controlos do mapa para mudar para o mapa base de satélite e para mostrar etiquetas, estradas ou o globo 3D, o que facilita traçar linhas de costa, rios e outros elementos. Também pode utilizar o separador *Draw on Map* na página de edição de um lugar para alterar a forma de um lugar existente.
 
 	e.	Se toda a informação introduzida for válida, o botão 'SAVE AND VIEW DETAILS' acenderá em azul. Clique neste botão para carregar o seu lugar para o UNBL.
 

@@ -1,5 +1,5 @@
 ---
-source_rev: 0eebbe015e6098367baf364a9a48cd1b9a0720dd
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 
@@ -10,6 +10,10 @@ Alterações recentes neste guia do utilizador. Em caso de dúvidas, escreva par
 
 ## Novembro de 2026
 
+- **Camadas de grupo** (espaços de trabalho): a opção 'Primary' passa a ser automática, e as camadas de um grupo mostram a descrição do grupo e herdam as respetivas fontes, citação e outros dados. Consulte [Adicionar os seus próprios dados geoespaciais](unbl-workspaces/6_add_data.md).
+- **Desenhar no mapa**: desenhe o limite de um local diretamente no mapa, em vez de carregar um ficheiro. Consulte [Adicionar lugares ao seu espaço de trabalho](unbl-workspaces/5_add_places.md).
+- Vista de **globo 3D** nos controlos do mapa. Consulte [Como adiciono/removo etiquetas de locais, estradas e a vista de satélite?](unbl-public-platform/6_manage_labels_and_basemaps.md)
+- As **métricas personalizadas** dos espaços de trabalho passam a ser calculadas quando clica em **Calculate metric**. Consulte [Adicionar as suas próprias métricas personalizadas](unbl-workspaces/7_custom_metrics.md).
 - **Vídeos tutoriais** na maioria das páginas do [guia da Plataforma Pública UNBL](unbl-public-platform/index.md). Abra a caixa de vídeo no topo da página.
 - **Novas métricas** descritas em [Que métricas dinâmicas estão disponíveis para o meu país?](unbl-public-platform/8_dynamic_metrics1.md): Protected Connected Index, Coastal Eutrophication e uma métrica marinha. Os resumos das métricas podem agora também ser descarregados em formato `.tsv`.
 - [Como recorto e exporto conjuntos de dados?](unbl-public-platform/15_clip_export.md) explica agora como descarregar os limites de um país em formato GeoJSON.

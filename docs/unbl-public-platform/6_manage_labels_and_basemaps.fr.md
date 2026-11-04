@@ -22,4 +22,6 @@ Plusieurs options vous permettent de personnaliser la carte de base. Elles sont 
 
 3. *Arrière-plan de la carte :* nous proposons des options en niveaux de gris et satellite pour l'arrière-plan de la carte. Cliquez sur le bouton pour activer l'arrière-plan de votre choix.
 
+4. *Globe 3D :* activez *Globe 3D*, en haut du menu « Commandes de la carte », pour afficher la carte sous forme de globe en trois dimensions au lieu d'une carte plane. Désactivez-le pour revenir à la carte plane. Votre choix est conservé dans le lien de la carte : les personnes avec qui vous partagez le lien voient donc la même vue.
+
 ![Carte de base satellite avec les options des « Commandes de la carte » mises en évidence : niveaux de gris, satellite, étiquettes et routes](images/manage-labels-and-basemaps-01.png)

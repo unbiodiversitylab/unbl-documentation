@@ -22,6 +22,15 @@ Pour ajouter un nouveau lieu :
 
 	d.	*Forme du lieu* : Téléchargez un fichier polygone (ou multipolygone) pour définir votre lieu. Les formats pris en charge sont GeoJSON (.geojson, .geojsonl), les fichiers Google Earth (.kml, .kmz) ou les fichiers de formes ESRI (.zip contenant les fichiers .shp, .dbf, .shx, .prj). Si vous utilisez un GeoJSON, la taille du fichier ne doit pas dépasser 6 Mo. Le système permet des téléchargements jusqu'à 6 Mo, mais nous recommandons fortement d'utiliser des fichiers de 2 Mo maximum pour un rendu et des calculs de métriques optimaux. Si vous utilisez des fichiers Google Earth ou des fichiers de formes ESRI, assurez-vous que le système de référence des coordonnées est WGS-84, également connu sous le nom d'EPSG : 4326.
 
+	Au lieu de télécharger un fichier, vous pouvez dessiner le lieu directement sur la carte. Sélectionnez l'onglet *Dessiner sur la carte* (*Draw on Map*), cliquez sur le bouton de modification, puis cliquez sur la carte pour ajouter les sommets de votre polygone. Vous pouvez :
+
+	- dessiner plusieurs polygones, ou des polygones comportant des trous ;
+	- déplacer un sommet en le faisant glisser, ou ajouter un sommet en cliquant près d'un sommet existant ;
+	- supprimer un polygone, et annuler vos modifications récentes ;
+	- renommer une forme en double-cliquant sur son nom, en saisissant le nouveau nom et en appuyant sur Entrée.
+
+	Pendant que vous dessinez, vous pouvez utiliser les commandes de la carte pour passer à la carte de base satellite et afficher les étiquettes, les routes ou le globe 3D, ce qui facilite le tracé des côtes, des rivières et d'autres éléments. Vous pouvez également utiliser l'onglet *Dessiner sur la carte* sur la page de modification d'un lieu pour changer la forme d'un lieu existant.
+
 	e.	Si toutes les informations saisies sont valides, le bouton « SAUVEGARDER ET VOIR LES DETAILS » s'allumera en bleu. Cliquez sur ce bouton pour télécharger votre lieu sur le UNBL.
 
 	![Formulaire « Nouveau lieu » avec Titre, Slug, Type de lieu, chargement du shape et « SAUVEGARDER ET VOIR LES DETAILS »](images/add-places-02.png)
