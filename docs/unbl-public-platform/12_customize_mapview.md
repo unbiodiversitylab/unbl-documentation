@@ -22,4 +22,4 @@ When selecting multiple datasets, you can customize the map by adjusting their o
 
 3. To temporarily hide a dataset on the map, click on the ![](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. To make it visible again, click on the ![](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon.
 
-![](images/en/image067.png)
+![](images/customize-mapview-01.png)

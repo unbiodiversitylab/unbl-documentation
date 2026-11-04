@@ -22,5 +22,5 @@ There are several options for you to customize the base map. These are available
 
 3. *Map background*: We offer grayscale and satellite options for the map background. Click the toggle to activate the background of your choice.
 
-![](images/en/image031.png)
+![](images/manage-labels-and-basemaps-01.png)
 

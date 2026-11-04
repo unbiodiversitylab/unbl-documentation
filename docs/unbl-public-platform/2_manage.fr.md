@@ -20,7 +20,7 @@ Une fois inscrit(e) sur le UN Biodiversity Lab, vous pourrez gérer votre compte
 
 1. Cliquez sur l'icône du compte avec vos initiales en haut à droite, puis cliquez sur « Profil ».
 
-	![](images/fr/image017.png)
+	![](images/manage-01.png)
 
 2. Cliquez sur le bouton MODIFIER pour modifier votre nom d'utilisateur, votre adresse e-mail, votre pays et votre institution.
 
@@ -28,10 +28,10 @@ Une fois inscrit(e) sur le UN Biodiversity Lab, vous pourrez gérer votre compte
 
 4. Pour quitter l'un des espaces de travail UNBL auxquels vous appartenez, cliquez sur MODIFIER, puis sur QUITTER L'ESPACE DE TRAVAIL. Enregistrez vos modifications.
 
-	![](images/fr/image021.png)
+	![](images/manage-02.png)
 
 5. Si ce compte n'est plus utilisé, vous pouvez cliquer sur SUPPRIMER VOTRE COMPTE en bas de cette page. Après avoir supprimé le compte, vous devrez vous réinscrire pour obtenir les privilèges d'utilisateur enregistré sur le UN Biodiversity Lab.
 
 6. Après avoir enregistré vos modifications, cliquez sur RETOUR À LA VUE CARTE.
 
-	![](images/fr/image019.png)
+	![](images/manage-03.png)

@@ -57,10 +57,10 @@ Pour consulter ces indicateurs sur le UN Biodiversity Lab :
 
 3. Cliquez sur le bouton à côté d'une mesure spécifique si vous souhaitez afficher cet ensemble de données sur la carte. Cliquez à nouveau sur le bouton ou sur l'icône « Supprimer l'ensemble de données » dans la légende pour effacer l'écran.
 
-	![](images/fr/image035.png)
+	![](images/dynamic-metrics1-01.png)
 
 4. Cliquez sur l'icône ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour afficher les informations relatives à l'ensemble de données. Les pages d'informations fournissent une brève description des données, des articles connexes à lire, des données brutes à télécharger (si elles sont disponibles gratuitement) et les spécifications de la licence.
 
 5. Pour télécharger les données récapitulatives de l'indicateur au format .csv, .tsv ou .json, cliquez sur l'icône en forme de flèche ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Vous pouvez également télécharger les données à partir des liens sources figurant sur les pages d'informations des ensembles de données.
 
-	![](images/fr/image041.png)
+	![](images/dynamic-metrics1-02.png)

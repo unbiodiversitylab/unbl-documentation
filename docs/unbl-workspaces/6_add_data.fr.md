@@ -37,7 +37,7 @@ Pour commencer à créer une couche et remplir les métadonnées pertinentes pou
 
 2.	Cliquez sur le bouton « CREER UNE NOUVELLE COUCHE ».
 
-	![](images/fr/22fr.png)
+	![](images/add-data-01.png)
 
 3.	Dans la page de nouvelle couche, remplissez les informations suivantes :
 
@@ -54,7 +54,7 @@ Pour commencer à créer une couche et remplir les métadonnées pertinentes pou
 	!!!Note
 		Pour les couches individuelles qui font partie d'une couche de groupe parent, le texte pop-up d'information de la couche affichera toujours la description de la couche de groupe parent et donc le champ de description est redondant (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)).
 
-	![](images/fr/23fr.png)
+	![](images/add-data-02.png)
 
 4.	Une fois que vous avez rempli les métadonnées pertinentes pour documenter cette nouvelle couche, vous devez maintenant spécifier le format ou la norme de service web géospatial de vos données géospatiales et configurer la couche en conséquence. Les sections suivantes détaillent comment configurer votre couche en fonction du format de vos données géospatiales.
 
@@ -93,7 +93,7 @@ Pour télécharger un fichier GeoTIFF :
 
 	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré.
 
-	![](images/fr/24fr.png)
+	![](images/add-data-03.png)
 
 3.	Une fois que toutes les métadonnées et tous les paramètres ont été spécifiés, le bouton « SAUVEGARDER ET VOIR LES DETAILS » s'allumera en bleu, à condition que toutes les informations saisies soient valides. Cliquez sur ce bouton pour télécharger votre fichier GeoTIFF dans votre espace de travail. Le fichier sera stocké dans un dépôt privé sûr et dédié sur Azure. Cela peut prendre quelques secondes selon la taille du fichier et la vitesse de votre connexion internet haut débit, donc après avoir cliqué sur le bouton, vous devez attendre d'être redirigé vers la page de modification de la couche. Voir [« Comment publier ma couche et la partager avec des utilisateurs externes ? »](#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes) et [« Comment modifier mes couches ajoutées ? »](#comment-modifier-mes-couches-ajoutees) pour les étapes suivantes.
 
@@ -139,7 +139,7 @@ Le UNBL prend en charge la configuration de couches d'images raster dans votre e
 
 	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les images raster catégorielles, les entrées de style de légende de couche doivent représenter les valeurs de chaque catégorie/classe dans la source de données raster. Pour les images raster continues, les entrées de style de légende doivent représenter la plage de valeurs visualisées dans l'image raster. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale - un dégradé de couleurs entre chacune de ces valeurs sera généré.
 
-	![](images/fr/25fr.png)
+	![](images/add-data-04.png)
 
 3. Une fois que toutes les métadonnées et propriétés de configuration ont été spécifiées, le bouton « SAUVEGARDER ET VOIR LES DETAILS » s'allumera en bleu, à condition que toutes les informations saisies soient valides. Cliquez sur ce bouton pour configurer votre image raster dans votre espace de travail. Voir [« Comment publier ma couche et la partager avec des utilisateurs externes ? »](#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes) et [« Comment modifier mes couches ajoutées ? »](#comment-modifier-mes-couches-ajoutees) pour les étapes suivantes.
 
@@ -149,9 +149,9 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 1. Si vous configurez une ressource depuis votre projet Cloud personnel, assurez-vous que la case « Tout le monde peut lire » est cochée pour cette ressource.
 
-	![](images/fr/26fr.png)
+	![](images/add-data-05.png)
 
-	![](images/fr/27fr.png)
+	![](images/add-data-06.png)
 
 2. Naviguez vers la page de nouvelle couche dans l'interface d'administration UNBL et remplissez les métadonnées pertinentes (voir [« Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ? »](#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche)).
 
@@ -163,13 +163,13 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	c.	*Chemin de la ressource* : Copiez et collez l'ID d'image de votre ressource GEE. N'importe quel ID d'image peut être configuré sur le UNBL, à condition qu'il s'agisse d'une image raster à bande unique. Il peut s'agir d'un ID d'image de votre projet Cloud GEE personnel, ou de tout autre projet Cloud GEE partagé ou jeu de données GEE disponible publiquement, comme celui du catalogue public [awesome-gee-community-catalog](https://gee-community-catalog.org/), qui donne accès à plus de 4 000 ressources GEE publiques.
 
-	![](images/fr/28fr.png)
+	![](images/add-data-07.png)
 
 	d.	*Type de données* : Spécifiez si l'image raster contient des données « catégorielles » ou « continues ». Les données catégorielles représentent des classes ou catégories discrètes où chaque valeur de pixel représente un type ou une classe distincte. Les jeux de données continus représentent des données où les valeurs peuvent se situer n'importe où dans une plage de valeurs spécifiée.
 
 	e.	*Niveau de zoom Minimum/Maximum (optionnel)* : La plage de niveau de zoom par défaut est définie de 0 à 14. Vous pouvez optionnellement spécifier les niveaux de zoom pour la couche si l'image raster ne contient des données qu'à certains niveaux de zoom. Notez qu'UNBL prend en charge un niveau de zoom maximum de 14.
 
-	![](images/fr/29fr.png)
+	![](images/add-data-08.png)
 
 	f.	*Style de la couche* : Le style de couche détermine comment la légende de la ressource GEE est affichée sur la carte. En cliquant sur « AJOUTER UN STYLE », vous pouvez spécifier n'importe quel nombre d'entrées de style de couche (également appelées *classes* ou *seuils*) pour correspondre aux valeurs de l'image raster. Chaque entrée de style de couche doit définir les propriétés suivantes :
 
@@ -181,13 +181,13 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré. Il est important de noter que les valeurs de pixels minimale et maximale, et donc la plage de valeurs, peuvent être dérivées directement en visualisant l'onglet « BANDES » dans la boîte d'information « Asset details » de votre ressource sur GEE. L'exemple de style de couche ci-dessous crée une palette de couleurs continue pour la concentration de stock de carbone.
 
-	![](images/fr/30fr.png)
+	![](images/add-data-09.png)
 
-	![](images/fr/31fr.png)
+	![](images/add-data-10.png)
 
 	Pour les couches raster catégorielles, chaque valeur de pixel spécifiée correspond exactement à une classe ou catégorie discrète. L'exemple de style de couche ci-dessous crée une palette de couleurs discrète qui représente les classes d'occupation du sol.
 
-	![](images/fr/32fr.png)
+	![](images/add-data-11.png)
 
 	g.	*Description de couche stylisée (SLD)* : Cliquez sur le bouton « GENERER GEE SLD » pour générer automatiquement un SLD pour configurer le style de votre ressource GEE sur le UNBL, basé sur les paramètres que vous avez définis pour la *couche stylisée* à l'étape f. Alors que le style de couche détermine le style de la légende de la couche, le SLD déterminera le style des pixels réels dans vos données. Basé sur les exemples fournis à l'étape f, la configuration SLD pour un schéma de couleurs continu pour la concentration de stock de carbone ressemblerait à ceci :
 
@@ -228,7 +228,7 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	Où chaque couleur ColorMapEntry et quantité de pixel associée correspond exactement à une ligne d'entrée de style de couche de l'étape f.
 
-	![](images/fr/33fr.png)
+	![](images/add-data-12.png)
 
 4. Une fois que toutes les métadonnées et propriétés de configuration ont été spécifiées, le bouton « SAUVEGARDER ET VOIR LES DETAILS » s'allumera en bleu, à condition que toutes les informations saisies soient valides. Cliquez sur ce bouton pour configurer votre image raster dans votre espace de travail. Voir [« Comment publier ma couche et la partager avec des utilisateurs externes ? »](#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes) et [« Comment modifier mes couches ajoutées ? »](#comment-modifier-mes-couches-ajoutees) pour les étapes suivantes.
 
@@ -257,7 +257,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	d.	*Type de données* : Spécifiez si les tuiles vectorielles contiennent des données « catégorielles » ou « continues ». Les données catégorielles représentent des classes ou catégories discrètes. Les jeux de données continus représentent des données où les valeurs peuvent se situer n'importe où dans une plage de valeurs spécifiée. Bien que les tuiles vectorielles puissent stocker plusieurs attributs de données, vous ne pouvez choisir qu'un seul attribut de données pour le style de légende de couche sur le UNBL. Vous devez spécifier le type de données basé sur la légende provisoire de couche de votre couche ajoutée sur le UNBL.
 
-	![](images/fr/34.png)
+	![](images/add-data-13.png)
 
 3.	La section « Couches de rendu » spécifie les attributs de données de la source de données vectorielles qui doivent être affichés sur la carte. Dans cette section :
 
@@ -443,7 +443,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	où `!=` spécifie une expression d'exclusion conditionnelle.
 
-	![](images/fr/35fr.png)
+	![](images/add-data-14.png)
 
 	e.	*AJOUTER UNE CONFIGURATION DE COUCHE (optionnel)* : Dans certains cas, vous pouvez souhaiter configurer le style pour plus d'un attribut de données dans votre jeu de données vectoriel. En cliquant sur ce bouton, vous pouvez spécifier d'autres expressions de style. Notez que tous les attributs de données, catégories de données ou plages de valeurs qui se chevauchent entre les expressions de style ou sont contenus dans les mêmes polygones dans vos données et ne sont pas filtrés en conséquence, conduiront à une visualisation de couche confuse.
 
@@ -464,9 +464,9 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	g.	Cliquez sur l'icône ![](images/icons/delete.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour supprimer une entrée Interaction config.
 
-	![](images/fr/36fr.png)
+	![](images/add-data-15.png)
 
-	![](images/fr/37fr.png)
+	![](images/add-data-16.png)
 
 5.	Spécifiez les niveaux de zoom pour vos tuiles vectorielles. La plage de niveau de zoom par défaut est définie de 0 à 20. Vous pouvez optionnellement spécifier les niveaux de zoom pour la couche si les tuiles vectorielles ne sont visibles qu'à une résolution plus petite/plus grande. Notez qu'UNBL prend en charge un niveau de zoom maximum de 20 pour les tuiles vectorielles.
 
@@ -480,9 +480,9 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les données catégorielles, les entrées de style de légende de couche doivent représenter les catégories discrètes et leur style de couleur associé que vous avez spécifié dans la section « couches de rendu ». Pour les données continues, les entrées de style de légende doivent représenter la plage de valeurs et leur dégradé de couleurs associé que vous avez spécifié dans la section « Couches de rendu ».
 
-	![](images/fr/38fr.png)
+	![](images/add-data-17.png)
 
-	![](images/fr/39fr.png)
+	![](images/add-data-18.png)
 
 7.	Une fois que toutes les métadonnées et propriétés de configuration ont été spécifiées, le bouton « SAUVEGARDER ET VOIR LES DETAILS » s'allumera en bleu, à condition que toutes les informations saisies soient valides. Cliquez sur ce bouton pour configurer votre couche de tuiles vectorielles dans votre espace de travail. Voir [« Comment publier ma couche et la partager avec des utilisateurs externes ? »](#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes) et [« Comment modifier mes couches ajoutées ? »](#comment-modifier-mes-couches-ajoutees) pour les étapes suivantes.
 
@@ -492,7 +492,7 @@ Pour rendre l'une de vos couches ajoutées découvrable et visible pour tous les
 
 1.	Naviguez vers la page de modification de couche pour la couche de votre choix. Lors de l'ajout d'une couche à votre espace de travail, vous serez automatiquement amené à cette page. Alternativement, cliquez sur le bouton ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la liste des couches disponible après avoir navigué vers la page « Layers » dans votre interface d'administration.
 
-	![](images/fr/40fr.png)
+	![](images/add-data-19.png)
 
 2.	Pour que votre jeu de données soit accessible dans la vue cartographique du UNBL, vous devez publier le jeu de données en cliquant sur le bouton bascule « Publié ». Les jeux de données non publiés restent dans l'interface d'administration jusqu'à ce que vous soyez prêt à les publier dans la vue cartographique du UNBL.
 
@@ -500,7 +500,7 @@ Pour rendre l'une de vos couches ajoutées découvrable et visible pour tous les
 
 4.	Cliquez sur le bouton bascule « Primaire » pour marquer votre couche comme couche autonome et la rendre découvrable dans la barre de recherche « JEUX DE DONNEES » sur le UNBL. Pour que vos couches d'espace de travail soient découvrables et visibles sur le UNBL, vous devez toujours les publier et les marquer comme primaires. La seule exception pour publier une couche et ne pas la marquer comme primaire est lorsque vous créez des couches groupées (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)).
 
-	![](images/fr/41fr.png)
+	![](images/add-data-20.png)
 
 ## Comment modifier mes couches ajoutées ?
 
@@ -508,20 +508,20 @@ Vous pouvez vouloir revenir et modifier vos couches ajoutées pour changer l'une
 
 1.	Naviguez vers la page de modification de couche pour la couche de votre choix. Lors de l'ajout d'une couche à votre espace de travail, vous serez automatiquement amené à cette page. Alternativement, cliquez sur le bouton ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la liste des couches disponible après avoir navigué vers la page « Layers » dans votre interface d'administration.
 
-	![](images/fr/42.png)
+	![](images/add-data-21.png)
 
 2.	Pour tester si votre couche se visualise correctement dans la vue cartographique UNBL, cliquez sur le bouton « COUCHE TEST » dans le coin inférieur droit de la page de modification de couche. Une coche verte apparaîtra à l'intérieur du bouton si la couche a été correctement téléchargée et/ou configurée. Sinon, une croix rouge apparaîtra avec un message d'erreur diagnostiquant le problème.
 
 	!!!Note
 		Si vous téléchargez un jeu de données régional (étendue non globale), il est possible que le test puisse signaler un échec même si la couche fonctionne, car le test peut demander des tuiles d'échantillon qui tombent en dehors de l'étendue spatiale de votre jeu de données. La meilleure pratique est de double-vérifier le diagnostic du test de couche en vérifiant manuellement si votre couche se visualise dans la vue cartographique du UNBL.
 
-	![](images/fr/43.png)
+	![](images/add-data-22.png)
 
 3.	Si vous voulez naviguer directement vers votre couche dans la vue cartographique du UNBL, cliquez sur le bouton « VOIR SUR LA CARTE ». Si vous voulez supprimer votre couche de votre espace de travail, cliquez sur le bouton « SUPPRIMER LA COUCHE ».
 
 4.	Cliquez sur le bouton « EDITER » pour l'une des sections de métadonnées/configuration de couche pour modifier les informations et paramètres de cette section.
 
-	![](images/fr/44.png)
+	![](images/add-data-23.png)
 
 ## Comment créer des couches groupées ?
 
@@ -544,8 +544,8 @@ Pour configurer une couche groupée :
 
 6.	*Sélecteur de couches* : Dans le menu déroulant, sélectionnez soit « Dropdown » soit « radio button ». Ces options influencent la façon dont l'interface utilisateur du sélecteur de couche apparaît dans la légende de la couche groupée sur le UNBL. L'option dropdown est recommandée pour les couches groupées avec plus de trois couches composantes. L'option radio button est recommandée pour les couches groupées avec trois couches composantes ou moins, ou lorsque les couches groupées représentent les mêmes données avec un style différent.
 
-	![](images/fr/45.png)
+	![](images/add-data-24.png)
 
-	![](images/fr/46.png)
+	![](images/add-data-25.png)
 
 7.	Cliquez sur le bouton « SAUVEGARDER ET VOIR LES DETAILS » pour ajouter la couche groupée à votre espace de travail.

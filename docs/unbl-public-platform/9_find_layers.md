@@ -31,17 +31,17 @@ Data on UN Biodiversity Lab include the best available global datasets related t
     
     b) Click to expand the filters to view and select the dataset categories of your interest. You then can select the desired dataset from the search result list.
 
-	![](images/en/image043.png)
+	![](images/find-layers-01.png)
 	
 	**OR**
 	
 	c) Click to expand the dataset tags and select your tag of interest. You then can select the desired dataset from the list.
 	
-	![](images/en/image045.png)
-	![](images/en/image047.png)
+	![](images/find-layers-02.png)
+	![](images/find-layers-03.png)
 
 4.	Click the toggle button to the right of the dataset name to load this dataset to the map. 
 
 5.	Click the toggle button again or click the **X** icon in the dataset legend to remove this dataset.
 
-	![](images/en/image049.png)
+	![](images/find-layers-04.png)

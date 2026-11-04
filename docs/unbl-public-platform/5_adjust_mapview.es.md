@@ -24,4 +24,4 @@ Hay varias funciones que pueden ayudarle a navegar por la pantalla del mapa. Ent
 
 4. *Ocultar la barra de menú de la izquierda:* haga clic en la flecha situada en la parte superior del menú de la izquierda para ocultar el panel del conjunto de datos y obtener una vista más amplia del mapa. Vuelva a hacer clic para expandir el panel.
 
-![](images/es/SP 15.png)
+![](images/adjust-mapview-01.png)

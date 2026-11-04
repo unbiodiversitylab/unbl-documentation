@@ -26,6 +26,6 @@
     Определения технической терминологии, упомянутой в руководстве, можно найти в [Приложении 1](12_annex1.md).
 
 <figure markdown>
-![](images/ru/01ru - figure 1.png)
+![](images/tool-purpose-01.png)
 <figcaption>Рисунок 1. Интерфейс UNBL, отображающий конфигурацию инструмента ELSA на UNBL</figcaption>
 </figure>

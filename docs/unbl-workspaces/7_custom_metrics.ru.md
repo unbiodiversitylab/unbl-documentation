@@ -44,7 +44,7 @@
 
 2.	Нажмите появившуюся кнопку «CREATE NEW METRIC».
 
-	![](images/en/image1-metrics.png)
+	![](images/custom-metrics-01.png)
 
 3.	На странице новой метрики заполните следующую информацию:
 
@@ -60,7 +60,7 @@
 
 	f)	После указания всех параметров кнопка «SAVE AND VIEW DETAILS» выделится синим цветом при условии, что все введённые данные корректны. Нажмите эту кнопку, чтобы настроить метрику в рабочем пространстве.
 
-	![](images/en/image2-metrics.png)
+	![](images/custom-metrics-02.png)
 
 4. На появившейся странице редактирования метрики включите переключатель «Published», чтобы опубликовать метрику.
 
@@ -72,7 +72,7 @@
 
 2.	Нажмите появившуюся кнопку «CREATE NEW WIDGET».
 
-	![](images/en/image3-metrics.png)
+	![](images/custom-metrics-03.png)
 
 3. На странице нового виджета заполните следующую информацию:
 
@@ -100,13 +100,13 @@
     <tbody>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Один слой</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Гистограмма<br>![](images/en/image4-metrics.png){ width="350" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Круговая диаграмма<br>![](images/en/image5-metrics.png){ width="250" style="display:inline-block"}<br>Столбчатая диаграмма<br>![](images/en/image6-metrics.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Гистограмма<br>![](images/custom-metrics-04.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Круговая диаграмма<br>![](images/custom-metrics-05.png){ width="250" style="display:inline-block"}<br>Столбчатая диаграмма<br>![](images/custom-metrics-06.png){ width="250" style="display:inline-block"}</td>
       </tr>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Временной ряд</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Линейный график<br>![](images/en/image7-metrics.png){ width="250" style="display:inline-block"}<br>Диаграмма с областями<br>![](images/en/image8-metrics.png){ width="250" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Диаграмма с областями<br>![](images/en/image9-metrics.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Линейный график<br>![](images/custom-metrics-07.png){ width="250" style="display:inline-block"}<br>Диаграмма с областями<br>![](images/custom-metrics-08.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Диаграмма с областями<br>![](images/custom-metrics-09.png){ width="350" style="display:inline-block"}</td>
       </tr>
     </tbody>
 	</table>
@@ -122,11 +122,11 @@
 
 	f)i)	*Widget summary (optional)*: Создаёт сводку ключевых статистических показателей метрики, которая будет отображаться виджетом. Список доступных полей сводки предоставляет параметры, которые можно использовать в тексте сводки. Пример сводки виджета для метрики временного ряда с тремя слоями, показывающими Индекс антропогенной трансформации за три периода, показан ниже.
 
-	![](images/en/image10-metrics.png)
+	![](images/custom-metrics-10.png)
 
 	Когда эта метрика и связанный с ней виджет активны на UNBL, поля сводки в тексте автоматически заполняются необходимыми параметрами, как показано ниже.
 
-	![](images/en/image11-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-11.png){style="width:550px !important" }
 
 	В качестве альтернативы, сводка виджета для метрики с одним слоем Индекса антропогенной трансформации будет использовать следующие поля:
 
@@ -138,7 +138,7 @@
 
 		"In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022."
 
-	![](images/en/image12-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-12.png){style="width:550px !important" }
 
 	f)ii) Для метрик, созданных с использованием категориального слоя, доступна дополнительная опция переключателя *Use layer categories*.
 
@@ -150,7 +150,7 @@
 
 	- *Values*: Уникальное(ые) число(а) в исходном слое данных, обозначающее(ие) настроенную категорию. Пользователь может указать несколько чисел для одной категории.
 
-	![](images/en/image12_5-metrics.png)
+	![](images/custom-metrics-13.png)
 
 	g)	*X-Axis Label (optional)*: Для типов метрик с гистограммой, линейным графиком или диаграммой с областями можно указать подпись оси X. Подпись должна соответствовать отображаемой переменной данных. Поле необязательное.
 
@@ -158,7 +158,7 @@
 
 	i)	После указания всех параметров кнопка «SAVE AND VIEW DETAILS» выделится синим цветом при условии, что все введённые данные корректны. Нажмите эту кнопку, чтобы создать виджет.
 
-	![](images/en/image13-metrics.png)
+	![](images/custom-metrics-14.png)
 
 4. На появившейся странице редактирования виджета включите переключатель «Published», чтобы опубликовать виджет.
 
@@ -170,7 +170,7 @@
 
 2.	Нажмите появившуюся кнопку «CREATE NEW DASHBOARD».
 
-	![](images/en/image14-metrics.png)
+	![](images/custom-metrics-15.png)
 
 3. На странице нового дашборда заполните следующую информацию:
 
@@ -184,7 +184,7 @@
 
 	e)	После указания всех параметров кнопка «SAVE AND VIEW DETAILS» выделится синим цветом при условии, что все введённые данные корректны. Нажмите эту кнопку, чтобы создать дашборд.
 
-	![](images/en/image15-metrics.png)
+	![](images/custom-metrics-16.png)
 
 4. На появившейся странице редактирования дашборда включите переключатель «Published», чтобы опубликовать дашборд.
 
@@ -197,19 +197,19 @@
 
 1. В представлении карты UNBL убедитесь, что ваше рабочее пространство включено.
 
-	![](images/en/image16-metrics.png){style="width:600px !important" }
+	![](images/custom-metrics-17.png){style="width:600px !important" }
 
 2. Выберите место для просмотра пользовательских метрик на вкладке «PLACES».
 
-	![](images/en/image17-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-18.png){style="width:400px !important" }
 
 3. Если наряду с вашим рабочим пространством активированы публичная платформа UNBL и/или другие рабочие пространства, возможно, потребуется выбрать дашборд с вашими пользовательскими метриками. В этом случае появится выпадающее меню со списком дашбордов и связанных рабочих пространств. Выберите свой дашборд из выпадающего меню.
 
 	!!!note
 		Если пользовательские метрики в вашем дашборде не перекрываются с активированным местом, ваш дашборд не появится в выпадающем меню.
 
-	![](images/en/image18-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-19.png){style="width:400px !important" }
 
 4. Теперь вы можете просматривать пользовательские метрики, настроенные для выбранного слоя GeoTIFF и места. Все функциональные возможности динамических метрик UNBL по умолчанию доступны и для пользовательских метрик, включая переключение связанного слоя, просмотр информации и загрузку данных метрики в форматах .csv, .tsv и .json.
 
-	![](images/en/image19-metrics.png)
+	![](images/custom-metrics-20.png)

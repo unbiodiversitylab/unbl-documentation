@@ -6,6 +6,6 @@ Une fois que vous avez sélectionné un outil ELSA spécifique dans le menu dér
     Les utilisateurs ne peuvent pas créer ni modifier les configurations des outils ELSA. Ils peuvent uniquement créer ou modifier des analyses dans le cadre d'une configuration d'outil ELSA. Pour demander une configuration d'outil ELSA pour un pays spécifique, veuillez contacter <support@unbiodiversitylab.org>.
 
 <figure markdown>
-![](images/fr/05fr - figure 5.png){#fig-create-new-analysis}
+![](images/creating-analysis-01.png){#fig-create-new-analysis}
 <figcaption>Figure 5. Création d'une nouvelle analyse</figcaption>
 </figure>

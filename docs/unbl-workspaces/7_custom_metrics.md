@@ -42,7 +42,7 @@ Creating a metric involves choosing which GeoTIFF layers in the workspace should
 
 2.	Click on the ‘CREATE NEW METRIC’ button that appears.
 
-	![](images/en/image1-metrics.png)
+	![](images/custom-metrics-01.png)
 	
 3.	In the new metric page, fill in the following information:
 
@@ -58,7 +58,7 @@ Creating a metric involves choosing which GeoTIFF layers in the workspace should
 	
 	f)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure the metric to your workspace.
 	
-	![](images/en/image2-metrics.png)
+	![](images/custom-metrics-02.png)
 
 4. In the edit metric page that appears, toggle the 'Published' button on to publish the metric.
 	
@@ -70,7 +70,7 @@ Once the custom metric has been configured, it is necessary to create a widget f
 
 2.	Click on the ‘CREATE NEW WIDGET’ button that appears.
 
-	![](images/en/image3-metrics.png)
+	![](images/custom-metrics-03.png)
 	
 3. In the new widget page, fill in the following information:
 
@@ -98,13 +98,13 @@ Once the custom metric has been configured, it is necessary to create a widget f
     <tbody>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Single layer</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Histogram<br>![](images/en/image4-metrics.png){ width="350" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Pie chart<br>![](images/en/image5-metrics.png){ width="250" style="display:inline-block"}<br>Bar chart<br>![](images/en/image6-metrics.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Histogram<br>![](images/custom-metrics-04.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Pie chart<br>![](images/custom-metrics-05.png){ width="250" style="display:inline-block"}<br>Bar chart<br>![](images/custom-metrics-06.png){ width="250" style="display:inline-block"}</td>
       </tr>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Time series</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Line graph<br>![](images/en/image7-metrics.png){ width="250" style="display:inline-block"}<br>Area chart<br>![](images/en/image8-metrics.png){ width="250" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Area chart<br>![](images/en/image9-metrics.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Line graph<br>![](images/custom-metrics-07.png){ width="250" style="display:inline-block"}<br>Area chart<br>![](images/custom-metrics-08.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Area chart<br>![](images/custom-metrics-09.png){ width="350" style="display:inline-block"}</td>
       </tr>
     </tbody>
 	</table>
@@ -120,11 +120,11 @@ Once the custom metric has been configured, it is necessary to create a widget f
 
 	f)i)	*Widget summary (optional)*: This creates a summary of key metric statistics that will be displayed by the widget. The list of available summary fields provides parameters that can be used within the summary text. An example of a widget summary for a time series metric using three layers showing the Human Modification Index over three time periods is shown below.
 	
-	![](images/en/image10-metrics.png)
+	![](images/custom-metrics-10.png)
 	
 	When this metric and its associated widget are active on UNBL, the summary fields in the text are automatically populated with the necessary parameters, as seen below.
 	
-	![](images/en/image11-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-11.png){style="width:550px !important" }
 
 	Alternatively, the widget summary for a single Human Modification Index layer metric would employ the following summary fields:
 
@@ -136,7 +136,7 @@ Once the custom metric has been configured, it is necessary to create a widget f
 	
 		“In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022.”
 		
-	![](images/en/image12-metrics.png){style="width:550px !important" }
+	![](images/custom-metrics-12.png){style="width:550px !important" }
 	
 	f)ii) For metrics created using a categorical layer, an additional toggle option is available called *Use layer categories*. 
 	
@@ -148,7 +148,7 @@ Once the custom metric has been configured, it is necessary to create a widget f
 	
 	- *Values*: Unique number(s) in the underlying data layer that denote the configured category. The user can specify more than one number to fall under the same category.
 
-	![](images/en/image12_5-metrics.png)
+	![](images/custom-metrics-13.png)
 	
 	g)	*X-Axis Label (optional)*: For metric types with histogram, line graph, or area graph charts, it is possible to specify a label for the x-axis. The label should be of the data variable being shown. This field is optional, so it does not need to be filled in.
 	
@@ -156,7 +156,7 @@ Once the custom metric has been configured, it is necessary to create a widget f
 	
 	i)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to create the widget.
 	
-	![](images/en/image13-metrics.png)
+	![](images/custom-metrics-14.png)
 	
 4. In the edit widget page that appears, toggle the 'Published' button on to publish the widget.
 
@@ -168,7 +168,7 @@ A dashboard acts as the user interface which displays the metric and associated 
 
 2.	Click on the ‘CREATE NEW DASHBOARD’ button that appears.
 
-	![](images/en/image14-metrics.png)
+	![](images/custom-metrics-15.png)
 	
 3. In the new dashboard page, fill in the following information:
 
@@ -182,7 +182,7 @@ A dashboard acts as the user interface which displays the metric and associated 
 	
 	e)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to create the dashboard.
 	
-	![](images/en/image15-metrics.png)
+	![](images/custom-metrics-16.png)
 	
 4. In the edit dashboard page that appears, toggle the 'Published' button on to publish the dashboard.
 
@@ -195,22 +195,22 @@ To view your custom metrics:
 
 1. In the UNBL map view, make sure your workspace is toggled on.
 
-	![](images/en/image16-metrics.png){style="width:600px !important" }
+	![](images/custom-metrics-17.png){style="width:600px !important" }
 	
 2. Select the place you want to view custom metrics for from the 'PLACES' tab. 
 
-	![](images/en/image17-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-18.png){style="width:400px !important" }
 	
 3. If you have the UNBL public platform workspace and/or other workspaces active alongside your own workspace, you may have to select the dashboard which contains your custom metrics to view them. In this case, a drop-down menu will appear with a list of dashboards and the associated workspaces of each dashboard. Select your dashboard from the drop-down menu.
 
 	!!!note
 		If the custom metrics in your dashboard do not overlap with the activated place, your dashboard will not appear in the drop-down menu.
 
-	![](images/en/image18-metrics.png){style="width:400px !important" }
+	![](images/custom-metrics-19.png){style="width:400px !important" }
 	
 4. You can now view the custom metrics you set up for your chosen GeoTIFF layer and place. All functionalities of UNBL's default dynamic metrics are available for your custom metrics, including toggling the associated layer, viewing information, and downloading metric data in .csv, .tsv, and .json format.
 
-	![](images/en/image19-metrics.png)
+	![](images/custom-metrics-20.png)
 
 
 	

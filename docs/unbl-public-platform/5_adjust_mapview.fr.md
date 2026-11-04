@@ -24,4 +24,4 @@ Plusieurs fonctionnalités peuvent vous aider à naviguer sur l'écran de la car
 
 4. *Masquer la barre de menu de gauche :* cliquez sur la flèche en haut du menu de gauche pour réduire le panneau de données et agrandir la carte. Cliquez à nouveau pour agrandir le panneau.
 
-![](images/fr/image029.png)
+![](images/adjust-mapview-01.png)

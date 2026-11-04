@@ -22,4 +22,4 @@ Plusieurs options vous permettent de personnaliser la carte de base. Elles sont 
 
 3. *Arrière-plan de la carte :* nous proposons des options en niveaux de gris et satellite pour l'arrière-plan de la carte. Cliquez sur le bouton pour activer l'arrière-plan de votre choix.
 
-![](images/fr/image031.png)
+![](images/manage-labels-and-basemaps-01.png)

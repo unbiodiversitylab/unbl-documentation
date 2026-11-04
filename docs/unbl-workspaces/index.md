@@ -1,6 +1,6 @@
 # UN Biodiversity Lab (UNBL) Secure Workspaces User Guide
 
-![](images/en/image1.png)
+![](images/index-01.png)
 
 This guide explains how to take advantage of all available features in your secure workspace on the UN Biodiversity Lab (UNBL) platform. If you have any further questions, please contact us at <support@unbiodiversitylab.org>.
 

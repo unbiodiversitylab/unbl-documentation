@@ -22,4 +22,4 @@ Ao selecionar múltiplos conjuntos de dados, você pode personalizar o mapa ajus
 
 3. Para ocultar temporariamente um conjunto de dados no mapa, clique no ícone ![](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Para torná-lo visível novamente, clique no ícone ![](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}.
 
-![](images/en/image067.png)
+![](images/customize-mapview-01.png)

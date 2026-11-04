@@ -15,7 +15,7 @@ If you are a registered user who has been granted access to one or multiple UNBL
 
 4.	Untoggle workspaces that you don’t want to view. You can also untoggle the *UNBL* workspace at the top of the list, which will allow you to only see assets exclusive to your UNBL secure workspace(s) and filter out all assets on the UNBL public platform. Please note that untoggling the *UNBL* workspace will remove access to all public global layers and standard dynamic metrics for all areas, including areas in your secure workspace. 
 
-![](images/en/image2.png)
+![](images/viewing-01.png)
 
 ## How do I view places within my UNBL workspace?
 
@@ -35,7 +35,7 @@ To search for a place, you can either:
 !!!Note
 	Places are filtered by *Country* type by default upon opening the UNBL map view.  If your place is of a different category, such as a *Protected Area* or *Cross-Boundary Area* and not *Country* type, then you need to click on the ‘CLEAR’ button to clear all filters, or expand the ‘FILTERS’ dropdown menu and uncheck the country box and select your filter of interest to find your place.
 	
-![](images/en/image3.png)
+![](images/viewing-02.png)
 
 ## How do I download a dataset for my area of interest?
 
@@ -47,7 +47,7 @@ To clip a dataset to your area of interest and download:
 
 2.	Click on the ![](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to the right of the place’s name and click on ‘Clip and Export Layers’. 
 
-	![](images/en/image4.png)
+	![](images/viewing-03.png)
 	
 3.	Type the name or select the dataset you want to download. If the data contains layers covering multiple years/categories, select the year/category you want to download. You have the option of downloading clipped layers in a GeoTIFF raster format or a PNG image file format.
 
@@ -59,7 +59,7 @@ To clip a dataset to your area of interest and download:
 	
 	c.	*Note*: in case of downloading GeoTIFFs, this is raw data and will not include styling information. 
 	
-	![](images/en/image5.png)
+	![](images/viewing-04.png)
 	
 5.	The downloaded GeoTIFF data can be opened in any GIS software for further analysis.
 
@@ -93,7 +93,7 @@ To search for available datasets:
 !!!Note
 	If you have the *UNBL* workspace and your own workspace activated, your search will have to be specific to find datasets that you uploaded to your own workspace that are not part of the public platform. The easiest way to do this is to create a recognizable tag for your added layer – see step 2d in [‘What parameters and metadata do I fill in when creating a layer?’](6_add_data.md#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer)
 	
-![](images/en/image6.png)
+![](images/viewing-05.png)
 
 
 

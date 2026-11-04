@@ -22,5 +22,5 @@
 
 4.	 Если у вас возникли проблемы с доступом к данным, обратитесь за дополнительной поддержкой по адресу <support@unbiodiversitylab.org>. 
 
-![](images/ru/image076.png)
+![](images/download-global-data-01.png)
 

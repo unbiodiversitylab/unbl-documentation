@@ -24,4 +24,4 @@ Existem vários recursos que podem ajudá-lo a navegar pela tela do mapa. Estes 
 
 4. *Ocultar barra de menu esquerda:* Clique na seta no topo do menu esquerdo para recolher o painel de conjuntos de dados para uma visualização maior do mapa. Clique novamente para expandir o painel.
 
-![](images/en/image029.png)
+![](images/adjust-mapview-01.png)

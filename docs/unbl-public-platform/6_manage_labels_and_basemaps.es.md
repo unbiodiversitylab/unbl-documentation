@@ -22,4 +22,4 @@ Hay varias opciones para personalizar el mapa base. Están disponibles en el ico
 
 3. *Fondo del mapa:* Ofrecemos opciones en escala de grises y vista satelital para el fondo del mapa. Haga clic en el botón para activar el fondo que desee.
 
-![](images/es/SP 16.png)
+![](images/manage-labels-and-basemaps-01.png)

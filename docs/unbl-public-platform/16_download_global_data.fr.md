@@ -22,4 +22,4 @@
 
 4. Si vous rencontrez des difficultés pour accéder aux données, veuillez contacter support@unbiodiversitylab.org pour obtenir de l'aide.
 
-![](images/fr/image076.png)
+![](images/download-global-data-01.png)
