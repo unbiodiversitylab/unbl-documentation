@@ -1,4 +1,4 @@
-# How do I clip and export datasets? XYZ
+# How do I clip and export datasets?
 
 Registered users on UN Biodiversity Lab are able to:
 
