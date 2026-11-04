@@ -24,5 +24,5 @@
 
 <figure markdown>
 ![Стрелки ведут от «РАБОЧИЕ ПРОСТРАНСТВА» к вкладке «АНАЛИЗЫ» и к стрелке раскрытия конфигурации инструмента](images/registration-03.png)
-<figcaption>Рисунок 4. Доступ к конфигурации инструмента ELSA для Demo - GBF Куба</figcaption>
+<figcaption>Рисунок 4. Доступ к конфигурации инструмента ELSA для Moore – Гана</figcaption>
 </figure>
