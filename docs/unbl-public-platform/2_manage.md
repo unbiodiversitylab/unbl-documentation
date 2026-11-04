@@ -22,7 +22,7 @@ Once registered on the UN Biodiversity Lab, you will be able to manage your acco
 
 	![Account menu with the 'Profile' option highlighted](images/manage-01.png)
 
-2. Click on the 'EDIT' to edit your username, email, country, and institution.
+2. Click on the 'EDIT' button to edit your username, email, country, and institution.
 
 3. To reset your password, click on 'SEND RESET EMAIL', then follow the instructions in the email.
 
@@ -30,7 +30,7 @@ Once registered on the UN Biodiversity Lab, you will be able to manage your acco
 
 	![Workspaces section in edit mode with LEAVE WORKSPACE and SAVE buttons highlighted](images/manage-02.png)
 
-5. If this account is no longer in use, you can click on 'DELETE YOUR ACCOUNT' and the bottom of this page. After deleting the account, you will need to sign up again to gain registered user privileges on UN Biodiversity Lab.
+5. If this account is no longer in use, you can click on 'DELETE YOUR ACCOUNT' at the bottom of this page. After deleting the account, you will need to sign up again to gain registered user privileges on UN Biodiversity Lab.
 
 6. After saving your changes, click on 'RETURN TO MAP VIEW'.
 

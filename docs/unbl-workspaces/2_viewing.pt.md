@@ -50,7 +50,7 @@ Para recortar um conjunto de dados para a sua área de interesse e descarregar:
 
 1.	Clique no botão 'PLACES' e selecione o seu lugar de interesse.
 
-2.	Clique no ícone ![Mais opções (três pontos)](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à direita do nome do lugar e clique em 'Clip and Export Layers'.
+2.	Clique no ícone ![Mais opções (três pontos)](images/icons/ellipsis.png){style="display: inline; height: 2em; width: 2em;"} à direita do nome do lugar e clique em 'Clip and Export Layers'.
 
 	![Painel do lugar Colômbia com o menu de reticências aberto e a opção 'Clip and Export Layers'](images/viewing-03.png)
 
@@ -93,7 +93,7 @@ Para pesquisar conjuntos de dados disponíveis:
 
 3.	Clique no botão de alternância à direita do nome do conjunto de dados para carregar este conjunto de dados na vista do mapa.
 
-4.	Clique no botão de alternância novamente ou clique no ícone ![Fechar](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} na legenda da camada para remover este conjunto de dados.
+4.	Clique no botão de alternância novamente ou clique no ícone ![Fechar](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} na legenda da camada para remover este conjunto de dados.
 
 !!! note
 	Se tiver o espaço de trabalho *UNBL* e o seu próprio espaço de trabalho ativados, a sua pesquisa terá de ser específica para encontrar conjuntos de dados que carregou no seu próprio espaço de trabalho que não fazem parte da plataforma pública. A forma mais fácil de fazer isto é criar uma etiqueta reconhecível para a sua camada adicionada – veja o passo 2d em ['Que parâmetros e metadados preencho ao criar uma camada?'](6_add_data.pt.md#que-parametros-e-metadados-preencho-ao-criar-uma-camada)

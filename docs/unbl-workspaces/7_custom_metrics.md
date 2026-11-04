@@ -12,7 +12,7 @@ Metrics are displayed on UNBL through the selection of a particular place that d
 
 ## Step 2: Upload a raster layer in GeoTIFF format
 
-To create a custom metric, it is necessary to upload a raster layer which you would like to view zonal statistics for. UNBL workspaces only support metric calculations using layers uploaded to the workspace through the 'GeoTIFF File Upload' option. For detailed steps on uploading a layer to your workspace using this option, see [‘How do I upload raster layers in GeoTIFF format?’](6_add_data.md/#how-do-i-upload-raster-layers-in-geotiff-format).
+To create a custom metric, it is necessary to upload a raster layer which you would like to view zonal statistics for. UNBL workspaces only support metric calculations using layers uploaded to the workspace through the 'GeoTIFF File Upload' option. For detailed steps on uploading a layer to your workspace using this option, see [‘How do I upload raster layers in GeoTIFF format?’](6_add_data.md#how-do-i-upload-raster-layers-in-geotiff-format).
 
 For a custom metric to function properly on UNBL, it is necessary to note the following technical pre-requisites for uploaded GeoTIFF layers:
 

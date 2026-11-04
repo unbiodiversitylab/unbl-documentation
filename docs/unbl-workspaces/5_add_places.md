@@ -48,7 +48,7 @@ You can also make edits to existing places and view your place on  a basemap to 
 
 1.	Navigate to the ‘Places’ page from the dropdown menu on the left-hand side of the admin interface. 
 
-2.	Select the place you are interested in from the place list by clicking on the ![Edit (pencil)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon on the left-most side of the place entry.
+2.	Select the place you are interested in from the place list by clicking on the ![Edit (pencil)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} icon on the left-most side of the place entry.
 
 	![Admin 'Places' list with the edit pencil icon of a place entry highlighted](images/add-places-04.png)
 	
@@ -86,15 +86,15 @@ UNBL's standard dynamic metrics become automatically available for your place as
 		
 	![Place panel for Albania with the 'Dashboard' menu open: Metrics or Headline Indicators](images/add-places-09.png)
 	
-3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the ![Close](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
+3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the ![Close](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
 
 	![Global Land Cover toggle, collapse arrow and legend close icon highlighted, layer on map](images/add-places-10.png)
 	
-4.	Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and licence specifications.
+4.	Click on the ![Information](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and licence specifications.
 
 	![Info icon of the Global Land Cover metric highlighted, opening its layer info window](images/add-places-11.png)
 	
-5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![Download](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, table-separated value, or .json format. You can also download the data from source links in the layer info pages.  
+5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![Download](images/icons/download.png){style="display: inline; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, table-separated value, or .json format. You can also download the data from source links in the layer info pages.  
 
 	![Download icon of a metric highlighted, with a menu offering CSV, TSV and JSON](images/add-places-12.png)
 	

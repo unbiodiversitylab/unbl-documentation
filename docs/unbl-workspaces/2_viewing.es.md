@@ -49,7 +49,7 @@ Para recortar un conjunto de datos a su área de interés y descargar:
 
 1.	Haga clic en el botón 'LUGARES' y seleccione su lugar de interés.
 
-2.	Haga clic en el icono ![Más opciones (tres puntos)](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} a la derecha del nombre del lugar y haga clic en 'Clip and Export Layers'.
+2.	Haga clic en el icono ![Más opciones (tres puntos)](images/icons/ellipsis.png){style="display: inline; height: 2em; width: 2em;"} a la derecha del nombre del lugar y haga clic en 'Clip and Export Layers'.
 
 	![Panel del lugar Colombia con el menú de puntos suspensivos abierto y la opción 'Clip and Export Layers'](images/viewing-03.png)
 
@@ -92,7 +92,7 @@ Para buscar conjuntos de datos disponibles:
 
 3.	Haga clic en el botón de alternancia a la derecha del nombre del conjunto de datos para cargar este conjunto de datos en la vista del mapa.
 
-4.	Haga clic en el botón de alternancia de nuevo o haga clic en el icono ![Cerrar](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la leyenda de la capa para eliminar este conjunto de datos.
+4.	Haga clic en el botón de alternancia de nuevo o haga clic en el icono ![Cerrar](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} en la leyenda de la capa para eliminar este conjunto de datos.
 
 !!! note
 	Si tiene el espacio de trabajo *UNBL* y su propio espacio de trabajo activados, su búsqueda tendrá que ser específica para encontrar conjuntos de datos que cargó en su propio espacio de trabajo que no son parte de la plataforma pública. La forma más fácil de hacer esto es crear una etiqueta reconocible para su capa agregada – vea el paso 2d en ['¿Qué parámetros y metadatos debo completar al crear una capa?'](6_add_data.es.md#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)

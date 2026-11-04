@@ -47,7 +47,7 @@ Vous pouvez également apporter des modifications aux lieux existants et visuali
 
 1.	Naviguez vers la page « Lieux » depuis le menu déroulant sur le côté gauche de l'interface d'administration.
 
-2.	Sélectionnez le lieu qui vous intéresse dans la liste des lieux en cliquant sur l'icône ![Modifier (crayon)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} sur le côté le plus à gauche de l'entrée du lieu.
+2.	Sélectionnez le lieu qui vous intéresse dans la liste des lieux en cliquant sur l'icône ![Modifier (crayon)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} sur le côté le plus à gauche de l'entrée du lieu.
 
 	![Liste des « Lieux » de l'interface d'administration avec l'icône crayon de modification d'un lieu en surbrillance](images/add-places-04.png)
 
@@ -79,14 +79,14 @@ Les métriques dynamiques deviennent automatiquement disponibles pour votre lieu
 
 	![Panneau du lieu Albanie avec le menu « Dashboard » ouvert : « METRIQUES » ou « INDICATEURS PRINCIPAUX »](images/add-places-09.png)
 
-4.	Cliquez sur le bouton bascule à côté de n'importe quelle métrique spécifique si vous souhaitez visualiser ce jeu de données sur la carte. Cliquez à nouveau sur le bouton bascule ou sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données de la vue cartographique. Vous pouvez également cliquer sur l'icône de flèche vers le haut pour masquer la métrique de la vue dans l'onglet des métriques disponibles, et vice versa.
+4.	Cliquez sur le bouton bascule à côté de n'importe quelle métrique spécifique si vous souhaitez visualiser ce jeu de données sur la carte. Cliquez à nouveau sur le bouton bascule ou sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données de la vue cartographique. Vous pouvez également cliquer sur l'icône de flèche vers le haut pour masquer la métrique de la vue dans l'onglet des métriques disponibles, et vice versa.
 
 	![Bouton bascule et flèche de repli de la métrique Global Land Cover et icône de fermeture de la légende en surbrillance, couche affichée sur la carte](images/add-places-10.png)
 
-5.	Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans le widget de métrique ou dans la légende de la couche (si vous avez un jeu de données activé) pour visualiser les informations de la couche. Les pages d'information fournissent une brève description des données, les articles scientifiques connexes à lire, les données brutes à télécharger (si disponibles gratuitement) et les spécifications de licence.
+5.	Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} dans le widget de métrique ou dans la légende de la couche (si vous avez un jeu de données activé) pour visualiser les informations de la couche. Les pages d'information fournissent une brève description des données, les articles scientifiques connexes à lire, les données brutes à télécharger (si disponibles gratuitement) et les spécifications de licence.
 
 	![Icône d'information de la métrique Global Land Cover en surbrillance, ouvrant la fenêtre d'informations de la couche](images/add-places-11.png)
 
-6.	Pour télécharger les données récapitulatives de la métrique au format .csv ou .json, cliquez sur l'icône ![Télécharger](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Vous pouvez ensuite choisir de télécharger les données récapitulatives dans votre répertoire local au format valeurs séparées par des virgules ou au format .json. Vous pouvez également télécharger les données à partir des liens sources dans les pages d'information de la couche.
+6.	Pour télécharger les données récapitulatives de la métrique au format .csv ou .json, cliquez sur l'icône ![Télécharger](images/icons/download.png){style="display: inline; height: 2em; width: 2em;"}. Vous pouvez ensuite choisir de télécharger les données récapitulatives dans votre répertoire local au format valeurs séparées par des virgules ou au format .json. Vous pouvez également télécharger les données à partir des liens sources dans les pages d'information de la couche.
 
 	![Icône de téléchargement d'une métrique en surbrillance, avec un menu proposant CSV, TSV et JSON](images/add-places-12.png)
