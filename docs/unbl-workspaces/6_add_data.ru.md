@@ -287,7 +287,7 @@ UNBL поддерживает настройку слоёв векторных �
     "#ffffff"],
     "fill-outline-color": [
     "match",
-    [ "get", " forest_cover_2023" ],
+    [ "get", "forest_cover_2023" ],
     "Mixed forest",
     "#7c549e",
     "Mangrove forest",

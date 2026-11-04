@@ -108,7 +108,7 @@ To upload a GeoTIFF file:
 	
 3.	Once all metadata and parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to upload your GeoTIFF file to your workspace. The file will be stored in a safe and dedicated private repository on Azure. This may take a few seconds depending on the size of the file and the speed of your upload internet broadband, so after clicking the button you should wait until you are redirected to the edit layer page. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
 
-## How do I configure raster layers using WMS/WMTS external tile services ?
+## How do I configure raster layers using WMS/WMTS external tile services?
 
 UNBL supports the configuration of raster image layers to your workspace by linking to external tile service providers. To add geospatial data to your workspace using this method:
 
@@ -294,7 +294,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
     "#ffffff"], 
     "fill-outline-color": [ 
     "match", 
-    [ "get", " forest_cover_2023" ], 
+    [ "get", "forest_cover_2023" ], 
     "Mixed forest",
     "#7c549e",
     "Mangrove forest",
