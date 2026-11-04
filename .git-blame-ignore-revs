@@ -16,6 +16,8 @@ aff1229bf0b06f55644fd7348b54f39558afb8bb
 b214a72256cdc9907832faed56f907c8c0605315
 # English heading fixes and section-link fixes already mirrored in translations (#44)
 c9ae46c100d3525b29d9c2c5b45cd26ac3a7018b
+# Product name kept in English in all translations (#42); English unchanged
+2f976efb85df002b8645fce3d157e38aa54a71d4
 # Editorial fixes from #48 (English wording; translations already read correctly)
 148a7a6604e7a591e974bad9194706ae6269c77f
 # Inline icon styles: duplicated width removed (no visual change)

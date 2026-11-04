@@ -1,6 +1,6 @@
 # Como me registo ou inicio sessão?
 
-Antes de começar a explorar os mapas, registe-se no Laboratório de Biodiversidade da ONU.
+Antes de começar a explorar os mapas, registe-se no UN Biodiversity Lab.
 
 
 <details class="unbl-video">
@@ -17,7 +17,7 @@ Antes de começar a explorar os mapas, registe-se no Laboratório de Biodiversid
   </div>
 </details>
 
-1. Clique na página 'Iniciar mapa' do sítio Web do [Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/).
+1. Clique na página 'Iniciar mapa' do sítio Web do [UN Biodiversity Lab](https://unbiodiversitylab.org/).
 
 	![Página inicial do sítio Web do UNBL com 'Iniciar mapa' destacado no menu superior](images/register-01.png)
 

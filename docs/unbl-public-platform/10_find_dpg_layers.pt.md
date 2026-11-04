@@ -1,6 +1,6 @@
 # Como encontro os conjuntos de dados abertos de Bem Público Digital (DPG)?
 
-O Laboratório de Biodiversidade da ONU é certificado como uma plataforma de Bem Público Digital (DPG) pela Digital Public Goods Alliance. Proporciona formas inovadoras de os decisores políticos interagirem com dados espaciais de alta qualidade. Pode visualizar os conjuntos de dados espaciais reconhecidos como dados abertos DPG em escala global ou dentro de uma área de interesse.
+O UN Biodiversity Lab é certificado como uma plataforma de Bem Público Digital (DPG) pela Digital Public Goods Alliance. Proporciona formas inovadoras de os decisores políticos interagirem com dados espaciais de alta qualidade. Pode visualizar os conjuntos de dados espaciais reconhecidos como dados abertos DPG em escala global ou dentro de uma área de interesse.
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>

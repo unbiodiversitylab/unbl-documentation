@@ -4,7 +4,7 @@ translation_status: machine
 ---
 # Como faço a gestão da minha conta?
 
-Depois de se registar no Laboratório de Biodiversidade da ONU, o utilizador poderá gerir a sua conta, incluindo editar o seu nome de utilizador, e-mail, palavra-passe, país e instituição. Poderá também visualizar e editar os espaços de trabalho a que pertence.
+Depois de se registar no UN Biodiversity Lab, o utilizador poderá gerir a sua conta, incluindo editar o seu nome de utilizador, e-mail, palavra-passe, país e instituição. Poderá também visualizar e editar os espaços de trabalho a que pertence.
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>
@@ -34,7 +34,7 @@ Depois de se registar no Laboratório de Biodiversidade da ONU, o utilizador pod
 
 	![Secção de espaços de trabalho em modo de edição com os botões 'SAIR DO ESPAÇO DE TRABALHO' e 'GUARDAR' destacados](images/manage-02.png)
 
-5. Se esta conta já não estiver em uso, pode clicar em 'ELIMINAR A SUA CONTA' na parte inferior desta página. Após eliminar a conta, terá de se inscrever novamente para obter privilégios de utilizador registado no Laboratório de Biodiversidade da ONU.
+5. Se esta conta já não estiver em uso, pode clicar em 'ELIMINAR A SUA CONTA' na parte inferior desta página. Após eliminar a conta, terá de se inscrever novamente para obter privilégios de utilizador registado no UN Biodiversity Lab.
 
 6. Após guardar as alterações, clique em 'VOLTAR À VISTA DO MAPA'.
 

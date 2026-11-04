@@ -89,7 +89,7 @@ plugins:
           name: Español
           build: true
           site_name: Documentación en Línea de UNBL
-          site_description: Guía del Usuario para el Laboratorio de Biodiversidad de las Naciones Unidas
+          site_description: Guía del Usuario para el UN Biodiversity Lab
           theme:
             palette:
               - media: "(prefers-color-scheme: light)"
@@ -127,7 +127,7 @@ plugins:
             How do I clip and export datasets?: ¿Cómo puedo recortar y exportar conjuntos de datos?
             How do I download unclipped global datasets?: ¿Cómo descargo conjuntos de datos globales sin recortar?
             How do I make a map for inclusion in reports and communication products?: ¿Cómo hago un mapa para incluir en informes y productos de comunicación?
-            How do I suggest more data for inclusion in the UN Biodiversity Lab?: ¿Cómo sugiero más datos para incluir en el Laboratorio de Biodiversidad de las Naciones Unidas?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: ¿Cómo sugiero más datos para incluir en el UN Biodiversity Lab?
             What are UNBL workspaces? How do I request a UNBL workspace?: ¿Qué son los espacios de trabajo de UNBL? ¿Cómo solicito un espacio de trabajo de UNBL?
             What if my question wasn’t answered?: ¿Qué pasa si mi pregunta no fue respondida?
             UNBL Secure Workspaces: Espacios de Trabajo Seguros UNBL
@@ -159,7 +159,7 @@ plugins:
           name: Français
           build: true
           site_name: Documentation en Ligne de l'UNBL
-          site_description: Guide de l'Utilisateur pour le Laboratoire de la Biodiversité des Nations Unies
+          site_description: Guide de l'Utilisateur pour le UN Biodiversity Lab
           theme:
             palette:
               - media: "(prefers-color-scheme: light)"
@@ -197,7 +197,7 @@ plugins:
             How do I clip and export datasets?: Comment découper et exporter des ensembles de données ?
             How do I download unclipped global datasets?: Comment télécharger des ensembles de données mondiaux non découpés ?
             How do I make a map for inclusion in reports and communication products?: Comment puis-je créer une carte pour l'inclure dans des rapports et des produits de communication ?
-            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Comment puis-je suggérer plus de données pour l'inclusion dans le Laboratoire de la biodiversité des Nations Unies ?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Comment puis-je suggérer plus de données pour l'inclusion dans le UN Biodiversity Lab ?
             What are UNBL workspaces? How do I request a UNBL workspace?: Qu'est-ce que les espaces de travail UNBL ? Comment puis-je demander un espace de travail UNBL ?
             What if my question wasn’t answered?: Que faire si ma question n'a pas eu de réponse ?
             UNBL Secure Workspaces: Espaces de Travail Sécurisés UNBL
@@ -252,7 +252,7 @@ plugins:
             UNBL Public Platform: Plataforma Pública UNBL
             How do I register or log-in?: Como me registo ou inicio sessão?
             How do I manage my account?: Como faço a gestão da minha conta?
-            How do I navigate between the UN Biodiversity Lab website and map app?: Como navego entre o site do UN Biodiversity Lab e a aplicação de mapas?
+            How do I navigate between the UN Biodiversity Lab website and map app?: Como navego entre o sítio Web do UN Biodiversity Lab e a aplicação de mapas?
             How do I change the language?: Como altero o idioma?
             How do I adjust my map view?: Como ajusto a visualização do mapa?
             How do I add/remove place labels, roads, and satellite view from the base map?: Como adiciono/removo etiquetas de locais, estradas e a vista de satélite do mapa base?
@@ -267,7 +267,7 @@ plugins:
             How do I clip and export datasets?: Como posso recortar e exportar conjuntos de dados?
             How do I download unclipped global datasets?: Como posso descarregar conjuntos de dados globais não recortados?
             How do I make a map for inclusion in reports and communication products?: Como posso criar um mapa para inclusão em relatórios e produtos de comunicação?
-            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Como sugiro mais dados para inclusão no UN Biodiversity Lab?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Como posso sugerir mais dados para inclusão no UN Biodiversity Lab?
             What are UNBL workspaces? How do I request a UNBL workspace?: O que são os espaços de trabalho UNBL? Como solicito um espaço de trabalho UNBL?
             What if my question wasn’t answered?: E se a minha pergunta não tiver sido respondida?
             UNBL Secure Workspaces: Espaços de Trabalho Seguros UNBL
@@ -299,7 +299,7 @@ plugins:
           name: Русский
           build: true
           site_name: Онлайн-документация UNBL
-          site_description: Руководство пользователя для Лаборатории биоразнообразия ООН
+          site_description: Руководство пользователя для UN Biodiversity Lab
           theme:
             palette:
               - media: "(prefers-color-scheme: light)"
@@ -322,7 +322,7 @@ plugins:
             UNBL Public Platform: Публичная платформа UNBL
             How do I register or log-in?: Как мне зарегистрироваться или войти в систему?
             How do I manage my account?: Как мне управлять своим аккаунтом?
-            How do I navigate between the UN Biodiversity Lab website and map app?: Как мне переходить между веб-сайтом Лаборатория ООН по биоразнообразию и картографическим приложением
+            How do I navigate between the UN Biodiversity Lab website and map app?: Как мне переходить между веб-сайтом UN Biodiversity Lab и картографическим приложением
             How do I change the language?: Как мне изменить язык?
             How do I adjust my map view?: Как мне маневрировать просмотром карты?
             How do I add/remove place labels, roads, and satellite view from the base map?: Как мне добавить/удалить метки мест, дороги и спутниковый вид в базовой карте?
@@ -337,7 +337,7 @@ plugins:
             How do I clip and export datasets?: Как мне вырезать и экспортировать наборы данных?
             How do I download unclipped global datasets?: Как мне загрузить необрезанные глобальные наборы данных?
             How do I make a map for inclusion in reports and communication products?: Как мне создать карту для включения в отчеты и коммуникационные продукты?
-            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Как мне предложить дополнительные данные для включения в Лабораторию ООН по биоразнообразию?
+            How do I suggest more data for inclusion in the UN Biodiversity Lab?: Как мне предложить дополнительные данные для включения в UN Biodiversity Lab?
             What are UNBL workspaces? How do I request a UNBL workspace?: Что такое рабочие пространство на UNBL? Как мне запросить рабочее пространство UNBL?
             What if my question wasn’t answered?: Что делать, если я не нашел ответ на свой вопрос?
             UNBL Secure Workspaces: Защищенные Рабочие Пространства UNBL
@@ -347,7 +347,7 @@ plugins:
             Managing Users in Your Workspace: Управление пользователями в вашем рабочем пространстве
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Добавление мест в ваше рабочее пространство и просмотр динамических показателей для них
             Adding Your Own Geospatial Data to Your Workspace: Добавление собственных геопространственных данных в ваше рабочее пространство
-            "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Обзорный документ: Хранение национальных данных, добавленных в рабочие пространства Лаборатории ООН по биоразнообразию"
+            "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Обзорный документ: Хранение национальных данных, добавленных в рабочие пространства UN Biodiversity Lab"
             Adding Your Own Custom Metrics to Your Workspace: Добавление собственных пользовательских показателей в ваше рабочее пространство 
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Доступ к инструменту интегрированного пространственного планирования ELSA в вашем рабочем пространстве
             What if my Question was not Answered?: Что делать, если я не нашел ответ на свой вопрос?
