@@ -1,0 +1,26 @@
+name: Something in the documentation is wrong or unclear
+description: An outdated screenshot, a wrong step, a broken link, confusing text.
+labels: ["content"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Link to the page (copy it from your browser).
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      multiple: true
+      options: [English, Español, Français, Português, Русский, All languages]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: What does the page say, and what should it say? Screenshots help.
+    validations:
+      required: true

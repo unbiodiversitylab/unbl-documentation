@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(mkdocs build *)",
+      "Bash(mkdocs serve *)",
+      "Bash(python scripts/check_docs.py *)",
+      "Bash(python3 scripts/check_docs.py *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)",
+      "Bash(git branch *)",
+      "Bash(git ls-files *)",
+      "Bash(git fetch *)",
+      "Bash(gh pr list *)",
+      "Bash(gh pr view *)",
+      "Bash(gh pr diff *)",
+      "Bash(gh issue list *)",
+      "Bash(gh issue view *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(gh pr create *)",
+      "Bash(gh pr merge *)"
+    ],
+    "deny": [
+      "Bash(git push * main)",
+      "Bash(git push * main:*)",
+      "Bash(git push * HEAD:main)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push * --force*)",
+      "Bash(git push * -f)",
+      "Bash(mkdocs gh-deploy *)",
+      "Edit(/site/**)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "for p in python3 python; do \"$p\" -c '' 2>/dev/null && exec \"$p\" \"${CLAUDE_PROJECT_DIR}/scripts/check_docs.py\" --hook; done; exit 0",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

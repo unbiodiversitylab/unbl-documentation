@@ -221,6 +221,24 @@ docs/
 
 ### Finding What Needs Translation
 
+#### Recommended: the translation status report
+
+The repository can tell you exactly what needs work in your language:
+
+```bash
+python scripts/check_docs.py --drift --lang fr
+```
+
+Or, in Claude Code, type `/translation-status fr`. It lists pages that are **MISSING**,
+**STALE** (English changed since the translation was last synced), **MAYBE-STALE**
+(probably changed; the tool is guessing from dates) or awaiting **REVIEW** (machine
+translations). The same report appears on the "Check documentation" page of every pull
+request. See [CONTRIBUTING.md](CONTRIBUTING.md#translators) for the `source_rev` front
+matter that makes the report exact, and use [`i18n/glossary.yml`](i18n/glossary.yml) for
+terminology.
+
+The methods below do the same checks by hand.
+
 #### Method 1: Compare file lists in VS Code
 
 Expand a section folder in the left sidebar and look for missing language files:
@@ -395,7 +413,7 @@ nav_translations:
 
 ### Previewing Your Work Locally
 
-If you have the MkDocs environment set up (see [QUICKSTART.md](QUICKSTART.md)):
+If you have the MkDocs environment set up (`pip install -r requirements.txt`; see [CONTRIBUTING.md](CONTRIBUTING.md)):
 
 ```bash
 mkdocs serve
@@ -630,7 +648,7 @@ Your language should show fewer (or zero) missing entries.
 
 - Use formal register appropriate for UN documentation
 - Be consistent with existing translations in the same language
-- When unsure about terminology, check existing translated files in the same repo
+- When unsure about terminology, check `i18n/glossary.yml` (unbl-documentation) and existing translated files in the same repo
 - Keep sentences similar in length to the English original
 
 ---
@@ -719,7 +737,10 @@ Hover over the red line to see the error message.
 Common causes:
 - YAML syntax error in `mkdocs.yml`
 - A file referenced in navigation doesn't exist
-- Run `mkdocs build` in the terminal to see the specific error message
+- A page title in `nav` has no translation in `nav_translations`
+- Run `python scripts/check_docs.py` for a plain-language list of problems, then
+  `mkdocs build --strict` to see the exact build error
+- On a pull request, click **Details** next to the red "Check documentation" status
 
 ---
 
