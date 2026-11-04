@@ -1,6 +1,20 @@
 # Как мне переходить между веб-сайтом Лаборатория ООН по биоразнообразию и картографическим приложением?
 
-Переход между двумя страницами очень прост.  
+Переход между двумя страницами очень прост.
+
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/oW-biBwlfH8"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>  
 
 1.	Чтобы вернуться на веб-сайт Лаборатории ООН по биоразнообразию из картографического приложения, нажмите «ПРОСМОТР КАРТЫ» на панели инструментов слева и выберите «Home» (Главная) в правом верхнем углу панели.
 

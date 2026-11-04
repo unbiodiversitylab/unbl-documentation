@@ -12,4 +12,4 @@ Para mais informações sobre a ciência que apoia o processo de priorização e
 
 - [Pré-publicação: Uma estrutura operacional para mapear Áreas Essenciais de Suporte à Vida (ELSAs) para biodiversidade, clima e desenvolvimento sustentável](https://www.biorxiv.org/content/10.1101/2024.11.25.625159v1.full.pdf)
 
-- Nota Técnica: Ferramentas de Priorização Espacial Disponíveis para Apoiar Processos Nacionais de Planejamento Espacial (*em breve!*)
+- [Nota Técnica: Ferramentas de Priorização Espacial Disponíveis para Apoiar Processos Nacionais de Planejamento Espacial](https://unbiodiversitylab.org/pt/integrated-spatial-planning/)

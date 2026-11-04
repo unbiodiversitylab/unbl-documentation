@@ -4,17 +4,17 @@ To register on UNBL and request access to a workspace and ELSA Tool, please unde
 
 1. Click the ‘Launch map’ button on the UN Biodiversity Lab website to access the data app.
 
-<figure markdown>
-![](images/image002.png)
-<figcaption>Figure 2. UNBL home page</figcaption>
-</figure>
+	<figure markdown>
+	![](images/image002.png)
+	<figcaption>Figure 2. UNBL home page</figcaption>
+	</figure>
 
 2. Once this has loaded, select the account icon in the top right-hand corner and choose ‘sign up’. Enter your email, name, country, and institution (optional), and set your password to sign up. 
 
-<figure markdown>
-![](images/image004.png)
-<figcaption>Figure 3. Sign up window</figcaption>
-</figure>
+	<figure markdown>
+	![](images/image004.png)
+	<figcaption>Figure 3. Sign up window</figcaption>
+	</figure>
 
 3. You will receive an email within a few minutes. Follow the instructions in this email to then follow the email to verify your account.  
 4. Once your account is verified, you can log-in using your email address and password each time you access the platform. 

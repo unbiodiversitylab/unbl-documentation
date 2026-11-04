@@ -1,5 +1,19 @@
 # Como adiciono/removo rótulos de locais, estradas e visualização de satélite do mapa base?
 
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/JWLRTTfZ75Q"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 Existem várias opções para você personalizar o mapa base. Estas estão disponíveis no ícone 'CONTROLES DO MAPA' no canto inferior direito e incluem:
 
 1. *Rótulos*: Os rótulos mostram o nome dos locais, incluindo países, estados, cidades e marcos representativos. Clique no botão de alternância para ativar os rótulos e clique novamente para ocultar.

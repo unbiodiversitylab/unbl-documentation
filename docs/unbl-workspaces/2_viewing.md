@@ -4,7 +4,7 @@
 
 If you are a registered user who has been granted access to one or multiple UNBL workspaces, please follow these steps:
 
-1.	Login to your account and launch the UNBL data app.
+1.	Log in to your account and launch the UNBL data app.
 
 2.	Click the ‘WORKSPACES’ button in the top-left corner. This will display the workspaces you belong to.
 
@@ -13,7 +13,7 @@ If you are a registered user who has been granted access to one or multiple UNBL
 	!!!Note
 		You can toggle/untoggle all workspaces at once using the top-most ‘Map View’ toggle button.
 
-4.	Untoggle workspaces that you don’t want to view. You can also untoggle the *UNBL* workspace at the top of the list, which will allow you to only see assets exclusive to your UNBL secure workspace(s) and filter out all assets on the UNBL public platform. Please note that untoggling the *UNBL* workspace will remove access to all public global layers and dashboard metrics for all areas, including areas in your secure workspace. 
+4.	Untoggle workspaces that you don’t want to view. You can also untoggle the *UNBL* workspace at the top of the list, which will allow you to only see assets exclusive to your UNBL secure workspace(s) and filter out all assets on the UNBL public platform. Please note that untoggling the *UNBL* workspace will remove access to all public global layers and standard dynamic metrics for all areas, including areas in your secure workspace. 
 
 ![](images/en/image2.png)
 

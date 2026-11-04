@@ -2,6 +2,20 @@
 
 Лаборатория ООН по биоразнообразию сертифицирована Аллайансом *Digital Public Goods Alliance* как платформа *Digital Public Good (DPG)*. Она предоставляет политикам новые способы взаимодействия с высококачественными пространственными данными. Вы можете просматривать пространственные наборы данных, признанные открытыми данными DPG, в глобальном масштабе или в пределах интересующей вас области. 
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/3JirK4Puv10"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Нажмите на значок «НАБОРЫ ДАННЫХ» (или «СЛОИ»).
 
 2.	Нажмите, чтобы развернуть фильтры.

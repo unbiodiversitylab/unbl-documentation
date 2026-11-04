@@ -1,5 +1,19 @@
 # How do I make a map for inclusion in reports and communication products?
 
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/-ebTPmteDmQ"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Customize the view of the datasets you selected, as desired.
 
 2. Use the screenshot function on your computer to capture the map.

@@ -2,6 +2,20 @@
 
 Une fois inscrit(e) sur le UN Biodiversity Lab, vous pourrez gérer votre compte, notamment modifier votre nom d'utilisateur, votre adresse e-mail, votre mot de passe, votre pays, et votre institution. Vous pourrez également consulter et modifier les espaces de travail auxquels vous appartenez.
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/6u-Ro1NEtqk"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 **Pour gérer votre compte :**
 
 1. Cliquez sur l'icône du compte avec vos initiales en haut à droite, puis cliquez sur « Profil ».

@@ -2,6 +2,20 @@
 
 La navigation entre les deux pages est simple.
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/OZLRN7qHiTc"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Pour revenir au site web du UN Biodiversity Lab à partir de l'application cartographique, cliquez sur VUE CARTE dans la barre d'outils de gauche, et cliquez sur ACCUEIL en haut à droite du panneau.
 
 	!!! Note

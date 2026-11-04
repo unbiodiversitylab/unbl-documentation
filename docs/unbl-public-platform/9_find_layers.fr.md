@@ -4,6 +4,20 @@ Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de donn�
 
 !!! Note
 	Nous faisons référence à la fois aux ensembles de données et aux couches de données dans ce guide et sur le UNBL. Chaque ensemble de données peut contenir une ou plusieurs couches de données.
+	
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/q395Y5Xbl7s"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 1. Naviguez vers la zone qui vous intéresse, si vous le souhaitez. Vous pouvez également rester sur la vue mondiale.
 

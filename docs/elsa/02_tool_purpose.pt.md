@@ -25,4 +25,4 @@ A Ferramenta ELSA usa o pacote *prioritizr* no backend como uma ferramenta de ot
 !!! note
     Definições da terminologia técnica mencionada no guia podem ser encontradas no [Anexo 1](12_annex1.md).
 
-![Interface inicial da Ferramenta ELSA na UNBL](images/image001.png)
+![Interface inicial da Ferramenta ELSA na UNBL](images/pt/image001.png)

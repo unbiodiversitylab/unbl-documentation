@@ -1,5 +1,19 @@
 # Как мне создать карту для включения в отчеты и коммуникационные продукты?
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/BweclTApG4U"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Настройте вид выбранных вами наборов данных по своему усмотрению. 
 
 2.	Используйте функцию скриншота на вашем компьютере, чтобы сделать снимок карты.
