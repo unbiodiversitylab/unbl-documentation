@@ -84,7 +84,7 @@ UNBL's standard dynamic metrics become automatically available for your place as
 	!!! note
 		Headline indicator metrics and the Protected Area metric are only available for *Country* type places with a specified ISO3/M49 country code. Places that are not *Country* types will therefore not have an option to choose headline indicators. 
 		
-	![Place panel for Albania with the 'Dashboard' menu open: Metrics or Headline Indicators](images/add-places-09.png)
+	![Place panel for Albania with the 'Dashboard' menu open: Metrics, Headline Indicators or Marine metrics](images/add-places-09.png)
 	
 3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the ![Close](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
 

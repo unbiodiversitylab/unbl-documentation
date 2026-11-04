@@ -86,7 +86,7 @@ Steps:
     Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. 
 
 <figure markdown>
-![Boundary penalty factor field, set to 0, highlighted at the bottom of the window](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Analysis run window with area-based targets, and the boundary penalty factor field, set to 100, highlighted](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption> Figure 9. Adjustment of the boundary penalty factor</figcaption>
 </figure>
 

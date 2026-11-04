@@ -511,7 +511,7 @@ To make any of your added layers discoverable and viewable to all users of your 
 
 4.	You don't need to mark layers as primary: UNBL does this automatically. A layer that is not part of a group layer is primary, so it appears as its own entry in the ‘DATASETS’ search bar on UNBL. A layer that is part of a group layer is not primary, and is found through its group layer instead (see [‘How do I create group layers?’](#how-do-i-create-group-layers)). The layer list in your admin interface shows each layer's ‘Primary’ status for information only.
 
-	![Edit layer page with the Published, Allow external access via link and Primary toggles highlighted](images/add-data-20.png)
+	![Edit layer page with the Published and Allow external access via link toggles highlighted](images/add-data-20.png)
 	
 ## How do I edit my added layers?
 

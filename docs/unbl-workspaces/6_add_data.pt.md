@@ -505,7 +505,7 @@ Para tornar qualquer uma das suas camadas adicionadas descobrível e visível pa
 
 4.	Não precisa de marcar as camadas como primárias: o UNBL faz isto automaticamente. Uma camada que não faz parte de uma camada agrupada é primária, pelo que aparece como uma entrada própria na barra de pesquisa 'DATASETS' no UNBL. Uma camada que faz parte de uma camada agrupada não é primária, e é encontrada através da sua camada agrupada (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)). A lista de camadas na sua interface de administração mostra o estado 'Primary' de cada camada apenas a título informativo.
 
-	![Página de edição de camada com os botões de alternância Published, Allow external access via link e Primary destacados](images/add-data-20.png)
+	![Página de edição de camada com os botões de alternância Publicado e Permitir acesso externo via link destacados](images/add-data-20.png)
 
 ## Como edito as minhas camadas adicionadas?
 

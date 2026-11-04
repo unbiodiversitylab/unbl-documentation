@@ -504,7 +504,7 @@ Para hacer cualquiera de sus capas agregadas descubrible y visible para todos lo
 
 4.	No necesita marcar las capas como primarias: UNBL lo hace automáticamente. Una capa que no forma parte de una capa agrupada es primaria, por lo que aparece como una entrada propia en la barra de búsqueda 'DATASETS' en UNBL. Una capa que forma parte de una capa agrupada no es primaria y se encuentra a través de su capa agrupada (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)). La lista de capas de su interfaz de administración muestra el estado 'Primario' de cada capa solo a título informativo.
 
-	![Página de edición de capa con los interruptores Publicado, Allow external access via link y Primario resaltados](images/add-data-20.png)
+	![Página de edición de capa con los interruptores Publicado y Permitir acceso externo mediante enlace resaltados](images/add-data-20.png)
 
 ## ¿Cómo edito mis capas agregadas?
 

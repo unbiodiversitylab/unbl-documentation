@@ -89,7 +89,7 @@ As métricas dinâmicas padrão do UNBL tornam-se automaticamente disponíveis p
 	!!! note
 		As métricas de indicadores principais e a métrica Protected Area apenas estão disponíveis para lugares de tipo *Country* com um código de país ISO3/M49 especificado. Os lugares que não sejam do tipo *Country* não terão, portanto, a opção de escolher indicadores principais.
 
-	![Painel do lugar Albânia com o menu 'Dashboard' aberto: 'METRICS' ou 'HEADLINE INDICATORS'](images/add-places-09.png)
+	![Painel do lugar Albânia com o menu 'Painel' aberto: 'Métricas', 'Indicadores de Referência' ou 'Métricas marinhas'](images/add-places-09.png)
 
 3.	Clique no botão de alternância ao lado de qualquer métrica específica se quiser ver este conjunto de dados no mapa. Clique no botão de alternância novamente ou no ícone ![Fechar](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} na legenda da camada para remover este conjunto de dados da vista do mapa. Também pode clicar no ícone de seta para cima para ocultar a métrica da vista no separador de métricas disponíveis, e vice-versa.
 
