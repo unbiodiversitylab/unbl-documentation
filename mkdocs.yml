@@ -255,38 +255,38 @@ plugins:
             What dynamic metrics are available for my country?: Que métricas dinâmicas estão disponíveis para o meu país?
             How do I find additional datasets for my country?: Como encontro conjuntos de dados adicionais para o meu país?
             How do I find the Digital Public Good (DPG) open datasets?: Como encontro os conjuntos de dados abertos de Bem Público Digital (DPG)?
-            How do I find more information about each dataset?: Como encontro mais informações sobre cada conjunto de dados?
-            How do I customize the dataset views?: Como personalizo as visualizações dos conjuntos de dados?
+            How do I find more information about each dataset?: Como posso encontrar mais informações sobre cada conjunto de dados?
+            How do I customize the dataset views?: Como posso personalizar as visualizações dos conjuntos de dados?
             What options do I have to visualize time series datasets?: Que opções tenho para visualizar conjuntos de dados de séries temporais?
-            How do I share a dataset?: Como partilho um conjunto de dados?
+            How do I share a dataset?: Como posso partilhar um conjunto de dados?
             How do I clip and download datasets for my country?: Como recorto e descarrego conjuntos de dados para o meu país?
             How do I download unclipped global data datasets?: Como descarrego conjuntos de dados globais não recortados?
-            How do I make a map for inclusion in reports and communication products?: Como crio um mapa para incluir em relatórios e produtos de comunicação?
+            How do I make a map for inclusion in reports and communication products?: Como posso criar um mapa para inclusão em relatórios e produtos de comunicação?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: Como sugiro mais dados para inclusão no UN Biodiversity Lab?
             What are UNBL workspaces? How do I request a UNBL workspace?: O que são os espaços de trabalho UNBL? Como solicito um espaço de trabalho UNBL?
-            What if my question wasn’t answered?: E se a minha pergunta não tiver resposta?
+            What if my question wasn’t answered?: E se a minha pergunta não tiver sido respondida?
             UNBL Secure Workspaces: Espaços de Trabalho Seguros UNBL
-            Basics of UNBL Workspaces: Noções Básicas dos Espaços de Trabalho UNBL
-            Viewing Your UNBL Workspace: Visualização do seu Espaço de Trabalho UNBL
-            Navigating the Workspace Admin Interface: Navegação na Interface de Administração do Espaço de Trabalho
-            Managing Users in Your Workspace: Gestão de Utilizadores no seu Espaço de Trabalho
-            Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Adição de Locais ao seu Espaço de Trabalho e Visualização das Respetivas Métricas Dinâmicas
-            Adding Your Own Geospatial Data to Your Workspace: Adição dos seus Próprios Dados Geoespaciais ao seu Espaço de Trabalho
+            Basics of UNBL Workspaces: Noções básicas dos espaços de trabalho UNBL
+            Viewing Your UNBL Workspace: Visualizar o seu espaço de trabalho UNBL
+            Navigating the Workspace Admin Interface: Navegar na interface de administração do espaço de trabalho
+            Managing Users in Your Workspace: Gerir utilizadores no seu espaço de trabalho
+            Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Adicionar lugares ao seu espaço de trabalho e visualizar métricas dinâmicas
+            Adding Your Own Geospatial Data to Your Workspace: Adicionar os seus próprios dados geoespaciais ao seu espaço de trabalho
             "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Folha informativa: Armazenamento de dados nacionais adicionados a espaços de trabalho no UN Biodiversity Lab"
             Adding Your Own Custom Metrics to Your Workspace: Adicionar as Suas Próprias Métricas Personalizadas ao Seu Espaço de Trabalho
-            Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acesso à Ferramenta de Planeamento Espacial Integrado ELSA no seu Espaço de Trabalho
-            What if my Question was not Answered?: E se a minha Pergunta não tiver Resposta?
+            Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Aceder à ferramenta de planeamento espacial integrado ELSA no seu espaço de trabalho
+            What if my Question was not Answered?: E se a minha pergunta não foi respondida?
             ELSA Integrated Spatial Planning Tool: Ferramenta de Planeamento Espacial Integrado ELSA
             Overview: Visão Geral
             Tool Purpose and Key Features: Objetivo da Ferramenta e Principais Funcionalidades
             Registration and Access: Registo e Acesso
             Creating a New Analysis: Criar uma Nova Análise
             Editing an Analysis: Editar uma Análise
-            Running the Optimization: Executar a Otimização
-            Viewing Heatmaps: Visualizar Mapas de Calor
+            Running the Optimization: Executar a otimização
+            Viewing Heatmaps: Visualizar mapas de calor
             Downloading Results: Descarregar Resultados
             Analyzing Synergies and Trade-offs: Analisar Sinergias e Compensações
-            Citing Maps: Citar Mapas
+            Citing Maps: Citar mapas
             Support and Contact: Apoio e Contacto
             Annex 1 - Glossary: Anexo 1 - Glossário
             Annex 2 - Data layers: Anexo 2 - Camadas de Dados
