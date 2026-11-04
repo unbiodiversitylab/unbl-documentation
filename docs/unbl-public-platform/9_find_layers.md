@@ -31,17 +31,17 @@ Data on UN Biodiversity Lab include the best available global datasets related t
     
     b) Click to expand the filters to view and select the dataset categories of your interest. You then can select the desired dataset from the search result list.
 
-	![](images/find-layers-01.png)
+	![DATASETS tab with search box, expanded FILTERS and dataset category checkboxes](images/find-layers-01.png)
 	
 	**OR**
 	
 	c) Click to expand the dataset tags and select your tag of interest. You then can select the desired dataset from the list.
 	
-	![](images/find-layers-02.png)
-	![](images/find-layers-03.png)
+	![FILTERS arrow and Dataset tags dropdown highlighted, showing the list of tags](images/find-layers-02.png)
+	![Filters with the CongoPeat tag and Agriculture category selected and highlighted](images/find-layers-03.png)
 
 4.	Click the toggle button to the right of the dataset name to load this dataset to the map. 
 
 5.	Click the toggle button again or click the **X** icon in the dataset legend to remove this dataset.
 
-	![](images/find-layers-04.png)
+	![Global Forest Cover toggled on, with FILTERS, the toggle and legend X icon highlighted](images/find-layers-04.png)

@@ -24,4 +24,4 @@ To search for an area of interest, you can either:
 
 2. Click on the 'PLACES' icon, click to expand the filters box, and select your filter of interest. You then can select the desired place from the search result list. 
 
-![](images/find-country-01.png)
+![PLACES tab with the search box, FILTERS and Place type options highlighted](images/find-country-01.png)

@@ -5,13 +5,13 @@ Después de ejecutar un análisis ELSA, puedes visualizar el mapa final de accio
 De manera similar a los mapas de calor, los usuarios pueden acercarse a áreas específicas utilizando la interfaz de UNBL y activar imágenes satelitales, así como otras capas disponibles en el espacio de trabajo o en la plataforma pública de UNBL, para evaluar los resultados finales. 
 
 <figure markdown>
-![](images/downloading-results-01.png)
+![Capa «Acción ELSA» sobre imágenes satelitales, con la leyenda de los colores de las cuatro acciones](images/downloading-results-01.png)
 <figcaption>Figura 17. Mapa de acción que muestra las áreas prioritarias para la protección, restauración, y otros alrededor de Havana</figcaption>
 </figure>
 
 Los usuarios también pueden descargar los mapas de acción y los mapas de calor resultantes en formato ráster para su uso externo en software SIG de escritorio.   
 
 <figure markdown>
-![](images/downloading-results-02.png)
+![Menú de la ejecución de análisis con las opciones de descarga de Acción ELSA y mapas de calor resaltadas](images/downloading-results-02.png)
 <figcaption>Figura 18. Descargar los mapas de análisis resultantes</figcaption>
 </figure>

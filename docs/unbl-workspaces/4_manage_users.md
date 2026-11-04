@@ -27,7 +27,7 @@ To add users to your workspace:
 	!!!Note
 		The user must already be registered on the UNBL platform to be added to your workspace. If the user’s email address is not tied to a registered account on UNBL, you will get an error message.
 
-![](images/manage-users-01.png)
+!['Users' page with email field, role dropdown set to Viewer and 'ADD USERS' button](images/manage-users-01.png)
 
 ## How do I edit or delete existing users?
 
@@ -41,7 +41,7 @@ To delete or edit existing users:
 
 3.	To delete the user, click on ‘Remove user’ in the dropdown menu.
 
-![](images/manage-users-02.png)
+![Role dropdown opened from a user's arrow, offering Admin, Editor, Viewer and Remove User](images/manage-users-02.png)
 	
 
 

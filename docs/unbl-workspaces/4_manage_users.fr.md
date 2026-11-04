@@ -27,7 +27,7 @@ Pour ajouter des utilisateurs à votre espace de travail :
 	!!!Note
 		L'utilisateur doit déjà être enregistré sur la plateforme UNBL pour être ajouté à votre espace de travail. Si l'adresse e-mail de l'utilisateur n'est pas liée à un compte enregistré sur UNBL, vous recevrez un message d'erreur.
 
-![](images/manage-users-01.png)
+![Page « Utilisateurs » avec le champ d'adresse e-mail, le menu des rôles sur Viewer et le bouton « AJOUTER UN UTILISATEUR »](images/manage-users-01.png)
 
 ## Comment modifier ou supprimer des utilisateurs existants ?
 
@@ -41,4 +41,4 @@ Pour supprimer ou modifier des utilisateurs existants :
 
 3.	Pour supprimer l'utilisateur, cliquez sur « Supprimer l'utilisateur » dans le menu déroulant.
 
-![](images/manage-users-02.png)
+![Menu déroulant des rôles ouvert depuis la flèche d'un utilisateur, avec Admin, Editor, Viewer et « Supprimer l'utilisateur »](images/manage-users-02.png)

@@ -28,6 +28,6 @@ L'outil ELSA utilise le package *prioritizr* en arrière-plan comme outil d'opti
     Les définitions de la terminologie technique mentionnée dans ce guide se trouvent dans l'[Annexe 1](12_annex1.md).
 
 <figure markdown>
-![](images/tool-purpose-01.png)
+![Liste « ANALYSIS RUNS » à côté d'une carte d'action de Cuba colorée par protection, gestion, restauration et verdissement urbain](images/tool-purpose-01.png)
 <figcaption>Figure 1. Interface initiale de l'outil ELSA sur le UNBL</figcaption>
 </figure>

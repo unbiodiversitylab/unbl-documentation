@@ -11,14 +11,14 @@ Después de ejecutar un análisis, puede ver los resultados y evaluar si los par
 Puede revisar la representación de las características de planificación haciendo clic en el icono «**i**» en la leyenda de capas del análisis activado. Esto mostrará una ventana de información de prueba con la superficie total de tierra asignada a cada acción basada en la naturaleza en el análisis, así como una tabla que muestra la ponderación, la representación global y la representación individual de cada acción basada en la naturaleza para cada característica de planificación.   
 
 <figure markdown>
-![](images/analyse-synergies-01.png)
+![Ventana de información con tablas de asignación de área por acción y de representación de características](images/analyse-synergies-01.png)
 <figcaption>Figura 19. Cuadro de información de representaciones de características</figcaption>
 </figure>
 
 También puede guardar esta misma información en su ordenador local haciendo clic en el botón de tres puntos verticales situado junto a la entrada de su ejecución de análisis y, a continuación, haciendo clic en «Descargar CSV» o «Descargar JSON», según el formato que desee. Además, puede hacer clic en «Descargar resumen de Excel» para descargar una hoja de información de prueba más completa que muestra descripciones de datos y metadatos para cada característica de planificación, descripciones de los objetivos políticos utilizados para el análisis y los recursos de análisis ELSA junto con las puntuaciones de representación.   
 
 <figure markdown>
-![](images/analyse-synergies-02.png)
+![Menú de la ejecución de análisis con las opciones «Descargar CSV», «Descargar JSON» y «Descargar resumen de Excel» resaltadas](images/analyse-synergies-02.png)
 <figcaption>Figura 20. Descargar tabla resumen de representación de características</figcaption>
 </figure>
 

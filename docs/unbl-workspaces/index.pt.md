@@ -1,6 +1,6 @@
 # Guia do Utilizador dos Espaços de Trabalho Seguros do UN Biodiversity Lab (UNBL)
 
-![](images/index-01.png)
+![Página inicial do UN Biodiversity Lab com o globo terrestre e o botão Launch map](images/index-01.png)
 
 Este guia explica como tirar proveito de todas as funcionalidades disponíveis no seu espaço de trabalho seguro na plataforma UN Biodiversity Lab (UNBL). Se tiver mais perguntas, por favor contacte-nos em <support@unbiodiversitylab.org>.
 

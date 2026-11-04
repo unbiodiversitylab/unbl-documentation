@@ -32,7 +32,7 @@ Bloqueo de áreas protegidas ([Figura 6](#fig-lockin-options)):
 * Seleccione «No bloquear nada» si desea evaluar de forma independiente la ubicación óptima de las áreas protegidas existentes y nuevas en su país basándose en las áreas «Proteger» seleccionadas en el mapa de acciones resultante.  
 
 <figure markdown>
-![](images/editing-analysis-01.png){#fig-lockin-options}
+![Ventana de nueva ejecución de análisis con las opciones de bloqueo de áreas protegidas resaltadas](images/editing-analysis-01.png){#fig-lockin-options}
 <figcaption>Figura 6. Funcionalidades de bloqueo</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Como se ve en la [figura 6](#fig-lockin-options) para Cuba, las áreas protegida
 Los usuarios no pueden definir las zonas por sí mismos, pero para algunas acciones puede haber tanto una zona predeterminada como una zona alternativa que se puede seleccionar. Por ejemplo, algunas herramientas pueden tener la opción de considerar «Solo zonas agrícolas» para la acción de gestión, o «Solo zonas forestales» para la acción de restauración, en función de las necesidades y prioridades individuales de los usuarios y los países. 
 
 <figure markdown>
-![](images/editing-analysis-02.png){#fig-alt-zone-options}
+![Ventana de nueva ejecución de análisis con las opciones de zonas alternativas de gestión y restauración resaltadas](images/editing-analysis-02.png){#fig-alt-zone-options}
 <figcaption>Figura 7. Zonas alternativas para reducir las áreas de actividad basadas en la naturaleza</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ También debe tener en cuenta que, si desea bloquear las áreas protegidas exist
 Las acciones a las que se hace referencia aquí son el equivalente funcional de las acciones de la jerarquía de respuesta LDN respaldada por la UNCCD. ‘Proteger’ es el equivalente de ‘evitar’ la degradación de la tierra, ‘manejar’ es el equivalente de ‘reducir’ la degradación de la tierra, y ‘restaurar’ es el equivalente de ‘revertir’ la degradación de la tierra. En resumen, esto equipara “Proteger-Gestionar-Restaurar” con “Evitar-Reducir-Revertir”, garantizando la alineación entre los marcos globales de biodiversidad. Para obtener más información sobre cada objetivo del KMGBF, consulte el [sitio web del CDB](https://www.cbd.int/gbf/targets). Para obtener más información sobre la jerarquía de respuestas LDN, consulte el [sitio web de la CNULD](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
 <figure markdown>
-![](images/editing-analysis-03.png){#fig-setting-objectives}
+![Campos de porcentaje de protección, gestión, restauración y reverdecimiento urbano resaltados en rojo](images/editing-analysis-03.png){#fig-setting-objectives}
 <figcaption>Figura 8. Establecer objetivos</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ Pasos:
     Aumentar el factor de penalización de los límites desde 0 dará lugar a tiempos de resolución más largos; en algunos casos, estos pueden ser mucho más largos.  
 
 <figure markdown>
-![](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Campo del factor de penalización de los límites, con valor 0, resaltado al pie de la ventana](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption>Figura 9. Ajuste del factor de penalización de los límites</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Para que los usuarios puedan tomar la decisión más informada posible, se enume
 Para obtener una lista completa de los datos de entrada, así como de las Metas del MMB-KM para los que se utilizan, consulte el [anexo 2](13_annex2.md).
 
 <figure markdown>
-![](images/editing-analysis-05.png){#fig-edit-weights}
+![Pestaña «ESTABLECER PONDERACIONES DE CARACTERÍSTICAS» con características de planificación, tema, objetivo político y ponderación](images/editing-analysis-05.png){#fig-edit-weights}
 <figcaption>Figura 10. Edición de ponderaciones</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ Si desea ver las características de planificación antes de establecer las pond
 Para ver las características de planificación, haga clic en la opción «CAPAS DE ENTRADA» junto a la opción «ANÁLISIS EJECUTADOS» en la pestaña de herramientas de la izquierda. A continuación, puede alternar entre capas de entrada específicas para verlas en UNBL.   
 
 <figure markdown>
-![](images/editing-analysis-06.png)
+![Pestaña «CAPAS DE ENTRADA», botón de minimizar y botón de activación View on Map resaltados sobre un mapa de Cuba](images/editing-analysis-06.png)
 <figcaption> Figura 11. Visualización de zonas de acción y características de planificación en el UNBL</figcaption>
 </figure>
 
@@ -132,6 +132,6 @@ Pasos:
 * Tiene la opción de ver información adicional (descripción de la capa, capas de entrada originales, fuente) para las capas actualmente activadas haciendo clic en el icono redondo «i» en la leyenda de la capa individual o junto al botón de activación de cada capa. 
 
 <figure markdown>
-![](images/editing-analysis-07.png)
+![Ventana de descripción de Urban Greening Zone abierta desde el icono i de la lista o de la leyenda](images/editing-analysis-07.png)
 <figcaption> Figura 12. Visualización de metadatos</figcaption>
 </figure>

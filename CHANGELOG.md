@@ -10,7 +10,22 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
 
 ## [Unreleased]
 
+### Content
+- What's new page (all five languages); data storage info sheet added to the Workspaces
+  menu; partner logos on the translated home pages (#40).
+- Alt text for every image (about 150 per language, 710 in all), describing what each
+  screenshot shows for its step, in the page's language. Icons have consistent names
+  ("Information", "More options (three dots)", …). Missing alt text now fails the PR check.
+- 2026 H1 English updates (#34): embedded tutorial videos on most public platform pages
+  (all five languages); new Protected Connected Index, Coastal Eutrophication and marine
+  metrics; clip and export now downloads GeoJSON boundaries; ELSA guide uses
+  "area-based targets" instead of "constraints", with new screenshots; workspace guide
+  chapters 1–6 updated. Translations of the text changes are pending.
+
 ### Site and tooling
+- "Last updated" date on every page, acronym tooltips in the reader's language
+  (`includes/abbreviations*.md`), and screenshots shown at full column width instead of
+  50% (#40).
 - Screenshots moved to one folder per section with localized names
   (`creating-analysis-05.png` + `creating-analysis-05.fr.png`); every language now uses
   the same image references and falls back to English automatically.
@@ -19,15 +34,6 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
   over 1 MB.
 - `check_docs.py` checks the image convention, flags unused images, and fails PRs that
   add images over 1 MB.
-
-### Content
-- 2026 H1 English updates (#34): embedded tutorial videos on every public platform page
-  (all five languages); new Protected Connected Index, Coastal Eutrophication and marine
-  metrics; clip and export now downloads GeoJSON boundaries; ELSA guide uses
-  "area-based targets" instead of "constraints", with new screenshots; workspace guide
-  chapters 1–6 updated. Translations of the text changes are pending.
-
-### Site and tooling
 - Added `CLAUDE.md` and shared Claude Code configuration (`.claude/`): project
   instructions, the `/add-page`, `/translate`, `/translation-status`, `/review-page` and
   `/document-feature` skills, a `translation-reviewer` agent, permissions that prevent

@@ -24,4 +24,4 @@ Pour rechercher une zone d'intérêt, vous pouvez soit :
 
 2. Cliquez sur l'icône ENDROITS, cliquez pour développer la boîte de filtres et sélectionnez le filtre qui vous intéresse. Vous pouvez ensuite sélectionner le lieu souhaité dans la liste des résultats de recherche.
 
-![](images/find-country-01.png)
+![Onglet ENDROITS avec le champ de recherche, les filtres et les options de type de lieu mis en évidence](images/find-country-01.png)

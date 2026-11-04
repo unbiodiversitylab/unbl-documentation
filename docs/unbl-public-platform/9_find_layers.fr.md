@@ -31,17 +31,17 @@ Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de donn�
 
 	b) Cliquez pour développer les filtres afin d'afficher et de sélectionner les catégories de jeux de données qui vous intéressent. Vous pouvez ensuite sélectionner le jeu de données souhaité dans la liste des résultats de recherche.
 
-	![](images/find-layers-01.png)
+	![Onglet DATASETS avec le champ de recherche, les filtres développés et les cases des catégories d'ensembles de données](images/find-layers-01.png)
 
 	**OU**
 
 	c) Cliquez pour développer les balises des ensembles de données et sélectionnez la balise qui vous intéresse. Vous pouvez ensuite sélectionner l'ensemble de données souhaité dans la liste.
 
-	![](images/find-layers-02.png)
-	![](images/find-layers-03.png)
+	![Flèche des filtres et menu déroulant des balises d'ensembles de données mis en évidence, avec la liste des balises](images/find-layers-02.png)
+	![Filtres avec la balise CongoPeat et la catégorie Agriculture sélectionnées et mises en évidence](images/find-layers-03.png)
 
 4. Cliquez sur le bouton à bascule situé à droite du nom de l'ensemble de données pour charger cet ensemble de données sur la carte.
 
 5. Cliquez à nouveau sur le bouton bascule, ou cliquez sur l'icône X dans les informations sur l'ensemble de données pour supprimer cet ensemble de données.
 
-	![](images/find-layers-04.png)
+	![Global Forest Cover activé, avec les filtres, le bouton à bascule et l'icône X de la légende mis en évidence](images/find-layers-04.png)

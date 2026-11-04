@@ -24,9 +24,9 @@ Para ello:
 
 1. Haga clic en el botón «LUGARES» y seleccione los lugares de su interés.
 
-2. Haga clic en el icono ![](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} situado a la derecha del nombre del país y seleccione «Descargar GeoJSON» para descargar el archivo de límites de la zona que le interese, o haga clic en «Recortar y exportar capas» si desea recortar y descargar un conjunto de datos específico. Si eliges la segunda opción, sigue los pasos adicionales 3 a 6 que se describen a continuación.
+2. Haga clic en el icono ![Más opciones (tres puntos)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} situado a la derecha del nombre del país y seleccione «Descargar GeoJSON» para descargar el archivo de límites de la zona que le interese, o haga clic en «Recortar y exportar capas» si desea recortar y descargar un conjunto de datos específico. Si eliges la segunda opción, sigue los pasos adicionales 3 a 6 que se describen a continuación.
 
-	![](images/clip-export-01.png)
+	![Menú del lugar Colombia abierto, con «Recortar y exportar capas» y «Descargar GeoJSON»](images/clip-export-01.png)
 
 3. Escriba el nombre o seleccione los datos que desea descargar. Si los datos contienen capas de varios años, seleccione el año que desea descargar. Tiene la opción de descargar las capas recortadas en formato ráster GeoTIFF o en formato de archivo de imagen PNG.
 
@@ -39,7 +39,7 @@ Para ello:
 	!!!Note
 		Si descarga GeoTIFFs, se trata de datos sin procesar y no incluirán información de estilo.
 
-	![](images/clip-export-02.png)
+	![Panel de recorte y exportación con la selección de capa, el formato PNG o GeoTIFF y «Descargar» resaltados](images/clip-export-02.png)
 	
 5. Acceda al archivo comprimido .zip descargado en su carpeta de descargas una vez completada la descarga.
 

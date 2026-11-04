@@ -9,7 +9,7 @@ Pour créer une carte d'action indiquant les zones prioritaires pour la mise en 
 Une fois que vous avez nommé votre analyse, défini les contraintes basées sur la zone, verrouillé les fonctionnalités, défini un facteur de pénalité de limite et modifié les pondérations des caractéristiques de planification, l'analyse est prête à être exécutée. Pour ce faire, cliquez sur le bouton bleu « EXÉCUTER L'ANALYSE » dans le coin inférieur droit de la fenêtre contextuelle de l'analyse. Notez que ce bouton ne sera disponible pour cliquer et exécuter qu'une fois que tous les paramètres pertinents auront été renseignés.
 
 <figure markdown>
-![](images/running-optimization-01.png)
+![Onglet « SET FEATURE WEIGHTS » avec une flèche pointant vers le bouton « EXÉCUTER L'ANALYSE »](images/running-optimization-01.png)
 <figcaption>Figure 13. Exécuter l'analyse</figcaption>
 </figure>
 
@@ -20,6 +20,6 @@ L'analyse peut prendre entre une et cinq minutes. Cependant, si le pays est gran
 Les chapitres suivants détaillent comment vous pouvez consulter, évaluer et analyser les résultats de votre analyse ELSA. Si vous souhaitez modifier les paramètres de votre analyse et exécuter une nouvelle analyse après avoir évalué les résultats, vous pouvez dupliquer une analyse précédente, la modifier et créer une nouvelle version.
 
 <figure markdown>
-![](images/running-optimization-02.png)
+![Nouvelle entrée dans la liste « ANALYSIS RUNS » avec une barre de progression et le statut RUNNING](images/running-optimization-02.png)
 <figcaption>Figure 14. Analyse ELSA en temps réel</figcaption>
 </figure>

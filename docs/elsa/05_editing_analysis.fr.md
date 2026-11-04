@@ -32,7 +32,7 @@ Verrouillage des aires protégées ([Figure 6](#fig-lockin-options)) :
 - Sélectionnez « Ne rien verrouiller » si vous souhaitez évaluer de manière indépendante l'emplacement optimal des aires protégées existantes et nouvelles dans votre pays en fonction des zones « Protéger » sélectionnées dans la carte d'action résultante.
 
 <figure markdown>
-![](images/editing-analysis-01.png){#fig-lockin-options}
+![Fenêtre de nouvelle analyse avec les options de verrouillage des aires protégées encadrées](images/editing-analysis-01.png){#fig-lockin-options}
 <figcaption>Figure 6. Fonctionnalités de verrouillage</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Comme le montre la [Figure 6](#fig-lockin-options) pour Cuba, les aires protég�
 Les utilisateurs ne peuvent pas définir eux-mêmes les zones, mais pour certaines actions, il peut y avoir à la fois une zone par défaut et une zone alternative qui peuvent être sélectionnées. Par exemple, certains outils peuvent offrir la possibilité de ne prendre en compte que les « zones agricoles » pour l'action de gestion, ou que les « zones forestières » pour l'action de restauration, en fonction des besoins et des priorités individuels des utilisateurs et des pays.
 
 <figure markdown>
-![](images/editing-analysis-02.png){#fig-alt-zone-options}
+![Fenêtre de nouvelle analyse avec les options de zones alternatives de gestion et de restauration encadrées](images/editing-analysis-02.png){#fig-alt-zone-options}
 <figcaption>Figure 7. Zones alternatives pour réduire les zones d'activité fondées sur la nature</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ Vous pouvez définir n'importe quelle valeur supérieure ou égale à 0,001 pour
 Vous devez également tenir compte du fait que si vous souhaitez verrouiller les aires protégées existantes (par défaut), la contrainte globale de la zone de protection doit être égale ou supérieure à la superficie couverte par les aires protégées existantes. Par exemple, la superficie couverte par les aires protégées existantes au Kazakhstan est de 17,08%. Par conséquent, la contrainte de la zone de protection doit être égale ou supérieure à 17,08%.
 
 <figure markdown>
-![](images/editing-analysis-03.png){#fig-setting-objectives}
+![Champs de pourcentage de protection, gestion, restauration et verdissement urbain encadrés en rouge](images/editing-analysis-03.png){#fig-setting-objectives}
 <figcaption>Figure 8. Définition des objectifs</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Le facteur de pénalité de limites est utilisé pour favoriser la cohésion spa
     L'augmentation du facteur de pénalité de limite à partir de 0 entraînera des temps de résolution plus longs ; dans certains cas, ceux-ci peuvent être beaucoup plus longs.
 
 <figure markdown>
-![](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Champ du facteur de pénalité de limite, réglé sur 0, encadré en bas de la fenêtre](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption>Figure 9. Ajustement du facteur de pénalité de limite</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ Afin de permettre aux utilisateurs de prendre la décision la plus éclairée po
 Pour obtenir la liste complète des données d'entrée, ainsi que les cibles KMGBF pour lesquelles elles sont utilisées, veuillez consulter l'[Annexe 2](13_annex2.md).
 
 <figure markdown>
-![](images/editing-analysis-05.png){#fig-edit-weights}
+![Onglet « SET FEATURE WEIGHTS » listant les caractéristiques de planification avec thème, objectif politique et pondération](images/editing-analysis-05.png){#fig-edit-weights}
 <figcaption>Figure 10. Modification des pondérations</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Si vous souhaitez afficher les fonctionnalités de planification avant de défin
 Pour afficher les fonctionnalités de planification, cliquez sur l'option « INPUT LAYERS » (COUCHES D'ENTRÉE) à côté de l'option « ANALYSIS RUNS » (EXÉCUTIONS D'ANALYSE) dans l'onglet d'outils de gauche. Vous pouvez ensuite basculer entre les couches d'entrée spécifiques pour les afficher dans le UNBL.
 
 <figure markdown>
-![](images/editing-analysis-06.png)
+![Onglet « INPUT LAYERS », bouton de réduction et bouton d'activation View on Map encadrés sur une carte de Cuba](images/editing-analysis-06.png)
 <figcaption>Figure 11. Affichage des zones d'action et des fonctionnalités de planification sur le UNBL</figcaption>
 </figure>
 
@@ -130,6 +130,6 @@ En cliquant sur l'onglet « INPUT LAYERS » (COUCHES D'ENTRÉE), vous pouvez aff
 3. Vous avez la possibilité d'afficher des informations supplémentaires (description de la couche, couches d'entrée d'origine, source) pour les couches actuellement activées en cliquant sur l'icône ronde « **i** » dans la légende de chaque couche ou à côté du bouton d'activation de chaque couche.
 
 <figure markdown>
-![](images/editing-analysis-07.png)
+![Fenêtre de description de Urban Greening Zone ouverte depuis l'icône i de la liste ou de la légende](images/editing-analysis-07.png)
 <figcaption>Figure 12. Affichage des métadonnées</figcaption>
 </figure>

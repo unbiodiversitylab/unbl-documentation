@@ -21,8 +21,8 @@ Navigating between the two pages is simple:
 	!!! Note
 		If you are registered on UNBL and own a workspace, please click on 'WORKSPACES' in the left-side tool bar and then on 'HOME'.
 
-	![](images/navigate-01.png)
+	![MAP VIEW menu open over the map with 'Home' highlighted](images/navigate-01.png)
 	
 2. To navigate to the map app from the UN Biodiversity Lab website, click on 'Launch map'.
 
-	![](images/navigate-02.png)
+	![UNBL website home page with the 'Launch map' button highlighted](images/navigate-02.png)

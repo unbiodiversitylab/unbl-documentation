@@ -26,11 +26,11 @@ Para visualizar conjuntos de datos de series temporales:
 
 	a) *Solo animación:* Haga clic en el icono de reproducción situado a la izquierda para ver la animación de los cambios a lo largo de este periodo de tiempo. Seleccione una fecha concreta (año, mes o día) que desee mostrar en el mapa haciendo clic directamente en la barra de la línea de tiempo. Para visualizar un intervalo de tiempo personalizado, seleccione una fecha concreta directamente en la barra de la línea de tiempo y, a continuación, haga clic en el icono de reproducción para ver los cambios a lo largo de este periodo de tiempo.
 	
-	![](images/time-series-data-01.png)
+	![Leyenda de Tree Cover Loss con el botón de reproducción y la barra de la línea de tiempo resaltados](images/time-series-data-01.png)
 	
 	**O**
 	
 	b) *Menú desplegable:* seleccione un año específico que desee mostrar en el mapa eligiéndolo entre las capas disponibles en el menú desplegable de la leyenda. Con esta opción solo se puede visualizar una capa de un único periodo de tiempo.
 
-	![](images/time-series-data-02.png)
-	![](images/time-series-data-extra-03.es.png)
+	![Menú desplegable de la leyenda con los años del Biodiversity Intactness Index, resaltado sobre el mapa](images/time-series-data-02.png)
+	![Menú desplegable de años con las capas del Índice de Intactitud de Biodiversidad de 2000 a 2015](images/time-series-data-extra-03.es.png)

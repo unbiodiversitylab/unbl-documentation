@@ -32,7 +32,7 @@ Lock-in of Protected Areas ([Figure 6](#fig-lockin-options)):
 * Select ‘Lock-in nothing’ if you wish to independently assess the optimal location of existing and new Protected Areas in your country based on the ‘Protect’ areas selected in the resulting action map. 
 
 <figure markdown>
-![](images/editing-analysis-01.png){#fig-lockin-options}
+![New analysis run window with the protected area lock-in options highlighted](images/editing-analysis-01.png){#fig-lockin-options}
 <figcaption> Figure 6. Lock-in functionalities</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ As seen in [Figure 6](#fig-lockin-options) for Cuba, existing Protected Areas co
 Users cannot define zones themselves, but for some actions, there may be both a default zone and an alternative zone that can be selected. For example, some tools may have an option to consider "Agricultural areas only" for the manage action, or “Forested areas only” for the restore action, based on the individual needs and priorities of users and countries. 
 
 <figure markdown>
-![](images/editing-analysis-02.png){#fig-alt-zone-options}
+![New analysis run window with alternative manage and restore zone options highlighted](images/editing-analysis-02.png){#fig-alt-zone-options}
 <figcaption> Figure 7. Alternative zones for narrowing down nature-based activity areas</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ You can set any value greater than or equal to 0.001 for protection, restoration
 You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area-based target must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area-based target should be equal to or greater than 17.08%.
 
 <figure markdown>
-![](images/editing-analysis-03.png){#fig-setting-objectives}
+![Protect, Manage, Restore and Urban Greening budget percentage fields highlighted in red](images/editing-analysis-03.png){#fig-setting-objectives}
 <figcaption> Figure 8. Setting objectives</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Steps:
     Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. 
 
 <figure markdown>
-![](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Boundary penalty factor field, set to 0, highlighted at the bottom of the window](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption> Figure 9. Adjustment of the boundary penalty factor</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ To allow users to make the most informed decision possible, the theme (biodivers
 For a full list of input data, as well as which KMGBF targets they are used to map, please see [Annex 2](13_annex2.md).
 
 <figure markdown>
-![](images/editing-analysis-05.png){#fig-edit-weights}
+![SET FEATURE WEIGHTS tab listing planning features with theme, policy target and weight](images/editing-analysis-05.png){#fig-edit-weights}
 <figcaption> Figure 10. Editing weights</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ If you want to view planning features before setting weights, you can either:
 - Exit the pop-up window by clicking ‘SAVE FOR LATER’ in the bottom-right corner (you can come back to your saved draft analysis run after viewing the desired planning features), then click on the ‘INPUT LAYERS’ option next to the ‘ANALYSIS RUNS’ option in the left tool tab. Click on the toggle button to view specific layers.
 
 <figure markdown>
-![](images/editing-analysis-06.png)
+![INPUT LAYERS tab, minimize button and View on Map toggle highlighted over a Cuba map](images/editing-analysis-06.png)
 <figcaption> Figure 11. Viewing action zones and planning features on UNBL</figcaption>
 </figure>
 
@@ -132,6 +132,6 @@ In sum:
 * You have the option to view additional information (description of the layer, original input layers, source) for currently toggled layers by clicking on the round ‘**i**’ icon either in the individual layer’s legend or next to the toggle button for each layer. 
 
 <figure markdown>
-![](images/editing-analysis-07.png)
+![Urban Greening Zone description window opened from the i icon in the list or legend](images/editing-analysis-07.png)
 <figcaption>Figure 12. Viewing metadata</figcaption>
 </figure>

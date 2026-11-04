@@ -6,6 +6,6 @@ Una vez que haya seleccionado una herramienta ELSA específica en el menú despl
     Los usuarios no pueden crear ni editar configuraciones de la herramienta ELSA. Solo pueden crear o editar ejecuciones de análisis dentro de una configuración de la herramienta ELSA. Para solicitar una configuración de la herramienta ELSA para un país específico, póngase en contacto con <support@unbiodiversitylab.org>.
 
 <figure markdown>
-![](images/creating-analysis-01.png){#fig-create-new-analysis}
+![Pestaña «ANÁLISIS» con una configuración de herramienta desplegada que muestra el botón «NUEVA EJECUCIÓN DE ANÁLISIS»](images/creating-analysis-01.png){#fig-create-new-analysis}
 <figcaption> Figure 5. Crear una nueva ejecución de análisis</figcaption>
 </figure>

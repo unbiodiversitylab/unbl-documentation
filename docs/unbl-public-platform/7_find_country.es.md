@@ -24,4 +24,4 @@ Para buscar un área de interés, puede:
 
 2. Haga clic en el icono «LUGARES»; luego haga clic para expandir el cuadro de filtros y seleccionar el filtro que le interese. A continuación, puede seleccionar el lugar deseado en la lista de resultados de búsqueda.
 
-![](images/find-country-01.png)
+![Pestaña «LUGARES» con el cuadro de búsqueda, los filtros y las opciones de tipo de lugar resaltados](images/find-country-01.png)

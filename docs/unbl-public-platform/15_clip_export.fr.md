@@ -24,9 +24,9 @@ Pour ce faire :
 
 1. Cliquez sur le bouton ENDROITS et sélectionnez les lieux qui vous intéressent.
 
-2. Cliquez sur l'icône ![](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} située à droite du nom du pays, puis cliquez sur « Télécharger GeoJSON » pour télécharger le fichier des limites de la zone qui vous intéresse, ou cliquez sur « Découper et exporter les couches » si vous souhaitez découper et télécharger un ensemble de données spécifique. Si vous choisissez cette dernière option, suivez les étapes supplémentaires 3 à 6 décrites ci-dessous.
+2. Cliquez sur l'icône ![Plus d'options (trois points)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} située à droite du nom du pays, puis cliquez sur « Télécharger GeoJSON » pour télécharger le fichier des limites de la zone qui vous intéresse, ou cliquez sur « Découper et exporter les couches » si vous souhaitez découper et télécharger un ensemble de données spécifique. Si vous choisissez cette dernière option, suivez les étapes supplémentaires 3 à 6 décrites ci-dessous.
 
-	![](images/clip-export-01.png)
+	![Menu du lieu Colombie ouvert, avec « Découper et exporter les couches » et « Télécharger GeoJSON »](images/clip-export-01.png)
 
 3. Saisissez le nom ou sélectionnez les données que vous souhaitez télécharger. Si les données contiennent des couches couvrant plusieurs années, sélectionnez l'année que vous souhaitez télécharger. Vous avez la possibilité de télécharger les couches découpées au format raster GeoTIFF ou au format de fichier image PNG.
 
@@ -39,7 +39,7 @@ Pour ce faire :
 	!!! Note
 		Si vous téléchargez des fichiers GeoTIFF, il s'agit de données brutes qui ne contiennent pas d'informations de style.
 
-	![](images/clip-export-02.png)
+	![Panneau de découpage et d'exportation avec la sélection de couche, le format PNG ou GeoTIFF et Télécharger mis en évidence](images/clip-export-02.png)
 
 5. Une fois le téléchargement terminé, accédez au fichier compressé .zip dans votre dossier de téléchargements.
 

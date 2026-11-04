@@ -44,7 +44,7 @@
 
 2.	Нажмите появившуюся кнопку «CREATE NEW METRIC».
 
-	![](images/custom-metrics-01.png)
+	![Пункт Metrics в выпадающем меню администрирования с выделенной кнопкой CREATE NEW METRIC](images/custom-metrics-01.png)
 
 3.	На странице новой метрики заполните следующую информацию:
 
@@ -60,7 +60,7 @@
 
 	f)	После указания всех параметров кнопка «SAVE AND VIEW DETAILS» выделится синим цветом при условии, что все введённые данные корректны. Нажмите эту кнопку, чтобы настроить метрику в рабочем пространстве.
 
-	![](images/custom-metrics-02.png)
+	![Страница новой метрики с заполненными названием, слагом, слоем-источником данных и интервалами гистограммы](images/custom-metrics-02.png)
 
 4. На появившейся странице редактирования метрики включите переключатель «Published», чтобы опубликовать метрику.
 
@@ -72,7 +72,7 @@
 
 2.	Нажмите появившуюся кнопку «CREATE NEW WIDGET».
 
-	![](images/custom-metrics-03.png)
+	![Пункт Widgets в выпадающем меню администрирования с выделенной кнопкой CREATE NEW WIDGET](images/custom-metrics-03.png)
 
 3. На странице нового виджета заполните следующую информацию:
 
@@ -100,13 +100,13 @@
     <tbody>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Один слой</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Гистограмма<br>![](images/custom-metrics-04.png){ width="350" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Круговая диаграмма<br>![](images/custom-metrics-05.png){ width="250" style="display:inline-block"}<br>Столбчатая диаграмма<br>![](images/custom-metrics-06.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Гистограмма<br>![Пример гистограммы площади по процентам целостности биоразнообразия в Бутане](images/custom-metrics-04.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Круговая диаграмма<br>![Пример круговой диаграммы категорий растительного покрова в процентах от площади Бутана](images/custom-metrics-05.png){ width="250" style="display:inline-block"}<br>Столбчатая диаграмма<br>![Пример столбчатой диаграммы площади обезлесения в Эквадоре по периодам](images/custom-metrics-06.png){ width="250" style="display:inline-block"}</td>
       </tr>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Временной ряд</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Линейный график<br>![](images/custom-metrics-07.png){ width="250" style="display:inline-block"}<br>Диаграмма с областями<br>![](images/custom-metrics-08.png){ width="250" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Диаграмма с областями<br>![](images/custom-metrics-09.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Линейный график<br>![Пример линейного графика средней продуктивности растительности в Бутане с 2001 по 2025 год](images/custom-metrics-07.png){ width="250" style="display:inline-block"}<br>Диаграмма с областями<br>![Пример диаграммы с областями для классов экологической целостности в Бутане с 2000 по 2013 год](images/custom-metrics-08.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Диаграмма с областями<br>![Пример диаграммы с областями для категорий растительного покрова в Бутане с 1992 по 2022 год](images/custom-metrics-09.png){ width="350" style="display:inline-block"}</td>
       </tr>
     </tbody>
 	</table>
@@ -122,11 +122,11 @@
 
 	f)i)	*Widget summary (optional)*: Создаёт сводку ключевых статистических показателей метрики, которая будет отображаться виджетом. Список доступных полей сводки предоставляет параметры, которые можно использовать в тексте сводки. Пример сводки виджета для метрики временного ряда с тремя слоями, показывающими Индекс антропогенной трансформации за три периода, показан ниже.
 
-	![](images/custom-metrics-10.png)
+	![Настройки виджета с тремя слоями временного ряда и сводкой с доступными полями сводки](images/custom-metrics-10.png)
 
 	Когда эта метрика и связанный с ней виджет активны на UNBL, поля сводки в тексте автоматически заполняются необходимыми параметрами, как показано ниже.
 
-	![](images/custom-metrics-11.png){style="width:550px !important" }
+	![Виджет диаграммы с областями для Бутана, где поля сводки заменены названием места и годами](images/custom-metrics-11.png){style="width:550px !important" }
 
 	В качестве альтернативы, сводка виджета для метрики с одним слоем Индекса антропогенной трансформации будет использовать следующие поля:
 
@@ -138,7 +138,7 @@
 
 		"In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022."
 
-	![](images/custom-metrics-12.png){style="width:550px !important" }
+	![Виджет гистограммы для Бутана со сводкой о картографированной площади и среднем показателе HMI](images/custom-metrics-12.png){style="width:550px !important" }
 
 	f)ii) Для метрик, созданных с использованием категориального слоя, доступна дополнительная опция переключателя *Use layer categories*.
 
@@ -150,7 +150,7 @@
 
 	- *Values*: Уникальное(ые) число(а) в исходном слое данных, обозначающее(ие) настроенную категорию. Пользователь может указать несколько чисел для одной категории.
 
-	![](images/custom-metrics-13.png)
+	![Переключатель Use layer categories выключен, с пользовательскими подписями, цветами и значениями категорий](images/custom-metrics-13.png)
 
 	g)	*X-Axis Label (optional)*: Для типов метрик с гистограммой, линейным графиком или диаграммой с областями можно указать подпись оси X. Подпись должна соответствовать отображаемой переменной данных. Поле необязательное.
 
@@ -158,7 +158,7 @@
 
 	i)	После указания всех параметров кнопка «SAVE AND VIEW DETAILS» выделится синим цветом при условии, что все введённые данные корректны. Нажмите эту кнопку, чтобы создать виджет.
 
-	![](images/custom-metrics-14.png)
+	![Заполненная страница New Widget с указанным X-Axis Label и кнопкой SAVE AND VIEW DETAILS](images/custom-metrics-14.png)
 
 4. На появившейся странице редактирования виджета включите переключатель «Published», чтобы опубликовать виджет.
 
@@ -170,7 +170,7 @@
 
 2.	Нажмите появившуюся кнопку «CREATE NEW DASHBOARD».
 
-	![](images/custom-metrics-15.png)
+	![Пункт Dashboards в выпадающем меню администрирования с выделенной кнопкой CREATE NEW DASHBOARD](images/custom-metrics-15.png)
 
 3. На странице нового дашборда заполните следующую информацию:
 
@@ -184,7 +184,7 @@
 
 	e)	После указания всех параметров кнопка «SAVE AND VIEW DETAILS» выделится синим цветом при условии, что все введённые данные корректны. Нажмите эту кнопку, чтобы создать дашборд.
 
-	![](images/custom-metrics-16.png)
+	![Страница нового дашборда с заполненными названием, слагом, описанием и одним включенным виджетом](images/custom-metrics-16.png)
 
 4. На появившейся странице редактирования дашборда включите переключатель «Published», чтобы опубликовать дашборд.
 
@@ -197,19 +197,19 @@
 
 1. В представлении карты UNBL убедитесь, что ваше рабочее пространство включено.
 
-	![](images/custom-metrics-17.png){style="width:600px !important" }
+	![Меню рабочих пространств в представлении карты с включенным и выделенным переключателем рабочего пространства](images/custom-metrics-17.png){style="width:600px !important" }
 
 2. Выберите место для просмотра пользовательских метрик на вкладке «PLACES».
 
-	![](images/custom-metrics-18.png){style="width:400px !important" }
+	![Поиск Бутана на вкладке PLACES с фильтром по типу места Country](images/custom-metrics-18.png){style="width:400px !important" }
 
 3. Если наряду с вашим рабочим пространством активированы публичная платформа UNBL и/или другие рабочие пространства, возможно, потребуется выбрать дашборд с вашими пользовательскими метриками. В этом случае появится выпадающее меню со списком дашбордов и связанных рабочих пространств. Выберите свой дашборд из выпадающего меню.
 
 	!!! note
 		Если пользовательские метрики в вашем дашборде не перекрываются с активированным местом, ваш дашборд не появится в выпадающем меню.
 
-	![](images/custom-metrics-19.png){style="width:400px !important" }
+	![Выпадающее меню Dashboard для Бутана со списком доступных дашбордов и их рабочих пространств](images/custom-metrics-19.png){style="width:400px !important" }
 
 4. Теперь вы можете просматривать пользовательские метрики, настроенные для выбранного слоя GeoTIFF и места. Все функциональные возможности динамических метрик UNBL по умолчанию доступны и для пользовательских метрик, включая переключение связанного слоя, просмотр информации и загрузку данных метрики в форматах .csv, .tsv и .json.
 
-	![](images/custom-metrics-20.png)
+	![Гистограмма пользовательской метрики для Бутана рядом с ее слоем Human Modification Index на карте](images/custom-metrics-20.png)

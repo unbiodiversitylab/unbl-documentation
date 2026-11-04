@@ -22,7 +22,7 @@ Le UN Biodiversity Lab est certifié comme plateforme Digital Public Good (DPG) 
 
 3. Dans les filtres, cliquez pour développer les balises des ensembles de données. Sélectionnez ensuite « Données ouvertes DPG ».
 
-	![](images/find-dpg-layers-01.png)
+	![Menu déroulant des balises ouvert avec la balise « Données ouvertes DPG » mise en évidence](images/find-dpg-layers-01.png)
 
 4. Réduisez la liste FILTRES et affichez la liste des données ouvertes DPG sur UNBL.
 
@@ -30,4 +30,4 @@ Le UN Biodiversity Lab est certifié comme plateforme Digital Public Good (DPG) 
 
 6. Cliquez à nouveau sur le bouton bascule, ou cliquez sur l'icône X dans la légende pour supprimer cet ensemble de données.
 
-	![](images/find-dpg-layers-02.png)
+	![Couche Crop Suitability sur la Colombie avec le filtre « Données ouvertes DPG » et l'icône X de la légende mis en évidence](images/find-dpg-layers-02.png)

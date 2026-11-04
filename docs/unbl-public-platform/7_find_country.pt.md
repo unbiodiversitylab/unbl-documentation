@@ -24,4 +24,4 @@ Para pesquisar uma área de interesse, você pode:
 
 2. Clicar no ícone 'LOCAIS', clicar para expandir a caixa de filtros e selecionar seu filtro de interesse. Em seguida, você pode selecionar o local desejado na lista de resultados da pesquisa.
 
-![](images/find-country-01.png)
+![Aba 'LOCAIS' com a caixa de pesquisa, os filtros e as opções de tipo de local destacados](images/find-country-01.png)

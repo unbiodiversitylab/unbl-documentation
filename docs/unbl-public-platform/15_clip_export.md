@@ -24,9 +24,9 @@ To do this:
 
 1.	Click on the 'PLACES' button and select your places of interest.
 
-2.	Click on the ![](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} icon to the right of the country’s name and click on 'Download GeoJSON' to download the boundary file for your area of interest, or click on 'Clip and Export Layers' if you want to clip and download a specific dataset. If picking the latter option, follow the additional steps 3 - 6 outlined below.
+2.	Click on the ![More options (three dots)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} icon to the right of the country’s name and click on 'Download GeoJSON' to download the boundary file for your area of interest, or click on 'Clip and Export Layers' if you want to clip and download a specific dataset. If picking the latter option, follow the additional steps 3 - 6 outlined below.
 
-	![](images/clip-export-01.png)
+	![Colombia place menu open, showing 'Clip and Export Layers' and 'Download GeoJSON'](images/clip-export-01.png)
 
 3.  Type the name or select the data you want to download. If the data contains layers of multiple years, select the year you want to download. You have the option of downloading clipped layers in a GeoTIFF raster format or a PNG image file format.
 
@@ -39,7 +39,7 @@ To do this:
 	!!!Note
 		If you are downloading GeoTIFFs, this is raw data and will not include styling information.
 
-	![](images/clip-export-02.png)
+	![Clip and export panel with layer selection, PNG or GeoTIFF format and DOWNLOAD highlighted](images/clip-export-02.png)
 	
 5.	Access the downloaded .zip compressed file in your downloads folder once the download is complete. 
 
