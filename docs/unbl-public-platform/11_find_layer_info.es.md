@@ -16,6 +16,6 @@
 
 1. Seleccione el conjunto de datos y cárguelo en el mapa.
 
-2. En la esquina inferior izquierda de la vista del mapa, habrá una leyenda que muestra el nombre y la simbología de todos los conjuntos de datos actualmente activados en el mapa. Haga clic en el ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icono para ver la información del conjunto de datos. También puede hacer clic en el mismo ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icono situado junto al botón de activación de cada conjunto de datos en la pestaña de búsqueda de conjuntos de datos. La información proporciona una descripción del conjunto de datos, la organización de origen, citas y enlaces para descargar los datos.
+2. En la esquina inferior izquierda de la vista del mapa, habrá una leyenda que muestra el nombre y la simbología de todos los conjuntos de datos actualmente activados en el mapa. Haga clic en el ![Información](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icono para ver la información del conjunto de datos. También puede hacer clic en el mismo ![Información](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icono situado junto al botón de activación de cada conjunto de datos en la pestaña de búsqueda de conjuntos de datos. La información proporciona una descripción del conjunto de datos, la organización de origen, citas y enlaces para descargar los datos.
 
-![](images/find-layer-info-01.png)
+![Ventana de información de Crop Suitability abierta desde la leyenda, con «MÁS INFORMACIÓN» y las fuentes resaltadas](images/find-layer-info-01.png)

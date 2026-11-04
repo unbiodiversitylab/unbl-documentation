@@ -150,9 +150,11 @@ native speaker reviews them.
 | `--hook` | used by the Claude Code Stop hook; reads JSON on stdin |
 
 **Errors** (fail CI): a missing translation file, a nav title without a translation, a
-nav entry to a missing page, a broken internal link or image.
-**Warnings** (never fail): missing alt text, spaces in image names, images over budget,
-pages not in the nav, admonition typos, English changed without its translations.
+nav entry to a missing page, a broken internal link or image, an image without alt text,
+an image file name with spaces, a newly added image over 1 MB.
+**Warnings** (never fail): older images over budget, pages not in the nav, admonition
+typos, English changed without its translations, translations whose screenshots differ
+from English, unused images.
 
 ---
 
@@ -165,8 +167,8 @@ avoid conflicts)
 
 - ~~Shrink media~~ Done: unused GIFs deleted, screenshots resized and compressed, site
   396 MB → 84 MB, oversized new images fail the PR check.
-- Write alt text for the ~700 existing images (Claude drafts it from the screenshots,
-  then it's translated), for accessibility.
+- ~~Alt text~~ Done: every image has alt text in its page's language; missing alt text
+  now fails the PR check.
 - ~~Rename images~~ Done: localized-asset convention (`image.png` + `image.fr.png`).
 - Consider dropping `nav_translations` in favour of each page's translated title, which
   removes ~300 lines from `mkdocs.yml`.

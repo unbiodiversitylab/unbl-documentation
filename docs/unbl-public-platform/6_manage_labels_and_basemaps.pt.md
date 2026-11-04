@@ -22,5 +22,5 @@ Existem várias opções para você personalizar o mapa base. Estas estão dispo
 
 3. *Plano de fundo do mapa*: Oferecemos opções de plano de fundo em escala de cinza e satélite para o mapa. Clique no botão de alternância para ativar o plano de fundo de sua escolha.
 
-![](images/manage-labels-and-basemaps-01.png)
+![Mapa base de satélite com as opções de 'CONTROLES DO MAPA' destacadas: escala de cinza, satélite, rótulos e estradas](images/manage-labels-and-basemaps-01.png)
 

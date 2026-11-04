@@ -31,17 +31,17 @@ Los datos del UN Biodiversity Lab incluyen los mejores conjuntos de datos global
     
     b) Haga clic para expandir los filtros, ver y seleccionar las categorías de conjuntos de datos que le interesen. A continuación, puede seleccionar el conjunto de datos deseado de la lista de resultados de la búsqueda.
 
-	![](images/find-layers-01.png)
+	![Pestaña «CONJUNTOS DE DATOS» con el cuadro de búsqueda, los filtros expandidos y las casillas de categorías de conjuntos de datos](images/find-layers-01.png)
 	
 	**O**
 	
 	c) Haga clic para ampliar las etiquetas del conjunto de datos y seleccione la etiqueta que le interese. A continuación, puede seleccionar el conjunto de datos deseado de la lista.
 	
-	![](images/find-layers-02.png)
-	![](images/find-layers-03.png)
+	![Flecha de los filtros y menú desplegable de etiquetas de conjuntos de datos resaltados, con la lista de etiquetas](images/find-layers-02.png)
+	![Filtros con la etiqueta CongoPeat y la categoría Agricultura seleccionadas y resaltadas](images/find-layers-03.png)
 
 4. Haga clic en el botón de activación situado a la derecha del nombre del conjunto de datos para cargar este conjunto de datos en el mapa.
 
 5. Vuelva a hacer clic en el botón de activación o haga clic en el icono X de la información del conjunto de datos para eliminar este conjunto de datos.
 
-	![](images/find-layers-04.png)
+	![Global Forest Cover activado, con los filtros, el botón de activación y el icono X de la leyenda resaltados](images/find-layers-04.png)

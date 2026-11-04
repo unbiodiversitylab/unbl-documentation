@@ -5,13 +5,13 @@ After running an ELSA analysis, you can view the final action map associated wit
 Similar to the heatmaps, users can zoom in to specific areas using the UNBL interface and toggle satellite imagery as well as other layers available in the workspace/UNBL public platform to evaluate the final results. 
 
 <figure markdown>
-![](images/downloading-results-01.png)
+![ELSA Action layer over satellite imagery, with legend for the four action colours](images/downloading-results-01.png)
 <figcaption>Figure 17. Action map showing priority areas for protection and restoration around Havana</figcaption>
 </figure>
 
 Users can also download resulting action maps and heatmaps in raster format for external use in desktop GIS software. 
 
 <figure markdown>
-![](images/downloading-results-02.png)
+![Analysis run menu with the ELSA Action and heatmap download options highlighted](images/downloading-results-02.png)
 <figcaption>Figure 18. Download resulting analysis maps</figcaption>
 </figure>

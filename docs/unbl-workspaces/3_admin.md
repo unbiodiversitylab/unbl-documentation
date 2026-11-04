@@ -12,7 +12,7 @@ To add and manage users, places, and datasets in your workspace, you need to acc
 
 	>https://map.unbiodiversitylab.org/admin/[YOURWORKSPACESLUGNAME]
 
-![](images/admin-01.png)
+!['WORKSPACES' menu open with the 'ADMIN' button beside each workspace highlighted](images/admin-01.png)
 
 ## What components are available within the admin interface?
 
@@ -24,7 +24,7 @@ To access the various components:
 
 2.	Select the component you would like to view. More information on each component is provided in later sections of this user guide.
 
-![](images/admin-02.png)
+![Admin interface 'Home' dropdown open, listing Users, Places, Layers, Widgets and Dashboards](images/admin-02.png)
 
 
 

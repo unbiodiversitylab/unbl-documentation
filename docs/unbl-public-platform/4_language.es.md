@@ -18,4 +18,4 @@ El UN Biodiversity Lab está disponible actualmente en **inglés**, **francés**
 
 Para cambiar el idioma, haga clic en el icono de la cuenta en la esquina derecha del mapa y vuelva a hacer clic para seleccionar el idioma que prefiera en el menú desplegable. Puede cambiar el idioma tanto en el sitio web del UN Biodiversity Lab como en la aplicación de mapas.
 
-![](images/language-01.png)
+![Menú de la cuenta abierto sobre el mapa con el menú desplegable de idioma resaltado](images/language-01.png)

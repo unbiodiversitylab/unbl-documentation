@@ -26,6 +26,6 @@ La herramienta ELSA utiliza el paquete *prioritizr* en su sistema interno como h
     Las definiciones de la terminología técnica mencionada en la guía se pueden encontrar en el [Anexo 1](12_annex1.md).
 
 <figure markdown>
-![](images/tool-purpose-01.png)
+![Lista de «ANÁLISIS EJECUTADOS» junto a un mapa de acciones de Cuba coloreado por protección, gestión, restauración y reverdecimiento urbano](images/tool-purpose-01.png)
 <figcaption>Figura 1. Interfaz inicial de la herramienta ELSA en el UNBL</figcaption>
 </figure>

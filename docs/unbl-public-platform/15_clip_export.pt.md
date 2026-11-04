@@ -24,9 +24,9 @@ To do this:
 
 1.	Clique no botão 'LOCAIS' e selecione seus locais de interesse.
 
-2.	Clique no ícone ![](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} à direita do nome do país e clique em «Descarregar GeoJSON» para descarregar o ficheiro de limites da sua área de interesse, ou clique em «Recortar e exportar camadas» se pretender recortar e descarregar um conjunto de dados específico. Se escolher a última opção, siga os passos adicionais 3 a 6 descritos abaixo.
+2.	Clique no ícone ![Mais opções (três pontos)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} à direita do nome do país e clique em «Descarregar GeoJSON» para descarregar o ficheiro de limites da sua área de interesse, ou clique em «Recortar e exportar camadas» se pretender recortar e descarregar um conjunto de dados específico. Se escolher a última opção, siga os passos adicionais 3 a 6 descritos abaixo.
 
-	![](images/clip-export-01.png)
+	![Menu do local Colômbia aberto, com 'Recortar e exportar camadas' e 'Descarregar GeoJSON'](images/clip-export-01.png)
 
 3.  Digite o nome ou selecione os dados que você deseja baixar. Se os dados contiverem camadas de múltiplos anos, selecione o ano que você deseja baixar. Você tem a opção de baixar camadas recortadas em formato raster GeoTIFF ou em formato de arquivo de imagem PNG.
 
@@ -39,7 +39,7 @@ To do this:
 	!!!Note
 		Se você estiver baixando GeoTIFFs, estes são dados brutos e não incluirão informações de estilo.
 
-	![](images/clip-export-02.png)
+	![Painel de recorte e exportação com a seleção de camada, o formato PNG ou GeoTIFF e 'baixar' destacados](images/clip-export-02.png)
 
 5.	Acesse o arquivo compactado .zip baixado em sua pasta de downloads assim que o download for concluído.
 

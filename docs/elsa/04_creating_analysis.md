@@ -6,6 +6,6 @@ Once you have selected a specific ELSA Tool from the drop-down in Figure 4, you 
     Users cannot create or edit ELSA Tool configurations. They can only create or edit analysis runs within an ELSA Tool configuration. To request an ELSA Tool configuration for a specific country, please contact <support@unbiodiversitylab.org>.
 
 <figure markdown>
-![](images/creating-analysis-01.png){#fig-create-new-analysis}
+![ANALYSES tab with a tool configuration expanded, showing the NEW ANALYSIS RUN button](images/creating-analysis-01.png){#fig-create-new-analysis}
 <figcaption> Figure 5. Creating a new analysis run</figcaption>
 </figure>

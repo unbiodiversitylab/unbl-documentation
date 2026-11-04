@@ -20,7 +20,7 @@ Uma vez registrado no Laboratório de Biodiversidade da ONU, você poderá geren
 
 1. Clique no ícone da conta com suas iniciais no canto superior direito e, em seguida, clique em 'Perfil'.
 
-	![](images/manage-01.png)
+	![Menu da conta com a opção 'Perfil' destacada](images/manage-01.png)
 
 2. Clique em 'EDITAR' para editar seu nome de usuário, e-mail, país e instituição.
 
@@ -28,10 +28,10 @@ Uma vez registrado no Laboratório de Biodiversidade da ONU, você poderá geren
 
 4. Para sair de qualquer um dos espaços de trabalho do UNBL aos quais você pertence, clique em 'EDITAR' e, em seguida, em 'SAIR DO ESPAÇO DE TRABALHO'. Salve suas alterações.
 
-	![](images/manage-02.png)
+	![Seção de espaços de trabalho em modo de edição com os botões 'SAIR DO ESPAÇO DE TRABALHO' e 'SALVAR' destacados](images/manage-02.png)
 
 5. Se esta conta não estiver mais em uso, você pode clicar em 'EXCLUIR SUA CONTA' na parte inferior desta página. Após excluir a conta, você precisará se inscrever novamente para obter privilégios de usuário registrado no Laboratório de Biodiversidade da ONU.
 
 6. Após salvar suas alterações, clique em 'RETORNAR À VISUALIZAÇÃO DO MAPA'.
 
-	![](images/manage-03.png)
+	![Página da conta com 'EDITAR', 'ENVIAR E-MAIL DE REDEFINIÇÃO', 'EXCLUIR SUA CONTA' e 'RETORNAR À VISUALIZAÇÃO DO MAPA' destacados](images/manage-03.png)

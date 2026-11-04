@@ -31,17 +31,17 @@ Os dados no Laboratório de Biodiversidade da ONU incluem os melhores conjuntos 
 
     b) Clique para expandir os filtros para visualizar e selecionar as categorias de conjuntos de dados de seu interesse. Em seguida, você pode selecionar o conjunto de dados desejado na lista de resultados da pesquisa.
 
-	![](images/find-layers-01.png)
+	![Aba 'CONJUNTOS DE DADOS' com a caixa de pesquisa, os filtros expandidos e as caixas de categorias de conjuntos de dados](images/find-layers-01.png)
 
 	**OU**
 
 	c) Clique para expandir as tags de conjuntos de dados e selecione sua tag de interesse. Em seguida, você pode selecionar o conjunto de dados desejado na lista.
 
-	![](images/find-layers-02.png)
-	![](images/find-layers-03.png)
+	![Seta dos filtros e menu suspenso de tags de conjuntos de dados destacados, com a lista de tags](images/find-layers-02.png)
+	![Filtros com a tag CongoPeat e a categoria Agricultura selecionadas e destacadas](images/find-layers-03.png)
 
 4.	Clique no botão de alternância à direita do nome do conjunto de dados para carregar este conjunto de dados no mapa.
 
 5.	Clique no botão de alternância novamente ou clique no ícone **X** na legenda do conjunto de dados para remover este conjunto de dados.
 
-	![](images/find-layers-04.png)
+	![Global Forest Cover ativado, com os filtros, o botão de alternância e o ícone X da legenda destacados](images/find-layers-04.png)

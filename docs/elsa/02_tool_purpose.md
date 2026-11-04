@@ -26,6 +26,6 @@ The ELSA Tool uses the *prioritizr* package in the back end as a spatial optimiz
     Definitions of technical terminology mentioned in the guidance can be found in [Annex 1](12_annex1.md). 
 
 <figure markdown>
-![](images/tool-purpose-01.png)
+![ANALYSIS RUNS list beside a Cuba action map coloured by the four ELSA actions](images/tool-purpose-01.png)
 <figcaption>Figure 1. Initial interface of the ELSA Tool on UNBL.</figcaption>
 </figure>

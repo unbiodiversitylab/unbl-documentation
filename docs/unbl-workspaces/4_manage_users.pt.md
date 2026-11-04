@@ -27,7 +27,7 @@ Para adicionar utilizadores ao seu espaço de trabalho:
 	!!!Note
 		O utilizador já deve estar registado na plataforma UNBL para ser adicionado ao seu espaço de trabalho. Se o endereço de email do utilizador não estiver ligado a uma conta registada no UNBL, receberá uma mensagem de erro.
 
-![](images/manage-users-01.png)
+![Página 'Users' com o campo de email, o menu de funções em Viewer e o botão 'ADD USERS'](images/manage-users-01.png)
 
 ## Como edito ou elimino utilizadores existentes?
 
@@ -41,4 +41,4 @@ Para eliminar ou editar utilizadores existentes:
 
 3.	Para eliminar o utilizador, clique em 'Remove user' no menu suspenso.
 
-![](images/manage-users-02.png)
+![Menu suspenso de funções aberto a partir da seta de um utilizador, com Admin, Editor, Viewer e 'Remove user'](images/manage-users-02.png)

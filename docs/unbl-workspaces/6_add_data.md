@@ -37,7 +37,7 @@ To begin creating a layer and fill in relevant metadata for the layer:
 
 2.	Click the ‘CREATE NEW LAYER’ button.
 
-	![](images/add-data-01.png)
+	![Layers selected in the admin dropdown menu with the CREATE NEW LAYER button highlighted](images/add-data-01.png)
 	
 3.	In the new layer page, fill in the following information:
 
@@ -54,7 +54,7 @@ To begin creating a layer and fill in relevant metadata for the layer:
 	!!!Note
 		For individual layers that are part of a parent group layer, the layer information pop-up text will always display the description of the parent group layer and so the description field is redundant (see [‘How do I create group layers?’](#how-do-i-create-group-layers)).
 
-	![](images/add-data-02.png)
+	![New layer page with title, slug, categories, search tags and description preview filled in](images/add-data-02.png)
 	
 4.	Once you have filled in the relevant metadata to document this new layer, you now need to specify the format or geospatial web service standard of your geospatial data and set up the layer configuration accordingly. The forthcoming sections detail how to configure your layer based on the format of your geospatial data.
 
@@ -102,9 +102,9 @@ To upload a GeoTIFF file:
 	
 	- *Color* – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
 		
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated.
 	
-	![](images/add-data-03.png)
+	![Layer configuration for a GeoTIFF File Upload with three categorical layer styling entries](images/add-data-03.png)
 	
 3.	Once all metadata and parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to upload your GeoTIFF file to your workspace. The file will be stored in a safe and dedicated private repository on Azure. This may take a few seconds depending on the size of the file and the speed of your upload internet broadband, so after clicking the button you should wait until you are redirected to the edit layer page. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
 
@@ -148,9 +148,9 @@ UNBL supports the configuration of raster image layers to your workspace by link
 	
 	- *Color* – the color associated with the specified name in the layer legend. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value.
 	
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical raster images, the legend layer styling entries should represent the values of each category/class within the raster data source. For continuous raster images, legend styling entries should represent the range of values visualized in the raster image. You can specify any points along the range of values between the minimum and maximum values - a gradient of colors between each of these values will be generated.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical raster images, the legend layer styling entries should represent the values of each category/class within the raster data source. For continuous raster images, legend styling entries should represent the range of values visualized in the raster image. You can specify any points along the range of values between the minimum and maximum values - a gradient of colors between each of these values will be generated.
 	
-	![](images/add-data-04.png)
+	![Layer configuration for an external tile service with tiles URL and legend entries](images/add-data-04.png)
 	
 3. Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your raster image to your workspace. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
 
@@ -160,9 +160,9 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 
 1. If you are configuring an asset from your personal Cloud Project, ensure that the ‘Anyone can read’ box is checked for this asset.
 
-	![](images/add-data-05.png)
+	![Google Earth Engine Assets tab with an arrow pointing to the asset's Share icon](images/add-data-05.png)
 	
-	![](images/add-data-06.png)
+	![Google Earth Engine sharing dialog with the Anyone can read box checked and highlighted](images/add-data-06.png)
 	
 2. Navigate to the new layer page in the UNBL admin interface and fill in relevant metadata (See [‘What parameters and metadata do I fill in when creating a layer?’](#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer)).
 
@@ -174,13 +174,13 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 	
 	c.	*Asset Path*: Copy and paste the image ID of your GEE asset. Any image ID can be configured on UNBL, provided that it is a single raster band image. It can be an image ID of your personal GEE Cloud Project, or any other shared GEE Cloud Project or publicly available GEE dataset, such as one from the public catalogue [awesome-gee-community-catalog](https://gee-community-catalog.org/), which provides access to over 4,000 public GEE assets. 
 	
-	![](images/add-data-07.png)
+	![Google Earth Engine Asset details window with the Image ID highlighted](images/add-data-07.png)
 	
 	d.	*Data type*: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.
 
 	e.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.
 	
-	![](images/add-data-08.png)
+	![Layer configuration with Google earth engine provider and the image ID pasted as Asset Path](images/add-data-08.png)
 	
 	f.	*Layer styling*: The layer styling determines how the legend for the GEE asset is displayed on the map, and it is also used to generate the Styled Layer Description (SLD) which influences the styling of the GEE asset in the map view. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries (also known as *classes* or *thresholds*) to match the values in the raster image. Each layer styling entry should define the following properties:
 
@@ -190,15 +190,15 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 	
 	- *Color* – the color of pixels with the specified value on the map. You can define a color through the manual color picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the color in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
 	
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The example layer styling below creates a continuous color palette for carbon stock concentration.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colors between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The example layer styling below creates a continuous color palette for carbon stock concentration.
 	
-	![](images/add-data-09.png)
+	![BANDS tab of the Google Earth Engine asset details with Min and Max values highlighted](images/add-data-09.png)
 	
-	![](images/add-data-10.png)
+	![Continuous layer styling entries for carbon stock values from 1 to 590 kg/m²](images/add-data-10.png)
 	
 	For categorical raster layers, each specified pixel value maps to exactly one discrete class or category. The example layer styling below creates a discrete color palette that maps land cover classes.
 	
-	![](images/add-data-11.png)
+	![Categorical layer styling entries mapping nine land cover classes to colors](images/add-data-11.png)
 	
 	g.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step f. While layer styling determines the style of the layer legend, the SLD will determine the color style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous color scheme for carbon stock concentration would look like this:
 	
@@ -239,7 +239,7 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 	
 	Where each ColorMapEntry color and associated pixel quantity row matches exactly to a layer styling entry row from step f.
 	
-	![](images/add-data-12.png)
+	![Layer styling entries with the GENERATE GEE SLD button and the generated SLD code below](images/add-data-12.png)
 	
 4. Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your raster image to your workspace. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
 
@@ -268,15 +268,15 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	d.	*Data type*: Specify whether the vector tiles contain ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories. Continuous datasets represent data where values can fall anywhere within a specified range of values. While vector tiles can store multiple data attributes, you can only choose one data attribute for layer legend styling on UNBL. You should specify the data type based on the provisional layer legend of your added layer on UNBL. 
 	
-	![](images/add-data-13.png)
+	![Vector layer configuration from an external tile service with a Martin tiles URL](images/add-data-13.png)
 	
 3.	The  ‘Render layers’ section specifies the data attributes from the vector data source that should be displayed on the map. In this section:
 
-	a.	*Source layer*: Specify the name of the dataset which you are hosting on the vector tile server. For example, the source layer for the example URL from step 2c is `forest_cover`. Click on the ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation on source layer referencing.
+	a.	*Source layer*: Specify the name of the dataset which you are hosting on the vector tile server. For example, the source layer for the example URL from step 2c is `forest_cover`. Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation on source layer referencing.
 	
-	b.	*Type*: Specify the geometry type your dataset represents. Available options are *fill, line, symbol, circle, heatmap* and *fill-extrusion*. In the majority of cases, the geometry type will be *fill* (polygons with a color fill ramp). Click on the ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation on geometry type options.
+	b.	*Type*: Specify the geometry type your dataset represents. Available options are *fill, line, symbol, circle, heatmap* and *fill-extrusion*. In the majority of cases, the geometry type will be *fill* (polygons with a color fill ramp). Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation on geometry type options.
 	
-	c.	*Paint (optional)*: Here, you can specify the layer styling for your dataset on UNBL using a .json style configuration . Click on the ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation for configuring layer styling. For the most common geometry types of type *fill*, the paint configuration follows a set template. For configuring layer styling for categorical datasets, use the following template:
+	c.	*Paint (optional)*: Here, you can specify the layer styling for your dataset on UNBL using a .json style configuration . Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation for configuring layer styling. For the most common geometry types of type *fill*, the paint configuration follows a set template. For configuring layer styling for categorical datasets, use the following template:
 	
 	```
 	
@@ -445,7 +445,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	- `fill-outline-color` functions the same as `fill-color`, but specifies the color of the linear boundary of the polygon instead of the inner polygon fill. This way, you can specify a different color boundary for polygons compared to the color of their inner fill (note that this is not the case for the above example).
 	
-	d.	*Filter (optional)*: You can optionally specify a subset of data categories, or specific range of values, which should be used for styling the map. Any data categories or range of values falling outside of the specified filter will not be considered in the layer styling. Click on the ![](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation for configuring filter options. As an example, if you wanted to filter out the “Mixed forest” category from the `forest_cover_2023` data attribute, you would use the following template:
+	d.	*Filter (optional)*: You can optionally specify a subset of data categories, or specific range of values, which should be used for styling the map. Any data categories or range of values falling outside of the specified filter will not be considered in the layer styling. Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon for this property to view detailed documentation for configuring filter options. As an example, if you wanted to filter out the “Mixed forest” category from the `forest_cover_2023` data attribute, you would use the following template:
 	
 	```
 	
@@ -454,7 +454,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	where `!=` specifies a conditional exclusion expression.
 	
-	![](images/add-data-14.png)
+	![Render Layers section with source layer, fill type, paint expression and filter](images/add-data-14.png)
 	
 	e.	*ADD LAYER CONFIG (optional)*: In some cases, you may wish to configure styling for more than one data attribute in your vector dataset. By clicking on this button, you can specify further styling expressions. Note that any data attributes, data categories or value ranges that overlap between styling expressions or are contained within the same polygons in your data and are not filtered out accordingly, will lead to a confusing layer visualization. 
 	
@@ -473,11 +473,11 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	f.	*Suffix (optional)*: You can specify a suffix that will be displayed after the data attribute’s value/category (e.g. units).
 	
-	g.	Click on the ![](images/icons/delete.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to remove an Interaction config entry.
+	g.	Click on the ![Delete (bin)](images/icons/delete.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to remove an Interaction config entry.
 	
-	![](images/add-data-15.png)
+	![Interaction config entries for forest type and canopy height attributes](images/add-data-15.png)
 	
-	![](images/add-data-16.png)
+	![Map pop-up showing attribute values after clicking a vector layer polygon](images/add-data-16.png)
 	
 5.	Specify the zoom levels for your vector tiles. The default zoom level range is set to 0 to 20. You can optionally specify the zoom levels for the layer if the vector tiles are only viewable at a smaller/larger resolution. Note that UNBL supports a maximum zoom level of 20 for vector tiles. 
 
@@ -489,11 +489,11 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 
 	- *Color* – the color associated with the specified name in the layer legend. You can select a color by using the color picker, or by specifying a RGBA or Hex color code value.
 
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical data, the legend layer styling entries should represent the discrete categories and their associated color styling which you specified in the 'Render layers' section. For continuous data, legend styling entries should represent the range of values and their associated color gradient which you specified in the 'Render layers' section.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon next to the styling entry. For categorical data, the legend layer styling entries should represent the discrete categories and their associated color styling which you specified in the 'Render layers' section. For continuous data, legend styling entries should represent the range of values and their associated color gradient which you specified in the 'Render layers' section.
 	
-	![](images/add-data-17.png)
+	![Vector layer zoom levels and legend config with three forest categories](images/add-data-17.png)
 	
-	![](images/add-data-18.png)
+	![Legend config for continuous vector data with some entry labels hidden from the legend](images/add-data-18.png)
 	
 7.	Once all metadata and configuration properties have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure your vector tile layer to your workspace. See [‘How do I publish my layer and share it with external users?’](#how-do-i-publish-my-layer-and-share-it-with-external-users) and [‘How do I edit my added layers?’](#how-do-i-edit-my-added-layers) for next steps.
 
@@ -501,38 +501,38 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 
 To make any of your added layers discoverable and viewable to all users of your workspace (see [‘How do I view datasets within my workspace?’](2_viewing.md#how-do-i-view-datasets-within-my-workspace), as well as optionally make your layer viewable to users outside of your workspace, undertake the following steps:
 
-1.	Navigate to the edit layer page for your layer of choice. Upon adding a layer to your workspace, you will be automatically taken to this page. Alternatively, click on the ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} button in the layer list available after navigating to the ‘Layers’ page in your admin interface.
+1.	Navigate to the edit layer page for your layer of choice. Upon adding a layer to your workspace, you will be automatically taken to this page. Alternatively, click on the ![Edit (pencil)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} button in the layer list available after navigating to the ‘Layers’ page in your admin interface.
 
-	![](images/add-data-19.png)
+	![Layers page list with the edit button for a layer highlighted](images/add-data-19.png)
 	
 2.	For your dataset to be accessible in the UNBL map view, you must publish the dataset by clicking the ‘Published’ toggle button. Unpublished datasets remain in the admin interface until you are ready to publish them to the UNBL map view. 
   
-3.	If your dataset is published, a toggle button will appear with an option to ‘Allow external access via link’. This is an optional toggle that, if enabled, makes your layer accessible to anyone with the map view URL, even users outside your workspace. To share your layer URL, copy the link that appears or click on the ![](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to copy the link automatically to your clipboard.
+3.	If your dataset is published, a toggle button will appear with an option to ‘Allow external access via link’. This is an optional toggle that, if enabled, makes your layer accessible to anyone with the map view URL, even users outside your workspace. To share your layer URL, copy the link that appears or click on the ![Copy](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to copy the link automatically to your clipboard.
 
 4.	Click on the ‘Primary’ toggle button to mark your layer as a standalone layer and make it discoverable in the ‘DATASETS’ search bar on UNBL. For your workspace layers to be discoverable and viewable on UNBL, you should always publish and mark them as primary. The only exception to publishing a layer and not marking it as primary is when you are creating group layers (See [‘How do I create group layers?’](#how-do-i-create-group-layers)).
 
-	![](images/add-data-20.png)
+	![Edit layer page with the Published, Allow external access via link and Primary toggles highlighted](images/add-data-20.png)
 	
 ## How do I edit my added layers?
 
 You may want to go back and edit your added layers to change any of the associated metadata, test if your layer is visualizing on UNBL,  and edit your layer configuration accordingly if your layer is not visualizing. To do this:
 
-1.	Navigate to the edit layer page for your layer of choice. Upon adding a layer to your workspace, you will be automatically taken to this page. Alternatively, click on the ![](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} button in the layer list available after navigating to the ‘Layers’ page in your admin interface.
+1.	Navigate to the edit layer page for your layer of choice. Upon adding a layer to your workspace, you will be automatically taken to this page. Alternatively, click on the ![Edit (pencil)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} button in the layer list available after navigating to the ‘Layers’ page in your admin interface.
 
-	![](images/add-data-21.png)
+	![Layers page list with the edit button for a layer highlighted](images/add-data-21.png)
 	
 2.	To test if your layer is visualizing properly in the UNBL map view, click on the ‘TEST LAYER’ button in the bottom right corner of the edit layer page. A green tick will appear inside the button if the layer has been correctly uploaded and/or configured. Otherwise, a red cross will appear with an error message diagnosing the problem.
 
 	!!!Note
 		If you are uploading a regional dataset (non-global extent), it is possible that the test may report a failure even if the layer is working, as the test may request sample tiles that fall outside of your dataset’s areal extent. Alternatively, the test may report a positive result solely due to a valid external layer URL, even if the layer is failing to visualize in the map view due to an incorrect layer styling configuration. Therefore, it is always best practice to double check the test layer diagnosis by verifying manually whether your layer is visualizing in the UNBL map view.
 
-	![](images/add-data-22.png)
+	![Edit layer page with arrow pointing to TEST LAYER button showing a green tick](images/add-data-22.png)
 	
 3.	If you want to navigate directly to your layer in the UNBL map view, click on the ‘VIEW ON MAP’ button. If you want to delete your layer from your workspace, click on the ‘DELETE LAYER’ button.
 
 4.	Click on the ‘EDIT’ button for any of the layer metadata/configuration sections to edit information and parameters for that section.
 
-	![](images/add-data-23.png)
+	![Edit layer page with arrows pointing to the EDIT buttons of each section](images/add-data-23.png)
 	
 ## How do I create group layers?
 
@@ -555,9 +555,9 @@ To set up a group layer:
 
 6.	*Layer selector*: From the dropdown menu, select either ‘Dropdown’ or ‘Radio Button’. These options influence how the layer selector UI appears in the layer legend of the group layer on UNBL. The dropdown option is recommended for group layers with more than three child layers. The radio button option is recommended for group layers with three or less child layers, or when group layers represent the same data with different styling. 
 
-	![](images/add-data-24.png)
+	![Group layer legend on the map with a radio button layer selector](images/add-data-24.png)
 	
-	![](images/add-data-25.png)
+	![Group layer legend on the map with a dropdown layer selector](images/add-data-25.png)
 	
 7.	Click the ‘SAVE AND VIEW DETAILS BUTTON’ to add the group layer to your workspace. 
 

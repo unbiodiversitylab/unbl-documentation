@@ -61,10 +61,10 @@ To view these metrics on UN Biodiversity Lab:
 
 3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the remove dataset icon on the legend to clear the screen. 
 
-	![](images/dynamic-metrics1-01.png)
+	![Colombia metrics with Dashboard menu, a metric toggle and legend remove icon highlighted](images/dynamic-metrics1-01.png)
 	
-4.  Click on the ![](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to view dataset info. The info pages provide a brief description of the data, related paper to read, raw data to download (if freely available) and license specifications.  
+4.  Click on the ![Information](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to view dataset info. The info pages provide a brief description of the data, related paper to read, raw data to download (if freely available) and license specifications.  
 
-5.	To download summary data for the metric in .csv, .tsv or .json format, click on the arrow icon ![](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. You can also download the data from source links on the datasets’ info pages.  
+5.	To download summary data for the metric in .csv, .tsv or .json format, click on the arrow icon ![Download](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. You can also download the data from source links on the datasets’ info pages.  
 
-	![](images/dynamic-metrics1-02.png)
+	![Global Land Cover metric with info icon and CSV, TSV, JSON download menu highlighted](images/dynamic-metrics1-02.png)

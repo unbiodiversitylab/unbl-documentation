@@ -9,7 +9,7 @@ To create an ELSA action map showing priority areas for the implementation of KM
 Once you have named your analysis run, set area-based targets, lock-in functionalities, a boundary penalty factor, and edited planning feature weights, the analysis run is ready to be executed. This can be done by clicking on the blue ‘RUN ANALYSIS’ button in the bottom-right corner of the analysis run pop-up window. Note that this button will only become available to click and execute once all relevant parameters have been filled in. 
 
 <figure markdown>
-![](images/running-optimization-01.png)
+![SET FEATURE WEIGHTS tab with an arrow pointing to the RUN ANALYSIS button](images/running-optimization-01.png)
 <figcaption>Figure 13. Run analysis</figcaption>
 </figure>
 
@@ -20,7 +20,7 @@ The analysis may take between one and five minutes to run. However, if the count
 The following chapters detail how you can view, evaluate, and analyse the results of your ELSA analysis. If you wish to change the parameters of your analysis and execute a new run after evaluating the results, you can duplicate a previous run, edit it, and create a new version. 
 
 <figure markdown>
-![](images/running-optimization-02.png)
+![New entry in the ANALYSIS RUNS list with a progress bar and RUNNING status](images/running-optimization-02.png)
 <figcaption> Figure 14. ELSA analysis run in real-time</figcaption>
 </figure>
 

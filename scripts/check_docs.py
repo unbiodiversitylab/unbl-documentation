@@ -287,9 +287,9 @@ def check_image_ref(report: Report, md: Path, n: int, target: str, alt: str, lan
                     f"reference the English file name ({localized_base(Path(path), loc).name}); "
                     f"the {loc} site picks the .{loc} version automatically", rel(md), n)
     if not alt.strip():
-        report.warn("alt-text-missing", f"image has no alt text: {path}", rel(md), n)
+        report.error("alt-text-missing", f"image has no alt text: {path}", rel(md), n)
     if " " in path:
-        report.warn("filename-spaces", f"image file name contains spaces: {path}", rel(md), n)
+        report.error("filename-spaces", f"image file name contains spaces: {path}", rel(md), n)
     if not (md.parent / path).exists():
         report.error("broken-image", f"image not found: {path}", rel(md), n)
 

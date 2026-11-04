@@ -68,8 +68,7 @@ Every page exists as `name.md` (English) plus `name.es.md`, `name.fr.md`, `name.
   </figure>
   ```
 - **Every new image needs alt text** describing what the screenshot shows (about 5–15
-  words, translated in each language). About 700 older images lack it; fix those only
-  when asked.
+  words, translated in each language).
 - Internal links are relative to the `.md` file (`../unbl-workspaces/5_add_places.md#anchor`).
   MkDocs resolves the right language automatically.
 - Contact address: `support@unbiodiversitylab.org`.
