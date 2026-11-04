@@ -1,3 +1,8 @@
+---
+source_rev: f7ed26d551a11a56e738091eda936cbdb44f5979
+translation_status: machine
+---
+
 # Anexo 3: Registro de Cambios de las Capas de Datos
 
 Esta página registra los cambios en las **capas de datos predeterminadas** utilizadas por la Herramienta de Planificación Espacial Integrada ELSA. Las capas de datos predeterminadas son las características de planificación, las restricciones de bloqueo (lock-in) y las restricciones de zonificación que ELSA proporciona para un nuevo análisis. El conjunto actual se detalla en el [Anexo 2 - Capas de datos](13_annex2.md).

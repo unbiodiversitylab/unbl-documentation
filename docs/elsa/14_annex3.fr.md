@@ -1,3 +1,8 @@
+---
+source_rev: f7ed26d551a11a56e738091eda936cbdb44f5979
+translation_status: machine
+---
+
 # Annexe 3 : Journal des modifications des couches de données
 
 Cette page recense les modifications apportées aux **couches de données par défaut** utilisées par l'Outil de Planification Spatiale Intégrée ELSA. Les couches de données par défaut sont les caractéristiques de planification, les restrictions de verrouillage (lock-in) et les contraintes de zonage que l'outil ELSA fournit pour une nouvelle analyse. L'ensemble actuel est présenté dans l'[Annexe 2 - Couches de données](13_annex2.md).
