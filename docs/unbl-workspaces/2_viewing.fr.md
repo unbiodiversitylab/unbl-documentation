@@ -45,7 +45,7 @@ Pour découper un jeu de données selon votre zone d'intérêt et le télécharg
 
 1.	Cliquez sur le bouton « LIEUX » et sélectionnez votre lieu d'intérêt.
 
-2.	Cliquez sur l'icône ![Plus d'options (trois points)](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à droite du nom du lieu et cliquez sur « Couper et exporter les couches ».
+2.	Cliquez sur l'icône ![Plus d'options (trois points)](images/icons/ellipsis.png){style="display: inline; height: 2em; width: 2em;"} à droite du nom du lieu et cliquez sur « Couper et exporter les couches ».
 
 	![Panneau du lieu Colombie avec le menu des points de suspension ouvert et l'option « Couper et exporter les couches »](images/viewing-03.png)
 
@@ -88,7 +88,7 @@ Pour rechercher les jeux de données disponibles :
 
 3.	Cliquer sur le bouton bascule à droite du nom du jeu de données pour charger ce jeu de données dans la vue cartographique.
 
-4.	Cliquer à nouveau sur le bouton bascule ou cliquez sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données.
+4.	Cliquer à nouveau sur le bouton bascule ou cliquez sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données.
 
 !!! note
 	Si vous avez l'espace de travail *UNBL* et votre propre espace de travail activés, votre recherche devra être spécifique pour trouver les jeux de données que vous avez téléchargés dans votre propre espace de travail qui ne font pas partie de la plateforme publique. La façon la plus simple de le faire est de créer une étiquette reconnaissable pour votre couche ajoutée – voir l'étape 2d dans [« Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ? »](6_add_data.fr.md#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche)

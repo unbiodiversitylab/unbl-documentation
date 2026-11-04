@@ -45,7 +45,7 @@ To clip a dataset to your area of interest and download:
 
 1.	Click on the ‘PLACES’ button and select your place of interest.
 
-2.	Click on the ![More options (three dots)](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to the right of the place’s name and click on ‘Clip and Export Layers’. 
+2.	Click on the ![More options (three dots)](images/icons/ellipsis.png){style="display: inline; height: 2em; width: 2em;"} icon to the right of the place’s name and click on ‘Clip and Export Layers’. 
 
 	![Place panel for Colombia with the ellipsis menu open showing 'Clip and Export Layers'](images/viewing-03.png)
 	
@@ -88,7 +88,7 @@ To search for available datasets:
 	
 3.	Click the toggle button to the right of the dataset name to load this dataset to the map view. 
 
-4.	Click the toggle button again or click the ![Close](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset.
+4.	Click the toggle button again or click the ![Close](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset.
 
 !!! note
 	If you have the *UNBL* workspace and your own workspace activated, your search will have to be specific to find datasets that you uploaded to your own workspace that are not part of the public platform. The easiest way to do this is to create a recognizable tag for your added layer – see step 2d in [‘What parameters and metadata do I fill in when creating a layer?’](6_add_data.md#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer)

@@ -124,8 +124,8 @@ plugins:
             How do I customize the dataset views?: ¿Cómo personalizo las vistas de conjuntos de datos?
             What options do I have to visualize time series datasets?: ¿Qué opciones tengo para visualizar conjuntos de datos de series temporales?
             How do I share a dataset?: ¿Cómo comparto un conjunto de datos?
-            How do I clip and download datasets for my country?: ¿Cómo recorto y descargo conjuntos de datos para mi país?
-            How do I download unclipped global data datasets?: ¿Cómo descargo conjuntos de datos globales sin recortar?
+            How do I clip and export datasets?: ¿Cómo puedo recortar y exportar conjuntos de datos?
+            How do I download unclipped global datasets?: ¿Cómo descargo conjuntos de datos globales sin recortar?
             How do I make a map for inclusion in reports and communication products?: ¿Cómo hago un mapa para incluir en informes y productos de comunicación?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: ¿Cómo sugiero más datos para incluir en el Laboratorio de Biodiversidad de las Naciones Unidas?
             What are UNBL workspaces? How do I request a UNBL workspace?: ¿Qué son los espacios de trabajo de UNBL? ¿Cómo solicito un espacio de trabajo de UNBL?
@@ -194,8 +194,8 @@ plugins:
             How do I customize the dataset views?: Comment puis-je personnaliser les vues des ensembles de données ?
             What options do I have to visualize time series datasets?: Quelles options ai-je pour visualiser les ensembles de données de séries chronologiques ?
             How do I share a dataset?: Comment puis-je partager un ensemble de données ?
-            How do I clip and download datasets for my country?: Comment puis-je découper et télécharger des ensembles de données pour mon pays ?
-            How do I download unclipped global data datasets?: Comment puis-je télécharger des ensembles de données mondiales non découpés ?
+            How do I clip and export datasets?: Comment découper et exporter des ensembles de données ?
+            How do I download unclipped global datasets?: Comment télécharger des ensembles de données mondiaux non découpés ?
             How do I make a map for inclusion in reports and communication products?: Comment puis-je créer une carte pour l'inclure dans des rapports et des produits de communication ?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: Comment puis-je suggérer plus de données pour l'inclusion dans le Laboratoire de la biodiversité des Nations Unies ?
             What are UNBL workspaces? How do I request a UNBL workspace?: Qu'est-ce que les espaces de travail UNBL ? Comment puis-je demander un espace de travail UNBL ?
@@ -264,8 +264,8 @@ plugins:
             How do I customize the dataset views?: Como posso personalizar as visualizações dos conjuntos de dados?
             What options do I have to visualize time series datasets?: Que opções tenho para visualizar conjuntos de dados de séries temporais?
             How do I share a dataset?: Como posso partilhar um conjunto de dados?
-            How do I clip and download datasets for my country?: Como recorto e descarrego conjuntos de dados para o meu país?
-            How do I download unclipped global data datasets?: Como descarrego conjuntos de dados globais não recortados?
+            How do I clip and export datasets?: Como posso recortar e exportar conjuntos de dados?
+            How do I download unclipped global datasets?: Como posso descarregar conjuntos de dados globais não recortados?
             How do I make a map for inclusion in reports and communication products?: Como posso criar um mapa para inclusão em relatórios e produtos de comunicação?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: Como sugiro mais dados para inclusão no UN Biodiversity Lab?
             What are UNBL workspaces? How do I request a UNBL workspace?: O que são os espaços de trabalho UNBL? Como solicito um espaço de trabalho UNBL?
@@ -334,8 +334,8 @@ plugins:
             How do I customize the dataset views?: Как мне настроить просмотр наборов данных?
             What options do I have to visualize time series datasets?: Какие у меня возможности для визуализации наборов данных, охватывающих непрерывный период времени?
             How do I share a dataset?: Как мне поделиться набором данных?
-            How do I clip and download datasets for my country?: Как мне вырезать и экспортировать наборы данных?
-            How do I download unclipped global data datasets?: Как мне загрузить необрезанные глобальные наборы данных?
+            How do I clip and export datasets?: Как мне вырезать и экспортировать наборы данных?
+            How do I download unclipped global datasets?: Как мне загрузить необрезанные глобальные наборы данных?
             How do I make a map for inclusion in reports and communication products?: Как мне создать карту для включения в отчеты и коммуникационные продукты?
             How do I suggest more data for inclusion in the UN Biodiversity Lab?: Как мне предложить дополнительные данные для включения в Лабораторию ООН по биоразнообразию?
             What are UNBL workspaces? How do I request a UNBL workspace?: Что такое рабочие пространство на UNBL? Как мне запросить рабочее пространство UNBL?
@@ -470,8 +470,8 @@ nav:
       - How do I customize the dataset views?: unbl-public-platform/12_customize_mapview.md
       - What options do I have to visualize time series datasets?: unbl-public-platform/13_time_series_data.md
       - How do I share a dataset?: unbl-public-platform/14_share_data.md
-      - How do I clip and download datasets for my country?: unbl-public-platform/15_clip_export.md
-      - How do I download unclipped global data datasets?: unbl-public-platform/16_download_global_data.md
+      - How do I clip and export datasets?: unbl-public-platform/15_clip_export.md
+      - How do I download unclipped global datasets?: unbl-public-platform/16_download_global_data.md
       - How do I make a map for inclusion in reports and communication products?: unbl-public-platform/17_maps_for_reports.md
       - How do I suggest more data for inclusion in the UN Biodiversity Lab?: unbl-public-platform/18_suggest_data.md
       - What are UNBL workspaces? How do I request a UNBL workspace?: unbl-public-platform/19_private_workspaces.md
