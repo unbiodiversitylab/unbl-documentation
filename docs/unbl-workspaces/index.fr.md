@@ -21,7 +21,7 @@ Ce guide explique comment profiter de toutes les fonctionnalités disponibles da
 	- **[Comment accéder à l'interface d'administration ?](3_admin.fr.md#comment-acceder-a-linterface-dadministration)**
 	- **[Quels composants sont disponibles dans l'interface d'administration ?](3_admin.fr.md#quels-composants-sont-disponibles-dans-linterface-dadministration)**
 - **[Gérer les utilisateurs dans votre espace de travail](4_manage_users.fr.md)**
-	- **[Quels rôles et permissions d'utilisateur existent dans mon espace de travail UNBL ?](4_manage_users.fr.md#quels-roles-et-permissions-dutilisateur-existent-dans-mon-espace-de-travail-unbl)**
+	- **[Quels rôles et permissions d'utilisateur existent dans mon espace de travail UNBL ?](4_manage_users.fr.md#quels-roles-et-permissions-des-utilisateurs-existent-dans-mon-espace-de-travail-unbl)**
 	- **[Comment ajouter de nouveaux utilisateurs ?](4_manage_users.fr.md#comment-ajouter-de-nouveaux-utilisateurs)**
 	- **[Comment modifier ou supprimer des utilisateurs existants ?](4_manage_users.fr.md#comment-modifier-ou-supprimer-des-utilisateurs-existants)**
 - **[Ajouter des lieux à votre espace de travail et visualiser les métriques dynamiques](5_add_places.fr.md)**
@@ -31,7 +31,7 @@ Ce guide explique comment profiter de toutes les fonctionnalités disponibles da
 - **[Ajouter vos propres données géospatiales à votre espace de travail](6_add_data.fr.md)**
 	- **[Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ?](6_add_data.fr.md#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche)**
 	- **[Comment télécharger des couches raster au format GeoTIFF ?](6_add_data.fr.md#comment-telecharger-des-couches-raster-au-format-geotiff)**
-	- **[Comment configurer des couches raster en utilisant des services de tuiles externes ?](6_add_data.fr.md#comment-configurer-des-couches-raster-en-utilisant-des-services-de-tuiles-externes)**
+	- **[Comment configurer des couches raster en utilisant des services de tuiles externes ?](6_add_data.fr.md#comment-configurer-des-couches-raster-en-utilisant-des-services-de-tuiles-externes-wmswmts)**
 	- **[Comment configurer des couches vectorielles en utilisant des services de tuiles externes ?](6_add_data.fr.md#comment-configurer-des-couches-vectorielles-en-utilisant-des-services-de-tuiles-externes)**
 	- **[Comment publier ma couche et la partager avec des utilisateurs externes ?](6_add_data.fr.md#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes)**
 	- **[Comment modifier mes couches ajoutées ?](6_add_data.fr.md#comment-modifier-mes-couches-ajoutees)**

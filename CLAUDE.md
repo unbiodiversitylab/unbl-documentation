@@ -132,6 +132,10 @@ python scripts/check_docs.py --changed origin/main   # translations, nav, images
 mkdocs build --strict                                # the real build (about 10 s)
 ```
 
+Don't add `-q` to the build: it hides the warnings that explain a strict failure. The
+build checks languages one at a time and stops at the first language with problems, so
+after fixing, build again until it reports `Documentation built`.
+
 - `python scripts/check_docs.py --drift` lists translations that lag English.
 - `mkdocs serve` gives a live preview at http://127.0.0.1:8000.
 - A Stop hook runs the checker on uncommitted changes and reports problems once per
