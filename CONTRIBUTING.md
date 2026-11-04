@@ -155,10 +155,10 @@ Agreed in November 2026. Phase 0 is the PR that added this file.
 **Phase 1: content and media** (after the large "2026 H1 updates" PR is merged, to
 avoid conflicts)
 
-- Shrink media. The four largest GIFs total 123 MB (one is 40 MB). Convert them to
-  short MP4/WebM videos or screenshot sequences, and compress PNGs losslessly. Target:
-  site under 80 MB (it's about 380 MB now). Make the image-size warning an error for new
-  files.
+- Shrink media. The 18 GIFs in `docs/unbl-public-platform/images/gifs/` (123 MB) are not
+  used by any page: delete them. The public platform tutorials are moving to embedded
+  YouTube videos (PR #34). Compress PNGs losslessly, and make the image-size warning an
+  error for new files. Target: site under 80 MB (it's about 380 MB now).
 - Write alt text for the ~700 existing images (Claude drafts it from the screenshots,
   then it's translated), for accessibility.
 - Rename images to remove spaces and settle on one layout per section. Use the
