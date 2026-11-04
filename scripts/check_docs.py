@@ -352,7 +352,7 @@ def check_image_files(report: Report, langs, scope=None):
             continue
         if scope is not None and f not in scope:
             continue
-        if "icons" in f.parts or f.relative_to(DOCS).as_posix() in cfg_text:
+        if "icons" in f.parts or "assets" in f.parts or f.relative_to(DOCS).as_posix() in cfg_text:
             continue
         lang = localized_lang(f, langs)
         if lang and "-extra-" not in f.name:
