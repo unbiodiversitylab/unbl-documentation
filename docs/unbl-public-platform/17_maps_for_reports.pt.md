@@ -42,14 +42,14 @@
 
 > UNEP-WCMC and IUCN (2021), Protected Planet: The World Database on Protected Areas (WDPA) [On-line], 02/2021, Cambridge, UK: UNEP-WCMC and IUCN Available at: www.protectedplanet.net.
 
-- Inclua informações no mapa (ou na citação que descreve o mapa) sobre: quem criou o mapa; a data em que o mapa foi produzido no Laboratório de Biodiversidade da ONU; e uma nota a indicar que o mapa foi criado com o Laboratório de Biodiversidade da ONU, por exemplo:
+- Inclua informações no mapa (ou na citação que descreve o mapa) sobre: quem criou o mapa; a data em que o mapa foi produzido no UN Biodiversity Lab; e uma nota a indicar que o mapa foi criado com o UN Biodiversity Lab, por exemplo:
 
-> Criado por James Bond com o Laboratório de Biodiversidade da ONU (www.unbiodiversitylab.org) em 14 de fevereiro de 2021.
+> Criado por James Bond com o UN Biodiversity Lab (www.unbiodiversitylab.org) em 14 de fevereiro de 2021.
 
 - Por fim, certifique-se de que inclui também uma citação do mapa na secção de referências do documento. Recomendamos este formato:
 
-> Autor. "Título do mapa" [formato]. Escala. (Data de Produção). Mapa Gerado no Laboratório de Biodiversidade da ONU [web]. Versão 2. UNDP e UNEP, [ano].
+> Autor. "Título do mapa" [formato]. Escala. (Data de Produção). Mapa Gerado no UN Biodiversity Lab [web]. Versão 2. UNDP e UNEP, [ano].
 
 **Exemplo**
 
-> Bond, James. "Carbono Orgânico do Solo dos Mangais nas Áreas Protegidas do Vietname" [mapa]. Escala não indicada. (14 de fevereiro de 2021). Mapa Gerado no Laboratório de Biodiversidade da ONU (www.unbiodiversitylab.org) [web]. Versão 2. UNDP e UNEP, 2023.
+> Bond, James. "Carbono Orgânico do Solo dos Mangais nas Áreas Protegidas do Vietname" [mapa]. Escala não indicada. (14 de fevereiro de 2021). Mapa Gerado no UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Versão 2. UNDP e UNEP, 2023.

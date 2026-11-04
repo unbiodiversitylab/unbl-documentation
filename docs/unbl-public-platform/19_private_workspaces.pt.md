@@ -10,6 +10,6 @@ Os espaços de trabalho do UNBL proporcionam uma área de trabalho segura onde p
 
 3. Possibilidade de adicionar a nossa Ferramenta de Planeamento Espacial Integrado ELSA para executar uma análise de priorização espacial para o seu país.
 
-Os espaços de trabalho do UNBL estão disponíveis para todos os utilizadores não comerciais. Para solicitar um espaço de trabalho, aceda à [página de espaços de trabalho do Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/en/unbl-workspaces/) e preencha o formulário.
+Os espaços de trabalho do UNBL estão disponíveis para todos os utilizadores não comerciais. Para solicitar um espaço de trabalho, aceda à [página de espaços de trabalho do UN Biodiversity Lab](https://unbiodiversitylab.org/en/unbl-workspaces/) e preencha o formulário.
 
 Pode aceder ao nosso guia do utilizador sobre os espaços de trabalho do UNBL [aqui](../unbl-workspaces/index.md).

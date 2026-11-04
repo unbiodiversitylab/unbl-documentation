@@ -19,11 +19,15 @@
 do_not_translate:
   - term: UN Biodiversity Lab
     note: >-
-      The product name stays in English, also in running text
-      ("el sitio web del UN Biodiversity Lab"). Fixed in nav titles in commit 8d96e56.
+      The product name stays in English in every language, also in running text
+      ("el sitio web del UN Biodiversity Lab", "o UN Biodiversity Lab"). Confirmed
+      Nov 2026 (#42). In Russian, where a gendered word must agree with it, write
+      «платформа UN Biodiversity Lab».
   - term: UNBL
   - term: ELSA
-    note: Acronym stays in English. Its expansion is translated (see below).
+    note: >-
+      Never translated (confirmed Nov 2026, #42). Its expansion may be
+      translated (see below).
   - term: DPG
     note: Keep the acronym; translate the expansion "Digital Public Good" (see below).
   - term: GeoTIFF

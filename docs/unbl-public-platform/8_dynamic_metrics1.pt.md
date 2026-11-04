@@ -18,7 +18,7 @@ O UNBL oferece métricas instantâneas baseadas nos melhores conjuntos de dados 
 - Índice Industrial Humano Terrestre (2000, 2005, 2010, 2013)
 - Eutrofização Costeira (2007-2024)
 
-O Laboratório de Biodiversidade da ONU oferece adicionalmente dois indicadores principais que estão disponíveis conforme estabelecido nos metadados do indicador associado ao Quadro de Monitorização do Estrutura Global de Biodiversidade de Kunming-Montreal ([CBD/DEC/COP/15/5](https://www.cbd.int/doc/decisions/cop-15/cop-15-dec-05-en.pdf); [CBD/DEC/COP/16/31](https://www.cbd.int/doc/decisions/cop-16/cop-16-dec-31-en.pdf)), que está disponível no [sítio Web de Indicadores do Estrutura Global de Biodiversidade de Kunming-Montreal](https://gbf-indicators.org/) e em [CBD/COP/16/INF/3/Rev.1](https://www.cbd.int/doc/c/ea34/8414/8c5e6797d291af15f33d6e40/cop-16-inf-03-rev1-en.pdf):
+O UN Biodiversity Lab oferece adicionalmente dois indicadores principais que estão disponíveis conforme estabelecido nos metadados do indicador associado ao Quadro de Monitorização do Estrutura Global de Biodiversidade de Kunming-Montreal ([CBD/DEC/COP/15/5](https://www.cbd.int/doc/decisions/cop-15/cop-15-dec-05-en.pdf); [CBD/DEC/COP/16/31](https://www.cbd.int/doc/decisions/cop-16/cop-16-dec-31-en.pdf)), que está disponível no [sítio Web de Indicadores do Estrutura Global de Biodiversidade de Kunming-Montreal](https://gbf-indicators.org/) e em [CBD/COP/16/INF/3/Rev.1](https://www.cbd.int/doc/c/ea34/8414/8c5e6797d291af15f33d6e40/cop-16-inf-03-rev1-en.pdf):
 
 - Agricultura Sustentável (Indicador Principal 10.1)
 - Gestão Florestal Sustentável (Indicador Principal 10.2)
@@ -43,7 +43,7 @@ O Laboratório de Biodiversidade da ONU oferece adicionalmente dois indicadores 
 | Agricultura Sustentável | Mostra os dados reportados pelo país para o indicador principal 10.1 do KMGBF relacionados com o progresso em direção à agricultura produtiva e sustentável. | Esta métrica exibe os dados fornecidos por cada país à FAO. | Mede a terra sob agricultura produtiva e sustentável, expressa como uma proporção da área de terra agrícola do país através de 11 subindicadores. |
 | Gestão Florestal Sustentável | Mostra os dados reportados pelo país para o indicador principal 10.2 do KMGBF relacionados com o progresso em direção à gestão florestal sustentável. | Esta métrica exibe os dados fornecidos por cada país à FAO. | Mede o progresso em direção à Gestão Florestal Sustentável através de cinco subindicadores, incluindo mudança anual na área florestal, biomassa acima do solo em floresta, proporção de área florestal dentro de áreas protegidas legalmente estabelecidas, proporção de área florestal com plano de gestão de longo prazo e área florestal sob um esquema de certificação de gestão florestal verificado independentemente. |
 
-Para visualizar estas métricas no Laboratório de Biodiversidade da ONU:
+Para visualizar estas métricas no UN Biodiversity Lab:
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>
