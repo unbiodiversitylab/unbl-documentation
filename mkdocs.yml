@@ -9,6 +9,11 @@ repo_name: unbiodiversitylab/unbl-documentation
 repo_url: https://github.com/unbiodiversitylab/unbl-documentation
 edit_uri: edit/main/docs/
 
+# Fail the strict build on links to sections (#anchors) that don't exist
+validation:
+  links:
+    anchors: warn
+
 # Theme Configuration
 theme:
   name: material

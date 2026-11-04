@@ -10,6 +10,12 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
 
 ## [Unreleased]
 
+### Translations
+- Spanish and Portuguese brought up to date with English (all 2026 H1 changes), as
+  machine drafts awaiting native review. Spanish button labels fixed (#42).
+- Portuguese standardised on European Portuguese (#42); Brazilian Portuguese proposed
+  as a separate language (#43).
+
 ### Content
 - What's new page (all five languages); data storage info sheet added to the Workspaces
   menu; partner logos on the translated home pages (#40).
@@ -23,6 +29,10 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
   chapters 1–6 updated. Translations of the text changes are pending.
 
 ### Site and tooling
+- English pages use British spelling (UN style); admonitions use one syntax; broken
+  links to page sections now fail the build (5 fixed).
+- The translation drift report ignores mechanical commits listed in
+  `.git-blame-ignore-revs`.
 - "Last updated" date on every page, acronym tooltips in the reader's language
   (`includes/abbreviations*.md`), and screenshots shown at full column width instead of
   50% (#40).

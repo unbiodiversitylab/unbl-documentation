@@ -69,9 +69,11 @@ Write each language in one consistent variant, matching the existing pages:
   Spain-only forms (vosotros, ordenador).
 - **French: international (France) French**, formal *vous*: télécharger, fichier, cliquez.
 - **Russian: standard Russian**, formal *вы*.
-- **English:** follow the existing pages (currently mostly American spelling: color,
-  visualize, optimization). Official names keep their own spelling (UN Development
-  Programme, UNEP-WCMC World Conservation Monitoring Centre).
+- **English: British spelling, UN style** (Oxford spelling, as in UN editorial
+  guidelines): colour, centre, programme, licence (noun), analyse, kilometre, modelling,
+  but *-ize* endings (organization, optimization, visualize). Interface labels stay as
+  the app shows them (e.g. a field called *Color*). Proper names keep their own spelling
+  (SpatioTemporal Asset Catalog).
 
 ## Markdown conventions
 

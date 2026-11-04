@@ -1,4 +1,4 @@
-## Running the optimization
+# Running the optimization
 
 To create an ELSA action map showing priority areas for the implementation of KMGBF Targets 1-12, the optimization executed by the tool follows three hard-coded rules: 
 

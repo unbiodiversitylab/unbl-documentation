@@ -3,7 +3,7 @@
 !!! info "Términos clave"
     * [Zonas de acción](12_annex1.md#action-zones)
     * [Características de bloqueo](12_annex1.md#lock-in-features)
-    * [Restricción basado en el área](12_annex1.md#area-based-constraint)
+    * [Restricción basado en el área](12_annex1.md#area-based-target)
     * [Factor de penalización de los límites (BPF)](12_annex1.md#boundary-penalty-factor-bpf)
     * [Característica de planificación](12_annex1.md#planning-feature)
     * [Unidades de planificación](12_annex1.md#planning-units)
@@ -17,7 +17,7 @@
 
 ## Asignación de un nombre a una ejecución de análisis ELSA  
 
-Al hacer clic en «NUEVA EJECUCIÓN DE ANÁLISIS» ([Figura 5](#fig-create-new-analysis)), podrá ver y editar un análisis provisional. En primer lugar, debe proporcionar un nombre nuevo y único para su ejecución de análisis. Aunque no hay restricciones en cuanto al nombre que se le da a cada ejecución, sugerimos que los nombres de las ejecuciones incluyan descripciones significativas, idealmente haciendo referencia a los parámetros utilizados (por ejemplo, incluir información como BPF 10 o Protección 38 %).
+Al hacer clic en «NUEVA EJECUCIÓN DE ANÁLISIS» ([Figura 5](04_creating_analysis.md#fig-create-new-analysis)), podrá ver y editar un análisis provisional. En primer lugar, debe proporcionar un nombre nuevo y único para su ejecución de análisis. Aunque no hay restricciones en cuanto al nombre que se le da a cada ejecución, sugerimos que los nombres de las ejecuciones incluyan descripciones significativas, idealmente haciendo referencia a los parámetros utilizados (por ejemplo, incluir información como BPF 10 o Protección 38 %).
 
 ## Selección de funciones de bloqueo  
 

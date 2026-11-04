@@ -17,7 +17,7 @@
 
 ## Naming ELSA analysis run
 
-Upon clicking ‘NEW ANALYSIS RUN’ ([Figure 5](#fig-create-new-analysis)), you will be able to view and edit a tentative analysis. First, you must provide a new, unique name for your analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g., include information like, BPF 10, or Protect 38%). 
+Upon clicking ‘NEW ANALYSIS RUN’ ([Figure 5](04_creating_analysis.md#fig-create-new-analysis)), you will be able to view and edit a tentative analysis. First, you must provide a new, unique name for your analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g., include information like, BPF 10, or Protect 38%). 
 
 ## Selecting lock-in functions
 

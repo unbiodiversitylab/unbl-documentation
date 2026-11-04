@@ -25,11 +25,13 @@
 *[SIG]: Sistema de información geográfica
 *[SLD]: Styled Layer Descriptor: estándar XML para el estilo de capas de mapas
 *[STAC]: SpatioTemporal Asset Catalog: catálogo de recursos espaciotemporales
+*[TSCC]: Centros de Cooperación Técnica y Científica
+*[TSCCs]: Centros de Cooperación Técnica y Científica
 *[UICN]: Unión Internacional para la Conservación de la Naturaleza
 *[UNCCD]: Convención de las Naciones Unidas de Lucha contra la Desertificación
 *[UNDP]: Programa de las Naciones Unidas para el Desarrollo
-*[UNEP]: Programa de las Naciones Unidas para el Medio Ambiente
 *[UNEP-WCMC]: Centro de Monitoreo de la Conservación Mundial del PNUMA
+*[UNEP]: Programa de las Naciones Unidas para el Medio Ambiente
 *[WDPA]: Base de Datos Mundial sobre Áreas Protegidas
 *[WDPCA]: Base de Datos Mundial sobre Áreas Protegidas y Conservadas
 *[WMS]: Web Map Service: servicio de mapas web

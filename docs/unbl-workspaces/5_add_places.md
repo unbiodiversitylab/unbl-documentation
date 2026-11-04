@@ -1,4 +1,4 @@
-# Adding Places to Your Workspace and Viewing Dynamic  Metrics for Them
+# Adding Places to Your Workspace and Viewing Dynamic Metrics for Them
 
 ## How do I add places?
 

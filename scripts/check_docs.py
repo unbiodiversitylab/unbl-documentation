@@ -43,7 +43,11 @@ IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
 IMG_MD = re.compile(r"!\[([^\]]*)\]\(\s*<?([^)>]*?)>?(?:\s+[\"'][^\"']*[\"'])?\s*\)")
 IMG_HTML = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
 LINK_MD = re.compile(r"(?<!!)\[[^\]]*\]\(\s*<?([^)>\s]+\.md[^)>\s]*)>?(?:\s+[\"'][^\"']*[\"'])?\s*\)")
-ADMONITION_NO_SPACE = re.compile(r"^\s*(!!!|\?\?\?\+?)(?=[a-z])")
+ADMONITION = re.compile(r"^\s*(!!!|\?\?\?\+?)( ?)([A-Za-z]+)")
+ADMONITION_TYPES = {"note", "abstract", "summary", "tldr", "info", "todo", "tip", "hint",
+                    "important", "success", "check", "done", "question", "help", "faq",
+                    "warning", "caution", "attention", "failure", "fail", "missing",
+                    "danger", "error", "bug", "example", "quote", "cite"}
 FRONT_MATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 try:  # pragma: no cover - trivial
@@ -273,8 +277,12 @@ def check_page(report: Report, md: Path, langs: list[str]):
             if page and not (md.parent / page).resolve().exists():
                 report.error("broken-link", f"link to missing page '{target}'", rel(md), n)
 
-        if ADMONITION_NO_SPACE.match(line):
-            report.warn("admonition-syntax", "write '!!! note' with a space after '!!!'", rel(md), n)
+        adm = ADMONITION.match(line)
+        if adm and (adm.group(2) != " " or not adm.group(3).islower()
+                    or adm.group(3) not in ADMONITION_TYPES):
+            report.warn("admonition-syntax",
+                        f"write admonitions as '!!! note' (space, lowercase, a Material type; "
+                        f"got '{adm.group(0).strip()}')", rel(md), n)
 
 
 def check_image_ref(report: Report, md: Path, n: int, target: str, alt: str, langs=()):

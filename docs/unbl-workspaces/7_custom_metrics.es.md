@@ -14,7 +14,7 @@ Las métricas se muestran en UNBL mediante la selección de un lugar específico
 
 ## Paso 2: Cargar una capa raster en formato GeoTIFF
 
-Para crear una métrica personalizada, es necesario cargar una capa raster para la que desee ver estadísticas zonales. Los espacios de trabajo de UNBL solo admiten cálculos de métricas utilizando capas cargadas en el espacio de trabajo mediante la opción «Carga de archivo GeoTIFF». Para conocer los pasos detallados sobre cómo cargar una capa con esta opción, consulte [«¿Cómo cargo capas raster en formato GeoTIFF?»](6_add_data.md/#how-do-i-upload-raster-layers-in-geotiff-format).
+Para crear una métrica personalizada, es necesario cargar una capa raster para la que desee ver estadísticas zonales. Los espacios de trabajo de UNBL solo admiten cálculos de métricas utilizando capas cargadas en el espacio de trabajo mediante la opción «Carga de archivo GeoTIFF». Para conocer los pasos detallados sobre cómo cargar una capa con esta opción, consulte [«¿Cómo cargo capas raster en formato GeoTIFF?»](6_add_data.md#como-cargo-capas-raster-en-formato-geotiff).
 
 Para que una métrica personalizada funcione correctamente en UNBL, es necesario tener en cuenta los siguientes requisitos técnicos previos para las capas GeoTIFF cargadas:
 

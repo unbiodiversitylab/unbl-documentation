@@ -31,7 +31,7 @@ Esta guía explica cómo aprovechar todas las funcionalidades disponibles en su 
 - **[Agregar sus propios datos geoespaciales a su espacio de trabajo](6_add_data.es.md)**
 	- **[¿Qué parámetros y metadatos debo completar al crear una capa?](6_add_data.es.md#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)**
 	- **[¿Cómo cargo capas ráster en formato GeoTIFF?](6_add_data.es.md#como-cargo-capas-raster-en-formato-geotiff)**
-	- **[¿Cómo configuro capas ráster usando servicios de teselas externos?](6_add_data.es.md#como-configuro-capas-raster-usando-servicios-de-teselas-externos)**
+	- **[¿Cómo configuro capas ráster usando servicios de teselas externos?](6_add_data.es.md#como-configuro-capas-raster-usando-servicios-de-teselas-externos-wmswmts)**
 	- **[¿Cómo configuro capas vectoriales usando servicios de teselas externos?](6_add_data.es.md#como-configuro-capas-vectoriales-usando-servicios-de-teselas-externos)**
 	- **[¿Cómo publico mi capa y la comparto con usuarios externos?](6_add_data.es.md#como-publico-mi-capa-y-la-comparto-con-usuarios-externos)**
 	- **[¿Cómo edito mis capas agregadas?](6_add_data.es.md#como-edito-mis-capas-agregadas)**

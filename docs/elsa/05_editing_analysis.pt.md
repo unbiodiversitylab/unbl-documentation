@@ -21,7 +21,7 @@ translation_status: machine
 
 ## Nomear a execução de análise ELSA
 
-Ao clicar em 'NEW ANALYSIS RUN' ([Figura 5](#fig-create-new-analysis)), poderá ver e editar uma análise provisória. Primeiro, deve atribuir um nome novo e único à sua execução de análise. Embora não existam restrições quanto ao nome dado a cada execução, sugerimos que os nomes das execuções incluam descrições significativas, idealmente com referência aos parâmetros utilizados (por exemplo, incluir informações como BPF 10 ou Proteger 38%).
+Ao clicar em 'NEW ANALYSIS RUN' ([Figura 5](04_creating_analysis.md#fig-create-new-analysis)), poderá ver e editar uma análise provisória. Primeiro, deve atribuir um nome novo e único à sua execução de análise. Embora não existam restrições quanto ao nome dado a cada execução, sugerimos que os nomes das execuções incluam descrições significativas, idealmente com referência aos parâmetros utilizados (por exemplo, incluir informações como BPF 10 ou Proteger 38%).
 
 ## Selecionar funções de bloqueio
 
