@@ -6,7 +6,7 @@ Comme pour les heatmaps, les utilisateurs peuvent zoomer sur des zones spécifiq
 
 <figure markdown>
 ![Couche « ELSA Action » sur images satellite, avec la légende des couleurs des quatre actions](images/downloading-results-01.png)
-<figcaption>Figure 17. Carte d'action ELSA indiquant les zones prioritaires pour la protection et la restauration autour de La Havane</figcaption>
+<figcaption>Figure 17. Carte d'action ELSA indiquant les zones prioritaires pour la protection, la gestion, la restauration et le verdissement urbain autour de La Havane</figcaption>
 </figure>
 
 Les utilisateurs peuvent également télécharger les cartes d'action et les heatmaps obtenues au format raster pour les utiliser dans un logiciel SIG externe.

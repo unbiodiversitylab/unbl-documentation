@@ -10,7 +10,7 @@ Tal como nos mapas de calor, os utilizadores podem ampliar áreas específicas a
 
 <figure markdown>
 ![Camada ELSA Action sobre imagens de satélite, com a legenda das cores das quatro ações](images/downloading-results-01.png)
-<figcaption>Figura 17. Mapa de ação que mostra as áreas prioritárias para proteção e restauração em torno de Havana</figcaption>
+<figcaption>Figura 17. Mapa de ação que mostra as áreas prioritárias para proteção, gestão, restauração e reverdecimento urbano em torno de Havana</figcaption>
 </figure>
 
 Os utilizadores podem também descarregar os mapas de ação e os mapas de calor resultantes em formato raster para utilização externa em software SIG para computador.

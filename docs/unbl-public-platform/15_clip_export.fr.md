@@ -24,7 +24,7 @@ Pour ce faire :
 
 1. Cliquez sur le bouton ENDROITS et sélectionnez les lieux qui vous intéressent.
 
-2. Cliquez sur l'icône ![Plus d'options (trois points)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} située à droite du nom du pays, puis cliquez sur « Télécharger GeoJSON » pour télécharger le fichier des limites de la zone qui vous intéresse, ou cliquez sur « Découper et exporter les couches » si vous souhaitez découper et télécharger un ensemble de données spécifique. Si vous choisissez cette dernière option, suivez les étapes supplémentaires 3 à 6 décrites ci-dessous.
+2. Cliquez sur l'icône ![Plus d'options (trois points)](images/icons/ellipsis-icon.png){style="display: inline; height: 1em; width: 2em;"} située à droite du nom du pays, puis cliquez sur « Télécharger GeoJSON » pour télécharger le fichier des limites de la zone qui vous intéresse, ou cliquez sur « Découper et exporter les couches » si vous souhaitez découper et télécharger un ensemble de données spécifique. Si vous choisissez cette dernière option, suivez les étapes supplémentaires 3 à 6 décrites ci-dessous.
 
 	![Menu du lieu Colombie ouvert, avec « Découper et exporter les couches » et « Télécharger GeoJSON »](images/clip-export-01.png)
 

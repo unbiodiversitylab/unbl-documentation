@@ -6,7 +6,7 @@ Similar to the heatmaps, users can zoom in to specific areas using the UNBL inte
 
 <figure markdown>
 ![ELSA Action layer over satellite imagery, with legend for the four action colours](images/downloading-results-01.png)
-<figcaption>Figure 17. Action map showing priority areas for protection and restoration around Havana</figcaption>
+<figcaption>Figure 17. Action map showing priority areas for protection, management, restoration and urban greening around Havana</figcaption>
 </figure>
 
 Users can also download resulting action maps and heatmaps in raster format for external use in desktop GIS software. 

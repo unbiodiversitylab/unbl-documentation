@@ -1,4 +1,4 @@
-# How do I find the Digital Public Good (DPG) open data layers?
+# How do I find the Digital Public Good (DPG) open datasets?
 
 The UN Biodiversity Lab is certified as a Digital Public Good (DPG) platform by the Digital Public Goods Alliance. It provides novel ways for policymakers to interact with high-quality spatial data. You can view the spatial datasets recognized as DPG open data on a global scale or within an area of interest. 
 

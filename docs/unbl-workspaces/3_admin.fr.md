@@ -27,4 +27,4 @@ Pour accéder aux différents composants :
 
 2.	Sélectionnez le composant que vous souhaitez visualiser. Plus d'informations sur chaque composant sont fournies dans les sections ultérieures de ce guide de l'utilisateur.
 
-![Menu déroulant « Home » de l'interface d'administration ouvert, avec Utilisateurs, Lieux, Couches, Widgets et Tableaux de bord](images/admin-02.png)
+![Menu déroulant « Accueil » de l'interface d'administration ouvert, avec Utilisateurs, Lieux, Couches, Métriques, Widgets et Tableaux de bord](images/admin-02.png)
