@@ -15,3 +15,5 @@ Les utilisateurs peuvent également télécharger les cartes d'action et les hea
 ![Menu de l'analyse avec les options de téléchargement ELSA Action et cartes de chaleur encadrées](images/downloading-results-02.png)
 <figcaption>Figure 18. Téléchargement des cartes d'analyse obtenues</figcaption>
 </figure>
+
+Le même menu propose également l'option **« Download ELSA log »** (Télécharger le journal ELSA). Le journal est un fichier contenant les messages produits par l'outil ELSA et par le solveur d'optimisation Gurobi pendant l'exécution de l'analyse. Il est utile en cas de problème : si une analyse échoue, dure anormalement longtemps ou donne des résultats inattendus, consultez le journal pour y repérer les avertissements ou les erreurs, et joignez-le lorsque vous contactez <support@unbiodiversitylab.org>.

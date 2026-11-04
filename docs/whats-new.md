@@ -4,6 +4,7 @@ Recent changes to this user guide. For questions, contact <support@unbiodiversit
 
 ## November 2026
 
+- **ELSA log**: you can now download the log of an analysis run (messages from the ELSA tool and the Gurobi solver) to help with troubleshooting. See [Viewing and downloading ELSA Action maps](elsa/08_downloading_results.md).
 - **Group layers** (workspaces): the 'Primary' setting is now automatic, and layers inside a group now show their group's description and inherit its sources, citation and other details. See [How do I create group layers?](unbl-workspaces/6_add_data.md#how-do-i-create-group-layers)
 - **Draw on Map**: draw a place's boundary directly on the map instead of uploading a file. See [Adding Places to Your Workspace](unbl-workspaces/5_add_places.md).
 - **3D Globe** view in the map controls. See [How do I add/remove place labels, roads, and satellite view?](unbl-public-platform/6_manage_labels_and_basemaps.md)
