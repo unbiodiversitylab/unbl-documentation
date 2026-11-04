@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: a842418188c88ab3655e804d33fd90baba8dcab6
 translation_status: machine
 ---
 # Visualización y descarga de mapas de acción  
@@ -10,7 +10,7 @@ De manera similar a los mapas de calor, los usuarios pueden acercarse a áreas e
 
 <figure markdown>
 ![Capa «Acción ELSA» sobre imágenes satelitales, con la leyenda de los colores de las cuatro acciones](images/downloading-results-01.png)
-<figcaption>Figura 17. Mapa de acción que muestra las áreas prioritarias para la protección y la restauración alrededor de La Habana</figcaption>
+<figcaption>Figura 17. Mapa de acción que muestra las áreas prioritarias para la protección, la gestión, la restauración y el reverdecimiento urbano alrededor de La Habana</figcaption>
 </figure>
 
 Los usuarios también pueden descargar los mapas de acción y los mapas de calor resultantes en formato ráster para su uso externo en software SIG de escritorio.   
