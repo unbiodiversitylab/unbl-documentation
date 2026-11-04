@@ -1,16 +1,16 @@
-# Bem-vindo ao Guia do Usuário do UN Biodiversity Lab
+# Bem-vindo ao Guia do Utilizador do UN Biodiversity Lab
 
-Este guia foi desenvolvido para orientá-lo pelas principais ferramentas e funções do UN Biodiversity Lab. Clique nos links abaixo para encontrar guias visuais para nossa **plataforma pública**, **espaços de trabalho seguros** e a **Ferramenta Integrada de Planejamento Espacial ELSA**.
+Este guia foi desenvolvido para o orientar nas principais ferramentas e funções do UN Biodiversity Lab. Clique nas ligações abaixo para encontrar guias visuais da nossa **plataforma pública**, **espaços de trabalho seguros** e a **Ferramenta de Planeamento Espacial Integrado ELSA**.
 
-Se tiver mais perguntas, entre em contato conosco em <support@unbiodiversitylab.org>.
+Se tiver mais perguntas, contacte-nos através de <support@unbiodiversitylab.org>.
 
 <div class="grid cards" markdown>
 
--   [:earth_africa: **Guia do Usuário da Plataforma Pública do UNBL**](unbl-public-platform/index.md)
+-   [:earth_africa: **Guia do Utilizador da Plataforma Pública do UNBL**](unbl-public-platform/index.md)
 
--   [:gear: **Guia do Usuário dos Espaços de Trabalho Seguros do UNBL**](unbl-workspaces/index.md)
+-   [:gear: **Guia do Utilizador dos Espaços de Trabalho Seguros do UNBL**](unbl-workspaces/index.md)
 
--   [:rocket: **Guia do Usuário da Ferramenta Integrada de Planejamento Espacial ELSA**](elsa/index.md)
+-   [:rocket: **Guia do Utilizador da Ferramenta de Planeamento Espacial Integrado ELSA**](elsa/index.md)
 
 </div>
 

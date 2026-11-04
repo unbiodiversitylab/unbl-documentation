@@ -1,3 +1,8 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
+
 # Visualizar o seu espaço de trabalho UNBL
 
 ## Como acedo ao(s) meu(s) espaço(s) de trabalho?
@@ -13,7 +18,7 @@ Se é um utilizador registado a quem foi concedido acesso a um ou múltiplos esp
 	!!!Note
 		Pode alternar/desalternar todos os espaços de trabalho de uma vez usando o botão de alternância 'Map View' no topo.
 
-4.	Desalterne os espaços de trabalho que não deseja ver. Também pode desalternar o espaço de trabalho *UNBL* no topo da lista, o que lhe permitirá ver apenas os recursos exclusivos do(s) seu(s) espaço(s) de trabalho seguro(s) UNBL e filtrar todos os recursos na plataforma pública UNBL. Por favor note que desalternar o espaço de trabalho *UNBL* removerá o acesso a todas as camadas globais públicas e métricas do painel de controlo para todas as áreas, incluindo áreas no seu espaço de trabalho seguro.
+4.	Desalterne os espaços de trabalho que não deseja ver. Também pode desalternar o espaço de trabalho *UNBL* no topo da lista, o que lhe permitirá ver apenas os recursos exclusivos do(s) seu(s) espaço(s) de trabalho seguro(s) UNBL e filtrar todos os recursos na plataforma pública UNBL. Por favor note que desalternar o espaço de trabalho *UNBL* removerá o acesso a todas as camadas globais públicas e métricas dinâmicas padrão para todas as áreas, incluindo áreas no seu espaço de trabalho seguro.
 
 ![Botão 'WORKSPACES' e lista de espaços de trabalho com botões de alternância destacados, 'Map View' no topo](images/viewing-01.png)
 

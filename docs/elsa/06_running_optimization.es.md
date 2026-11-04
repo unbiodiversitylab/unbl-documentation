@@ -1,12 +1,16 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # Ejecución de la optimización  
 
-Para crear un mapa de acción que muestre las áreas prioritarias para la implementación de las Metas 1-12 del MMB-KM, la optimización ejecutada por la herramienta sigue tres reglas codificadas:   
+Para crear un mapa de acción de ELSA que muestre las áreas prioritarias para la implementación de las Metas 1-12 del MMB-KM, la optimización ejecutada por la herramienta sigue tres reglas codificadas:   
 
-* No debe exceder las restricciones basadas en el área seleccionada;  
+* No debe exceder las metas basadas en el área seleccionadas;  
 * Debe incluir las áreas de bloqueo seleccionadas; y  
 * Debe incluir las áreas que mejor representen las características de planificación en función de su distribución espacial y ponderación.  
 
-Una vez que haya nombrado su ejecución de análisis, establecido las restricciones basadas en el área, las funcionalidades de bloqueo, un factor de penalización de límites y editado las ponderaciones de las características de planificación, la ejecución del análisis estará lista para ser ejecutada. Esto se puede hacer haciendo clic en el botón azul «EJECUTAR ANÁLISIS» en la esquina inferior derecha de la ventana emergente de ejecución del análisis. Tenga en cuenta que este botón solo estará disponible para hacer clic y ejecutar una vez que se hayan rellenado todos los parámetros relevantes.   
+Una vez que haya nombrado su ejecución de análisis, establecido las metas basadas en el área, las funcionalidades de bloqueo, un factor de penalización de límites y editado las ponderaciones de las características de planificación, la ejecución del análisis estará lista para ser ejecutada. Esto se puede hacer haciendo clic en el botón azul «EJECUTAR ANÁLISIS» en la esquina inferior derecha de la ventana emergente de ejecución del análisis. Tenga en cuenta que este botón solo estará disponible para hacer clic y ejecutar una vez que se hayan rellenado todos los parámetros relevantes.   
 
 <figure markdown>
 ![Pestaña «ESTABLECER PONDERACIONES DE CARACTERÍSTICAS» con una flecha que señala el botón «EJECUTAR ANÁLISIS»](images/running-optimization-01.png)

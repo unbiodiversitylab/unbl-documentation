@@ -16,11 +16,11 @@
 *[KMGBF]: Estrutura Global de Biodiversidade de Kunming-Montreal
 *[LDN]: Neutralidade da Degradação da Terra
 *[M49]: Códigos padrão M49 das Nações Unidas para países e áreas
-*[MODIS]: Espectrorradiômetro de imagens de resolução moderada (sensor de satélite da NASA)
+*[MODIS]: Espectrorradiómetro de imagens de resolução moderada (sensor de satélite da NASA)
 *[NBSAP]: Estratégia e Plano de Ação Nacional para a Biodiversidade
 *[PNUD]: Programa das Nações Unidas para o Desenvolvimento
 *[PNUMA]: Programa das Nações Unidas para o Meio Ambiente
-*[SCP]: Planejamento Sistemático de Conservação (Systematic Conservation Planning)
+*[SCP]: Planeamento Sistemático da Conservação (Systematic Conservation Planning)
 *[SIG]: Sistema de Informação Geográfica
 *[SLD]: Styled Layer Descriptor: padrão XML para o estilo de camadas de mapas
 *[STAC]: SpatioTemporal Asset Catalog: catálogo de recursos espaço-temporais
@@ -28,7 +28,7 @@
 *[UNCCD]: Convenção das Nações Unidas de Combate à Desertificação
 *[UNDP]: Programa das Nações Unidas para o Desenvolvimento
 *[UNEP]: Programa das Nações Unidas para o Meio Ambiente
-*[UNEP-WCMC]: Centro Mundial de Monitoramento da Conservação do PNUMA
+*[UNEP-WCMC]: Centro Mundial de Monitorização da Conservação do PNUMA
 *[WDPA]: Base de Dados Mundial sobre Áreas Protegidas
 *[WDPCA]: Base de Dados Mundial sobre Áreas Protegidas e Conservadas
 *[WMS]: Web Map Service: serviço de mapas web

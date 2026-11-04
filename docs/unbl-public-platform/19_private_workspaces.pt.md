@@ -1,15 +1,15 @@
-# O que são espaços de trabalho do UNBL? Como faço para solicitar um espaço de trabalho?
+# O que são espaços de trabalho do UNBL? Como posso solicitar um espaço de trabalho?
 
-Os espaços de trabalho do UNBL fornecem uma área de trabalho segura onde dados de qualquer escala podem ser adicionados e compartilhados com um conjunto de usuários especificados. Eles oferecem uma área segura para colaborar em seus projetos e podem fornecer uma maneira para especialistas em SIG colaborarem com especialistas não técnicos usando uma interface amigável ao usuário.
+Os espaços de trabalho do UNBL proporcionam uma área de trabalho segura onde podem ser adicionados dados de qualquer escala e partilhados com um conjunto de utilizadores especificados. Oferecem uma área segura para colaborar nos seus projetos e podem proporcionar aos especialistas em SIG uma forma de colaborar com especialistas não técnicos através de uma interface de fácil utilização.
 
-**Três funcionalidades estão disponíveis através dos espaços de trabalho que não estão disponíveis na plataforma pública**:
+**Através dos espaços de trabalho estão disponíveis três funcionalidades que não estão disponíveis na plataforma pública**:
 
-1. Capacidade de carregar locais;
+1. Possibilidade de carregar locais;
 
-2. Capacidade de adicionar seus próprios conjuntos de dados e compartilhar de forma privada e/ou pública;
+2. Possibilidade de adicionar os seus próprios conjuntos de dados e partilhá-los de forma privada e/ou pública;
 
-3. Capacidade de adicionar nossa Ferramenta de Planejamento Espacial Integrado ELSA para executar uma análise de priorização espacial para seu país.
+3. Possibilidade de adicionar a nossa Ferramenta de Planeamento Espacial Integrado ELSA para executar uma análise de priorização espacial para o seu país.
 
-Os espaços de trabalho do UNBL estão disponíveis para todos os usuários não comerciais. Para solicitar um espaço de trabalho, navegue até a [página de espaços de trabalho do Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/en/unbl-workspaces/) e preencha o formulário.
+Os espaços de trabalho do UNBL estão disponíveis para todos os utilizadores não comerciais. Para solicitar um espaço de trabalho, aceda à [página de espaços de trabalho do Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/en/unbl-workspaces/) e preencha o formulário.
 
-Você pode acessar nosso guia do usuário sobre espaços de trabalho do UNBL [aqui](../unbl-workspaces/index.md).
+Pode aceder ao nosso guia do utilizador sobre os espaços de trabalho do UNBL [aqui](../unbl-workspaces/index.md).

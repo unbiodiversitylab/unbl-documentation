@@ -178,7 +178,12 @@ terms:
 # --------------------------------------------------------------------------
 style:
   register: >-
-    Formal register appropriate for UN documentation. ES/FR/PT/RU use the
-    formal "you" (usted / vous / você in neutral formal tone / вы).
+    Formal register appropriate for UN documentation. ES/FR/RU use the formal
+    "you" (usted / vous / вы). PT addresses the reader in the third person or the
+    imperative ("o utilizador pode…", "clique em…") rather than "você".
+  portuguese_variant: >-
+    European Portuguese (decided Nov 2026, issue #42): descarregar, ficheiro,
+    utilizador, ecrã, separador, registar, gerir, planeamento, monitorização,
+    contacto, equipa, partilhar; "estar a + infinitivo"; enclitic pronouns.
   headings: Keep the same heading levels as English. Translate heading text.
   numbers: Use the target language's decimal separator in running text, but not inside code or file names.

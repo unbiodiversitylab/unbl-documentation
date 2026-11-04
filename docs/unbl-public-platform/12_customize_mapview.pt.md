@@ -1,6 +1,6 @@
-# Como faço para personalizar as visualizações dos conjuntos de dados?
+# Como posso personalizar as visualizações dos conjuntos de dados?
 
-Ao selecionar múltiplos conjuntos de dados, você pode personalizar o mapa ajustando sua ordem de sobreposição e opacidade.
+Ao selecionar vários conjuntos de dados, pode personalizar o mapa ajustando a sua ordem de sobreposição e opacidade.
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>
@@ -16,10 +16,10 @@ Ao selecionar múltiplos conjuntos de dados, você pode personalizar o mapa ajus
   </div>
 </details>
 
-1. Para alterar a ordem de sobreposição, clique e segure o ícone ![Alça de arrastar](images/icons/order-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à esquerda do nome do conjunto de dados na legenda e mova o conjunto de dados para cima ou para baixo com base na ordem de sobreposição preferida. O conjunto de dados superior na legenda será o conjunto de dados superior no mapa.
+1. Para alterar a ordem de sobreposição, clique e mantenha premido o ícone ![Pega de arrastar](images/icons/order-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à esquerda do nome do conjunto de dados na legenda e mova o conjunto de dados para cima ou para baixo de acordo com a ordem de sobreposição preferida. O conjunto de dados no topo da legenda será o conjunto de dados no topo do mapa.
 
-2. Para alterar a opacidade, clique no ícone ![Opacidade](images/icons/opacity-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Reduzir a opacidade aumenta a transparência do conjunto de dados. Por exemplo, para visualizar tanto a perda de cobertura arbórea quanto as áreas protegidas, você pode posicionar o conjunto de dados de perda de cobertura arbórea acima do conjunto de dados de áreas protegidas e ajustar a opacidade das áreas protegidas para 60%. Isso cria um mapa que mostra a perda de cobertura arbórea dentro das áreas protegidas, bem como a perda geral em todo o país.
+2. Para alterar a opacidade, clique no ícone ![Opacidade](images/icons/opacity-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Reduzir a opacidade aumenta a transparência do conjunto de dados. Por exemplo, para visualizar tanto a perda de coberto arbóreo como as áreas protegidas, pode posicionar o conjunto de dados de perda de coberto arbóreo acima do conjunto de dados de áreas protegidas e ajustar a opacidade das áreas protegidas para 60%. Isto cria um mapa que mostra a perda de coberto arbóreo dentro das áreas protegidas, bem como a perda total em todo o país.
 
-3. Para ocultar temporariamente um conjunto de dados no mapa, clique no ícone ![Mostrar (olho)](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Para torná-lo visível novamente, clique no ícone ![Ocultar (olho riscado)](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}.
+3. Para ocultar temporariamente um conjunto de dados no mapa, clique no ícone ![Mostrar (olho)](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Para o tornar novamente visível, clique no ícone ![Ocultar (olho riscado)](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}.
 
 ![Legenda com Tree Cover Loss acima de WDPA, com os ícones de ordem, opacidade e visibilidade destacados](images/customize-mapview-01.png)

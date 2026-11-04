@@ -1,4 +1,8 @@
-# Como faço para alterar o idioma?
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
+# Como altero o idioma?
 
 O Laboratório de Biodiversidade da ONU está atualmente disponível em **inglês**, **francês**, **espanhol**, **português** e **russo**. O idioma padrão é **inglês**.
 
@@ -16,7 +20,7 @@ O Laboratório de Biodiversidade da ONU está atualmente disponível em **inglê
   </div>
 </details>
 
-Para alterar o idioma, clique no ícone da conta no canto direito do mapa e clique novamente para selecionar o idioma de sua preferência no menu suspenso. Você pode alterar seu idioma no site do Laboratório de Biodiversidade da ONU ou no aplicativo de mapa.
+Para alterar o idioma, clique no ícone da conta no canto direito do mapa e clique novamente para selecionar o idioma da sua preferência no menu pendente. Pode alterar o idioma no sítio Web do Laboratório de Biodiversidade da ONU ou na aplicação de mapa.
 
-![Menu da conta aberto sobre o mapa com o menu suspenso de idioma destacado](images/language-01.png)
+![Menu da conta aberto sobre o mapa com o menu pendente de idioma destacado](images/language-01.png)
 
