@@ -86,7 +86,7 @@ Le facteur de pénalité de limites est utilisé pour favoriser la cohésion spa
     L'augmentation du facteur de pénalité de limite à partir de 0 entraînera des temps de résolution plus longs ; dans certains cas, ceux-ci peuvent être beaucoup plus longs.
 
 <figure markdown>
-![Champ du facteur de pénalité de limite, réglé sur 0, encadré en bas de la fenêtre](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Fenêtre d'analyse avec les objectifs basés sur la superficie et le champ du facteur de pénalité de limite, réglé sur 100, encadré](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption>Figure 9. Ajustement du facteur de pénalité de limite</figcaption>
 </figure>
 

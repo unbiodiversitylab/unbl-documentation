@@ -500,7 +500,7 @@ Pour rendre l'une de vos couches ajoutées découvrable et visible pour tous les
 
 4.	Vous n'avez pas besoin de marquer les couches comme primaires : le UNBL le fait automatiquement. Une couche qui ne fait pas partie d'une couche groupée est primaire ; elle apparaît donc comme une entrée à part entière dans la barre de recherche « JEUX DE DONNEES » sur le UNBL. Une couche qui fait partie d'une couche groupée n'est pas primaire et se trouve via sa couche groupée (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)). La liste des couches de votre interface d'administration indique le statut « Primaire » de chaque couche à titre informatif uniquement.
 
-	![Page de modification de couche avec les boutons bascules Publié, Autoriser l'accès externe via un lien et Primaire mis en évidence](images/add-data-20.png)
+	![Page de modification de couche avec les boutons bascules Publié et Autoriser l'accès externe via un lien mis en évidence](images/add-data-20.png)
 
 ## Comment modifier mes couches ajoutées ?
 

@@ -88,7 +88,7 @@ Pasos:
     Aumentar el factor de penalización de los límites desde 0 dará lugar a tiempos de resolución más largos; en algunos casos, estos pueden ser mucho más largos.  
 
 <figure markdown>
-![Campo del factor de penalización de los límites, con valor 0, resaltado al pie de la ventana](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Ventana de la ejecución de análisis con las metas basadas en el área y el campo del factor de penalización de los límites, con valor 100, resaltado](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption>Figura 9. Ajuste del factor de penalización de los límites</figcaption>
 </figure>
 

@@ -77,7 +77,7 @@ Les métriques dynamiques deviennent automatiquement disponibles pour votre lieu
 	!!! note
 		Les métriques d'indicateurs principaux et la métrique Aires Protégées ne sont disponibles que pour les lieux de type *pays* avec un code de pays M49 spécifié.
 
-	![Panneau du lieu Albanie avec le menu « Dashboard » ouvert : « METRIQUES » ou « INDICATEURS PRINCIPAUX »](images/add-places-09.png)
+	![Panneau du lieu Albanie avec le menu « Tableau de bord » ouvert : « Métriques », « Indicateurs Phares » ou « Métriques marines »](images/add-places-09.png)
 
 4.	Cliquez sur le bouton bascule à côté de n'importe quelle métrique spécifique si vous souhaitez visualiser ce jeu de données sur la carte. Cliquez à nouveau sur le bouton bascule ou sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données de la vue cartographique. Vous pouvez également cliquer sur l'icône de flèche vers le haut pour masquer la métrique de la vue dans l'onglet des métriques disponibles, et vice versa.
 
