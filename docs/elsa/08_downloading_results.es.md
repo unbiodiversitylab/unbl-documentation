@@ -19,3 +19,5 @@ Los usuarios también pueden descargar los mapas de acción y los mapas de calor
 ![Menú de la ejecución de análisis con las opciones de descarga de Acción ELSA y mapas de calor resaltadas](images/downloading-results-02.png)
 <figcaption>Figura 18. Descargar los mapas de análisis resultantes</figcaption>
 </figure>
+
+El mismo menú ofrece también la opción **'Download ELSA log'** (Descargar el registro de ELSA). El registro es un archivo con los mensajes que generaron la herramienta ELSA y el solucionador de optimización Gurobi durante la ejecución del análisis. Es útil para resolver problemas: si un análisis falla, tarda más de lo habitual o produce resultados inesperados, revise el registro en busca de advertencias o errores y adjúntelo cuando se ponga en contacto con <support@unbiodiversitylab.org>.
