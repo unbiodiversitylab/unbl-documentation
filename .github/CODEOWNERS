@@ -8,7 +8,7 @@
 # *                    @Stan-Ve @scabecks
 
 # Language reviewers
-# docs/**/*.es.md      @Stan-Ve @Lilicorzo   # Lilicorzo has read access; code owners need write
+# docs/**/*.es.md      @Lilicorzo @Stan-Ve
 # docs/**/*.fr.md      @MarionMarigo
 # docs/**/*.pt.md      @Stan-Ve          # no dedicated PT reviewer yet
 # docs/**/*.ru.md      @Stan-Ve

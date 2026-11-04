@@ -10,6 +10,13 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
 
 ## [Unreleased]
 
+### Content
+- 2026 H1 English updates (#34): embedded tutorial videos on every public platform page
+  (all five languages); new Protected Connected Index, Coastal Eutrophication and marine
+  metrics; clip and export now downloads GeoJSON boundaries; ELSA guide uses
+  "area-based targets" instead of "constraints", with new screenshots; workspace guide
+  chapters 1–6 updated. Translations of the text changes are pending.
+
 ### Site and tooling
 - Added `CLAUDE.md` and shared Claude Code configuration (`.claude/`): project
   instructions, the `/add-page`, `/translate`, `/translation-status`, `/review-page` and
