@@ -1,20 +1,15 @@
-# MkDocs Core
-mkdocs>=1.5.3
-mkdocs-material>=9.5.0
+# Pinned so every build (CI, your laptop, a colleague's laptop) is identical.
+# Dependabot opens a monthly PR to upgrade these; the PR check builds the site
+# with the new versions before anything reaches production. Don't loosen pins.
+#
+# Note: Material for MkDocs reaches end of life on 5 May 2027. Its successor is
+# Zensical; a migration is planned (Phase 2 in CONTRIBUTING.md).
 
-# Internationalization
-mkdocs-static-i18n>=1.2.0
-
-# Plugins
-mkdocs-glightbox>=0.3.7
-mkdocs-minify-plugin>=0.8.0
-mkdocs-redirects>=1.2.1
-mkdocs-caption>=1.3.0
-
-# Markdown Extensions
-pymdown-extensions>=10.7
-markdown>=3.5.0
-
-# Additional utilities
-Pygments>=2.17.0
-pyyaml>=6.0.1
+mkdocs==1.6.1
+mkdocs-material==9.8.0
+mkdocs-static-i18n==1.3.1
+mkdocs-glightbox==0.5.3
+mkdocs-caption==1.3.0
+mkdocs-redirects==1.2.3  # for keeping old URLs working after page renames
+pymdown-extensions==12.3
+PyYAML==6.0.3            # also used by scripts/check_docs.py

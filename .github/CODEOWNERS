@@ -1,0 +1,21 @@
+# CODEOWNERS: GitHub automatically requests a review from these people when a
+# PR touches matching files. Everything is commented out until the team agrees
+# who reviews each language. Suggestions below are based on commit history
+# (Nov 2026). Owners must have write access to the repo.
+# Later lines take precedence over earlier ones.
+
+# Default: documentation maintainers
+# *                    @Stan-Ve @scabecks
+
+# Language reviewers
+# docs/**/*.es.md      @Stan-Ve          # also Lilicorzo (needs repo access)
+# docs/**/*.fr.md      @MarionMarigo
+# docs/**/*.pt.md      @Stan-Ve          # no dedicated PT reviewer yet
+# docs/**/*.ru.md      @Stan-Ve
+# i18n/glossary.yml    @Stan-Ve @MarionMarigo
+
+# Build, deployment and Claude Code configuration
+# mkdocs.yml           @Stan-Ve @scabecks
+# .github/             @scabecks
+# .claude/             @scabecks
+# scripts/             @scabecks

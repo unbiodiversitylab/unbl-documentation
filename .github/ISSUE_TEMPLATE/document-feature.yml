@@ -1,0 +1,24 @@
+name: Document a new or changed feature
+description: The UNBL platform, workspaces or ELSA changed and the docs need to follow.
+labels: ["new-content"]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed in the product?
+      description: Describe it from a user's point of view. Link product issues or PRs (unbl-frontend, unbl-services, unbl-elsa) if you have them.
+    validations:
+      required: true
+  - type: input
+    id: release
+    attributes:
+      label: When is it live?
+      description: Release date or "already live".
+  - type: textarea
+    id: pages
+    attributes:
+      label: Pages likely affected
+      description: Optional. Links to the pages you think need updating.
+  - type: markdown
+    attributes:
+      value: "Tip: with Claude Code, `/document-feature <this issue's URL>` drafts the update."

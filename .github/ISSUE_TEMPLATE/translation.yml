@@ -1,0 +1,23 @@
+name: Translation problem
+description: A missing, outdated or incorrect translation, or a terminology question.
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [Español, Français, Português, Русский]
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Link to the page, or "several pages" for terminology questions.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Details
+      description: Current wording, suggested wording, and why. For terminology, also propose an update to i18n/glossary.yml.
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: UNBL support (questions about using the platform)
+    url: mailto:support@unbiodiversitylab.org
+    about: For help with the platform itself, email the support team rather than opening an issue.

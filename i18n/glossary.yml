@@ -1,0 +1,184 @@
+# UNBL documentation glossary
+#
+# The single source of truth for terminology across English, Spanish, French,
+# Portuguese and Russian. Used by translators, reviewers and Claude
+# (/translate, the translation-reviewer agent).
+#
+# Seeded in Nov 2026 from terms already used in docs/ and the mkdocs.yml
+# nav_translations. Translators: please correct and extend this file. When a
+# term changes here, the old wording in existing pages should be updated too.
+#
+# Fields:
+#   en/es/fr/pt/ru  preferred translation
+#   note            usage guidance
+#   avoid           wordings that must not be used (with reason)
+
+# --------------------------------------------------------------------------
+# Never translate. Keep exactly as written in every language.
+# --------------------------------------------------------------------------
+do_not_translate:
+  - term: UN Biodiversity Lab
+    note: >-
+      The product name stays in English, also in running text
+      ("el sitio web del UN Biodiversity Lab"). Fixed in nav titles in commit 8d96e56.
+  - term: UNBL
+  - term: ELSA
+    note: Acronym stays in English. Its expansion is translated (see below).
+  - term: DPG
+    note: Keep the acronym; translate the expansion "Digital Public Good" (see below).
+  - term: GeoTIFF
+  - term: UI labels shown in capitals
+    note: >-
+      Buttons and menu labels as they appear in the interface ('PLACES',
+      'NEW ANALYSIS RUN', 'CREATE NEW METRIC') stay in English because the
+      interface may show them in English. Add a translation in brackets the
+      first time on a page, e.g. FR: « NEW ANALYSIS RUN » (NOUVELLE ANALYSE).
+  - term: Markdown and MkDocs syntax
+    note: "!!! note, {#fig-id}, image paths, URLs, anchors (#...), file names."
+
+# --------------------------------------------------------------------------
+# Translated terms
+# --------------------------------------------------------------------------
+terms:
+  - en: workspace
+    es: espacio de trabajo
+    fr: espace de travail
+    pt: espaço de trabalho
+    ru: рабочее пространство
+  - en: secure workspaces
+    es: espacios de trabajo seguros
+    fr: espaces de travail sécurisés
+    pt: espaços de trabalho seguros
+    ru: защищенные рабочие пространства
+  - en: public platform
+    es: plataforma pública
+    fr: plateforme publique
+    pt: plataforma pública
+    ru: публичная платформа
+  - en: dynamic metrics
+    es: métricas dinámicas
+    fr: métriques dynamiques
+    pt: métricas dinâmicas
+    ru: динамические показатели
+  - en: custom metric
+    es: métrica personalizada
+    fr: métrique personnalisée
+    pt: métrica personalizada
+    ru: пользовательский показатель
+  - en: dataset
+    es: conjunto de datos
+    fr: ensemble de données
+    pt: conjunto de dados
+    ru: набор данных
+  - en: data layer
+    es: capa de datos
+    fr: couche de données
+    pt: camada de dados
+    ru: слой данных
+  - en: place
+    note: An area of interest selected on the map (country, jurisdiction, uploaded boundary).
+    es: lugar
+    fr: lieu
+    pt: local
+    ru: место
+  - en: base map
+    es: mapa base
+    fr: carte de base
+    pt: mapa base
+    ru: базовая карта
+  - en: zonal statistics
+    es: estadísticas zonales
+    fr: statistiques zonales
+    pt: estatísticas zonais
+    ru: зональная статистика
+  - en: clip (a dataset)
+    es: recortar
+    fr: découper
+    pt: recortar
+    ru: вырезать
+  - en: admin interface
+    es: interfaz de administración
+    fr: interface d'administration
+    pt: interface de administração
+    ru: административный интерфейс
+  - en: Digital Public Good (DPG)
+    es: Bien Público Digital (DPG)
+    fr: Bien Public Numérique (DPG)
+    pt: Bem Público Digital (DPG)
+    ru: цифровое общественное благо (DPG)
+    note: RU wording not yet used in the docs; please confirm.
+  - en: protected areas
+    es: áreas protegidas
+    fr: aires protégées
+    pt: áreas protegidas
+    ru: охраняемые территории
+  - en: Essential Life Support Areas (ELSA)
+    es: Áreas Esenciales para el Soporte de la Vida (ELSA)
+    fr: Zones essentielles de soutien à la vie (ELSA)
+    pt: Áreas Essenciais de Suporte à Vida (ELSA)
+    ru: Основные зоны жизнеобеспечения (ELSA)
+    note: >-
+      ES pages currently mix "para el Soporte de la Vida" and "de Soporte de
+      Vida"; the first is more common. FR and RU expansions are proposals
+      (the docs only use the acronym); please confirm.
+  - en: Kunming-Montreal Global Biodiversity Framework (GBF)
+    es: Marco Mundial de Biodiversidad Kunming-Montreal (MMB-KM)
+    fr: Cadre mondial de la biodiversité de Kunming-Montréal (KMGBF)
+    pt: Quadro Global de Biodiversidade Kunming-Montreal (KMGBF)
+    ru: Глобальная рамочная программа по биоразнообразию (ГПБ)
+    note: PT pages use the acronym KMGBF; the PT expansion is a proposal, please confirm.
+
+  # ELSA tool
+  - en: analysis
+    es: análisis
+    fr: analyse
+    pt: análise
+    ru: анализ
+  - en: optimization
+    es: optimización
+    fr: optimisation
+    pt: otimização
+    ru: оптимизация
+  - en: heatmap
+    es: mapa de calor
+    fr: carte de chaleur
+    pt: mapa de calor
+    ru: тепловая карта
+  - en: synergies and trade-offs
+    es: sinergias y compensaciones
+    fr: synergies et compromis
+    pt: sinergias e compensações
+    ru: синергия и компромиссы
+  - en: protection (ELSA action)
+    es: protección
+    fr: protection
+    pt: proteção
+    ru: охрана
+    avoid:
+      ru: "защита (changed to охрана throughout in commit 8a7a887)"
+  - en: restoration (ELSA action)
+    es: restauración
+    fr: restauration
+    pt: restauração
+    ru: восстановление
+  - en: management (ELSA action)
+    es: gestión
+    fr: gestion
+    pt: gestão
+    ru: управление
+    note: ES pages also use "manejo"; prefer "gestión" (more common in the docs).
+  - en: urban greening (ELSA action)
+    es: reverdecimiento urbano
+    fr: verdissement urbain
+    pt: reverdecimento urbano
+    ru: озеленение городов
+
+# --------------------------------------------------------------------------
+# Style
+# --------------------------------------------------------------------------
+style:
+  register: >-
+    Formal register appropriate for UN documentation. ES/FR/PT/RU use the
+    formal "you" (usted / vous / você in neutral formal tone / вы).
+  headings: Keep the same heading levels as English. Translate heading text.
+  numbers: Use the target language's decimal separator in running text, but not inside code or file names.

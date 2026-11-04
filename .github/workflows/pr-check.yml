@@ -1,0 +1,47 @@
+name: Check documentation
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0  # full history: needed for translation drift and changed-file checks
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Repository checks (translations, nav, images, links)
+        run: python scripts/check_docs.py --changed "origin/${{ github.base_ref || 'main' }}"
+
+      - name: Build site (strict)
+        run: mkdocs build --strict
+
+      - name: Translation drift summary
+        if: always()
+        run: |
+          {
+            echo "## Translation status"
+            echo "Informational only; this never fails the check."
+            echo '```'
+            python scripts/check_docs.py --drift | tail -n 40
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
