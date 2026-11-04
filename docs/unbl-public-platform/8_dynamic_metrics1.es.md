@@ -67,8 +67,8 @@ Para ver estas métricas en el UN Biodiversity Lab:
 
 	![Métricas de Colombia con el menú del panel de control, el botón de activación de una métrica y el icono de eliminar de la leyenda resaltados](images/dynamic-metrics1-01.png)
 	
-4. Haga clic en el ![Información](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icono para ver la información del conjunto de datos. Las páginas de información proporcionan una breve descripción de los datos, documentos relacionados para leer, datos sin procesar para descargar (si están disponibles gratuitamente) y especificaciones de la licencia.
+4. Haga clic en el ![Información](images/icons/info-icon.png){style="display: inline; height: 2em; width: 2em;"} icono para ver la información del conjunto de datos. Las páginas de información proporcionan una breve descripción de los datos, documentos relacionados para leer, datos sin procesar para descargar (si están disponibles gratuitamente) y especificaciones de la licencia.
 
-5. Para descargar los datos resumidos de la métrica en formato .csv, .tsv o .json, haga clic en el icono de flecha ![Descargar](images/icons/download-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. También puede descargar los datos desde los enlaces de origen que se encuentran en las páginas de información de los conjuntos de datos.
+5. Para descargar los datos resumidos de la métrica en formato .csv, .tsv o .json, haga clic en el icono de flecha ![Descargar](images/icons/download-icon.png){style="display: inline; height: 2em; width: 2em;"}. También puede descargar los datos desde los enlaces de origen que se encuentran en las páginas de información de los conjuntos de datos.
 
 	![Métrica de cobertura terrestre global con el icono de información y el menú de descarga CSV, TSV y JSON resaltados](images/dynamic-metrics1-02.png)

@@ -16,6 +16,6 @@
 
 1.	Select the dataset and load it to the map.
 
-2.	In the bottom-left corner of the map view, there will be a legend showing the name and symbology of all datasets currently toggled on the map.  Click on the ![Information](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to view the dataset information. Alternatively, click on the same ![Information](images/icons/info-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon directly next to the toggle button for each dataset in the dataset search tab. The information provides a description of the dataset, source organization, citations, and links to download the data. 
+2.	In the bottom-left corner of the map view, there will be a legend showing the name and symbology of all datasets currently toggled on the map.  Click on the ![Information](images/icons/info-icon.png){style="display: inline; height: 2em; width: 2em;"} icon to view the dataset information. Alternatively, click on the same ![Information](images/icons/info-icon.png){style="display: inline; height: 2em; width: 2em;"} icon directly next to the toggle button for each dataset in the dataset search tab. The information provides a description of the dataset, source organization, citations, and links to download the data. 
 
 ![Crop Suitability info window opened from the legend, with LEARN MORE and SOURCE(S) highlighted](images/find-layer-info-01.png)
