@@ -1,0 +1,14 @@
+# Commits that changed many pages mechanically, in every language at once.
+# `git blame` and GitHub's blame view skip them, and so does the translation drift
+# report in scripts/check_docs.py (otherwise they make every translation look up to
+# date). Add a commit here when it touches English and translations identically,
+# e.g. a repo-wide rename or reformat. Full SHAs only.
+
+# Embed tutorial videos in all public platform pages, all languages (#34)
+341906d01921c4384c8ebdaac73e2f9500712dd3
+# Move screenshots to localized-asset naming (#39)
+aff1229bf0b06f55644fd7348b54f39558afb8bb
+# Add alt text to every image in all five languages (#41)
+84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+# British spelling in English pages; one admonition syntax everywhere
+32703d85315c4077915c939567d70b846cce3b64

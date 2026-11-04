@@ -18,7 +18,7 @@ Pour ajouter et gérer les utilisateurs, les lieux et les jeux de données dans 
 
 Vous pouvez naviguer dans l'interface d'administration en utilisant le menu déroulant dans la section supérieure du panneau de gauche. Selon votre rôle dans l'espace de travail, vous pouvez gérer les *utilisateurs*, *lieux*, *couches*, *Widgets* et *tableaux de bord*.
 
-!!!Note
+!!! note
 	Les fonctionnalités Widget et Dashboard sont en cours de développement et ne sont pas disponibles pour le moment.
 
 Pour accéder aux différents composants :

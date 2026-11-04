@@ -43,7 +43,11 @@ IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
 IMG_MD = re.compile(r"!\[([^\]]*)\]\(\s*<?([^)>]*?)>?(?:\s+[\"'][^\"']*[\"'])?\s*\)")
 IMG_HTML = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
 LINK_MD = re.compile(r"(?<!!)\[[^\]]*\]\(\s*<?([^)>\s]+\.md[^)>\s]*)>?(?:\s+[\"'][^\"']*[\"'])?\s*\)")
-ADMONITION_NO_SPACE = re.compile(r"^\s*(!!!|\?\?\?\+?)(?=[a-z])")
+ADMONITION = re.compile(r"^\s*(!!!|\?\?\?\+?)( ?)([A-Za-z]+)")
+ADMONITION_TYPES = {"note", "abstract", "summary", "tldr", "info", "todo", "tip", "hint",
+                    "important", "success", "check", "done", "question", "help", "faq",
+                    "warning", "caution", "attention", "failure", "fail", "missing",
+                    "danger", "error", "bug", "example", "quote", "cite"}
 FRONT_MATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 try:  # pragma: no cover - trivial
@@ -273,8 +277,12 @@ def check_page(report: Report, md: Path, langs: list[str]):
             if page and not (md.parent / page).resolve().exists():
                 report.error("broken-link", f"link to missing page '{target}'", rel(md), n)
 
-        if ADMONITION_NO_SPACE.match(line):
-            report.warn("admonition-syntax", "write '!!! note' with a space after '!!!'", rel(md), n)
+        adm = ADMONITION.match(line)
+        if adm and (adm.group(2) != " " or not adm.group(3).islower()
+                    or adm.group(3) not in ADMONITION_TYPES):
+            report.warn("admonition-syntax",
+                        f"write admonitions as '!!! note' (space, lowercase, a Material type; "
+                        f"got '{adm.group(0).strip()}')", rel(md), n)
 
 
 def check_image_ref(report: Report, md: Path, n: int, target: str, alt: str, langs=()):
@@ -400,12 +408,31 @@ def check_translation_sync(report: Report, changed: set[Path], langs: list[str])
 # --------------------------------------------------------------------------- #
 # Drift report
 # --------------------------------------------------------------------------- #
+def ignored_revs() -> set[str]:
+    """Mechanical commits listed in .git-blame-ignore-revs (skipped by drift)."""
+    path = ROOT / ".git-blame-ignore-revs"
+    if not path.exists():
+        return set()
+    return {line.split()[0] for line in path.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.lstrip().startswith("#")}
+
+
+def last_content_change(path: str, ignore: set[str]) -> str | None:
+    """Unix time of the newest commit touching `path` that isn't mechanical."""
+    for line in (git("log", "--format=%H %ct", "--", path) or "").splitlines():
+        sha, ts = line.split()
+        if sha not in ignore:
+            return ts
+    return None
+
+
 def drift(langs: list[str], only: str | None):
     rows = []
+    ignore = ignored_revs()
     for en in sorted(DOCS.rglob("*.md")):
         if lang_of(en, langs):
             continue
-        en_time = git("log", "-1", "--format=%ct", "--", rel(en))
+        en_time = last_content_change(rel(en), ignore)
         for lang in [only] if only else langs:
             tr = translation_of(en, lang)
             if not tr.exists():
@@ -415,7 +442,8 @@ def drift(langs: list[str], only: str | None):
             status = fm.get("translation_status", "")
             rev = fm.get("source_rev")
             if rev:
-                count = git("rev-list", "--count", f"{rev}..HEAD", "--", rel(en))
+                revs = git("rev-list", f"{rev}..HEAD", "--", rel(en))
+                count = None if revs is None else str(len([r for r in revs.split() if r not in ignore]))
                 if count is None:
                     rows.append((lang, rel(tr), "UNKNOWN", f"source_rev {rev} not in history"))
                 elif int(count) > 0:
@@ -425,7 +453,7 @@ def drift(langs: list[str], only: str | None):
                 elif status == "machine":
                     rows.append((lang, rel(tr), "REVIEW", "machine translation awaiting review"))
             else:
-                tr_time = git("log", "-1", "--format=%ct", "--", rel(tr))
+                tr_time = last_content_change(rel(tr), ignore)
                 if en_time and tr_time and int(en_time) > int(tr_time):
                     days = (int(en_time) - int(tr_time)) // 86400
                     rows.append((lang, rel(tr), "MAYBE-STALE",

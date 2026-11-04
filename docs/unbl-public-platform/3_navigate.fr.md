@@ -18,7 +18,7 @@ La navigation entre les deux pages est simple.
 
 1. Pour revenir au site web du UN Biodiversity Lab à partir de l'application cartographique, cliquez sur VUE CARTE dans la barre d'outils de gauche, et cliquez sur ACCUEIL en haut à droite du panneau.
 
-	!!! Note
+	!!! note
 		Si vous êtes inscrit(e) sur le UNBL et possédez un espace de travail, veuillez cliquer sur ESPACES DE TRAVAIL dans la barre d'outils de gauche, puis sur ACCUEIL.
 
 	![Menu VUE CARTE ouvert sur la carte avec ACCUEIL mis en évidence](images/navigate-01.png)

@@ -20,10 +20,12 @@
 *[SCP]: Systematic Conservation Planning
 *[SLD]: Styled Layer Descriptor: an XML standard for map layer styling
 *[STAC]: SpatioTemporal Asset Catalog
+*[TSCC]: Technical and Scientific Cooperation Centres
+*[TSCCs]: Technical and Scientific Cooperation Centres
 *[UNCCD]: United Nations Convention to Combat Desertification
 *[UNDP]: United Nations Development Programme
-*[UNEP]: United Nations Environment Programme
 *[UNEP-WCMC]: UN Environment Programme World Conservation Monitoring Centre
+*[UNEP]: United Nations Environment Programme
 *[WDPA]: World Database on Protected Areas
 *[WDPCA]: World Database on Protected and Conserved Areas
 *[WMS]: Web Map Service

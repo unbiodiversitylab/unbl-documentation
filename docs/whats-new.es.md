@@ -7,8 +7,6 @@ translation_status: machine
 
 Cambios recientes en esta guía del usuario. Si tiene preguntas, escríbanos a <support@unbiodiversitylab.org>.
 
-!!! note
-    Algunas de estas actualizaciones están disponibles por ahora solo en inglés; su traducción está en curso.
 
 ## Noviembre de 2026
 

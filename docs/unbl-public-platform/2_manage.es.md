@@ -1,3 +1,7 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # ¿Cómo gestiono mi cuenta?
 
 Una vez que se haya registrado en el UN Biodiversity Lab, podrá gestionar su cuenta, incluyendo la edición de su nombre de usuario, correo electrónico, contraseña, país e institución. También podrá ver y editar los espacios de trabajo a los que pertenece.

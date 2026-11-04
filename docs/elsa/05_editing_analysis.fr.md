@@ -51,7 +51,7 @@ Les utilisateurs ne peuvent pas définir eux-mêmes les zones, mais pour certain
 
 Cette partie de l'outil vous permet de définir des contraintes (cibles) basées sur la superficie pour la protection, la restauration, la gestion et/ou le verdissement urbain. Les contraintes territoriales peuvent également être comprises comme le pourcentage de superficie qui devrait être attribué à chaque action dans la carte d'action qui en résulte. Les valeurs par défaut dans tout outil ELSA sont dérivées des cibles terrestres du KMGBF, à moins qu'elles ne soient personnalisées pour votre pays par l'équipe UNBL sur la base de votre Stratégie et plan d'action nationaux pour la biodiversité (SPANB) ou d'autres documents politiques nationaux.
 
-!!! Attention "Veuillez noter les différents types d'actions disponibles dans l'outil ELSA et les politiques qui leur sont associées :"
+!!! attention "Veuillez noter les différents types d'actions disponibles dans l'outil ELSA et les politiques qui leur sont associées :"
 	| Action par défaut | Cible KMGBF | Hiérarchie des réponses LDN de la CNULCD |
 	|----------------|--------------|------------------------------|
 	| Protéger | Cible 3 | Eviter |

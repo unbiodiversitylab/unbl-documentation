@@ -1,3 +1,7 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # ¿Cómo puedo cambiar el idioma?
 
 El UN Biodiversity Lab está disponible actualmente en **inglés**, **francés**, **español**, **portugués** y **ruso**. El idioma predeterminado es el **inglés**.

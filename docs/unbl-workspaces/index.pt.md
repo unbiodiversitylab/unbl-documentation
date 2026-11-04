@@ -1,10 +1,15 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
+
 # Guia do Utilizador dos Espaços de Trabalho Seguros do UN Biodiversity Lab (UNBL)
 
 ![Página inicial do UN Biodiversity Lab com o globo terrestre e o botão Launch map](images/index-01.png)
 
 Este guia explica como tirar proveito de todas as funcionalidades disponíveis no seu espaço de trabalho seguro na plataforma UN Biodiversity Lab (UNBL). Se tiver mais perguntas, por favor contacte-nos em <support@unbiodiversitylab.org>.
 
-!!!Note
+!!! note
 	Os termos *conjunto de dados* e *camada* são usados de forma intercambiável ao longo deste guia. Um conjunto de dados refere-se a uma coleção de dados espaciais composta por uma ou mais camadas. No UNBL, um único carregamento ou configuração de dados geoespaciais é realizado através de *'criar uma camada'*. Múltiplas entradas de camadas podem ser combinadas e visualizadas no UNBL como um conjunto de dados. Camadas individuais também podem ser visualizadas independentemente no UNBL.
 
 ## Índice
@@ -31,7 +36,9 @@ Este guia explica como tirar proveito de todas as funcionalidades disponíveis n
 - **[Adicionar os seus próprios dados geoespaciais ao seu espaço de trabalho](6_add_data.pt.md)**
 	- **[Que parâmetros e metadados preencho ao criar uma camada?](6_add_data.pt.md#que-parametros-e-metadados-preencho-ao-criar-uma-camada)**
 	- **[Como carrego camadas raster em formato GeoTIFF?](6_add_data.pt.md#como-carrego-camadas-raster-em-formato-geotiff)**
-	- **[Como configuro camadas raster usando serviços de tiles externos?](6_add_data.pt.md#como-configuro-camadas-raster-usando-servicos-de-tiles-externos)**
+	- **[Como configuro camadas raster usando serviços de tiles externos WMS/WMTS?](6_add_data.pt.md#como-configuro-camadas-raster-usando-servicos-de-tiles-externos-wmswmts)**
+	- **[Como configuro camadas raster usando Google Earth Engine (GEE)?](6_add_data.pt.md#como-configuro-camadas-raster-usando-google-earth-engine-gee)**
+	- **[Como configuro camadas raster usando Spatiotemporal Asset Catalog (STAC)?](6_add_data.pt.md#como-configuro-camadas-raster-usando-spatiotemporal-asset-catalog-stac)**
 	- **[Como configuro camadas vetoriais usando serviços de tiles externos?](6_add_data.pt.md#como-configuro-camadas-vetoriais-usando-servicos-de-tiles-externos)**
 	- **[Como publico a minha camada e partilho-a com utilizadores externos?](6_add_data.pt.md#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos)**
 	- **[Como edito as minhas camadas adicionadas?](6_add_data.pt.md#como-edito-as-minhas-camadas-adicionadas)**

@@ -129,12 +129,12 @@ Once the custom metric has been configured, it is necessary to create a widget f
 	Alternatively, the widget summary for a single Human Modification Index layer metric would employ the following summary fields:
 
 	- {location}: the current place name
-	- {areaKm2}: the mapped area in square kilometers
+	- {areaKm2}: the mapped area in square kilometres
 	- {mean}: the mean value as a raw number
 	
 	The widget summary would therefore look something like:
 	
-		“In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022.”
+		“In {location}, {areaKm2} square kilometres had a mean HMI score of {mean} in 2022.”
 		
 	![Histogram widget for Bhutan with a summary stating mapped area and mean HMI score](images/custom-metrics-12.png){style="width:550px !important" }
 	

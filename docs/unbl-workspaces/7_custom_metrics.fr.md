@@ -14,7 +14,7 @@ Les métriques sont affichées sur UNBL après la sélection d'un lieu particuli
 
 ## Étape 2 : Télécharger une couche raster au format GeoTIFF
 
-Pour créer une métrique personnalisée, il est nécessaire de télécharger une couche raster pour laquelle vous souhaitez consulter des statistiques zonales. Les espaces de travail UNBL prennent uniquement en charge les calculs de métriques à partir de couches téléchargées via l'option « Téléchargement de fichier GeoTIFF ». Pour des étapes détaillées sur le téléchargement d'une couche à l'aide de cette option, voir [« Comment télécharger des couches raster au format GeoTIFF ? »](6_add_data.md/#how-do-i-upload-raster-layers-in-geotiff-format).
+Pour créer une métrique personnalisée, il est nécessaire de télécharger une couche raster pour laquelle vous souhaitez consulter des statistiques zonales. Les espaces de travail UNBL prennent uniquement en charge les calculs de métriques à partir de couches téléchargées via l'option « Téléchargement de fichier GeoTIFF ». Pour des étapes détaillées sur le téléchargement d'une couche à l'aide de cette option, voir [« Comment télécharger des couches raster au format GeoTIFF ? »](6_add_data.md#comment-telecharger-des-couches-raster-au-format-geotiff).
 
 Pour qu'une métrique personnalisée fonctionne correctement sur UNBL, il est nécessaire de tenir compte des prérequis techniques suivants pour les couches GeoTIFF téléchargées :
 

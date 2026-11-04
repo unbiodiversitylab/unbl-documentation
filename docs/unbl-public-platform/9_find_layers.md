@@ -2,7 +2,7 @@
 
 Data on UN Biodiversity Lab include the best available global datasets related to nature and human well-being, ranging from biodiversity to ecosystem services, to socio-economic data. We also include regional datasets where recommended by UN Biodiversity Lab users. You can view datasets on UN Biodiversity Lab globally or within an area of interest. 
 
-!!! Note
+!!! note
 	We refer to both datasets and data layers in this guide and on UNBL. Each dataset may have one or multiple data layers within it.
 	
 <details class="unbl-video">

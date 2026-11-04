@@ -10,7 +10,7 @@ If you are a registered user who has been granted access to one or multiple UNBL
 
 3.	You can view the assets (places and datasets) for each workspace independently, or at the same time if you are a member of more than one workspace. Press the toggle button for workspaces you want to include in your map view. 
 
-	!!!Note
+	!!! note
 		You can toggle/untoggle all workspaces at once using the top-most ‘Map View’ toggle button.
 
 4.	Untoggle workspaces that you don’t want to view. You can also untoggle the *UNBL* workspace at the top of the list, which will allow you to only see assets exclusive to your UNBL secure workspace(s) and filter out all assets on the UNBL public platform. Please note that untoggling the *UNBL* workspace will remove access to all public global layers and standard dynamic metrics for all areas, including areas in your secure workspace. 
@@ -21,7 +21,7 @@ If you are a registered user who has been granted access to one or multiple UNBL
 
 Once your preferred workspace(s) is/are selected, you can use the ‘PLACES’ tab to search for and select a place, as well as to view its associated dynamic metrics. Places are also known as *areas of interest* or *locations*. Only places added within your toggled workspaces will be available. If you have your workspace as well as the UNBL workspace selected, then all places on the public platform will be available alongside custom places that you have added to your own workspace.
 
-!!!Note
+!!! note
 	You need to first add places to your secure workspace to be able to view them on UNBL. See [‘How do I add places?’](5_add_places.md#how-do-i-add-places) 
 	
 To search for a place, you can either:
@@ -32,7 +32,7 @@ To search for a place, you can either:
 	
 2.	Click on the ‘PLACES’ button, click to expand the filters box, and select your filter of interest. You then can select the desired place from the search result list. 
 
-!!!Note
+!!! note
 	Places are filtered by *Country* type by default upon opening the UNBL map view.  If your place is of a different category, such as a *Protected Area* or *Cross-Boundary Area* and not *Country* type, then you need to click on the ‘CLEAR’ button to clear all filters, or expand the ‘FILTERS’ dropdown menu and uncheck the country box and select your filter of interest to find your place.
 	
 !['PLACES' tab with search box and expanded 'FILTERS' place types highlighted, Country checked](images/viewing-02.png)
@@ -67,7 +67,7 @@ To clip a dataset to your area of interest and download:
 
 Your UNBL workspace offers you the ability to visualize any data added to your UNBL workspaces with any of the global data on UNBL within the UNBL workspace. 
 
-!!!Note
+!!! note
 	You need to first create layers in your workspace to be able to view them on UNBL. See [‘Adding Your Own Geospatial Data to Your Workspace’](6_add_data.md#adding-your-own-geospatial-data-to-your-workspace). 
 
 To search for available datasets: 
@@ -90,7 +90,7 @@ To search for available datasets:
 
 4.	Click the toggle button again or click the ![Close](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset.
 
-!!!Note
+!!! note
 	If you have the *UNBL* workspace and your own workspace activated, your search will have to be specific to find datasets that you uploaded to your own workspace that are not part of the public platform. The easiest way to do this is to create a recognizable tag for your added layer – see step 2d in [‘What parameters and metadata do I fill in when creating a layer?’](6_add_data.md#what-parameters-and-metadata-do-i-fill-in-when-creating-a-layer)
 	
 !['DATASETS' tab with 'FILTERS', a dataset toggle switched on and the legend close icon highlighted](images/viewing-05.png)

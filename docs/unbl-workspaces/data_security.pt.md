@@ -1,50 +1,55 @@
+---
+source_rev: 53460b803b028ef12fcc7414d7ca32889e3a1010
+translation_status: machine
+---
+
 # Folha informativa: Armazenamento de dados nacionais adicionados a espaços de trabalho no UN Biodiversity Lab
 
-## Controle geral de acesso para o seu espaço de trabalho UNBL
+## Controlo geral de acesso ao seu espaço de trabalho UNBL
 
-**Noções básicas de espaços de trabalho seguros do UNBL**
+**Noções básicas dos espaços de trabalho seguros do UNBL**
 
-Os espaços de trabalho do UNBL fornecem uma área de trabalho segura onde dados nacionais ou subnacionais podem ser adicionados e compartilhados com um conjunto de usuários especificados. Eles oferecem aos usuários com qualquer nível de experiência em SIG a capacidade de colaborar em projetos de dados espaciais usando seus próprios dados e locais. Os usuários não comerciais do UNBL podem [solicitar um espaço de trabalho do UNBL para](https://unbiodiversitylab.org/en/unbl-workspaces/):
+Os espaços de trabalho do UNBL fornecem uma área de trabalho segura onde dados nacionais ou subnacionais podem ser adicionados e partilhados com um conjunto de utilizadores especificados. Oferecem a utilizadores com qualquer nível de experiência em SIG a capacidade de colaborar em projetos de dados espaciais com os seus próprios dados e locais. Os utilizadores não comerciais do UNBL podem [solicitar um espaço de trabalho do UNBL para](https://unbiodiversitylab.org/en/unbl-workspaces/):
 
-- Convidar uma comunidade de usuários relevantes para colaborar e usar dados espaciais nacionais e globais;
+- Convidar uma comunidade de utilizadores relevantes para colaborar e usar dados espaciais nacionais e globais;
 
-- Conectar-se a repositórios de dados espaciais nacionais existentes, permitindo que todos os dados relevantes sejam consolidados em um local e garantindo atualizações automáticas da fonte original;
+- Ligar-se a repositórios de dados espaciais nacionais existentes, permitindo que todos os dados relevantes sejam consolidados num único local e garantindo atualizações automáticas a partir da fonte original;
 
 - Carregar conjuntos de dados nacionais/subnacionais e áreas de interesse;
 
-- Etiquetar dados nacionais para identificar claramente as metas políticas ou projetos relevantes que serão usados para apoiar;
+- Etiquetar dados nacionais para identificar claramente as metas políticas ou os projetos relevantes que esses dados irão apoiar;
 
 - Visualizar conjuntos de dados nacionais/subnacionais juntamente com qualquer uma das camadas de dados globais disponíveis no UNBL; e
 
-- Calcular quaisquer métricas do UNBL usando a camada de limite nacional oficial ou camadas de limites subnacionais oficiais.
+- Calcular quaisquer métricas do UNBL com a camada oficial de limites nacionais ou camadas oficiais de limites subnacionais.
 
 **Acesso a um espaço de trabalho seguro do UNBL**
 
-Quando você solicitar um espaço de trabalho do UNBL, você será designado como proprietário do espaço de trabalho. Você pode atribuir funções a indivíduos ou grupos de usuários para determinar seu nível de acesso. Essas funções incluem:
+Quando solicitar um espaço de trabalho do UNBL, será designado como proprietário do espaço de trabalho. Pode atribuir funções a indivíduos ou grupos de utilizadores para determinar o respetivo nível de acesso. Essas funções incluem:
 
-- *Proprietários*: Nomeados pelo país para assumir o controle do espaço de trabalho. Os proprietários serão responsáveis por convidar e conceder acesso a outros usuários, bem como adicionar outros administradores.
+- *Proprietários*: Nomeados pelo país para assumir o controlo do espaço de trabalho. Os proprietários serão responsáveis por convidar outros utilizadores e conceder-lhes acesso, bem como por adicionar outros administradores.
 
-- *Administradores*: Podem adicionar e gerenciar usuários, atribuir funções aos usuários como editores e visualizadores, gerenciar ativos do espaço de trabalho através da ferramenta de administração e visualizar todos os ativos do espaço de trabalho na visualização do mapa.
+- *Administradores*: Podem adicionar e gerir utilizadores, atribuir funções aos utilizadores como editores e visualizadores, gerir os recursos do espaço de trabalho através da ferramenta de administração e visualizar todos os recursos do espaço de trabalho na vista do mapa.
 
-- *Editores*: Podem gerenciar ativos do espaço de trabalho através da ferramenta de administração e visualizar todos os ativos do espaço de trabalho na visualização do mapa. Os editores devem ter experiência no uso de software SIG para poderem carregar e editar camadas de dados.
+- *Editores*: Podem gerir os recursos do espaço de trabalho através da ferramenta de administração e visualizar todos os recursos do espaço de trabalho na vista do mapa. Os editores devem ter experiência na utilização de software SIG para poderem carregar e editar camadas de dados.
 
-- *Visualizadores*: Podem visualizar todos os ativos do espaço de trabalho na visualização do mapa. Os visualizadores não podem acessar a ferramenta de administração.
+- *Visualizadores*: Podem visualizar todos os recursos do espaço de trabalho na vista do mapa. Os visualizadores não podem aceder à ferramenta de administração.
 
-Nenhum usuário fora daqueles que você atribuir poderá acessar seu espaço de trabalho.
+Nenhum utilizador além daqueles que atribuir poderá aceder ao seu espaço de trabalho.
 
-Os administradores da plataforma UNBL no PNUD e UNEP-WCMC podem criar/excluir espaços de trabalho seguros do UNBL e adicionar/remover usuários a um determinado espaço de trabalho seguro. Os administradores da plataforma UNBL só farão isso mediante solicitação expressa do proprietário de um espaço de trabalho.
+Os administradores da plataforma UNBL no PNUD e no UNEP-WCMC podem criar/eliminar espaços de trabalho seguros do UNBL e adicionar/remover utilizadores de um determinado espaço de trabalho seguro. Os administradores da plataforma UNBL só o farão a pedido expresso do proprietário de um espaço de trabalho.
 
 ## Detalhes de armazenamento de dados para camadas adicionadas ao seu espaço de trabalho UNBL
 
-**Noções básicas de adição de uma 'camada' a um espaço de trabalho seguro no UNBL**
+**Noções básicas sobre a adição de uma 'camada' a um espaço de trabalho seguro no UNBL**
 
-Os dados geoespaciais podem ser carregados e/ou vinculados dentro de um espaço de trabalho seguro do UNBL, dando assim a todos os membros do espaço de trabalho a capacidade de visualizar esses dados no UNBL sem precisar de qualquer experiência prévia em SIG.
+Os dados geoespaciais podem ser carregados e/ou ligados dentro de um espaço de trabalho seguro do UNBL, dando assim a todos os membros do espaço de trabalho a capacidade de visualizar esses dados no UNBL sem precisarem de qualquer experiência prévia em SIG.
 
-Os espaços de trabalho do UNBL suportam o upload de dados raster geoespaciais no seguinte formato de arquivo:
+Os espaços de trabalho do UNBL suportam o carregamento de dados raster geoespaciais no seguinte formato de ficheiro:
 
 - GeoTIFF (Georeferenced Tagged Image File Format)
 
-Os espaços de trabalho do UNBL também suportam a conexão a dados geoespaciais externos através de qualquer um dos seguintes provedores de serviços de tiles externos:
+Os espaços de trabalho do UNBL também suportam a ligação a dados geoespaciais externos através de qualquer um dos seguintes fornecedores de serviços de tiles externos:
 
 - WMS (Web Map Service)
 
@@ -58,23 +63,23 @@ Os espaços de trabalho do UNBL também suportam a conexão a dados geoespaciais
 
 - Vector Tile Services (servidos como pg_tileserv ou Martin)
 
-Os conjuntos de dados dentro de um espaço de trabalho só são descobertos pelos membros do espaço de trabalho. No entanto, se um usuário com a função de administrador do espaço de trabalho quiser que um conjunto de dados específico dentro de seu espaço de trabalho seja descoberto por qualquer pessoa fora de seu espaço de trabalho, ele pode habilitar isso usando uma opção de URL de camada pública. Os usuários com status de administrador podem revogar essa permissão a qualquer momento.
+Os conjuntos de dados dentro de um espaço de trabalho só podem ser encontrados pelos membros do espaço de trabalho. No entanto, se um utilizador com a função de administrador do espaço de trabalho quiser que um determinado conjunto de dados do seu espaço de trabalho possa ser encontrado por qualquer pessoa fora do espaço de trabalho, pode ativar esta possibilidade através de uma opção de URL de camada pública. Os utilizadores com estatuto de administrador podem revogar essa permissão a qualquer momento.
 
-É importante destacar que quaisquer conjuntos de dados em um espaço de trabalho do UNBL também podem ser visualizados juntamente com conjuntos de dados globais publicados na plataforma pública do UNBL.
+É importante referir que quaisquer conjuntos de dados num espaço de trabalho do UNBL também podem ser visualizados juntamente com os conjuntos de dados globais publicados na plataforma pública do UNBL.
 
 **Armazenamento de dados para camadas carregadas (GeoTIFF)**
 
-Os arquivos GeoTIFF carregados em espaços de trabalho do UNBL serão armazenados em um contêiner de blob de armazenamento privado seguro designado do Microsoft Azure.
+Os ficheiros GeoTIFF carregados em espaços de trabalho do UNBL serão armazenados num contentor de blobs de armazenamento privado e seguro designado do Microsoft Azure.
 
-- Quando os usuários excluem a camada, quaisquer arquivos correspondentes são automaticamente excluídos do armazenamento.
+- Quando os utilizadores eliminam a camada, quaisquer ficheiros correspondentes são automaticamente eliminados do armazenamento.
 
-- O contêiner de armazenamento está hospedado no Centro de Dados da **Europa do Norte** do Azure, que fica na Irlanda.
+- O contentor de armazenamento está alojado no Centro de Dados do **Norte da Europa** do Azure, que fica na Irlanda.
 
-- Os usuários não podem acessar o contêiner de armazenamento diretamente. Os usuários só podem carregar e excluir arquivos através da interface do usuário do espaço de trabalho.
+- Os utilizadores não podem aceder diretamente ao contentor de armazenamento. Os utilizadores só podem carregar e eliminar ficheiros através da interface de utilizador do espaço de trabalho.
 
-**Armazenamento de dados para conjuntos de dados criados usando dados geoespaciais externos**
+**Armazenamento de dados para conjuntos de dados criados com dados geoespaciais externos**
 
-Os dados relacionados aos conjuntos de dados criados pelos dados geoespaciais hospedados nos seguintes serviços não são hospedados dentro do UNBL. A segurança dos dados desses conjuntos de dados pode depender do respectivo serviço externo.
+Os dados relativos aos conjuntos de dados criados a partir de dados geoespaciais alojados nos seguintes serviços não são alojados no UNBL. A segurança dos dados destes conjuntos de dados pode depender do respetivo serviço externo.
 
 - WMS (Web Map Service)
 
@@ -90,18 +95,18 @@ Os dados relacionados aos conjuntos de dados criados pelos dados geoespaciais ho
 
 ## Detalhes de armazenamento de dados para locais adicionados ao seu espaço de trabalho UNBL
 
-**Noções básicas de upload de um 'local' para um espaço de trabalho seguro no UNBL**
+**Noções básicas sobre o carregamento de um 'local' para um espaço de trabalho seguro no UNBL**
 
-Os espaços de trabalho seguros do UNBL permitem que os usuários carreguem locais em um ambiente seguro. Adicionar um novo local fornece aos usuários a capacidade de utilizar todas as funcionalidades do UNBL para uma área de interesse subnacional, nacional ou transfronteiriça. Uma vez que o local tenha sido adicionado a um espaço de trabalho do UNBL, os usuários podem: (1) exibir métricas dinâmicas para esta localização; e (2) recortar qualquer camada raster da plataforma pública do UNBL (apenas dados com licença de acesso aberto) para esta localização e baixá-la para trabalho adicional em um software SIG de desktop. Adicionar um local envolve o upload de um arquivo vetorial para o UNBL.
+Os espaços de trabalho seguros do UNBL permitem que os utilizadores carreguem locais num ambiente seguro. Adicionar um novo local dá aos utilizadores a capacidade de utilizar todas as funcionalidades do UNBL para uma área de interesse subnacional, nacional ou transfronteiriça. Depois de o local ter sido adicionado a um espaço de trabalho do UNBL, os utilizadores podem: (1) exibir métricas dinâmicas para esta localização; e (2) recortar qualquer camada raster da plataforma pública do UNBL (apenas dados com licença de acesso aberto) para esta localização e descarregá-la para trabalho adicional num software SIG de desktop. Adicionar um local implica carregar um ficheiro vetorial para o UNBL.
 
-Os espaços de trabalho do UNBL suportam o upload de locais usando os seguintes tipos de arquivos: GeoJSON (.geojson), GeoJSON Lines (.geojsonl), arquivos do Google Earth (.kml, .kmz) ou ESRI Shapefiles (.zip contendo arquivos .shp, .dbf, .shx, .prj).
+Os espaços de trabalho do UNBL suportam o carregamento de locais nos seguintes tipos de ficheiro: GeoJSON (.geojson), GeoJSON Lines (.geojsonl), ficheiros do Google Earth (.kml, .kmz) ou ESRI Shapefiles (.zip que contenha ficheiros .shp, .dbf, .shx, .prj).
 
 **Segurança de dados para 'locais' carregados**
 
-- Todos os arquivos que não são geojson serão convertidos em .geojson antes de serem carregados no backend do UNBL.
+- Todos os ficheiros que não sejam geojson serão convertidos em .geojson antes de serem carregados para o backend do UNBL.
 
-- Os arquivos .geojson carregados são armazenados no banco de dados Mongo do UNBL (Mongo DB).
+- Os ficheiros .geojson carregados são armazenados na base de dados Mongo do UNBL (Mongo DB).
 
-- Quando o usuário remove o local, os dados são excluídos do Mongo DB ativo do UNBL.
+- Quando o utilizador remove o local, os dados são eliminados da Mongo DB ativa do UNBL.
 
-- O Mongo DB do UNBL está hospedado no **Centro de Dados da Europa do Norte**, que fica na Irlanda.
+- A Mongo DB do UNBL está alojada no **Centro de Dados do Norte da Europa**, que fica na Irlanda.

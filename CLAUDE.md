@@ -55,6 +55,26 @@ Every page exists as `name.md` (English) plus `name.es.md`, `name.fr.md`, `name.
   admonition keywords (`!!! note`), link targets, and **image references** (every
   language references the English file name; see "Images").
 
+## Language variants
+
+Write each language in one consistent variant, matching the existing pages:
+
+- **Portuguese: European Portuguese** (decided Nov 2026, issue #42): descarregar, ficheiro,
+  utilizador, ecrã, separador, registar, gerir, planeamento, contacto, equipa, partilhar;
+  "estar a + infinitivo"; address the reader in the third person or the imperative, not
+  "você". A separate Brazilian Portuguese version is proposed in issue #43; until it
+  exists, don't write Brazilian forms into `.pt.md` pages.
+- **Spanish: neutral international Spanish** that reads naturally in Latin America:
+  archivo (not fichero), computadora/equipo, "haga clic", formal *usted* imperative; avoid
+  Spain-only forms (vosotros, ordenador).
+- **French: international (France) French**, formal *vous*: télécharger, fichier, cliquez.
+- **Russian: standard Russian**, formal *вы*.
+- **English: British spelling, UN style** (Oxford spelling, as in UN editorial
+  guidelines): colour, centre, programme, licence (noun), analyse, kilometre, modelling,
+  but *-ize* endings (organization, optimization, visualize). Interface labels stay as
+  the app shows them (e.g. a field called *Color*). Proper names keep their own spelling
+  (SpatioTemporal Asset Catalog).
+
 ## Markdown conventions
 
 - Headings: one `#` H1 per page, which matches the nav title. Don't skip levels.
@@ -111,6 +131,10 @@ Before saying a change is done, run both:
 python scripts/check_docs.py --changed origin/main   # translations, nav, images, links
 mkdocs build --strict                                # the real build (about 10 s)
 ```
+
+Don't add `-q` to the build: it hides the warnings that explain a strict failure. The
+build checks languages one at a time and stops at the first language with problems, so
+after fixing, build again until it reports `Documentation built`.
 
 - `python scripts/check_docs.py --drift` lists translations that lag English.
 - `mkdocs serve` gives a live preview at http://127.0.0.1:8000.

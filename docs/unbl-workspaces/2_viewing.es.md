@@ -1,3 +1,7 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # Visualizar su espacio de trabajo UNBL
 
 ## ¿Cómo accedo a mi(s) espacio(s) de trabajo?
@@ -10,9 +14,10 @@ Si es un usuario registrado al que se le ha otorgado acceso a uno o múltiples e
 
 3.	Puede ver los activos (lugares y conjuntos de datos) de cada espacio de trabajo de forma independiente, o al mismo tiempo si es miembro de más de un espacio de trabajo. Presione el botón de activación para los espacios de trabajo que desea incluir en su vista del mapa.
 
-	!!!Nota Puede activar/desactivar todos los espacios de trabajo a la vez usando el botón de activación 'Vista del mapa' en la parte superior.
+	!!! note
+		Puede activar/desactivar todos los espacios de trabajo a la vez usando el botón de activación 'Vista del mapa' en la parte superior.
 
-4.	Desactive los espacios de trabajo que no desea ver. También puede desactivar el espacio de trabajo *UNBL* en la parte superior de la lista, lo que le permitirá ver solo los activos exclusivos de su(s) espacio(s) de trabajo seguro(s) UNBL y filtrar todos los activos en la plataforma pública UNBL. Tenga en cuenta que al desactivar el espacio de trabajo *UNBL* eliminará el acceso a todas las capas globales públicas y métricas del panel de control para todas las áreas, incluidas las áreas en su espacio de trabajo seguro.
+4.	Desactive los espacios de trabajo que no desea ver. También puede desactivar el espacio de trabajo *UNBL* en la parte superior de la lista, lo que le permitirá ver solo los activos exclusivos de su(s) espacio(s) de trabajo seguro(s) UNBL y filtrar todos los activos en la plataforma pública UNBL. Tenga en cuenta que al desactivar el espacio de trabajo *UNBL* eliminará el acceso a todas las capas globales públicas y las métricas dinámicas estándar para todas las áreas, incluidas las áreas en su espacio de trabajo seguro.
 
 ![Botón 'ESPACIOS DE TRABAJO' y lista de espacios de trabajo con botones de activación resaltados, con 'Vista del mapa' arriba](images/viewing-01.png)
 
@@ -20,7 +25,7 @@ Si es un usuario registrado al que se le ha otorgado acceso a uno o múltiples e
 
 Una vez que su(s) espacio(s) de trabajo preferido(s) esté(n) seleccionado(s), puede usar la pestaña 'LUGARES' para buscar y seleccionar un lugar, así como para ver sus métricas dinámicas asociadas. Los lugares también se conocen como *áreas de interés* o *ubicaciones*. Solo los lugares agregados dentro de sus espacios de trabajo activados estarán disponibles. Si tiene su espacio de trabajo así como el espacio de trabajo UNBL seleccionados, entonces todos los lugares en la plataforma pública estarán disponibles junto con los lugares personalizados que ha agregado a su propio espacio de trabajo.
 
-!!!Nota:
+!!! note
 	Primero necesita agregar lugares a su espacio de trabajo seguro para poder verlos en UNBL. Vea ['¿Cómo agrego lugares?'](5_add_places.es.md#como-agrego-lugares)
 
 Para buscar un lugar, puede:
@@ -31,8 +36,8 @@ Para buscar un lugar, puede:
 
 2.	Hacer clic en el botón 'LUGARES', hacer clic para expandir el cuadro de filtros, y seleccionar su filtro de interés. Luego puede seleccionar el lugar deseado de la lista de resultados de búsqueda.
 
-!!!Note
-	Los lugares se filtran por tipo *Pais* por defecto al abrir la vista del mapa UNBL. Si su lugar es de una categoría diferente, como *Protected Area* o *Área transfronteriza* y no de tipo *Pais*, entonces necesita hacer clic en el botón 'CLEAR' para borrar todos los filtros, o expandir el menú desplegable 'FILTROS' y desmarcar la casilla de país y seleccionar su filtro de interés para encontrar su lugar.
+!!! note
+	Los lugares se filtran por tipo *País* por defecto al abrir la vista del mapa UNBL. Si su lugar es de una categoría diferente, como *Protected Area* o *Área transfronteriza* y no de tipo *País*, entonces necesita hacer clic en el botón 'CLEAR' para borrar todos los filtros, o expandir el menú desplegable 'FILTROS' y desmarcar la casilla de país y seleccionar su filtro de interés para encontrar su lugar.
 
 ![Pestaña 'LUGARES' con el cuadro de búsqueda y los 'FILTROS' por tipo de lugar resaltados, País marcado](images/viewing-02.png)
 
@@ -66,7 +71,7 @@ Para recortar un conjunto de datos a su área de interés y descargar:
 
 Su espacio de trabajo UNBL le ofrece la capacidad de visualizar cualquier dato agregado a sus espacios de trabajo UNBL con cualquiera de los datos globales en UNBL dentro del espacio de trabajo UNBL.
 
-!!!Nota
+!!! note
 	Primero necesita crear capas en su espacio de trabajo para poder verlas en UNBL. Vea ['Agregar sus propios datos geoespaciales a su espacio de trabajo'](6_add_data.es.md#agregar-sus-propios-datos-geoespaciales-a-su-espacio-de-trabajo).
 
 Para buscar conjuntos de datos disponibles:
@@ -89,7 +94,7 @@ Para buscar conjuntos de datos disponibles:
 
 4.	Haga clic en el botón de alternancia de nuevo o haga clic en el icono ![Cerrar](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la leyenda de la capa para eliminar este conjunto de datos.
 
-!!!Nota
+!!! note
 	Si tiene el espacio de trabajo *UNBL* y su propio espacio de trabajo activados, su búsqueda tendrá que ser específica para encontrar conjuntos de datos que cargó en su propio espacio de trabajo que no son parte de la plataforma pública. La forma más fácil de hacer esto es crear una etiqueta reconocible para su capa agregada – vea el paso 2d en ['¿Qué parámetros y metadatos debo completar al crear una capa?'](6_add_data.es.md#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)
 
 ![Pestaña 'DATOS' con 'FILTROS', el botón de activación de un conjunto de datos y el icono de cierre de la leyenda resaltados](images/viewing-05.png)

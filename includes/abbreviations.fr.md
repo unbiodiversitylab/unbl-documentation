@@ -24,11 +24,13 @@
 *[SLD]: Styled Layer Descriptor : norme XML pour le style des couches cartographiques
 *[SPANB]: Stratégie et plan d'action nationaux pour la biodiversité
 *[STAC]: SpatioTemporal Asset Catalog : catalogue de ressources spatio-temporelles
+*[TSCC]: Centres de coopération technique et scientifique
+*[TSCCs]: Centres de coopération technique et scientifique
 *[UICN]: Union internationale pour la conservation de la nature
 *[UNCCD]: Convention des Nations Unies sur la lutte contre la désertification
 *[UNDP]: Programme des Nations Unies pour le développement
-*[UNEP]: Programme des Nations Unies pour l'environnement
 *[UNEP-WCMC]: Centre mondial de surveillance de la conservation de la nature du PNUE
+*[UNEP]: Programme des Nations Unies pour l'environnement
 *[WDPA]: Base de données mondiale sur les aires protégées
 *[WDPCA]: Base de données mondiale sur les aires protégées et de conservation
 *[WMS]: Web Map Service : service de cartes web

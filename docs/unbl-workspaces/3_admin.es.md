@@ -1,3 +1,7 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # Navegar por la interfaz de administración del espacio de trabajo
 
 ## ¿Cómo accedo a la interfaz de administración?
@@ -10,16 +14,13 @@ Para agregar y gestionar usuarios, lugares y conjuntos de datos en su espacio de
 
 3.	La página de administración de su espacio de trabajo también puede accederse en la siguiente URL:
 
->https://map.unbiodiversitylab.org/admin/[NOMBREDESLUGDESUESPACIODETRABAJO]
+	>https://map.unbiodiversitylab.org/admin/[NOMBREDESLUGDESUESPACIODETRABAJO]
 
 ![Menú 'ESPACIOS DE TRABAJO' abierto con el botón 'ADMIN' de cada espacio de trabajo resaltado](images/admin-01.png)
 
 ## ¿Qué componentes están disponibles dentro de la interfaz de administración?
 
-Puede navegar por la interfaz de administración usando el menú desplegable en la sección superior del panel izquierdo. Dependiendo de su rol en el espacio de trabajo puede gestionar *Usuarios*, *Lugares*, *Capas*, *Widgets* y *Tableros*.
-
-!!!Nota
-	Las funcionalidades de Widget y Tableros están en desarrollo y no están disponibles en este momento.
+Puede navegar por la interfaz de administración usando el menú desplegable en la sección superior del panel izquierdo. Dependiendo de su rol en el espacio de trabajo puede gestionar *Usuarios*, *Lugares*, *Capas*, *Métricas*, *Widgets* y *Tableros*.
 
 Para acceder a los diversos componentes:
 

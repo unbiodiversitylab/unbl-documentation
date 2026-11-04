@@ -1,6 +1,6 @@
-# Como faço para encontrar os conjuntos de dados abertos de Bem Público Digital (DPG)?
+# Como encontro os conjuntos de dados abertos de Bem Público Digital (DPG)?
 
-O Laboratório de Biodiversidade da ONU é certificado como uma plataforma de Bem Público Digital (DPG) pela Digital Public Goods Alliance. Ele fornece maneiras inovadoras para os formuladores de políticas interagirem com dados espaciais de alta qualidade. Você pode visualizar os conjuntos de dados espaciais reconhecidos como dados abertos DPG em escala global ou dentro de uma área de interesse.
+O Laboratório de Biodiversidade da ONU é certificado como uma plataforma de Bem Público Digital (DPG) pela Digital Public Goods Alliance. Proporciona formas inovadoras de os decisores políticos interagirem com dados espaciais de alta qualidade. Pode visualizar os conjuntos de dados espaciais reconhecidos como dados abertos DPG em escala global ou dentro de uma área de interesse.
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>
@@ -16,13 +16,13 @@ O Laboratório de Biodiversidade da ONU é certificado como uma plataforma de Be
   </div>
 </details>
 
-1.	Clique no ícone da aba 'CONJUNTOS DE DADOS'.
+1.	Clique no ícone do separador 'CONJUNTOS DE DADOS'.
 
 2.	Clique para expandir os filtros.
 
-3.	Nos filtros, clique para expandir as tags de conjuntos de dados. Em seguida, selecione "DPG Open Data".
+3.	Nos filtros, clique para expandir as etiquetas de conjuntos de dados. Em seguida, selecione "DPG Open Data".
 
-	![Menu suspenso de tags aberto com a tag 'DPG Open Data' destacada](images/find-dpg-layers-01.png)
+	![Menu pendente de etiquetas aberto com a etiqueta 'DPG Open Data' destacada](images/find-dpg-layers-01.png)
 
 4.	Recolha a lista de 'FILTROS' e visualize a lista de Dados Abertos DPG no UNBL.
 
