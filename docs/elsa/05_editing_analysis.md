@@ -3,7 +3,7 @@
 !!! info "Key Concepts"
     * [Action Zones](12_annex1.md#action-zones)
     * [Lock-in Features](12_annex1.md#lock-in-features)
-    * [Area-based constraint](12_annex1.md#area-based-constraint)
+    * [Area-based target](12_annex1.md#area-based-target)
     * [Boundary Penalty Factor (BPF)](12_annex1.md#boundary-penalty-factor-bpf)
     * [Planning feature](12_annex1.md#planning-feature)
     * [Planning units](12_annex1.md#planning-units)
@@ -17,11 +17,11 @@
 
 ## Naming ELSA analysis run
 
-Upon clicking ‘NEW ANALYSIS RUN’ ([Figure 5](#fig-create-new-analysis)), you will be able to view and edit a tentative analysis. First, you must provide a new, unique name for your analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g., include information like, BPF 10, or Protect 38%). 
+Upon clicking ‘NEW ANALYSIS RUN’ ([Figure 5](04_creating_analysis.md#fig-create-new-analysis)), you will be able to view and edit a tentative analysis. First, you must provide a new, unique name for your analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g., include information like, BPF 10, or Protect 38%). 
 
 ## Selecting lock-in functions
 
-You can ensure certain areas are included in your action map. Conceptually this is most easily understood as locking in existing planning areas to the protect action in a map – in essence replicating on the ground realities. This forces these areas to be selected within the protect action in the map, and these areas are forced to contribute to meeting the area constraint for protection. The national protected area coverage (%) is shown in parentheses. Tool configurations are not only limited to locking in existing protected areas to the protect action (for example, it might be desirable to lock-in existing restoration project areas to the restore action); however, by default tool configurations are currently only configured to allow lock-in of protected areas.    
+You can ensure certain areas are included in your action map. Conceptually this is most easily understood as locking in existing planning areas to the protect action in a map – in essence replicating on the ground realities. This forces these areas to be selected within the protect action in the map, and these areas are forced to contribute to meeting the area-based target for protection. The national protected area coverage (%) is shown in parentheses. Tool configurations are not only limited to locking in existing protected areas to the protect action (for example, it might be desirable to lock-in existing restoration project areas to the restore action); however, by default tool configurations are currently only configured to allow lock-in of protected areas.    
 
 !!! important
     Protected Areas are locked-in **BY DEFAULT**
@@ -32,24 +32,24 @@ Lock-in of Protected Areas ([Figure 6](#fig-lockin-options)):
 * Select ‘Lock-in nothing’ if you wish to independently assess the optimal location of existing and new Protected Areas in your country based on the ‘Protect’ areas selected in the resulting action map. 
 
 <figure markdown>
-![](images/image007.png){#fig-lockin-options}
+![New analysis run window with the protected area lock-in options highlighted](images/editing-analysis-01.png){#fig-lockin-options}
 <figcaption> Figure 6. Lock-in functionalities</figcaption>
 </figure>
 
-As seen in [Figure 6](#fig-lockin-options) for Cuba, existing Protected Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in Existing Protected Areas’ requires that at least 17.08% of the national territory be assigned under the ‘Protect’ area constraint. 
+As seen in [Figure 6](#fig-lockin-options) for Cuba, existing Protected Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in Existing Protected Areas’ requires that at least 17.08% of the national territory be assigned under the ‘Protect’ area-based target. 
 
 ## Alternative Zones
 
 Users cannot define zones themselves, but for some actions, there may be both a default zone and an alternative zone that can be selected. For example, some tools may have an option to consider "Agricultural areas only" for the manage action, or “Forested areas only” for the restore action, based on the individual needs and priorities of users and countries. 
 
 <figure markdown>
-![](images/image008.png){#fig-alt-zone-options}
+![New analysis run window with alternative manage and restore zone options highlighted](images/editing-analysis-02.png){#fig-alt-zone-options}
 <figcaption> Figure 7. Alternative zones for narrowing down nature-based activity areas</figcaption>
 </figure>
 
-## Setting area-based constraints for actions
+## Setting area-based targets for actions
 
-This part of the tool allows you to set area-based constraints (targets) for protection, restoration, management and/or urban greening. Area constraints can also be understood as the percentage of land area that should be given to each action in the resulting action map. The default values in any given ELSA Tool are derived from terrestrial targets in the KMGBF, unless further customized for your country by the UNBL team based on your National Biodiversity Strategy and Action Plan (NBSAP) or other national policy documents.
+This part of the tool allows you to set area-based targets (targets) for protection, restoration, management and/or urban greening. Area-based targets can also be understood as the percentage of land area that should be given to each action in the resulting action map. The default values in any given ELSA Tool are derived from terrestrial targets in the KMGBF, unless further customized for your country by the UNBL team based on your National Biodiversity Strategy and Action Plan (NBSAP) or other national policy documents.
 
 !!! warning "Note the different types of actions available in the ELSA Tool and their associated policies:"
 	| Default Action | KMGBF Target | UNCCD LDN response hierarchy |
@@ -61,15 +61,15 @@ This part of the tool allows you to set area-based constraints (targets) for pro
 	
 	The actions referenced here are the functional equivalent of actions of the LDN response hierarchy supported under UNCCD. ‘Protect’ is the equivalent of ‘avoid’ land degradation, ‘manage’ is the equivalent of ‘reduce’ land degradation, and ‘restore’ is the equivalent of ‘reverse’ land degradation. In summary, this equates “Protect–Manage–Restore” with ”Avoid–Reduce–Reverse”, ensuring alignment across global biodiversity frameworks. For more information on each KMGBF Target, please see the [CBD website](https://www.cbd.int/gbf/targets). For more information on the LDN response hierarchy, see the [UNCCD website](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
-You can set any value greater than or equal to 0.001 for protection, restoration, management, and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%. Additionally, the maximum value for any single area constraint cannot exceed the total area of that action zone. For example, if 80% of a country is covered by a protect zone, then the maximum value that can be assigned for the area-based constraint for protection cannot exceed 80%. If you enter a number that is too high, you will receive an error specifying the maximum amount that can be allocated.  
+You can set any value greater than or equal to 0.001 for protection, restoration, management, and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%. Additionally, the maximum value for any single area-based target cannot exceed the total area of that action zone. For example, if 80% of a country is covered by a protect zone, then the maximum value that can be assigned for the area-based target for protection cannot exceed 80%. If you enter a number that is too high, you will receive an error specifying the maximum amount that can be allocated.  
 
 !!! note
     Note: The location and total area of each action zone defines where it is possible for each action to take place. It is determined based on ecosystem type and level of development in a country (e.g., protection cannot take place in areas with a high human industrial index).  
 
-You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area constraint must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area constraint should be equal to or greater than 17.08%.
+You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area-based target must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area-based target should be equal to or greater than 17.08%.
 
 <figure markdown>
-![](images/image009.png){#fig-setting-objectives}
+![Protect, Manage, Restore and Urban Greening budget percentage fields highlighted in red](images/editing-analysis-03.png){#fig-setting-objectives}
 <figcaption> Figure 8. Setting objectives</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Steps:
     Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. 
 
 <figure markdown>
-![](images/image010.png){#fig-adjust-bpf}
+![Boundary penalty factor field, set to 0, highlighted at the bottom of the window](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption> Figure 9. Adjustment of the boundary penalty factor</figcaption>
 </figure>
 
@@ -101,35 +101,37 @@ You should enter a weight for each planning feature in the input data list. We r
 *  5.0 - medium importance 
 *  10 - utmost importance  
 
-To allow users to make the most informed decision possible, the theme (biodiversity/climate change/human well-being), relevant actions, and proxy KMGBF policy target (or other relevant NBSAP/national policy target) are listed for each planning feature. You can evaluate the priority level of each planning feature and assign an informed weight by deciding on the relative importance of each of the planning features used to map KMGBF targets (or other relevant NBSAP/national policy targets otherwise defined by their country) in your country. For example, if KMGBF Target 1 is of especially high importance for your country, then planning features such as intact ecosystems, high integrity forests, biodiversity habitat index and biodiversity intactness index should be given greater weight (> 3). Alternatively, if you believe threatened ecosystems in your country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then you can give a higher weight to the ‘Threatened Ecosystems for Restoration’ planning feature which specifically maps these areas (see [Figure 10](#fig-edit-weights)). 
+To allow users to make the most informed decision possible, the theme (biodiversity/climate change/human well-being), relevant actions, and proxy KMGBF policy target (or other relevant NBSAP/national policy target) are listed for each planning feature. You can evaluate the priority level of each planning feature and assign an informed weight by deciding on the relative importance of each of the planning features used to map KMGBF targets (or other relevant NBSAP/national policy targets otherwise defined by their country) in your country. For example, if KMGBF Target 1 is of especially high importance for your country, then planning features such as the biodiversity habitat index and biodiversity intactness index should be given greater weight (> 3). Alternatively, if you believe threatened ecosystems in your country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then you can give a higher weight to the ‘Threatened Ecosystems for Restoration’ planning feature which specifically maps these areas. 
 
 For a full list of input data, as well as which KMGBF targets they are used to map, please see [Annex 2](13_annex2.md).
 
 <figure markdown>
-![](images/image011.png){#fig-edit-weights}
+![SET FEATURE WEIGHTS tab listing planning features with theme, policy target and weight](images/editing-analysis-05.png){#fig-edit-weights}
 <figcaption> Figure 10. Editing weights</figcaption>
 </figure>
 
 ## View input layers
 
-If you want to view planning features before setting weights, you will have to exit the pop-up window by clicking ‘SAVE FOR LATER’ in the bottom-right corner. You can then come back to your saved draft analysis run after viewing the desired planning features. 
+If you want to view planning features before setting weights, you can either:
 
-To view planning features, click on the ‘INPUT LAYERS’ option next to the ‘ANALYSIS RUNS’ option in the left tool tab. You can then toggle specific input layers to view them on UNBL. 
+- Minimize and drag the pop-up window, and select the layers you want to view by clicking on the toggle button in the *View on Map* column
+
+- Exit the pop-up window by clicking ‘SAVE FOR LATER’ in the bottom-right corner (you can come back to your saved draft analysis run after viewing the desired planning features), then click on the ‘INPUT LAYERS’ option next to the ‘ANALYSIS RUNS’ option in the left tool tab. Click on the toggle button to view specific layers.
 
 <figure markdown>
-![](images/image012.png)
+![INPUT LAYERS tab, minimize button and View on Map toggle highlighted over a Cuba map](images/editing-analysis-06.png)
 <figcaption> Figure 11. Viewing action zones and planning features on UNBL</figcaption>
 </figure>
 
-By clicking on the ‘INPUT LAYERS’ tab, you can view each individual input planning feature layer included in the ELSA analysis; these inputs are specifically tailored to help identify priority areas for KMGBF implementation, as well as NBSAP/other national policy implementation, if specifically requested by your country. You can additionally view (optional) lock-in features (namely, existing protected areas) in your country. Finally, you can view the layer for each action zone that defines where it is possible for each action to take place in your country for the analysis.
+Each individual input planning feature layer included in the ELSA analysis is specifically tailored to help identify priority areas for KMGBF implementation, as well as NBSAP/other national policy implementation, if specifically requested by your country. If viewing layers through the 'INPUT LAYERS' list in the left tool tab, you can additionally view (optional) lock-in features (namely, existing protected areas) in your country, as well as the layer for each action zone that defines where it is possible for each action to take place in your country for the analysis.
 
-Steps: 
+In sum: 
 
 * Click the toggle button for each action zone/lock-in zone/input planning feature layer you want to display.
 * Click the toggle button again to remove the selected layer from the view.  
 * You have the option to view additional information (description of the layer, original input layers, source) for currently toggled layers by clicking on the round ‘**i**’ icon either in the individual layer’s legend or next to the toggle button for each layer. 
 
 <figure markdown>
-![](images/image013.png)
-<figcaption> Figure 12. Viewing metadata</figcaption>
+![Urban Greening Zone description window opened from the i icon in the list or legend](images/editing-analysis-07.png)
+<figcaption>Figure 12. Viewing metadata</figcaption>
 </figure>

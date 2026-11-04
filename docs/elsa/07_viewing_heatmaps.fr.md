@@ -3,7 +3,7 @@
 Après avoir exécuté une analyse ELSA, vous pourrez afficher les résultats en cliquant sur les trois points verticaux à côté de l'entrée d'analyse dans l'onglet de gauche, puis en cliquant sur le bouton « Afficher ». Dans le menu déroulant de la légende qui apparaît sur la carte, vous pouvez choisir d'afficher la carte d'actions finale, ou les couches de la heatmap. Nous vous suggérons de commencer par afficher les heatmaps.
 
 <figure markdown>
-![](images/fr/15fr - figure 15.png){#fig-viewing-hm}
+![Analyse activée et menu déroulant de la légende listant « ELSA Action » et quatre cartes de chaleur](images/viewing-heatmaps-01.png){#fig-viewing-hm}
 <figcaption>Figure 15. Affichage des couches de la heatmap</figcaption>
 </figure>
 
@@ -15,6 +15,6 @@ En évaluant les heatmaps, les experts en données peuvent consulter les donnée
     Pour basculer entre les images satellite et les routes, les utilisateurs doivent cliquer sur le bouton « MAP CONTROLS » (Commandes de la carte) en bas à droite de l'application de données UNBL. Les utilisateurs peuvent ensuite cliquer sur l'icône en forme d'œil dans la légende pour masquer la heatmap et afficher les images satellite, ou sur le bouton d'opacité à gauche de l'icône en forme d'œil pour réduire l'opacité de la heatmap et voir simultanément les images satellite sous-jacentes et la heatmap.
 
 <figure markdown>
-![](images/fr/16fr - figure 16.png){#fig-eval-hm}
+![Carte de chaleur de protection sur images satellite, avec le bouton d'opacité et « MAP CONTROLS » encadrés](images/viewing-heatmaps-02.png){#fig-eval-hm}
 <figcaption>Figure 16. Évaluation des heatmaps</figcaption>
 </figure>

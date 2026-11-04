@@ -1,12 +1,16 @@
+---
+source_rev: be39f8f2e5aa0c69faa532076a4f4e8b7c307cce
+translation_status: machine
+---
 # Anexo 1: Glosario
 
 ## Zonas de acción {#action-zones}
 
 Una zona de uso del suelo, equivalente a una acción basada en la naturaleza, que sirve para mejorar objetivos de planificación específicos. Las zonas se determinan mediante restricciones que definen dónde puede o no puede ocurrir una acción de manera absoluta. Por ejemplo, estas restricciones estrictas limitan la protección a áreas intactas (por ejemplo, valores bajos de huella humana) y la protección/restauración a áreas que están moderadamente afectadas por la actividad humana, pero no totalmente dominadas por los seres humanos (por ejemplo, valores bajos y medios de huella humana). 
 
-## Restricción basado en el área {#area-based-constraint}
+## Meta basada en el área {#area-based-target}
 
-El área máxima (expresada como porcentaje del área total del país) que se puede asignar a una acción. 
+El área máxima (expresada como porcentaje del área total del país) que se puede asignar a una zona de acción específica (protección, restauración, gestión o reverdecimiento urbano).
 
 ## Factor de penalización de los límites (BPF) {#boundary-penalty-factor-bpf}
 
@@ -26,7 +30,7 @@ Características o áreas específicas que están bloqueadas en una solución. P
 
 ## Característica de planificación {#planning-feature}
 
-Un conjunto de datos espaciales utilizado para mapear elementos espaciales de los Objetivos 1-12 del KMGBF. Cada objetivo del KMGBF puede ser mapeado por una o más características de planificación dependiendo de su complejidad. Las características de planificación pueden incluir clasificaciones ecológicas, tipos de hábitat, especies, objetos físicos, procesos o cualquier elemento que pueda medirse en una unidad de planificación.
+Un conjunto de datos espaciales utilizado para mapear elementos espaciales de las Metas 1-12 del MMB-KM. Cada meta del MMB-KM puede ser mapeado por una o más características de planificación dependiendo de su complejidad. Las características de planificación pueden incluir clasificaciones ecológicas, tipos de hábitat, especies, objetos físicos, procesos o cualquier elemento que pueda medirse en una unidad de planificación.
 
 ## Unidades de planificación {#planning-units}
 
@@ -38,7 +42,7 @@ En la planificación sistemática de la conservación, un sistema representativo
 
 ## Restricciones {#restrictions}
 
-Una limitación que debe cumplirse durante la optimización. Las principales limitaciones son que no se supere la restricción basada en el área (área de terreno dedicada a cada acción) y que cada zona solo pueda darse dentro de unidades de planificación específicas (por ejemplo, la zona de protección solo puede ser posible en unidades de planificación que no sean de cobertura agrícola o urbana). 
+Una limitación que debe cumplirse durante la optimización. Las principales limitaciones son que no se supere la meta basada en el área (área de terreno dedicada a cada acción) y que cada zona solo pueda darse dentro de unidades de planificación específicas (por ejemplo, la zona de protección solo puede ser posible en unidades de planificación que no sean de cobertura agrícola o urbana). 
 
 ## Planificación Sistemática de la Conservación (PSC) {#systematic-conservation-planning-scp}
 

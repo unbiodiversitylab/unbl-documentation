@@ -2,10 +2,24 @@
 
 When selecting multiple datasets, you can customize the map by adjusting their overlay order and opacity. 
 
-1. To change the overlay order, click and hold the ![](images/icons/order-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to the left of the dataset name in the legend and move the dataset up or down based on the preferred overlay order. The top dataset on the legend will be the top dataset on the map. 
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
 
-2. To change the opacity, click on the ![](images/icons/opacity-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. Reducing opacity increases the transparency of the dataset. For example, to visualize both tree cover loss and protected areas, you can position the tree cover loss dataset above the protected areas dataset and adjust the opacity of protected areas to 60%. This creates a map that shows tree cover loss within the protected areas, as well as the overall loss across the country.
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/4ZoGlPEWIOU"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
-3. To temporarily hide a dataset on the map, click on the ![](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. To make it visible again, click on the ![](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon.
+1. To change the overlay order, click and hold the ![Drag handle](images/icons/order-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon to the left of the dataset name in the legend and move the dataset up or down based on the preferred overlay order. The top dataset on the legend will be the top dataset on the map. 
 
-![](images/en/image067.png)
+2. To change the opacity, click on the ![Opacity](images/icons/opacity-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. Reducing opacity increases the transparency of the dataset. For example, to visualize both tree cover loss and protected areas, you can position the tree cover loss dataset above the protected areas dataset and adjust the opacity of protected areas to 60%. This creates a map that shows tree cover loss within the protected areas, as well as the overall loss across the country.
+
+3. To temporarily hide a dataset on the map, click on the ![Show (eye)](images/icons/show-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. To make it visible again, click on the ![Hide (crossed-out eye)](images/icons/hide-icon.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon.
+
+![Legend with Tree Cover Loss above WDPA, highlighting the drag handle, opacity and visibility icons](images/customize-mapview-01.png)

@@ -1,19 +1,32 @@
-# Registrando-se na UNBL e Solicitando Acesso a um Espaço de Trabalho com uma Configuração de Ferramenta ELSA
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
+# Registar-se no UNBL e Solicitar Acesso a um Espaço de Trabalho com uma Configuração da Ferramenta ELSA
 
-Para se registrar na UNBL e solicitar acesso a um espaço de trabalho e à Ferramenta ELSA, siga as seguintes etapas.
+Para se registar no UNBL e solicitar acesso a um espaço de trabalho e à Ferramenta ELSA, siga os passos seguintes.
 
-1. Clique no botão 'Launch map' no site do Laboratório de Biodiversidade da ONU para acessar o aplicativo de dados.
+1. Clique no botão 'Launch map' no site do Laboratório de Biodiversidade da ONU para aceder à aplicação de dados.
 
-![Página inicial da UNBL](images/image002.png)
+	<figure markdown>
+	![Página inicial do UNBL com o botão Launch map destacado a vermelho](images/registration-01.png)
+	<figcaption>Figura 2. Página inicial do UNBL</figcaption>
+	</figure>
 
-2. Depois que carregar, selecione o ícone de conta no canto superior direito e escolha 'sign up'. Insira seu e-mail, nome, país e instituição (opcional) e defina sua senha para se registrar.
+2. Depois de carregada, selecione o ícone de conta no canto superior direito e escolha 'sign up'. Introduza o seu e-mail, nome, país e instituição (opcional) e defina a sua palavra-passe para se registar.
 
-![Janela de registro](images/image004.png)
+	<figure markdown>
+	![Formulário Sign Up com os campos de e-mail, palavra-passe, nome, país e organização](images/registration-02.png)
+	<figcaption>Figura 3. Janela de registo</figcaption>
+	</figure>
 
-3. Você receberá um e-mail em alguns minutos. Siga as instruções neste e-mail para verificar sua conta.
-4. Depois que sua conta for verificada, você pode fazer login usando seu endereço de e-mail e senha cada vez que acessar a plataforma.
-5. Para usar a Ferramenta ELSA para seu país, basta [solicitar um espaço de trabalho no Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/en/unbl-workspaces/) usando nosso formulário e indique que deseja acesso à Ferramenta ELSA. Sinta-se à vontade para entrar em contato conosco em <support@unbiodiversitylab.org> para perguntas adicionais.
-6. Depois que o espaço de trabalho for criado, você receberá uma confirmação por e-mail. Você poderá acessá-lo navegando até o aplicativo de mapa UNBL, alternando o espaço de trabalho na aba que aparece depois de clicar na aba 'WORKSPACES' no canto superior esquerdo e clicando em 'ANALYSES' depois de escolher seu espaço de trabalho para visualizar a Ferramenta ELSA. As configurações da Ferramenta ELSA podem ser criadas para um ou vários países dentro do seu espaço de trabalho.
-7. Se você tiver uma ou mais configurações de ferramenta em um único espaço de trabalho, ou tiver acesso a vários espaços de trabalho com configurações de ferramenta, então uma lista das configurações de ferramenta disponíveis aparecerá na aba depois de clicar em 'ANALYSES'. Clique na seta para baixo da configuração de ferramenta que deseja usar para selecionar essa configuração de ferramenta. Se você tiver acesso a apenas uma configuração de ferramenta ou tiver apenas um espaço de trabalho com uma configuração de ferramenta alternada, então essa configuração de ferramenta será automaticamente selecionada.
+3. Receberá um e-mail dentro de alguns minutos. Siga as instruções desse e-mail para verificar a sua conta.
+4. Depois de a sua conta ser verificada, pode iniciar sessão com o seu endereço de e-mail e palavra-passe sempre que aceder à plataforma.
+5. Para utilizar a Ferramenta ELSA para o seu país, basta [solicitar um espaço de trabalho no Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/en/unbl-workspaces/) através do nosso formulário e indicar que pretende ter acesso à Ferramenta ELSA. Para outras questões, não hesite em contactar-nos através de <support@unbiodiversitylab.org>.
+6. Depois de o espaço de trabalho ser criado, receberá uma confirmação por e-mail. Poderá aceder-lhe navegando até à aplicação de mapas UNBL, ativando o espaço de trabalho no separador que aparece depois de clicar no separador 'WORKSPACES' no canto superior esquerdo e clicando em 'ANALYSES', depois de escolher o seu espaço de trabalho, para ver a Ferramenta ELSA. As configurações da Ferramenta ELSA podem ser criadas para um ou vários países dentro do seu espaço de trabalho.
+7. Se tiver uma ou mais configurações de ferramenta num único espaço de trabalho, ou tiver acesso a vários espaços de trabalho com configurações de ferramenta, aparecerá uma lista das configurações de ferramenta disponíveis no separador depois de clicar em 'ANALYSES'. Clique na seta para baixo da configuração de ferramenta que pretende utilizar para a selecionar. Se tiver acesso a apenas uma configuração de ferramenta ou tiver apenas um espaço de trabalho com uma configuração de ferramenta ativada, essa configuração de ferramenta será selecionada automaticamente.
 
-![Acessando a configuração da Ferramenta ELSA para Moore – Ghana](images/image005.png)
+<figure markdown>
+![Setas que conduzem de WORKSPACES ao separador ANALYSES e à seta de expansão de uma configuração de ferramenta](images/registration-03.png)
+<figcaption>Figura 4. Aceder à configuração da Ferramenta ELSA para Moore – Gana</figcaption>
+</figure>

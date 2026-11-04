@@ -1,3 +1,3 @@
-# E se minha pergunta não foi respondida?
+# E se a minha pergunta não tiver sido respondida?
 
-Para perguntas adicionais, não hesite em entrar em contato conosco em <support@unbiodiversitylab.org>.
+Para outras questões, não hesite em contactar-nos através de <support@unbiodiversitylab.org>.

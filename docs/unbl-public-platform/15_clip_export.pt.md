@@ -1,29 +1,51 @@
-# Como faço para recortar e exportar conjuntos de dados?
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 
-Usuários registrados no Laboratório de Biodiversidade da ONU podem recortar conjuntos de dados raster para uma área de interesse e baixá-los para uso em um software de SIG de desktop. Esta função permite que os usuários acessem os dados subjacentes enquanto evitam a largura de banda e o armazenamento necessários para baixar e trabalhar com um conjunto de dados global.
+# Como posso recortar e exportar conjuntos de dados?
 
-Para recortar um conjunto de dados para sua área de interesse e baixar:
+Os utilizadores registados no UN Biodiversity Lab podem:
 
-1.	Clique no botão 'LOCAIS' e selecione seus locais de interesse.
+- Recortar conjuntos de dados raster para uma área de interesse e descarregá-los para utilização num software SIG para computador — esta função permite aos utilizadores aceder aos dados subjacentes, evitando ao mesmo tempo a largura de banda e o espaço de armazenamento necessários para descarregar e trabalhar com um conjunto de dados global;
 
-2.	Clique no ícone **…** à direita do nome do país e clique em 'Recortar e Exportar Camadas'.
+- Descarregar o ficheiro de limites de uma área de interesse no formato GeoJSON para utilização num software SIG para computador.
 
-	![](images/en/image073.png)
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
 
-3.  Digite o nome ou selecione os dados que você deseja baixar. Se os dados contiverem camadas de múltiplos anos, selecione o ano que você deseja baixar. Você tem a opção de baixar camadas recortadas em formato raster GeoTIFF ou em formato de arquivo de imagem PNG.
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/QWW4Dm1ssBg"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
-4. Clique em baixar.
+Para o fazer:
 
-	- A fonte de dados selecionada será recortada para a caixa delimitadora ao redor do país.
+1.	Clique no botão 'LOCAIS' e selecione os seus locais de interesse.
 
-	- Há um pequeno buffer adicionado à caixa delimitadora, que ampliará ligeiramente a área do raster recortado. Isso ajuda a garantir que quaisquer incongruências entre o limite nacional usado no UNBL e o arquivo de limite nacional oficial que você pode desejar usar não resultem em perda de dados. Isso pressupõe que as diferenças sejam potencialmente pequenas. Se este não for o caso, entre em contato conosco em <support@unbiodiversitylab.org> para obter assistência.
+2.	Clique no ícone ![Mais opções (três pontos)](images/icons/ellipsis-icon.png){style="display: inline; width: 1em; height: 1em; width: 2em;"} à direita do nome do país e clique em «Descarregar GeoJSON» para descarregar o ficheiro de limites da sua área de interesse, ou clique em «Recortar e exportar camadas» se pretender recortar e descarregar um conjunto de dados específico. Se escolher a última opção, siga os passos adicionais 3 a 6 descritos abaixo.
 
-	!!!Note
-		Se você estiver baixando GeoTIFFs, estes são dados brutos e não incluirão informações de estilo.
+	![Menu do local Colômbia aberto, com 'Recortar e exportar camadas' e 'Descarregar GeoJSON'](images/clip-export-01.png)
 
-	![](images/en/image075.png)
+3.  Escreva o nome ou selecione os dados que pretende descarregar. Se os dados contiverem camadas de vários anos, selecione o ano que pretende descarregar. Tem a opção de descarregar as camadas recortadas em formato raster GeoTIFF ou em formato de ficheiro de imagem PNG.
 
-5.	Acesse o arquivo compactado .zip baixado em sua pasta de downloads assim que o download for concluído.
+4. Clique em descarregar.
 
-6.	Os dados baixados podem ser abertos em qualquer software de SIG para análise adicional.
+	- A fonte de dados selecionada será recortada para a caixa delimitadora em torno do país.
 
+	- É adicionada uma pequena margem (buffer) à caixa delimitadora, que alarga ligeiramente a área do raster recortado. Isto ajuda a garantir que eventuais incongruências entre o limite nacional utilizado no UNBL e o ficheiro oficial de limites nacionais que pretenda utilizar não resultem em perda de dados. Pressupõe-se que as diferenças sejam potencialmente pequenas. Se não for o caso, contacte-nos através de <support@unbiodiversitylab.org> para obter assistência.
+
+	!!! note
+		Se estiver a descarregar GeoTIFFs, estes são dados brutos e não incluem informações de estilo.
+
+	![Painel de recorte e exportação com a seleção de camada, o formato PNG ou GeoTIFF e 'descarregar' destacados](images/clip-export-02.png)
+
+5.	Aceda ao ficheiro comprimido .zip descarregado na sua pasta de transferências assim que a transferência estiver concluída.
+
+6.	Os dados descarregados podem ser abertos em qualquer software SIG para análise adicional.

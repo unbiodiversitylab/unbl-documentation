@@ -2,8 +2,22 @@
 
 Data on UN Biodiversity Lab include the best available global datasets related to nature and human well-being, ranging from biodiversity to ecosystem services, to socio-economic data. We also include regional datasets where recommended by UN Biodiversity Lab users. You can view datasets on UN Biodiversity Lab globally or within an area of interest. 
 
-!!! Note
+!!! note
 	We refer to both datasets and data layers in this guide and on UNBL. Each dataset may have one or multiple data layers within it.
+	
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/jvyZ8K_lbBE"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 1.	Navigate to your area of interest, if preferred. You can also stay on the global view. 
 
@@ -17,17 +31,17 @@ Data on UN Biodiversity Lab include the best available global datasets related t
     
     b) Click to expand the filters to view and select the dataset categories of your interest. You then can select the desired dataset from the search result list.
 
-	![](images/en/image043.png)
+	![DATASETS tab with search box, expanded FILTERS and dataset category checkboxes](images/find-layers-01.png)
 	
 	**OR**
 	
 	c) Click to expand the dataset tags and select your tag of interest. You then can select the desired dataset from the list.
 	
-	![](images/en/image045.png)
-	![](images/en/image047.png)
+	![FILTERS arrow and Dataset tags dropdown highlighted, showing the list of tags](images/find-layers-02.png)
+	![Filters with the CongoPeat tag and Agriculture category selected and highlighted](images/find-layers-03.png)
 
 4.	Click the toggle button to the right of the dataset name to load this dataset to the map. 
 
 5.	Click the toggle button again or click the **X** icon in the dataset legend to remove this dataset.
 
-	![](images/en/image049.png)
+	![Global Forest Cover toggled on, with FILTERS, the toggle and legend X icon highlighted](images/find-layers-04.png)

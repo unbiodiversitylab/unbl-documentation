@@ -1,3 +1,8 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
+
 # Navegar na interface de administração do espaço de trabalho
 
 ## Como acedo à interface de administração?
@@ -10,16 +15,13 @@ Para adicionar e gerir utilizadores, lugares e conjuntos de dados no seu espaço
 
 3.	A página de administração do seu espaço de trabalho também pode ser acedida no seguinte URL:
 
->https://map.unbiodiversitylab.org/admin/[NOMEDOSLUGDOSEUESPACO]
+	>https://map.unbiodiversitylab.org/admin/[NOMEDOSLUGDOSEUESPACO]
 
-![](images/pt/07pt.png)
+![Menu 'WORKSPACES' aberto com o botão 'ADMIN' de cada espaço de trabalho destacado](images/admin-01.png)
 
 ## Que componentes estão disponíveis na interface de administração?
 
-Pode navegar na interface de administração usando o menu suspenso na secção superior do painel esquerdo. Dependendo da sua função no espaço de trabalho pode gerir *Users*, *Places*, *Layers*, *Widgets* e *Dashboards*.
-
-!!!Note
-	As funcionalidades de Widget e Dashboard estão em desenvolvimento e não estão disponíveis neste momento.
+Pode navegar na interface de administração usando o menu suspenso na secção superior do painel esquerdo. Dependendo da sua função no espaço de trabalho pode gerir *Users*, *Places*, *Layers*, *Metrics*, *Widgets* e *Dashboards*.
 
 Para aceder aos vários componentes:
 
@@ -27,4 +29,4 @@ Para aceder aos vários componentes:
 
 2.	Selecione o componente que deseja ver. Mais informação sobre cada componente é fornecida em secções posteriores deste guia do utilizador.
 
-![](images/pt/08pt.png)
+![Menu suspenso 'Home' da interface de administração aberto, com Users, Places, Layers, Widgets e Dashboards](images/admin-02.png)

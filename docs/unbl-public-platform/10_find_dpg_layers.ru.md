@@ -2,13 +2,27 @@
 
 Лаборатория ООН по биоразнообразию сертифицирована Аллайансом *Digital Public Goods Alliance* как платформа *Digital Public Good (DPG)*. Она предоставляет политикам новые способы взаимодействия с высококачественными пространственными данными. Вы можете просматривать пространственные наборы данных, признанные открытыми данными DPG, в глобальном масштабе или в пределах интересующей вас области. 
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/3JirK4Puv10"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Нажмите на значок «НАБОРЫ ДАННЫХ» (или «СЛОИ»).
 
 2.	Нажмите, чтобы развернуть фильтры.
 
 3.	В фильтрах нажмите, чтобы развернуть теги наборов данных. Затем выберите «Открытые данные DPG» (DPG Open Data).
 
-	![](images/ru/image051.png)
+	![Раскрытый список тегов с выделенным тегом «Открытые данные DPG»](images/find-dpg-layers-01.png)
 
 4.	Сверните список ФИЛЬТРЫ и просмотрите список открытых данных DPG на UNBL.
 
@@ -16,7 +30,7 @@
 
 6.	Нажмите переключатель еще раз или нажмите значок **Х** на легенде, чтобы удалить этот набор данных.
 
-	![](images/ru/image053.png)
+	![Слой Crop Suitability над Колумбией с выделенными фильтром «Открытые данные DPG» и значком X в легенде](images/find-dpg-layers-02.png)
 
 
 

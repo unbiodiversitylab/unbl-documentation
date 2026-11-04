@@ -4,7 +4,7 @@
 
 A land use zone, equivalent to a nature-based action, which serves to enhance specific planning objects. Zones are determined by restrictions that define where an action may or may not absolutely occur. For example, these hard restrictions limit protection to intact areas (e.g., low human footprint values) and protection/restoration to areas that are moderately impacted by human activity, but not totally dominated by humans (e.g., low and medium human footprint values).
 
-## Area-based constraint {#area-based-constraint}
+## Area-based target {#area-based-target}
 
 The maximum area (expressed as a percentage of the total area of the country) that can be assigned to a specific action zone (protection, restoration, management, or urban greening).
 
@@ -38,7 +38,7 @@ In Systematic Conservation Planning, a representative system captures the full r
 
 ## Restrictions {#restrictions}
 
-A constraint that must be met during optimization. The main constraints are that the area-based constraint (land area devoted to each action) is not exceeded and that each zone can only occur within specified planning units (e.g. the protection zone can only be possible in planning units that are not agricultural or urban coverage).
+A constraint that must be met during optimization. The main constraints are that the area-based target (land area devoted to each action) is not exceeded and that each zone can only occur within specified planning units (e.g. the protection zone can only be possible in planning units that are not agricultural or urban coverage).
 
 ## Systematic Conservation Planning (SCP) {#systematic-conservation-planning-scp}
 

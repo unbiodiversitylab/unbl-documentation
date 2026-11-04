@@ -200,26 +200,40 @@ docs/
 │   ├── 01_overview.es.md             # Spanish
 │   ├── 01_overview.fr.md             # French
 │   ├── images/
-│   │   ├── en/                       # English screenshots
-│   │   ├── es/                       # Spanish screenshots
-│   │   ├── fr/                       # French screenshots
+│   │   ├── creating-analysis-05.png      # English screenshot (and fallback)
+│   │   ├── creating-analysis-05.es.png   # Spanish version of the same screenshot
+│   │   ├── creating-analysis-05.fr.png   # French version
 │   │   └── ...
+│   │   └── icons/                        # shared icons
 ├── unbl-public-platform/             # UNBL Platform documentation
 │   ├── 1_register.md
 │   ├── 1_register.es.md
 │   └── images/
-│       ├── en/
-│       ├── es/
-│       └── ...
 └── unbl-workspaces/                  # Workspaces documentation
     ├── 1_basics.md
     ├── 1_basics.es.md
     └── images/
-        ├── en/
-        └── ...
 ```
 
 ### Finding What Needs Translation
+
+#### Recommended: the translation status report
+
+The repository can tell you exactly what needs work in your language:
+
+```bash
+python scripts/check_docs.py --drift --lang fr
+```
+
+Or, in Claude Code, type `/translation-status fr`. It lists pages that are **MISSING**,
+**STALE** (English changed since the translation was last synced), **MAYBE-STALE**
+(probably changed; the tool is guessing from dates) or awaiting **REVIEW** (machine
+translations). The same report appears on the "Check documentation" page of every pull
+request. See [CONTRIBUTING.md](CONTRIBUTING.md#translators) for the `source_rev` front
+matter that makes the report exact, and use [`i18n/glossary.yml`](i18n/glossary.yml) for
+terminology.
+
+The methods below do the same checks by hand.
 
 #### Method 1: Compare file lists in VS Code
 
@@ -366,21 +380,25 @@ When translating a Markdown file, keep the following exactly as they are:
   ```markdown
   [Texte traduit](https://same-url.com)
   ```
-- **Image references** — update the path to point to your language's images if they exist:
+- **Image references** — keep the path exactly as in English; translate only the alt text:
   ```markdown
-  ![Description traduite](images/fr/screenshot.png)
+  ![Description traduite](images/creating-analysis-05.png)
   ```
-  If no language-specific image exists, keep the English path (`images/en/...`)
+  The site picks your language's version of the screenshot automatically (see below).
 - **Markdown formatting** — bold `**text**`, italic `*text*`, lists, tables, code blocks
 
 ### Image Translations
 
 Screenshots that contain visible text should ideally have language-specific versions:
 
-- Images are stored in `docs/<section>/images/<language>/`
-- If a screenshot in your language already exists, reference it (e.g., `images/fr/screenshot.png`)
-- If no translated screenshot exists, use the English version (`images/en/screenshot.png`) — it's better than a broken image
-- If you create new screenshots, place them in the correct language folder
+- Screenshots are stored in `docs/<section>/images/`. The English file is, for example,
+  `creating-analysis-05.png`.
+- A translated screenshot sits **next to it**, with the language code added before the
+  extension: `creating-analysis-05.fr.png`. Same name, same `.png` extension.
+- Pages in every language reference the English name. The site shows your language's
+  version when it exists, and the English screenshot when it doesn't, so nothing breaks.
+- To add or replace a translated screenshot, just add or replace the `.<lang>.png` file;
+  you don't need to edit the page.
 
 ### Navigation Translations
 
@@ -395,7 +413,7 @@ nav_translations:
 
 ### Previewing Your Work Locally
 
-If you have the MkDocs environment set up (see [QUICKSTART.md](QUICKSTART.md)):
+If you have the MkDocs environment set up (`pip install -r requirements.txt`; see [CONTRIBUTING.md](CONTRIBUTING.md)):
 
 ```bash
 mkdocs serve
@@ -630,7 +648,7 @@ Your language should show fewer (or zero) missing entries.
 
 - Use formal register appropriate for UN documentation
 - Be consistent with existing translations in the same language
-- When unsure about terminology, check existing translated files in the same repo
+- When unsure about terminology, check `i18n/glossary.yml` (unbl-documentation) and existing translated files in the same repo
 - Keep sentences similar in length to the English original
 
 ---
@@ -719,7 +737,10 @@ Hover over the red line to see the error message.
 Common causes:
 - YAML syntax error in `mkdocs.yml`
 - A file referenced in navigation doesn't exist
-- Run `mkdocs build` in the terminal to see the specific error message
+- A page title in `nav` has no translation in `nav_translations`
+- Run `python scripts/check_docs.py` for a plain-language list of problems, then
+  `mkdocs build --strict` to see the exact build error
+- On a pull request, click **Details** next to the red "Check documentation" status
 
 ---
 

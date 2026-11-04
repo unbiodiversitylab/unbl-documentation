@@ -2,8 +2,22 @@
 
 Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de données mondiaux disponibles liés à la nature et au bien-être humain, allant de la biodiversité aux services écosystémiques, en passant par les données socio-économiques. Nous incluons également des ensembles de données régionaux lorsque cela est recommandé par les utilisateurs du UN Biodiversity Lab. Vous pouvez consulter les ensembles de données du UN Biodiversity Lab pour la biodiversité à l'échelle mondiale ou dans une zone qui vous intéresse.
 
-!!! Note
+!!! note
 	Nous faisons référence à la fois aux ensembles de données et aux couches de données dans ce guide et sur le UNBL. Chaque ensemble de données peut contenir une ou plusieurs couches de données.
+	
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/q395Y5Xbl7s"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
 1. Naviguez vers la zone qui vous intéresse, si vous le souhaitez. Vous pouvez également rester sur la vue mondiale.
 
@@ -17,17 +31,17 @@ Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de donn�
 
 	b) Cliquez pour développer les filtres afin d'afficher et de sélectionner les catégories de jeux de données qui vous intéressent. Vous pouvez ensuite sélectionner le jeu de données souhaité dans la liste des résultats de recherche.
 
-	![](images/fr/image043.png)
+	![Onglet DATASETS avec le champ de recherche, les filtres développés et les cases des catégories d'ensembles de données](images/find-layers-01.png)
 
 	**OU**
 
 	c) Cliquez pour développer les balises des ensembles de données et sélectionnez la balise qui vous intéresse. Vous pouvez ensuite sélectionner l'ensemble de données souhaité dans la liste.
 
-	![](images/fr/image045.png)
-	![](images/fr/image047.png)
+	![Flèche des filtres et menu déroulant des balises d'ensembles de données mis en évidence, avec la liste des balises](images/find-layers-02.png)
+	![Filtres avec la balise CongoPeat et la catégorie Agriculture sélectionnées et mises en évidence](images/find-layers-03.png)
 
 4. Cliquez sur le bouton à bascule situé à droite du nom de l'ensemble de données pour charger cet ensemble de données sur la carte.
 
 5. Cliquez à nouveau sur le bouton bascule, ou cliquez sur l'icône X dans les informations sur l'ensemble de données pour supprimer cet ensemble de données.
 
-	![](images/fr/image049.png)
+	![Global Forest Cover activé, avec les filtres, le bouton à bascule et l'icône X de la légende mis en évidence](images/find-layers-04.png)

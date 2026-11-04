@@ -1,10 +1,10 @@
 # Guía del usuario de espacios de trabajo seguros del UN Biodiversity Lab (UNBL)
 
-![](images/es/1.jpg)
+![Página de inicio del UN Biodiversity Lab con el globo terráqueo y el botón Launch map](images/index-01.png)
 
 Esta guía explica cómo aprovechar todas las funcionalidades disponibles en su espacio de trabajo seguro en la plataforma UN Biodiversity Lab (UNBL). Si tiene más preguntas, por favor contáctenos en <support@unbiodiversitylab.org>.
 
-!!!Note
+!!! note
 	Los términos *conjunto de datos* y *capa* se utilizan de manera intercambiable a lo largo de esta guía. Un conjunto de datos se refiere a una colección de datos espaciales que consta de una o más capas. En UNBL, una carga única o configuración de datos geoespaciales se realiza mediante *'crear una capa'*. Múltiples entradas de capas pueden combinarse y visualizarse en UNBL como un conjunto de datos. Las capas individuales también pueden visualizarse independientemente en UNBL.
 
 ## Tabla de contenidos
@@ -31,7 +31,7 @@ Esta guía explica cómo aprovechar todas las funcionalidades disponibles en su 
 - **[Agregar sus propios datos geoespaciales a su espacio de trabajo](6_add_data.es.md)**
 	- **[¿Qué parámetros y metadatos debo completar al crear una capa?](6_add_data.es.md#que-parametros-y-metadatos-debo-completar-al-crear-una-capa)**
 	- **[¿Cómo cargo capas ráster en formato GeoTIFF?](6_add_data.es.md#como-cargo-capas-raster-en-formato-geotiff)**
-	- **[¿Cómo configuro capas ráster usando servicios de teselas externos?](6_add_data.es.md#como-configuro-capas-raster-usando-servicios-de-teselas-externos)**
+	- **[¿Cómo configuro capas ráster usando servicios de teselas externos?](6_add_data.es.md#como-configuro-capas-raster-usando-servicios-de-teselas-externos-wmswmts)**
 	- **[¿Cómo configuro capas vectoriales usando servicios de teselas externos?](6_add_data.es.md#como-configuro-capas-vectoriales-usando-servicios-de-teselas-externos)**
 	- **[¿Cómo publico mi capa y la comparto con usuarios externos?](6_add_data.es.md#como-publico-mi-capa-y-la-comparto-con-usuarios-externos)**
 	- **[¿Cómo edito mis capas agregadas?](6_add_data.es.md#como-edito-mis-capas-agregadas)**

@@ -1,6 +1,6 @@
 # UN Biodiversity Lab (UNBL) - Guía del usuario de la plataforma pública
 
-![](images/es/SP 1.jpg)
+![Página de inicio del UN Biodiversity Lab con imagen del globo terrestre y botón «Iniciar mapa»](images/index-01.png)
 
 Esta guía del usuario descargable se ha elaborado para guiarle a través de las herramientas y funciones clave del UN Biodiversity Lab. Si tiene alguna pregunta adicional, visite nuestra [página de soporte](https://unbiodiversitylab.org/es/support/) o póngase en contacto con nosotros al correo <support@unbiodiversitylab.org>.
 

@@ -1,5 +1,19 @@
 # ¿Cómo descargo conjuntos de datos globales sin recortar?
 
+<details class="unbl-video">
+  <summary>▶️ ¿Prefieres el vídeo? ¡Haz clic aquí!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/A-uXBAbD9Dg"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Seleccione el conjunto de datos que le interese.
 
 2. Haga clic en el icono de información del conjunto de datos.
@@ -8,4 +22,4 @@
 
 4. Si tiene algún problema para acceder a los datos, póngase en contacto con <support@unbiodiversitylab.org> para obtener más ayuda.
 
-![](images/es/SP 33.png)
+![Ventana de información del conjunto de datos con el icono de información y el enlace de descarga de datos resaltados](images/download-global-data-01.png)

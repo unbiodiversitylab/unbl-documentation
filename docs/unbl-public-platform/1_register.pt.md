@@ -1,26 +1,41 @@
-# Como faço para me registrar ou fazer login?
+# Como me registo ou inicio sessão?
 
-Antes de começar a explorar os mapas, registre-se no Laboratório de Biodiversidade da ONU.
+Antes de começar a explorar os mapas, registe-se no Laboratório de Biodiversidade da ONU.
 
-1. Clique na página 'Iniciar mapa' do site do [Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/).
 
-	![](images/en/image003.png)
+<details class="unbl-video">
+  <summary>▶️ Prefere vídeo? Clique aqui!</summary>
 
-2. Quando esta página for carregada, selecione o ícone da conta no canto superior direito e escolha 'entrar'. Na página carregada, escolha 'inscrever-se'. Insira seu e-mail, defina sua senha, nome, país, instituição/organização e tipo de organização para se inscrever.
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/dpxiCcgJLBM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
 
-	![](images/en/image005.png)
+1. Clique na página 'Iniciar mapa' do sítio Web do [Laboratório de Biodiversidade da ONU](https://unbiodiversitylab.org/).
 
-	![](images/en/image007.png)
+	![Página inicial do sítio Web do UNBL com 'Iniciar mapa' destacado no menu superior](images/register-01.png)
 
-3. Você receberá um e-mail dentro de alguns minutos. Siga as instruções neste e-mail para verificar sua conta.
+2. Depois de a página carregar, selecione o ícone da conta no canto superior direito e escolha 'entrar'. Na página carregada, escolha 'inscrever-se'. Introduza o seu e-mail, defina a sua palavra-passe, nome, país, instituição/organização e tipo de organização para se inscrever.
 
-	![](images/en/image009.png)
+	![Aplicação de mapa com o ícone da conta destacado no canto superior direito](images/register-02.png)
 
-4. Uma vez que sua conta esteja verificada, você pode fazer login usando seu endereço de e-mail e senha cada vez que acessar a plataforma.
+	![Formulário de inscrição com o separador 'inscrever-se' destacado acima dos campos de registo](images/register-03.png)
 
-	![](images/en/image011.png)
+3. Receberá um e-mail dentro de alguns minutos. Siga as instruções desse e-mail para verificar a sua conta.
 
-5. Você pode sair a qualquer momento clicando no ícone de seu usuário e selecionando 'Sair'.
+	![Mensagem Verify Your Email com os botões LOGOUT e SEND EMAIL VERIFICATION LINK](images/register-04.png)
 
-	![](images/en/image013.png)
-	![](images/en/image015.png)
+4. Depois de a sua conta ser verificada, pode iniciar sessão com o seu endereço de e-mail e palavra-passe sempre que aceder à plataforma.
+
+	![Formulário de início de sessão com os campos de e-mail e palavra-passe e o botão 'entrar'](images/register-05.png)
+
+5. Pode terminar sessão a qualquer momento clicando no seu ícone de utilizador e selecionando 'Sair'.
+
+	![Aplicação de mapa com o ícone de utilizador destacado no canto superior direito](images/register-06.png)
+	![Menu da conta com 'Sair' destacado abaixo do nome de utilizador](images/register-07.png)

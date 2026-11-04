@@ -4,17 +4,17 @@ Para registrarse en el UNBL y solicitar acceso a un espacio de trabajo y a la he
 
 1. Haga clic en el botón «Iniciar mapa» en el sitio web [UN Biodiversity Lab](https://unbiodiversitylab.org/es/) para acceder a la aplicación de datos.  
 
-<figure markdown>
-![](images/SP 2.jpg)
-<figcaption>Figura 2. Página de inicio del UNBL</figcaption>
-</figure>
+	<figure markdown>
+	![Página de inicio del UNBL con el botón «Iniciar mapa» resaltado en rojo](images/registration-01.png)
+	<figcaption>Figura 2. Página de inicio del UNBL</figcaption>
+	</figure>
 
 2. Una vez que se haya cargado, seleccione el icono de la cuenta en la esquina superior derecha y elija «registrarse». Introduzca su correo electrónico, nombre, país e institución (opcional) y establezca su contraseña para registrarse.  
 
-<figure markdown>
-![](images/SP 3-2.png)
-<figcaption>Figura 3. Ventana de registro</figcaption>
-</figure>
+	<figure markdown>
+	![Formulario para «registrarse» con campos de correo electrónico, contraseña, nombre, país y organización](images/registration-02.png)
+	<figcaption>Figura 3. Ventana de registro</figcaption>
+	</figure>
 
 3. Recibirá un correo electrónico en unos minutos. Siga las instrucciones de este correo electrónico para verificar su cuenta.  
 4. Una vez verificada su cuenta, podrá iniciar sesión con su dirección de correo electrónico y contraseña cada vez que acceda a la plataforma.  
@@ -23,6 +23,6 @@ Para registrarse en el UNBL y solicitar acceso a un espacio de trabajo y a la he
 7. Si tiene una o más configuraciones de herramientas en un solo espacio de trabajo, o tiene acceso a varios espacios de trabajo con configuraciones de herramientas, aparecerá una lista de las configuraciones de herramientas disponibles en la pestaña después de hacer clic en «ANÁLISIS». Haga clic en la flecha hacia abajo de la configuración de herramientas que desee utilizar para seleccionar esa configuración. Si solo tiene acceso a una configuración de herramienta o solo tiene un espacio de trabajo con una configuración de herramienta activada, dicha configuración de herramienta se seleccionará automáticamente.  
 
 <figure markdown>
-![](images/SP 4.png)
+![Flechas que van de «ESPACIOS DE TRABAJO» a la pestaña «ANÁLISIS» y a la flecha de una configuración de herramienta](images/registration-03.png)
 <figcaption>Figura 4. Acceso a la configuración de la herramienta ELSA para Moore (Ghana)</figcaption>
 </figure>

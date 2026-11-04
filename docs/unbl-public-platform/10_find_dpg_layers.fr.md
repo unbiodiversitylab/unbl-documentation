@@ -2,13 +2,27 @@
 
 Le UN Biodiversity Lab est certifié comme plateforme Digital Public Good (DPG) par la Digital Public Goods Alliance. Il offre aux décideurs politiques de nouveaux moyens d'interagir avec des données spatiales de haute qualité. Vous pouvez consulter les ensembles de données spatiales reconnus comme données ouvertes DPG à l'échelle mondiale ou dans une zone qui vous intéresse.
 
+<details class="unbl-video">
+  <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/SYXxeKbJWGo"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1. Cliquez sur l'icône DATASETS.
 
 2. Cliquez pour développer les filtres.
 
 3. Dans les filtres, cliquez pour développer les balises des ensembles de données. Sélectionnez ensuite « Données ouvertes DPG ».
 
-	![](images/fr/image051.png)
+	![Menu déroulant des balises ouvert avec la balise « Données ouvertes DPG » mise en évidence](images/find-dpg-layers-01.png)
 
 4. Réduisez la liste FILTRES et affichez la liste des données ouvertes DPG sur UNBL.
 
@@ -16,4 +30,4 @@ Le UN Biodiversity Lab est certifié comme plateforme Digital Public Good (DPG) 
 
 6. Cliquez à nouveau sur le bouton bascule, ou cliquez sur l'icône X dans la légende pour supprimer cet ensemble de données.
 
-	![](images/fr/image053.png)
+	![Couche Crop Suitability sur la Colombie avec le filtre « Données ouvertes DPG » et l'icône X de la légende mis en évidence](images/find-dpg-layers-02.png)

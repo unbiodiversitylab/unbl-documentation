@@ -1,14 +1,24 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # Visualizar mapas de calor
 
-Ao executar uma análise ELSA, você poderá visualizar os resultados clicando nos três pontos verticais ao lado da entrada de análise na aba esquerda e clicando no botão 'View'. No menu suspenso da legenda que aparece no mapa, você pode escolher entre visualizar o mapa de ação final ou camadas de mapa de calor. Sugerimos que você visualize os mapas de calor primeiro.
+Depois de executar uma análise ELSA, poderá ver os resultados clicando no botão de alternância no separador esquerdo. No menu pendente da legenda que aparece no mapa, pode escolher entre visualizar o mapa de ação final ou as camadas de mapa de calor. Sugerimos que visualize primeiro os mapas de calor.
 
-![Visualizar camadas de mapa de calor](images/image016.png){#fig-viewing-hm}
+<figure markdown>
+![Execução de análise ativada e menu pendente da legenda com ELSA Action e quatro mapas de calor](images/viewing-heatmaps-01.png){#fig-viewing-hm}
+<figcaption>Figura 15. Visualizar camadas de mapa de calor</figcaption>
+</figure>
 
-Os mapas de calor identificam localizações importantes para alcançar os Objetivos 1-12 do KMGBF, ou outras metas políticas especificadas pelo seu país. Eles são a soma normalizada dos valores das características de planejamento em cada unidade de planejamento, levando em conta os pesos do usuário dados a cada característica de planejamento. Áreas importantes (onde mais características de planejamento ocorrem, ajustadas para ponderação) são mostradas em uma gama de cores de verde a amarelo, sendo aquelas em amarelo brilhante as mais importantes. Os mapas de calor podem ser usados para identificar áreas onde a contribuição geral das características de planejamento para os Objetivos 1-12 do KMGBF é maior.
+Os mapas de calor identificam localizações importantes para alcançar os Objetivos 1-12 do KMGBF, ou outras metas políticas especificadas pelo seu país. Correspondem à soma normalizada dos valores das características de planeamento em cada unidade de planeamento, tendo em conta os pesos atribuídos pelo utilizador a cada característica de planeamento. As áreas importantes (onde ocorrem mais características de planeamento, ajustadas pela ponderação) são apresentadas numa gama de cores do verde ao amarelo, sendo as de amarelo vivo as mais importantes. Os mapas de calor podem ser utilizados para identificar áreas onde a contribuição global das características de planeamento para os Objetivos 1-12 do KMGBF é maior.
 
-Ao avaliar mapas de calor, especialistas em dados podem visualizar os dados de características de planejamento agregados ponderados pelo usuário para determinar se os padrões correspondem às suas expectativas e conhecimento pessoal da região. Para auxiliar neste processo, os usuários podem alternar entre os mapas de calor e imagens de satélite subjacentes/mapas rodoviários/mapas de características de planejamento, o que ajuda a orientar os mapas de calor na paisagem e identificar quais características de planejamento estão contribuindo especificamente para áreas de alta importância para as metas do KMGBF.
+Ao avaliar os mapas de calor, os especialistas em dados podem visualizar os dados agregados das características de planeamento, ponderados pelo utilizador, para determinar se os padrões correspondem às suas expectativas e ao seu conhecimento pessoal da região. Para ajudar neste processo, os utilizadores podem alternar entre os mapas de calor e as imagens de satélite subjacentes/mapas rodoviários/mapas de características de planeamento, o que ajuda a situar os mapas de calor na paisagem e a identificar que características de planeamento estão a contribuir especificamente para as áreas de grande importância para os objetivos do KMGBF.
 
 !!! important
-    Para alternar imagens de satélite e estradas, os usuários devem clicar no botão 'MAP CONTROLS' no canto inferior direito do aplicativo de dados UNBL. Os usuários podem então clicar no ícone de olho na caixa de legenda para ocultar o mapa de calor e visualizar imagens de satélite, ou o botão de opacidade à esquerda do ícone de olho para reduzir a opacidade do mapa de calor e ver imagens de satélite subjacentes e o mapa de calor ao mesmo tempo.
+    Para ativar as imagens de satélite e as estradas, os utilizadores devem clicar no botão 'MAP CONTROLS' no canto inferior direito da aplicação de dados UNBL. Em seguida, podem clicar no ícone do olho na caixa da legenda para ocultar o mapa de calor e ver as imagens de satélite, ou no botão de opacidade à esquerda do ícone do olho para reduzir a opacidade do mapa de calor e ver ao mesmo tempo as imagens de satélite subjacentes e o mapa de calor.
 
-![Avaliar mapas de calor](images/image017.png){#fig-eval-hm}
+<figure markdown>
+![Mapa de calor de proteção sobre imagens de satélite, com o botão de opacidade e MAP CONTROLS destacados](images/viewing-heatmaps-02.png){#fig-eval-hm}
+<figcaption>Figura 16. Avaliar mapas de calor</figcaption>
+</figure>

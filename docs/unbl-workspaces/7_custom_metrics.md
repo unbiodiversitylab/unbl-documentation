@@ -42,7 +42,7 @@ Creating a metric involves choosing which GeoTIFF layers in the workspace should
 
 2.	Click on the ‘CREATE NEW METRIC’ button that appears.
 
-	![](images/en/image1-metrics.png)
+	![Metrics selected in the admin dropdown menu with the CREATE NEW METRIC button highlighted](images/custom-metrics-01.png)
 	
 3.	In the new metric page, fill in the following information:
 
@@ -58,7 +58,7 @@ Creating a metric involves choosing which GeoTIFF layers in the workspace should
 	
 	f)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to configure the metric to your workspace.
 	
-	![](images/en/image2-metrics.png)
+	![New metric page with title, slug, layer data source and histogram bins filled in](images/custom-metrics-02.png)
 
 4. In the edit metric page that appears, toggle the 'Published' button on to publish the metric.
 	
@@ -70,7 +70,7 @@ Once the custom metric has been configured, it is necessary to create a widget f
 
 2.	Click on the ‘CREATE NEW WIDGET’ button that appears.
 
-	![](images/en/image3-metrics.png)
+	![Widgets selected in the admin dropdown menu with the CREATE NEW WIDGET button highlighted](images/custom-metrics-03.png)
 	
 3. In the new widget page, fill in the following information:
 
@@ -98,13 +98,13 @@ Once the custom metric has been configured, it is necessary to create a widget f
     <tbody>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Single layer</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Histogram<br>![](images/en/image4-metrics.png){ width="350" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Pie chart<br>![](images/en/image5-metrics.png){ width="250" style="display:inline-block"}<br>Bar chart<br>![](images/en/image6-metrics.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Histogram<br>![Example histogram of area by biodiversity intactness percentage in Bhutan](images/custom-metrics-04.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Pie chart<br>![Example pie chart of land cover categories as percentages of Bhutan's area](images/custom-metrics-05.png){ width="250" style="display:inline-block"}<br>Bar chart<br>![Example bar chart of deforestation area in Ecuador by time period](images/custom-metrics-06.png){ width="250" style="display:inline-block"}</td>
       </tr>
       <tr>
         <td style="font-size: 1.0rem; border: 1px solid #ccc;"><strong>Time series</strong></td>
-        <td style="text-align: center; border: 1px solid #ccc;">Line graph<br>![](images/en/image7-metrics.png){ width="250" style="display:inline-block"}<br>Area chart<br>![](images/en/image8-metrics.png){ width="250" style="display:inline-block"}</td>
-        <td style="text-align: center; border: 1px solid #ccc;">Area chart<br>![](images/en/image9-metrics.png){ width="350" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Line graph<br>![Example line graph of mean vegetation productivity in Bhutan from 2001 to 2025](images/custom-metrics-07.png){ width="250" style="display:inline-block"}<br>Area chart<br>![Example area chart of ecological intactness classes in Bhutan from 2000 to 2013](images/custom-metrics-08.png){ width="250" style="display:inline-block"}</td>
+        <td style="text-align: center; border: 1px solid #ccc;">Area chart<br>![Example area chart of land cover categories in Bhutan from 1992 to 2022](images/custom-metrics-09.png){ width="350" style="display:inline-block"}</td>
       </tr>
     </tbody>
 	</table>
@@ -120,23 +120,23 @@ Once the custom metric has been configured, it is necessary to create a widget f
 
 	f)i)	*Widget summary (optional)*: This creates a summary of key metric statistics that will be displayed by the widget. The list of available summary fields provides parameters that can be used within the summary text. An example of a widget summary for a time series metric using three layers showing the Human Modification Index over three time periods is shown below.
 	
-	![](images/en/image10-metrics.png)
+	![Widget settings with three time series layers and a summary using available summary fields](images/custom-metrics-10.png)
 	
 	When this metric and its associated widget are active on UNBL, the summary fields in the text are automatically populated with the necessary parameters, as seen below.
 	
-	![](images/en/image11-metrics.png){style="width:550px !important" }
+	![Area chart widget for Bhutan with summary fields replaced by place name and years](images/custom-metrics-11.png){style="width:550px !important" }
 
 	Alternatively, the widget summary for a single Human Modification Index layer metric would employ the following summary fields:
 
 	- {location}: the current place name
-	- {areaKm2}: the mapped area in square kilometers
+	- {areaKm2}: the mapped area in square kilometres
 	- {mean}: the mean value as a raw number
 	
 	The widget summary would therefore look something like:
 	
-		“In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022.”
+		“In {location}, {areaKm2} square kilometres had a mean HMI score of {mean} in 2022.”
 		
-	![](images/en/image12-metrics.png){style="width:550px !important" }
+	![Histogram widget for Bhutan with a summary stating mapped area and mean HMI score](images/custom-metrics-12.png){style="width:550px !important" }
 	
 	f)ii) For metrics created using a categorical layer, an additional toggle option is available called *Use layer categories*. 
 	
@@ -148,7 +148,7 @@ Once the custom metric has been configured, it is necessary to create a widget f
 	
 	- *Values*: Unique number(s) in the underlying data layer that denote the configured category. The user can specify more than one number to fall under the same category.
 
-	![](images/en/image12_5-metrics.png)
+	![Use layer categories toggle switched off, with custom category labels, colours and values](images/custom-metrics-13.png)
 	
 	g)	*X-Axis Label (optional)*: For metric types with histogram, line graph, or area graph charts, it is possible to specify a label for the x-axis. The label should be of the data variable being shown. This field is optional, so it does not need to be filled in.
 	
@@ -156,7 +156,7 @@ Once the custom metric has been configured, it is necessary to create a widget f
 	
 	i)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to create the widget.
 	
-	![](images/en/image13-metrics.png)
+	![Completed New Widget page with X-Axis Label filled in and SAVE AND VIEW DETAILS button](images/custom-metrics-14.png)
 	
 4. In the edit widget page that appears, toggle the 'Published' button on to publish the widget.
 
@@ -168,7 +168,7 @@ A dashboard acts as the user interface which displays the metric and associated 
 
 2.	Click on the ‘CREATE NEW DASHBOARD’ button that appears.
 
-	![](images/en/image14-metrics.png)
+	![Dashboards selected in the admin dropdown menu with the CREATE NEW DASHBOARD button highlighted](images/custom-metrics-15.png)
 	
 3. In the new dashboard page, fill in the following information:
 
@@ -182,11 +182,11 @@ A dashboard acts as the user interface which displays the metric and associated 
 	
 	e)	Once all parameters have been specified, the ‘SAVE AND VIEW DETAILS’ button will light up blue, provided that all the entered information is valid. Click on this button to create the dashboard.
 	
-	![](images/en/image15-metrics.png)
+	![New dashboard page with title, slug, description and one included widget filled in](images/custom-metrics-16.png)
 	
 4. In the edit dashboard page that appears, toggle the 'Published' button on to publish the dashboard.
 
-!!!note
+!!! note
 	If you already have an existing dashboard, and want to add newly configured widgets to it, you can edit your existing dashboard and add included widgets by clicking on the pen icon for the dashboard in the list of dashboard entries that appear in the admin page after choosing 'Dashboards' from the drop-down menu.
 
 ## Viewing dashboards and widgets
@@ -195,22 +195,22 @@ To view your custom metrics:
 
 1. In the UNBL map view, make sure your workspace is toggled on.
 
-	![](images/en/image16-metrics.png){style="width:600px !important" }
+	![Workspaces menu in the map view with a workspace toggle highlighted and switched on](images/custom-metrics-17.png){style="width:600px !important" }
 	
 2. Select the place you want to view custom metrics for from the 'PLACES' tab. 
 
-	![](images/en/image17-metrics.png){style="width:400px !important" }
+	![PLACES tab search for Bhutan filtered by the Country place type](images/custom-metrics-18.png){style="width:400px !important" }
 	
 3. If you have the UNBL public platform workspace and/or other workspaces active alongside your own workspace, you may have to select the dashboard which contains your custom metrics to view them. In this case, a drop-down menu will appear with a list of dashboards and the associated workspaces of each dashboard. Select your dashboard from the drop-down menu.
 
-	!!!note
+	!!! note
 		If the custom metrics in your dashboard do not overlap with the activated place, your dashboard will not appear in the drop-down menu.
 
-	![](images/en/image18-metrics.png){style="width:400px !important" }
+	![Dashboard dropdown for Bhutan listing available dashboards and their workspaces](images/custom-metrics-19.png){style="width:400px !important" }
 	
 4. You can now view the custom metrics you set up for your chosen GeoTIFF layer and place. All functionalities of UNBL's default dynamic metrics are available for your custom metrics, including toggling the associated layer, viewing information, and downloading metric data in .csv, .tsv, and .json format.
 
-	![](images/en/image19-metrics.png)
+	![Custom metric histogram for Bhutan beside its Human Modification Index layer on the map](images/custom-metrics-20.png)
 
 
 	

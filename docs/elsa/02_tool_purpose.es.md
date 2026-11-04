@@ -1,6 +1,10 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # ¿Para qué sirve la herramienta ELSA?  
 
-La herramienta ELSA permite a diversas partes interesadas evaluar de forma colaborativa las prioridades nacionales para el MMB-KM, explorar compensaciones y sinergias, y desarrollar planes espaciales para apoyar la implementación nacional de las Metas 1, 2 y 3. La herramienta ELSA genera mapas de priorización espacial que identifican las áreas para la protección, la restauración, la gestión y la ecologización urbana que tendrán el mayor impacto en la consecución de las Metas 1-12 del MMB-KM. Los usuarios con un [espacio de trabajo de la UNBL](https://unbiodiversitylab.org/en/unbl-workspaces/) pueden utilizar la herramienta ELSA para ejecutar una priorización espacial nacional personalizada como parte de un proceso participativo de planificación espacial. Pueden: 
+La herramienta ELSA permite a diversas partes interesadas evaluar de forma colaborativa las prioridades nacionales para el MMB-KM, explorar compensaciones y sinergias, y desarrollar planes espaciales para apoyar la implementación nacional de las Metas 1, 2 y 3. La herramienta ELSA genera mapas de priorización espacial que identifican las áreas para la protección, la restauración, la gestión y la ecologización urbana que tendrán el mayor impacto en la consecución de las Metas 1-12 del MMB-KM. Los mapas de acciones prioritarias de ELSA resultantes también pueden apoyar la implementación de la jerarquía de respuesta de Neutralidad de la Degradación de la Tierra (LDN, por sus siglas en inglés) en el marco de la Convención de las Naciones Unidas de Lucha contra la Desertificación (UNCCD). La jerarquía de respuesta LDN es un enfoque estructurado para alcanzar la neutralidad mediante la priorización de la prevención, la minimización de la degradación en curso y la restauración de las tierras degradadas. Los usuarios con un [espacio de trabajo de la UNBL](https://unbiodiversitylab.org/en/unbl-workspaces/) pueden utilizar la herramienta ELSA para ejecutar una priorización espacial nacional personalizada como parte de un proceso participativo de planificación espacial. Pueden: 
 
   - Mostrar capas de entrada (también conocidas como características de planificación) utilizadas para mapear los objetivos del MMB-KM.  
   - Crear y ejecutar nuevos análisis ELSA con diferentes grupos de partes interesadas. Los usuarios pueden modificar y editar los análisis ELSA de las siguientes maneras:  
@@ -14,7 +18,7 @@ La herramienta ELSA permite a diversas partes interesadas evaluar de forma colab
 
 La Herramienta ELSA **no puede** utilizarse para:
 
-  - Añadir capas de datos adicionales para su inclusión como características de planificación o como restricciones de zonificación.  
+  - Añadir capas de datos adicionales para su inclusión como características de planificación o como metas de zonificación.  
   - Sustituir directamente las capas de entrada por otras capas de entrada.  
   - Añadir características de bloqueo adicionales.  
 
@@ -26,6 +30,6 @@ La herramienta ELSA utiliza el paquete *prioritizr* en su sistema interno como h
     Las definiciones de la terminología técnica mencionada en la guía se pueden encontrar en el [Anexo 1](12_annex1.md).
 
 <figure markdown>
-![](images/SP 1.png)
+![Lista de «ANÁLISIS EJECUTADOS» junto a un mapa de acciones de Cuba coloreado por protección, gestión, restauración y reverdecimiento urbano](images/tool-purpose-01.png)
 <figcaption>Figura 1. Interfaz inicial de la herramienta ELSA en el UNBL</figcaption>
 </figure>

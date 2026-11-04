@@ -1,5 +1,19 @@
 # How do I download unclipped global datasets?
 
+<details class="unbl-video">
+  <summary>▶️ Prefer video? Click here!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/dT8UmWg0RAM"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Select the dataset of interest.
 
 2.	Click on the dataset info icon.
@@ -8,5 +22,5 @@
 
 4.	 If you encounter any issues in accessing the data, please contact support@unbiodiversitylab.org for further support. 
 
-![](images/en/image077.png)
+![Dataset info window with the legend info icon and 'Download the Data' link highlighted](images/download-global-data-01.png)
 

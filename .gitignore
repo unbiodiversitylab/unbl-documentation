@@ -22,8 +22,10 @@ wheels/
 .installed.cfg
 *.egg
 
-# IDE
-.vscode/
+# IDE (shared VS Code recommendations are committed; personal settings are not)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 .idea/
 *.swp
 *.swo
@@ -48,3 +50,10 @@ ENV/
 
 # MkDocs cache
 .cache/
+
+# R session files
+.Rhistory
+.RData
+
+# Claude Code personal settings (shared settings live in .claude/settings.json)
+.claude/settings.local.json

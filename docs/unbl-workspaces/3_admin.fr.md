@@ -12,13 +12,13 @@ Pour ajouter et gérer les utilisateurs, les lieux et les jeux de données dans 
 
 >https://map.unbiodiversitylab.org/admin/[NOMSLUGDEVOTREESPACEDETRAVAIL]
 
-![](images/fr/07fr.png)
+![Menu « ESPACES DE TRAVAIL » ouvert avec le bouton « ADMIN » de chaque espace de travail en surbrillance](images/admin-01.png)
 
 ## Quels composants sont disponibles dans l'interface d'administration ?
 
 Vous pouvez naviguer dans l'interface d'administration en utilisant le menu déroulant dans la section supérieure du panneau de gauche. Selon votre rôle dans l'espace de travail, vous pouvez gérer les *utilisateurs*, *lieux*, *couches*, *Widgets* et *tableaux de bord*.
 
-!!!Note
+!!! note
 	Les fonctionnalités Widget et Dashboard sont en cours de développement et ne sont pas disponibles pour le moment.
 
 Pour accéder aux différents composants :
@@ -27,4 +27,4 @@ Pour accéder aux différents composants :
 
 2.	Sélectionnez le composant que vous souhaitez visualiser. Plus d'informations sur chaque composant sont fournies dans les sections ultérieures de ce guide de l'utilisateur.
 
-![](images/fr/08fr.png)
+![Menu déroulant « Home » de l'interface d'administration ouvert, avec Utilisateurs, Lieux, Couches, Widgets et Tableaux de bord](images/admin-02.png)

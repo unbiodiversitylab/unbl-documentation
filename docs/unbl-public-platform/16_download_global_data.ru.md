@@ -1,5 +1,19 @@
 # Как мне загрузить необрезанные глобальные наборы данных?
 
+<details class="unbl-video">
+  <summary>▶️ Предпочитаете видео? Нажмите сюда!</summary>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Lc5j4j3rsoE"
+      title="UNBL tutorial"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</details>
+
 1.	Выберите интересующий вас набор данных.
 
 2.	Нажмите на значок информации о наборе данных.
@@ -8,5 +22,5 @@
 
 4.	 Если у вас возникли проблемы с доступом к данным, обратитесь за дополнительной поддержкой по адресу <support@unbiodiversitylab.org>. 
 
-![](images/ru/image076.png)
+![Окно информации о наборе данных с выделенными значком информации и ссылкой на загрузку данных](images/download-global-data-01.png)
 
