@@ -1,5 +1,5 @@
 ---
-source_rev: 7bf6be1f60bf4b245011101234d3e4761bf3f7db
+source_rev: f7ed26d551a11a56e738091eda936cbdb44f5979
 translation_status: machine
 ---
 # Annexe 2 : Couches de données
