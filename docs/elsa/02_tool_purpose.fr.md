@@ -10,8 +10,8 @@ L'outil ELSA permet à divers acteurs d'évaluer de manière collaborative les p
 	  - Modifier les pondérations de chacune des couches d'entrée (caractéristiques de planification) en fonction de l'importance nationale de la caractéristique cartographiée et de la fiabilité des données d'entrée ; et
 	  - Modifier le paramètre du facteur de pénalité des limites pour ajuster la cohésion spatiale de la carte d'action.
 	  
-- Visualiser et télécharger les heatmaps et les cartes d'action obtenues.
-- Téléchargez les heatmaps et les cartes d'action obtenues au format raster, qui peuvent être utilisées pour une analyse plus approfondie en fonction des besoins des parties intéressées dans un logiciel de système d'information géographique (SIG) de bureau.
+- Visualiser et télécharger les cartes de chaleur et les cartes d'action obtenues.
+- Téléchargez les cartes de chaleur et les cartes d'action obtenues au format raster, qui peuvent être utilisées pour une analyse plus approfondie en fonction des besoins des parties intéressées dans un logiciel de système d'information géographique (SIG) de bureau.
 - Télécharger les résultats et les paramètres d'une analyse ELSA existante sous forme de tableau récapitulatif, disponible aux formats .xlsx, .csv et .json.
 
 L'outil ELSA **ne peut pas** être utilisé pour :

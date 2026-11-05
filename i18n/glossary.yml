@@ -148,6 +148,13 @@ terms:
     fr: carte de chaleur
     pt: mapa de calor
     ru: тепловая карта
+    note: >-
+      FR confirmed by Marion, Nov 2026 (#42): always "carte de chaleur", never
+      "heatmap" (except the technical map-layer type "heatmap" in style
+      templates). RU is still open in #42: the ELSA tool itself says
+      «Карта пересекающихся экологических ценностей».
+    avoid:
+      fr: heatmap
   - en: synergies and trade-offs
     es: sinergias y compensaciones
     fr: synergies et compromis
