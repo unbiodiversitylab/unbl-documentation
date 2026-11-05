@@ -1,3 +1,7 @@
+---
+source_rev: 148a7a6604e7a591e974bad9194706ae6269c77f
+---
+
 # Comment gérer mon compte ?
 
 Une fois inscrit(e) sur le UN Biodiversity Lab, vous pourrez gérer votre compte, notamment modifier votre nom d'utilisateur, votre adresse e-mail, votre mot de passe, votre pays, et votre institution. Vous pourrez également consulter et modifier les espaces de travail auxquels vous appartenez.

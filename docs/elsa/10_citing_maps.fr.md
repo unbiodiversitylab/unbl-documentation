@@ -1,3 +1,6 @@
+---
+source_rev: 7bf6be1f60bf4b245011101234d3e4761bf3f7db
+---
 # Citation des cartes
 
 Si vous souhaitez utiliser les cartes finales dérivées de l'outil dans un rapport ou une publication officielle, veuillez utiliser la citation suivante :

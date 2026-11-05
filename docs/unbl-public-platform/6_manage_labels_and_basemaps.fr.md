@@ -1,3 +1,7 @@
+---
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
+---
+
 # Comment ajouter/supprimer des étiquettes de lieu, des routes, et la vue satellite de la carte de base ?
 
 <details class="unbl-video">

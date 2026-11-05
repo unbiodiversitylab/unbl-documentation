@@ -20,7 +20,7 @@ Modifications récentes de ce guide de l'utilisateur. Pour toute question, écri
 - **Tutoriels vidéo** sur la plupart des pages du [guide de la Plateforme Publique UNBL](unbl-public-platform/index.md). Ouvrez l'encadré vidéo en haut de la page.
 - **Nouvelles métriques** décrites dans [Quelles métriques dynamiques sont disponibles pour mon pays ?](unbl-public-platform/8_dynamic_metrics1.md) : Protected Connected Index, Coastal Eutrophication et une métrique marine. Les résumés des métriques peuvent désormais aussi être téléchargés au format `.tsv`.
 - [Comment découper et exporter des ensembles de données ?](unbl-public-platform/15_clip_export.md) explique désormais comment télécharger les limites d'un pays au format GeoJSON.
-- **Guide ELSA** : les « contraintes basées sur la superficie » s'appellent désormais **objectifs basés sur la superficie**, avec des captures d'écran mises à jour et la façon de réduire la fenêtre d'analyse. Voir [Modifier une Analyse](elsa/05_editing_analysis.md).
+- **Guide ELSA** : les « contraintes basées sur la superficie » s'appellent désormais **objectifs basés sur les zones**, avec des captures d'écran mises à jour et la façon de réduire la fenêtre d'analyse. Voir [Modifier une Analyse](elsa/05_editing_analysis.md).
 - **Guide des espaces de travail** : chapitres 1 à 6 mis à jour, notamment [l'ajout de lieux](unbl-workspaces/5_add_places.md) et [l'ajout de vos propres données](unbl-workspaces/6_add_data.md).
 - La [fiche d'information sur le stockage des données](unbl-workspaces/data_security.md) figure désormais dans le menu des espaces de travail.
 - Chaque page indique la date de sa dernière mise à jour, et vous pouvez survoler des sigles comme ELSA ou KMGBF pour voir leur signification.

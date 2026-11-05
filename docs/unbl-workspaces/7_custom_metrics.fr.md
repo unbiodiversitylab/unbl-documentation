@@ -1,3 +1,8 @@
+---
+source_rev: 148a7a6604e7a591e974bad9194706ae6269c77f
+translation_status: machine
+---
+
 # Ajouter vos propres métriques personnalisées à votre espace de travail
 
 **Il s'agit d'une traduction générée par une intelligence artificielle qui peut contenir des erreurs.**
@@ -14,7 +19,7 @@ Les métriques sont affichées sur UNBL après la sélection d'un lieu particuli
 
 ## Étape 2 : Télécharger une couche raster au format GeoTIFF
 
-Pour créer une métrique personnalisée, il est nécessaire de télécharger une couche raster pour laquelle vous souhaitez consulter des statistiques zonales. Les espaces de travail UNBL prennent uniquement en charge les calculs de métriques à partir de couches téléchargées via l'option « Téléchargement de fichier GeoTIFF ». Pour des étapes détaillées sur le téléchargement d'une couche à l'aide de cette option, voir [« Comment télécharger des couches raster au format GeoTIFF ? »](6_add_data.md#comment-telecharger-des-couches-raster-au-format-geotiff).
+Pour créer une métrique personnalisée, il est nécessaire de télécharger une couche raster pour laquelle vous souhaitez consulter des statistiques zonales. Les espaces de travail UNBL prennent uniquement en charge les calculs de métriques à partir de couches téléchargées via l'option « GeoTIFF File Upload » (téléchargement de fichier GeoTIFF). Pour des étapes détaillées sur le téléchargement d'une couche à l'aide de cette option, voir [« Comment télécharger des couches raster au format GeoTIFF ? »](6_add_data.md#comment-telecharger-des-couches-raster-au-format-geotiff).
 
 Pour qu'une métrique personnalisée fonctionne correctement sur UNBL, il est nécessaire de tenir compte des prérequis techniques suivants pour les couches GeoTIFF téléchargées :
 
@@ -34,7 +39,7 @@ Les utilisateurs souhaitant configurer des métriques personnalisées pour des d
 
 - Les polygones superposés doivent être résolus par priorité de gravure de pixels lors de la rastérisation — par exemple, des approches « dernier tracé » ou « valeur la plus élevée gagne » ;
 
-- Choisir une résolution raster appropriée qui tient compte des compromis entre la minimisation des erreurs de bordure lors de la conversion des limites de polygones en pixels et la minimisation de la taille du fichier (les couches téléchargées dans votre espace de travail UNBL via l'option « Téléchargement de fichier GeoTIFF » ne peuvent pas dépasser 1 000 Mo).
+- Choisir une résolution raster appropriée qui tient compte des compromis entre la minimisation des erreurs de bordure lors de la conversion des limites de polygones en pixels et la minimisation de la taille du fichier (les couches téléchargées dans votre espace de travail UNBL via l'option « GeoTIFF File Upload » ne peuvent pas dépasser 1 000 Mo).
 
 ## Étape 3 : Créer une métrique
 
@@ -114,8 +119,8 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
 
 	| Type de graphique du widget | Affichage des données |
 	| :----------: | :----------: |
-	| Histogramme | Sépare la plage numérique des données en intervalles de largeur égale, appelés classes. Le nombre de classes affichées correspond au nombre de classes configurées dans la page de métrique. L'axe X affiche la variable mesurée dans les données, et l'axe Y affiche la superficie mesurée en km<sup>2</sup> de la zone d'intérêt.
-	| Graphique en aires | Pour les données continues, sépare également la plage numérique en classes correspondant au nombre de classes configurées dans la page de métrique. Pour les données catégorielles, des classes distinctes sont utilisées. L'axe X affiche le temps, et l'axe Y affiche le pourcentage de la superficie totale de la zone d'intérêt.
+	| Histogramme | Sépare la plage numérique des données en intervalles de largeur égale, appelés classes. Le nombre de classes affichées correspond au nombre de classes configurées dans la page de métrique de l'interface d'administration. L'axe X affiche la variable mesurée dans les données, et l'axe Y affiche la superficie mesurée en km<sup>2</sup> de la zone d'intérêt.
+	| Graphique en aires | Pour les données continues, sépare également la plage numérique en classes correspondant au nombre de classes configurées dans la page de métrique de l'interface d'administration. Pour les données catégorielles, des classes distinctes sont utilisées. L'axe X affiche le temps, et l'axe Y affiche le pourcentage de la superficie totale de la zone d'intérêt.
 	| Diagramme circulaire | Mesure la couverture proportionnelle de chaque classe catégorielle dans la zone d'intérêt et affiche les classes en secteurs s'additionnant à 100 %.
 	| Diagramme en barres | Affiche chaque classe catégorielle sous forme de barre, l'axe X affichant les données mesurées et l'axe Y affichant la superficie mesurée en km<sup>2</sup> de la zone d'intérêt.
 	| Graphique linéaire | Représente la variation de la moyenne entre différents jeux de données continues dans une métrique de série temporelle. L'axe X affiche le temps, et l'axe Y affiche la valeur moyenne mesurée de chaque jeu de données.
@@ -136,13 +141,13 @@ Une fois la métrique personnalisée configurée, il est nécessaire de créer u
 
 	Le résumé du widget ressemblerait donc à quelque chose comme :
 
-		"In {location}, {areaKm2} square kilometers had a mean HMI score of {mean} in 2022."
+		“In {location}, {areaKm2} square kilometres had a mean HMI score of {mean} in 2022.”
 
 	![Widget d'histogramme pour le Bhoutan avec un résumé indiquant la superficie cartographiée et le score HMI moyen](images/custom-metrics-12.png){style="width:550px !important" }
 
 	f)ii) Pour les métriques créées à l'aide d'une couche catégorielle, une option de basculement supplémentaire est disponible, appelée *Use layer categories*.
 
-	L'option est activée par défaut et spécifie que le graphique de widget catégoriel doit utiliser les mêmes catégories de couche que celles configurées dans la couche raster associée sur UNBL. Si les utilisateurs souhaitent utiliser des catégories de graphique de widget différentes de celles spécifiées dans la couche raster associée, ils doivent désactiver l'option *Use layer categories*. Cela invitera l'utilisateur à spécifier une liste exhaustive de catégories à utiliser dans le graphique, chaque catégorie nécessitant les paramètres suivants :
+	L'option est activée par défaut et spécifie que le graphique de widget catégoriel doit utiliser les mêmes catégories de couche que celles configurées dans la couche raster associée sur UNBL. Si les utilisateurs souhaitent utiliser des catégories de graphique de widget différentes de celles spécifiées dans la couche raster associée (par exemple, pour regrouper les catégories de la couche d'origine en un ensemble simplifié de catégories), ils doivent désactiver l'option *Use layer categories*. Cela invitera l'utilisateur à spécifier une liste exhaustive de catégories à utiliser dans le graphique, chaque catégorie nécessitant les paramètres suivants :
 
 	- *Label* : Le nom de la catégorie
 

@@ -1,10 +1,15 @@
+---
+source_rev: 44959cf2c6aee55b94e602a356d6e8b88bac3acb
+translation_status: machine
+---
+
 # Comment découper et exporter des ensembles de données ?
 
-Pour découper un ensemble de données correspondant à la zone qui vous intéresse et le télécharger :
+Les utilisateurs enregistrés sur le UN Biodiversity Lab peuvent :
 
-- Découper des ensembles de données raster pour les limiter à une zone qui les intéresse et les télécharger afin de les utiliser dans un logiciel SIG de bureau -- cette fonction permet aux utilisateurs d'accéder aux données sous-jacentes tout en évitant la bande passante et le stockage nécessaires pour télécharger et travailler avec un ensemble de données mondial.
+- Découper des ensembles de données raster pour les limiter à une zone d'intérêt et les télécharger afin de les utiliser dans un logiciel SIG de bureau -- cette fonction permet aux utilisateurs d'accéder aux données sous-jacentes tout en évitant la bande passante et le stockage nécessaires pour télécharger et travailler avec un ensemble de données mondial ;
 
-- Téléchargez le fichier de limites d'une zone d'intérêt au format GeoJSON pour l'utiliser dans un logiciel SIG de bureau. 
+- Télécharger le fichier de limites d'une zone d'intérêt au format GeoJSON pour l'utiliser dans un logiciel SIG de bureau. 
 
 <details class="unbl-video">
   <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
@@ -34,7 +39,7 @@ Pour ce faire :
 
 	- La source de données sélectionnée sera découpée dans le cadre entourant le pays.
 
-	- Une petite marge est ajoutée au cadre de sélection, ce qui agrandit légèrement la zone du raster découpé. Cela permet d'éviter toute perte de données en cas d'incohérences entre les frontières nationales utilisées dans le UNBL et le fichier officiel des frontières nationales que vous souhaitez utiliser. Cela suppose que les différences sont potentiellement minimes. Si ce n'est pas le cas, veuillez nous contacter à l'adresse support@unbiodiversitylab.org pour obtenir de l'aide.
+	- Une petite marge est ajoutée au cadre de sélection, ce qui agrandit légèrement la zone du raster découpé. Cela permet d'éviter toute perte de données en cas d'incohérences entre les frontières nationales utilisées dans le UNBL et le fichier officiel des frontières nationales que vous souhaitez utiliser. Cela suppose que les différences sont potentiellement minimes. Si ce n'est pas le cas, veuillez nous contacter à l'adresse <support@unbiodiversitylab.org> pour obtenir de l'aide.
 
 	!!! note
 		Si vous téléchargez des fichiers GeoTIFF, il s'agit de données brutes qui ne contiennent pas d'informations de style.

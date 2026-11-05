@@ -1,3 +1,8 @@
+---
+source_rev: 341906d01921c4384c8ebdaac73e2f9500712dd3
+translation_status: machine
+---
+
 # Comment créer une carte à inclure dans des rapports et des produits de communication ?
 
 <details class="unbl-video">
@@ -34,7 +39,7 @@
 
 *si dans une légende* :
 
-> La figure 2 montre l'estimation du carbone organique présent dans les sols des mangroves (d'après Sanderman, et al., 2018) dans les zones protégées du Vietnam (PNUE-WCMC et UICN, 2021).
+> La figure 2 montre l'estimation du carbone organique présent dans les sols des mangroves (d'après Sanderman, et al., 2018) dans les aires protégées du Vietnam (PNUE-WCMC et UICN, 2021).
 
 **Veillez également à inclure les références complètes des ensembles de données utilisés dans la section « Références » du document, par exemple :**
 

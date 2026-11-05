@@ -1,3 +1,8 @@
+---
+source_rev: 44959cf2c6aee55b94e602a356d6e8b88bac3acb
+translation_status: machine
+---
+
 # Visualiser votre espace de travail UNBL
 
 ## Comment accéder à mon/mes espace(s) de travail ?
@@ -13,7 +18,7 @@ Si vous êtes un utilisateur enregistré ayant obtenu l'accès à un ou plusieur
 	!!! note
 		Vous pouvez activer/désactiver tous les espaces de travail à la fois en utilisant le bouton bascule « Vue carte » situé tout en haut.
 
-4.	Désactivez les espaces de travail que vous ne souhaitez pas visualiser. Vous pouvez également désactiver l'espace de travail *UNBL* en haut de la liste, ce qui vous permettra de voir uniquement les ressources exclusives à votre/vos espace(s) de travail sécurisé(s) UNBL et de filtrer toutes les ressources de la plateforme publique UNBL. Veuillez noter que la désactivation de l'espace de travail *UNBL* supprimera l'accès à toutes les couches globales publiques et aux métriques du tableau de bord pour toutes les zones, y compris les zones de votre espace de travail sécurisé.
+4.	Désactivez les espaces de travail que vous ne souhaitez pas visualiser. Vous pouvez également désactiver l'espace de travail *UNBL* en haut de la liste, ce qui vous permettra de voir uniquement les ressources exclusives à votre/vos espace(s) de travail sécurisé(s) UNBL et de filtrer toutes les ressources de la plateforme publique UNBL. Veuillez noter que la désactivation de l'espace de travail *UNBL* supprimera l'accès à toutes les couches globales publiques et aux métriques dynamiques standard pour toutes les zones, y compris les zones de votre espace de travail sécurisé.
 
 ![Bouton « ESPACES DE TRAVAIL » et liste des espaces de travail avec boutons bascule en surbrillance, « Vue carte » en haut](images/viewing-01.png)
 

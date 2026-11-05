@@ -1,3 +1,8 @@
+---
+source_rev: 32703d85315c4077915c939567d70b846cce3b64
+translation_status: machine
+---
+
 # Gérer les utilisateurs dans votre espace de travail
 
 ## Quels rôles et permissions des utilisateurs existent dans mon espace de travail UNBL ?
@@ -10,7 +15,7 @@ Les rôles et permissions sont utilisés pour définir ce que les utilisateurs i
 
 ●	*Editeurs* - peuvent gérer les ressources de l'espace de travail via l'interface d'administration et visualiser toutes les ressources de l'espace de travail dans la vue cartographique, mais ne peuvent pas ajouter et gérer les utilisateurs. Un niveau modéré d'expérience SIG existante peut être utile pour les éditeurs, administrateurs et propriétaires qui souhaitent télécharger, configurer et modifier des lieux et des jeux de données.
 
-●	*Lecteur* - peuvent visualiser toutes les ressources de l'espace de travail dans la vue cartographique. Les visualiseurs n'ont pas accès à l'interface d'administration.
+●	*Lecteurs* - peuvent visualiser toutes les ressources de l'espace de travail dans la vue cartographique. Les visualiseurs n'ont pas accès à l'interface d'administration.
 
 ## Comment ajouter de nouveaux utilisateurs ?
 
