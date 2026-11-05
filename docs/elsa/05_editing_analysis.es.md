@@ -84,7 +84,7 @@ El factor de penalización por límites se utiliza para promover la cohesión es
 
 Pasos:
 
-1. Para establecer la penalización por límite, comience con un número pequeño, por ejemplo, 10.  
+1. Para establecer el factor de penalización por límites, comience con un número pequeño, por ejemplo, 10.  
 2. Aumente el número de forma iterativa, es decir, vuelva a ejecutar el análisis repetidamente, por un orden de magnitud (por ejemplo, 10 -> 100-> 1000), reduciendo la tasa de aumento a medida que se acerque a las soluciones que le llevan al nivel de agrupación deseado. Cada vez que cambie la penalización, tendrá que volver a ejecutar la optimización hasta llegar a un mapa que sea lo suficientemente contiguo como para satisfacer sus necesidades.  
 
 !!! attention

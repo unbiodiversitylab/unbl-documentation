@@ -22,7 +22,7 @@ Los espacios de trabajo UNBL también soportan la conexión a datos geoespaciale
 
 - Mapbox
 
-- Esri ArcGIS API Map Service a través de WMS, WMTS o un servicio de teselas vectoriales
+- ESRI ArcGIS API Map Service a través de WMS, WMTS o un servicio de teselas vectoriales
 
 - Servicios de teselas vectoriales (servidos como pg_tileserv o Martin)
 
@@ -252,7 +252,7 @@ UNBL soporta la configuración de capas de teselas vectoriales a su espacio de t
 
 	b.	*Proveedor de capa*: Seleccione 'External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)'.
 
-	c.	*Tiles URL*: Aquí, puede conectarse a un proveedor de servicios de teselas vectoriales externo que aloje sus datos geoespaciales, como Mapbox, Esri, pg_tileserv, Martin y otros. Para configurar capas usando estos proveedores, debe proporcionar una URL de tesela válida, que debe contener ya sea los marcadores de posición `{z}{x}{y}` o el marcador de posición `{bbox-epsg-3857}`. Por ejemplo, una URL de capa configurable para un conjunto de datos de cobertura forestal alojado en Martin se ve así:
+	c.	*Tiles URL*: Aquí, puede conectarse a un proveedor de servicios de teselas vectoriales externo que aloje sus datos geoespaciales, como Mapbox, ESRI, pg_tileserv, Martin y otros. Para configurar capas usando estos proveedores, debe proporcionar una URL de tesela válida, que debe contener ya sea los marcadores de posición `{z}{x}{y}` o el marcador de posición `{bbox-epsg-3857}`. Por ejemplo, una URL de capa configurable para un conjunto de datos de cobertura forestal alojado en Martin se ve así:
 
 	```
 

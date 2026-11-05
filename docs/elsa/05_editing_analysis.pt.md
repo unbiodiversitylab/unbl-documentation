@@ -83,7 +83,7 @@ O fator de penalização de fronteira é utilizado para promover a coesão espac
 
 Passos:
 
-1. Para definir a penalização de fronteira, comece com um número pequeno, por exemplo, 10.
+1. Para definir o fator de penalização de fronteira, comece com um número pequeno, por exemplo, 10.
 2. Aumente o número de forma iterativa, ou seja, voltando a executar a análise repetidamente, por ordens de grandeza (por exemplo, 10 -> 100-> 1000), reduzindo o ritmo de aumento à medida que se aproxima de soluções que conduzem ao nível de agrupamento pretendido. Sempre que alterar a penalização, terá de voltar a executar a otimização até chegar a um mapa suficientemente contíguo para responder às suas necessidades.
 
 !!! attention

@@ -94,7 +94,7 @@ UNBL's standard dynamic metrics become automatically available for your place as
 
 	![Info icon of the Global Land Cover metric highlighted, opening its layer info window](images/add-places-11.png)
 	
-5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![Download](images/icons/download.png){style="display: inline; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, table-separated value, or .json format. You can also download the data from source links in the layer info pages.  
+5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![Download](images/icons/download.png){style="display: inline; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, tab-separated value, or .json format. You can also download the data from source links in the layer info pages.  
 
 	![Download icon of a metric highlighted, with a menu offering CSV, TSV and JSON](images/add-places-12.png)
 	

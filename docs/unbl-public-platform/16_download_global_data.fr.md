@@ -22,8 +22,8 @@ source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
 
 2. Cliquez sur l'icône d'informations sur l'ensemble de données.
 
-3. Cliquez sur le lien sous EN SAVOIR PLUS pour télécharger les données depuis leur source d'origine (si aucun lien n'est fourni, cela signifie probablement que les données ne sont pas accessibles au public ou que les fournisseurs de données ont renoncé à inclure le lien de téléchargement dans les métadonnées de l'ensemble de données sur le UN Biodiversity Lab).
+3. Cliquez sur le lien « Download the Data » (Télécharger les données) sous EN SAVOIR PLUS pour télécharger les données depuis leur source d'origine (si aucun lien n'est fourni, cela signifie probablement que les données ne sont pas accessibles au public ou que les fournisseurs de données ont renoncé à inclure le lien de téléchargement dans les métadonnées de l'ensemble de données sur le UN Biodiversity Lab).
 
-4. Si vous rencontrez des difficultés pour accéder aux données, veuillez contacter support@unbiodiversitylab.org pour obtenir de l'aide.
+4. Si vous rencontrez des difficultés pour accéder aux données, veuillez contacter <support@unbiodiversitylab.org> pour obtenir de l'aide.
 
 ![Fenêtre d'informations de l'ensemble de données avec l'icône d'informations et le lien de téléchargement des données mis en évidence](images/download-global-data-01.png)

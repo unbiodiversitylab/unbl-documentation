@@ -79,7 +79,7 @@ The boundary penalty factor is used to promote spatial cohesion when prioritizin
 
 Steps: 
 
-1. To set the limit penalty, start with a small number, e.g. 10.
+1. To set the boundary penalty factor, start with a small number, e.g. 10.
 2. Increase the number iteratively, i.e., rerun the analysis repeatedly, by an order of magnitude (e.g., 10 -> 100-> 1000), reducing the rate of increase as you approach solutions that lead to your desired level of clustering. Each time you change the penalty, you will have to rerun the optimization until you arrive at a map that is sufficiently contiguous to meet your needs. 
 
 !!! attention

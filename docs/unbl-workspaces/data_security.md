@@ -47,13 +47,15 @@ UNBL workspaces also support the connection to external geospatial data through 
 
 - WMS (Web Map Service) 
 
-- WMTS (Web Map Tile Service) 
+- WMTS (Web Map Tile Service)
+
+- Google Earth Engine (GEE)
 
 - XYZ Tile Service 
 
 - Mapbox 
 
-- Esri ArcGIS API Map Service 
+- ESRI ArcGIS API Map Service through WMS, WMTS, or vector tile service
 
 - Vector Tile Services (served as pg_tileserv or Martin) 
 	
@@ -77,13 +79,15 @@ Data related to the datasets created by the geospatial data hosted on the follow
 
 - WMS (Web Map Service) 
 
-- WMTS (Web Map Tile Service) 
+- WMTS (Web Map Tile Service)
+
+- Google Earth Engine (GEE)
 
 - XYZ Tile Service 
 
 - Mapbox 
 
-- Esri ArcGIS API Map Service 
+- ESRI ArcGIS API Map Service through WMS, WMTS, or vector tile service
 
 - Vector Tile Services (served as pg_tileserv or Martin) 
 	

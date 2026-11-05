@@ -23,7 +23,7 @@ Les espaces de travail UNBL prennent également en charge la connexion à des do
 
 - Mapbox
 
-- Esri ArcGIS API Map Service via un service WMS, WMTS ou de tuiles vectorielles
+- ESRI ArcGIS API Map Service via un service WMS, WMTS ou de tuiles vectorielles
 
 - Services de tuiles vectorielles (servis comme pg_tileserv ou Martin)
 
@@ -253,7 +253,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	b.	*Fournisseur de la couche* : Sélectionnez « External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.) ».
 
-	c.	*Tuiles URL* : Ici, vous pouvez vous connecter à un fournisseur de services de tuiles vectorielles externes qui héberge vos données géospatiales, comme Mapbox, Esri, pg_tileserv, Martin et autres. Pour configurer des couches en utilisant ces fournisseurs, vous devez fournir une URL de tuile valide, qui doit contenir soit les espaces réservés `{z}{x}{y}` soit l'espace réservé `{bbox-epsg-3857}`. Par exemple, une URL de couche configurable pour un jeu de données de couverture forestière hébergé sur Martin ressemble à ceci :
+	c.	*Tuiles URL* : Ici, vous pouvez vous connecter à un fournisseur de services de tuiles vectorielles externes qui héberge vos données géospatiales, comme Mapbox, ESRI, pg_tileserv, Martin et autres. Pour configurer des couches en utilisant ces fournisseurs, vous devez fournir une URL de tuile valide, qui doit contenir soit les espaces réservés `{z}{x}{y}` soit l'espace réservé `{bbox-epsg-3857}`. Par exemple, une URL de couche configurable pour un jeu de données de couverture forestière hébergé sur Martin ressemble à ceci :
 
 	```
 

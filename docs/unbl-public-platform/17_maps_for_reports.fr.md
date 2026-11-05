@@ -35,11 +35,11 @@ translation_status: machine
 
 *si dans la carte* :
 
-> Sources : Sanderman, et al., 2018 ; PNUE-WCMC et UICN, 2021.
+> Sources : Sanderman et al., 2018 ; PNUE-WCMC et UICN, 2021.
 
 *si dans une légende* :
 
-> La figure 2 montre l'estimation du carbone organique présent dans les sols des mangroves (d'après Sanderman, et al., 2018) dans les aires protégées du Vietnam (PNUE-WCMC et UICN, 2021).
+> La figure 2 montre l'estimation du carbone organique présent dans les sols des mangroves (d'après Sanderman et al., 2018) dans les aires protégées du Viet Nam (PNUE-WCMC et UICN, 2021).
 
 **Veillez également à inclure les références complètes des ensembles de données utilisés dans la section « Références » du document, par exemple :**
 
@@ -47,7 +47,7 @@ translation_status: machine
 
 > PNUE-WCMC et UICN (2021), Protected Planet : The World Database on Protected Areas (WDPA) [En ligne], 02/2021, Cambridge, Royaume-Uni : PNUE-WCMC et UICN Disponible à l'adresse : www.protectedplanet.net.
 
-- Incluez les informations suivantes sur la carte (ou dans la citation décrivant la carte) : qui a créé la carte ; la date à laquelle la carte a été produite sur le UN Biodiversity Lab ; et une note indiquant que la carte a été créée à l'aide du UN Biodiversity Lab, par exemple :
+- Incluez les informations suivantes sur la carte (ou dans la légende décrivant la carte) : qui a créé la carte ; la date à laquelle la carte a été produite sur le UN Biodiversity Lab ; et une note indiquant que la carte a été créée à l'aide du UN Biodiversity Lab, par exemple :
 
 > Créée par James Bond à l'aide du UN Biodiversity Lab (www.unbiodiversitylab.org) le 14 février 2021.
 
@@ -57,4 +57,4 @@ translation_status: machine
 
 **Exemple :**
 
-> Bond, James. « Mangrove Forest Soil Organic Carbon within Vietnam's Protected Areas » [carte]. Échelle non indiquée. (14 février 2021). Carte générée sur le UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Version 2. PNUD et PNUE, 2023.
+> Bond, James. « Mangrove Forest Soil Organic Carbon within Viet Nam's Protected Areas » [carte]. Échelle non indiquée. (14 février 2021). Carte générée sur le UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Version 2. PNUD et PNUE, 2023.

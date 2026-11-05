@@ -17,7 +17,7 @@
   </div>
 </details>
 
-1. Кликните на кнопку «Запустить карту» на странице [UN Biodiversity Lab.](https://unbiodiversitylab.org/).
+1. Кликните на кнопку «Запустить карту» на сайте [UN Biodiversity Lab](https://unbiodiversitylab.org/).
 
 	![Главная страница веб-сайта UNBL с выделенным пунктом «Запустить карту» в верхнем меню](images/register-01.png)
 

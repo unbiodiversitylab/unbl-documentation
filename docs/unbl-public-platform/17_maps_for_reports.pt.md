@@ -30,11 +30,11 @@
 
 *se no próprio mapa*:
 
-> Fontes: Sanderman, et al., (2018); UNEP-WCMC and IUCN, (2021).
+> Fontes: Sanderman et al., 2018; UNEP-WCMC and IUCN, 2021.
 
 *se numa legenda*:
 
-> A Figura 2 mostra o carbono orgânico do solo estimado presente nos mangais (de Sanderman, et al., (2018)) dentro de áreas protegidas no Vietname (UNEP-WCMC and IUCN, (2021)).
+> A Figura 2 mostra o carbono orgânico do solo estimado presente nos mangais (de Sanderman et al., 2018) dentro de áreas protegidas no Vietname (UNEP-WCMC and IUCN, 2021).
 
 **Certifique-se também de incluir citações completas dos conjuntos de dados utilizados na secção de referências/bibliografia do documento, por exemplo:**
 
@@ -42,7 +42,7 @@
 
 > UNEP-WCMC and IUCN (2021), Protected Planet: The World Database on Protected Areas (WDPA) [On-line], 02/2021, Cambridge, UK: UNEP-WCMC and IUCN Available at: www.protectedplanet.net.
 
-- Inclua informações no mapa (ou na citação que descreve o mapa) sobre: quem criou o mapa; a data em que o mapa foi produzido no UN Biodiversity Lab; e uma nota a indicar que o mapa foi criado com o UN Biodiversity Lab, por exemplo:
+- Inclua informações no mapa (ou na legenda que descreve o mapa) sobre: quem criou o mapa; a data em que o mapa foi produzido no UN Biodiversity Lab; e uma nota a indicar que o mapa foi criado com o UN Biodiversity Lab, por exemplo:
 
 > Criado por James Bond com o UN Biodiversity Lab (www.unbiodiversitylab.org) em 14 de fevereiro de 2021.
 

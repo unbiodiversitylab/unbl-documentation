@@ -83,7 +83,7 @@ Le facteur de pénalité de limites est utilisé pour favoriser la cohésion spa
 
 Étapes :
 
-1. Pour définir la pénalité de limite, commencez par un petit nombre, par exemple 10.
+1. Pour définir le facteur de pénalité de limites, commencez par un petit nombre, par exemple 10.
 2. Augmentez le nombre de manière itérative, c'est-à-dire en relançant l'analyse à plusieurs reprises, par ordre de grandeur (par exemple, 10 -> 100 -> 1000), en réduisant le taux d'augmentation à mesure que vous vous approchez des solutions qui mènent au niveau de regroupement souhaité. Chaque fois que vous modifiez la pénalité, vous devrez relancer l'optimisation jusqu'à obtenir une carte suffisamment contiguë pour répondre à vos besoins.
 
 !!! attention
