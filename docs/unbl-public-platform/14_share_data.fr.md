@@ -1,3 +1,7 @@
+---
+source_rev: 341906d01921c4384c8ebdaac73e2f9500712dd3
+---
+
 # Comment partager un ensemble de données ?
 
 <details class="unbl-video">

@@ -1,3 +1,6 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+---
 # Création de nouvelles analyses ELSA
 
 Une fois que vous avez sélectionné un outil ELSA spécifique dans le menu déroulant de la figure 4, vous pouvez créer une nouvelle analyse. Pour ce faire, cliquez sur le bouton « NEW ANALYSIS RUN » (NOUVELLE ANALYSE). Une fenêtre contextuelle apparaîtra avec la structure d'optimisation ELSA standard et tous les paramètres ELSA pertinents prêts à être modifiés (voir [Figure 5](#fig-create-new-analysis)).

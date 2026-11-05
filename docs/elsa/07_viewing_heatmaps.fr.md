@@ -1,6 +1,10 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
 # Affichage des cartes de chaleur
 
-Après avoir exécuté une analyse ELSA, vous pourrez afficher les résultats en cliquant sur les trois points verticaux à côté de l'entrée d'analyse dans l'onglet de gauche, puis en cliquant sur le bouton « Afficher ». Dans le menu déroulant de la légende qui apparaît sur la carte, vous pouvez choisir d'afficher la carte d'actions finale, ou les couches de la carte de chaleur. Nous vous suggérons de commencer par afficher les cartes de chaleur.
+Après avoir exécuté une analyse ELSA, vous pourrez afficher les résultats en cliquant sur le bouton d'activation dans l'onglet de gauche. Dans le menu déroulant de la légende qui apparaît sur la carte, vous pouvez choisir d'afficher la carte d'actions finale, ou les couches de la carte de chaleur. Nous vous suggérons de commencer par afficher les cartes de chaleur.
 
 <figure markdown>
 ![Analyse activée et menu déroulant de la légende listant « ELSA Action » et quatre cartes de chaleur](images/viewing-heatmaps-01.png){#fig-viewing-hm}

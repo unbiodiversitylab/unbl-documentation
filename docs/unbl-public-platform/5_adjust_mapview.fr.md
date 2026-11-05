@@ -1,3 +1,8 @@
+---
+source_rev: 44959cf2c6aee55b94e602a356d6e8b88bac3acb
+translation_status: machine
+---
+
 # Comment puis-je ajuster l'affichage de ma carte ?
 
 <details class="unbl-video">
@@ -18,7 +23,7 @@ Plusieurs fonctionnalités peuvent vous aider à naviguer sur l'écran de la car
 
 1. *Déplacer la carte :* utilisez votre souris pour faire glisser la partie de la carte que vous souhaitez afficher au centre de l'écran.
 
-2. *Zoomer/dézoomer :* cliquez sur les icônes +/- en bas à droite de la carte.
+2. *Zoomer/dézoomer :* cliquez sur les icônes +/- en bas à droite de la carte ou utilisez la molette de votre souris.
 
 3. *Centrer l'emplacement :* cliquez sur le bouton ![Centrer sur le lieu](images/icons/center-place-icon.png){style="display: inline; height: 2em; width: 2em;"} situé au-dessus des boutons +/-. Si vous avez sélectionné un emplacement dans la barre de menu de gauche, cela recentrera la carte sur l'emplacement sélectionné.
 

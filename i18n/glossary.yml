@@ -138,6 +138,15 @@ terms:
     fr: analyse
     pt: análise
     ru: анализ
+  - en: area-based target (ELSA)
+    es: meta basada en el área
+    fr: objectif basé sur les zones
+    pt: meta baseada em área
+    ru: целевой показатель по площади
+    note: >-
+      Replaces "area-based constraint" (English changed in 2026). FR follows the
+      French ELSA interface ("Objectifs basés sur les zones"). Glossary anchor
+      in the ELSA annex: #area-based-target.
   - en: optimization
     es: optimización
     fr: optimisation

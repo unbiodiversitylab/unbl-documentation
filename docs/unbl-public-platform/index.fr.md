@@ -1,8 +1,13 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+translation_status: machine
+---
+
 # UN Biodiversity Lab (UNBL) - Guide d'utilisation de la plateforme publique
 
 ![Page d'accueil du UN Biodiversity Lab avec une image du globe et le bouton « Lancer la carte »](images/index-01.png)
 
-Ce guide d'utilisation téléchargeable a été conçu pour vous présenter les principaux outils et fonctions du UN Biodiversity Lab. Si vous avez d'autres questions, veuillez consulter notre [page d'assistance](https://www.unbiodiversitylab.org/support/) ou nous contacter à l'adresse support@unbiodiversitylab.org.
+Ce guide d'utilisation téléchargeable a été conçu pour vous présenter les principaux outils et fonctions du UN Biodiversity Lab. Si vous avez d'autres questions, veuillez consulter notre [page d'assistance](https://unbiodiversitylab.org/fr/support/) ou nous contacter à l'adresse support@unbiodiversitylab.org.
 
 Ce guide répond aux questions suivantes :
 

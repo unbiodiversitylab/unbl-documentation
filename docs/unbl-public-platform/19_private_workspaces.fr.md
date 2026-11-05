@@ -1,3 +1,7 @@
+---
+source_rev: 148a7a6604e7a591e974bad9194706ae6269c77f
+---
+
 # Que sont les espaces de travail UNBL ? Comment demander un espace de travail UNBL ?
 
 Les espaces de travail UNBL offrent un espace de travail sécurisé où des données de toute taille peuvent être ajoutées et partagées avec un ensemble d'utilisateurs spécifiques. Ils offrent un espace sécurisé pour collaborer sur vos projets et peuvent permettre aux experts en SIG de collaborer avec des experts non techniques grâce à une interface conviviale.
