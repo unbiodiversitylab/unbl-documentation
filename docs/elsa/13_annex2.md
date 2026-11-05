@@ -2,6 +2,8 @@
 
 Data layers used for the Integrated Spatial Planning project to support implementation of the KMGBF.
 
+Changes to these default data layers over time are recorded in [Annex 3 - Data Layer Change Log](14_annex3.md).
+
 !!! note
     The input data layer list may differ between countries depending on the input data's native resolution -- relative to country and planning unit size -- as well as priority policy targets.
 

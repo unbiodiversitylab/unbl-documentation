@@ -19,6 +19,8 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
   as a separate language (#43).
 
 ### Content
+- ELSA Annex 3: data layer change log, in all five languages, linked from Annex 2 and
+  the ELSA guide index.
 - What's new page (all five languages); data storage info sheet added to the Workspaces
   menu; partner logos on the translated home pages (#40).
 - Alt text for every image (about 150 per language, 710 in all), describing what each

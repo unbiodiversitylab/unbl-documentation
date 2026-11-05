@@ -1,6 +1,8 @@
 # Anexo 2: Capas de datos
 
-Capas de datos utilizadas para el Proyecto de Planificación Espacial Integrada para Apoyar la Implementación del MMB-KM.  
+Capas de datos utilizadas para el Proyecto de Planificación Espacial Integrada para Apoyar la Implementación del MMB-KM.
+
+Los cambios en estas capas de datos predeterminadas a lo largo del tiempo se registran en el [Anexo 3 - Registro de Cambios de las Capas de Datos](14_annex3.md).
 
 !!! note
     Nota: La lista de capas de datos de entrada puede variar entre países en función de la resolución nativa de los datos de entrada —en relación con el tamaño del país y de la unidad de planificación— y de los Metas políticos prioritarios.   

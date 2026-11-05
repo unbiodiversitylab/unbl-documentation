@@ -2,6 +2,8 @@
 
 Camadas de dados utilizadas no projeto de Planeamento Espacial Integrado para apoiar a implementação do KMGBF.
 
+As alterações a estas camadas de dados predefinidas ao longo do tempo são registadas no [Anexo 3 - Registo de Alterações das Camadas de Dados](14_annex3.md).
+
 !!! note
     A lista de camadas de dados de entrada pode diferir entre países, consoante a resolução nativa dos dados de entrada -- relativamente ao país e à dimensão da unidade de planeamento -- bem como as metas políticas prioritárias.
 

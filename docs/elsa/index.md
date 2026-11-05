@@ -5,3 +5,4 @@ This user's guide aims to provide a clear and concise overview on the use of the
 * [Chapter 1](01_overview.md) provides an overview of and key supplementary resources on the ELSA mapping process.
 * [Chapter 2](02_tool_purpose.md) outlines the key functionalities and applications of the ELSA tool.
 * [Chapters 3](03_registration.md) - [11](11_support.md) provide step-by-step instructions on how to use the ELSA Tool on UNBL.
+* [Annexes 1](12_annex1.md) - [3](14_annex3.md) provide a glossary, a list of the default data layers, and a log of changes to those data layers.

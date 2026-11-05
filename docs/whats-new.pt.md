@@ -10,6 +10,7 @@ Alterações recentes neste guia do utilizador. Em caso de dúvidas, escreva par
 
 ## Novembro de 2026
 
+- **Registo de alterações das camadas de dados do ELSA**: o novo [Anexo 3](elsa/14_annex3.md) regista as alterações às camadas de dados globais predefinidas do ELSA, para que os resultados produzidos em momentos diferentes possam ser comparados e citados corretamente.
 - **Registo do ELSA**: pode agora descarregar o registo de uma execução de análise (mensagens da ferramenta ELSA e do solucionador Gurobi) para ajudar a resolver problemas. Consulte [Visualizar e descarregar mapas de ação ELSA](elsa/08_downloading_results.md).
 - **Camadas de grupo** (espaços de trabalho): a opção 'Primary' passa a ser automática, e as camadas de um grupo mostram a descrição do grupo e herdam as respetivas fontes, citação e outros dados. Consulte [Adicionar os seus próprios dados geoespaciais](unbl-workspaces/6_add_data.md).
 - **Desenhar no mapa**: desenhe o limite de um local diretamente no mapa, em vez de carregar um ficheiro. Consulte [Adicionar lugares ao seu espaço de trabalho](unbl-workspaces/5_add_places.md).
