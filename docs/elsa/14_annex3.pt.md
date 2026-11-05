@@ -7,10 +7,12 @@ translation_status: machine
 
 Esta página regista as alterações às **camadas de dados predefinidas** utilizadas pela Ferramenta de Planeamento Espacial Integrado ELSA. As camadas de dados predefinidas são as características de planeamento, as restrições de bloqueio (lock-in) e as restrições de zonamento que o ELSA fornece para uma nova análise. O conjunto atual está listado no [Anexo 2 - Camadas de Dados](13_annex2.md).
 
+Este registo abrange apenas estas camadas globais predefinidas. As camadas nacionais ou outras camadas específicas de um país que são adicionadas à configuração ELSA desse país não são aqui incluídas.
+
 As camadas de dados mudam ao longo do tempo: os conjuntos de dados de origem são atualizados pelas instituições que os produzem, ficam disponíveis conjuntos de dados melhores e a forma como os dados são preparados para o ELSA evolui. Este registo de alterações permite aos utilizadores ver que camadas mudaram, quando mudaram e porquê, de modo que os resultados produzidos em momentos diferentes possam ser comparados, interpretados e citados corretamente.
 
 !!! note
-    As alterações listadas aqui aplicam-se às **novas análises** criadas após a data da alteração. As análises que já foram executadas mantêm as camadas de dados com as quais foram executadas, e os respetivos resultados não são recalculados. Para utilizar camadas atualizadas, crie uma nova análise.
+    As alterações listadas aqui **não são aplicadas automaticamente** às configurações de país existentes. Os dados de entrada de cada configuração (a sua pilha de dados) têm de ser atualizados antes de as novas análises utilizarem as camadas alteradas. As análises que já foram executadas mantêm as camadas de dados com as quais foram executadas, e os respetivos resultados não são recalculados. Para saber se uma configuração utiliza as camadas atualizadas, consulte [Apoio e Contacto](11_support.md).
 
 ## Como ler este registo de alterações
 
@@ -29,9 +31,15 @@ Cada entrada descreve uma alteração a uma camada de dados predefinida, usando 
 
 Alterações esperadas, mas ainda não aplicadas. As datas são indicativas e podem mudar.
 
+De momento, não estão previstas alterações.
+
+<!--
+MODELO DE ALTERAÇÕES PLANEADAS: substitua a frase acima por esta tabela quando estiver prevista uma alteração.
+
 | Data prevista | Camada | Tipo de alteração | Descrição | Situação |
 |---------------|--------|-------------------|-----------|----------|
-| *A confirmar* | *A confirmar* | *A confirmar* | *A confirmar* | *Em análise* |
+| Mês AAAA | Nome da camada | Atualizada | Breve descrição. | Em análise |
+-->
 
 ## Histórico de alterações {#change-history}
 
@@ -51,17 +59,7 @@ data, e traduza-a para as versões en, es, fr e ru desta página.
 exemplo, quais metas do KMGBF ou zonas de ação são afetadas).
 -->
 
-### AAAA-MM-DD
-
-| Camada | Tipo de alteração | Fonte anterior | Nova fonte | Motivo da alteração |
-|--------|-------------------|----------------|------------|---------------------|
-| *Nome da camada* | *Adicionada / Atualizada / Substituída / Reprocessada / Renomeada / Removida* | *Autor, ano, ou não se aplica* | *Autor, ano, ou não se aplica* | *Breve explicação do motivo da alteração da camada.* |
-
-**Efeito nas análises:** *Descreva como esta alteração afeta os resultados do ELSA, por exemplo quais metas do KMGBF ou zonas de ação são afetadas.*
-
-## Alterações feitas antes deste registo
-
-As alterações às camadas de dados predefinidas feitas antes da criação deste registo ainda estão a ser compiladas. Serão adicionadas ao [Histórico de alterações](#change-history) acima à medida que forem confirmadas.
+Não foram registadas alterações desde o início deste registo, em novembro de 2026. As alterações anteriores não estão registadas.
 
 ## Dúvidas sobre uma camada específica
 

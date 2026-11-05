@@ -2,10 +2,12 @@
 
 This page records changes to the **default data layers** used by the ELSA Integrated Spatial Planning Tool. Default data layers are the planning features, lock-in restrictions, and zoning constraints that ELSA provides for a new analysis. The current set is listed in [Annex 2 - Data layers](13_annex2.md).
 
+This log covers only these global default layers. National or other country-specific layers that are added to a country's ELSA configuration are not listed here.
+
 Data layers change over time: source datasets are updated by the institutions that produce them, better datasets become available, and the way data are prepared for ELSA evolves. This change log allows users to see which layers changed, when they changed, and why, so that results produced at different times can be compared, interpreted, and cited correctly.
 
 !!! note
-    Changes listed here apply to **new analyses** created after the date of the change. Analyses that have already been run keep the data layers they were run with, and their results are not recalculated. To use updated layers, create a new analysis.
+    Changes listed here are **not applied automatically** to existing country configurations. Each configuration's input data (its data stack) has to be updated before new analyses use the changed layers. Analyses that have already been run keep the data layers they were run with, and their results are not recalculated. To find out whether a configuration uses the updated layers, see [Support and Contact](11_support.md).
 
 ## How to read this change log
 
@@ -24,9 +26,15 @@ Each entry describes one change to one default data layer, using one of the foll
 
 Changes that are expected but have not yet been applied. Dates are indicative and may change.
 
+No changes are planned at the moment.
+
+<!--
+PLANNED CHANGES TEMPLATE: replace the sentence above with this table when a change is planned.
+
 | Expected date | Layer | Change type | Description | Status |
 |---------------|-------|-------------|-------------|--------|
-| *To be confirmed* | *To be confirmed* | *To be confirmed* | *To be confirmed* | *Under review* |
+| Month YYYY | Layer name | Updated | Short description. | Under review |
+-->
 
 ## Change history {#change-history}
 
@@ -46,17 +54,7 @@ into the es, fr, pt, and ru versions of this page.
 KMGBF targets or action zones are affected).
 -->
 
-### YYYY-MM-DD
-
-| Layer | Change type | Previous source | New source | Reason for the change |
-|-------|-------------|-----------------|------------|-----------------------|
-| *Layer name* | *Added / Updated / Replaced / Reprocessed / Renamed / Removed* | *Author, year, or not applicable* | *Author, year, or not applicable* | *Short explanation of why the layer changed.* |
-
-**Effect on analyses:** *Describe how this change affects ELSA results, for example which KMGBF targets or action zones are affected.*
-
-## Changes made before this change log
-
-Changes to the default data layers that were made before this change log was introduced are still being compiled. They will be added to the [Change history](#change-history) above as they are confirmed.
+No changes have been recorded since this log started in November 2026. Earlier changes are not recorded.
 
 ## Questions about a specific layer
 

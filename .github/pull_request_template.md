@@ -19,3 +19,4 @@
 - [ ] New images have alt text, no spaces in file names, and are under 1 MB
 - [ ] Screenshots still match the current UNBL interface
 - [ ] Reader-visible change? Added to **What's new** in all languages
+- [ ] Changed one of ELSA's global default data layers? Added an entry to the data layer change log (`docs/elsa/14_annex3*.md`, all languages) and updated Annex 2 if needed

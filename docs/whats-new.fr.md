@@ -12,6 +12,7 @@ Modifications récentes de ce guide de l'utilisateur. Pour toute question, écri
 
 ## Novembre 2026
 
+- **Journal des modifications des couches de données ELSA** : la nouvelle [Annexe 3](elsa/14_annex3.md) recense les modifications des couches de données mondiales par défaut d'ELSA, afin que les résultats produits à différentes dates puissent être comparés et cités correctement.
 - **Journal ELSA** : vous pouvez désormais télécharger le journal d'une analyse (messages de l'outil ELSA et du solveur Gurobi) pour faciliter la résolution de problèmes. Voir [Affichage et téléchargement des cartes d'action](elsa/08_downloading_results.md).
 - **Couches de groupe** (espaces de travail) : le paramètre « Primary » est désormais automatique, et les couches d'un groupe affichent la description du groupe et héritent de ses sources, citation et autres informations. Voir [Ajout de vos propres données géospatiales](unbl-workspaces/6_add_data.md).
 - **Dessiner sur la carte** : dessinez la limite d'un lieu directement sur la carte au lieu de téléverser un fichier. Voir [Ajout de lieux à votre espace de travail](unbl-workspaces/5_add_places.md).

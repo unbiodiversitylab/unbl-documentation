@@ -7,10 +7,12 @@ translation_status: machine
 
 Esta página registra los cambios en las **capas de datos predeterminadas** utilizadas por la Herramienta de Planificación Espacial Integrada ELSA. Las capas de datos predeterminadas son las características de planificación, las restricciones de bloqueo (lock-in) y las restricciones de zonificación que ELSA proporciona para un nuevo análisis. El conjunto actual se detalla en el [Anexo 2 - Capas de datos](13_annex2.md).
 
+Este registro solo abarca estas capas globales predeterminadas. Las capas nacionales u otras capas específicas de un país que se añaden a la configuración de ELSA de ese país no se incluyen aquí.
+
 Las capas de datos cambian con el tiempo: las instituciones que producen los conjuntos de datos de origen los actualizan, aparecen conjuntos de datos mejores y la forma de preparar los datos para ELSA evoluciona. Este registro de cambios permite a los usuarios ver qué capas cambiaron, cuándo cambiaron y por qué, de modo que los resultados producidos en momentos distintos puedan compararse, interpretarse y citarse correctamente.
 
 !!! note
-    Los cambios enumerados aquí se aplican a los **nuevos análisis** creados después de la fecha del cambio. Los análisis que ya se han ejecutado conservan las capas de datos con las que se ejecutaron y sus resultados no se vuelven a calcular. Para utilizar capas actualizadas, cree un nuevo análisis.
+    Los cambios enumerados aquí **no se aplican automáticamente** a las configuraciones de país existentes. Los datos de entrada de cada configuración (su pila de datos) deben actualizarse antes de que los nuevos análisis utilicen las capas modificadas. Los análisis que ya se han ejecutado conservan las capas de datos con las que se ejecutaron y sus resultados no se vuelven a calcular. Para saber si una configuración utiliza las capas actualizadas, consulte [Soporte y Contacto](11_support.md).
 
 ## Cómo leer este registro de cambios
 
@@ -29,9 +31,15 @@ Cada entrada describe un cambio en una capa de datos predeterminada, utilizando 
 
 Cambios que se esperan pero que aún no se han aplicado. Las fechas son indicativas y pueden cambiar.
 
+No hay cambios previstos por el momento.
+
+<!--
+PLANTILLA DE CAMBIOS PREVISTOS: sustituya la frase anterior por esta tabla cuando haya un cambio previsto.
+
 | Fecha prevista | Capa | Tipo de cambio | Descripción | Estado |
 |----------------|------|----------------|-------------|--------|
-| *Por confirmar* | *Por confirmar* | *Por confirmar* | *Por confirmar* | *En revisión* |
+| Mes AAAA | Nombre de la capa | Actualizada | Descripción breve. | En revisión |
+-->
 
 ## Historial de cambios {#change-history}
 
@@ -51,17 +59,7 @@ con fecha, y tradúzcala en las versiones en, fr, pt y ru de esta página.
 ejemplo, qué Metas del MMB-KM o zonas de acción se ven afectadas).
 -->
 
-### AAAA-MM-DD
-
-| Capa | Tipo de cambio | Fuente anterior | Nueva fuente | Motivo del cambio |
-|------|----------------|-----------------|--------------|-------------------|
-| *Nombre de la capa* | *Añadida / Actualizada / Sustituida / Reprocesada / Renombrada / Eliminada* | *Autor, año, o no aplica* | *Autor, año, o no aplica* | *Explicación breve del motivo del cambio de la capa.* |
-
-**Efecto en los análisis:** *Describa cómo afecta este cambio a los resultados de ELSA, por ejemplo qué Metas del MMB-KM o zonas de acción se ven afectadas.*
-
-## Cambios realizados antes de este registro
-
-Los cambios en las capas de datos predeterminadas realizados antes de la creación de este registro de cambios aún se están recopilando. Se añadirán al [Historial de cambios](#change-history) anterior a medida que se confirmen.
+No se ha registrado ningún cambio desde que se inició este registro en noviembre de 2026. Los cambios anteriores no están registrados.
 
 ## Preguntas sobre una capa específica
 
