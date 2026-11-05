@@ -70,4 +70,4 @@ The following tables detail all planning features used in ELSA analysis, organiz
 | Managed Forests | Define management zone boundaries | Lesiv et al., 2020; Running et al., 2024 | [View](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=-4.2646553,-13.2191915,2&layers=human-impact-on-forests_81,modis-net-primary-production-npp_100) |
 | Agriculture areas | Exclude from protection zones | Esri, 2024 | [View](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-meter-land-use-land-cover_100) |
 | Pasturelands | Define eligible areas for restoration | Parente et al., 2024 | N/A |
-| Urban areas | Define urban greening opportunities | Esri, 2024 | [View](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-mer-land-use-land-cover_100) |
+| Urban areas | Define urban greening opportunities | Esri, 2024 | [View](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-meter-land-use-land-cover_100) |

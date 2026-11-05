@@ -70,4 +70,4 @@ As tabelas seguintes descrevem todas as características de planeamento utilizad
 | Florestas Geridas | Definir limites da zona de gestão | Lesiv et al., 2020; Running et al., 2024 | [Ver](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=-4.2646553,-13.2191915,2&layers=human-impact-on-forests_81,modis-net-primary-production-npp_100) |
 | Áreas agrícolas | Excluir de zonas de proteção | Esri, 2024 | [Ver](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-meter-land-use-land-cover_100) |
 | Pastagens | Definir áreas elegíveis para restauração | Parente et al., 2024 | N/A |
-| Áreas urbanas | Definir oportunidades de reverdecimento urbano | Esri, 2024 | [Ver](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-mer-land-use-land-cover_100) |
+| Áreas urbanas | Definir oportunidades de reverdecimento urbano | Esri, 2024 | [Ver](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-meter-land-use-land-cover_100) |
