@@ -28,4 +28,4 @@ Para acceder a los diversos componentes:
 
 2.	Seleccione el componente que desea ver. Más información sobre cada componente se proporciona en secciones posteriores de esta guía del usuario.
 
-![Menú desplegable 'Inicio' de la interfaz de administración abierto, con Usuarios, Lugares, Capas, Widgets y Tableros](images/admin-02.png)
+![Menú desplegable 'Inicio' de la interfaz de administración abierto, con Usuarios, Lugares, Capas, Métricas, Widgets y Tableros](images/admin-02.png)

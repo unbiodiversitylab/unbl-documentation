@@ -9,12 +9,12 @@ The ELSA Tool enables diverse stakeholders to collaboratively assess national pr
     - Edit weights of each of the input layers (planning features) based on national importance of the mapped feature and confidence in the input data; and 
     - Edit the boundary penalty factor parameter to adjust spatial cohesion of the action map.
   - View and download resulting heat maps and action maps. 
-  - Download resulting heat maps and action maps in raster format, which can be used for further analysis according to the needs of the interested parties in desktop Geographic Information Systems (GIS) software. 
+  - Download resulting heat maps and action maps in raster format, which can be used for further analysis according to stakeholders' needs in desktop Geographic Information Systems (GIS) software. 
   - Download results and parameters of an existing ELSA analysis run as a summary table, which is available in .xlsx, .csv and .json formats. 
 
 The ELSA Tool **cannot** be used to: 
 
-  - Add additional data layers for inclusion either as planning features or as zoning targets. 
+  - Add additional data layers for inclusion either as planning features or as zoning constraints. 
   - Directly replace input layers with other input layers.  
   - Add additional lock-in features. 
 

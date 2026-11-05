@@ -19,11 +19,15 @@
 do_not_translate:
   - term: UN Biodiversity Lab
     note: >-
-      The product name stays in English, also in running text
-      ("el sitio web del UN Biodiversity Lab"). Fixed in nav titles in commit 8d96e56.
+      The product name stays in English in every language, also in running text
+      ("el sitio web del UN Biodiversity Lab", "o UN Biodiversity Lab"). Confirmed
+      Nov 2026 (#42). In Russian, where a gendered word must agree with it, write
+      «платформа UN Biodiversity Lab».
   - term: UNBL
   - term: ELSA
-    note: Acronym stays in English. Its expansion is translated (see below).
+    note: >-
+      Never translated (confirmed Nov 2026, #42). Its expansion may be
+      translated (see below).
   - term: DPG
     note: Keep the acronym; translate the expansion "Digital Public Good" (see below).
   - term: GeoTIFF
@@ -134,6 +138,15 @@ terms:
     fr: analyse
     pt: análise
     ru: анализ
+  - en: area-based target (ELSA)
+    es: meta basada en el área
+    fr: objectif basé sur les zones
+    pt: meta baseada em área
+    ru: целевой показатель по площади
+    note: >-
+      Replaces "area-based constraint" (English changed in 2026). FR follows the
+      French ELSA interface ("Objectifs basés sur les zones"). Glossary anchor
+      in the ELSA annex: #area-based-target.
   - en: optimization
     es: optimización
     fr: optimisation
@@ -144,6 +157,13 @@ terms:
     fr: carte de chaleur
     pt: mapa de calor
     ru: тепловая карта
+    note: >-
+      FR confirmed by Marion, Nov 2026 (#42): always "carte de chaleur", never
+      "heatmap" (except the technical map-layer type "heatmap" in style
+      templates). RU is still open in #42: the ELSA tool itself says
+      «Карта пересекающихся экологических ценностей».
+    avoid:
+      fr: heatmap
   - en: synergies and trade-offs
     es: sinergias y compensaciones
     fr: synergies et compromis

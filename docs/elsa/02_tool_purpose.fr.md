@@ -1,3 +1,7 @@
+---
+source_rev: 148a7a6604e7a591e974bad9194706ae6269c77f
+translation_status: machine
+---
 # À quoi sert l'outil ELSA ?
 
 L'outil ELSA permet à divers acteurs d'évaluer de manière collaborative les priorités nationales pour le KMGBF, d'explorer les compromis et les synergies, et d'élaborer des plans spatiaux pour soutenir la mise en œuvre nationale des objectifs 1, 2 et 3. L'outil ELSA produit des cartes de priorisation spatiale qui identifient les zones à protéger, à restaurer, à gérer, et à verdir, qui auront le plus grand impact sur la réalisation des objectifs 1 à 12 du KMGBF. Les cartes des actions prioritaires ELSA qui en résultent peuvent également soutenir la mise en œuvre de la hiérarchie des mesures de neutralité en matière de dégradation des terres (LDN) dans le cadre de la Convention des Nations unies sur la lutte contre la désertification (UNCCD). La hiérarchie des mesures LDN est une approche structurée visant à atteindre la neutralité en donnant la priorité à la prévention, en minimisant la dégradation continue et en restaurant les terres dégradées. Les utilisateurs disposant d'un [espace de travail UNBL](https://unbiodiversitylab.org/en/unbl-workspaces/) peuvent utiliser l'outil ELSA pour mettre en œuvre une planification spatiale nationale personnalisée dans le cadre d'un processus participatif d'aménagement du territoire. Ils peuvent :
@@ -10,8 +14,8 @@ L'outil ELSA permet à divers acteurs d'évaluer de manière collaborative les p
 	  - Modifier les pondérations de chacune des couches d'entrée (caractéristiques de planification) en fonction de l'importance nationale de la caractéristique cartographiée et de la fiabilité des données d'entrée ; et
 	  - Modifier le paramètre du facteur de pénalité des limites pour ajuster la cohésion spatiale de la carte d'action.
 	  
-- Visualiser et télécharger les heatmaps et les cartes d'action obtenues.
-- Téléchargez les heatmaps et les cartes d'action obtenues au format raster, qui peuvent être utilisées pour une analyse plus approfondie en fonction des besoins des parties intéressées dans un logiciel de système d'information géographique (SIG) de bureau.
+- Visualiser et télécharger les cartes de chaleur et les cartes d'action obtenues.
+- Télécharger les cartes de chaleur et les cartes d'action obtenues au format raster, qui peuvent être utilisées pour une analyse plus approfondie en fonction des besoins des parties intéressées dans un logiciel de système d'information géographique (SIG) de bureau.
 - Télécharger les résultats et les paramètres d'une analyse ELSA existante sous forme de tableau récapitulatif, disponible aux formats .xlsx, .csv et .json.
 
 L'outil ELSA **ne peut pas** être utilisé pour :

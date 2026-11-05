@@ -1,3 +1,7 @@
+---
+source_rev: 32703d85315c4077915c939567d70b846cce3b64
+---
+
 # Fiche d'information : Stockage des données nationales ajoutées aux espaces de travail sur UN Biodiversity Lab
 
 ## Contrôle d'accès général pour votre espace de travail UNBL
@@ -50,11 +54,13 @@ Les espaces de travail UNBL prennent également en charge la connexion à des do
 
 - WMTS (Web Map Tile Service)
 
+- Google Earth Engine (GEE)
+
 - XYZ Tile Service
 
 - Mapbox
 
-- Esri ArcGIS API Map Service
+- ESRI ArcGIS API Map Service via un service WMS, WMTS ou de tuiles vectorielles
 
 - Vector Tile Services (servis comme pg_tileserv ou Martin)
 
@@ -80,11 +86,13 @@ Les données relatives aux ensembles de données créés par les données géosp
 
 - WMTS (Web Map Tile Service)
 
+- Google Earth Engine (GEE)
+
 - XYZ Tile Service
 
 - Mapbox
 
-- Esri ArcGIS API Map Service
+- ESRI ArcGIS API Map Service via un service WMS, WMTS ou de tuiles vectorielles
 
 - Vector Tile Services (servis comme pg_tileserv ou Martin)
 

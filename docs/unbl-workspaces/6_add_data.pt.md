@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 
@@ -23,7 +23,7 @@ Os espaços de trabalho UNBL também suportam a ligação a dados geoespaciais e
 
 - Mapbox
 
-- Esri ArcGIS API Map Service através de WMS, WMTS ou serviço de tiles vetoriais
+- ESRI ArcGIS API Map Service através de WMS, WMTS ou serviço de tiles vetoriais
 
 - Serviços de tiles vetoriais (servidos como pg_tileserv ou Martin)
 
@@ -57,7 +57,7 @@ Para começar a criar uma camada e preencher os metadados relevantes para a cama
 	e.	*Layer description (opcional)*: No campo de descrição, pode especificar o texto que aparecerá na caixa pop-up de informação da camada. Aqui, pode inserir a maior parte dos metadados da sua camada, como uma descrição geral, citação do artigo científico/conjunto de dados, links externos para o artigo científico/conjunto de dados, especificações de licença, etc. Existe um parâmetro adicional 'METADATA' que lhe permite preencher parâmetros concretos dos dados, como a resolução, a versão dos dados, a data do conjunto de dados e a data de publicação. O parâmetro 'PREVIEW' permite-lhe pré-visualizar o aspeto que a caixa pop-up de informação da camada terá no UNBL.
 
 	!!! note
-		Para camadas individuais que fazem parte de uma camada de grupo principal, o texto pop-up de informação da camada mostrará sempre a descrição da camada de grupo principal e portanto o campo de descrição é redundante (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
+		Para camadas que fazem parte de uma camada agrupada, o pop-up de informação da camada mostra primeiro a descrição da camada agrupada, seguida da descrição própria da camada. Utilize a descrição da camada agrupada para a informação que se aplica a todas as suas camadas, e a descrição própria da camada apenas para o que é específico dessa camada (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
 
 	![Página de nova camada com título, slug, categorias, etiquetas de pesquisa e pré-visualização da descrição preenchidos](images/add-data-02.png)
 
@@ -96,7 +96,7 @@ Para carregar um ficheiro GeoTIFF:
 
 	- *Color* – a cor dos pixels com o valor especificado no mapa. Pode definir uma cor através do seletor de cor manual, ou introduzindo um valor RGBA ou Hexadecimal. Opcionalmente, pode definir a opacidade da cor numa gama de 0 a 100%, onde 0% é totalmente transparente e 100% é totalmente opaco.
 
-	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores.
+	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores.
 
 	![Configuração da camada para GeoTIFF File Upload com três entradas categóricas de Layer styling](images/add-data-03.png)
 
@@ -142,7 +142,7 @@ O UNBL suporta a configuração de camadas de imagem raster para o seu espaço d
 
 	- *Color* – a cor associada ao nome especificado na legenda da camada. Pode selecionar uma cor usando o seletor de cor, ou especificando um valor de código de cor RGBA ou Hex.
 
-	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para imagens raster categóricas, as entradas de estilo de legenda de camada devem representar os valores de cada categoria/classe dentro da fonte de dados raster. Para imagens raster contínuas, as entradas de estilo de legenda devem representar a gama de valores visualizados na imagem raster. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo - será gerado um gradiente de cores entre cada um destes valores.
+	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para imagens raster categóricas, as entradas de estilo de legenda de camada devem representar os valores de cada categoria/classe dentro da fonte de dados raster. Para imagens raster contínuas, as entradas de estilo de legenda devem representar a gama de valores visualizados na imagem raster. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo - será gerado um gradiente de cores entre cada um destes valores.
 
 	![Configuração da camada para um serviço de mosaicos externo com URL dos mosaicos e entradas de legenda](images/add-data-04.png)
 
@@ -184,7 +184,7 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	- *Color* – a cor dos pixels com o valor especificado no mapa. Pode definir uma cor através do seletor de cor manual, ou introduzindo um valor RGBA ou Hexadecimal. Opcionalmente, pode definir a opacidade da cor numa gama de 0 a 100%, onde 0% é totalmente transparente e 100% é totalmente opaco.
 
-	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores. É importante notar que os valores de pixel mínimo e máximo, e portanto a gama de valores, podem ser derivados diretamente visualizando o separador 'BANDS' na caixa de informação 'Asset details' do seu recurso no GEE. O exemplo de estilo de camada abaixo cria uma paleta de cores contínua para concentração de stock de carbono.
+	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores. É importante notar que os valores de pixel mínimo e máximo, e portanto a gama de valores, podem ser derivados diretamente visualizando o separador 'BANDS' na caixa de informação 'Asset details' do seu recurso no GEE. O exemplo de estilo de camada abaixo cria uma paleta de cores contínua para concentração de stock de carbono.
 
 	![Separador BANDS dos detalhes do recurso no Google Earth Engine com os valores Min e Max destacados](images/add-data-09.png)
 
@@ -253,7 +253,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	b.	*Layer provider*: Selecione 'External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)'.
 
-	c.	*Tiles URL*: Aqui, pode ligar-se a um fornecedor de serviço de tiles vetoriais externo que aloja os seus dados geoespaciais, como Mapbox, Esri, pg_tileserv, Martin e outros. Para configurar camadas usando estes fornecedores, deve fornecer um URL de tile válido, que deve conter ou os marcadores de posição `{z}{x}{y}` ou o marcador de posição `{bbox-epsg-3857}`. Por exemplo, um URL de camada configurável para um conjunto de dados de cobertura florestal alojado no Martin seria assim:
+	c.	*Tiles URL*: Aqui, pode ligar-se a um fornecedor de serviço de tiles vetoriais externo que aloja os seus dados geoespaciais, como Mapbox, ESRI, pg_tileserv, Martin e outros. Para configurar camadas usando estes fornecedores, deve fornecer um URL de tile válido, que deve conter ou os marcadores de posição `{z}{x}{y}` ou o marcador de posição `{bbox-epsg-3857}`. Por exemplo, um URL de camada configurável para um conjunto de dados de cobertura florestal alojado no Martin seria assim:
 
 	```
 
@@ -266,11 +266,11 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 3.	A secção 'Render layers' especifica os atributos de dados da fonte de dados vetoriais que devem ser exibidos no mapa. Nesta secção:
 
-	a.	*Source layer*: Especifique o nome do conjunto de dados que está a alojar no servidor de tiles vetoriais. Por exemplo, a camada fonte para o URL de exemplo do passo 2c é `forest_cover`. Clique no ícone ![Informações](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada sobre referenciação de camada fonte.
+	a.	*Source layer*: Especifique o nome do conjunto de dados que está a alojar no servidor de tiles vetoriais. Por exemplo, a camada fonte para o URL de exemplo do passo 2c é `forest_cover`. Clique no ícone ![Informações](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada sobre referenciação de camada fonte.
 
-	b.	*Type*: Especifique o tipo de geometria que o seu conjunto de dados representa. As opções disponíveis são *fill, line, symbol, circle, heatmap* e *fill-extrusion*. Na maioria dos casos, o tipo de geometria será *fill* (polígonos com uma rampa de cor de preenchimento). Clique no ícone ![Informações](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada sobre opções de tipo de geometria.
+	b.	*Type*: Especifique o tipo de geometria que o seu conjunto de dados representa. As opções disponíveis são *fill, line, symbol, circle, heatmap* e *fill-extrusion*. Na maioria dos casos, o tipo de geometria será *fill* (polígonos com uma rampa de cor de preenchimento). Clique no ícone ![Informações](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada sobre opções de tipo de geometria.
 
-	c.	*Paint (opcional)*: Aqui, pode especificar o estilo de camada para o seu conjunto de dados no UNBL usando uma configuração de estilo .json. Clique no ícone ![Informações](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada para configurar estilo de camada. Para os tipos de geometria mais comuns de tipo *fill*, a configuração paint segue um modelo definido. Para configurar estilo de camada para conjuntos de dados categóricos, use o seguinte modelo:
+	c.	*Paint (opcional)*: Aqui, pode especificar o estilo de camada para o seu conjunto de dados no UNBL usando uma configuração de estilo .json. Clique no ícone ![Informações](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada para configurar estilo de camada. Para os tipos de geometria mais comuns de tipo *fill*, a configuração paint segue um modelo definido. Para configurar estilo de camada para conjuntos de dados categóricos, use o seguinte modelo:
 
 	```
 
@@ -288,7 +288,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
     "#ffffff"],
     "fill-outline-color": [
     "match",
-    [ "get", " forest_cover_2023" ],
+    [ "get", "forest_cover_2023" ],
     "Mixed forest",
     "#7c549e",
     "Mangrove forest",
@@ -439,7 +439,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	- `fill-outline-color` funciona da mesma forma que `fill-color`, mas especifica a cor do limite linear do polígono em vez do preenchimento interior do polígono. Desta forma, pode especificar uma cor de limite para os polígonos diferente da cor do seu preenchimento interior (note que não é o caso no exemplo acima).
 
-	d.	*Filter (opcional)*: Pode opcionalmente especificar um subconjunto de categorias de dados, ou gama específica de valores, que deve ser usado para estilizar o mapa. Quaisquer categorias de dados ou gama de valores fora do filtro especificado não serão considerados no estilo de camada. Clique no ícone ![Informações](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada para configurar opções de filtro. Como exemplo, se quisesse filtrar a categoria "Mixed forest" do atributo de dados `forest_cover_2023`, usaria o seguinte modelo:
+	d.	*Filter (opcional)*: Pode opcionalmente especificar um subconjunto de categorias de dados, ou gama específica de valores, que deve ser usado para estilizar o mapa. Quaisquer categorias de dados ou gama de valores fora do filtro especificado não serão considerados no estilo de camada. Clique no ícone ![Informações](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} para esta propriedade para ver documentação detalhada para configurar opções de filtro. Como exemplo, se quisesse filtrar a categoria "Mixed forest" do atributo de dados `forest_cover_2023`, usaria o seguinte modelo:
 
 	```
 
@@ -467,7 +467,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	f.	*Suffix (opcional)*: Pode especificar um sufixo que será exibido após o valor/categoria do atributo de dados (ex. unidades).
 
-	g.	Clique no ícone ![Eliminar (caixote do lixo)](images/icons/delete.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para remover uma entrada de Interaction config.
+	g.	Clique no ícone ![Eliminar (caixote do lixo)](images/icons/delete.png){style="display: inline; height: 2em; width: 2em;"} para remover uma entrada de Interaction config.
 
 	![Entradas de Interaction config para os atributos de tipo de floresta e altura do dossel](images/add-data-15.png)
 
@@ -483,7 +483,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	- *Color* – a cor associada ao nome especificado na legenda da camada. Pode selecionar uma cor usando o seletor de cor, ou especificando um valor de código de cor RGBA ou Hex.
 
-	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para dados categóricos, as entradas de estilo de legenda de camada devem representar as categorias discretas e o seu estilo de cor associado que especificou na secção 'Render layers'. Para dados contínuos, as entradas de estilo de legenda devem representar a gama de valores e o seu gradiente de cor associado que especificou na secção 'Render layers'.
+	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para dados categóricos, as entradas de estilo de legenda de camada devem representar as categorias discretas e o seu estilo de cor associado que especificou na secção 'Render layers'. Para dados contínuos, as entradas de estilo de legenda devem representar a gama de valores e o seu gradiente de cor associado que especificou na secção 'Render layers'.
 
 	![Níveis de zoom da camada vetorial e Legend Config com três categorias de floresta](images/add-data-17.png)
 
@@ -495,23 +495,23 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 Para tornar qualquer uma das suas camadas adicionadas descobrível e visível para todos os utilizadores do seu espaço de trabalho (veja ['Como visualizo conjuntos de dados no meu espaço de trabalho?'](2_viewing.pt.md#como-visualizo-conjuntos-de-dados-no-meu-espaco-de-trabalho)), bem como opcionalmente tornar a sua camada visível para utilizadores fora do seu espaço de trabalho, realize os seguintes passos:
 
-1.	Navegue até à página de edição de camada para a camada da sua escolha. Ao adicionar uma camada ao seu espaço de trabalho, será automaticamente levado para esta página. Alternativamente, clique no botão ![Editar (lápis)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} na lista de camadas disponível após navegar até à página 'Layers' na sua interface de administração.
+1.	Navegue até à página de edição de camada para a camada da sua escolha. Ao adicionar uma camada ao seu espaço de trabalho, será automaticamente levado para esta página. Alternativamente, clique no botão ![Editar (lápis)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} na lista de camadas disponível após navegar até à página 'Layers' na sua interface de administração.
 
 	![Lista da página Layers com o botão de edição de uma camada destacado](images/add-data-19.png)
 
 2.	Para que o seu conjunto de dados seja acessível na vista do mapa UNBL, deve publicar o conjunto de dados clicando no botão de alternância 'Published'. Os conjuntos de dados não publicados permanecem na interface de administração até que esteja pronto para publicá-los na vista do mapa UNBL.
 
-3.	Se o seu conjunto de dados estiver publicado, aparecerá um botão de alternância com uma opção para 'Allow external access via link'. Esta é uma alternância opcional que, se ativada, torna a sua camada acessível a qualquer pessoa com o URL da vista do mapa, mesmo utilizadores fora do seu espaço de trabalho. Para partilhar o URL da sua camada, copie o link que aparece ou clique no ícone ![Copiar](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} para copiar automaticamente o link para a sua área de transferência.
+3.	Se o seu conjunto de dados estiver publicado, aparecerá um botão de alternância com uma opção para 'Allow external access via link'. Esta é uma alternância opcional que, se ativada, torna a sua camada acessível a qualquer pessoa com o URL da vista do mapa, mesmo utilizadores fora do seu espaço de trabalho. Para partilhar o URL da sua camada, copie o link que aparece ou clique no ícone ![Copiar](images/icons/copy.png){style="display: inline; height: 2em; width: 2em;"} para copiar automaticamente o link para a sua área de transferência.
 
-4.	Clique no botão de alternância 'Primary' para marcar a sua camada como uma camada autónoma e torná-la descobrível na barra de pesquisa 'DATASETS' no UNBL. Para que as camadas do seu espaço de trabalho sejam descobríveis e visíveis no UNBL, deve sempre publicá-las e marcá-las como primárias. A única exceção para publicar uma camada e não marcá-la como primária é quando está a criar camadas agrupadas (Veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
+4.	Não precisa de marcar as camadas como primárias: o UNBL faz isto automaticamente. Uma camada que não faz parte de uma camada agrupada é primária, pelo que aparece como uma entrada própria na barra de pesquisa 'DATASETS' no UNBL. Uma camada que faz parte de uma camada agrupada não é primária, e é encontrada através da sua camada agrupada (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)). A lista de camadas na sua interface de administração mostra o estado 'Primary' de cada camada apenas a título informativo.
 
-	![Página de edição de camada com os botões de alternância Published, Allow external access via link e Primary destacados](images/add-data-20.png)
+	![Página de edição de camada com os botões de alternância Publicado e Permitir acesso externo via link destacados](images/add-data-20.png)
 
 ## Como edito as minhas camadas adicionadas?
 
 Pode querer voltar e editar as suas camadas adicionadas para alterar qualquer um dos metadados associados, testar se a sua camada está a visualizar no UNBL, e editar a sua configuração de camada em conformidade se a sua camada não estiver a visualizar. Para fazer isto:
 
-1.	Navegue até à página de edição de camada para a camada da sua escolha. Ao adicionar uma camada ao seu espaço de trabalho, será automaticamente levado para esta página. Alternativamente, clique no botão ![Editar (lápis)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} na lista de camadas disponível após navegar até à página 'Layers' na sua interface de administração.
+1.	Navegue até à página de edição de camada para a camada da sua escolha. Ao adicionar uma camada ao seu espaço de trabalho, será automaticamente levado para esta página. Alternativamente, clique no botão ![Editar (lápis)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} na lista de camadas disponível após navegar até à página 'Layers' na sua interface de administração.
 
 	![Lista da página Layers com o botão de edição de uma camada destacado](images/add-data-21.png)
 
@@ -530,18 +530,18 @@ Pode querer voltar e editar as suas camadas adicionadas para alterar qualquer um
 
 ## Como crio camadas agrupadas?
 
-Quaisquer camadas que adicione ao seu espaço de trabalho UNBL podem ser agrupadas juntas para organizar dados multi-ano ou multi-categoria. Cada ano ou categoria é semelhante a uma banda raster individual. As camadas agrupadas são criadas numa nova camada separada (denominada *camada principal* no UNBL) das camadas componentes (denominadas *camadas filhas* no UNBL). Por exemplo, um raster de cobertura do solo que abrange três anos exigiria que fossem criadas quatro camadas: cada ano como a sua própria camada filha, bem como uma quarta camada principal a partir da qual todas serão acessíveis. Neste caso, cada camada filha deve ser publicada e **não** marcada como primária para ser descobrível na vista do mapa exclusivamente através de uma camada agrupada. A camada agrupada/principal é uma camada de exibição adicional com uma configuração de camada fixa que referencia todas as camadas filhas. É publicada e marcada como primária. Quando a camada agrupada é vista no UNBL, aparece uma única legenda de camada a partir da qual pode selecionar qualquer uma das camadas filhas incluídas para ser visualizada na vista do mapa.
+Quaisquer camadas que adicione ao seu espaço de trabalho UNBL podem ser agrupadas juntas para organizar dados multi-ano ou multi-categoria. Cada ano ou categoria é semelhante a uma banda raster individual. As camadas agrupadas são criadas numa nova camada separada (denominada *camada principal* no UNBL) das camadas componentes (denominadas *camadas filhas* no UNBL). Por exemplo, um raster de cobertura do solo que abrange três anos exigiria que fossem criadas quatro camadas: cada ano como a sua própria camada filha, bem como uma quarta camada principal a partir da qual todas serão acessíveis. Neste caso, cada camada filha deve ser publicada. Como pertencem a uma camada agrupada, o UNBL trata automaticamente as camadas filhas como não primárias, pelo que são encontradas na vista do mapa através da camada agrupada e não como entradas separadas. A camada agrupada/principal é uma camada de exibição adicional com uma configuração de camada fixa que referencia todas as camadas filhas. Também tem de ser publicada. Quando a camada agrupada é vista no UNBL, aparece uma única legenda de camada a partir da qual pode selecionar qualquer uma das camadas filhas incluídas para ser visualizada na vista do mapa.
 
 !!! note
-	Se as camadas filhas que está a ligar através de uma camada agrupada também estiverem marcadas como primárias, além de estarem publicadas, estas camadas serão descobríveis como entradas individuais na barra de pesquisa 'DATASETS', duplicando assim entradas com a camada agrupada publicada.
+	**As camadas filhas herdam os metadados da sua camada agrupada.** Na vista do mapa, a informação de uma camada filha mostra primeiro a descrição da camada agrupada, seguida da descrição própria da camada filha. Todos os outros campos de metadados (fontes, citação, licença, aviso legal, links para saber mais, links de descarga, resolução, versão dos dados, data de início, data de fim e data de publicação) utilizam o valor próprio da camada filha, se o tiver, e caso contrário o valor da camada agrupada. Assim, preencha a informação partilhada uma única vez, na camada agrupada, e acrescente a uma camada filha apenas o que lhe é específico. Um campo deixado em branco, incluindo uma data com todas as partes apagadas, conta como não definido, e a camada filha assume então o valor da camada agrupada.
 
 Para configurar uma camada agrupada:
 
-1.	Publique todas as camadas filhas a incluir na camada agrupada, e **não** as marque como primárias. A funcionalidade de URL pública funciona da mesma forma que para camadas autónomas (veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos)).
+1.	Publique todas as camadas filhas a incluir na camada agrupada. A funcionalidade de URL pública funciona da mesma forma que para camadas autónomas (veja ['Como publico a minha camada e partilho-a com utilizadores externos?'](#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos)).
 
 2.	Crie uma camada separada usando o botão 'CREATE NEW LAYER' na página 'Layers' da interface de administração do seu espaço de trabalho. Esta será a sua camada agrupada designada.
 
-3.	Introduza um título de camada, slug de camada, categoria de camada, etiqueta de pesquisa e uma descrição de camada que seja representativa do conjunto de dados representado pela sua coleção de camadas filhas. Note que a descrição de camada para camadas filhas é redundante – só precisa de preencher a descrição de camada para a camada agrupada que contém as suas camadas filhas. Para mais informação sobre preenchimento de metadados para camadas, veja ['Que parâmetros e metadados preencho ao criar uma camada?'](#que-parametros-e-metadados-preencho-ao-criar-uma-camada).
+3.	Introduza um título de camada, slug de camada, categoria de camada, etiqueta de pesquisa e uma descrição de camada que seja representativa do conjunto de dados representado pela sua coleção de camadas filhas. A descrição, as fontes, a citação e os outros metadados da camada agrupada são mostrados para todas as suas camadas filhas (veja a nota acima), por isso preencha aqui tudo o que se aplica a toda a coleção. Para mais informação sobre preenchimento de metadados para camadas, veja ['Que parâmetros e metadados preencho ao criar uma camada?'](#que-parametros-e-metadados-preencho-ao-criar-uma-camada).
 
 4.	*Layer type*: Selecione 'group'.
 

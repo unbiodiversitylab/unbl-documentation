@@ -16,3 +16,18 @@ aff1229bf0b06f55644fd7348b54f39558afb8bb
 b214a72256cdc9907832faed56f907c8c0605315
 # English heading fixes and section-link fixes already mirrored in translations (#44)
 c9ae46c100d3525b29d9c2c5b45cd26ac3a7018b
+# Product name kept in English in all translations (#42); English unchanged
+2f976efb85df002b8645fce3d157e38aa54a71d4
+# Editorial fixes from #48 (English wording; translations already read correctly)
+148a7a6604e7a591e974bad9194706ae6269c77f
+# Inline icon styles: duplicated width removed (no visual change)
+44959cf2c6aee55b94e602a356d6e8b88bac3acb
+# Screenshots recaptured in all languages, alt text updated in all languages at once (#58)
+23d17b970bfb181c7d29ae84bebaf0e69a7a14b6
+# Annex 2 map link typo fixed in every language (10-mer -> 10-meter)
+e3f5047d62a09c1128670b6ec7168ddef54439ab
+
+# English wording fixes applied identically to all languages
+5e63ffca8633e8c7b711faad94cd694bdeab4f85
+# Zoning constraints wording applied identically to all languages
+dc4f34667502598694e6cd29a771e94b6d57e63c

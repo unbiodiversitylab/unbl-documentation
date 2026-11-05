@@ -1,6 +1,6 @@
 # Como encontro o meu país?
 
-O Laboratório de Biodiversidade da ONU pode ajudá-lo a navegar até uma área específica de interesse e aceder a conjuntos de dados e métricas dinâmicas para esta área. Na nossa plataforma pública, as áreas de interesse incluem países, jurisdições e áreas transfronteiriças selecionadas. 
+O UN Biodiversity Lab pode ajudá-lo a navegar até uma área específica de interesse e aceder a conjuntos de dados e métricas dinâmicas para esta área. Na nossa plataforma pública, as áreas de interesse incluem países, jurisdições e áreas transfronteiriças selecionadas. 
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>

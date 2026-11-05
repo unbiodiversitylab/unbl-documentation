@@ -50,11 +50,13 @@ Los espacios de trabajo de UNBL también admiten la conexión a datos geoespacia
 
 - WMTS (Web Map Tile Service)
 
+- Google Earth Engine (GEE)
+
 - XYZ Tile Service
 
 - Mapbox
 
-- Esri ArcGIS API Map Service
+- ESRI ArcGIS API Map Service a través de WMS, WMTS o un servicio de teselas vectoriales
 
 - Vector Tile Services (servidos como pg_tileserv o Martin)
 
@@ -80,11 +82,13 @@ Los datos relacionados con los conjuntos de datos creados por los datos geoespac
 
 - WMTS (Web Map Tile Service)
 
+- Google Earth Engine (GEE)
+
 - XYZ Tile Service
 
 - Mapbox
 
-- Esri ArcGIS API Map Service
+- ESRI ArcGIS API Map Service a través de WMS, WMTS o un servicio de teselas vectoriales
 
 - Vector Tile Services (servidos como pg_tileserv o Martin)
 

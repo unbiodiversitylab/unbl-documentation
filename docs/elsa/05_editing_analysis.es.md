@@ -1,9 +1,13 @@
+---
+source_rev: 1242819c271876b7abc7ddce11718e01b3bc3ed4
+translation_status: machine
+---
 # Edición de una ejecución de análisis ELSA 
 
 !!! info "Términos clave"
     * [Zonas de acción](12_annex1.md#action-zones)
     * [Características de bloqueo](12_annex1.md#lock-in-features)
-    * [Restricción basado en el área](12_annex1.md#area-based-target)
+    * [Meta basada en el área](12_annex1.md#area-based-target)
     * [Factor de penalización de los límites (BPF)](12_annex1.md#boundary-penalty-factor-bpf)
     * [Característica de planificación](12_annex1.md#planning-feature)
     * [Unidades de planificación](12_annex1.md#planning-units)
@@ -21,7 +25,7 @@ Al hacer clic en «NUEVA EJECUCIÓN DE ANÁLISIS» ([Figura 5](04_creating_analy
 
 ## Selección de funciones de bloqueo  
 
-Puede asegurarse de que determinadas áreas se incluyan en su mapa de acción. Conceptualmente, esto se entiende más fácilmente como el bloqueo de las áreas de planificación existentes para la acción de protección en un mapa, esencialmente replicando las realidades en territorio. Esto obliga a seleccionar estas áreas dentro de la acción de protección en el mapa, y estas áreas se ven obligadas a contribuir al cumplimiento de las restricciones de protección de la zona. La cobertura nacional de áreas protegidas (%) se muestra entre paréntesis. Las configuraciones de la herramienta no se limitan únicamente a fijar las áreas protegidas existentes a la acción de protección (por ejemplo, podría ser conveniente fijar las áreas de proyectos de restauración existentes a la acción de restauración); sin embargo, por defecto, las configuraciones de la herramienta solo permiten fijar áreas protegidas.   
+Puede asegurarse de que determinadas áreas se incluyan en su mapa de acción. Conceptualmente, esto se entiende más fácilmente como el bloqueo de las áreas de planificación existentes para la acción de protección en un mapa, esencialmente replicando las realidades en territorio. Esto obliga a seleccionar estas áreas dentro de la acción de protección en el mapa, y estas áreas se ven obligadas a contribuir al cumplimiento de la meta basada en el área para la protección. La cobertura nacional de áreas protegidas (%) se muestra entre paréntesis. Las configuraciones de la herramienta no se limitan únicamente a fijar las áreas protegidas existentes a la acción de protección (por ejemplo, podría ser conveniente fijar las áreas de proyectos de restauración existentes a la acción de restauración); sin embargo, por defecto, las configuraciones de la herramienta solo permiten fijar áreas protegidas.   
 
 !!! important
     Las áreas protegidas están bloqueadas **POR DEFECTO**
@@ -36,7 +40,7 @@ Bloqueo de áreas protegidas ([Figura 6](#fig-lockin-options)):
 <figcaption>Figura 6. Funcionalidades de bloqueo</figcaption>
 </figure>
 
-Como se ve en la [figura 6](#fig-lockin-options) para Cuba, las áreas protegidas existentes cubren el 17,08 % del país. Por lo tanto, la selección de «Bloquear áreas protegidas existentes» requiere que al menos el 17,08 % del territorio nacional se asigne bajo la restricción de área «Proteger»..   
+Como se ve en la [figura 6](#fig-lockin-options) para Cuba, las áreas protegidas existentes cubren el 17,08 % del país. Por lo tanto, la selección de «Bloquear áreas protegidas existentes» requiere que al menos el 17,08 % del territorio nacional se asigne bajo la meta basada en el área «Proteger».
 
 ## Zonas alternativas
 
@@ -47,28 +51,27 @@ Los usuarios no pueden definir las zonas por sí mismos, pero para algunas accio
 <figcaption>Figura 7. Zonas alternativas para reducir las áreas de actividad basadas en la naturaleza</figcaption>
 </figure>
 
-## Establecimiento de restricciones basadas en el área para las acciones
+## Establecimiento de metas basadas en el área para las acciones
 
-Esta parte de la herramienta le permite establecer restricciones basadas en área (metas) para protección, restauración, manejo y/o reverdecimiento urbano. Las restricciones de área también pueden entenderse como el porcentaje del área terrestre que debe asignarse a cada acción en el mapa de acciones resultante. Los valores predeterminados en cualquier herramienta ELSA se derivan de las metas terrestres del KMGBF, a menos que se personalicen adicionalmente para su país por el equipo de UNBL con base en su Estrategia y Plan de Acción Nacional sobre Biodiversidad (NBSAP) u otros documentos de política nacional. 
+Esta parte de la herramienta le permite establecer metas basadas en el área para protección, restauración, gestión y/o reverdecimiento urbano. Las metas basadas en el área también pueden entenderse como el porcentaje del área terrestre que debe asignarse a cada acción en el mapa de acciones resultante. Los valores predeterminados en cualquier herramienta ELSA se derivan de las metas terrestres del MMB-KM, a menos que se personalicen adicionalmente para su país por el equipo de UNBL con base en su Estrategia y Plan de Acción Nacional sobre Biodiversidad (NBSAP) u otros documentos de política nacional. 
 
 !!! warning "Tenga en cuenta los diferentes tipos de acciones disponibles en la herramienta ELSA y sus políticas asociadas:"
-	| Acción por defecto | Meta del KMGBF | Jerarquía de respuesta LDN de la UNCCD |
+	| Acción por defecto | Meta del MMB-KM | Jerarquía de respuesta LDN de la UNCCD |
 	|-------------------|---------------|----------------------------------------|
 	| Proteger | Meta 3 | Evitar |
 	| Restaurar | Meta 2 | Revertir |
-	| Manejar | Meta 10 | Reducir |
+	| Gestionar | Meta 10 | Reducir |
 	| Reverdecimiento urbano | Meta 12 | N/A |
 	
-	Las acciones a las que se hace referencia aquí son el equivalente funcional de las acciones de la jerarquía de respuesta LDN respaldada por la UNCCD. ‘Proteger’ es el equivalente de ‘evitar’ la degradación de la tierra, ‘manejar’ es el equivalente de ‘reducir’ la degradación de la tierra, y ‘restaurar’ es el equivalente de ‘revertir’ la degradación de la tierra. En resumen, esto equipara “Proteger-Gestionar-Restaurar” con “Evitar-Reducir-Revertir”, garantizando la alineación entre los marcos globales de biodiversidad. Para obtener más información sobre cada objetivo del KMGBF, consulte el [sitio web del CDB](https://www.cbd.int/gbf/targets). Para obtener más información sobre la jerarquía de respuestas LDN, consulte el [sitio web de la CNULD](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
+	Las acciones a las que se hace referencia aquí son el equivalente funcional de las acciones de la jerarquía de respuesta LDN respaldada por la UNCCD. ‘Proteger’ es el equivalente de ‘evitar’ la degradación de la tierra, ‘gestionar’ es el equivalente de ‘reducir’ la degradación de la tierra, y ‘restaurar’ es el equivalente de ‘revertir’ la degradación de la tierra. En resumen, esto equipara “Proteger-Gestionar-Restaurar” con “Evitar-Reducir-Revertir”, garantizando la alineación entre los marcos globales de biodiversidad. Para obtener más información sobre cada meta del MMB-KM, consulte el [sitio web del CDB](https://www.cbd.int/gbf/targets). Para obtener más información sobre la jerarquía de respuestas LDN, consulte el [sitio web de la CNULD](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
-Puede establecer cualquier valor superior o igual a 0,001 para los objetivos de protección, restauración, gestión y/o ecologización urbana del valor de todos los objetivos puede ser inferior o igual al 100 %, pero no debe superar el 100 %. Además, el valor máximo para cualquier restricción de área individual no puede exceder el área total de esa zona de acción. Por ejemplo, si el 80 % de un país está cubierto por una zona de protección, entonces el valor máximo que se puede asignar para la restricción basada en el área para la protección no puede exceder el 80 %. Si ingresa un número demasiado alto, recibirá un error que especifica la cantidad máxima que se puede asignar. 
+Puede establecer cualquier valor superior o igual a 0,001 para los objetivos de protección, restauración, gestión y/o reverdecimiento urbano. La suma del valor de todos los objetivos puede ser inferior o igual al 100 %, pero no debe superar el 100 %. Además, el valor máximo para cualquier meta basada en el área individual no puede exceder el área total de esa zona de acción. Por ejemplo, si el 80 % de un país está cubierto por una zona de protección, entonces el valor máximo que se puede asignar para la meta basada en el área para la protección no puede exceder el 80 %. Si ingresa un número demasiado alto, recibirá un error que especifica la cantidad máxima que se puede asignar. 
 
 !!! note
     Nota: La ubicación y el área total de cada zona de acción definen dónde es posible llevar a cabo cada acción. Se determina en función del tipo de ecosistema y el nivel de desarrollo de un país (por ejemplo, la protección no puede llevarse a cabo en áreas con un alto índice industrial humano).
 
-También debe tener en cuenta que, si desea bloquear las áreas protegidas existentes (el valor predeterminado), la restricción del área de protección total debe ser igual o superior a la superficie cubierta por las áreas protegidas existentes. Por ejemplo, la superficie cubierta por las áreas protegidas existentes en Kazajistán es del 17,08 %. Por lo tanto, la restricción del área de protección debe ser igual o superior al 17,08 %.  
+También debe tener en cuenta que, si desea bloquear las áreas protegidas existentes (el valor predeterminado), la meta basada en el área total para la protección debe ser igual o superior a la superficie cubierta por las áreas protegidas existentes. Por ejemplo, la superficie cubierta por las áreas protegidas existentes en Cuba es del 17,08 %. Por lo tanto, la meta basada en el área para la protección debe ser igual o superior al 17,08 %.  
 
-Las acciones a las que se hace referencia aquí son el equivalente funcional de las acciones de la jerarquía de respuesta LDN respaldada por la UNCCD. ‘Proteger’ es el equivalente de ‘evitar’ la degradación de la tierra, ‘manejar’ es el equivalente de ‘reducir’ la degradación de la tierra, y ‘restaurar’ es el equivalente de ‘revertir’ la degradación de la tierra. En resumen, esto equipara “Proteger-Gestionar-Restaurar” con “Evitar-Reducir-Revertir”, garantizando la alineación entre los marcos globales de biodiversidad. Para obtener más información sobre cada objetivo del KMGBF, consulte el [sitio web del CDB](https://www.cbd.int/gbf/targets). Para obtener más información sobre la jerarquía de respuestas LDN, consulte el [sitio web de la CNULD](https://www.unccd.int/land-and-life/land-degradation-neutrality/overview).
 
 <figure markdown>
 ![Campos de porcentaje de protección, gestión, restauración y reverdecimiento urbano resaltados en rojo](images/editing-analysis-03.png){#fig-setting-objectives}
@@ -81,14 +84,14 @@ El factor de penalización por límites se utiliza para promover la cohesión es
 
 Pasos:
 
-1. Para establecer la penalización por límite, comience con un número pequeño, por ejemplo, 10.  
+1. Para establecer el factor de penalización por límites, comience con un número pequeño, por ejemplo, 10.  
 2. Aumente el número de forma iterativa, es decir, vuelva a ejecutar el análisis repetidamente, por un orden de magnitud (por ejemplo, 10 -> 100-> 1000), reduciendo la tasa de aumento a medida que se acerque a las soluciones que le llevan al nivel de agrupación deseado. Cada vez que cambie la penalización, tendrá que volver a ejecutar la optimización hasta llegar a un mapa que sea lo suficientemente contiguo como para satisfacer sus necesidades.  
 
 !!! attention
     Aumentar el factor de penalización de los límites desde 0 dará lugar a tiempos de resolución más largos; en algunos casos, estos pueden ser mucho más largos.  
 
 <figure markdown>
-![Campo del factor de penalización de los límites, con valor 0, resaltado al pie de la ventana](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Ventana de la ejecución de análisis con las metas basadas en el área y el campo del factor de penalización de los límites, con valor 100, resaltado](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption>Figura 9. Ajuste del factor de penalización de los límites</figcaption>
 </figure>
 
@@ -103,7 +106,7 @@ Debe introducir una ponderación para cada característica de planificación en 
 * 5,0: importancia media 
 * 10: máxima importancia 
 
-Para que los usuarios puedan tomar la decisión más informada posible, se enumeran el tema (biodiversidad/cambio climático/bienestar humano), las acciones pertinentes y el objetivo político del MMB-KM sustitutivo (u otro objetivo político nacional/ENBPA pertinente) para cada característica de planificación. Puede evaluar el nivel de prioridad de cada característica de planificación y asignarle una ponderación informada decidiendo la importancia relativa de cada una de las características de planificación utilizadas para trazar los objetivos MMB-KM (u otros objetivos NBSAP/políticas nacionales relevantes definidos de otro modo por su país) en su país. Por ejemplo, si la meta 1 del MMB-KM es de especial importancia para su país, entonces se debe dar mayor peso (> 3) a características de planificación como los ecosistemas intactos, los bosques de alta integridad, índice de hábitats de biodiversidad e índice de integridad de la biodiversidad. Por otra parte, si cree que los ecosistemas amenazados de su país están especialmente degradados y deben tenerse en cuenta para identificar las áreas prioritarias para la restauración de la Meta 2 del MMB-KM, puede asignar una ponderación mayor a la característica de planificación «Ecosistemas amenazados para la restauración», que cartografía específicamente estas áreas ([Figura 10](#fig-edit-weights)).
+Para que los usuarios puedan tomar la decisión más informada posible, se enumeran el tema (biodiversidad/cambio climático/bienestar humano), las acciones pertinentes y el objetivo político del MMB-KM sustitutivo (u otro objetivo político nacional/ENBPA pertinente) para cada característica de planificación. Puede evaluar el nivel de prioridad de cada característica de planificación y asignarle una ponderación informada decidiendo la importancia relativa de cada una de las características de planificación utilizadas para trazar los objetivos MMB-KM (u otros objetivos NBSAP/políticas nacionales relevantes definidos de otro modo por su país) en su país. Por ejemplo, si la meta 1 del MMB-KM es de especial importancia para su país, entonces se debe dar mayor peso (> 3) a características de planificación como el índice de hábitats de biodiversidad y el índice de integridad de la biodiversidad. Por otra parte, si cree que los ecosistemas amenazados de su país están especialmente degradados y deben tenerse en cuenta para identificar las áreas prioritarias para la restauración de la Meta 2 del MMB-KM, puede asignar una ponderación mayor a la característica de planificación «Ecosistemas amenazados para la restauración», que cartografía específicamente estas áreas.
 
 Para obtener una lista completa de los datos de entrada, así como de las Metas del MMB-KM para los que se utilizan, consulte el [anexo 2](13_annex2.md).
 
@@ -114,22 +117,24 @@ Para obtener una lista completa de los datos de entrada, así como de las Metas 
 
 ## Ver capas de entrada
 
-Si desea ver las características de planificación antes de establecer las ponderaciones, tendrá que salir de la ventana emergente haciendo clic en «GUARDAR PARA MÁS TARDE» en la esquina inferior derecha. A continuación, podrá volver a su borrador de análisis guardado después de ver las características de planificación deseadas.   
+Si desea ver las características de planificación antes de establecer las ponderaciones, puede:
 
-Para ver las características de planificación, haga clic en la opción «CAPAS DE ENTRADA» junto a la opción «ANÁLISIS EJECUTADOS» en la pestaña de herramientas de la izquierda. A continuación, puede alternar entre capas de entrada específicas para verlas en UNBL.   
+- Minimizar y arrastrar la ventana emergente, y seleccionar las capas que desea ver haciendo clic en el botón de activación de la columna *View on Map* (Ver en el mapa)
+
+- Salir de la ventana emergente haciendo clic en «GUARDAR PARA MÁS TARDE» en la esquina inferior derecha (podrá volver a su borrador de análisis guardado después de ver las características de planificación deseadas) y, a continuación, hacer clic en la opción «CAPAS DE ENTRADA» junto a la opción «ANÁLISIS EJECUTADOS» en la pestaña de herramientas de la izquierda. Haga clic en el botón de activación para ver capas específicas.
 
 <figure markdown>
 ![Pestaña «CAPAS DE ENTRADA», botón de minimizar y botón de activación View on Map resaltados sobre un mapa de Cuba](images/editing-analysis-06.png)
 <figcaption> Figura 11. Visualización de zonas de acción y características de planificación en el UNBL</figcaption>
 </figure>
 
-Al hacer clic en la pestaña «CAPAS DE ENTRADA», puede ver cada capa de características de planificación de entrada individual incluida en el análisis ELSA; estas entradas están específicamente diseñadas para ayudar a identificar las áreas prioritarias para la implementación de MMB-KM, así como la implementación de la ENBPA/otras políticas nacionales, si su país lo solicita específicamente. Además, puede ver (opcionalmente) las características de bloqueo (es decir, las áreas protegidas existentes) en su país. Por último, puede ver la capa de cada zona de acción que define dónde es posible llevar a cabo cada acción en su país para el análisis.   
+Cada capa de características de planificación de entrada individual incluida en el análisis ELSA está específicamente diseñada para ayudar a identificar las áreas prioritarias para la implementación del MMB-KM, así como la implementación de la ENBPA/otras políticas nacionales, si su país lo solicita específicamente. Si consulta las capas a través de la lista «CAPAS DE ENTRADA» de la pestaña de herramientas de la izquierda, también puede ver (opcionalmente) las características de bloqueo (es decir, las áreas protegidas existentes) en su país, así como la capa de cada zona de acción que define dónde es posible llevar a cabo cada acción en su país para el análisis.
 
-Pasos:
+En resumen:
 
 * Haga clic en el botón de activación de cada zona de acción/zona bloqueada/capa de características de planificación de entrada que desee mostrar.  
 * Vuelva a hacer clic en el botón de activación para eliminar la capa seleccionada de la vista.  
-* Tiene la opción de ver información adicional (descripción de la capa, capas de entrada originales, fuente) para las capas actualmente activadas haciendo clic en el icono redondo «i» en la leyenda de la capa individual o junto al botón de activación de cada capa. 
+* Tiene la opción de ver información adicional (descripción de la capa, capas de entrada originales, fuente) para las capas actualmente activadas haciendo clic en el icono redondo «**i**» en la leyenda de la capa individual o junto al botón de activación de cada capa. 
 
 <figure markdown>
 ![Ventana de descripción de Urban Greening Zone abierta desde el icono i de la lista o de la leyenda](images/editing-analysis-07.png)

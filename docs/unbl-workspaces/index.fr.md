@@ -1,3 +1,8 @@
+---
+source_rev: 32703d85315c4077915c939567d70b846cce3b64
+translation_status: machine
+---
+
 # Guide de l'utilisateur des espaces de travail sécurisés UN Biodiversity Lab (UNBL)
 
 ![Page d'accueil du UN Biodiversity Lab avec le globe terrestre et le bouton Launch map](images/index-01.png)
@@ -31,7 +36,9 @@ Ce guide explique comment profiter de toutes les fonctionnalités disponibles da
 - **[Ajouter vos propres données géospatiales à votre espace de travail](6_add_data.fr.md)**
 	- **[Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ?](6_add_data.fr.md#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche)**
 	- **[Comment télécharger des couches raster au format GeoTIFF ?](6_add_data.fr.md#comment-telecharger-des-couches-raster-au-format-geotiff)**
-	- **[Comment configurer des couches raster en utilisant des services de tuiles externes ?](6_add_data.fr.md#comment-configurer-des-couches-raster-en-utilisant-des-services-de-tuiles-externes-wmswmts)**
+	- **[Comment configurer des couches raster en utilisant des services de tuiles externes WMS/WMTS ?](6_add_data.fr.md#comment-configurer-des-couches-raster-en-utilisant-des-services-de-tuiles-externes-wmswmts)**
+	- **[Comment configurer des couches raster en utilisant Google Earth Engine (GEE) ?](6_add_data.fr.md#comment-configurer-des-couches-raster-en-utilisant-google-earth-engine-gee)**
+	- **[Comment configurer des couches raster en utilisant Spatiotemporal Asset Catalog (STAC) ?](6_add_data.fr.md#comment-configurer-des-couches-raster-en-utilisant-spatiotemporal-asset-catalog-stac)**
 	- **[Comment configurer des couches vectorielles en utilisant des services de tuiles externes ?](6_add_data.fr.md#comment-configurer-des-couches-vectorielles-en-utilisant-des-services-de-tuiles-externes)**
 	- **[Comment publier ma couche et la partager avec des utilisateurs externes ?](6_add_data.fr.md#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes)**
 	- **[Comment modifier mes couches ajoutées ?](6_add_data.fr.md#comment-modifier-mes-couches-ajoutees)**

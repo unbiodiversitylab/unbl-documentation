@@ -1,3 +1,8 @@
+---
+source_rev: 44959cf2c6aee55b94e602a356d6e8b88bac3acb
+translation_status: machine
+---
+
 # Visualiser votre espace de travail UNBL
 
 ## Comment accéder à mon/mes espace(s) de travail ?
@@ -13,7 +18,7 @@ Si vous êtes un utilisateur enregistré ayant obtenu l'accès à un ou plusieur
 	!!! note
 		Vous pouvez activer/désactiver tous les espaces de travail à la fois en utilisant le bouton bascule « Vue carte » situé tout en haut.
 
-4.	Désactivez les espaces de travail que vous ne souhaitez pas visualiser. Vous pouvez également désactiver l'espace de travail *UNBL* en haut de la liste, ce qui vous permettra de voir uniquement les ressources exclusives à votre/vos espace(s) de travail sécurisé(s) UNBL et de filtrer toutes les ressources de la plateforme publique UNBL. Veuillez noter que la désactivation de l'espace de travail *UNBL* supprimera l'accès à toutes les couches globales publiques et aux métriques du tableau de bord pour toutes les zones, y compris les zones de votre espace de travail sécurisé.
+4.	Désactivez les espaces de travail que vous ne souhaitez pas visualiser. Vous pouvez également désactiver l'espace de travail *UNBL* en haut de la liste, ce qui vous permettra de voir uniquement les ressources exclusives à votre/vos espace(s) de travail sécurisé(s) UNBL et de filtrer toutes les ressources de la plateforme publique UNBL. Veuillez noter que la désactivation de l'espace de travail *UNBL* supprimera l'accès à toutes les couches globales publiques et aux métriques dynamiques standard pour toutes les zones, y compris les zones de votre espace de travail sécurisé.
 
 ![Bouton « ESPACES DE TRAVAIL » et liste des espaces de travail avec boutons bascule en surbrillance, « Vue carte » en haut](images/viewing-01.png)
 
@@ -45,7 +50,7 @@ Pour découper un jeu de données selon votre zone d'intérêt et le télécharg
 
 1.	Cliquez sur le bouton « LIEUX » et sélectionnez votre lieu d'intérêt.
 
-2.	Cliquez sur l'icône ![Plus d'options (trois points)](images/icons/ellipsis.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à droite du nom du lieu et cliquez sur « Couper et exporter les couches ».
+2.	Cliquez sur l'icône ![Plus d'options (trois points)](images/icons/ellipsis.png){style="display: inline; height: 2em; width: 2em;"} à droite du nom du lieu et cliquez sur « Couper et exporter les couches ».
 
 	![Panneau du lieu Colombie avec le menu des points de suspension ouvert et l'option « Couper et exporter les couches »](images/viewing-03.png)
 
@@ -88,7 +93,7 @@ Pour rechercher les jeux de données disponibles :
 
 3.	Cliquer sur le bouton bascule à droite du nom du jeu de données pour charger ce jeu de données dans la vue cartographique.
 
-4.	Cliquer à nouveau sur le bouton bascule ou cliquez sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données.
+4.	Cliquer à nouveau sur le bouton bascule ou cliquez sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données.
 
 !!! note
 	Si vous avez l'espace de travail *UNBL* et votre propre espace de travail activés, votre recherche devra être spécifique pour trouver les jeux de données que vous avez téléchargés dans votre propre espace de travail qui ne font pas partie de la plateforme publique. La façon la plus simple de le faire est de créer une étiquette reconnaissable pour votre couche ajoutée – voir l'étape 2d dans [« Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ? »](6_add_data.fr.md#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche)

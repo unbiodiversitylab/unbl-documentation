@@ -45,8 +45,8 @@ Open VS Code, then for each repo you need to work on:
 Repository URLs:
 
 - **Documentation:** `https://github.com/unbiodiversitylab/unbl-documentation.git`
-- **ELSA:** `https://github.com/UNDP-UNBL/unbl-elsa.git`
-- **Frontend:** `https://github.com/UNDP-UNBL/unbl-frontend.git`
+- **ELSA:** `https://github.com/unepwcmc/unbl-elsa.git`
+- **Frontend:** `https://github.com/unepwcmc/unbl-frontend.git`
 
 ---
 

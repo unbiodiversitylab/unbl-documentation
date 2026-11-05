@@ -1,6 +1,11 @@
+---
+source_rev: 32703d85315c4077915c939567d70b846cce3b64
+translation_status: machine
+---
+
 # Comment trouver des ensembles de données supplémentaires pour mon pays ?
 
-Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de données mondiaux disponibles liés à la nature et au bien-être humain, allant de la biodiversité aux services écosystémiques, en passant par les données socio-économiques. Nous incluons également des ensembles de données régionaux lorsque cela est recommandé par les utilisateurs du UN Biodiversity Lab. Vous pouvez consulter les ensembles de données du UN Biodiversity Lab pour la biodiversité à l'échelle mondiale ou dans une zone qui vous intéresse.
+Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de données mondiaux disponibles liés à la nature et au bien-être humain, allant de la biodiversité aux services écosystémiques, en passant par les données socio-économiques. Nous incluons également des ensembles de données régionaux lorsque cela est recommandé par les utilisateurs du UN Biodiversity Lab. Vous pouvez consulter les ensembles de données du UN Biodiversity Lab à l'échelle mondiale ou dans une zone qui vous intéresse.
 
 !!! note
 	Nous faisons référence à la fois aux ensembles de données et aux couches de données dans ce guide et sur le UNBL. Chaque ensemble de données peut contenir une ou plusieurs couches de données.
@@ -25,11 +30,11 @@ Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de donn�
 
 3. Pour rechercher un ensemble de données, vous pouvez soit :
 
-	a) Entrez le nom de l'ensemble de données que vous souhaitez consulter dans le champ de recherche et sélectionner le résultat souhaité dans la liste des ensembles de données (*remarque : votre recherche doit comporter au moins 3 caractères*).
+	a) Saisissez le nom de l'ensemble de données que vous souhaitez consulter dans le champ de recherche et sélectionnez le résultat souhaité dans la liste des ensembles de données (*remarque : votre recherche doit comporter au moins 3 caractères*).
 
 	**OU**
 
-	b) Cliquez pour développer les filtres afin d'afficher et de sélectionner les catégories de jeux de données qui vous intéressent. Vous pouvez ensuite sélectionner le jeu de données souhaité dans la liste des résultats de recherche.
+	b) Cliquez pour développer les filtres afin d'afficher et de sélectionner les catégories d'ensembles de données qui vous intéressent. Vous pouvez ensuite sélectionner l'ensemble de données souhaité dans la liste des résultats de recherche.
 
 	![Onglet DATASETS avec le champ de recherche, les filtres développés et les cases des catégories d'ensembles de données](images/find-layers-01.png)
 
@@ -42,6 +47,6 @@ Les données du UN Biodiversity Lab comprennent les meilleurs ensembles de donn�
 
 4. Cliquez sur le bouton à bascule situé à droite du nom de l'ensemble de données pour charger cet ensemble de données sur la carte.
 
-5. Cliquez à nouveau sur le bouton bascule, ou cliquez sur l'icône X dans les informations sur l'ensemble de données pour supprimer cet ensemble de données.
+5. Cliquez à nouveau sur le bouton bascule, ou cliquez sur l'icône **X** dans la légende de l'ensemble de données pour supprimer cet ensemble de données.
 
 	![Global Forest Cover activé, avec les filtres, le bouton à bascule et l'icône X de la légende mis en évidence](images/find-layers-04.png)

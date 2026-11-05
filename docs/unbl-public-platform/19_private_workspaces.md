@@ -1,4 +1,4 @@
-# What are UNBL workspaces? How do I request a workspace?
+# What are UNBL workspaces? How do I request a UNBL workspace?
 
 UNBL workspaces provide a secure work area where data on any scale can be added and shared with a set of specified users. They offer a secure area to collaborate on your projects and can provide a way for GIS experts to collaborate with non-technical experts using a user-friendly interface. 
 

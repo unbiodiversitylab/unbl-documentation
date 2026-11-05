@@ -1,5 +1,5 @@
 ---
-source_rev: 0eebbe015e6098367baf364a9a48cd1b9a0720dd
+source_rev: 6dd6a238cfb7fb6644015819c60137efc5c95969
 translation_status: machine
 ---
 
@@ -10,6 +10,11 @@ Cambios recientes en esta guía del usuario. Si tiene preguntas, escríbanos a <
 
 ## Noviembre de 2026
 
+- **Registro de ELSA**: ahora puede descargar el registro de una ejecución de análisis (mensajes de la herramienta ELSA y del solucionador Gurobi) para ayudar a resolver problemas. Consulte [Visualización y descarga de mapas de acción](elsa/08_downloading_results.md).
+- **Capas de grupo** (espacios de trabajo): la opción 'Primario' ahora es automática, y las capas de un grupo muestran la descripción del grupo y heredan sus fuentes, cita y otros datos. Consulte [Agregar sus propios datos geoespaciales](unbl-workspaces/6_add_data.md).
+- **Dibujar en el mapa**: dibuje el límite de un lugar directamente en el mapa en lugar de cargar un archivo. Consulte [Agregar lugares a su espacio de trabajo](unbl-workspaces/5_add_places.md).
+- Vista de **globo 3D** en los controles del mapa. Consulte [¿Cómo agrego/elimino etiquetas de lugares, carreteras y vista satelital?](unbl-public-platform/6_manage_labels_and_basemaps.md)
+- Las **métricas personalizadas** de los espacios de trabajo ahora se calculan al hacer clic en **Calculate metric**. Consulte [Añadir sus propias métricas personalizadas](unbl-workspaces/7_custom_metrics.md).
 - **Videos tutoriales** en la mayoría de las páginas de la [guía de la Plataforma Pública UNBL](unbl-public-platform/index.md). Abra el recuadro de video al principio de la página.
 - **Nuevas métricas** descritas en [¿Qué métricas dinámicas están disponibles para mi país?](unbl-public-platform/8_dynamic_metrics1.md): Protected Connected Index, Coastal Eutrophication y una métrica marina. Los resúmenes de las métricas ahora también pueden descargarse en formato `.tsv`.
 - [¿Cómo puedo recortar y exportar conjuntos de datos?](unbl-public-platform/15_clip_export.md) explica ahora cómo descargar los límites de un país en formato GeoJSON.

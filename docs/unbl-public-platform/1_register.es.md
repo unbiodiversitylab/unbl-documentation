@@ -17,7 +17,7 @@ Antes de empezar a explorar los mapas, regístrese en el UN Biodiversity Lab.
   </div>
 </details>
 
-1. Haga clic en la página «Iniciar mapa» del sitio web del [UN Biodiversity Lab](https://unbiodiversitylab.org/es/).
+1. Haga clic en el botón «Iniciar mapa» del sitio web del [UN Biodiversity Lab](https://unbiodiversitylab.org/es/).
 
 	![Página de inicio del sitio web del UNBL con «Iniciar mapa» resaltado en el menú superior](images/register-01.png)
 

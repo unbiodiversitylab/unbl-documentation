@@ -21,6 +21,9 @@ installing the tools, branches and pull requests step by step, with pictures.
 3. **Each PR is checked automatically.** A "Check documentation" status appears on the
    PR. A red cross means something is broken (a missing translation file, a broken link
    or image); click **Details** to see what. Yellow warnings are information only.
+   To see the PR's pages as readers will, open the check's **Details** → *Summary*,
+   download **site-preview**, unzip it, run `python -m http.server` in that folder and
+   visit http://localhost:8000.
 4. **Words matter.** Use [`i18n/glossary.yml`](i18n/glossary.yml) for terminology in
    every language. Product names (UN Biodiversity Lab, UNBL, ELSA) are never translated.
 
@@ -29,6 +32,7 @@ installing the tools, branches and pull requests step by step, with pictures.
 ```bash
 pip install -r requirements.txt      # once (or: mamba env create -f environment-mkdocs.yaml)
 mkdocs serve                         # open http://127.0.0.1:8000; reloads as you edit
+mkdocs build                         # writes the site to site/ (hidden in VS Code, not committed)
 python scripts/check_docs.py         # the same checks the PR runs
 ```
 
@@ -151,7 +155,8 @@ native speaker reviews them.
 
 **Errors** (fail CI): a missing translation file, a nav title without a translation, a
 nav entry to a missing page, a broken internal link or image, an image without alt text,
-an image file name with spaces, a newly added image over 1 MB.
+an image file name with spaces, a newly added image over 1 MB, a translated product name
+("UN Biodiversity Lab" and "ELSA" always stay in English).
 **Warnings** (never fail): older images over budget, pages not in the nav, admonition
 typos, English changed without its translations, translations whose screenshots differ
 from English, unused images.

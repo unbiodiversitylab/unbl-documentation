@@ -1,8 +1,13 @@
+---
+source_rev: 23d17b970bfb181c7d29ae84bebaf0e69a7a14b6
+translation_status: machine
+---
+
 # Ajouter des lieux à votre espace de travail et visualiser les métriques dynamiques
 
 ## Comment ajouter des lieux ?
 
-L'ajout d'un nouveau lieu à votre espace de travail vous permet d'utiliser toutes les fonctionnalités du UNBL pour toute zone d'intérêt (aire protégée, niveau administratif infranational, zone transfrontalière, limite de communauté autochtone, etc.). Une fois le lieu ajouté à votre espace de travail UNBL, vous pourrez : (1) afficher des métriques dynamiques pour cette zone d'intérêt (sous forme de statistiques zonales) ; et (2) découper toute couche raster publiée sur la plateforme publique du UNBL (avec une licence en accès libre) selon cette zone d'intérêt, puis la télécharger en tant que fichier GeoTIFF pour un travail ultérieur dans un logiciel SIG de bureau. L'ajout d'un lieu implique le téléchargement d'un fichier vectoriel (polygone ou multipolygone) sur le UNBL. Pour plus d'informations sur la confidentialité des données téléchargées, veuillez consulter notre [fiche d'information sur la sécurité des données](data_security.fr.md).
+L'ajout d'un nouveau lieu à votre espace de travail vous permet d'utiliser toutes les fonctionnalités du UNBL pour toute zone d'intérêt (aire protégée, niveau administratif infranational, zone transfrontalière, limite de communauté autochtone, etc.). Une fois le lieu ajouté à votre espace de travail UNBL, vous pourrez : (1) afficher les métriques dynamiques standard du UNBL pour cette zone d'intérêt ; (2) afficher vos propres métriques personnalisées (sous forme de statistiques zonales) pour cette zone d'intérêt ; et (3) découper toute couche raster publiée sur la plateforme publique du UNBL (avec une licence en accès libre) selon cette zone d'intérêt, puis la télécharger en tant que fichier GeoTIFF pour un travail ultérieur dans un logiciel SIG de bureau. L'ajout d'un lieu implique le téléchargement d'un fichier vectoriel (polygone ou multipolygone) sur le UNBL. Pour plus d'informations sur la confidentialité des données téléchargées, veuillez consulter notre [fiche d'information sur la sécurité des données](data_security.fr.md).
 
 Pour ajouter un nouveau lieu :
 
@@ -16,19 +21,29 @@ Pour ajouter un nouveau lieu :
 
 	a.	*Titre* : Insérez le nom du lieu. Nous recommandons de les garder courts et clairs. Actuellement, aucun caractère spécial n'est autorisé.
 
-	b.	*Type de lieu* : Sélectionnez la classe appropriée dans le menu déroulant. Cela sera utile pour filtrer vos recherches ultérieurement. Vous pouvez choisir parmi *Biome ou écosystème, communauté et zone autochtone, pays, zone transfrontalière, autre juridiction, aire protégée, aire de répartition des espèces* ou *aire d'étude*.
+	b.	*Type de lieu* : Sélectionnez la classe appropriée dans le menu déroulant. Cela sera utile pour filtrer vos recherches ultérieurement. Vous pouvez choisir parmi *Biome ou écosystème, communauté et zone autochtone, pays, zone transfrontalière, zone marine, autre juridiction, aire protégée, aire de répartition des espèces* ou *aire d'étude*.
+
+	!!! note
+		Le choix du type *pays* vous invitera à saisir, de manière facultative, un code de pays ISO3/M49 pour votre pays. Cela permettra d'afficher pour votre zone d'intérêt les métriques dynamiques et les indicateurs principaux qui ne sont disponibles que pour les lieux au niveau du pays.
 
 	c.	*Slug* : Insérez un identifiant unique pour le lieu qui contient uniquement des lettres minuscules, des chiffres et des tirets. Les espaces ne peuvent pas être utilisés. Cela identifiera de manière unique votre lieu parmi tous les autres dans le système UNBL. Nous recommandons d'utiliser le bouton « GENERER UN SLUG » pour vous aider à générer un slug approprié.
 
 	d.	*Forme du lieu* : Téléchargez un fichier polygone (ou multipolygone) pour définir votre lieu. Les formats pris en charge sont GeoJSON (.geojson, .geojsonl), les fichiers Google Earth (.kml, .kmz) ou les fichiers de formes ESRI (.zip contenant les fichiers .shp, .dbf, .shx, .prj). Si vous utilisez un GeoJSON, la taille du fichier ne doit pas dépasser 6 Mo. Le système permet des téléchargements jusqu'à 6 Mo, mais nous recommandons fortement d'utiliser des fichiers de 2 Mo maximum pour un rendu et des calculs de métriques optimaux. Si vous utilisez des fichiers Google Earth ou des fichiers de formes ESRI, assurez-vous que le système de référence des coordonnées est WGS-84, également connu sous le nom d'EPSG : 4326.
+
+	Au lieu de télécharger un fichier, vous pouvez dessiner le lieu directement sur la carte. Sélectionnez l'onglet *Dessiner sur la carte* (*Draw on Map*), cliquez sur le bouton de modification, puis cliquez sur la carte pour ajouter les sommets de votre polygone. Vous pouvez :
+
+	- dessiner plusieurs polygones, ou des polygones comportant des trous ;
+	- déplacer un sommet en le faisant glisser, ou ajouter un sommet en cliquant près d'un sommet existant ;
+	- supprimer un polygone, et annuler vos modifications récentes ;
+	- renommer une forme en double-cliquant sur son nom, en saisissant le nouveau nom et en appuyant sur Entrée.
+
+	Pendant que vous dessinez, vous pouvez utiliser les commandes de la carte pour passer à la carte de base satellite et afficher les étiquettes, les routes ou le globe 3D, ce qui facilite le tracé des côtes, des rivières et d'autres éléments. Vous pouvez également utiliser l'onglet *Dessiner sur la carte* sur la page de modification d'un lieu pour changer la forme d'un lieu existant.
 
 	e.	Si toutes les informations saisies sont valides, le bouton « SAUVEGARDER ET VOIR LES DETAILS » s'allumera en bleu. Cliquez sur ce bouton pour télécharger votre lieu sur le UNBL.
 
 	![Formulaire « Nouveau lieu » avec Titre, Slug, Type de lieu, chargement du shape et « SAUVEGARDER ET VOIR LES DETAILS »](images/add-places-02.png)
 
 4.	Une fois votre nouveau lieu enregistré, vous serez amené à la page de modification du lieu. Pour que votre lieu soit découvrable et visible dans la vue cartographique, vous devez publier le lieu en cliquant sur le bouton bascule « Publié ». Les lieux non publiés restent dans l'interface d'administration jusqu'à ce que vous soyez prêt à les publier dans la vue cartographique du UNBL.
-
-5.	Pour faire de ce lieu un lieu en vedette pour votre espace de travail, cliquez sur le bouton bascule « Mis en avant ». Cela agira comme un signet afin que le lieu apparaisse en haut de la liste dans l'onglet « Lieux » chaque fois qu'un emplacement n'est pas sélectionné.
 
 	![Page de modification d'un parc national avec le bouton bascule « Publié » en surbrillance](images/add-places-03.png)
 
@@ -38,7 +53,7 @@ Vous pouvez également apporter des modifications aux lieux existants et visuali
 
 1.	Naviguez vers la page « Lieux » depuis le menu déroulant sur le côté gauche de l'interface d'administration.
 
-2.	Sélectionnez le lieu qui vous intéresse dans la liste des lieux en cliquant sur l'icône ![Modifier (crayon)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} sur le côté le plus à gauche de l'entrée du lieu.
+2.	Sélectionnez le lieu qui vous intéresse dans la liste des lieux en cliquant sur l'icône ![Modifier (crayon)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} sur le côté le plus à gauche de l'entrée du lieu.
 
 	![Liste des « Lieux » de l'interface d'administration avec l'icône crayon de modification d'un lieu en surbrillance](images/add-places-04.png)
 
@@ -52,32 +67,38 @@ Vous pouvez également apporter des modifications aux lieux existants et visuali
 
 ## Comment afficher les métriques pour mes lieux ajoutés ?
 
-Les métriques dynamiques deviennent automatiquement disponibles pour votre lieu dès que vous le téléchargez sur le UNBL. Pour afficher les métriques dynamiques pour les lieux dans votre espace de travail UNBL :
+Les métriques dynamiques standard du UNBL deviennent automatiquement disponibles pour votre lieu dès que vous le téléchargez sur le UNBL. Pour afficher les métriques dynamiques pour les lieux dans votre espace de travail UNBL :
 
-1.	Naviguez vers la vue cartographique du UNBL en cliquant sur le nom de votre espace de travail dans l'interface d'administration de l'espace de travail dans le coin supérieur gauche, puis cliquez sur « Vue carte ».
+1.	a) Cliquez sur le bouton « VOIR SUR LA CARTE » en bas de la page de modification du lieu.
+
+	![Bas de la page de modification du lieu, sous Place Metrics, avec « VIEW ON MAP » en surbrillance](images/add-places-07.png)
+
+	**OU**
+
+	b) Naviguez vers la vue cartographique du UNBL en cliquant sur le nom de votre espace de travail dans l'interface d'administration de l'espace de travail dans le coin supérieur gauche, puis cliquez sur « Vue carte ».
 
 	![Menu du nom de l'espace de travail ouvert dans l'interface d'administration, avec une flèche vers « Vue carte »](images/add-places-08.png)
 
-2.	Dans l'onglet « LIEUX », recherchez et sélectionnez un lieu téléchargé dans votre espace de travail UNBL.
+	Dans l'onglet « LIEUX », recherchez et sélectionnez un lieu téléchargé dans votre espace de travail UNBL.
 
 	!!! note
 		Les lieux sont filtrés par type *pays* par défaut lors de l'ouverture de la vue cartographique UNBL. Si votre lieu est d'une catégorie différente, comme une aire protégée ou une zone transfrontalière et non de type *pays*, vous devez cliquer sur le bouton « EFFACER » pour effacer tous les filtres, ou développer le menu déroulant « FILTRES » et décocher la case pays et sélectionner votre filtre d'intérêt pour trouver votre lieu.
 
-3.	Lors de la sélection d'un lieu, les métriques dynamiques seront automatiquement affichées dans le panneau de gauche. Choisissez entre une liste des neuf métriques dynamiques standard ou deux métriques d'indicateurs phares en cliquant sur le bouton « METRIQUES » ou « INDICATEURS PRINCIPAUX ».
+2.	Lors de la sélection d'un lieu, les métriques dynamiques seront automatiquement affichées dans le panneau de gauche. Choisissez entre une liste des dix métriques dynamiques standard, la métrique marine ou deux indicateurs principaux en cliquant sur le bouton « METRIQUES », « METRIQUES MARINES » ou « INDICATEURS PRINCIPAUX ».
 
 	!!! note
-		Les métriques d'indicateurs principaux et la métrique Aires Protégées ne sont disponibles que pour les lieux de type *pays* avec un code de pays M49 spécifié.
+		Les métriques d'indicateurs principaux et la métrique Aires Protégées ne sont disponibles que pour les lieux de type *pays* avec un code de pays ISO3/M49 spécifié. Les lieux qui ne sont pas de type *pays* n'auront donc pas la possibilité de choisir les indicateurs principaux.
 
-	![Panneau du lieu Albanie avec le menu « Dashboard » ouvert : « METRIQUES » ou « INDICATEURS PRINCIPAUX »](images/add-places-09.png)
+	![Panneau du lieu Albanie avec le menu « Tableau de bord » ouvert : « Métriques », « Indicateurs Phares » ou « Métriques marines »](images/add-places-09.png)
 
-4.	Cliquez sur le bouton bascule à côté de n'importe quelle métrique spécifique si vous souhaitez visualiser ce jeu de données sur la carte. Cliquez à nouveau sur le bouton bascule ou sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données de la vue cartographique. Vous pouvez également cliquer sur l'icône de flèche vers le haut pour masquer la métrique de la vue dans l'onglet des métriques disponibles, et vice versa.
+3.	Cliquez sur le bouton bascule à côté de n'importe quelle métrique spécifique si vous souhaitez visualiser ce jeu de données sur la carte. Cliquez à nouveau sur le bouton bascule ou sur l'icône ![Fermer](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} dans la légende de la couche pour supprimer ce jeu de données de la vue cartographique. Vous pouvez également cliquer sur l'icône de flèche vers le haut pour masquer la métrique de la vue dans l'onglet des métriques disponibles, et vice versa.
 
 	![Bouton bascule et flèche de repli de la métrique Global Land Cover et icône de fermeture de la légende en surbrillance, couche affichée sur la carte](images/add-places-10.png)
 
-5.	Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans le widget de métrique ou dans la légende de la couche (si vous avez un jeu de données activé) pour visualiser les informations de la couche. Les pages d'information fournissent une brève description des données, les articles scientifiques connexes à lire, les données brutes à télécharger (si disponibles gratuitement) et les spécifications de licence.
+4.	Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} dans le widget de métrique ou dans la légende de la couche (si vous avez un jeu de données activé) pour visualiser les informations de la couche. Les pages d'information fournissent une brève description des données, les articles scientifiques connexes à lire, les données brutes à télécharger (si disponibles gratuitement) et les spécifications de licence.
 
 	![Icône d'information de la métrique Global Land Cover en surbrillance, ouvrant la fenêtre d'informations de la couche](images/add-places-11.png)
 
-6.	Pour télécharger les données récapitulatives de la métrique au format .csv ou .json, cliquez sur l'icône ![Télécharger](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Vous pouvez ensuite choisir de télécharger les données récapitulatives dans votre répertoire local au format valeurs séparées par des virgules ou au format .json. Vous pouvez également télécharger les données à partir des liens sources dans les pages d'information de la couche.
+5.	Pour télécharger les données récapitulatives de la métrique au format .csv, .tsv ou .json, cliquez sur l'icône ![Télécharger](images/icons/download.png){style="display: inline; height: 2em; width: 2em;"}. Vous pouvez ensuite choisir de télécharger les données récapitulatives dans votre répertoire local au format valeurs séparées par des virgules, valeurs séparées par des tabulations ou .json. Vous pouvez également télécharger les données à partir des liens sources dans les pages d'information de la couche.
 
 	![Icône de téléchargement d'une métrique en surbrillance, avec un menu proposant CSV, TSV et JSON](images/add-places-12.png)

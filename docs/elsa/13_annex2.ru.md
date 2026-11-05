@@ -72,4 +72,4 @@
 | Управляемые леса | Определение границ зоны управления | Lesiv et al., 2020; Running et al., 2024 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=-4.2646553,-13.2191915,2&layers=human-impact-on-forests_81,modis-net-primary-production-npp_100) |
 | Сельскохозяйственные области | Исключить из зон охраны | Esri, 2024 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-meter-land-use-land-cover_100) |
 | Пастбищные земли | Определение пригодных областей для восстановления | Parente et al., 2024 | N/A |
-| Городские области | Определение возможностей озеленения городов | Esri, 2024 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-mer-land-use-land-cover_100) |
+| Городские области | Определение возможностей озеленения городов | Esri, 2024 | [Просмотр](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=17.7685598,-30.6573615,1&layers=UNBL.layer.esri-sentinel-2-10-meter-land-use-land-cover_100) |

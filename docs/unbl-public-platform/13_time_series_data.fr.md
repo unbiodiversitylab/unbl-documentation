@@ -1,3 +1,7 @@
+---
+source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+---
+
 # Quelles sont les options disponibles pour visualiser les ensembles de données chronologiques ?
 
 Le UN Biodiversity Lab vous donne accès à des ensembles de données qui montrent les changements au fil du temps. Certains ensembles de données chronologiques sont visualisés sur plusieurs années à l'aide d'animations, d'autres peuvent être visualisés par année spécifique via le menu déroulant, et certains sont une combinaison des deux, avec la possibilité de visualiser des animations d'années particulières qui peuvent être choisies dans le menu déroulant.

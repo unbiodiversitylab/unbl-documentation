@@ -23,7 +23,16 @@ To add a new place:
 	
 	c.	*Slug*: Insert a unique identifier for the place that contains only lowercase letters, numbers, and hyphens. No spaces can be used. This will uniquely identify your place from all others within the UNBL system. We recommend using the ‘GENERATE A SLUG NAME’ button to help you generate an appropriate slug. 
 	
-	d.	*Place shape*: Upload a polygon (or multipolygon) file to define your place  . Supported formats are GeoJSON (.geojson, .geojsonl), Google Earth files (.kml, .kmz), or ESRI Shapefiles (.zip containing .shp, .dbf, .shx, .prj files). If using a GeoJSON, the file size must not be larger than 6MB. The system allows for uploads up to 6MB, but we strongly recommend using files no more than 2MB for optimal rendering and metrics calculations. If using Google Earth files or ESRI Shapefiles, ensure the coordinate reference system is WGS-84, also known as EPSG: 4326.   
+	d.	*Place shape*: Upload a polygon (or multipolygon) file to define your place  . Supported formats are GeoJSON (.geojson, .geojsonl), Google Earth files (.kml, .kmz), or ESRI Shapefiles (.zip containing .shp, .dbf, .shx, .prj files). If using a GeoJSON, the file size must not be larger than 6MB. The system allows for uploads up to 6MB, but we strongly recommend using files no more than 2MB for optimal rendering and metrics calculations. If using Google Earth files or ESRI Shapefiles, ensure the coordinate reference system is WGS-84, also known as EPSG: 4326.
+
+	Instead of uploading a file, you can draw the place directly on the map. Select the *Draw on Map* tab, click the edit button, then click on the map to add the corners of your polygon. You can:
+
+	- draw several polygons, or polygons with holes;
+	- move a corner by dragging it, or add a corner by clicking near an existing one;
+	- delete a polygon, and undo your recent changes;
+	- rename a shape by double-clicking its name, typing the new name and pressing Enter.
+
+	While drawing, you can use the map controls to switch to the satellite base map and to show labels, roads or the 3D globe, which makes it easier to trace coastlines, rivers and other features. You can also use the *Draw on Map* tab on a place's edit page to change the shape of an existing place.
 	
 	e.	If all the information entered is valid, the ‘SAVE AND VIEW DETAILS’ button will light up in blue. Click this button to upload your place to UNBL.
 	
@@ -39,7 +48,7 @@ You can also make edits to existing places and view your place on  a basemap to 
 
 1.	Navigate to the ‘Places’ page from the dropdown menu on the left-hand side of the admin interface. 
 
-2.	Select the place you are interested in from the place list by clicking on the ![Edit (pencil)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon on the left-most side of the place entry.
+2.	Select the place you are interested in from the place list by clicking on the ![Edit (pencil)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} icon on the left-most side of the place entry.
 
 	![Admin 'Places' list with the edit pencil icon of a place entry highlighted](images/add-places-04.png)
 	
@@ -75,17 +84,17 @@ UNBL's standard dynamic metrics become automatically available for your place as
 	!!! note
 		Headline indicator metrics and the Protected Area metric are only available for *Country* type places with a specified ISO3/M49 country code. Places that are not *Country* types will therefore not have an option to choose headline indicators. 
 		
-	![Place panel for Albania with the 'Dashboard' menu open: Metrics or Headline Indicators](images/add-places-09.png)
+	![Place panel for Albania with the 'Dashboard' menu open: Metrics, Headline Indicators or Marine metrics](images/add-places-09.png)
 	
-3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the ![Close](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
+3.	Click on the toggle button next to any specific metric if you want to view this dataset on the map. Click on the toggle button again or the ![Close](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} icon in the layer legend to remove this dataset from the map view. You can also click on the upwards arrow icon to hide the metric from view in the available metrics tab, and vice versa.
 
 	![Global Land Cover toggle, collapse arrow and legend close icon highlighted, layer on map](images/add-places-10.png)
 	
-4.	Click on the ![Information](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and licence specifications.
+4.	Click on the ![Information](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} icon in the metric widget or in the layer legend (if you have a dataset toggled on) to view layer info. The info pages provide a brief description of the data, related paper(s) to read, raw data to download (if freely available) and licence specifications.
 
 	![Info icon of the Global Land Cover metric highlighted, opening its layer info window](images/add-places-11.png)
 	
-5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![Download](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, table-separated value, or .json format. You can also download the data from source links in the layer info pages.  
+5.	To download summary data for the metric in .csv, .tsv, or .json format, click on the ![Download](images/icons/download.png){style="display: inline; height: 2em; width: 2em;"} icon. You can then choose whether to download summary data to your local directory in comma-separated value, tab-separated value, or .json format. You can also download the data from source links in the layer info pages.  
 
 	![Download icon of a metric highlighted, with a menu offering CSV, TSV and JSON](images/add-places-12.png)
 	

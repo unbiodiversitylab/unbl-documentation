@@ -43,6 +43,12 @@ IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
 IMG_MD = re.compile(r"!\[([^\]]*)\]\(\s*<?([^)>]*?)>?(?:\s+[\"'][^\"']*[\"'])?\s*\)")
 IMG_HTML = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
 LINK_MD = re.compile(r"(?<!!)\[[^\]]*\]\(\s*<?([^)>\s]+\.md[^)>\s]*)>?(?:\s+[\"'][^\"']*[\"'])?\s*\)")
+# Product names are never translated (#42). Translated forms seen in the past:
+TRANSLATED_PRODUCT_NAME = re.compile(
+    r"Laborat[oó]rios? de (la )?Biodiversidade?"         # pt, es
+    r"|Laboratoire (de la |de )?biodiversit[ée]"          # fr
+    r"|Лаборатори[а-яё]* (ООН|[Бб]иоразнообразия)",      # ru, all cases
+    re.IGNORECASE)
 ADMONITION = re.compile(r"^\s*(!!!|\?\?\?\+?)( ?)([A-Za-z]+)")
 ADMONITION_TYPES = {"note", "abstract", "summary", "tldr", "info", "todo", "tip", "hint",
                     "important", "success", "check", "done", "question", "help", "faq",
@@ -285,6 +291,18 @@ def check_page(report: Report, md: Path, langs: list[str]):
                         f"got '{adm.group(0).strip()}')", rel(md), n)
 
 
+def check_product_names(report: Report):
+    """'UN Biodiversity Lab' and 'ELSA' stay in English in every language."""
+    files = [p for p in sorted(DOCS.rglob("*.md"))] + [ROOT / "mkdocs.yml"]
+    for f in files:
+        for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            m = TRANSLATED_PRODUCT_NAME.search(line)
+            if m:
+                report.error("product-name-translated",
+                             f"'{m.group(0)}': write 'UN Biodiversity Lab' (never translated, "
+                             "see i18n/glossary.yml)", rel(f), n)
+
+
 def check_image_ref(report: Report, md: Path, n: int, target: str, alt: str, langs=()):
     if target.startswith(("http://", "https://", "data:")):
         return
@@ -409,7 +427,10 @@ def check_translation_sync(report: Report, changed: set[Path], langs: list[str])
 # Drift report
 # --------------------------------------------------------------------------- #
 def ignored_revs() -> set[str]:
-    """Mechanical commits listed in .git-blame-ignore-revs (skipped by drift)."""
+    """Mechanical commits listed in .git-blame-ignore-revs (skipped by drift).
+
+    Merge commits are skipped too (git log/rev-list --no-merges): they only
+    combine changes that already exist in other commits."""
     path = ROOT / ".git-blame-ignore-revs"
     if not path.exists():
         return set()
@@ -419,7 +440,7 @@ def ignored_revs() -> set[str]:
 
 def last_content_change(path: str, ignore: set[str]) -> str | None:
     """Unix time of the newest commit touching `path` that isn't mechanical."""
-    for line in (git("log", "--format=%H %ct", "--", path) or "").splitlines():
+    for line in (git("log", "--no-merges", "--format=%H %ct", "--", path) or "").splitlines():
         sha, ts = line.split()
         if sha not in ignore:
             return ts
@@ -442,7 +463,7 @@ def drift(langs: list[str], only: str | None):
             status = fm.get("translation_status", "")
             rev = fm.get("source_rev")
             if rev:
-                revs = git("rev-list", f"{rev}..HEAD", "--", rel(en))
+                revs = git("rev-list", "--no-merges", f"{rev}..HEAD", "--", rel(en))
                 count = None if revs is None else str(len([r for r in revs.split() if r not in ignore]))
                 if count is None:
                     rows.append((lang, rel(tr), "UNKNOWN", f"source_rev {rev} not in history"))
@@ -531,11 +552,13 @@ def hook_mode() -> int:
         if f.suffix == ".md" and f.exists():
             check_page(report, f, langs)
     check_image_sizes(report, relevant)
+    check_product_names(report)
     check_translation_sync(report, changed, langs)
 
     keep = {"translation-missing", "translation-orphan", "nav-missing-page",
             "nav-translation-missing", "broken-link", "broken-image",
-            "translation-not-updated", "image-too-large", "alt-text-missing"}
+            "translation-not-updated", "image-too-large", "alt-text-missing",
+            "product-name-translated"}
     changed_rel = {rel(f) for f in relevant}
     findings = [f for f in report.items if f.category in keep
                 and (f.level == "error" or f.path in changed_rel or f.path == "mkdocs.yml")]
@@ -607,6 +630,7 @@ def main(argv=None) -> int:
     for md in pages:
         check_page(report, md, langs)
     check_image_sizes(report, images, new_files)
+    check_product_names(report)
     check_image_files(report, langs, scope)
     check_translation_images(report, langs, sorted(en_pages))
 

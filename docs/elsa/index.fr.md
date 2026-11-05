@@ -1,3 +1,6 @@
+---
+source_rev: 1f9d35bef5e8e429d5408c46fcf178b290063626
+---
 # Outil d'aménagement du territoire intégré ELSA sur le UN Biodiversity Lab - Guide d'utilisation
 
 Ce guide de l'utilisateur vise à fournir un aperçu clair et concis de l'utilisation de l'outil d'aménagement du territoire intégré ELSA (Essential Life Support Area) du UN Biodiversity Lab (UNBL). Cet outil a été développé pour aider les pays à utiliser l'aménagement du territoire intégrée afin de soutenir la mise en œuvre du Cadre mondial de la biodiversité de Kunming-Montréal grâce à une approche de planification systématique de la conservation (PSC) soutenue par le UNBL.

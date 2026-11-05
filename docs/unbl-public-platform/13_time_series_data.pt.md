@@ -1,6 +1,6 @@
 # Que opções tenho para visualizar conjuntos de dados de séries temporais?
 
-O Laboratório de Biodiversidade da ONU dá-lhe acesso a conjuntos de dados que mostram alterações ao longo do tempo. Alguns conjuntos de dados de séries temporais são visualizados ao longo de vários anos com animação, outros podem ser visualizados por ano específico através do menu suspenso, e alguns são uma combinação de ambos, com a possibilidade de visualizar animações de anos específicos que podem ser escolhidos no menu suspenso.
+O UN Biodiversity Lab dá-lhe acesso a conjuntos de dados que mostram alterações ao longo do tempo. Alguns conjuntos de dados de séries temporais são visualizados ao longo de vários anos com animação, outros podem ser visualizados por ano específico através do menu suspenso, e alguns são uma combinação de ambos, com a possibilidade de visualizar animações de anos específicos que podem ser escolhidos no menu suspenso.
 
 <details class="unbl-video">
   <summary>▶️ Prefere vídeo? Clique aqui!</summary>

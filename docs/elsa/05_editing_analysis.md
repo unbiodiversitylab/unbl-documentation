@@ -49,7 +49,7 @@ Users cannot define zones themselves, but for some actions, there may be both a 
 
 ## Setting area-based targets for actions
 
-This part of the tool allows you to set area-based targets (targets) for protection, restoration, management and/or urban greening. Area-based targets can also be understood as the percentage of land area that should be given to each action in the resulting action map. The default values in any given ELSA Tool are derived from terrestrial targets in the KMGBF, unless further customized for your country by the UNBL team based on your National Biodiversity Strategy and Action Plan (NBSAP) or other national policy documents.
+This part of the tool allows you to set area-based targets for protection, restoration, management and/or urban greening. Area-based targets can also be understood as the percentage of land area that should be given to each action in the resulting action map. The default values in any given ELSA Tool are derived from terrestrial targets in the KMGBF, unless further customized for your country by the UNBL team based on your National Biodiversity Strategy and Action Plan (NBSAP) or other national policy documents.
 
 !!! warning "Note the different types of actions available in the ELSA Tool and their associated policies:"
 	| Default Action | KMGBF Target | UNCCD LDN response hierarchy |
@@ -79,14 +79,14 @@ The boundary penalty factor is used to promote spatial cohesion when prioritizin
 
 Steps: 
 
-1. To set the limit penalty, start with a small number, e.g. 10.
+1. To set the boundary penalty factor, start with a small number, e.g. 10.
 2. Increase the number iteratively, i.e., rerun the analysis repeatedly, by an order of magnitude (e.g., 10 -> 100-> 1000), reducing the rate of increase as you approach solutions that lead to your desired level of clustering. Each time you change the penalty, you will have to rerun the optimization until you arrive at a map that is sufficiently contiguous to meet your needs. 
 
 !!! attention
     Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. 
 
 <figure markdown>
-![Boundary penalty factor field, set to 0, highlighted at the bottom of the window](images/editing-analysis-04.png){#fig-adjust-bpf}
+![Analysis run window with area-based targets, and the boundary penalty factor field, set to 100, highlighted](images/editing-analysis-04.png){#fig-adjust-bpf}
 <figcaption> Figure 9. Adjustment of the boundary penalty factor</figcaption>
 </figure>
 

@@ -1,3 +1,8 @@
+---
+source_rev: 23d17b970bfb181c7d29ae84bebaf0e69a7a14b6
+translation_status: machine
+---
+
 # Ajouter vos propres données géospatiales à votre espace de travail
 
 Les espaces de travail UNBL prennent en charge le téléchargement de données raster géospatiales dans le format de fichier suivant :
@@ -12,13 +17,13 @@ Les espaces de travail UNBL prennent également en charge la connexion à des do
 
 - Google Earth Engine (GEE)
 
-- Spatiotemporal Asset Catalog (STAC)
+- Spatiotemporal Asset Catalog (STAC) *(pas encore disponible, bientôt !)*
 
 - XYZ Tile Service
 
 - Mapbox
 
-- Esri ArcGIS API Map Service
+- ESRI ArcGIS API Map Service via un service WMS, WMTS ou de tuiles vectorielles
 
 - Services de tuiles vectorielles (servis comme pg_tileserv ou Martin)
 
@@ -49,10 +54,10 @@ Pour commencer à créer une couche et remplir les métadonnées pertinentes pou
 
 	d.	*Etiquette (optionnel)* : Vous pouvez spécifier une ou plusieurs étiquettes pour votre couche. Les étiquettes correspondent au filtre d'étiquettes de jeu de données dans la vue cartographique. La spécification d'une étiquette pour votre couche signifie que la couche apparaîtra dans la liste des couches filtrées lorsque le filtre d'étiquette de jeu de données correspondant est appliqué dans la carte. Contrairement aux catégories de couches, les étiquettes peuvent être n'importe quelle chaîne de texte de votre choix, ce qui rend cette fonctionnalité utile si vous avez besoin de différencier clairement vos couches d'espace de travail des jeux de données de la plateforme publique et de pouvoir appliquer des filtres plus efficaces lors de la recherche de vos jeux de données dans la vue cartographique. Par exemple, vous pourriez utiliser une étiquette pour identifier la cible de votre stratégie et plan d'action national pour la biodiversité (SPANB) pour laquelle la couche de données est pertinente.
 
-	e.	*Description de la couche (optionnel)* : Dans le champ de description, vous pouvez spécifier le texte qui apparaîtra dans la boîte pop-up d'information de la couche. Ici, vous pouvez insérer l'essentiel de vos métadonnées de couche, comme une description générale, la citation de l'article scientifique/jeu de données, des liens externes vers l'article scientifique/jeu de données, les spécifications de licence, etc.
+	e.	*Description de la couche (optionnel)* : Dans le champ de description, vous pouvez spécifier le texte qui apparaîtra dans la boîte pop-up d'information de la couche. Ici, vous pouvez insérer l'essentiel de vos métadonnées de couche, comme une description générale, la citation de l'article scientifique/jeu de données, des liens externes vers l'article scientifique/jeu de données, les spécifications de licence, etc. Un paramètre supplémentaire « METADATA » vous permet de renseigner des paramètres concrets des données, tels que la résolution, la version des données, la date du jeu de données et la date de publication. Le paramètre « PREVIEW » vous permet de prévisualiser l'apparence de la boîte pop-up d'information de la couche sur le UNBL.
 
 	!!! note
-		Pour les couches individuelles qui font partie d'une couche de groupe parent, le texte pop-up d'information de la couche affichera toujours la description de la couche de groupe parent et donc le champ de description est redondant (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)).
+		Pour les couches qui font partie d'une couche groupée, la fenêtre pop-up d'information de la couche affiche d'abord la description de la couche groupée, suivie de la description propre à la couche. Utilisez la description de la couche groupée pour les informations qui s'appliquent à toutes ses couches, et la description propre à la couche uniquement pour ce qui est spécifique à cette couche (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)).
 
 	![Page de nouvelle couche avec titre, slug, catégories, mots-clés de recherche et aperçu de la description renseignés](images/add-data-02.png)
 
@@ -91,7 +96,7 @@ Pour télécharger un fichier GeoTIFF :
 
 	- *Couleur* – la couleur des pixels avec la valeur spécifiée sur la carte. Vous pouvez définir une couleur via le sélecteur de couleur manuel, ou en entrant une valeur RGBA ou hexadécimale. Optionnellement, vous pouvez définir l'opacité de la couleur dans une plage de 0 à 100%, où 0% est entièrement transparent et 100% est entièrement opaque.
 
-	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré.
+	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré.
 
 	![Configuration de la couche pour GeoTIFF File Upload avec trois entrées catégorielles de style de couche](images/add-data-03.png)
 
@@ -131,13 +136,13 @@ Le UNBL prend en charge la configuration de couches d'images raster dans votre e
 
 	e.	*Niveau de zoom Minimum/Maximum (optionnel)* : La plage de niveau de zoom par défaut est définie de 0 à 14. Vous pouvez optionnellement spécifier les niveaux de zoom pour la couche si l'image raster ne contient des données qu'à certains niveaux de zoom. Notez qu'UNBL prend en charge un niveau de zoom maximum de 14.
 
-	f.	*Style de la couche* : Le style de couche détermine comment la légende de l'image raster est affichée sur la carte. En cliquant sur « AJOUTER UN STYLE », vous pouvez spécifier n'importe quel nombre d'entrées de style de couche pour correspondre aux valeurs de l'image raster. Chaque entrée de style de couche doit définir les propriétés suivantes :
+	f.	*Legend Config* (configuration de la légende) : Le style de légende détermine comment la légende de l'image raster est affichée sur la carte. En cliquant sur « AJOUTER UN STYLE », vous pouvez spécifier n'importe quel nombre d'entrées de style de légende pour correspondre au jeu de couleurs utilisé dans l'image raster. Chaque entrée de style de légende doit définir les propriétés suivantes :
 
 	- *Nom* – le nom de l'entrée de style dans la légende de la couche sur la carte.
 
 	- *Couleur* – la couleur associée au nom spécifié dans la légende de la couche. Vous pouvez sélectionner une couleur en utilisant le sélecteur de couleur, ou en spécifiant une valeur de code couleur RGBA ou Hex.
 
-	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les images raster catégorielles, les entrées de style de légende de couche doivent représenter les valeurs de chaque catégorie/classe dans la source de données raster. Pour les images raster continues, les entrées de style de légende doivent représenter la plage de valeurs visualisées dans l'image raster. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale - un dégradé de couleurs entre chacune de ces valeurs sera généré.
+	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les images raster catégorielles, les entrées de style de légende de couche doivent représenter les valeurs de chaque catégorie/classe dans la source de données raster. Pour les images raster continues, les entrées de style de légende doivent représenter la plage de valeurs visualisées dans l'image raster. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale - un dégradé de couleurs entre chacune de ces valeurs sera généré.
 
 	![Configuration de la couche pour un service de tuiles externe avec URL des tuiles et entrées de légende](images/add-data-04.png)
 
@@ -171,7 +176,7 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	![Configuration de la couche avec le fournisseur Google earth engine et l'identifiant collé dans Chemin de la ressource](images/add-data-08.png)
 
-	f.	*Style de la couche* : Le style de couche détermine comment la légende de la ressource GEE est affichée sur la carte. En cliquant sur « AJOUTER UN STYLE », vous pouvez spécifier n'importe quel nombre d'entrées de style de couche (également appelées *classes* ou *seuils*) pour correspondre aux valeurs de l'image raster. Chaque entrée de style de couche doit définir les propriétés suivantes :
+	f.	*Style de la couche* : Le style de couche détermine comment la légende de la ressource GEE est affichée sur la carte, et il sert également à générer la description de couche stylisée (SLD), qui influe sur le style de la ressource GEE dans la vue cartographique. En cliquant sur « AJOUTER UN STYLE », vous pouvez spécifier n'importe quel nombre d'entrées de style de couche (également appelées *classes* ou *seuils*) pour correspondre aux valeurs de l'image raster. Chaque entrée de style de couche doit définir les propriétés suivantes :
 
 	- *Valeur* - la valeur de pixel dans les données pour laquelle définir le style.
 
@@ -179,7 +184,7 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	- *Couleur* – la couleur des pixels avec la valeur spécifiée sur la carte. Vous pouvez définir une couleur via le sélecteur de couleur manuel, ou en entrant une valeur RGBA ou hexadécimale. Optionnellement, vous pouvez définir l'opacité de la couleur dans une plage de 0 à 100%, où 0% est entièrement transparent et 100% est entièrement opaque.
 
-	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré. Il est important de noter que les valeurs de pixels minimale et maximale, et donc la plage de valeurs, peuvent être dérivées directement en visualisant l'onglet « BANDES » dans la boîte d'information « Asset details » de votre ressource sur GEE. L'exemple de style de couche ci-dessous crée une palette de couleurs continue pour la concentration de stock de carbone.
+	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré. Il est important de noter que les valeurs de pixels minimale et maximale, et donc la plage de valeurs, peuvent être dérivées directement en visualisant l'onglet « BANDES » dans la boîte d'information « Asset details » de votre ressource sur GEE. L'exemple de style de couche ci-dessous crée une palette de couleurs continue pour la concentration de stock de carbone.
 
 	![Onglet BANDES des détails de la ressource Google Earth Engine avec les valeurs Min et Max mises en évidence](images/add-data-09.png)
 
@@ -189,7 +194,7 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	![Entrées de style de couche catégorielles associant des couleurs à neuf classes d'occupation du sol](images/add-data-11.png)
 
-	g.	*Description de couche stylisée (SLD)* : Cliquez sur le bouton « GENERER GEE SLD » pour générer automatiquement un SLD pour configurer le style de votre ressource GEE sur le UNBL, basé sur les paramètres que vous avez définis pour la *couche stylisée* à l'étape f. Alors que le style de couche détermine le style de la légende de la couche, le SLD déterminera le style des pixels réels dans vos données. Basé sur les exemples fournis à l'étape f, la configuration SLD pour un schéma de couleurs continu pour la concentration de stock de carbone ressemblerait à ceci :
+	g.	*Description de couche stylisée (SLD)* : Cliquez sur le bouton « GENERER GEE SLD » pour générer automatiquement un SLD pour configurer le style de votre ressource GEE sur le UNBL, basé sur les paramètres que vous avez définis pour le *Style de la couche* à l'étape f. Alors que le style de couche détermine le style de la légende de la couche, le SLD déterminera le style de couleur des pixels réels dans vos données. Basé sur les exemples fournis à l'étape f, la configuration SLD pour un schéma de couleurs continu pour la concentration de stock de carbone ressemblerait à ceci :
 
 	```
 
@@ -248,7 +253,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	b.	*Fournisseur de la couche* : Sélectionnez « External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.) ».
 
-	c.	*Tuiles URL* : Ici, vous pouvez vous connecter à un fournisseur de services de tuiles vectorielles externes qui héberge vos données géospatiales, comme Mapbox, Esri, pg_tileserv, Martin et autres. Pour configurer des couches en utilisant ces fournisseurs, vous devez fournir une URL de tuile valide, qui doit contenir soit les espaces réservés `{z}{x}{y}` soit l'espace réservé `{bbox-epsg-3857}`. Par exemple, une URL de couche configurable pour un jeu de données de couverture forestière hébergé sur Martin ressemble à ceci :
+	c.	*Tuiles URL* : Ici, vous pouvez vous connecter à un fournisseur de services de tuiles vectorielles externes qui héberge vos données géospatiales, comme Mapbox, ESRI, pg_tileserv, Martin et autres. Pour configurer des couches en utilisant ces fournisseurs, vous devez fournir une URL de tuile valide, qui doit contenir soit les espaces réservés `{z}{x}{y}` soit l'espace réservé `{bbox-epsg-3857}`. Par exemple, une URL de couche configurable pour un jeu de données de couverture forestière hébergé sur Martin ressemble à ceci :
 
 	```
 
@@ -261,11 +266,11 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 3.	La section « Couches de rendu » spécifie les attributs de données de la source de données vectorielles qui doivent être affichés sur la carte. Dans cette section :
 
-	a.	*Source de la couche* : Spécifiez le nom du jeu de données que vous hébergez sur le serveur de tuiles vectorielles. Par exemple, la couche source pour l'URL d'exemple de l'étape 2c est `forest_cover`. Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée sur le référencement de la couche source.
+	a.	*Source de la couche* : Spécifiez le nom du jeu de données que vous hébergez sur le serveur de tuiles vectorielles. Par exemple, la couche source pour l'URL d'exemple de l'étape 2c est `forest_cover`. Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée sur le référencement de la couche source.
 
-	b.	*Type* : Spécifiez le type de géométrie que votre jeu de données représente. Les options disponibles sont *remplissage, ligne, symbole, cercle, heatmap* et *extrusion de remplissage*. Dans la majorité des cas, le type de géométrie sera *remplissage* (polygones avec une rampe de couleur de remplissage). Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée sur les options de type de géométrie.
+	b.	*Type* : Spécifiez le type de géométrie que votre jeu de données représente. Les options disponibles sont *remplissage, ligne, symbole, cercle, heatmap* et *extrusion de remplissage*. Dans la majorité des cas, le type de géométrie sera *remplissage* (polygones avec une rampe de couleur de remplissage). Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée sur les options de type de géométrie.
 
-	c.	*Peinture (optionnel)* : Ici, vous pouvez spécifier le style de couche pour votre jeu de données sur le UNBL en utilisant une configuration de style .json. Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée pour configurer le style de couche. Pour les types de géométrie les plus courants de type *remplissage*, la configuration paint suit un modèle défini. Pour configurer le style de couche pour les jeux de données catégoriels, utilisez le modèle suivant :
+	c.	*Peinture (optionnel)* : Ici, vous pouvez spécifier le style de couche pour votre jeu de données sur le UNBL en utilisant une configuration de style .json. Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée pour configurer le style de couche. Pour les types de géométrie les plus courants de type *remplissage*, la configuration paint suit un modèle défini. Pour configurer le style de couche pour les jeux de données catégoriels, utilisez le modèle suivant :
 
 	```
 
@@ -283,7 +288,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
     "#ffffff"],
     "fill-outline-color": [
     "match",
-    [ "get", " forest_cover_2023" ],
+    [ "get", "forest_cover_2023" ],
     "Mixed forest",
     "#7c549e",
     "Mangrove forest",
@@ -322,11 +327,11 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	où :
 
-	- `opacité de remplissage` définit l'opacité du remplissage du polygone, de 0 (entièrement transparent) à 1 (entièrement opaque).
+	- `fill-opacity` définit l'opacité du remplissage du polygone, de 0 (entièrement transparent) à 1 (entièrement opaque).
 
-	- `couleur de remplissage` spécifie l'attribut de données qui sera utilisé pour styliser le remplissage du polygone, ainsi que le style lui-même (dans ce cas, c'est l'attribut `forest_cover_2023` du jeu de données source `forest_cover` d'exemple mentionné précédemment, et `match` spécifie le style pour les catégories discrètes de cet attribut de données). Chaque paire de chaîne de texte configurable suivante spécifie une catégorie discrète de votre attribut de données et la couleur que vous souhaitez peindre pour cette catégorie spécifique (au format code Hex), respectivement.
+	- `fill-color` spécifie l'attribut de données qui sera utilisé pour styliser le remplissage du polygone, ainsi que le style lui-même (dans ce cas, c'est l'attribut `forest_cover_2023` du jeu de données source `forest_cover` d'exemple mentionné précédemment, et `match` spécifie le style pour les catégories discrètes de cet attribut de données). Chaque paire de chaîne de texte configurable suivante spécifie une catégorie discrète de votre attribut de données et la couleur que vous souhaitez peindre pour cette catégorie spécifique (au format code Hex), respectivement.
 
-	- `couleur-contour-remplissage` fonctionne de la même manière que `couleur de remplissage`, mais spécifie la couleur de la limite linéaire du polygone au lieu du remplissage intérieur du polygone. De cette façon, vous pouvez spécifier une limite de couleur différente pour les polygones par rapport à la couleur de leur remplissage intérieur (notez que ce n'est pas le cas pour l'exemple ci-dessus). Important, vous pouvez spécifier une chaîne `"#ffffff"` à la fin de la dernière chaîne de code hex pour l'une ou l'autre des propriétés de remplissage pour signifier que toutes les catégories de données qui ne sont pas explicitement listées dans la propriété de style de remplissage doivent être transparentes.
+	- `fill-outline-color` fonctionne de la même manière que `fill-color`, mais spécifie la couleur de la limite linéaire du polygone au lieu du remplissage intérieur du polygone. De cette façon, vous pouvez spécifier une limite de couleur différente pour les polygones par rapport à la couleur de leur remplissage intérieur (notez que ce n'est pas le cas pour l'exemple ci-dessus). Important, vous pouvez spécifier une chaîne `"#ffffff"` à la fin de la dernière chaîne de code hex pour l'une ou l'autre des propriétés de remplissage pour signifier que toutes les catégories de données qui ne sont pas explicitement listées dans la propriété de style de remplissage doivent être transparentes.
 
 	!!! important
 		Si vous n'incluez pas la chaîne `"#ffffff"` pour le style transparent pour les catégories de données non incluses, vos tuiles vectorielles ne parviendront pas à se visualiser si vous omettez de spécifier exhaustivement le style pour **toutes** les catégories de données présentes dans votre attribut de données dans la propriété de style de remplissage. Cependant, vous n'êtes pas obligé de spécifier un style transparent inclusif si vous spécifiez un filtre pour exclure les catégories de données sélectionnées dans votre attribut de données de la considération pour le style de couche (étape 3d).
@@ -428,13 +433,13 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	où :
 
-	- `opacité de remplissage` définit l'opacité du remplissage du polygone, de 0 (entièrement transparent) à 1 (entièrement opaque).
+	- `fill-opacity` définit l'opacité du remplissage du polygone, de 0 (entièrement transparent) à 1 (entièrement opaque).
 
-	- `couleur de remplissage` spécifie l'attribut de données qui sera utilisé pour styliser le remplissage du polygone, ainsi que le style lui-même (dans ce cas, c'est l'attribut `canopy_height_2023` du jeu de données source `forest_cover` d'exemple mentionné précédemment, et `interpolate` spécifie le style pour une plage continue de valeurs pour cet attribut de données). Chaque paire de variable configurable suivante spécifie un nombre qui se situe dans la plage de valeurs de votre attribut de données et une chaîne de texte avec la couleur que vous souhaitez peindre pour cette valeur spécifique (au format code Hex), respectivement. Pour construire un schéma de couleurs continu pour votre attribut de données, commencez par styliser la valeur minimale et progressez vers le haut par intervalles raisonnables, basés sur la dispersion de vos données, pour atteindre la valeur maximale. Toutes les valeurs se situant entre un intervalle spécifié seront stylisées en utilisant une couleur graduée qui est plus foncée que la couleur de valeur spécifiée plus petite, et plus claire que la couleur de valeur spécifiée plus grande dans l'intervalle spécifié.
+	- `fill-color` spécifie l'attribut de données qui sera utilisé pour styliser le remplissage du polygone, ainsi que le style lui-même (dans ce cas, c'est l'attribut `canopy_height_2023` du jeu de données source `forest_cover` d'exemple mentionné précédemment, et `interpolate` spécifie le style pour une plage continue de valeurs pour cet attribut de données). Chaque paire de variable configurable suivante spécifie un nombre qui se situe dans la plage de valeurs de votre attribut de données et une chaîne de texte avec la couleur que vous souhaitez peindre pour cette valeur spécifique (au format code Hex), respectivement. Pour construire un schéma de couleurs continu pour votre attribut de données, commencez par styliser la valeur minimale et progressez vers le haut par intervalles raisonnables, basés sur la dispersion de vos données, pour atteindre la valeur maximale. Toutes les valeurs se situant entre un intervalle spécifié seront stylisées en utilisant une couleur graduée qui est plus foncée que la couleur de valeur spécifiée plus petite, et plus claire que la couleur de valeur spécifiée plus grande dans l'intervalle spécifié.
 
-	- `couleur-contour-remplissage` fonctionne de la même manière que `couleur de remplissage`, mais spécifie la couleur de la limite linéaire du polygone au lieu du remplissage intérieur du polygone. De cette façon, vous pouvez spécifier une limite de couleur différente pour les polygones par rapport à la couleur de leur remplissage intérieur (notez que ce n'est pas le cas pour l'exemple ci-dessus).
+	- `fill-outline-color` fonctionne de la même manière que `fill-color`, mais spécifie la couleur de la limite linéaire du polygone au lieu du remplissage intérieur du polygone. De cette façon, vous pouvez spécifier une limite de couleur différente pour les polygones par rapport à la couleur de leur remplissage intérieur (notez que ce n'est pas le cas pour l'exemple ci-dessus).
 
-	d.	*Filtre (optionnel)* : Vous pouvez optionnellement spécifier un sous-ensemble de catégories de données, ou une plage de valeurs spécifique, qui doit être utilisé pour styliser la carte. Toutes les catégories de données ou plages de valeurs tombant en dehors du filtre spécifié ne seront pas considérées dans le style de couche. Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée pour configurer les options de filtre. Comme exemple, si vous vouliez filtrer la catégorie "Mixed forest" de l'attribut de données `forest_cover_2023`, vous utiliseriez le modèle suivant :
+	d.	*Filtre (optionnel)* : Vous pouvez optionnellement spécifier un sous-ensemble de catégories de données, ou une plage de valeurs spécifique, qui doit être utilisé pour styliser la carte. Toutes les catégories de données ou plages de valeurs tombant en dehors du filtre spécifié ne seront pas considérées dans le style de couche. Cliquez sur l'icône ![Informations](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} pour cette propriété pour visualiser la documentation détaillée pour configurer les options de filtre. Comme exemple, si vous vouliez filtrer la catégorie "Mixed forest" de l'attribut de données `forest_cover_2023`, vous utiliseriez le modèle suivant :
 
 	```
 
@@ -462,7 +467,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	f.	*Suffixe (optionnel)* : Vous pouvez spécifier un suffixe qui sera affiché après la valeur/catégorie de l'attribut de données (ex. unités).
 
-	g.	Cliquez sur l'icône ![Supprimer (corbeille)](images/icons/delete.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour supprimer une entrée Interaction config.
+	g.	Cliquez sur l'icône ![Supprimer (corbeille)](images/icons/delete.png){style="display: inline; height: 2em; width: 2em;"} pour supprimer une entrée Interaction config.
 
 	![Entrées Interaction config pour les attributs de type de forêt et de hauteur de canopée](images/add-data-15.png)
 
@@ -478,7 +483,7 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 	- *Couleur* – la couleur associée au nom spécifié dans la légende de la couche. Vous pouvez sélectionner une couleur en utilisant le sélecteur de couleur, ou en spécifiant une valeur de code couleur RGBA ou Hex.
 
-	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les données catégorielles, les entrées de style de légende de couche doivent représenter les catégories discrètes et leur style de couleur associé que vous avez spécifié dans la section « couches de rendu ». Pour les données continues, les entrées de style de légende doivent représenter la plage de valeurs et leur dégradé de couleurs associé que vous avez spécifié dans la section « Couches de rendu ».
+	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les données catégorielles, les entrées de style de légende de couche doivent représenter les catégories discrètes et leur style de couleur associé que vous avez spécifié dans la section « couches de rendu ». Pour les données continues, les entrées de style de légende doivent représenter la plage de valeurs et leur dégradé de couleurs associé que vous avez spécifié dans la section « Couches de rendu ».
 
 	![Niveaux de zoom de la couche vectorielle et configuration de la légende avec trois catégories de forêt](images/add-data-17.png)
 
@@ -490,30 +495,30 @@ Le UNBL prend en charge la configuration de couches de tuiles vectorielles dans 
 
 Pour rendre l'une de vos couches ajoutées découvrable et visible pour tous les utilisateurs de votre espace de travail (voir [« Comment visualiser les jeux de données dans mon espace de travail ? »](2_viewing.fr.md#comment-visualiser-les-jeux-de-donnees-dans-mon-espace-de-travail)), ainsi que rendre optionnellement votre couche visible pour les utilisateurs en dehors de votre espace de travail, effectuez les étapes suivantes :
 
-1.	Naviguez vers la page de modification de couche pour la couche de votre choix. Lors de l'ajout d'une couche à votre espace de travail, vous serez automatiquement amené à cette page. Alternativement, cliquez sur le bouton ![Modifier (crayon)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la liste des couches disponible après avoir navigué vers la page « Layers » dans votre interface d'administration.
+1.	Naviguez vers la page de modification de couche pour la couche de votre choix. Lors de l'ajout d'une couche à votre espace de travail, vous serez automatiquement amené à cette page. Alternativement, cliquez sur le bouton ![Modifier (crayon)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} dans la liste des couches disponible après avoir navigué vers la page « Layers » dans votre interface d'administration.
 
 	![Liste de la page Couches avec le bouton de modification d'une couche mis en évidence](images/add-data-19.png)
 
 2.	Pour que votre jeu de données soit accessible dans la vue cartographique du UNBL, vous devez publier le jeu de données en cliquant sur le bouton bascule « Publié ». Les jeux de données non publiés restent dans l'interface d'administration jusqu'à ce que vous soyez prêt à les publier dans la vue cartographique du UNBL.
 
-3.	Si votre jeu de données est publié, un bouton bascule apparaîtra avec une option pour « Autoriser l'accès externe via un lien ». C'est une bascule optionnelle qui, si activée, rend votre couche accessible à quiconque avec l'URL de la vue cartographique, même les utilisateurs en dehors de votre espace de travail. Pour partager l'URL de votre couche, copiez le lien qui apparaît ou cliquez sur l'icône ![Copier](images/icons/copy.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} pour copier automatiquement le lien dans votre presse-papiers.
+3.	Si votre jeu de données est publié, un bouton bascule apparaîtra avec une option pour « Autoriser l'accès externe via un lien ». C'est une bascule optionnelle qui, si activée, rend votre couche accessible à quiconque avec l'URL de la vue cartographique, même les utilisateurs en dehors de votre espace de travail. Pour partager l'URL de votre couche, copiez le lien qui apparaît ou cliquez sur l'icône ![Copier](images/icons/copy.png){style="display: inline; height: 2em; width: 2em;"} pour copier automatiquement le lien dans votre presse-papiers.
 
-4.	Cliquez sur le bouton bascule « Primaire » pour marquer votre couche comme couche autonome et la rendre découvrable dans la barre de recherche « JEUX DE DONNEES » sur le UNBL. Pour que vos couches d'espace de travail soient découvrables et visibles sur le UNBL, vous devez toujours les publier et les marquer comme primaires. La seule exception pour publier une couche et ne pas la marquer comme primaire est lorsque vous créez des couches groupées (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)).
+4.	Vous n'avez pas besoin de marquer les couches comme primaires : le UNBL le fait automatiquement. Une couche qui ne fait pas partie d'une couche groupée est primaire ; elle apparaît donc comme une entrée à part entière dans la barre de recherche « JEUX DE DONNEES » sur le UNBL. Une couche qui fait partie d'une couche groupée n'est pas primaire et se trouve via sa couche groupée (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)). La liste des couches de votre interface d'administration indique le statut « Primaire » de chaque couche à titre informatif uniquement.
 
-	![Page de modification de couche avec les boutons bascules Publié, Autoriser l'accès externe via un lien et Primaire mis en évidence](images/add-data-20.png)
+	![Page de modification de couche avec les boutons bascules Publié et Autoriser l'accès externe via un lien mis en évidence](images/add-data-20.png)
 
 ## Comment modifier mes couches ajoutées ?
 
 Vous pouvez vouloir revenir et modifier vos couches ajoutées pour changer l'une des métadonnées associées, tester si votre couche se visualise sur le UNBL, et modifier votre configuration de couche en conséquence si votre couche ne se visualise pas. Pour ce faire :
 
-1.	Naviguez vers la page de modification de couche pour la couche de votre choix. Lors de l'ajout d'une couche à votre espace de travail, vous serez automatiquement amené à cette page. Alternativement, cliquez sur le bouton ![Modifier (crayon)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} dans la liste des couches disponible après avoir navigué vers la page « Layers » dans votre interface d'administration.
+1.	Naviguez vers la page de modification de couche pour la couche de votre choix. Lors de l'ajout d'une couche à votre espace de travail, vous serez automatiquement amené à cette page. Alternativement, cliquez sur le bouton ![Modifier (crayon)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} dans la liste des couches disponible après avoir navigué vers la page « Layers » dans votre interface d'administration.
 
 	![Liste de la page Couches avec le bouton de modification d'une couche mis en évidence](images/add-data-21.png)
 
 2.	Pour tester si votre couche se visualise correctement dans la vue cartographique UNBL, cliquez sur le bouton « COUCHE TEST » dans le coin inférieur droit de la page de modification de couche. Une coche verte apparaîtra à l'intérieur du bouton si la couche a été correctement téléchargée et/ou configurée. Sinon, une croix rouge apparaîtra avec un message d'erreur diagnostiquant le problème.
 
 	!!! note
-		Si vous téléchargez un jeu de données régional (étendue non globale), il est possible que le test puisse signaler un échec même si la couche fonctionne, car le test peut demander des tuiles d'échantillon qui tombent en dehors de l'étendue spatiale de votre jeu de données. La meilleure pratique est de double-vérifier le diagnostic du test de couche en vérifiant manuellement si votre couche se visualise dans la vue cartographique du UNBL.
+		Si vous téléchargez un jeu de données régional (étendue non globale), il est possible que le test puisse signaler un échec même si la couche fonctionne, car le test peut demander des tuiles d'échantillon qui tombent en dehors de l'étendue spatiale de votre jeu de données. À l'inverse, le test peut signaler un résultat positif uniquement parce que l'URL de la couche externe est valide, même si la couche ne parvient pas à se visualiser dans la vue cartographique en raison d'une configuration de style de couche incorrecte. Par conséquent, la meilleure pratique est toujours de double-vérifier le diagnostic du test de couche en vérifiant manuellement si votre couche se visualise dans la vue cartographique du UNBL.
 
 	![Page de modification de couche avec une flèche pointant vers le bouton COUCHE TEST affichant une coche verte](images/add-data-22.png)
 
@@ -525,18 +530,18 @@ Vous pouvez vouloir revenir et modifier vos couches ajoutées pour changer l'une
 
 ## Comment créer des couches groupées ?
 
-Toutes les couches que vous ajoutez à votre espace de travail UNBL peuvent être regroupées ensemble pour organiser des données multi-années ou multi-catégories. Chaque année ou catégorie est similaire à une bande raster individuelle. Les couches groupées sont créées dans une nouvelle couche séparée (appelée *couche parent* sur le UNBL) des couches composantes. Par exemple, un raster d'occupation du sol couvrant trois années nécessiterait quatre couches à créer : chaque année comme sa propre couche, ainsi qu'une quatrième couche parent à partir de laquelle elles seront toutes accessibles. Dans ce cas, chaque couche individuelle d'année/catégorie doit être publiée et **non** marquée comme primaire pour être découvrable dans la vue cartographique exclusivement via une couche groupée. La couche groupée/parent est une couche d'affichage supplémentaire avec une configuration de couche fixe qui référence toutes les couches individuelles d'années/catégories. Elle est publiée et marquée comme primaire. Lorsque la couche groupée est visualisée sur le UNBL, une seule légende de couche apparaît à partir de laquelle vous pouvez sélectionner l'une de vos couches composantes incluses pour être visualisée dans la vue cartographique.
+Toutes les couches que vous ajoutez à votre espace de travail UNBL peuvent être regroupées ensemble pour organiser des données multi-années ou multi-catégories. Chaque année ou catégorie est similaire à une bande raster individuelle. Les couches groupées sont créées dans une nouvelle couche séparée (appelée *couche parent* sur le UNBL) des couches composantes (appelées *couches enfants* sur le UNBL). Par exemple, un raster d'occupation du sol couvrant trois années nécessiterait quatre couches à créer : chaque année comme sa propre couche composante, ainsi qu'une quatrième couche parent à partir de laquelle elles seront toutes accessibles. Dans ce cas, chaque couche composante doit être publiée. Comme elles appartiennent à une couche groupée, le UNBL considère automatiquement les couches composantes comme non primaires : elles se trouvent dans la vue cartographique via la couche groupée plutôt que comme des entrées séparées. La couche groupée/parent est une couche d'affichage supplémentaire avec une configuration de couche fixe qui référence toutes les couches composantes. Elle doit également être publiée. Lorsque la couche groupée est visualisée sur le UNBL, une seule légende de couche apparaît à partir de laquelle vous pouvez sélectionner l'une de vos couches composantes incluses pour être visualisée dans la vue cartographique.
 
 !!! note
-	Si les couches individuelles d'années/catégories que vous liez via une couche groupée sont également marquées comme primaires, en plus d'être publiées, ces couches seront découvrables comme entrées individuelles dans la barre de recherche « JEUX DE DONNEES », dupliquant ainsi les entrées avec la couche groupée publiée.
+	**Les couches composantes héritent des métadonnées de leur couche groupée.** Dans la vue cartographique, les informations d'une couche composante affichent d'abord la description de la couche groupée, suivie de la description propre à la couche composante. Tous les autres champs de métadonnées (sources, citation, licence, avertissement, liens « en savoir plus », liens de téléchargement, résolution, version des données, date de début, date de fin et date de publication) utilisent la valeur propre à la couche composante si elle en a une, et sinon la valeur de la couche groupée. Renseignez donc une seule fois les informations communes, dans la couche groupée, et n'ajoutez à une couche composante que ce qui lui est spécifique. Un champ laissé vide, y compris une date dont toutes les parties ont été effacées, est considéré comme non renseigné, et la couche composante reprend alors la valeur de la couche groupée.
 
 Pour configurer une couche groupée :
 
-1.	Publiez toutes les couches composantes à inclure dans la couche groupée, et ne les marquez **pas** comme primaires. La fonctionnalité d'URL publique fonctionne de la même manière que pour les couches autonomes (voir [« Comment publier ma couche et la partager avec des utilisateurs externes ? »](#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes)).
+1.	Publiez toutes les couches composantes à inclure dans la couche groupée. La fonctionnalité d'URL publique fonctionne de la même manière que pour les couches autonomes (voir [« Comment publier ma couche et la partager avec des utilisateurs externes ? »](#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes)).
 
 2.	Créez une couche séparée en utilisant le bouton « CREER UNE NOUVELLE COUCHE » dans la page « Couches » de l'interface d'administration de votre espace de travail. Ce sera votre couche groupée désignée.
 
-3.	Entrez un titre de couche, un slug de couche, une catégorie de couche, une étiquette de recherche et une description de couche qui sont représentatifs du jeu de données représenté par votre collection de couches individuelles groupées. Notez que la description de couche pour les couches composantes est redondante – vous n'avez qu'à remplir la description de couche pour la couche groupée qui contient vos couches composantes. Pour plus d'informations sur le remplissage des métadonnées pour les couches, voir [« Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ? »](#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche).
+3.	Entrez un titre de couche, un slug de couche, une catégorie de couche, une étiquette de recherche et une description de couche qui sont représentatifs du jeu de données représenté par votre collection de couches composantes. La description, les sources, la citation et les autres métadonnées de la couche groupée s'affichent pour toutes ses couches composantes (voir la note ci-dessus) : renseignez donc ici tout ce qui s'applique à l'ensemble de la collection. Pour plus d'informations sur le remplissage des métadonnées pour les couches, voir [« Quels paramètres et métadonnées dois-je remplir lors de la création d'une couche ? »](#quels-parametres-et-metadonnees-dois-je-remplir-lors-de-la-creation-dune-couche).
 
 4.	*Type de couche* : Sélectionnez « groupe ».
 

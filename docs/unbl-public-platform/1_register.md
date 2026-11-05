@@ -17,7 +17,7 @@ Before you begin exploring the maps, register for the UN Biodiversity Lab.
   </div>
 </details>
 
-1. Click the 'Launch map' page of the [UN Biodiversity Lab](https://unbiodiversitylab.org/) website.
+1. Click the 'Launch map' button on the [UN Biodiversity Lab](https://unbiodiversitylab.org/) website.
 
 	![UNBL website home page with 'Launch map' highlighted in the top menu](images/register-01.png)
 

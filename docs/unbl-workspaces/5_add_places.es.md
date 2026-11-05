@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
 translation_status: machine
 ---
 # Agregar lugares a su espacio de trabajo y visualizar métricas dinámicas
@@ -29,6 +29,15 @@ Para agregar un nuevo lugar:
 
 	d.	*Archivo de forma*: Cargue un archivo de polígono (o multipolígono) para definir su lugar. Los formatos soportados son GeoJSON (.geojson, .geojsonl), archivos de Google Earth (.kml, .kmz) o Shapefiles de ESRI (.zip que contenga archivos .shp, .dbf, .shx, .prj). Si usa un GeoJSON, el tamaño del archivo no debe ser mayor de 6MB. El sistema permite cargas de hasta 6MB, pero recomendamos encarecidamente usar archivos de no más de 2MB para un renderizado óptimo y cálculos de métricas. Si usa archivos de Google Earth o Shapefiles de ESRI, asegúrese de que el sistema de referencia de coordenadas sea WGS-84, también conocido como EPSG: 4326.
 
+	En lugar de cargar un archivo, puede dibujar el lugar directamente en el mapa. Seleccione la pestaña *Dibujar en el mapa* (*Draw on Map*), haga clic en el botón de edición y, a continuación, haga clic en el mapa para agregar los vértices de su polígono. Puede:
+
+	- dibujar varios polígonos, o polígonos con huecos;
+	- mover un vértice arrastrándolo, o agregar un vértice haciendo clic cerca de uno existente;
+	- eliminar un polígono y deshacer sus cambios recientes;
+	- cambiar el nombre de una forma haciendo doble clic en su nombre, escribiendo el nuevo nombre y presionando Intro.
+
+	Mientras dibuja, puede usar los controles del mapa para cambiar al mapa base satelital y mostrar etiquetas, carreteras o el globo 3D, lo que facilita trazar costas, ríos y otros elementos. También puede usar la pestaña *Dibujar en el mapa* en la página de edición de un lugar para cambiar la forma de un lugar existente.
+
 	e.	Si toda la información ingresada es válida, el botón 'GUARDAR Y VER DETALLES' se iluminará en azul. Haga clic en este botón para cargar su lugar a UNBL.
 
 	![Formulario 'Nuevo lugar' con Título, Slug, Tipo de lugar, carga del archivo de forma y 'GUARDAR Y VER DETALLES'](images/add-places-02.png)
@@ -43,7 +52,7 @@ También puede hacer ediciones a lugares existentes y ver su lugar en un mapa ba
 
 1.	Navegue a la página 'Lugares' desde el menú desplegable en el lado izquierdo de la interfaz de administración.
 
-2.	Seleccione el lugar que le interesa de la lista de lugares haciendo clic en el icono ![Editar (lápiz)](images/icons/edit.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en el lado más a la izquierda de la entrada del lugar.
+2.	Seleccione el lugar que le interesa de la lista de lugares haciendo clic en el icono ![Editar (lápiz)](images/icons/edit.png){style="display: inline; height: 2em; width: 2em;"} en el lado más a la izquierda de la entrada del lugar.
 
 	![Lista de 'Lugares' de la interfaz de administración con el icono de lápiz para editar un lugar resaltado](images/add-places-04.png)
 
@@ -79,16 +88,16 @@ Las métricas dinámicas estándar de UNBL se vuelven automáticamente disponibl
 	!!! note
 		Las métricas de indicadores principales y la métrica de Protected Area solo están disponibles para lugares de tipo *País* con un código de país ISO3/M49 especificado. Por lo tanto, los lugares que no son de tipo *País* no tendrán la opción de elegir indicadores principales.
 
-	![Panel del lugar Albania con el menú 'Dashboard' abierto: 'METRICS' o 'HEADLINE INDICATORS'](images/add-places-09.png)
+	![Panel del lugar Albania con el menú 'Tablero' abierto: 'Métricas', 'Indicadores de Cabecera' o 'Métricas marinas'](images/add-places-09.png)
 
-3.	Haga clic en el botón de activación junto a cualquier métrica específica si desea ver este conjunto de datos en el mapa. Haga clic en el botón de alternancia de nuevo o en el icono ![Cerrar](images/icons/cross.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en la leyenda de la capa para eliminar este conjunto de datos de la vista del mapa. También puede hacer clic en el icono de flecha hacia arriba para ocultar la métrica de la vista en la pestaña de métricas disponibles, y viceversa.
+3.	Haga clic en el botón de activación junto a cualquier métrica específica si desea ver este conjunto de datos en el mapa. Haga clic en el botón de alternancia de nuevo o en el icono ![Cerrar](images/icons/cross.png){style="display: inline; height: 2em; width: 2em;"} en la leyenda de la capa para eliminar este conjunto de datos de la vista del mapa. También puede hacer clic en el icono de flecha hacia arriba para ocultar la métrica de la vista en la pestaña de métricas disponibles, y viceversa.
 
 	![Botón de activación y flecha de plegado de la métrica Global Land Cover e icono de cierre de la leyenda resaltados, con la capa en el mapa](images/add-places-10.png)
 
-4.	Haga clic en el icono ![Información](images/icons/info.png){style="display: inline; width: 1em; height: 2em; width: 2em;"} en el widget de métricas o en la leyenda de la capa (si tiene un conjunto de datos activado) para ver la información de la capa. Las páginas de información proporcionan una breve descripción de los datos, artículos relacionados para leer, datos sin procesar para descargar (si están disponibles gratuitamente) y especificaciones de licencia.
+4.	Haga clic en el icono ![Información](images/icons/info.png){style="display: inline; height: 2em; width: 2em;"} en el widget de métricas o en la leyenda de la capa (si tiene un conjunto de datos activado) para ver la información de la capa. Las páginas de información proporcionan una breve descripción de los datos, artículos relacionados para leer, datos sin procesar para descargar (si están disponibles gratuitamente) y especificaciones de licencia.
 
 	![Icono de información de la métrica Global Land Cover resaltado, que abre la ventana de información de la capa](images/add-places-11.png)
 
-5.	Para descargar datos de resumen para la métrica en formato .csv, .tsv o .json, haga clic en el icono ![Descargar](images/icons/download.png){style="display: inline; width: 1em; height: 2em; width: 2em;"}. Luego puede elegir si descargar datos de resumen a su directorio local en formato de valores separados por comas, valores separados por tabulaciones o formato .json. También puede descargar los datos desde enlaces de fuente en las páginas de información de la capa.
+5.	Para descargar datos de resumen para la métrica en formato .csv, .tsv o .json, haga clic en el icono ![Descargar](images/icons/download.png){style="display: inline; height: 2em; width: 2em;"}. Luego puede elegir si descargar datos de resumen a su directorio local en formato de valores separados por comas, valores separados por tabulaciones o formato .json. También puede descargar los datos desde enlaces de fuente en las páginas de información de la capa.
 
 	![Icono de descarga de una métrica resaltado, con un menú que ofrece CSV, TSV y JSON](images/add-places-12.png)

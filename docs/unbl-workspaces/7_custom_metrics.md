@@ -12,7 +12,7 @@ Metrics are displayed on UNBL through the selection of a particular place that d
 
 ## Step 2: Upload a raster layer in GeoTIFF format
 
-To create a custom metric, it is necessary to upload a raster layer which you would like to view zonal statistics for. UNBL workspaces only support metric calculations using layers uploaded to the workspace through the 'GeoTIFF File Upload' option. For detailed steps on uploading a layer to your workspace using this option, see [‘How do I upload raster layers in GeoTIFF format?’](6_add_data.md/#how-do-i-upload-raster-layers-in-geotiff-format).
+To create a custom metric, it is necessary to upload a raster layer which you would like to view zonal statistics for. UNBL workspaces only support metric calculations using layers uploaded to the workspace through the 'GeoTIFF File Upload' option. For detailed steps on uploading a layer to your workspace using this option, see [‘How do I upload raster layers in GeoTIFF format?’](6_add_data.md#how-do-i-upload-raster-layers-in-geotiff-format).
 
 For a custom metric to function properly on UNBL, it is necessary to note the following technical pre-requisites for uploaded GeoTIFF layers:
 
@@ -212,11 +212,5 @@ To view your custom metrics:
 
 	![Custom metric histogram for Bhutan beside its Human Modification Index layer on the map](images/custom-metrics-20.png)
 
-
-	
-
-
-
-
-
-
+	!!! note
+		**Custom metrics are calculated only when you ask for them.** The first time a custom metric is shown for a place, its widget says *This metric has not been calculated for this place yet.* Click the **Calculate metric** button to start the calculation. While it runs, the widget shows *Calculating metric...* with a progress bar. If the calculation fails, the widget shows *Metric calculation failed*; if the request could not be sent, *Something went wrong* appears next to the button and you can try again. The standard dynamic metrics of the UNBL public platform are not affected and are calculated automatically.
