@@ -18,7 +18,7 @@ A Ferramenta ELSA permite que diversas partes interessadas avaliem de forma cola
 
 A Ferramenta ELSA **não pode** ser utilizada para:
 
-  - Adicionar camadas de dados adicionais para inclusão como características de planeamento ou como metas de zonamento.
+  - Adicionar camadas de dados adicionais para inclusão como características de planeamento ou como restrições de zonamento.
   - Substituir diretamente camadas de entrada por outras camadas de entrada.
   - Adicionar características de bloqueio adicionais.
 

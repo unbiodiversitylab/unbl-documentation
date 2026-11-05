@@ -18,7 +18,7 @@ UNBL workspaces also support the connection to external   geospatial data throug
 
 - Mapbox
 
-- Esri ArcGIS API Map Service through WMS, WMTS, or vector tile service
+- ESRI ArcGIS API Map Service through WMS, WMTS, or vector tile service
  
 - Vector Tile Services (served as pg_tileserv or Martin)
 
@@ -259,7 +259,7 @@ UNBL supports the configuration of vector tile layers to your workspace by linki
 	
 	b.	*Layer provider*: Select ‘External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)’.
 	
-	c.	*Tiles URL*: Here, you can connect to an external vector tile service provider that hosts your geospatial data, such as Mapbox, Esri, pg_tileserv, Martin, and others. To configure layers using these providers, you must supply a valid tile URL, which must contain either the placeholders `{z}{x}{y}` or the placeholder `{bbox-epsg-3857}`. For example, a configurable layer URL for a forest cover dataset hosted on Martin looks like this:
+	c.	*Tiles URL*: Here, you can connect to an external vector tile service provider that hosts your geospatial data, such as Mapbox, ESRI, pg_tileserv, Martin, and others. To configure layers using these providers, you must supply a valid tile URL, which must contain either the placeholders `{z}{x}{y}` or the placeholder `{bbox-epsg-3857}`. For example, a configurable layer URL for a forest cover dataset hosted on Martin looks like this:
 	
 	```
 	

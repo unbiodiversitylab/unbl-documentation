@@ -58,7 +58,7 @@
 
 - Mapbox
 
-- Esri ArcGIS API Map Service
+- ESRI ArcGIS API Map Service через WMS, WMTS или сервис векторных тайлов
 
 - Сервисы векторных тайлов (обслуживаемые как pg_tileserv или Martin)
 
@@ -92,7 +92,7 @@
 
 - Mapbox
 
-- Esri ArcGIS API Map Service
+- ESRI ArcGIS API Map Service через WMS, WMTS или сервис векторных тайлов
 
 - Сервисы векторных тайлов (обслуживаемые как pg_tileserv или Martin)
 

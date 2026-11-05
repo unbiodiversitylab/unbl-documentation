@@ -20,7 +20,7 @@ L'outil ELSA permet à divers acteurs d'évaluer de manière collaborative les p
 
 L'outil ELSA **ne peut pas** être utilisé pour :
 
-- Ajouter des couches de données supplémentaires à inclure soit comme caractéristiques de planification, soit comme objectifs de zonage.
+- Ajouter des couches de données supplémentaires à inclure soit comme caractéristiques de planification, soit comme contraintes de zonage.
 - Remplacer directement des couches d'entrée par d'autres couches d'entrée.
 - Ajouter des fonctionnalités de verrouillage supplémentaires.
 

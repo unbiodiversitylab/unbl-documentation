@@ -18,9 +18,9 @@
 
 2.	Click on the dataset info icon.
 
-3.	Click on the link under 'LEARN MORE' to download the data from its original source (if no link is provided then this likely means the data is not publicly available for download or the data providers have renounced permissions for including the download link in the dataset metadata on UN Biodiversity Lab). 
+3.	Click on the 'Download the Data' link under 'LEARN MORE' to download the data from its original source (if no link is provided then this likely means the data is not publicly available for download or the data providers have renounced permissions for including the download link in the dataset metadata on UN Biodiversity Lab). 
 
-4.	 If you encounter any issues in accessing the data, please contact support@unbiodiversitylab.org for further support. 
+4.	 If you encounter any issues in accessing the data, please contact <support@unbiodiversitylab.org> for further support. 
 
 ![Dataset info window with the legend info icon and 'Download the Data' link highlighted](images/download-global-data-01.png)
 

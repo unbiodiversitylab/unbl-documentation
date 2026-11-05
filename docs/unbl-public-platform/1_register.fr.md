@@ -21,7 +21,7 @@ Avant de commencer à explorer les cartes, inscrivez-vous au UN Biodiversity Lab
   </div>
 </details>
 
-1. Cliquez sur la page « Lancer la carte » du site web du [UN Biodiversity Lab](https://unbiodiversitylab.org/).
+1. Cliquez sur le bouton « Lancer la carte » du site web du [UN Biodiversity Lab](https://unbiodiversitylab.org/).
 
 	![Page d'accueil du site web du UNBL avec « Lancer la carte » mis en évidence dans le menu supérieur](images/register-01.png)
 

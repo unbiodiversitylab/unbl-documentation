@@ -30,11 +30,11 @@
 
 *Ejemplo (si se incluye en el mapa)*:
 
-> Fuentes: Sanderman, et al., 2018; PNUMA-WCMC y UICN, 2021.
+> Fuentes: Sanderman et al., 2018; PNUMA-WCMC y UICN, 2021.
 
 *Ejemplo (si se incluye como nota al pie del mapa)*:
 
-> La figura 2 muestra el carbono orgánico estimado presente en los suelos de los manglares (de Sanderman, et al., 2018) dentro de las áreas protegidas de Vietnam (PNUMA-CMCM y UICN, 2021).
+> La figura 2 muestra el carbono orgánico estimado presente en los suelos de los manglares (de Sanderman et al., 2018) dentro de las áreas protegidas de Viet Nam (PNUMA-WCMC y UICN, 2021).
 
 **Asegúrese también de incluir las citas completas de los conjuntos de datos utilizados en la sección de referencias del documento, por ejemplo:**
 
@@ -42,7 +42,7 @@
 
 > PNUMA-WCMC y UICN (2021), Protected Planet: The World Database on Protected Areas (WDPA) [En línea], 02/2021, Cambridge, Reino Unido: PNUMA-WCMC y UICN. Disponible en: www.protectedplanet.net.
 
-- Incluya información en el mapa (o en la cita que describe el mapa) sobre: quién creó el mapa; la fecha en que se produjo el mapa en el UN Biodiversity Lab; y una nota que indique que el mapa se creó utilizando UN Biodiversity Lab.
+- Incluya información en el mapa (o en la nota al pie que describe el mapa) sobre: quién creó el mapa; la fecha en que se produjo el mapa en el UN Biodiversity Lab; y una nota que indique que el mapa se creó utilizando UN Biodiversity Lab.
 
 **Ejemplo:**
 
@@ -54,4 +54,4 @@
 
 **Ejemplo:**
 
-> Bond, James. «Mangrove Forest Soil Organic Carbon within Vietnam's Protected Areas» [mapa]. Escala no especificada. (14 de febrero de 2021). Mapa generado en el UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Versión 2. PNUD y PNUMA, 2021.
+> Bond, James. «Mangrove Forest Soil Organic Carbon within Viet Nam's Protected Areas» [mapa]. Escala no especificada. (14 de febrero de 2021). Mapa generado en el UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Versión 2. PNUD y PNUMA, 2021.

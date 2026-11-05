@@ -18,7 +18,7 @@ La herramienta ELSA permite a diversas partes interesadas evaluar de forma colab
 
 La Herramienta ELSA **no puede** utilizarse para:
 
-  - Añadir capas de datos adicionales para su inclusión como características de planificación o como metas de zonificación.  
+  - Añadir capas de datos adicionales para su inclusión como características de planificación o como restricciones de zonificación.  
   - Sustituir directamente las capas de entrada por otras capas de entrada.  
   - Añadir características de bloqueo adicionales.  
 

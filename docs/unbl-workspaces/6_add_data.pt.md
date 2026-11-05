@@ -23,7 +23,7 @@ Os espaços de trabalho UNBL também suportam a ligação a dados geoespaciais e
 
 - Mapbox
 
-- Esri ArcGIS API Map Service através de WMS, WMTS ou serviço de tiles vetoriais
+- ESRI ArcGIS API Map Service através de WMS, WMTS ou serviço de tiles vetoriais
 
 - Serviços de tiles vetoriais (servidos como pg_tileserv ou Martin)
 
@@ -253,7 +253,7 @@ O UNBL suporta a configuração de camadas de tiles vetoriais para o seu espaço
 
 	b.	*Layer provider*: Selecione 'External Tile Service (Mapbox, ESRI, pg_tileserv, Martin, etc.)'.
 
-	c.	*Tiles URL*: Aqui, pode ligar-se a um fornecedor de serviço de tiles vetoriais externo que aloja os seus dados geoespaciais, como Mapbox, Esri, pg_tileserv, Martin e outros. Para configurar camadas usando estes fornecedores, deve fornecer um URL de tile válido, que deve conter ou os marcadores de posição `{z}{x}{y}` ou o marcador de posição `{bbox-epsg-3857}`. Por exemplo, um URL de camada configurável para um conjunto de dados de cobertura florestal alojado no Martin seria assim:
+	c.	*Tiles URL*: Aqui, pode ligar-se a um fornecedor de serviço de tiles vetoriais externo que aloja os seus dados geoespaciais, como Mapbox, ESRI, pg_tileserv, Martin e outros. Para configurar camadas usando estes fornecedores, deve fornecer um URL de tile válido, que deve conter ou os marcadores de posição `{z}{x}{y}` ou o marcador de posição `{bbox-epsg-3857}`. Por exemplo, um URL de camada configurável para um conjunto de dados de cobertura florestal alojado no Martin seria assim:
 
 	```
 

@@ -30,11 +30,11 @@
 
 *if within the map*:
 
-> Sources: Sanderman, et al., (2018); UNEP-WCMC and IUCN, (2021).
+> Sources: Sanderman et al., 2018; UNEP-WCMC and IUCN, 2021.
 
 *if in a caption*:
 
-> Figure 2 shows the estimated soil organic carbon present in mangroves (from Sanderman, et al., (2018)) within protected areas in Vietnam (UNEP-WCMC and IUCN, (2021)).
+> Figure 2 shows the estimated soil organic carbon present in mangroves (from Sanderman et al., 2018) within protected areas in Viet Nam (UNEP-WCMC and IUCN, 2021).
 
 **Also be sure to include full citations for datasets used in the references/bibliography section of the document, e.g.:**
 
@@ -42,7 +42,7 @@
 
 > UNEP-WCMC and IUCN (2021), Protected Planet: The World Database on Protected Areas (WDPA) [On-line], 02/2021, Cambridge, UK: UNEP-WCMC and IUCN Available at: www.protectedplanet.net.
 
-- Include information on the map (or in the citation describing the map) on: who created the map; the date the map was produced on UN Biodiversity Lab; and a note indicating that the map was created using UN Biodiversity Lab, e.g.:
+- Include information on the map (or in the caption describing the map) on: who created the map; the date the map was produced on UN Biodiversity Lab; and a note indicating that the map was created using UN Biodiversity Lab, e.g.:
 
 > Created by James Bond using UN Biodiversity Lab (www.unbiodiversitylab.org) on 14 February 2021.
 
@@ -52,4 +52,4 @@
 
 **Example**
 
-> Bond, James. "Mangrove Forest Soil Organic Carbon within Vietnam's Protected Areas" [map]. Scale not given. (14 Feb 2021). Map Generated on the UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Version 2. UNDP and UNEP, 2023.
+> Bond, James. "Mangrove Forest Soil Organic Carbon within Viet Nam's Protected Areas" [map]. Scale not given. (14 Feb 2021). Map Generated on the UN Biodiversity Lab (www.unbiodiversitylab.org) [web]. Version 2. UNDP and UNEP, 2023.
