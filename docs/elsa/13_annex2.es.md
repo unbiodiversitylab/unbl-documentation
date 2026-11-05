@@ -62,7 +62,7 @@ Las siguientes tablas detallan todas las características de planificación util
 |-------------------|-----------|--------|---------------------|
 | Áreas protegidas existentes | Bloqueo para zonas de protección | UNEP-WCMC & IUCN, 2025 | [Ver](https://map.unbiodiversitylab.org/earth?basemap=grayscale&coordinates=20,0,2&layers=UNBL.layer.wdpa-protected-areas_100) |
 
-### Zonas
+### Restricciones de zonificación
 
 | Nombre de la capa | Propósito | Fuente | Vista del mapa UNBL |
 |-------------------|-----------|--------|---------------------|
