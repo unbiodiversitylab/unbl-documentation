@@ -3,7 +3,7 @@ source_rev: 5ed7ccbfaec1d9b364807a23018b1bcd7ed4b57f
 translation_status: machine
 ---
 
-# Quels indicateurs dynamiques sont disponibles pour mon pays/ma zone d'intérêt ?
+# Quelles métriques dynamiques sont disponibles pour mon pays/ma zone d'intérêt ?
 
 Le UNBL propose des indicateurs synthétiques basés sur les meilleures données spatiales mondiales disponibles. Ces indicateurs peuvent être utilisés pour rendre compte de l'état de la nature et du développement humain pour les lieux disponibles sur la plateforme publique du UNBL, et/ou ceux que vous avez téléchargés dans votre espace de travail (voir notre [guide sur l'espace de travail](../unbl-workspaces/index.md) pour plus d'informations à ce sujet). Les indicateurs standards disponibles sont les suivants :
 
@@ -62,7 +62,7 @@ Pour consulter ces indicateurs sur le UN Biodiversity Lab :
 
 1. Sélectionnez un pays ou une zone d'intérêt spécifique dans l'onglet ENDROITS.
 
-2. Consultez les indicateurs dans le panneau de gauche. Choisissez entre la liste des dix indicateurs dynamiques terrestres, l'indicateur marin ou les deux indicateurs principaux en cliquant sur l'option souhaitée (METRICS, MARINE METRICS ou HEADLINE INDICATORS) dans le tableau de bord affiché.
+2. Consultez les indicateurs dans le panneau de gauche. Choisissez entre la liste des dix métriques dynamiques terrestres, la métrique marine ou les deux indicateurs principaux en cliquant sur l'option souhaitée (METRICS, MARINE METRICS ou HEADLINE INDICATORS) dans le tableau de bord affiché.
 
 3. Cliquez sur le bouton à côté d'une mesure spécifique si vous souhaitez afficher cet ensemble de données sur la carte. Cliquez à nouveau sur le bouton ou sur l'icône « Supprimer l'ensemble de données » dans la légende pour effacer l'écran.
 

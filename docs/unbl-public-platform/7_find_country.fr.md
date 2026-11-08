@@ -5,7 +5,7 @@ translation_status: machine
 
 # Comment trouver mon pays ?
 
-Le UN Biodiversity Lab peut vous aider à naviguer vers une zone d'intérêt spécifique et à accéder aux ensembles de données et aux mesures dynamiques pour cette zone. Sur notre plateforme publique, les zones d'intérêt comprennent les pays, les juridictions, et certaines zones transfrontalières. 
+Le UN Biodiversity Lab peut vous aider à naviguer vers une zone d'intérêt spécifique et à accéder aux ensembles de données et aux métriques dynamiques pour cette zone. Sur notre plateforme publique, les zones d'intérêt comprennent les pays, les juridictions, et certaines zones transfrontalières. 
 
 <details class="unbl-video">
   <summary>▶️ Vous préférez la vidéo ? Cliquez ici !</summary>
