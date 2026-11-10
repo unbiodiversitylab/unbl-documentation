@@ -246,7 +246,7 @@
     var mine = new Array(n).fill(false);
     var shown = mine;              // what the grid shows: mine, search or best
     var showing = 'mine';
-    var bpf = M.bpfOptions[0], view = 'cost';
+    var bpf = M.bpfOptions[0], view = 'all';   // 'all' = every value in every cell, as in the original
     var searchResult = {}, stopSearch = null;
 
     var maxOf = { cost: Math.max.apply(null, M.cost) };
@@ -260,7 +260,7 @@
       describe(i);
     }, describe);
 
-    var viewSel = selectBox(t('view'), [{ value: 'cost', label: t('view_cost') }].concat(
+    var viewSel = selectBox(t('view'), [{ value: 'all', label: t('view_all') }, { value: 'cost', label: t('view_cost') }].concat(
       M.features.map(function (f) { return { value: f, label: t('feature_' + f) }; })), view,
       function (v) { view = v; render(); });
     var bpfSel = selectBox(t('bpf'), M.bpfOptions.map(function (b) { return { value: b, label: num(b) }; }), bpf,
@@ -333,16 +333,30 @@
       render();
     }
     function describe(i) {
-      var parts = [position(D, i), t('cost') + ' ' + num(M.cost[i])];
+      var parts = [position(D, i)];
       M.features.forEach(function (f) { parts.push(t('feature_' + f) + ' ' + num(M.amounts[f][i])); });
+      parts.push(t('cost') + ' ' + num(M.cost[i]));
       parts.push(shown[i] ? t('selected') : t('not_selected'));
       details.textContent = parts.join(' · ');
     }
     function render() {
       for (var i = 0; i < n; i++) {
-        var c = g.cells[i], v = view === 'cost' ? M.cost[i] : M.amounts[view][i];
-        shade(c, v / maxOf[view]);
-        c.firstChild.textContent = view === 'cost' || v ? num(v) : '';
+        var c = g.cells[i];
+        if (view === 'all') {
+          // Amounts of A, B and C on top, cost below: the layout of the original exercise.
+          shade(c, 0);
+          c.firstChild.textContent = '';
+          c.firstChild.appendChild(el('span', { class: 'pe-feats' }, M.features.map(function (f, k) {
+            var a = M.amounts[f][i];
+            return el('span', { class: 'pe-f pe-f' + k + (a ? '' : ' is-zero'), text: num(a) });
+          })));
+          c.firstChild.appendChild(el('span', { class: 'pe-cost', text: num(M.cost[i]) }));
+        } else {
+          var v = view === 'cost' ? M.cost[i] : M.amounts[view][i];
+          shade(c, v / maxOf[view]);
+          c.firstChild.textContent = view === 'cost' || v ? num(v) : '';
+        }
+        c.classList.toggle('pe-view-all', view === 'all');
         c.classList.toggle('is-selected', !!shown[i]);
         c.classList.toggle('pe-view-cost', view === 'cost');
         c.setAttribute('aria-pressed', shown[i] ? 'true' : 'false');
@@ -388,7 +402,17 @@
     host.textContent = '';
     host.appendChild(el('div', { class: 'pe-controls' }, [viewSel.node, bpfSel.node]));
     host.appendChild(el('div', { class: 'pe-layout' }, [
-      el('div', { class: 'pe-map' }, [g.node, details]),
+      el('div', { class: 'pe-map pe-map-min' }, [
+        el('p', { class: 'pe-key' }, [t('cell_key') + ' ',
+          el('span', { class: 'pe-keycell', 'aria-hidden': 'true' }, [
+            el('span', { class: 'pe-feats' }, M.features.map(function (f, k) {
+              return el('span', { class: 'pe-f pe-f' + k, text: f });
+            })),
+            el('span', { class: 'pe-cost', text: t('cost') })
+          ])]),
+        el('div', { class: 'pe-grid-scroll' }, [g.node]),
+        details
+      ]),
       el('div', { class: 'pe-side' }, [
         info,
         el('div', { class: 'pe-buttons' }, [bRun, bBest, bMine, bCopy, bClear]),

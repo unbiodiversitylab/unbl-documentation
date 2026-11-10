@@ -25,7 +25,7 @@ The first tab below is the classic puzzle that many planners learn with. The sec
 
     Each square is a [planning unit](12_annex1.md#planning-units). Each planning unit has a cost and an amount of three planning features: A, B and C.
 
-    1. Under **Show on the map**, choose what the grid shows: the cost, or the amount of one feature.
+    1. Each planning unit shows the amounts of features A, B and C, and its cost. To see one value at a time, choose it under **Show on the map**.
     2. Click planning units to select them, or use the arrow keys and Space. Click a selected planning unit again to remove it.
     3. Meet every target in the table, with the lowest score you can.
     4. Choose **Let the computer search** and **Show the best answer** to compare your answer with the computer's.
