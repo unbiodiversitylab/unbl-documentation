@@ -503,6 +503,116 @@ def drift(langs: list[str], only: str | None):
 
 
 # --------------------------------------------------------------------------- #
+# ELSA planning exercise (docs/elsa/exercise/, plan in elsa-planning-exercise/)
+# --------------------------------------------------------------------------- #
+EXERCISE = DOCS / "elsa" / "exercise"
+EXERCISE_PAGE = "elsa/planning_exercise"
+PLACEHOLDER = re.compile(r"\{[a-z_]+\}")
+
+
+def _exercise_neighbours(i: int, rows: int, cols: int) -> list[int]:
+    r, c = divmod(i, cols)
+    return [j for j, ok in ((i - cols, r > 0), (i + cols, r < rows - 1),
+                            (i - 1, c > 0), (i + 1, c < cols - 1)) if ok]
+
+
+def _exercise_boundary(cells: set[int], d: dict) -> float:
+    """Exposed edge length of a set of cells, as exercise.js computes it."""
+    return d["edgeLength"] * sum(
+        4 - sum(j in cells for j in _exercise_neighbours(i, d["rows"], d["cols"])) for i in cells)
+
+
+def check_exercise(report: Report, cfg, langs: list[str]):
+    """Interface labels in every language, stored answers that match the
+    on-screen scoring, and no publishing before permission is recorded."""
+    english = EXERCISE / "strings.json"
+    if not english.exists():
+        return
+    try:
+        base = json.loads(english.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        report.error("exercise-strings", f"not valid JSON: {exc}", rel(english))
+        return
+    for lang in langs:
+        f = EXERCISE / f"strings.{lang}.json"
+        if not f.exists():
+            report.error("exercise-strings", f"no {lang} interface labels (expected {f.name})", rel(english))
+            continue
+        try:
+            tr = json.loads(f.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            report.error("exercise-strings", f"not valid JSON (check quotes and commas): {exc}", rel(f))
+            continue
+        for key in sorted(set(base) - set(tr)):
+            report.error("exercise-strings", f"label '{key}' is missing", rel(f))
+        for key in sorted(set(tr) - set(base)):
+            report.error("exercise-strings", f"label '{key}' is not in the English file", rel(f))
+        for key in sorted(set(base) & set(tr)):
+            if key.startswith("_"):
+                continue
+            want, got = sorted(PLACEHOLDER.findall(base[key])), sorted(PLACEHOLDER.findall(tr[key]))
+            if want != got:
+                report.error("exercise-strings",
+                             f"label '{key}' must keep {' '.join(want) or 'no {placeholders}'} "
+                             f"exactly as in English (found {' '.join(got) or 'none'})", rel(f))
+
+    grid = EXERCISE / "grid.json"
+    try:
+        d = json.loads(grid.read_text(encoding="utf-8"))
+        n = d["rows"] * d["cols"]
+        m = d["mincost"]
+        assert len(m["cost"]) == n and all(len(m["amounts"][f]) == n for f in m["features"])
+        for bpf in m["bpfOptions"]:
+            sol = m["solutions"][str(bpf)]
+            cells = set(sol["units"])
+            cost = sum(m["cost"][i] for i in cells)
+            short = sum(max(0, m["targets"][f] - sum(m["amounts"][f][i] for i in cells))
+                        for f in m["features"])
+            score = cost + bpf * _exercise_boundary(cells, d) + m["shortfallPenalty"] * short
+            if abs(score - sol["score"]) > 1e-6:
+                report.error("exercise-data", f"lowest-cost answer for BPF {bpf} scores {score} "
+                             f"with the on-screen rules, but {sol['score']} is stored (rerun solve.R)", rel(grid))
+        e = d["elsa"]
+        assert all(len(e["values"][f]) == n for f in e["features"]) and len(e["landClass"]) == n
+        for sol in e["solutions"]:
+            st, alloc = sol["settings"], sol["allocation"]
+            w, lim = e["defaults"]["weights"], e["defaults"]["limits"]
+            value = sum(w[f] * e["values"][f][i] * e["contribution"][f][a]
+                        for i, a in enumerate(alloc) if a for f in e["features"])
+            bnd = sum(_exercise_boundary({i for i, x in enumerate(alloc) if x == a}, d) for a in e["actions"])
+            what = f"ELSA-style answer (lock-in {st['lockIn']}, BPF {st['bpf']})"
+            if abs(value - st["bpf"] * bnd - sol["score"]) > 0.05:
+                report.error("exercise-data", f"{what} scores {value - st['bpf'] * bnd:.2f} with the "
+                             f"on-screen rules, but {sol['score']} is stored (rerun solve.R)", rel(grid))
+            for i, a in enumerate(alloc):
+                if a and e["landClass"][i] not in e["eligible"][a]:
+                    report.error("exercise-data", f"{what} puts {a} on {e['landClass'][i]} land", rel(grid))
+            for a in e["actions"]:
+                if alloc.count(a) > lim[a]:
+                    report.error("exercise-data", f"{what} exceeds the area-based target for {a}", rel(grid))
+            if st["lockIn"] and any(alloc[i] != "protect" for i in e["protectedArea"]):
+                report.error("exercise-data", f"{what} does not protect the locked-in area", rel(grid))
+    except (OSError, ValueError, KeyError, TypeError, AssertionError) as exc:
+        report.error("exercise-data", f"grid.json is missing data or malformed ({exc!r}); "
+                     "regenerate it with elsa-planning-exercise/make_grid.py and solve.R", rel(grid))
+        return
+
+    # Permission gate: the page may leave draft_docs only when every approval
+    # in PERMISSIONS.md is recorded (no empty ☐ boxes left).
+    perms = ROOT / "elsa-planning-exercise" / "PERMISSIONS.md"
+    pending = not perms.exists() or "☐" in perms.read_text(encoding="utf-8")
+    drafts = (cfg or {}).get("draft_docs") or ""
+    if pending and EXERCISE_PAGE not in drafts:
+        report.error("exercise-permission",
+                     f"{EXERCISE_PAGE}*.md must stay in draft_docs until every approval in "
+                     "elsa-planning-exercise/PERMISSIONS.md is received", "mkdocs.yml")
+    if pending and (d.get("source") != "placeholder" or (EXERCISE / "grid.original.json").exists()):
+        report.error("exercise-permission",
+                     "the original exercise data may only be added after permission is received",
+                     rel(grid))
+
+
+# --------------------------------------------------------------------------- #
 # Output
 # --------------------------------------------------------------------------- #
 def print_report(report: Report, verbose: bool, stream=sys.stdout):
@@ -554,11 +664,13 @@ def hook_mode() -> int:
     check_image_sizes(report, relevant)
     check_product_names(report)
     check_translation_sync(report, changed, langs)
+    check_exercise(report, cfg, langs)
 
     keep = {"translation-missing", "translation-orphan", "nav-missing-page",
             "nav-translation-missing", "broken-link", "broken-image",
             "translation-not-updated", "image-too-large", "alt-text-missing",
-            "product-name-translated"}
+            "product-name-translated", "exercise-strings", "exercise-data",
+            "exercise-permission"}
     changed_rel = {rel(f) for f in relevant}
     findings = [f for f in report.items if f.category in keep
                 and (f.level == "error" or f.path in changed_rel or f.path == "mkdocs.yml")]
@@ -633,6 +745,7 @@ def main(argv=None) -> int:
     check_product_names(report)
     check_image_files(report, langs, scope)
     check_translation_images(report, langs, sorted(en_pages))
+    check_exercise(report, cfg, langs)
 
     print_report(report, args.verbose)
     return 1 if report.errors else 0

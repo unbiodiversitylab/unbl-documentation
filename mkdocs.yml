@@ -144,6 +144,7 @@ plugins:
             ELSA Integrated Spatial Planning Tool: Herramienta de Planificación Espacial Integrada ELSA
             Overview: Descripción General
             Tool Purpose and Key Features: Propósito de la Herramienta y Características Clave
+            "Try It First: A Hands-on Planning Exercise": "Pruébelo primero: un ejercicio práctico de planificación"
             Registration and Access: Registro y Acceso
             Creating a New Analysis: Crear un Nuevo Análisis
             Editing an Analysis: Editar un Análisis
@@ -215,6 +216,7 @@ plugins:
             ELSA Integrated Spatial Planning Tool: Outil de Planification Spatiale Intégrée ELSA
             Overview: Aperçu
             Tool Purpose and Key Features: Objectif de l'Outil et Caractéristiques Principales
+            "Try It First: A Hands-on Planning Exercise": "Essayez d'abord : un exercice pratique de planification"
             Registration and Access: Inscription et Accès
             Creating a New Analysis: Créer une Nouvelle Analyse
             Editing an Analysis: Modifier une Analyse
@@ -286,6 +288,7 @@ plugins:
             ELSA Integrated Spatial Planning Tool: Ferramenta de Planeamento Espacial Integrado ELSA
             Overview: Visão Geral
             Tool Purpose and Key Features: Objetivo da Ferramenta e Principais Funcionalidades
+            "Try It First: A Hands-on Planning Exercise": "Experimente primeiro: um exercício prático de planeamento"
             Registration and Access: Registo e Acesso
             Creating a New Analysis: Criar uma Nova Análise
             Editing an Analysis: Editar uma Análise
@@ -357,6 +360,7 @@ plugins:
             ELSA Integrated Spatial Planning Tool: Инструмент интегрированного пространственного планирования ELSA
             Overview: Обзор
             Tool Purpose and Key Features: Для чего предназначен инструмент ELSA
+            "Try It First: A Hands-on Planning Exercise": "Попробуйте сначала: практическое упражнение по планированию"
             Registration and Access: Регистрация на UNBL и запрос доступа к рабочему пространству с конфигурацией инструмента ELSA
             Creating a New Analysis: Создание нового анализа ELSA
             Editing an Analysis: Редактирование анализа ELSA
@@ -443,6 +447,14 @@ extra_javascript:
   # modern browsers. Do not re-add polyfill.io / cdn.polyfill.io.
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - wordpress-site/notify-parent.js
+  # ELSA planning exercise: does nothing unless the page contains the exercise
+  - elsa/exercise/loader.js
+
+# Pages that `mkdocs serve` shows but the published site leaves out.
+# The ELSA planning exercise stays here until every approval in
+# elsa-planning-exercise/PERMISSIONS.md is received (check_docs.py enforces this).
+draft_docs: |
+  elsa/planning_exercise*.md
 
 # Extra Configuration
 extra:
@@ -496,6 +508,7 @@ nav:
       - elsa/index.md
       - Overview: elsa/01_overview.md
       - Tool Purpose and Key Features: elsa/02_tool_purpose.md
+      - "Try It First: A Hands-on Planning Exercise": elsa/planning_exercise.md
       - Registration and Access: elsa/03_registration.md
       - Creating a New Analysis: elsa/04_creating_analysis.md
       - Editing an Analysis: elsa/05_editing_analysis.md
