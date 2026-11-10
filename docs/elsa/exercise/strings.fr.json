@@ -1,6 +1,7 @@
 {
   "_about": "Libellés de l'interface de l'exercice de planification ELSA. Traducteurs : ne modifiez que le texte de droite. Conservez exactement les mots entre {accolades}.",
-  "_source_rev": "47080e3c8a7bf3802aee9d15100f256c1f14d141",
+  "_source_rev": "ee61d8032f2a8636a17c74b5d36079877610e731",
+  "currency": "USD",
   "loading": "Chargement de l'exercice…",
   "load_error": "Impossible de charger l'exercice. Veuillez recharger la page.",
   "grid_label_min": "Grille de planification de 100 unités de planification. Utilisez les touches fléchées pour vous déplacer et la barre d'espace pour sélectionner ou désélectionner.",

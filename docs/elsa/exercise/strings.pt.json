@@ -1,6 +1,7 @@
 {
   "_about": "Etiquetas da interface do exercício de planeamento ELSA. Tradutores: alterem apenas o texto à direita. Mantenham as palavras entre {chavetas} exatamente como estão.",
-  "_source_rev": "47080e3c8a7bf3802aee9d15100f256c1f14d141",
+  "_source_rev": "ee61d8032f2a8636a17c74b5d36079877610e731",
+  "currency": "USD",
   "loading": "A carregar o exercício…",
   "load_error": "Não foi possível carregar o exercício. Volte a carregar a página.",
   "grid_label_min": "Grelha de planeamento com 100 unidades de planeamento. Utilize as teclas de seta para se deslocar e a barra de espaço para selecionar ou desmarcar.",

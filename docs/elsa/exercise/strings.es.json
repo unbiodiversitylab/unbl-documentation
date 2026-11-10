@@ -1,6 +1,7 @@
 {
   "_about": "Etiquetas de la interfaz del ejercicio de planificación de ELSA. Traductores: cambien solo el texto de la derecha. Mantengan exactamente igual las palabras entre {llaves}.",
-  "_source_rev": "47080e3c8a7bf3802aee9d15100f256c1f14d141",
+  "_source_rev": "ee61d8032f2a8636a17c74b5d36079877610e731",
+  "currency": "USD",
   "loading": "Cargando el ejercicio…",
   "load_error": "No se pudo cargar el ejercicio. Vuelva a cargar la página.",
   "grid_label_min": "Cuadrícula de planificación de 100 unidades de planificación. Use las teclas de flecha para moverse y la barra espaciadora para seleccionar o deseleccionar.",
