@@ -1,6 +1,7 @@
 {
-  "_about": "Interface labels for the ELSA planning exercise. Translators: change only the text on the right. Keep words in {curly brackets} exactly as they are.",
+  "_about": "Interface labels for the ELSA planning exercise. Translators: change only the text on the right. Keep words in {curly brackets} exactly as they are. \"currency\" is the currency for costs as a three-letter code (USD); keep it the same in every language so amounts mean the same everywhere.",
   "_source_rev": "",
+  "currency": "USD",
   "loading": "Loading the exercise…",
   "load_error": "The exercise could not be loaded. Please reload the page.",
   "grid_label_min": "Planning grid of 100 planning units. Use the arrow keys to move and Space to select or deselect.",

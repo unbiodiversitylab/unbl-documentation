@@ -547,8 +547,11 @@ def check_exercise(report: Report, cfg, langs: list[str]):
             report.error("exercise-strings", f"label '{key}' is missing", rel(f))
         for key in sorted(set(tr) - set(base)):
             report.error("exercise-strings", f"label '{key}' is not in the English file", rel(f))
+        if not re.fullmatch(r"[A-Z]{3}", str(tr.get("currency", "USD"))):
+            report.error("exercise-strings", "'currency' must be a three-letter currency code "
+                         f"such as USD (found '{tr.get('currency')}')", rel(f))
         for key in sorted(set(base) & set(tr)):
-            if key.startswith("_"):
+            if key.startswith("_") or key == "currency":
                 continue
             want, got = sorted(PLACEHOLDER.findall(base[key])), sorted(PLACEHOLDER.findall(tr[key]))
             if want != got:

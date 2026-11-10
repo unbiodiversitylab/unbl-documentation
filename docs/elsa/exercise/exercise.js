@@ -27,6 +27,23 @@
     return s;
   }
   function num(x) { return NF ? NF.format(x) : String(Math.round(x * 10) / 10); }
+  /* Costs as money, in the currency set by the "currency" label (the same
+     currency in every language, so amounts mean the same everywhere),
+     written the local way: $1,805 in English, 1805 $ in French. */
+  var MF = null;
+  function money(x) {
+    if (MF === null) {
+      MF = false;
+      try {
+        MF = new Intl.NumberFormat(LANG, { style: 'currency', currency: T.currency || 'USD',
+          currencyDisplay: 'narrowSymbol', minimumFractionDigits: 0, maximumFractionDigits: 0 });
+      } catch (e) {
+        try { MF = new Intl.NumberFormat(LANG, { style: 'currency', currency: T.currency || 'USD', maximumFractionDigits: 0 }); }
+        catch (e2) { MF = false; }
+      }
+    }
+    return MF ? MF.format(x) : '$' + num(x);
+  }
   function el(tag, attrs, kids) {
     var e = document.createElement(tag);
     if (attrs) {
@@ -335,7 +352,7 @@
     function describe(i) {
       var parts = [position(D, i)];
       M.features.forEach(function (f) { parts.push(t('feature_' + f) + ' ' + num(M.amounts[f][i])); });
-      parts.push(t('cost') + ' ' + num(M.cost[i]));
+      parts.push(t('cost') + ' ' + money(M.cost[i]));
       parts.push(shown[i] ? t('selected') : t('not_selected'));
       details.textContent = parts.join(' · ');
     }
@@ -350,17 +367,17 @@
             var a = M.amounts[f][i];
             return el('span', { class: 'pe-f pe-f' + k + (a ? '' : ' is-zero'), text: num(a) });
           })));
-          c.firstChild.appendChild(el('span', { class: 'pe-cost', text: num(M.cost[i]) }));
+          c.firstChild.appendChild(el('span', { class: 'pe-cost', text: money(M.cost[i]) }));
         } else {
           var v = view === 'cost' ? M.cost[i] : M.amounts[view][i];
           shade(c, v / maxOf[view]);
-          c.firstChild.textContent = view === 'cost' || v ? num(v) : '';
+          c.firstChild.textContent = view === 'cost' ? money(v) : v ? num(v) : '';
         }
         c.classList.toggle('pe-view-all', view === 'all');
         c.classList.toggle('is-selected', !!shown[i]);
         c.classList.toggle('pe-view-cost', view === 'cost');
         c.setAttribute('aria-pressed', shown[i] ? 'true' : 'false');
-        c.setAttribute('aria-label', position(D, i) + ', ' + t('cost') + ' ' + num(M.cost[i]) + ', ' +
+        c.setAttribute('aria-label', position(D, i) + ', ' + t('cost') + ' ' + money(M.cost[i]) + ', ' +
           M.features.map(function (f) { return t('feature_' + f) + ' ' + num(M.amounts[f][i]); }).join(', '));
         c.setAttribute('aria-disabled', showing === 'mine' ? 'false' : 'true');
       }
@@ -371,7 +388,7 @@
           return [t('feature_' + f), num(M.targets[f]), num(s.amounts[f]), num(s.shortfall[f])];
         })));
       summary.appendChild(el('p', { class: 'pe-score' }, [
-        el('span', { text: t('cost') + ' ' + num(s.cost) }), ' + ',
+        el('span', { text: t('cost') + ' ' + money(s.cost) }), ' + ',
         el('span', { text: t('boundary_penalty') + ' ' + num(s.boundaryPenalty) +
           ' (' + num(bpf) + ' × ' + num(s.boundary) + ')' }), ' + ',
         el('span', { text: t('shortfall_penalty') + ' ' + num(s.shortfallPenalty) +
@@ -393,9 +410,9 @@
       compare.textContent = '';
       compare.appendChild(el('h4', { text: t('compare') + ' (' + t('bpf') + ' ' + num(bpf) + ')' }));
       compare.appendChild(table([t('answer'), t('cost'), t('boundary'), t('shortfall'), t('score')], [
-        [t('you'), num(mineS.cost), num(mineS.boundary), num(mineS.totalShortfall), num(mineS.score)],
-        [t('search')].concat(sr ? [num(sr.cost), num(sr.boundary), num(sr.totalShortfall), num(sr.score)] : [dash, dash, dash, dash]),
-        [t('best'), num(best.cost), num(best.boundary), num(0), num(best.score)]
+        [t('you'), money(mineS.cost), num(mineS.boundary), num(mineS.totalShortfall), num(mineS.score)],
+        [t('search')].concat(sr ? [money(sr.cost), num(sr.boundary), num(sr.totalShortfall), num(sr.score)] : [dash, dash, dash, dash]),
+        [t('best'), money(best.cost), num(best.boundary), num(0), num(best.score)]
       ], 'pe-compare-table'));
     }
 
