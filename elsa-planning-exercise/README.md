@@ -10,7 +10,8 @@ guide. It has two tabs:
   actions Protect, Restore or Manage within an area-based target per action, with
   action zones, protected-area lock-in, feature weights and a boundary penalty.
   This is a small version of the problem the ELSA tool solves
-  (`add_max_utility_objective` in unbl-elsa's `define_prioritization_problem.R`).
+  (`add_max_utility_objective` in unbl-elsa's `define_prioritization_problem.R`;
+  prioritizr 9 renamed it `add_max_wtd_sum_objective`).
 
 See [PLAN.md](PLAN.md) for the design and [PERMISSIONS.md](PERMISSIONS.md) for
 what must happen before it is published.
@@ -44,7 +45,9 @@ python scripts/check_docs.py                    # recomputes stored scores with 
 ```
 
 `solve.R` needs the R packages prioritizr (8 or later), highs, terra and
-jsonlite. If you change the scoring in `exercise.js`, change `solve.R`,
+jsonlite. It works with prioritizr 8 and 9: it uses
+`add_max_wtd_sum_objective` where it exists and `add_max_utility_objective`
+otherwise (the same function, renamed in prioritizr 9). If you change the scoring in `exercise.js`, change `solve.R`,
 `verify_solutions.py` and `check_exercise()` in `scripts/check_docs.py` to match.
 
 The shortfall penalty (100 per unit) must stay high enough that meeting every

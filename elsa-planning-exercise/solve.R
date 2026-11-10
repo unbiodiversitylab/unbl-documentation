@@ -9,7 +9,8 @@
 # 5% gap (unbl-elsa/ELSA/R/define_prioritization_problem.R).
 #
 # Tab 1 ("lowest cost"): add_min_set_objective, one run per BPF option.
-# Tab 2 ("ELSA-style"): add_max_utility_objective with zones, per-action area
+# Tab 2 ("ELSA-style"): add_max_utility_objective (renamed
+# add_max_wtd_sum_objective in prioritizr 9) with zones, per-action area
 # limits as linear constraints, protected-area lock-in, feature weights and
 # boundary penalties, set up the same way as unbl-elsa. One run per BPF option,
 # with and without lock-in, at the default limits and weights.
@@ -112,11 +113,21 @@ value_of <- function(alloc, weights) {
   tot
 }
 
+# prioritizr 9 renamed add_max_utility_objective() to add_max_wtd_sum_objective()
+# (the old name still works there but warns), so use whichever this version has,
+# as elsar's elsar_calibrate_weights() does.
+max_obj_name <- if (exists("add_max_wtd_sum_objective", asNamespace("prioritizr"))) {
+  "add_max_wtd_sum_objective"
+} else {
+  "add_max_utility_objective"
+}
+add_max_objective <- getExportedValue("prioritizr", max_obj_name)
+
 e$solutions <- list()
 lim <- e$defaults$limits; w <- e$defaults$weights
 for (lock in c(TRUE, FALSE)) for (bpf in unlist(e$bpfOptions)) {
   p <- problem(costs, z) |>
-    add_max_utility_objective(budget = sum(unlist(lim))) |>
+    add_max_objective(budget = sum(unlist(lim))) |>
     add_binary_decisions() |>
     add_feature_weights(matrix(rep(unlist(w)[fs], length(acts)), ncol = length(acts)))
   for (a in acts) {
@@ -141,8 +152,8 @@ for (lock in c(TRUE, FALSE)) for (bpf in unlist(e$bpfOptions)) {
     value = round(val, 2),
     boundary = b_len,
     score = round(val - bpf * b_len, 2),
-    method = sprintf("prioritizr %s, add_max_utility_objective with zones, HiGHS, gap 0",
-                     as.character(packageVersion("prioritizr")))
+    method = sprintf("prioritizr %s, %s with zones, HiGHS, gap 0",
+                     as.character(packageVersion("prioritizr")), max_obj_name)
   )
   cat(sprintf("elsa  lock-in %-5s BPF %-3s  P %2d R %2d M %2d  value %7.1f  boundary %4d  score %7.1f\n",
               lock, bpf, sum(alloc == "protect"), sum(alloc == "restore"), sum(alloc == "manage"),
