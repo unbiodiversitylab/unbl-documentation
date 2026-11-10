@@ -1,5 +1,5 @@
 ---
-source_rev: bb4fcb9fbf090a2f79f72b5f2e2d6126feaaf8ef
+source_rev: 47080e3c8a7bf3802aee9d15100f256c1f14d141
 translation_status: machine
 ---
 # Pruébelo primero: un ejercicio práctico de planificación
@@ -29,7 +29,7 @@ La primera pestaña de abajo es el rompecabezas clásico con el que aprenden muc
 
     Cada cuadrado es una [unidad de planificación](12_annex1.md#planning-units). Cada unidad de planificación tiene un costo y una cantidad de tres características de planificación: A, B y C.
 
-    1. En **Mostrar en el mapa**, elija lo que muestra la cuadrícula: el costo o la cantidad de una característica.
+    1. Cada unidad de planificación muestra las cantidades de las características A, B y C, y su costo. Para ver un solo valor a la vez, elíjalo en **Mostrar en el mapa**.
     2. Haga clic en las unidades de planificación para seleccionarlas, o use las teclas de flecha y la barra espaciadora. Haga clic de nuevo en una unidad de planificación seleccionada para quitarla.
     3. Cumpla todas las metas de representación de la tabla con la puntuación más baja que pueda.
     4. Elija **Buscar con la computadora** y **Mostrar la mejor respuesta** para comparar su respuesta con la de la computadora.

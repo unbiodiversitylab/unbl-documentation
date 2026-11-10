@@ -1,5 +1,5 @@
 ---
-source_rev: bb4fcb9fbf090a2f79f72b5f2e2d6126feaaf8ef
+source_rev: 47080e3c8a7bf3802aee9d15100f256c1f14d141
 translation_status: machine
 ---
 
@@ -30,7 +30,7 @@ O primeiro separador abaixo apresenta o problema clássico com que muitos planea
 
     Cada quadrado é uma [unidade de planeamento](12_annex1.md#planning-units). Cada unidade de planeamento tem um custo e uma quantidade de três características de planeamento: A, B e C.
 
-    1. Em **Mostrar no mapa**, escolha o que a grelha mostra: o custo ou a quantidade de uma característica.
+    1. Cada unidade de planeamento mostra as quantidades das características A, B e C, e o seu custo. Para ver um só valor de cada vez, escolha-o em **Mostrar no mapa**.
     2. Clique nas unidades de planeamento para as selecionar, ou utilize as teclas de seta e a barra de espaço. Clique novamente numa unidade de planeamento selecionada para a retirar.
     3. Atinja todos os alvos da tabela com a pontuação mais baixa possível.
     4. Escolha **Deixar o computador pesquisar** e **Mostrar a melhor resposta** para comparar a sua resposta com a do computador.

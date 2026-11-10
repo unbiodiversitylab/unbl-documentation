@@ -1,5 +1,5 @@
 ---
-source_rev: bb4fcb9fbf090a2f79f72b5f2e2d6126feaaf8ef
+source_rev: 47080e3c8a7bf3802aee9d15100f256c1f14d141
 translation_status: machine
 ---
 
@@ -30,7 +30,7 @@ Le premier onglet ci-dessous présente le problème classique avec lequel de nom
 
     Chaque carré est une [unité de planification](12_annex1.md#planning-units). Chaque unité de planification a un coût et contient une certaine quantité de trois caractéristiques de planification : A, B et C.
 
-    1. Sous **Afficher sur la carte**, choisissez ce que la grille affiche : le coût, ou la quantité d'une caractéristique.
+    1. Chaque unité de planification affiche les quantités des caractéristiques A, B et C, et son coût. Pour voir une seule valeur à la fois, choisissez-la sous **Afficher sur la carte**.
     2. Cliquez sur des unités de planification pour les sélectionner, ou utilisez les touches fléchées et la barre d'espace. Cliquez à nouveau sur une unité de planification sélectionnée pour la retirer.
     3. Atteignez toutes les cibles du tableau, avec le score le plus bas possible.
     4. Choisissez **Laisser l'ordinateur chercher** puis **Afficher la meilleure solution** pour comparer votre solution avec celle de l'ordinateur.
