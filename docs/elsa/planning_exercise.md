@@ -44,7 +44,7 @@ The first tab below is the classic puzzle that many planners learn with. The sec
     !!! tip "What this means in ELSA"
         The ELSA tool uses the same [boundary penalty factor](05_editing_analysis.md#fig-adjust-bpf) to make action zones more compact. But it does not look for the lowest cost. The second tab shows what it does instead.
 
-=== "Most value in the area available (ELSA-style)"
+=== "ELSA-style"
 
     Here each planning unit can get one of three actions: **Protect**, **Restore** or **Manage**. Each action has an [area-based target](12_annex1.md#area-based-target): the largest number of planning units it may cover. Your aim is to secure as much weighted value as possible for four planning features: biodiversity, carbon storage, water provision and livelihoods.
 

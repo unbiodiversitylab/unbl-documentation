@@ -120,3 +120,11 @@
 .pe-compare-table th, .pe-compare-table td { white-space: nowrap; }
 
 @media print { .pe-buttons, .pe-settings { display: none; } }
+
+/* Fieldsets default to their content's width; let them wrap on phones. */
+.pe-brush, .pe-settings fieldset { min-width: 0; }
+.pe-controls > * { min-width: 0; max-width: 100%; }
+.pe-field select { max-width: 100%; }
+.pe-table-wrap { max-width: 100%; overflow-x: auto; margin: 0 0 0.8em; }
+.planning-exercise .pe-table-wrap .pe-table { margin: 0; }
+.planning-exercise .pe-table thead th { hyphens: auto; overflow-wrap: break-word; }

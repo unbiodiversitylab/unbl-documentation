@@ -28,9 +28,11 @@ what must happen before it is published.
 | `solve.R` | Adds the best answers, calculated with prioritizr and HiGHS. |
 | `verify_solutions.py` | Independent check of those answers with scipy. |
 
-The page is in `draft_docs`, so `mkdocs serve` shows it at
-<http://127.0.0.1:8000/unbl-documentation/elsa/planning_exercise/> but the
-published site does not include it.
+The page is in `draft_docs`, so `mkdocs serve` shows it (for example
+<http://127.0.0.1:8000/unbl-documentation/fr/elsa/planning_exercise/>) but the
+published site does not include it. On its own, `mkdocs serve` would only show
+the English draft; `hooks/serve_drafts.py` makes the translated drafts
+previewable too. It has no effect on `mkdocs build`.
 
 ## Changing the data
 

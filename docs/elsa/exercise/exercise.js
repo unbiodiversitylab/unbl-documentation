@@ -229,10 +229,11 @@
         return el(k === 0 ? 'th' : 'td', k === 0 ? { scope: 'row', text: c } : { text: c });
       })));
     });
-    return el('table', { class: 'pe-table ' + (cls || '') }, [
+    // Wrapped so a wide table scrolls on its own instead of widening the page.
+    return el('div', { class: 'pe-table-wrap' }, [el('table', { class: 'pe-table ' + (cls || '') }, [
       el('thead', null, [el('tr', null, head.map(function (h) { return el('th', { scope: 'col', text: h }); }))]),
       tb
-    ]);
+    ])]);
   }
   function banner() { return el('p', { class: 'pe-banner', role: 'status', hidden: 'hidden' }); }
   function shade(cell, v) { cell.style.setProperty('--pe-v', String(Math.max(0, Math.min(1, v)))); }

@@ -395,6 +395,7 @@ plugins:
 # Appends includes/abbreviations[.<lang>].md to each page so acronyms get tooltips
 hooks:
   - hooks/abbreviations.py
+  - hooks/serve_drafts.py   # draft pages previewable in every language (serve only)
 
 # Markdown Extensions
 markdown_extensions:
