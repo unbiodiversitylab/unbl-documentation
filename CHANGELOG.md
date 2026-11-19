@@ -19,6 +19,10 @@ Add an entry under **Unreleased** in the same PR as your change. Group entries a
   as a separate language (#43).
 
 ### Content
+- Workspaces, adding data: Google Earth Engine layers can now show one band of a
+  multi-band asset, and an image collection filtered to a date range (with a choice of
+  composite), in all five languages; the translations are machine drafts awaiting
+  native review.
 - ELSA Annex 3: data layer change log, in all five languages, linked from Annex 2 and
   the ELSA guide index.
 - What's new page (all five languages); data storage info sheet added to the Workspaces

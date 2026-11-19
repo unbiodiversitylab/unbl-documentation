@@ -1,5 +1,5 @@
 ---
-source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
+source_rev: 2cae3f6a4836250e9c07d2fc3041ce758f6ed511
 translation_status: machine
 ---
 
@@ -150,7 +150,7 @@ O UNBL suporta a configuração de camadas de imagem raster para o seu espaço d
 
 ## Como configuro camadas raster usando Google Earth Engine (GEE)?
 
-Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria conta ou de uma conta pública, pode fazê-lo configurando um recurso raster de banda única GEE. Atualmente, não suportamos a configuração de rasters multi-banda ou dados vetoriais do GEE. Para configurar recursos raster de banda única GEE:
+Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria conta ou de uma conta pública, pode fazê-lo configurando um recurso raster GEE. Pode ser uma única imagem ou uma coleção de imagens (como uma série temporal de satélite) filtrada por um intervalo de datas. Atualmente, não suportamos a configuração de dados vetoriais do GEE. Para configurar um recurso raster GEE:
 
 1. Se estiver a configurar um recurso do seu projeto Cloud pessoal, assegure-se de que a caixa 'Anyone can read' está marcada para este recurso.
 
@@ -166,17 +166,36 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	b.	*Layer provider*: Selecione 'Google Earth Engine'.
 
-	c.	*Asset Path*: Copie e cole o ID da imagem do seu recurso GEE. Qualquer ID de imagem pode ser configurado no UNBL, desde que seja uma imagem raster de banda única. Pode ser um ID de imagem do seu projeto Cloud GEE pessoal, ou qualquer outro projeto Cloud GEE partilhado ou conjunto de dados GEE disponível publicamente, como um do catálogo público [awesome-gee-community-catalog](https://gee-community-catalog.org/), que fornece acesso a mais de 4.000 recursos GEE públicos.
+	c.	*Asset Path*: Copie e cole o ID do seu recurso GEE. Trata-se de um ID de imagem, ou de um ID de coleção de imagens se definir um filtro de datas (passo f). Pode ser um ID do seu projeto Cloud GEE pessoal, ou qualquer outro projeto Cloud GEE partilhado ou conjunto de dados GEE disponível publicamente, como um do catálogo público [awesome-gee-community-catalog](https://gee-community-catalog.org/), que fornece acesso a mais de 4.000 recursos GEE públicos.
 
 	![Janela Asset details do Google Earth Engine com o ID da imagem destacado](images/add-data-07.png)
 
-	d.	*Data type*: Especifique se a imagem raster contém dados 'categorical' ou 'continuous'. Os dados categóricos representam classes ou categorias discretas onde cada valor de pixel representa um tipo ou classe distinto. Os conjuntos de dados contínuos representam dados onde os valores podem cair em qualquer lugar dentro de uma gama de valores especificada.
+	d.	*Banda (opcional)*: Se o recurso tiver mais de uma banda, introduza o nome da banda a mostrar, por exemplo `NDVI`. Pode encontrar os nomes das bandas no separador 'BANDS' da caixa de informação 'Asset details' do seu recurso no GEE. O mapa, o estilo da camada e os valores de pixel que os utilizadores veem ao clicar no mapa utilizam todos esta banda. Para um recurso de banda única, deixe este campo vazio.
 
-	e.	*Minimum/Maximum zoom level (opcional)*: A gama de nível de zoom por defeito está definida de 0 a 14. Pode opcionalmente especificar os níveis de zoom para a camada se a imagem raster apenas contém dados em certos níveis de zoom. Note que o UNBL suporta um nível de zoom máximo de 14.
+	!!! note
+		Um recurso multibanda sem *Banda* não é apresentado, a menos que escreva um SLD que selecione uma banda (passo i).
+
+	e.	*Data type*: Especifique se a imagem raster contém dados 'categorical' ou 'continuous'. Os dados categóricos representam classes ou categorias discretas onde cada valor de pixel representa um tipo ou classe distinto. Os conjuntos de dados contínuos representam dados onde os valores podem cair em qualquer lugar dentro de uma gama de valores especificada.
+
+	f.	*Filtro de datas (opcional)*: Para mostrar uma coleção de imagens, introduza uma *Data de início*, uma *Data de término* ou ambas. O UNBL utiliza as imagens da coleção captadas entre as duas datas, incluindo ambos os dias (as datas estão em UTC), e combina-as numa só imagem. Apenas com uma *Data de início*, utiliza todas as imagens a partir desse dia; apenas com uma *Data de término*, todas as imagens até esse dia, inclusive. Quando define uma data, o *Asset Path* tem de ser um ID de coleção de imagens. Depois de definir uma data, escolha como as imagens são combinadas em *Composição*:
+
+	- *Mosaico (a mais recente por cima)* – onde as imagens se sobrepõem, é mostrada a mais recente. Esta é a opção predefinida.
+
+	- *Mediana*, *Média*, *Mínimo* ou *Máximo* – cada pixel mostra a mediana, a média, o valor mais baixo ou o mais alto desse pixel no conjunto das imagens. Para imagens de satélite, *Mediana* dá normalmente uma imagem mais limpa, porque reduz o efeito das nuvens e das falhas em imagens individuais.
+
+	Deixe ambas as datas vazias para mostrar uma única imagem.
+
+	!!! tip
+		Para permitir que os utilizadores comparem anos, crie uma camada por ano, cada uma com a mesma coleção de imagens e um filtro de datas diferente. Depois, combine-as numa camada agrupada com um seletor de camadas (veja ['Como crio camadas agrupadas?'](#como-crio-camadas-agrupadas)).
+
+	!!! note
+		Um intervalo de datas longo numa coleção grande (por exemplo, um ano de imagens Sentinel-2) pode tornar lento o carregamento da camada da primeira vez que cada zona do mapa é visualizada. Se a camada não for apresentada, verifique se o *Asset Path* é uma coleção de imagens, se a coleção tem imagens entre as suas datas e se a *Banda* existe nela.
+
+	g.	*Minimum/Maximum zoom level (opcional)*: A gama de nível de zoom por defeito está definida de 0 a 14. Pode opcionalmente especificar os níveis de zoom para a camada se a imagem raster apenas contém dados em certos níveis de zoom. Note que o UNBL suporta um nível de zoom máximo de 14.
 
 	![Configuração da camada com o fornecedor Google earth engine e o ID da imagem colado em Asset Path](images/add-data-08.png)
 
-	f.	*Layer styling*: O estilo da camada determina como a legenda do recurso GEE é exibida no mapa e é também usado para gerar o Styled Layer Description (SLD), que influencia o estilo do recurso GEE na vista do mapa. Clicando em 'ADD ADDITIONAL STYLING' pode especificar qualquer número de entradas de estilo de camada (também conhecidas como *classes* ou *limiares*) para corresponder aos valores na imagem raster. Cada entrada de estilo de camada deve definir as seguintes propriedades:
+	h.	*Layer styling*: O estilo da camada determina como a legenda do recurso GEE é exibida no mapa e é também usado para gerar o Styled Layer Description (SLD), que influencia o estilo do recurso GEE na vista do mapa. Clicando em 'ADD ADDITIONAL STYLING' pode especificar qualquer número de entradas de estilo de camada (também conhecidas como *classes* ou *limiares*) para corresponder aos valores na imagem raster. Cada entrada de estilo de camada deve definir as seguintes propriedades:
 
 	- *Value* - o valor de pixel nos dados para o qual definir o estilo.
 
@@ -184,7 +203,7 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	- *Color* – a cor dos pixels com o valor especificado no mapa. Pode definir uma cor através do seletor de cor manual, ou introduzindo um valor RGBA ou Hexadecimal. Opcionalmente, pode definir a opacidade da cor numa gama de 0 a 100%, onde 0% é totalmente transparente e 100% é totalmente opaco.
 
-	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores. É importante notar que os valores de pixel mínimo e máximo, e portanto a gama de valores, podem ser derivados diretamente visualizando o separador 'BANDS' na caixa de informação 'Asset details' do seu recurso no GEE. O exemplo de estilo de camada abaixo cria uma paleta de cores contínua para concentração de stock de carbono.
+	Também pode opcionalmente escolher se a etiqueta de nome de uma entrada de estilo está oculta na legenda da camada no mapa clicando no ícone ![Alternar visibilidade (olho)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} ao lado da entrada de estilo. Para camadas categóricas, as entradas de valor de estilo de camada devem mapear para os valores de cada categoria/classe dentro da fonte de dados raster. Para camadas contínuas, as entradas de valor de estilo de camada devem mapear para a gama de valores dentro do seu ficheiro raster que deseja renderizar no mapa. Pode especificar quaisquer pontos ao longo da gama de valores entre os valores mínimo e máximo -- será gerado um gradiente de cores entre cada um destes valores. É importante notar que os valores de pixel mínimo e máximo, e portanto a gama de valores, podem ser derivados diretamente visualizando o separador 'BANDS' na caixa de informação 'Asset details' do seu recurso no GEE. Se definiu uma *Banda* (passo d), utilize os valores dessa banda. O exemplo de estilo de camada abaixo cria uma paleta de cores contínua para concentração de stock de carbono.
 
 	![Separador BANDS dos detalhes do recurso no Google Earth Engine com os valores Min e Max destacados](images/add-data-09.png)
 
@@ -194,7 +213,7 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	![Entradas categóricas de Layer styling que associam cores a nove classes de cobertura do solo](images/add-data-11.png)
 
-	g.	*Styled Layer Description (SLD)*: Clique no botão 'GENERATE GEE SLD' para gerar automaticamente um SLD para configurar o estilo do seu recurso GEE no UNBL, com base nos parâmetros que definiu para o *Layer styling* no passo f. Enquanto o estilo da camada determina o estilo da legenda da camada, o SLD determinará o estilo dos pixels reais nos seus dados. Com base nos exemplos fornecidos no passo f, a configuração SLD para um esquema de cores contínuo para concentração de stock de carbono seria assim:
+	i.	*Styled Layer Description (SLD)*: Clique no botão 'GENERATE GEE SLD' para gerar automaticamente um SLD para configurar o estilo do seu recurso GEE no UNBL, com base nos parâmetros que definiu para o *Layer styling* no passo h. Enquanto o estilo da camada determina o estilo da legenda da camada, o SLD determinará o estilo dos pixels reais nos seus dados. Com base nos exemplos fornecidos no passo h, a configuração SLD para um esquema de cores contínuo para concentração de stock de carbono seria assim:
 
 	```
 
@@ -231,7 +250,7 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 
 	```
 
-	Onde cada cor ColorMapEntry e quantidade de pixel associada corresponde exatamente a uma linha de entrada de estilo de camada do passo f.
+	Onde cada cor ColorMapEntry e quantidade de pixel associada corresponde exatamente a uma linha de entrada de estilo de camada do passo h.
 
 	![Entradas de Layer styling com o botão GENERATE GEE SLD e o código SLD gerado por baixo](images/add-data-12.png)
 

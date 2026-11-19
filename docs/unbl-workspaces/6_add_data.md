@@ -156,7 +156,7 @@ UNBL supports the configuration of raster image layers to your workspace by link
 
 ## How do I configure raster layers using Google Earth Engine (GEE)? 
 
-If you want to display GEE assets in your UNBL workspace from your own account or a public account, then you can do so by configuring a GEE single-band raster asset. Currently, we do not support configuration of multi-band rasters or vector data from GEE. To configure GEE single-band raster assets:
+If you want to display GEE assets in your UNBL workspace from your own account or a public account, then you can do so by configuring a GEE raster asset. This can be a single image, or an image collection (such as a satellite time series) filtered to a date range. Currently, we do not support configuration of vector data from GEE. To configure a GEE raster asset:
 
 1. If you are configuring an asset from your personal Cloud Project, ensure that the ‘Anyone can read’ box is checked for this asset.
 
@@ -172,17 +172,36 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 
 	b.	*Layer provider*: Select ‘Google earth engine’.
 	
-	c.	*Asset Path*: Copy and paste the image ID of your GEE asset. Any image ID can be configured on UNBL, provided that it is a single raster band image. It can be an image ID of your personal GEE Cloud Project, or any other shared GEE Cloud Project or publicly available GEE dataset, such as one from the public catalogue [awesome-gee-community-catalog](https://gee-community-catalog.org/), which provides access to over 4,000 public GEE assets. 
+	c.	*Asset Path*: Copy and paste the ID of your GEE asset. This is an image ID, or an image collection ID if you set a date filter (step f). It can be an ID from your personal GEE Cloud Project, or any other shared GEE Cloud Project or publicly available GEE dataset, such as one from the public catalogue [awesome-gee-community-catalog](https://gee-community-catalog.org/), which provides access to over 4,000 public GEE assets. 
 	
 	![Google Earth Engine Asset details window with the Image ID highlighted](images/add-data-07.png)
 	
-	d.	*Data type*: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.
+	d.	*Band (optional)*: If the asset has more than one band, enter the name of the band to show, for example `NDVI`. You can find the band names on the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The map, the layer styling and the pixel values that users see when they click on the map all use this band. For a single-band asset, leave this field empty.
 
-	e.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.
+	!!! note
+		A multi-band asset without a *Band* does not display, unless you write an SLD that selects a band yourself (step i).
+
+	e.	*Data type*: Specify whether the raster image contains ‘categorical’ or ‘continuous’ data. Categorical data represents discrete classes or categories where each pixel value represents a distinct type or class. Continuous datasets represent data where values can fall anywhere within a specified range of values.
+
+	f.	*Date filter (optional)*: To show an image collection, enter a *Start Date*, an *End Date*, or both. UNBL uses the images in the collection taken between the two dates, including both days (dates are in UTC), and combines them into one image. With only a *Start Date*, it uses all images from that day onwards; with only an *End Date*, all images up to and including that day. When you set a date, the *Asset Path* must be an image collection ID. Once a date is set, choose how the images are combined in *Composite*:
+
+	- *Mosaic (most recent on top)* – where images overlap, the most recent one is shown. This is the default.
+
+	- *Median*, *Mean*, *Minimum* or *Maximum* – each pixel shows the median, mean, lowest or highest value of that pixel across the images. For satellite imagery, *Median* usually gives a cleaner picture, because it reduces the effect of clouds and gaps in single images.
+
+	Leave both dates empty to show a single image.
+
+	!!! tip
+		To let users compare years, create one layer per year, each with the same image collection and a different date filter. Then combine them in a group layer with a layer selector (see [‘How do I create group layers?’](#how-do-i-create-group-layers)).
+
+	!!! note
+		A long date range over a large collection (for example, a year of Sentinel-2 images) can make the layer slow to load the first time each area of the map is viewed. If the layer does not display, check that the *Asset Path* is an image collection, that the collection has images between your dates, and that the *Band* exists in it.
+
+	g.	*Minimum/Maximum zoom level (optional)*: The default zoom level range is set to 0 to 14. You can optionally specify the zoom levels for the layer if the raster image only contains data at certain zoom levels. Note that UNBL supports a maximum zoom level of 14.
 	
 	![Layer configuration with Google earth engine provider and the image ID pasted as Asset Path](images/add-data-08.png)
 	
-	f.	*Layer styling*: The layer styling determines how the legend for the GEE asset is displayed on the map, and it is also used to generate the Styled Layer Description (SLD) which influences the styling of the GEE asset in the map view. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries (also known as *classes* or *thresholds*) to match the values in the raster image. Each layer styling entry should define the following properties:
+	h.	*Layer styling*: The layer styling determines how the legend for the GEE asset is displayed on the map, and it is also used to generate the Styled Layer Description (SLD) which influences the styling of the GEE asset in the map view. By clicking on ‘ADD ADDITIONAL STYLING’ you can specify any number of layer styling entries (also known as *classes* or *thresholds*) to match the values in the raster image. Each layer styling entry should define the following properties:
 
 	- *Value* - the pixel value in the data to define the styling for.
 
@@ -190,7 +209,7 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 	
 	- *Color* – the colour of pixels with the specified value on the map. You can define a colour through the manual colour picker, or by entering a RGBA or Hexadecimal value. Optionally, you can set the opacity of the colour in a range from 0 to 100%, where 0% is fully transparent and 100% is fully opaque.
 	
-	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colours between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. The example layer styling below creates a continuous colour palette for carbon stock concentration.
+	You can also optionally choose whether a styling entry’s name label is hidden in the layer legend on the map by clicking the ![Visibility toggle (eye)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} icon next to the styling entry. For categorical layers, layer styling value entries must map to the values of each category/class within the raster data source. For continuous layers, layer styling value entries must map to the range of values within your raster file that you want rendered on the map. You can specify any points along the range of values between the minimum and maximum values -- a gradient of colours between each of these values will be generated. It is important to note that the minimum and maximum pixel values, and therefore the range of values, can be derived directly from viewing the ‘BANDS’ tab in the ‘Asset details’ information box of your asset on GEE. If you set a *Band* (step d), use the values of that band. The example layer styling below creates a continuous colour palette for carbon stock concentration.
 	
 	![BANDS tab of the Google Earth Engine asset details with Min and Max values highlighted](images/add-data-09.png)
 	
@@ -200,7 +219,7 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 	
 	![Categorical layer styling entries mapping nine land cover classes to colours](images/add-data-11.png)
 	
-	g.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step f. While layer styling determines the style of the layer legend, the SLD will determine the colour style of the actual pixels in your data. Based on the examples provided in step f, the SLD configuration for a continuous colour scheme for carbon stock concentration would look like this:
+	i.	*Styled Layer Description (SLD)*: Click on the ‘GENERATE GEE SLD’ button to automatically generate a SLD for configuring your GEE asset style on UNBL, based on the parameters you set for the *Layer styling* in step h. While layer styling determines the style of the layer legend, the SLD will determine the colour style of the actual pixels in your data. Based on the examples provided in step h, the SLD configuration for a continuous colour scheme for carbon stock concentration would look like this:
 	
 	```
 	
@@ -237,7 +256,7 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 
 	```
 	
-	Where each ColorMapEntry colour and associated pixel quantity row matches exactly to a layer styling entry row from step f.
+	Where each ColorMapEntry colour and associated pixel quantity row matches exactly to a layer styling entry row from step h.
 	
 	![Layer styling entries with the GENERATE GEE SLD button and the generated SLD code below](images/add-data-12.png)
 	
