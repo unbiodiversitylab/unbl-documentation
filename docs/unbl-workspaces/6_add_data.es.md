@@ -1,5 +1,5 @@
 ---
-source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
+source_rev: 2cae3f6a4836250e9c07d2fc3041ce758f6ed511
 translation_status: machine
 ---
 # Agregar sus propios datos geoespaciales a su espacio de trabajo
@@ -149,7 +149,7 @@ UNBL soporta la configuración de capas de imagen ráster a su espacio de trabaj
 
 ## ¿Cómo configuro capas ráster usando Google Earth Engine (GEE)?
 
-Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuenta o una cuenta pública, puede hacerlo configurando un activo ráster de banda única GEE. Actualmente, no soportamos la configuración de rásters multi-banda o datos vectoriales desde GEE. Para configurar activos ráster de banda única GEE:
+Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuenta o una cuenta pública, puede hacerlo configurando un activo ráster GEE. Puede ser una sola imagen o una colección de imágenes (como una serie temporal de satélite) filtrada a un rango de fechas. Actualmente, no soportamos la configuración de datos vectoriales desde GEE. Para configurar un activo ráster GEE:
 
 1. Si está configurando un activo desde su proyecto Cloud personal, asegúrese de que la casilla 'Anyone can read' esté marcada para este activo.
 
@@ -165,17 +165,36 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	b.	*Proveedor de capa*: Seleccione 'Google earth engine'.
 
-	c.	*Asset Path*: Copie y pegue el ID de imagen de su activo GEE. Cualquier ID de imagen puede configurarse en UNBL, siempre que sea una imagen ráster de banda única. Puede ser un ID de imagen de su proyecto Cloud GEE personal, o cualquier otro proyecto Cloud GEE compartido o conjunto de datos GEE disponible públicamente, como uno del catálogo público [awesome-gee-community-catalog](https://gee-community-catalog.org/), que proporciona acceso a más de 4,000 activos GEE públicos.
+	c.	*Asset Path*: Copie y pegue el ID de su activo GEE. Es un ID de imagen, o un ID de colección de imágenes si establece un filtro de fechas (paso f). Puede ser un ID de su proyecto Cloud GEE personal, o cualquier otro proyecto Cloud GEE compartido o conjunto de datos GEE disponible públicamente, como uno del catálogo público [awesome-gee-community-catalog](https://gee-community-catalog.org/), que proporciona acceso a más de 4,000 activos GEE públicos.
 
 	![Ventana Asset details de Google Earth Engine con el ID de imagen resaltado](images/add-data-07.png)
 
-	d.	*Data type*: Especifique si la imagen ráster contiene datos 'categorical' o 'continuous'. Los datos categóricos representan clases o categorías discretas donde cada valor de píxel representa un tipo o clase distinto. Los conjuntos de datos continuos representan datos donde los valores pueden caer en cualquier lugar dentro de un rango de valores especificado.
+	d.	*Banda (opcional)*: Si el activo tiene más de una banda, introduzca el nombre de la banda que se mostrará, por ejemplo `NDVI`. Puede encontrar los nombres de las bandas en la pestaña 'BANDS' del cuadro de información 'Asset details' de su activo en GEE. El mapa, el estilo de capa y los valores de píxel que ven los usuarios al hacer clic en el mapa usan esta banda. Para un activo de banda única, deje este campo vacío.
 
-	e.	*Minimum/Maximum zoom level (opcional)*: El rango de nivel de zoom predeterminado está configurado de 0 a 14. Opcionalmente puede especificar los niveles de zoom para la capa si la imagen ráster solo contiene datos en ciertos niveles de zoom. Note que UNBL soporta un nivel de zoom máximo de 14.
+	!!! note
+		Un activo multibanda sin *Banda* no se muestra, a menos que usted escriba un SLD que seleccione una banda (paso i).
+
+	e.	*Data type*: Especifique si la imagen ráster contiene datos 'categorical' o 'continuous'. Los datos categóricos representan clases o categorías discretas donde cada valor de píxel representa un tipo o clase distinto. Los conjuntos de datos continuos representan datos donde los valores pueden caer en cualquier lugar dentro de un rango de valores especificado.
+
+	f.	*Filtro de fechas (opcional)*: Para mostrar una colección de imágenes, introduzca una *Fecha de inicio*, una *Fecha de término* o ambas. UNBL usa las imágenes de la colección tomadas entre las dos fechas, incluidos ambos días (las fechas están en UTC), y las combina en una sola imagen. Con solo una *Fecha de inicio*, usa todas las imágenes a partir de ese día; con solo una *Fecha de término*, todas las imágenes hasta ese día inclusive. Cuando establece una fecha, el *Asset Path* debe ser un ID de colección de imágenes. Una vez establecida una fecha, elija cómo se combinan las imágenes en *Composición*:
+
+	- *Mosaico (la más reciente encima)* – donde las imágenes se superponen, se muestra la más reciente. Es la opción predeterminada.
+
+	- *Mediana*, *Media*, *Mínimo* o *Máximo* – cada píxel muestra la mediana, la media, el valor más bajo o el más alto de ese píxel en las imágenes. Para imágenes de satélite, *Mediana* suele dar una imagen más limpia, porque reduce el efecto de las nubes y de los vacíos en imágenes individuales.
+
+	Deje ambas fechas vacías para mostrar una sola imagen.
+
+	!!! tip
+		Para que los usuarios puedan comparar años, cree una capa por año, cada una con la misma colección de imágenes y un filtro de fechas distinto. Luego combínelas en una capa agrupada con un selector de capas (vea ['¿Cómo creo capas agrupadas?'](#como-creo-capas-agrupadas)).
+
+	!!! note
+		Un rango de fechas largo sobre una colección grande (por ejemplo, un año de imágenes Sentinel-2) puede hacer que la capa tarde en cargarse la primera vez que se ve cada zona del mapa. Si la capa no se muestra, compruebe que el *Asset Path* sea una colección de imágenes, que la colección tenga imágenes entre sus fechas y que la *Banda* exista en ella.
+
+	g.	*Minimum/Maximum zoom level (opcional)*: El rango de nivel de zoom predeterminado está configurado de 0 a 14. Opcionalmente puede especificar los niveles de zoom para la capa si la imagen ráster solo contiene datos en ciertos niveles de zoom. Note que UNBL soporta un nivel de zoom máximo de 14.
 
 	![Configuración de capa con el proveedor Google earth engine y el ID de imagen pegado en Asset Path](images/add-data-08.png)
 
-	f.	*Estilo de capa*: El estilo de capa determina cómo se muestra la leyenda del activo GEE en el mapa, y también se usa para generar el Styled Layer Description (SLD), que influye en el estilo del activo GEE en la vista del mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa (también conocidas como *clases* o *umbrales*) para coincidir con los valores en la imagen ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
+	h.	*Estilo de capa*: El estilo de capa determina cómo se muestra la leyenda del activo GEE en el mapa, y también se usa para generar el Styled Layer Description (SLD), que influye en el estilo del activo GEE en la vista del mapa. Haciendo clic en 'ADD ADDITIONAL STYLING' puede especificar cualquier número de entradas de estilo de capa (también conocidas como *clases* o *umbrales*) para coincidir con los valores en la imagen ráster. Cada entrada de estilo de capa debe definir las siguientes propiedades:
 
 	- *Valor* - el valor de píxel en los datos para el cual definir el estilo.
 
@@ -183,7 +202,7 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	- *Color* – el color de los píxeles con el valor especificado en el mapa. Puede definir un color a través del selector de color manual, o ingresando un valor RGBA o hexadecimal. Opcionalmente, puede establecer la opacidad del color en un rango de 0 a 100%, donde 0% es completamente transparente y 100% es completamente opaco.
 
-	También puede opcionalmente elegir si la etiqueta de nombre de una entrada de estilo está oculta en la leyenda de la capa en el mapa haciendo clic en el icono ![Alternar visibilidad (ojo)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} junto a la entrada de estilo. Para capas categóricas, las entradas de valor de estilo de capa deben mapear a los valores de cada categoría/clase dentro de la fuente de datos ráster. Para capas continuas, las entradas de valor de estilo de capa deben mapear al rango de valores dentro de su archivo ráster que desea renderizar en el mapa. Puede especificar cualquier punto a lo largo del rango de valores entre los valores mínimo y máximo -- se generará un degradado de colores entre cada uno de estos valores. Es importante notar que los valores de píxel mínimo y máximo, y por lo tanto el rango de valores, pueden derivarse directamente viendo la pestaña 'BANDS' en el cuadro de información 'Asset details' de su activo en GEE. El ejemplo de estilo de capa a continuación crea una paleta de colores continua para la concentración de stock de carbono.
+	También puede opcionalmente elegir si la etiqueta de nombre de una entrada de estilo está oculta en la leyenda de la capa en el mapa haciendo clic en el icono ![Alternar visibilidad (ojo)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} junto a la entrada de estilo. Para capas categóricas, las entradas de valor de estilo de capa deben mapear a los valores de cada categoría/clase dentro de la fuente de datos ráster. Para capas continuas, las entradas de valor de estilo de capa deben mapear al rango de valores dentro de su archivo ráster que desea renderizar en el mapa. Puede especificar cualquier punto a lo largo del rango de valores entre los valores mínimo y máximo -- se generará un degradado de colores entre cada uno de estos valores. Es importante notar que los valores de píxel mínimo y máximo, y por lo tanto el rango de valores, pueden derivarse directamente viendo la pestaña 'BANDS' en el cuadro de información 'Asset details' de su activo en GEE. Si estableció una *Banda* (paso d), use los valores de esa banda. El ejemplo de estilo de capa a continuación crea una paleta de colores continua para la concentración de stock de carbono.
 
 	![Pestaña BANDS de los detalles del activo en Google Earth Engine con los valores Min y Max resaltados](images/add-data-09.png)
 
@@ -193,7 +212,7 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	![Entradas de estilo de capa categóricas que asignan colores a nueve clases de cobertura del suelo](images/add-data-11.png)
 
-	g.	*Styled Layer Description (SLD)*: Haga clic en el botón 'GENERATE GEE SLD' para generar automáticamente un SLD para configurar el estilo de su activo GEE en UNBL, basado en los parámetros que estableció para el *Layer styling* en el paso f. Mientras que el estilo de capa determina el estilo de la leyenda de la capa, el SLD determinará el estilo de color de los píxeles reales en sus datos. Basándose en los ejemplos proporcionados en el paso f, la configuración SLD para un esquema de color continuo para la concentración de stock de carbono se vería así:
+	i.	*Styled Layer Description (SLD)*: Haga clic en el botón 'GENERATE GEE SLD' para generar automáticamente un SLD para configurar el estilo de su activo GEE en UNBL, basado en los parámetros que estableció para el *Layer styling* en el paso h. Mientras que el estilo de capa determina el estilo de la leyenda de la capa, el SLD determinará el estilo de color de los píxeles reales en sus datos. Basándose en los ejemplos proporcionados en el paso h, la configuración SLD para un esquema de color continuo para la concentración de stock de carbono se vería así:
 
 	```
 
@@ -230,7 +249,7 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 
 	```
 
-	Donde cada color ColorMapEntry y cantidad de píxel asociada coincide exactamente con una fila de entrada de estilo de capa del paso f.
+	Donde cada color ColorMapEntry y cantidad de píxel asociada coincide exactamente con una fila de entrada de estilo de capa del paso h.
 
 	![Entradas de estilo de capa con el botón GENERATE GEE SLD y el código SLD generado debajo](images/add-data-12.png)
 

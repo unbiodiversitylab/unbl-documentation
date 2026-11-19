@@ -1,5 +1,5 @@
 ---
-source_rev: 23d17b970bfb181c7d29ae84bebaf0e69a7a14b6
+source_rev: 2cae3f6a4836250e9c07d2fc3041ce758f6ed511
 translation_status: machine
 ---
 
@@ -150,7 +150,7 @@ Le UNBL prend en charge la configuration de couches d'images raster dans votre e
 
 ## Comment configurer des couches raster en utilisant Google Earth Engine (GEE) ?
 
-Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL depuis votre propre compte ou un compte public, vous pouvez le faire en configurant une ressource raster à bande unique GEE. Actuellement, nous ne prenons pas en charge la configuration de rasters multi-bandes ou de données vectorielles depuis GEE. Pour configurer des ressources raster à bande unique GEE :
+Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL depuis votre propre compte ou un compte public, vous pouvez le faire en configurant une ressource raster GEE. Il peut s'agir d'une image unique ou d'une collection d'images (comme une série temporelle satellitaire) filtrée sur une plage de dates. Actuellement, nous ne prenons pas en charge la configuration de données vectorielles depuis GEE. Pour configurer une ressource raster GEE :
 
 1. Si vous configurez une ressource depuis votre projet Cloud personnel, assurez-vous que la case « Tout le monde peut lire » est cochée pour cette ressource.
 
@@ -166,17 +166,36 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	b.	*Fournisseur de la couche* : Sélectionnez « Google Earth Engine ».
 
-	c.	*Chemin de la ressource* : Copiez et collez l'ID d'image de votre ressource GEE. N'importe quel ID d'image peut être configuré sur le UNBL, à condition qu'il s'agisse d'une image raster à bande unique. Il peut s'agir d'un ID d'image de votre projet Cloud GEE personnel, ou de tout autre projet Cloud GEE partagé ou jeu de données GEE disponible publiquement, comme celui du catalogue public [awesome-gee-community-catalog](https://gee-community-catalog.org/), qui donne accès à plus de 4 000 ressources GEE publiques.
+	c.	*Chemin de la ressource* : Copiez et collez l'ID de votre ressource GEE. Il s'agit d'un ID d'image, ou d'un ID de collection d'images si vous définissez un filtre de dates (étape f). Il peut s'agir d'un ID de votre projet Cloud GEE personnel, ou de tout autre projet Cloud GEE partagé ou jeu de données GEE disponible publiquement, comme celui du catalogue public [awesome-gee-community-catalog](https://gee-community-catalog.org/), qui donne accès à plus de 4 000 ressources GEE publiques.
 
 	![Fenêtre Asset details de Google Earth Engine avec l'identifiant Image ID mis en évidence](images/add-data-07.png)
 
-	d.	*Type de données* : Spécifiez si l'image raster contient des données « catégorielles » ou « continues ». Les données catégorielles représentent des classes ou catégories discrètes où chaque valeur de pixel représente un type ou une classe distincte. Les jeux de données continus représentent des données où les valeurs peuvent se situer n'importe où dans une plage de valeurs spécifiée.
+	d.	*Bande (optionnel)* : Si la ressource comporte plusieurs bandes, saisissez le nom de la bande à afficher, par exemple `NDVI`. Les noms des bandes figurent dans l'onglet « BANDES » de la boîte d'information « Asset details » de votre ressource sur GEE. La carte, le style de la couche et les valeurs de pixels que voient les utilisateurs lorsqu'ils cliquent sur la carte utilisent tous cette bande. Pour une ressource à bande unique, laissez ce champ vide.
 
-	e.	*Niveau de zoom Minimum/Maximum (optionnel)* : La plage de niveau de zoom par défaut est définie de 0 à 14. Vous pouvez optionnellement spécifier les niveaux de zoom pour la couche si l'image raster ne contient des données qu'à certains niveaux de zoom. Notez qu'UNBL prend en charge un niveau de zoom maximum de 14.
+	!!! note
+		Une ressource multibande sans *Bande* ne s'affiche pas, sauf si vous rédigez vous-même un SLD qui sélectionne une bande (étape i).
+
+	e.	*Type de données* : Spécifiez si l'image raster contient des données « catégorielles » ou « continues ». Les données catégorielles représentent des classes ou catégories discrètes où chaque valeur de pixel représente un type ou une classe distincte. Les jeux de données continus représentent des données où les valeurs peuvent se situer n'importe où dans une plage de valeurs spécifiée.
+
+	f.	*Filtre de dates (optionnel)* : Pour afficher une collection d'images, saisissez une *Date de début*, une *Date de fin*, ou les deux. UNBL utilise les images de la collection prises entre les deux dates, ces deux jours compris (les dates sont en UTC), et les combine en une seule image. Avec seulement une *Date de début*, il utilise toutes les images à partir de ce jour ; avec seulement une *Date de fin*, toutes les images jusqu'à ce jour inclus. Lorsque vous définissez une date, le *Chemin de la ressource* doit être un ID de collection d'images. Une fois une date définie, choisissez comment les images sont combinées dans *Composition* :
+
+	- *Mosaïque (la plus récente au-dessus)* – là où les images se chevauchent, la plus récente est affichée. C'est l'option par défaut.
+
+	- *Médiane*, *Moyenne*, *Minimum* ou *Maximum* – chaque pixel affiche la médiane, la moyenne, la valeur la plus basse ou la plus haute de ce pixel dans l'ensemble des images. Pour l'imagerie satellitaire, *Médiane* donne généralement une image plus nette, car elle réduit l'effet des nuages et des lacunes des images individuelles.
+
+	Laissez les deux dates vides pour afficher une image unique.
+
+	!!! tip
+		Pour permettre aux utilisateurs de comparer des années, créez une couche par année, chacune avec la même collection d'images et un filtre de dates différent. Combinez-les ensuite dans une couche groupée avec un sélecteur de couches (voir [« Comment créer des couches groupées ? »](#comment-creer-des-couches-groupees)).
+
+	!!! note
+		Une longue plage de dates sur une grande collection (par exemple, une année d'images Sentinel-2) peut ralentir le chargement de la couche la première fois que chaque zone de la carte est affichée. Si la couche ne s'affiche pas, vérifiez que le *Chemin de la ressource* est une collection d'images, que la collection contient des images entre vos dates et que la *Bande* y existe.
+
+	g.	*Niveau de zoom Minimum/Maximum (optionnel)* : La plage de niveau de zoom par défaut est définie de 0 à 14. Vous pouvez optionnellement spécifier les niveaux de zoom pour la couche si l'image raster ne contient des données qu'à certains niveaux de zoom. Notez qu'UNBL prend en charge un niveau de zoom maximum de 14.
 
 	![Configuration de la couche avec le fournisseur Google earth engine et l'identifiant collé dans Chemin de la ressource](images/add-data-08.png)
 
-	f.	*Style de la couche* : Le style de couche détermine comment la légende de la ressource GEE est affichée sur la carte, et il sert également à générer la description de couche stylisée (SLD), qui influe sur le style de la ressource GEE dans la vue cartographique. En cliquant sur « AJOUTER UN STYLE », vous pouvez spécifier n'importe quel nombre d'entrées de style de couche (également appelées *classes* ou *seuils*) pour correspondre aux valeurs de l'image raster. Chaque entrée de style de couche doit définir les propriétés suivantes :
+	h.	*Style de la couche* : Le style de couche détermine comment la légende de la ressource GEE est affichée sur la carte, et il sert également à générer la description de couche stylisée (SLD), qui influe sur le style de la ressource GEE dans la vue cartographique. En cliquant sur « AJOUTER UN STYLE », vous pouvez spécifier n'importe quel nombre d'entrées de style de couche (également appelées *classes* ou *seuils*) pour correspondre aux valeurs de l'image raster. Chaque entrée de style de couche doit définir les propriétés suivantes :
 
 	- *Valeur* - la valeur de pixel dans les données pour laquelle définir le style.
 
@@ -184,7 +203,7 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	- *Couleur* – la couleur des pixels avec la valeur spécifiée sur la carte. Vous pouvez définir une couleur via le sélecteur de couleur manuel, ou en entrant une valeur RGBA ou hexadécimale. Optionnellement, vous pouvez définir l'opacité de la couleur dans une plage de 0 à 100%, où 0% est entièrement transparent et 100% est entièrement opaque.
 
-	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré. Il est important de noter que les valeurs de pixels minimale et maximale, et donc la plage de valeurs, peuvent être dérivées directement en visualisant l'onglet « BANDES » dans la boîte d'information « Asset details » de votre ressource sur GEE. L'exemple de style de couche ci-dessous crée une palette de couleurs continue pour la concentration de stock de carbone.
+	Vous pouvez également choisir optionnellement si l'étiquette de nom d'une entrée de style est masquée dans la légende de la couche sur la carte en cliquant sur l'icône ![Afficher/masquer (œil)](images/icons/hide.png){style="display: inline; height: 2em; width: 2em;"} à côté de l'entrée de style. Pour les couches catégorielles, les entrées de valeur de style de couche doivent correspondre aux valeurs de chaque catégorie/classe dans la source de données raster. Pour les couches continues, les entrées de valeur de style de couche doivent correspondre à la plage de valeurs dans votre fichier raster que vous souhaitez rendre sur la carte. Vous pouvez spécifier n'importe quels points le long de la plage de valeurs entre les valeurs minimale et maximale -- un dégradé de couleurs entre chacune de ces valeurs sera généré. Il est important de noter que les valeurs de pixels minimale et maximale, et donc la plage de valeurs, peuvent être dérivées directement en visualisant l'onglet « BANDES » dans la boîte d'information « Asset details » de votre ressource sur GEE. Si vous avez indiqué une *Bande* (étape d), utilisez les valeurs de cette bande. L'exemple de style de couche ci-dessous crée une palette de couleurs continue pour la concentration de stock de carbone.
 
 	![Onglet BANDES des détails de la ressource Google Earth Engine avec les valeurs Min et Max mises en évidence](images/add-data-09.png)
 
@@ -194,7 +213,7 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	![Entrées de style de couche catégorielles associant des couleurs à neuf classes d'occupation du sol](images/add-data-11.png)
 
-	g.	*Description de couche stylisée (SLD)* : Cliquez sur le bouton « GENERER GEE SLD » pour générer automatiquement un SLD pour configurer le style de votre ressource GEE sur le UNBL, basé sur les paramètres que vous avez définis pour le *Style de la couche* à l'étape f. Alors que le style de couche détermine le style de la légende de la couche, le SLD déterminera le style de couleur des pixels réels dans vos données. Basé sur les exemples fournis à l'étape f, la configuration SLD pour un schéma de couleurs continu pour la concentration de stock de carbone ressemblerait à ceci :
+	i.	*Description de couche stylisée (SLD)* : Cliquez sur le bouton « GENERER GEE SLD » pour générer automatiquement un SLD pour configurer le style de votre ressource GEE sur le UNBL, basé sur les paramètres que vous avez définis pour le *Style de la couche* à l'étape h. Alors que le style de couche détermine le style de la légende de la couche, le SLD déterminera le style de couleur des pixels réels dans vos données. Basé sur les exemples fournis à l'étape h, la configuration SLD pour un schéma de couleurs continu pour la concentration de stock de carbone ressemblerait à ceci :
 
 	```
 
@@ -231,7 +250,7 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 
 	```
 
-	Où chaque couleur ColorMapEntry et quantité de pixel associée correspond exactement à une ligne d'entrée de style de couche de l'étape f.
+	Où chaque couleur ColorMapEntry et quantité de pixel associée correspond exactement à une ligne d'entrée de style de couche de l'étape h.
 
 	![Entrées de style de couche avec le bouton GENERER GEE SLD et le code SLD généré en dessous](images/add-data-12.png)
 
