@@ -4,6 +4,7 @@ Recent changes to this user guide. For questions, contact <support@unbiodiversit
 
 ## November 2026
 
+- **ArcGIS Pro access** (workspaces): workspace members can now connect ArcGIS Pro to the UNBL STAC catalogue and add UNBL rasters to their maps. See [Accessing UNBL Data in ArcGIS Pro (STAC)](unbl-workspaces/10_stac_arcgis_pro.md).
 - **ELSA data layer change log**: the new [Annex 3](elsa/14_annex3.md) records changes to ELSA's global default data layers, so that results produced at different times can be compared and cited correctly.
 - **ELSA log**: you can now download the log of an analysis run (messages from the ELSA tool and the Gurobi solver) to help with troubleshooting. See [Viewing and downloading ELSA Action maps](elsa/08_downloading_results.md).
 - **Group layers** (workspaces): the 'Primary' setting is now automatic, and layers inside a group now show their group's description and inherit its sources, citation and other details. See [How do I create group layers?](unbl-workspaces/6_add_data.md#how-do-i-create-group-layers)

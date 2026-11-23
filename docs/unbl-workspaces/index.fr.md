@@ -1,5 +1,5 @@
 ---
-source_rev: 32703d85315c4077915c939567d70b846cce3b64
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
 translation_status: machine
 ---
 
@@ -43,6 +43,7 @@ Ce guide explique comment profiter de toutes les fonctionnalités disponibles da
 	- **[Comment publier ma couche et la partager avec des utilisateurs externes ?](6_add_data.fr.md#comment-publier-ma-couche-et-la-partager-avec-des-utilisateurs-externes)**
 	- **[Comment modifier mes couches ajoutées ?](6_add_data.fr.md#comment-modifier-mes-couches-ajoutees)**
 	- **[Comment créer des couches groupées ?](6_add_data.fr.md#comment-creer-des-couches-groupees)**
+- **[Accéder aux données UNBL dans ArcGIS Pro (STAC)](10_stac_arcgis_pro.fr.md)**
 - **[Ajouter vos propres métriques personnalisées à votre espace de travail](7_custom_metrics.fr.md)**
 - **[Accéder à l'outil de planification spatiale intégrée ELSA dans votre espace de travail](8_elsa_tool.fr.md)**
 - **[Et si ma question n'a pas reçu de réponse ?](9_support.fr.md)**

@@ -1,5 +1,5 @@
 ---
-source_rev: 23d17b970bfb181c7d29ae84bebaf0e69a7a14b6
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
 translation_status: machine
 ---
 
@@ -240,6 +240,8 @@ Si vous souhaitez afficher des ressources GEE dans votre espace de travail UNBL 
 ## Comment configurer des couches raster en utilisant Spatiotemporal Asset Catalog (STAC) ?
 
 La fonctionnalité de configuration STAC est actuellement en test et est sujette à des mises à jour futures. Si vous souhaitez configurer une nouvelle couche provenant d'un catalogue STAC externe dans votre espace de travail UNBL, veuillez nous contacter à <support@unbiodiversitylab.org> afin que nous puissions comprendre le cas d'utilisation de cette fonctionnalité.
+
+Pour ouvrir le catalogue STAC d'UN Biodiversity Lab dans ArcGIS Pro, consultez [Accéder aux données UNBL dans ArcGIS Pro (STAC)](10_stac_arcgis_pro.fr.md).
 
 ## Comment configurer des couches vectorielles en utilisant des services de tuiles externes ?
 

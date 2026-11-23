@@ -1,5 +1,5 @@
 ---
-source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
 translation_status: machine
 ---
 # Добавление собственных геопространственных данных в ваше рабочее пространство
@@ -239,6 +239,8 @@ UNBL поддерживает настройку слоёв растровых �
 ## Как настроить растровые слои с использованием Spatiotemporal Asset Catalog (STAC)? {#kak-nastroit-stac}
 
 Функция настройки STAC в настоящее время находится в тестировании и подлежит будущим обновлениям. Если вы хотите настроить новый слой из внешнего каталога STAC в вашем рабочем пространстве UNBL, пожалуйста, свяжитесь с нами по адресу <support@unbiodiversitylab.org>, чтобы мы могли понять вариант использования этой функции.
+
+Чтобы открыть собственный каталог STAC платформы UN Biodiversity Lab в ArcGIS Pro, см. раздел [Доступ к данным UNBL в ArcGIS Pro (STAC)](10_stac_arcgis_pro.ru.md).
 
 ## Как настроить векторные слои с использованием внешних тайловых сервисов? {#kak-nastroit-vektornye-sloi-s-ispolzovaniem-vneshnix-tajlovyx-servisov}
 

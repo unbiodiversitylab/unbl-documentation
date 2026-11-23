@@ -1,3 +1,6 @@
+---
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
+---
 # Guía del usuario de espacios de trabajo seguros del UN Biodiversity Lab (UNBL)
 
 ![Página de inicio del UN Biodiversity Lab con el globo terráqueo y el botón Launch map](images/index-01.png)
@@ -36,6 +39,7 @@ Esta guía explica cómo aprovechar todas las funcionalidades disponibles en su 
 	- **[¿Cómo publico mi capa y la comparto con usuarios externos?](6_add_data.es.md#como-publico-mi-capa-y-la-comparto-con-usuarios-externos)**
 	- **[¿Cómo edito mis capas agregadas?](6_add_data.es.md#como-edito-mis-capas-agregadas)**
 	- **[¿Cómo creo capas agrupadas?](6_add_data.es.md#como-creo-capas-agrupadas)**
+- **[Acceder a los datos de UNBL en ArcGIS Pro (STAC)](10_stac_arcgis_pro.es.md)**
 - **[Añadir tus propias métricas personalizadas a tu espacio de trabajo](7_custom_metrics.es.md)**
 - **[Acceder a la herramienta de planificación espacial integrada ELSA en su espacio de trabajo](8_elsa_tool.es.md)**
 - **[¿Y si mi pregunta no fue respondida?](9_support.es.md)**

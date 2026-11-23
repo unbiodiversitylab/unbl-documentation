@@ -1,5 +1,5 @@
 ---
-source_rev: 84de361b4bb37116d7f5388c69d43eb4d5bb4e9d
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
 translation_status: machine
 ---
 
@@ -43,6 +43,7 @@ Este guia explica como tirar proveito de todas as funcionalidades disponíveis n
 	- **[Como publico a minha camada e partilho-a com utilizadores externos?](6_add_data.pt.md#como-publico-a-minha-camada-e-partilho-a-com-utilizadores-externos)**
 	- **[Como edito as minhas camadas adicionadas?](6_add_data.pt.md#como-edito-as-minhas-camadas-adicionadas)**
 	- **[Como crio camadas agrupadas?](6_add_data.pt.md#como-crio-camadas-agrupadas)**
+- **[Aceder aos dados do UNBL no ArcGIS Pro (STAC)](10_stac_arcgis_pro.pt.md)**
 - **[Adicionar as Suas Próprias Métricas Personalizadas ao Seu Espaço de Trabalho](7_custom_metrics.pt.md)**
 - **[Aceder à ferramenta de planeamento espacial integrado ELSA no seu espaço de trabalho](8_elsa_tool.pt.md)**
 - **[E se a minha pergunta não foi respondida?](9_support.pt.md)**
