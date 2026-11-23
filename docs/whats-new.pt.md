@@ -1,5 +1,5 @@
 ---
-source_rev: 6dd6a238cfb7fb6644015819c60137efc5c95969
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
 translation_status: machine
 ---
 
@@ -10,6 +10,7 @@ Alterações recentes neste guia do utilizador. Em caso de dúvidas, escreva par
 
 ## Novembro de 2026
 
+- **Acesso a partir do ArcGIS Pro** (espaços de trabalho): os membros de um espaço de trabalho podem agora ligar o ArcGIS Pro ao catálogo STAC do UNBL e adicionar rasters do UNBL aos seus mapas. Consulte [Aceder aos dados do UNBL no ArcGIS Pro (STAC)](unbl-workspaces/10_stac_arcgis_pro.md).
 - **Registo de alterações das camadas de dados do ELSA**: o novo [Anexo 3](elsa/14_annex3.md) regista as alterações às camadas de dados globais predefinidas do ELSA, para que os resultados produzidos em momentos diferentes possam ser comparados e citados corretamente.
 - **Registo do ELSA**: pode agora descarregar o registo de uma execução de análise (mensagens da ferramenta ELSA e do solucionador Gurobi) para ajudar a resolver problemas. Consulte [Visualizar e descarregar mapas de ação ELSA](elsa/08_downloading_results.md).
 - **Camadas de grupo** (espaços de trabalho): a opção 'Primary' passa a ser automática, e as camadas de um grupo mostram a descrição do grupo e herdam as respetivas fontes, citação e outros dados. Consulte [Adicionar os seus próprios dados geoespaciais](unbl-workspaces/6_add_data.md).

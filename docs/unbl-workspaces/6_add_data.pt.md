@@ -1,5 +1,5 @@
 ---
-source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
 translation_status: machine
 ---
 
@@ -240,6 +240,8 @@ Se quiser exibir recursos GEE no seu espaço de trabalho UNBL da sua própria co
 ## Como configuro camadas raster usando Spatiotemporal Asset Catalog (STAC)?
 
 A funcionalidade de configuração STAC está atualmente em teste e está sujeita a atualizações futuras. Se quiser configurar uma nova camada vinda de um Catálogo STAC externo no seu espaço de trabalho UNBL, por favor contacte-nos em <support@unbiodiversitylab.org> para que possamos compreender o caso de uso para esta funcionalidade.
+
+Para abrir o catálogo STAC do próprio UN Biodiversity Lab no ArcGIS Pro, consulte [Aceder aos dados do UNBL no ArcGIS Pro (STAC)](10_stac_arcgis_pro.pt.md).
 
 ## Como configuro camadas vetoriais usando serviços de tiles externos?
 

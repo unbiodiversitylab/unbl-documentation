@@ -1,5 +1,5 @@
 ---
-source_rev: 7d0c639514079856284ffd6d269b0caf62a4ac8f
+source_rev: ed698626e6c3baa74e0167dfed5d365888a71277
 translation_status: machine
 ---
 # Agregar sus propios datos geoespaciales a su espacio de trabajo
@@ -239,6 +239,8 @@ Si desea mostrar activos GEE en su espacio de trabajo UNBL desde su propia cuent
 ## ¿Cómo configuro capas ráster usando Spatiotemporal Asset Catalog (STAC)?
 
 La función de configuración STAC está actualmente en pruebas y está sujeta a futuras actualizaciones. Si desea configurar una nueva capa proveniente de un Catálogo STAC externo en su espacio de trabajo UNBL, por favor contáctenos en <support@unbiodiversitylab.org> para que podamos entender el caso de uso de esta función.
+
+Para abrir el catálogo STAC propio de UN Biodiversity Lab en ArcGIS Pro, consulte [Acceder a los datos de UNBL en ArcGIS Pro (STAC)](10_stac_arcgis_pro.es.md).
 
 ## ¿Cómo configuro capas vectoriales usando servicios de teselas externos?
 
