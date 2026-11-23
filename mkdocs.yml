@@ -138,6 +138,7 @@ plugins:
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Agregar Lugares a su Espacio de Trabajo y Ver Métricas Dinámicas para Ellos
             Adding Your Own Geospatial Data to Your Workspace: Agregar sus Propios Datos Geoespaciales a su Espacio de Trabajo
             "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Hoja informativa: Almacenamiento de datos nacionales añadidos a espacios de trabajo en UN Biodiversity Lab"
+            Accessing UNBL Data in ArcGIS Pro (STAC): Acceder a los datos de UNBL en ArcGIS Pro (STAC)
             Adding Your Own Custom Metrics to Your Workspace: Añadir tus propias métricas personalizadas a tu espacio de trabajo
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Acceso a la Herramienta de Planificación Espacial Integrada ELSA en su Espacio de Trabajo
             What if my Question was not Answered?: ¿Qué pasa si mi Pregunta no fue Respondida?
@@ -209,6 +210,7 @@ plugins:
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Ajout de Lieux à votre Espace de Travail et Visualisation des Métriques Dynamiques pour Eux
             Adding Your Own Geospatial Data to Your Workspace: Ajout de vos Propres Données Géospatiales à votre Espace de Travail
             "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Fiche d'information : Stockage des données nationales ajoutées aux espaces de travail sur UN Biodiversity Lab"
+            Accessing UNBL Data in ArcGIS Pro (STAC): Accéder aux données UNBL dans ArcGIS Pro (STAC)
             Adding Your Own Custom Metrics to Your Workspace: Ajouter vos propres métriques personnalisées à votre espace de travail
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Accès à l'Outil de Planification Spatiale Intégrée ELSA dans votre Espace de Travail
             What if my Question was not Answered?: Que faire si ma Question n'a pas eu de Réponse ?
@@ -280,6 +282,7 @@ plugins:
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Adicionar lugares ao seu espaço de trabalho e visualizar métricas dinâmicas
             Adding Your Own Geospatial Data to Your Workspace: Adicionar os seus próprios dados geoespaciais ao seu espaço de trabalho
             "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Folha informativa: Armazenamento de dados nacionais adicionados a espaços de trabalho no UN Biodiversity Lab"
+            Accessing UNBL Data in ArcGIS Pro (STAC): Aceder aos dados do UNBL no ArcGIS Pro (STAC)
             Adding Your Own Custom Metrics to Your Workspace: Adicionar as Suas Próprias Métricas Personalizadas ao Seu Espaço de Trabalho
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Aceder à ferramenta de planeamento espacial integrado ELSA no seu espaço de trabalho
             What if my Question was not Answered?: E se a minha pergunta não foi respondida?
@@ -351,6 +354,7 @@ plugins:
             Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: Добавление мест в ваше рабочее пространство и просмотр динамических показателей для них
             Adding Your Own Geospatial Data to Your Workspace: Добавление собственных геопространственных данных в ваше рабочее пространство
             "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": "Обзорный документ: Хранение национальных данных, добавленных в рабочие пространства UN Biodiversity Lab"
+            Accessing UNBL Data in ArcGIS Pro (STAC): Доступ к данным UNBL в ArcGIS Pro (STAC)
             Adding Your Own Custom Metrics to Your Workspace: Добавление собственных пользовательских показателей в ваше рабочее пространство 
             Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: Доступ к инструменту интегрированного пространственного планирования ELSA в вашем рабочем пространстве
             What if my Question was not Answered?: Что делать, если я не нашел ответ на свой вопрос?
@@ -489,6 +493,7 @@ nav:
       - Adding Places to Your Workspace and Viewing Dynamic Metrics for Them: unbl-workspaces/5_add_places.md
       - Adding Your Own Geospatial Data to Your Workspace: unbl-workspaces/6_add_data.md
       - "Info Sheet: Storage for National Data Added to Workspaces on UN Biodiversity Lab": unbl-workspaces/data_security.md
+      - Accessing UNBL Data in ArcGIS Pro (STAC): unbl-workspaces/10_stac_arcgis_pro.md
       - Adding Your Own Custom Metrics to Your Workspace: unbl-workspaces/7_custom_metrics.md 
       - Accessing the ELSA Integrated Spatial Planning Tool in Your Workspace: unbl-workspaces/8_elsa_tool.md
       - What if my Question was not Answered?: unbl-workspaces/9_support.md 

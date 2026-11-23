@@ -247,6 +247,8 @@ If you want to display GEE assets in your UNBL workspace from your own account o
 
 The STAC configuration feature is currently in testing and is subject to future updates. If you want to configure a new layer coming from an external STAC Catalogue in your UNBL workspace, please contact us at <support@unbiodiversitylab.org> so that we can understand the use case for this feature. 
 
+To open UN Biodiversity Lab's own STAC catalogue in ArcGIS Pro, see [Accessing UNBL Data in ArcGIS Pro (STAC)](10_stac_arcgis_pro.md).
+
 ## How do I configure vector layers using external tile services?
 
 UNBL supports the configuration of vector tile layers to your workspace by linking to external tile service providers. Vector layers are discrete geometric shapes, such as points and polygons. To add geospatial data to your workspace using this method:
